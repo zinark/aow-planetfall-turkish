@@ -4,4 +4,4 @@
 
 # kurulum
 
-- Dosyalari E:\SteamLibrary\steamapps\common\Age of Wonders Planetfall\Language\EN icine kopyalanmasi ile ceviri islemi tamamlanacaktir.
+- Dosyalari `EN` klasorundaki tum dosyalarin, `E:\SteamLibrary\steamapps\common\Age of Wonders Planetfall\Language\EN` icine kopyalanmasi ile ceviri islemi tamamlanacaktir.
