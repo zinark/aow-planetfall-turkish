@@ -1,0 +1,642 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12789</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s67" ss:Parent="s62">
+      <Interior />
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+      <Column ss:Width="106.71428571428572" />
+      <Column ss:Width="102" />
+      <Column ss:StyleID="s63" ss:Width="285.85714285714289" />
+      <Column ss:Width="144.85714285714286" />
+      <Column ss:Width="165.85714285714283" />
+      <Column ss:Width="117.85714285714286" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SPECIES_SYNDICATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">NAME_SINGULAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sendika</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">NAME_PLURAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sendika</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="127.5">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT%7D[br/][br/][bulletList][bullet][sand]Starting%20Bonus:[/sand]%20Start%20with%2025[influence/]%20[hyperlink,000003AC0000001B]Influence[/hyperlink][/bullet][bullet][sand]Long-Term%20Bonus:[/sand]%20+1%20[hyperlink,0000039F000024DA]Doctrine%20Slot[/hyperlink][/bullet][bullet][hyperlink,0000039E0000000D]Arc[/hyperlink]%20Weapons%20Groups[/bullet][bullet][hyperlink,0000039E00000011]Psi[/hyperlink]%20Weapons%20Groups[/bullet][bullet]Indentured%20slave%20units%20ignore%20morale%20penalties[/bullet][bullet]Excellent%20stealth%20capabilities%20and%20covert%20operations[/bullet][/bulletList]">
+          <Data ss:Type="String">{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] Start with 25[influence/] [hyperlink,000003AC0000001B]Influence[/hyperlink][/bullet][bullet][sand]Long-Term Bonus: [/sand] +1 [hyperlink,0000039F000024DA]Doctrine Slot[/hyperlink][/bullet][bullet][hyperlink,0000039E0000000D]Arc[/hyperlink] Weapons Groups[/bullet][bullet][hyperlink, 0000039E00000011]Psi[/hyperlink] Silah Grupları[/bullet][bullet]Kiralık köle birimleri moral cezalarını yok sayar[/bullet][bullet]Mükemmel gizlilik yetenekleri ve gizli operasyonlar[/bullet][/bulletList]</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="63">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">DESCRIPTION_SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">[hyperlink,0000039E0000001B]Syndicate[/hyperlink], İmparatorluğun sınırlarından gelen bir grup acımasız ticaret evidir. Yıldız Birliği'nin yok olmasıyla, bir fırsat evreni görüyorlar.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s65" />
+        <Cell ss:StyleID="s65" />
+        <Cell ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sendika Uzlaşması</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30.75">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bir yerleşim, yeterli nüfuza sahipseniz size katılabilecek küçük bağımsız bir kolonidir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Göç Kolonisi: Sendika</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="61.5">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu koloninin nüfusunu Syndicate'e geçirin Koloni bir Syndicate kolonisi haline gelecektir.[br/][br/][fireCol]Nüfusu geçirerek, {PopulationDeath} koloninin kolonistleri öldürülecektir. [/fireCol] [br/][br/] Şunları alırsınız:[br/][fireCol]{Reputation} İtibar[br/]{RaceRelation} {STR_raceName}[/fireCol] ile Irk İlişkisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">IN_PROGRESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Koloni şu anda bir Sendika nüfusuna taşınıyor. İşlem [INT_duration]'de tamamlanacaktır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="31.5">
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">CONFIRMATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu koloniyi bir Sendika kolonisine taşımak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RUNNER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Koşucu</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RUNNER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Yerçekimi önleyici botlarla benim gibi bir izci, ailesinin hizmetinde iyi bir ücret kazanabilir. Çatışmalardan uzak durmaya çalışıyorum. Psi-tech için yeteneğim yok. Ağır savaşlar için gerekli teknolojiye sahip değilim ama hem su hem de kara üzerinde hız yapmanın heyecanı için biraz bilgi paylaşmanın ne zararı olabilir ki? Kölelik. Yolsuzluk. Kaçakçılık. Elbette, Sendika'nın şüpheli yanları var, ama bugünlerde neyin şüpheli yanları yok ki?  Hayatta kalmak için elimizden geleni yapıyoruz. Açlıktan ölmekten iyidir. Bu bir yaşam."-Manti Yed, "RV-00098A: Come Fly with the Runners"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">INDENTURED</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sözleşmeli</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">INDENTURED</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Narkuu Ailesi ailemin borcunu satın aldı. Büyük büyükbabamdan kaynaklanıyordu. Girişimden kâr elde edemeyince, borçlar beş nesle kadar tahsil edildi. Şartlar böyle. Sözleşmeli kölelik yoluyla ödüyorum. Ne isterlerse yaparım. Savaş ya da öl. Sahibine aitim. Kanlı Star Birliği çöktüğünde birçok insan geçim kaynağını kaybetti. Aslında kimseyi suçlamıyorum. Ben yaşıyorum, çoğu hayatta kalamadı. İşte bu kadar. Anaparayı ödemek için ne gerekiyorsa yapacağım, hatta silah bile kullanacağım."-Xircon Marq, "RV-3499F: Bir Sözleşmelinin Anıları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENFORCER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İnfazcı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENFORCER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Protestocular aptaldı. Sendika soylu tüccarlarının hepsinin parası ve gücü var. Bir avuç bağıran insan bunu değiştirmeyecek. Kim Sendika İnfazcılarıyla dövüşürken yaralanmadan kurtulmayı bekler ki? Psi-güçlü eldivenleriyle attıkları her yumruk, öfkeli bir kalabalık tarafından dövülmeye eşdeğer bir güçtür. Psi-teknolojili silahları kalkanlar oluşturabilir ve işler kontrolden çıkarsa, en itaatsiz muhaliflere sakatlayıcı yaralar açabilir. Sendika'da uzun bir yaşam istiyorsanız, göze batmamalı, sessiz kalmalı ve itaat etmelisiniz."-Nozefur Aatu, Propagandacı, "RV-9527H: Sendika Tarihinin Gözden Geçirilmesi"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">OVERSEER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Gözetmen</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">OVERSEER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Düzen ya da kâr arasında seçim yapmak zorunda kalsaydım, kârı seçerdim. Kârlılık her şeyden önemlidir. Düzen, yeterli kârla satın aldığınız bir şeydir. Bir Gözetmen olarak, bir insanın kârlılığını ortaya çıkarabilirim. Geliştiricilere, mühendislere ve teknoloji çalışanlarına işlerini yapmaları için para ödenir, ancak en iyi işçi bile kullanılacak bir kaynaktan başka bir şey değildir. Kâr elde etmedikleri sürece hayatlarının bir önemi yoktur. Sıradan işçinin doğasında disiplinsizlik vardır. Ustalaştığım Psi-tech güçlerimle, disiplini teşvik ediyorum. Köleler benim en iyi araçlarımdır. Benim için bitkin düştüklerinde bile savaşırlar."-Valorix S'nau, "RV-9000F: Horde Management"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUILD_ASSASSIN</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Lonca Suikastçısı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUILD_ASSASSIN</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Benim becerilerim Sendika aristokrasisinin en üst kademelerinde nezaketi korumak için satın alındı. Zenginler ve güçlüler her zaman kontrolü ellerinde tutuyor gibi görünmeli ve kendi özel saygınlık kurallarına uymalıdır. Açık saldırganlık eylemlerinden nefret eder, denge ve istikrar talep ederler. Biri çok hızlı bir şekilde çok fazla güç kazanırsa, çok cömert bir hediye verirse, yanlış evi tehdit ederse ve hatta yanlış kişiyle evlenirse, ayrı ve kararlı bir suikast riskiyle karşı karşıya kalırlar. En güçlü düşmanları bile sabote etmek için ölümcül sırlar ve zayıflıklar suikastçı loncasına emanet edilir. Bilgi gerçekten güçtür."-Sir Hao Pearce, "RV-88434A, Assassin's Credo"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIRAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Mirage</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIRAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Hedefimize yaklaştıkça yol kayboluyor gibiydi. Engellerin arasından haraç isteyen haydutlar çıktı. Kervan muhafızlarının kafasını karıştırmak ve yönlerini şaşırtmak için zihinsel görüntüler yansıtabilen garip bir uçak kullanarak hilelerini gerçekleştirdiler. O anda anlamamıştım ama haydut ajanlar bir Syndicate Mirage uçağına el koymuş ve onu bizi psiyonik enerjiyle patlatmak için kullanmışlardı. Aklımı başımdan alan bir enerji dalgası beni dev bir çörek tarafından saldırıya uğradığıma ikna edince kafilenin izini kaybettim. Şimdi anlıyorum ki halüsinasyon görüyormuşum."-Mah Reg'Nib, "RV-8576X: Syndication Vindication"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WRAITH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Wraith</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WRAITH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Öfkeli kalabalık saray kapılarına hücum ederken, ortalarında bir Sendika Wraith tankı belirdi.  Etrafındaki öfkeli insanlar kafataslarını tırmalayarak yere düştüler. Tankın silahı, zihin değiştiren yıkıcı bir enerji konisiyle dalgalandı.  Yüzlerce sivil yere yığıldı. Tankın yerçekimi motorları altında kalan her engeli ezdi. Aklı olanlar canlarını kurtarmak için kaçtı. Bu kadar çok sivil kayıp vermek zalimce görünüyor. Hayatta kalsalar bile beyinlerinde hasar olurdu. Bunu bir özellik olarak kabul etmeliyiz. Beyin hasarı muhalif sivilleri pasifize eder."-Su Mon Li, Syndicate Subjugator, "RV-5699M: Maksimum Etkililik ve Düzen"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SENTINEL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sentinel</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SENTINEL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Bir Sendika Kasasına öylece girip en değerli hazinelerinden kendinize yardım edemezsiniz. Burası pazar yeri değil. Bilinen evrendeki en karmaşık güvenlik sistemine sızmakla görevlendirildik. Yakın kuantum faz kilitleri, psi-teknolojili zihin karıştırıcılar ve holografik portallar standarttır, ama en korkunç olanı Sendika Sentineli'dir. Tam 360 derece savunma gözetimi ile yüksekte süzülür. Konumlara kolaylıkla girip çıkabilir. Ağır bir darbe topu ve darbe mızrağıyla donanmış olan Sendika, adaleti cezasız bir şekilde yerine getirir."-Chemish Abbadon, "RV-6554F: Gizlice Kaçışlar"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SUBJUGATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Subjugator</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SUBJUGATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Subjugator Toh-Toh'un hover sandalyesini o bir şeyler atıştırırken temizlemem gerekiyordu. Belki benim şanssızlığımdır ama sandalye havalandı ve Psionik kontrol küreleri aktif hale geldi. Zavallı Toh-Toh, Psi-tech tekrarlayıcıları aniden ateş etmeye başladığında koşarak geldi. Her yere köfte ve marinara sosundan daha fazlası sıçradı. Reanimasyon Tasmalarının düşmüş bir Tutsağı tamamen canlandırdığını görmüştüm, bu yüzden Toh-Toh'un kalıntıları üzerinde kullanmaya çalıştım ama yanlışlıkla Acı Alanı projektörüne bastım. Sandalyenin etrafındaki hangar muhafızları çığlık attı, gözlerinden kan fışkırdı. Bundan sonrası daha da kötüleşti. "[br/]-Mah Reg'Nib, "RV-8577X: Syndication Vindication[br/]</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ZENITH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Zenith</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ZENITH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Geniş görünmesine rağmen, Zenith'in ambar alanının büyük bir kısmı Darbe Taretlerini şarj etmek için Psi-tech güç paketleriyle dolu. Bu yüzen savaş gemisinin tüm pruvası devasa Cataclysm Topunu gizliyor.  Eğer bu gizli top size doğru ateşlenirse siper almayı unutun. Sendika birliklerinin bu devasa top yanlarından geçerken nasıl yüksek morale sahip göründükleri sık sık belgelenmiştir. Görünüşü bile derin bir güven duygusu aşılıyor."-Mah Reg'Nib, "RV-8578X: Syndication Vindication</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUILD_CRUISER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Lonca Kruvazörü</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUILD_CRUISER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Sendika sularına girmenin riskli olacağını biliyordum. Bu gözetleme ustaları bizi Lonca Kruvazörlerinin ablukasıyla durdurdular. Kaptan Televant diplomatik dokunulmazlık talep etmeye çalıştı. Nabız Tekrarlayıcılarını gemimize doğrulttular ve kendi bölgelerine girerek Lonca'ya katıldığımızı açıkladılar. Üyelik 'avantajı' için aidat ödememizi talep ettiler. Kargomuzun yarısını kaybetmenin hayatımızdan daha ucuz olduğunu anlatmaya çalıştım. Kaptan pazarlık yapmaya çalıştı... oldukça agresif bir şekilde. İşte o zaman denize 'düştü'. Sendika tarafından kaptanlığa terfi ettirildim."-Kaptan Lars Sitwell, "RV-44499D: Ticaret Rotaları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HOVERBIKE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hoverbike</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135" ss:StyleID="s63">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HOVERBIKE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Hoverbike, Çukurlu Ovalar boyunca sorunsuzca vızıldadı. Psion-pistonlar hafif aracın yolumdaki engebeleri önceden görmesini ve düzeltmesini sağlıyordu. Toh-Toh ya da gerçek aşkım günlerinin geri kalanını onun köle tasmasıyla geçirmeden önce köle açık artırmasına gitmem gerektiğini biliyordum. Kazanan teklifi vermek ve kendi köle tasmamı ona takarak Lol Inx Ahn Kah'a olan aşkımı ilan etmek için tam zamanında açık artırma bloğuna vardım. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SUPPRESSOR_TOWER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bastırıcı Kulesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SUPPRESSOR_TOWER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bastırıcı kuleler Sendika savunma kuleleridir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">PLANET_ARRIVAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOG</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Selamlar, Sendika'nın evladı. Atalarınız uzayın ilk fetihlerine öncülük etti, servet topladı ve galaksi boyunca aristokrat evler kurdu. Yıldız Birliği'ne boyun eğmek zorunda kalmanıza rağmen, zenginlik, nüfuz ve hizmetkârlardan oluşan bir kast bugüne kadar evlerinizi takip etti. Asalet yükümlülükler getirir - Birliğin çöküşünün sizi küçük bir soyguncu baronuna dönüştürmesine izin vermeyin. Bu gezegeni yeniden medeniyete kavuşturun.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Empress Carminia - Female</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>5</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,3020 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2020-02-25T10:18:42Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14265</WindowHeight>
+    <WindowWidth>28770</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <NumberFormat ss:Format="0%" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="284" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="171" />
+      <Column ss:StyleID="s62" ss:Width="114" />
+      <Column ss:StyleID="s62" ss:Width="327.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="305.25" />
+      <Column ss:StyleID="s62" ss:Width="226.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="254.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNIT_UPGRADES_CORE</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHANICAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MECHANICAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel olarak makine ve elektronikten yapılmış bir birim. Mekanik birimler Ark hasarına karşı savunmasızdır ve Psionik hasardan daha az hasar alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOLOGICAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOLOGICAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karbon bazlı bir yaşam formu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBORG_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cyborg</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CYBORG_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hem mekanik hem de biyolojik parçalardan oluşan sibernetik bir organizma. Siborglar tüm durum etkilerine karşı doğal bir {CyborgResistance} direncine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBORG_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cyborg Direnişi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINERAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mineral</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MINERAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silikon tabanlı bir yaşam formu. Mineral birimleri Biyokimyasal hasara karşı savunmasızdır ve Ark ve Termal hasardan daha az hasar alır. Tüm Zaman İçinde Hasar durum etkilerine karşı bağışıktırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji tabanlı bir yaşam formu. Ethereal birimler duvarlardan geçebilir ve Kinetik, Biyokimyasal ve Ark hasarına karşı dirençlidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işık Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük, standart bir birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Birim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HEAVY_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha ağır, daha güçlü bir birim. Ağır birimler yüksek etkili saldırılarla sendeleyemez ve kuşatıldıklarında saldırganla yüzleşmek için dönmezler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFANTRY_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Piyade</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INFANTRY_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genellikle iki ayaklı veya en azından belli belirsiz insansı şekle sahip bir birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANIMAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayvan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANIMAL_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâkim olmayan bir birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARBORIAN_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arborian</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARBORIAN_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arborian tabanlı bir yaratık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOUNTED_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Monte edilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOUNTED_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite bir hayvanın üzerine monte edilmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINDLESS_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINDLESS_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Psionik durum etkilerine ve Moral değişikliklerine karşı bağışıktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_SPECIES_HUMANS@RACE@NAME_SINGULAR}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the vanguard singular name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Humans(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VANGUARD_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Vanguard birimi.[br/]{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the short vanguard description.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Humans(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_SPECIES_ASSEMBLY@RACE@NAME_SINGULAR}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the assembly singular name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Assembly(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Assembly birimi.[br/]{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the short assembly description.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Assembly(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_SPECIES_KIRKO@RACE@NAME_SINGULAR}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the kirko singular name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Kirko(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KIRKO_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Kir'Ko birimi.[br/]{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the short kirko description.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Kirko(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_SPECIES_DVAR@RACE@NAME_SINGULAR}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the dvar singular name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Dvar(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DVAR_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A Dvar unit.[br/]{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the short dvar description.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Dvar(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_SPECIES_AMAZONS@RACE@NAME_SINGULAR}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the amazon singular name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Amazon(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMAZON_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Amazon birimi.[br/]{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the short amazon description.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Amazon(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_SPECIES_SYNDICATE@RACE@NAME_SINGULAR}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the syndicate singular name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Syndicate(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Sendika birimi.[br/]{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{text} inserts the short syndicate description.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Links to Species_Syndicate(_Split).xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCOUT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCOUT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gözcüler mobil keşif birimleridir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bitki</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLANT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik bir bitki yaşam formu. Bitkiler Termal hasara karşı savunmasız, ancak Ark hasarına karşı dirençlidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MUTANT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutant</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MUTANT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genetik olarak mutasyona uğramış bir birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIZER_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonizatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COLONIZER_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonizatör birimi boş bir sektör merkezini işgal ederse, bu birim yeni koloniler oluşturabilir. Mevcut kolonilere komşu sektörlerde koloniler oluşturulamaz.[br/]Yeni bir koloni inşa etmek Kolonizatör birimini ortadan kaldıracaktır.[br/]İnşa ettiğiniz her kolonizatör, bir öncekinden {energyCost} ve {crystalCost} daha pahalıya mal olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="51" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KINETIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinetik Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KINETIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagephysical/] Hasarından veya Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KINETIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinetik Durum Etkisi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KINETIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagephysical/] Durumundan veya Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THERMAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagethermal/] Hasarından veya Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Durum Etkisi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THERMAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagethermal/] Durumundan veya Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktik Tehlike Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Taktiksel Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Direnç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite {ThermalResistance} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagepsyche/] Hasarından veya Etkilerinden etkilenemez</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psionik Durum Etkisi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagepsyche/] Durumundan veya Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagebio/] Hasarından veya Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Durum Etkisi Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagebio/] Durumundan veya Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagewave/] Hasarından veya Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Durum Etkisi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damagewave/] Durumundan veya Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damageentropy/] Hasarından veya Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi Durum Etkisi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [damageentropy/] Durumundan veya Tehlike Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLETE_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tam Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COMPLETE_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim herhangi bir Hasar, Durum veya Tehlike Etkisinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasar Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite hasar görmemelidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durum Etkisi Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Durum Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_OVER_TIME_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durum Etkisi: Zaman İçinde Hasar Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_OVER_TIME_IMMUNITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Zaman İçinde Hasar Durum Etkilerinden etkilenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAND_MOVEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arazi Hareketi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAND_MOVEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kara altıgenleri üzerinde hareket edebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_MOVEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Hareketi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_MOVEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sadece su altıgenleri üzerinde hareket edebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Evrensel)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tüm arazi türlerinde daha fazla hareket kabiliyetine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_FLATTERRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Düz Arazi)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_FLATTERRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Yollarda, Ovalarda ve Volkanik arazide daha fazla harekete sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Orman)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin Orman arazisinde hareket kabiliyeti artmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_HILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Hill)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_HILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tepe arazisinde daha fazla hareket kabiliyetine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_MOUNTAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Dağ)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_MOUNTAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Dağ arazisinde daha fazla hareket kabiliyetine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_PLAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Bereketli Ovalar)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_PLAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin Bereketli Ovalar arazisinde hareket kabiliyeti artmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_ROCKY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Rocky)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_ROCKY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kayalık arazide daha fazla hareket kabiliyetine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_SWAMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Sulak Alanlar)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_SWAMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Sulak Arazi'de daha fazla hareket kabiliyetine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_RUINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Hareket (Harabeler)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEDITED_MOVEMENT_RUINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Harabeler arazisinde daha fazla harekete sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RIVER_CROSSING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nehir Geçişi Uzmanlığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RIVER_CROSSING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim nehirleri geçme konusunda eğitilmiştir ve bunu büyük ölçüde azaltılmış bir hareket noktası maliyetiyle yapar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RIVER_CROSSING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimleriniz [abilityblue]Nehir Geçme Uzmanlığı[/abilityblue] kazanarak nehirleri daha az hamle puanıyla geçmelerini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GARRISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Milisleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GARRISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Koloni Milisleri'nde.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="115" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLYING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FLYING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Uçar ve {flyingPenalty} çoğu silahla vurulması daha zordur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALLROUND_AWARENESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok Yönlü Farkındalık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALLROUND_AWARENESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kuşatılamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FARSIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Farsight</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FARSIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ünite {farsightVisionBonus} görüş aralığına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="122" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. {DefensiveAccuracyTarget} vurulması zorlaşır ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_EVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Kaçınma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_EVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. {DefensiveAccuracyTarget} vurulması zorlaşır ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_EVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim gelen saldırılardan kaçar ve {EvadeHitPenalty} vurulması daha zor hale gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_SHIELDS_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Kalkanlar Yukarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_SHIELDS_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. {DefensiveShields} kazanır, vurulması {DefensiveAccuracyTarget} zorlaşır ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_HYPER_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Hiper Zırh</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_HYPER_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. {DefensiveArmor} kazanır, vurulması {DefensiveAccuracyTarget} zorlaşır ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_REGENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Yenilenme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_REGENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. {DefensiveRegeneration} yenilenir, vurulması {DefensiveAccuracyTarget} zorlaşır ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_PSITEC_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: PsiTec Kalkan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_PSITEC_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. Kendisine ve komşu müttefiklerine {DefenseModePsiTecShieldDefense} verir. Ayrıca vurulması {DefensiveAccuracyTarget} daha zor hale gelir ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.[br/][br/][titleBrown]Bu, birimin sırası sona erdiğinde bir Psiyonik Takviye tetikler[/titleBrown]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_MIRAGE_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Serap Alanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_MIRAGE_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. Altındaki 1 hex yarıçapındaki tüm birimlere [abilityblue]Korunma[/abilityblue] verir. Bu birim ayrıca {DefensiveAccuracyTarget} daha zor vurulur hale gelir, [abilityBlue]Sarsılma Direnci[/abilityBlue] kazanır ve kuşatılamaz.[br/] Bu birim sarsılırsa, savunma modu iptal edilir.[br/][br/][titleBrown]Bu, birimin sırası sona erdiğinde bir Psionik Takviye tetikler[/titleBrown]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_SUBMERGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Batırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_SUBMERGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. Vurulması {SubmergeHitChance} zorlaşır, {SubmergeRegen} iyileşir ve kuşatılamaz.[br/]Bu birim sendelerse, savunma modu iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korumalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHIELDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünitede {ShieldedDefense} vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="142" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEDUSA_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Medusa</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="144" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LARGE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LARGE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin menzilli saldırılarla vurulması {largeTargetPenalty} daha kolaydır ve siperden yararlanamaz. Diğer birimler tarafından siper olarak kullanılabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMALL_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük Hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMALL_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin menzilli saldırılarla vurulması {SmallTargetAccuracy} daha zordur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="149" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIFE_DRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaşam Tahliyesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LIFE_DRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bir yakın dövüş saldırısıyla hasar verdiğinde {LifeAmount} kadar iyileşir. Sadece Biyolojik ve Cyborg birimlerinde çalışır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LIFE_DRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik veya Cyborg birimlerine saldırırken {LifeAmount} iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="154" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REINFORCEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REINFORCEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim savaşın sonunda kaybolacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="157" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAPID_EVOLUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlı Evrim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RAPID_EVOLUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim savaşta zafer kazandığında {ExpIncrease} daha fazla deneyim kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">float as in hovering above any type of terrain (ground and water)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">{levitationMovementCost}: 4 [moveWalk/]; {roadAndWaterFloatingMovementCost}: 3 [moveWalk/]; French added, other languages need update.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu karakter kendi fraksiyonunun komutanıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLOATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüzer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FLOATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin Yüzer olması, {flyingMountainMovementCost} maliyetli Dağlar hariç, her tür araziden {floatingMovementCost} hamle maliyetiyle geçmesini sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">gold medal is the highest level a unit can get in-game. Units can gain levels by fighting and for each level they gain they become stronger.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">When this unit reaches elite rank it evolves (at the end of tactical combat).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONICS_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psionik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONICS_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psionik güçleri olan bir birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">METAMORPHOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Metamorfoz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">METAMORPHOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Ana Rütbeye ulaştığında evrimleşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOAT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gemi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOAT_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deniz savaşları için standart bir gemi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMPHIBIOUS_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amfibi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMPHIBIOUS_REQUISITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kara ve su altıgenleri üzerinde hareket edebilir.[br/]Birim sudayken, suya batma kabiliyeti nedeniyle [abilityred]Yanma[/abilityred] ve [abilityred]İmmolasyon[/abilityred]'ye karşı Bağışıktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANT_ROOTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Bitki Kökleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANT_ROOTS_IMPROVED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Bitki Kökleri (Geliştirilmiş)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="79.5">
+        <Cell>
+          <Data ss:Type="String">PLANT_ROOTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sırasını bitirir ve savunma moduna geçer. Köklerini toprağa gömer, {healAmount}[hp/] iyileştirir, +{ArmorAmount}[armor/] kazanır ve bir sonraki dönüşe kadar [abilityblue]Stagger Immune[/abilityblue] ve {DefensiveAccuracyTarget} daha zor vurulur hale gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DETECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Algılama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DETECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, görüş menzili içindeki gizli birimleri görebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REGENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rejenerasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">REGENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim her Taktiksel turda {RegenAmount}[hp/] yeniler. Bu birim her Stratejik turda tüm [hp/]'sini yeniler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kan Öfkesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim öfkeyle dolar ve her Öfke yığını için tur başına {RageDamageI} Hasar verir ve {RageHP}[hp/] yeniler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="182" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAGE_INDUCER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kan Öfkesi Uyandırıcılar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RAGE_INDUCER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Biyolojik, Cyborg veya Arborian birimi savaşta öldüğünde, bu birime bir [abilityblue]Kan Hiddeti[/abilityblue] yığını verir, hasarı {RageDamage} artırır ve yığın başına {RageHP}[hp/] yeniler. {RageStacks} yığınına kadar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="185" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAVA_WALKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lav Yürüyüşü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAVA_WALKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim lav üzerinde yürüyebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_CORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çekirdek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_CORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel bir birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SKIRMISHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Skirmisher</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SKIRMISHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hücum birimi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özel birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_ELITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_ELITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit birim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="196" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FOREST_AFFINITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orman Yakınlığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FOREST_AFFINITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, Orman Hekelerinde savaşırken +{MoraleBonus}[happiness/] Moral kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="199" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_TERRITORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost Bölge</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_TERRITORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bölgedeyken birim yenilenmesi tur başına {healing} artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yedek Parça Toplama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HEALING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meclis, düşen düşmanlardan alınan parçalarla kendilerini yeniler ve her savaştan sonra {healing} karşılığında iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stratejik Yenileme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HEALING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko iyileşme konusunda doğal olarak ustadır ve Stratejik Dönüş yenilenmelerini {healing} kadar artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="206" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Edilen Arazi - Arcadian</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arkadyalı ikliminin Amazon ana gezegenine benzerliği nedeniyle, tüm Amazon birimleri Arkadyalı arazisinde savaşırken {morale} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Edilen Arazi - Arcadian</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcadian ikliminin Vanguard ana gezegenine benzerliği nedeniyle, tüm Vanguard birimleri Arcadian arazisinde savaşırken {morale} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Edilen Arazi - Kutup</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arktik ikliminin Assembly'nin ana gezegenine benzerliği nedeniyle, tüm Assembly birimleri Arktik arazide savaşırken {morale} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Edilen Arazi - Kurak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurak iklimin Dvar ana gezegenine benzerliği nedeniyle, tüm Dvar birimleri Kurak arazide savaşırken {morale} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Edilen Arazi - Kurak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurak iklimin Sendika'nın ana gezegenine benzerliği nedeniyle, tüm Sendika birimleri Kurak arazide savaşırken {morale} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Edilen Arazi - Mantar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TERRAIN_PREFERENCE_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fungal ikliminin Kir'Ko ana gezegenine benzerliği nedeniyle, tüm Kir'Ko birimleri Fungal arazisinde savaşırken {morale} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkan Bypass</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bypass {ShieldBypass}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Bypassı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ArmorBypass} ve {ShieldBypass}'yi baypas edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="223" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OFFENSIVE_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırgan Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OFFENSIVE_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ek olarak, bu mod birime tüm yeteneklerde {OffensiveModDamage} artırılmış hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALTH_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu - Hit Puanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALTH_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ek olarak, bu mod {HealthModDamage} birimini verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu - Zırh</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ek olarak, bu mod {ArmorModDamage} birimini verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu - Kalkanlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ek olarak, bu mod {ShieldModDamage} birimini verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BLANK_DEFENSE_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="233" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRASH_DOWN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Crash Down</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CRASH_DOWN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok edildiğinde, bu birim yakındaki bir altıgende yere çakılır ve o altıgendeki her şeye hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="236" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Rütbe: Kritik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi ona {CritIncrease} artırılmış kritik vuruş şansı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prime Rank: Bypass Kapağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi, menzilli silahlarla {LoSIgnore} siper ve birim engelleme cezalarını göz ardı etmesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Rütbe: Menzil</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi, menzilli silah menzilini {RangeIncrease} artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prime Rank: Geliştirilmiş Overwatch</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_OFFENSIVE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin muharebe deneyimi, gözetleme kullanırken +  {accuracyBonus}  % isabet oranı sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_DEFENSIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prime Rank: Omuz silkme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_DEFENSIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi, ona tüm Durum Etkilerine karşı {ShrugoffValue} direnci kazandırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_DEFENSIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Rütbe: Kaçamak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_DEFENSIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi onu {EvasionIncrease} vurulması daha zor hale getirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_DEFENSIVE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birinci sınıf: Firma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_DEFENSIVE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi ona bir seviye Sendeleme Direnci kazandırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="251" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_UTILITY_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prime Rank: Overwatch</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_UTILITY_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi, ona Gözetleme yetkisi verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_UTILITY_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Rütbe: Moral</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_UTILITY_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi ona {MoraleBoost} artırılmış moral verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_UTILITY_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prime Rank: Overwatch'ı Görmezden Gel</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOLD_RANK_UTILITY_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin savaş deneyimi, düşman Gözetlemesini görmezden gelmesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="258" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GLOBAL_UNIT_MOD_TEMPLATE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GLOBAL_UNIT_MOD_TEMPLATE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used to say that an ability is an inherent part of a unit (e.g. Cats are inherently furry)</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="261" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıçrayan</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:StyleID="Default" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SKITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, son dönüşü sırasında hareket ettiği her hex için {amountPercentage} daha zor vurulur hale gelir.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:StyleID="Default" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INHERENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğal</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="265" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEMPORARY_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçici Birim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEMPORARY_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim belirli bir süre sonra kaybolacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="268" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EVASIVE_MANEUVERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaçış Manevraları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EVASIVE_MANEUVERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, son dönüşü sırasında hareket ettiği her hex için {amountPercentage} daha zor vurulur hale gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="271" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUBMERGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daldırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SUBMERGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, su altına dalma kabiliyeti nedeniyle [abilityred]Yanma[/abilityred] ve [abilityred]İmmolasyon[/abilityred]'ye karşı Bağışıktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRIMAL_CONTROLLER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Primal Kontrolör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRIMAL_CONTROLLER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yaratık, onu kontrol altına almak ve savaş yeteneklerini artırmak için Amazon teknolojisiyle donatılmıştır.[br/][br/]Birim {damageBonus} hasar, {accuracyBonus} isabet ve {defenseBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESOLUTE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kararlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESOLUTE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sendelediğinde gözcülüğü kaybetmez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BATTLESUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Kıyafeti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BATTLESUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir savaş giysisi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TIRELESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yorulmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TIRELESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tetiklendikten sonra yakın muharebe gözetiminden çıkmaz, ancak yakın muharebe gözetimi aynı hedefe karşı iki kez tetiklenemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIRST_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlk Vuruş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIRST_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin yakın muharebe Overwatch'ı, birim Kuşatılmadığı sürece, onu tetikleyen hedef harekete geçmeden önce tetiklenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durum Etkisi Direnci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimin durum etkilerinden etkilenmeye karşı genel direnci, örneğin [abilityred]Yanıyor[/abilityred] veya [abilityred]Sersemlemiş[/abilityred].[br/][br/]ATüm birimler (Seviye I birimler hariç) seviyelerine bağlı olarak durum etkisi direncine sahiptir. Diğer kaynaklar arasında [abilityblue]Cyborg[/abilityblue] olmak ve belirli Modlar ve Kahraman Becerileri bulunur.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>40</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>48</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

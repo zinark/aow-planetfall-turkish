@@ -1,0 +1,758 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2019-05-08T10:10:45Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17625</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+      <NumberFormat ss:Format="@" />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="69" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="376.5" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="216" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="205.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="326.25" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="271.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="326.25" />
+      <Column ss:Index="9" ss:StyleID="s62" ss:Width="287.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MILITARYINDUSTRIALCOMPLEX_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">İhlal Koruma Protokolü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim {FortifiedArmorDuration}[turn/] karşılığında +{FortifiedArmorArmor}[armor/] kazanır ve {FortifiedArmorHeal}[hp/] karşılığında iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim +{FortArmor}[armor/]'ye sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genel Uyarı Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">{Radius} hex yarıçapındaki tüm Dvar birimleri {Turns}[Turn/] karşılığında [abilityblue]AUyarı Protokolü[/abilityblue] kazanır ve sıraları geldiğinde tüm eylem puanlarını harcasalar bile savunma moduna girmelerini sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarı Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu birim, bu turda tüm eylem puanlarını harcamış olsa bile savunma moduna girecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lokalize Deprem Jeneratörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Radius} altıgen yarıçapındaki tüm Kara birimleri {LevelsStaggerResitance} [abilityred] sendeleme direncinin [/abilityred] seviyesini {Turns} [Turn/] için kaybeder ve bir [abilityred] Büyük Darbe [/abilityred] ile sendeler.[br/]A Etki alanındaki tüm Engeller {ObstacleDamage} hasar alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dengesiz Zemin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu birim, depremden sonra zeminin dengesizleşmesi nedeniyle {LevelsStaggerResitance} seviyesinde Sendeleme Direnci kaybetmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_SAPPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sapper'ı konuşlandır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_SAPPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş sırasında hedef kareye bir Sapper çağırın. Çağırma muharebenin sonuna kadar sürer.[br/]Bu birim düşman hatlarını ve siperlerini yarmak için çeşitli seçeneklere sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="21" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tektonik Değişim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektörde bir [abilityred]Geothermal Instability[/abilityred] Hazard ve Mountains ([production/]\[energy/]) kaplaması oluşturun. Eğer o sektörde bir koloni varsa, rastgele bir koloni yapısını yok edin. Eğer o sektörde bir sömürü varsa, o sömürüyü yok edin. Ek olarak, hedef sektördeki tüm birimler tur için kalan [movewalk/] Hareket Puanlarını kaybeder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değişen tektonik plakalar hedef sektörde hasara yol açarak bu sektörde Jeotermal Kararsızlık Tehlikesi ve Dağlar yaratır. Burada herhangi bir koloni varsa, koloni yapılarından biri rastgele yok edilmiştir. Buna ek olarak, hedef sektördeki tüm birimler tur için kalan [movewalk/] Hareket Puanlarını kaybeder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektörün plakalarını değiştirirken bir şeyler ters gitti. Bunun tek sonucu, orduların {turns}[turn/] yönünde hareket etmesini engelleyen bir deprem oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman bu bölgedeki tektonik plakaları değiştirmiştir. Bu da arazinin dağlık hale gelmesine ve jeotermal bir tehlikenin ortaya çıkmasına neden oldu. Ayrıca bazı yapılarımızı tahrip etti ve yerel ordularımızın {turns}[turn/] için hareket etmesini engelledi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanın tektonik plakamızı kaydırmaya yönelik başarısız girişimi bir depreme yol açarak ordularımızın {turns}[turn/] yönünde hareket etmesini engelledi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir ordu bu tur için tüm hareket puanlarını kaybetmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECTONIC_SHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, sektördeki tüm birimler tüm [movewalk/] Hareket Puanlarını kaybeder</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="30" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTORY_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fabrika Overdrive</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTORY_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef koloninin üretim çıktısı {productionIncrease} kadar artar, ancak mutluluk geliri {happinessReduction} kadar azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTORY_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fabrikalar en yüksek üretim çıktısına ulaştı. Üretim, kolonistlerin mutluluğu pahasına artırılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTORY_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUCCESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim {happinessReduction} maliyetle {productionIncrease} kadar artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_TRENCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hendek Açıcıları Dağıtın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_TRENCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen hex'te 1 Siperci birimi ortaya çıkararak bir takviye bölmesi konuşlandırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_TRENCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hendekler başarıyla konuşlandırıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kara Torpidosu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ordusuna doğru yeraltına gömülen bir torpido fırlatın. Torpido hedefine çarptığında, hedefin maksimum [hp/] değerinin {damage}'si kadar hasar verir ve {slowturns}[turn/] karşılığında [abilityred]Yavaş Hareket[/abilityred] verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Torpido hedefine başarıyla ulaşarak hasar verdi ve düşmanı yavaşlattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Torpido hedefini buldu, ancak sadece kısmen patladı, orduya {Damage}[hp/] hasar verdi, ancak hareketlerini yavaşlatmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_SLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu {slowturns}[turn/] için [abilityred]Yavaş Hareket[/abilityred] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu, [hp/]'sinin {Damage}'si için hasar görmüştür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Dvar kara torpidosu orduyu vurdu, birimlere hasar verdi ve hareketlerini yavaşlattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Dvar kara torpidosu orduyu vurarak birimlere hasar verdi, ancak hareketleri etkilenmedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAND_TORPEDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, hedeflenen ordu sadece {Damage}[hp/] hasar alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="47" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOUNTAIN_BREAKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağ Kırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOUNTAIN_BREAKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaşanamaz Dağ sektörlerini yaşanabilir hale getirir veya yaşanabilir Dağ ([production/]\[energy/]) sektörlerini Verimli Ovalara ([supply/]\[energy/]) dönüştürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOUNTAIN_BREAKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Makinelerimiz bu sektördeki bazı dağları başarıyla yıktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="51" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerli Yerinden Edilme Yasası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birkaç talihsizin ilerleme yolumuzu tıkamasına izin veremeyiz.[br/][br/]Bağımsız orduları hareket ettirmenin maliyeti {influencecost} kadar azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="54" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVISED_SAFETY_REGULATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Revize Edilmiş Güvenlik Yönetmelikleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">REVISED_SAFETY_REGULATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Resmi çalışma yönetmeliklerinin bazılarını atlamamıza izin vererek, yapıları daha hızlı ve daha düşük maliyetle bitirebiliyoruz.[br/][br/]Yapıların inşa edilmesi {costreduction} daha az [production/]'ye mal oluyor.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:Index="57" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORTIFICATION_EFFORTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirme Çalışmaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">FORTIFICATION_EFFORTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi bir savunma oluşturmak, uğruna çalıştığınız şeyi kaybetmediğinizden emin olmak için her zaman önemlidir. Uygun koloni milislerini eğitmek için daha fazla kaynak ayırarak ve savunma yapılarında yenilikler yaparak, onları daha hızlı ve daha iyi sonuçlarla konuşlandırabiliriz.[br/][br/]Koloni Milis birimleri ek {hpincrease} ve Taretler {armorincrease}'ye sahiptir. Ayrıca, Savunma Kolonisi Yapıları ve Koloni Milis Yapılarının üretimi {costreduction}'den daha az [production/]'ye mal oluyor ve artık enerji bakım maliyeti yok.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORTIFICATION_EFFORTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloni milis biriminde {hpincrease} var.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORTIFICATION_EFFORTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TURRET_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu tarette {armorincrease} var.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COSMITE_COLLECTION_PROGRAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Toplama Programı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COSMITE_COLLECTION_PROGRAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit toplamayla ilgili bazı standart güvenlik prosedürlerini göz ardı ederek, daha kısa sürede daha fazla kaynak toplayabiliriz.[br/][br/]İmparatorluğunuzdaki her Kozmit düğümünden elde edilen gelir {cosmiteincrease} kadar artar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MILITARY_INDUSTRIAL_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri-Endüstriyel Kompleks</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MILITARY_INDUSTRIAL_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim çabalarına yardımcı olmak için mümkün olan tüm iş güçlerini ve fabrikaları harekete geçirin. [br/]  [br/] Birimleri acele ettirmek  {costreduction}  daha ucuzdur. Ayrıca, Ağır birimlerin bakımı  {upkeepreduction}  azaltılır. [br/]  [br/]  [firecol] Birim bakımı asla %50'den fazla düşürülemez. [/firecol] </Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHRYSOCRACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Krizokrasi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CHRYSOCRACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aramızdaki en zenginlerin ticareti ve iş hukukunu yönetmesini sağlayarak gezegen sömürümüzü hızlandırabiliriz. İşçiler mutlu olmayacak, ama şu kâr marjlarına bakın![br/][br/]ATüm koloniler her kolonist için +{EnergyPop}[energy/] kazanır, ancak {UnhappinessPenalty}[anger/] kaybeder.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>15</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>22</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

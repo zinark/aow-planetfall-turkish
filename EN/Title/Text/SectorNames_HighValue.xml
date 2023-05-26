@@ -1,0 +1,3161 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2019-03-08T11:10:15Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior ss:Color="#FFC000" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior ss:Color="#FFC000" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="263" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="230.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="166.5" />
+      <Column ss:StyleID="s62" ss:Width="171.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="157.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="222.75" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="159.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:Index="2">
+          <Data ss:Type="String">SECTORNAMES_HIGHVALUE</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="4" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MORNING_DEW_BIODOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sabah Çiy Biyodomları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUNSHINE_SYNTHETICS_BIODOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sunshine Synthetics Biyodomları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_NUTRIENT_BIODOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evrensel Besin Biyodomları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SYNTHETIC_PRODUCE_BIODOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentetik Üretim Biyodomları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASTY_MOLECULE_BIODOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lezzetli Molekül Biyodomları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHOTOSYNTHESIS_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Fotosentez Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLORAL_INCUBATION_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Çiçek İnkübasyon Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GRASSLAND_GREENS_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Otlak Yeşilleri Biyodomlar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FOODSTUFF_INC_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Foodstuff A.Ş. Biyodomlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Inc. is short for Incorporated</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VOLUME_VEGETATION_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Hacim Bitki Örtüsü Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRESTROOT_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Crestroot Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVERGREEN_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Evergreen Biyodomlar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY13</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLORIFEROUS_FORTUNA_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Floriferous Fortuna Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Fortuna - Goddess of Fortune</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY14</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GRAINSTACKS_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Grainstacks Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY15</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VERDANT_INCUBATION_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Verdant Kuluçka Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY16</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PICKLED_PROVISIONS_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Salamura Kumanya Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY17</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SAGE_SUPPLEMENTS_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sage Biyodomları Destekler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY18</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHAMROCK_SILOS_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Shamrock Silos Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY19</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BEANSTALK_INC_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Beanstalk A.Ş. Biyodomlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Inc. is short for Incorporated</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SMOKEY_TOFU_BIODOMES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Dumanlı Tofu Biyodomları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY21</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRYSTALLUS_SPRINGS_GREENHOUSES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Crystallus Springs Seraları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ray's Additions Below:</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY22</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREEN_NURSERIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yeşil Fidanlıklar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY23</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNICORN_NURSERIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Unicorn Fidanlıkları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY24</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLUE_PILL_BIOFARMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Blue Pill Biofarms</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY25</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RED_PILL_BIOFARMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Red Pill Biofarms</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY26</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YELLOW_PILL_BIOFARMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yellow Pill Biofarms</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY27</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CELERY_STALK_SUPPLY_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kereviz Sapı Tedarik Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY28</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HYPOCRITE_SUPPLY_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İkiyüzlü Tedarik Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY29</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEALTH_SUPPLY_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sağlık Tedarik Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSUMPTION_SUPPLY_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Assumption Tedarik Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY31</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INSECTOID_FOOD_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Böceksi Gıda Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY32</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROTEIN_SYNTHESIS_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Protein Sentez Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY33</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TURKEY_FARMS_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Türkiye Çiftlikleri Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY34</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLOSSOM_DOMES_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Blossom Domes Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY35</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLOURIST_GREENS_BIOFARMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Çiçekçi Greens Biofarms</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY36</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREEN_PILL_BIOFARMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Green Pill Biofarms</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RAINBOW_PILL_BIOFARMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Rainbow Pill Biofarms</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY38</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INDOOR_GROWTH_CHAMBERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kapalı Büyüme Odaları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY39</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IGLOO_GROWTH_CHAMBERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Igloo Büyüme Odaları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RAIMENT_GROWTH_CHAMBERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Raiment Büyüme Odaları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY41</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HERBAL_HEALTH_SUPPLEMENTS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bitkisel Sağlık Takviyeleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY42</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NABIMBO_HEALTH_SUPPLEMENTS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Nabimo Sağlık Takviyeleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY43</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUG_HEALTH_SUPPLEMENTS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Böcek Sağlığı Takviyeleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY44</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRUNCHY_BEETLE_FOODS_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Crunchy Beetle Foods Inc.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY45</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EDIBLE_MOSS_FOODS_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Edible Moss Foods Inc.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY46</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WASTE_RECYCLING_FOODS_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Atık Geri Dönüşüm Gıdaları A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY47</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ORGANIC_REPURPOSING_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Organic Repurposing Inc.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY48</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEDGEHOG_GROWTH_CHAMBERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kirpi Büyütme Odaları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY49</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HYDROPONIC_GROWTH_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hidroponik Büyüme Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_SUPPLY50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHEEP_IN_WOLF_FOODS_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Wolf Foods Inc. şirketindeki koyunlar.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s63" />
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="56" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLACK_MATTER_INSTITUTE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Madde Enstitüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHOTON_MASS_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Foton Kütle Gözlemevi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">QUANTUM_LEAP_INSTITUTE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuantum Sıçrama Enstitüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">APPLIED_ESOTHERICS_INSTITUTE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uygulamalı Ezoterik Enstitüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INVERSE_RELATIVITY_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ters Görelilik Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">QUASAR_INVESTIGATION_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Quasar Araştırma Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quasar - is an extremely luminous active galactic nucleus</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUBBLE_SPACE_TELESCOPE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kabarcık Uzay Teleskobu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COSMIC_INFLATION_INSTITUTE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kozmik Enflasyon Enstitüsü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_SHAPE_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Evrensel Şekil Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BARRED_ASYMMETRY_INSTITUTE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Çubuklu Asimetri Enstitüsü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INSTITUTE_OF_INTERDIMENSIONAL_INVESTIGATIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Boyutlar Arası Araştırmalar Enstitüsü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RAYBELT_RESEARCH_ACADEMICS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Raybelt Araştırma Akademisyenleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Raybelt - is a name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH13</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPACIAL_ENGINEERING_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Uzay Mühendisliği Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH14</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INTERPLANETARY_WAVES_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Gezegenlerarası Dalgalar Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH15</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANTIMATTER_ANALYSIS_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Antimadde Analiz İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH16</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">THEORETICAL_EVERYTHING_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Teorik Her Şey Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH17</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHYSICAL_DEFORMATION_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Fiziksel Deformasyon İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH18</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INTERCAUSAL_RELATIONS_OBSERVATORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Nedensel İlişkiler Gözlemevi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH19</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARTICLE_SCALING_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Parçacık Ölçekleme Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRACEBLOWN_TRANSMUTATION_INSTITUTE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Traceblown Transmutasyon Enstitüsü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Traceblown - Trace (circuit board) and blown (exploded) put together</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH21</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">APPLIED_QUADRATIC_INSTITUTE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Uygulamalı Kuadratik Enstitüsü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">RAY's Additions Below:</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH22</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MATHEMATIC_INSTITUTE_OF_TECHNOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Matematik Teknoloji Enstitüsü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH23</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEARCHERS_ACADEMY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Arayıcı Akademisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH24</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUPERNAL_SYMPOSIUM_LABORATORIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Supernal Sempozyum Laboratuvarları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH25</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STAR_UNION_MINDPOD_LABORATORIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yıldız Birliği Zihin-Pod Laboratuvarları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH26</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONFIDENTIAL_NATIONAL_LABORATORIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Gizli Ulusal Laboratuvarlar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH27</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EUREKA_RESEARCH_ENCLAVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Eureka! Araştırma Bölgesi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH28</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CODEWORD_INTELLIGENCE_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kod Sözcük İstihbarat Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH29</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INTELLIGENCE_RESEARCH_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İstihbarat Araştırma Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTOMATED_NATIONAL_RESEARCH_LABORATORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Otomatik Ulusal Araştırma Laboratuvarı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH31</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIBRAIN_RESEARCH_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Unibrain Araştırma A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH32</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DICATHALON_RESEARCH_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Dicathalon Araştırma A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH33</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CEREBRUM_RESEARCH_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Cerebrum Araştırma Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH34</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIONIC_CACTUS_LABORATORIES_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Psionic Cactus Laboratories Inc.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH35</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRILLIANT_MINDS_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Brilliant Minds Inc.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH36</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TURQUOISE_NEURAL_LABS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Turquoise Neural Labs</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LITERAL_METAREALITIES_ENCLAVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Literal Meta-Realities Enclave</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH38</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">METADATUM_MENTAL_LABORATORIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Metadatum Mental Laboratuvarları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH39</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RATTLESNAKE_RESEARCH_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Çıngıraklı Yılan Araştırma Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STINGER_RESEARCH_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Stinger Araştırma Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH41</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DYNAMIC_DIMENSIONS_RESEARCH_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Dinamik Boyutlar Araştırma Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH42</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATIC_REALITY_RESEARCH_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Statik Gerçeklik Araştırma Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH43</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPACE_TIME_RESEARCH_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Uzay-Zaman Araştırma Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH44</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CENTER_FOR_CONTINUUM_INTEGRITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Süreklilik Bütünlüğü Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH45</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CENTER_FOR_MENTAL_ACUITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Zihinsel Keskinlik Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH46</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MENTAL_FLOSS_IMPROVEMENT_CENTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Mental Floss İyileştirme Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH47</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRING_THEORY_RESONANCE_OBSERVATORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sicim Teorisi Rezonans Gözlemevi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH48</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CENTER_OF_ASTRONOMICAL_ACHIEVEMENT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Astronomik Başarı Merkezi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH49</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MIND_INNOVATIONS_MUSEUM_GIFT_SHOP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Mind Innovations Müzesi Hediyelik Eşya Dükkanı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_RESEARCH50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLOATING_LIGHTBULB_SYMPOSIUM_THINKTANK</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yüzen Ampul Sempozyumu Thinktank</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="108" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PERPETUAL_SPARK_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürekli Kıvılcım Jeneratörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUN_DRIVE_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sun Drive Jeneratör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOEBIUS_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Moebius Jeneratör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VORTEX_ACCELERATOR_PARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vortex Hızlandırıcı Parkı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEO_ATOMIC_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neo Atomik Jeneratör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHOTOVOLTAIC_POWER_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Fotovoltaik Güç İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OMNICONDUCTION_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Omniconduction Jeneratör</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KOMODIAN_SOLAR_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Komodian Güneş Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SYNTHETIC_SPARK_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sentetik Kıvılcım Jeneratörü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ULTRA_COIL_ACCELERATOR_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ultra Bobin Hızlandırıcı Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JUMPSTART_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Jumpstart Jeneratör</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IONIZED_INC_POWER_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">İyonize Inc Enerji Santrali</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY13</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">POWER_PROTOCOL_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Güç Protokolü Jeneratörü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY14</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARTICULATE_POWER_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Partikül Enerji Santrali</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY15</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SLAG_SPEWING_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Cüruf Püskürten Jeneratör</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY16</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CARBON_CRUCIBLE_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Karbon Pota Jeneratörü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY17</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STORMNADO_SOLAR_PARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Stormnado Güneş Parkı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Stormnado - Storm and tornado combined</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY18</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WINDUP_WINDPARK</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Windup Rüzgar Parkı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY19</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHROMODYNAMIC_GENERATOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kromodinamik Jeneratör</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Chromodynamic - the theory of the strong interaction between quarks and gluons</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARALLEL_CURRENT_POWER_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Paralel Akım Güç İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY21</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHOTONIC_HARNESS_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Fotonik Harness İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">RAY's Additions Start here:</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY22</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ELECTRONIC_BOOSTER_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Elektronik Hidrofor Tesisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY23</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ELECTORMAGNETIC_ZAP_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Elektromanyetik Zap İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY25</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARAGONIC_POWER_STORES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Paragonic Güç Depoları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY26</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENERGY_CONSERVATION_REPOSITORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Enerji Tasarrufu Deposu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY27</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEPARTMENT_OF_ELECTROCUTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Elektrik Çarpması Bölümü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY28</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_CONES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yıldırım Konileri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY29</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUG_ZAPPER_POWER_RELAY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bug-Zapper Güç Rölesi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ELECTROSURGE_POWER_RELAY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Elektroşarj Güç Rölesi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY31</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCELLERATOR_RELAY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hızlandırıcı Rölesi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY32</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLEX_CAPACITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Plex Kondansatör</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY33</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRUX_POTENTIOMETER_RELAYS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Crux Potansiyometre Röleleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY34</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECHNOCHARGE_BATTERIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Technocharge Aküler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY35</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIMITLESS_BATTERIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sınırsız Aküler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY36</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">QUARKIC_BATTERIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kuarkik Piller</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MUON_RELAYS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Müon Röleleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY38</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACHYON_PARTICLE_CELLS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Takyon Parçacık Hücreleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY39</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PYRAMID_SUBATOMIC_CELLS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Piramit Atomaltı Hücreler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">QUANTUM_EFFECT_RESERVES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kuantum Etkisi Rezervleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY41</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLASMA_CHARGE_RESERVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Yükü Rezervleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY42</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ION_ENERGY_STORES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal İyon Enerji Mağazaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY43</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IONIC_UNCERTAINTY_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyonik Belirsizlik Matrisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY44</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">QUANTUM_TUNNELING_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuantum Tünelleme Matrisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY45</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ORGANIC_BATTERY_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Organik Pil Matrisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY46</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MAY_TRICKS_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mayıs Hileleri Matrisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY47</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HYPER_BEAM_ENERGY_CELLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiper Işın Enerji Hücreleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY48</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROTON_SATURATED_DIODES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Doyumlu Diyotlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY49</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEUTRON_PHASE_ANODES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nötron Fazı Anotları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_ENERGY50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CATHODE_RAY_ENERGY_STORES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Katot Işını Enerji Mağazaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="159" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOLIATH_EXTRACTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Goliath Ekstraksiyonları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRESTONE_MINERALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Firestone Mineralleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STAR_HAMMER_QUARRY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Çekiç Ocağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_CREST_QUARRY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Imperial Crest Taş Ocağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONTROLLED_TECTONICS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrollü Tektonik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">METALSCAPE_MINING_TECH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Metalscape Madencilik Teknolojisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BARRICK_BROTHERS_EXPLOITS_INC.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Barrick Brothers Exploits Inc.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Barrick Brothers - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MCMULLAN_VALUABLES_EXCAVATIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">McMullan Değerli Eşya Kazıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">McMullan - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHENSHEN_DIGSITES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Shenshen Digsites</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shenshen - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENCORE_EXCAVATIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Gencore Kazıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Gencore - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CROSS-CONVEYORS_INDUSTRIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Çapraz Konveyör Endüstrileri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEEP_DUG_MINING_CORP</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Deep Dug Madencilik A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION13</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MELTCORE_EXCAVATORY_INDUSTRIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Meltcore Ekskavatör Endüstrileri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Meltcore - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION14</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TERRAGEN_MINERALS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TerraGen Mineralleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">TerraGen - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION15</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GLADSTONE_INDUSTRIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Gladstone Endüstrileri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Gladstone  - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION16</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHAYIU_EXTRACTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Shayiu Ekstraksiyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shayiu - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION17</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUNDBREAKER_QUARRY</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Groundbreaker Taş Ocağı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION18</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STONEBREAKER_INDUSTRIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Stonebreaker Industries</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION19</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHAINGANG_EXPLOITS_CORP</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Chaingang Exploits Corp</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Chaingang - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TERRABREAK_MINING_TECH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Terrabreak Madencilik Teknolojisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Terrabreak - company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION21</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DIGGIT_SHAFT_MINING</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Diggit Şaft Madenciliği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ray's Additions Here and Below:</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION22</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CREVACE_EXTRACTION_INC</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Crevace Ekstraksiyon A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION23</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASTEROID_MINING_CORP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Asteroid Madencilik Şirketi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION24</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DARK_N_DEEP_EXCAVATIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Karanlık-Derin Kazılar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION25</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DARKER_N_DEEPER_EXCAVATIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Daha Karanlık-Derin Kazılar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION26</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ELEVATOR_QUARRY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Asansör Taş Ocağı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION27</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONVEYOR_PRODUCTION_CORP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Konveyör Üretim A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION28</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SIEGE_CORP_PRODUCTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Siege Corp Prodüksiyon</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION29</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IMPRINTER_PRODUCTIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Imprinter Productions</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INDUSTRIAL_PROCESSING_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Endüstriyel İşleme Tesisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION31</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MONIKER_PRODUCTION_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Moniker Üretim Tesisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION32</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TENSILE_MATERIALS_REFINERY_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Çekme Malzemeleri Rafineri Tesisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION33</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ZIRCONIUM_INDUSTRIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Zirkonyum Endüstrisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION34</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SILICATE_OXIDE_QUARRY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Silikat Oksit Ocağı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION35</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BORONIC_PLATE_MANUFACTURING</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Boronik Levha İmalatı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION36</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DIAMOND_COATED_MANUFACTURING</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Elmas Kaplamalı Üretim</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHEMICAL_MASTERY_MANUFACTURING</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kimyasal Ustalık İmalatı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION38</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PRECISION_MANUFACTURING</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hassas Üretim</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION39</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MAKER_MACHINE_INDUSTRIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Maker-Machine Industries</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PERFECT_PARTS_FACTORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Mükemmel Parça Fabrikası</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION41</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EUREKA_CROWN_MANUFACTURING</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Eureka! Taç İmalatı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION42</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STAR_UNION_PRODUCTIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Star Union Productions</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION43</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTORY_SPECIALIST_CORP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Fabrika Uzmanı Corp</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION44</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRANK_SHAFT_INDUSTRIAL_PLANT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Krank Mili Endüstriyel Tesisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION45</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DRILL_N_PICK_MINING_CORP</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Drill-N-Pick Madencilik A.Ş.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION46</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANETARY_EXTRACTIONS_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Ekstraksiyon Kompleksi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION47</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SALTWORTH_INDUSTRIAL_PARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saltworth Endüstri Parkı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION48</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGINE_INDUSTRIAL_PARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Motor Sanayi Parkı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION49</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANETARY_CORE_DRILL_WORKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet Çekirdekli Matkap Çalışmaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_PRODUCTION50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MECH_COMPONENTS_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik Bileşenler Fabrikası</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="211" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEW_LIVING_BIOSPHERES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni Yaşayan Biyosferler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUNKEN_CENTER_BIOSPHERES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Batık Merkez Biyosferleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMESTIBAE_BIOSPHERES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirilebilir Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Comestible - Edible (item of food)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HYDRO_CORE_BIOSPHERES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hydro-Core Biyosferler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ESCULENTA_BIOSPHERES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esculenta Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Esculenta -  tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEGUME_LAGUNA_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Baklagil Laguna Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEAFOAM_CENTRAL_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Seafoam Merkezi Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHYTOPLANKTON_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Fitoplankton Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Phytoplankton are plankton that get energy from light</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EUKARYOTES_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ökaryot Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Eukaryotes - are organisms whose cells have a nucleus enclosed within membranes</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEKTONIC_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Nektonik Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Nektonic - the aggregate of actively swimming aquatic organisms in a body of water</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEEP_DIGEST_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Derin Sindirim Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER12</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESOPELAGIC_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Mezopelajik Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mesopelagic is a horizontal layer deep in the sea</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER13</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WETBERRY_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Wetberry Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER14</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RETRO_SOIL_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Retro Toprak Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER15</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBMARINE_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Denizaltı Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER16</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IRRIGATION_DEPTHS_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sulama Derinlikleri Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER17</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NUTRIGRUB_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NutriGrub Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NutriGrub - Company name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER18</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUSTAINED_SUBSTINANCE_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sürdürülebilir Geçimlik Biyosferler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER19</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DROWNWHEAT_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Drownwheat Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEW_BULB_BIOSPHERES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Çiy Ampulü Biyosferleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER21</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MARINE_COMPLEX_STRUCTURES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Deniz Kompleks Yapıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">RAY's Additions start here.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER22</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREEN_PILLAR_SUBOCEANIC_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yeşil Sütun Okyanus Altı Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER23</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_UNDERWATER_KELP_WEAVERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">İmparatorluk Sualtı Kelp Kunduzları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER24</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KELP_GARDEN_OBSERVATORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kelp Bahçesi Gözlemevi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER25</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FISH_ELEVATOR_OBSERVATORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Balık Asansörü Gözlemevi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER26</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNDERSEA_BARNACLE_CONSERVATORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Denizaltı Barnacle Konservatuarı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER27</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEALIFE_PRESERVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Deniz Yaşamı Koruma Alanı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER28</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSEA_SHELTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Deniz Altı Barınağı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER29</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MARITIME_DIVERSITY_SHELTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Denizcilik Çeşitliliği Barınağı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AQUATIC_NUTRIENTS_REPOSITORY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Akuatik Besin Deposu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER31</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REEF_REGENERATION_FACILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Resif Yenileme Tesisi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER32</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEA_POLLUTION_RECYCLING_COMPLEX</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Deniz Kirliliği Geri Dönüşüm Kompleksi</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER33</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASTY_FISH_SANCTUARY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Lezzetli Balık Barınağı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER34</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EDIBLE_PLANKTON_RECEPTACLES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yenilebilir Plankton Kapları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER35</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEALTHY ALGAE INSTITUTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sağlıklı Yosun Enstitüleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER36</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEATOPIAN_COTTAGES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Seatopian Kulübeleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNDERWATER_EXPLORER_FACILITIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sualtı Kaşifi Tesisleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER38</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEA_CURRENTS_FACILITIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sea-Currents Tesisleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER39</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOTHER_OF_THE_SEAS_BIOSTRUCTURES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Deniz Anası Biyoyapıları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARAGON_UNDERSEA_HABITAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Paragon Denizaltı Yaşam Alanı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER41</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PAINTERS_CURRENTS_HABITAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ressamın Akıntıları Yaşam Alanı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER42</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANCIENT_SUBAQUATIC_HABITAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Antik Su Altı Yaşam Alanı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER43</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HABITAT_OF_THE_DEPTHS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Derinliklerin Habitatı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER44</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERATOR_OF_THE_DEPTHS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Derinliklerin Jeneratörü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER45</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBAQUEOUS_LUXURY_CONSTRUCTS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sualtı Lüks Yapıları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER46</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEA_PARSLEY_GARDEN_FACILITIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sea Parsley Bahçe Tesisleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER47</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SILVER_SEAS_FACILITIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Silver Seas Tesisleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER48</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBAQUEOUS_CITY_SUITES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Subaqueous City Suites</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER49</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOBILITY_UNDERSEA_SUITES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nobility Denizaltı Süitleri</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">PRE_SPECIALIZED_WATER50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SEA_GREEN_CONSTRUCT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Deniz Yeşili Yapı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:Index="263" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_TEMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OUTPOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>145</Zoom>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>240</ActiveRow>
+          <ActiveCol>6</ActiveCol>
+          <RangeSelection>C7</RangeSelection>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

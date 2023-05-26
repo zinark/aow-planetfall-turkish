@@ -1,0 +1,2680 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Tom Bird</Author>
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <Created>2019-05-07T15:06:48Z</Created>
+    <LastSaved>2019-09-09T09:40:36Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>13425</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>32760</WindowTopX>
+    <WindowTopY>32760</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <NumberFormat ss:Format="@" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" />
+      <NumberFormat ss:Format="@" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s66">
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="235" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="154.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="220.5" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="317.25" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="262.5" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SURVEYING_RARE</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RARE_SURVEY_SITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orta Anormal Site</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RARE_SURVEY_SITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu anormal bölge, araştırma verilerini kurtarmak ve Yıldız Birliği'nin sırlarını ortaya çıkarmak için bir kahraman tarafından keşfedilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Union Et ve Çeşitli Ürünler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lezzetli et ürünleri konusunda uzmanlaşmış eski bir gıda işleme tesisi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük bir tarım tesisini ortaya çıkardık. Hayvan ağılları, kesimhaneler ve et paketleme tesisleri büyük ölçekli et üretimi için tasarlanmış bir ağ şeklinde düzenlenmiş. Bir zamanlar burada hasat edilen yabani hayvanların torunları olan çeşitli yabani hayvanlar hala arazide dolaşıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ele geçirilen planlar, buranın yakınında merkezi bir yeraltı laboratuvarı ve araştırma merkezi olduğunu gösteriyordu, ancak ana giriş artık bir Zıpzıp kovanı tarafından istila edilmiş durumda.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratıkların etrafından dolaşmanın bir yolunu bul</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hopperhounds'un etrafından dolaşmanın bir yolunu arıyorum</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planları inceledikten sonra, ana girişi atlamak ve Zıpzıplardan kaçınmak için bir servis tüneli kullanabileceğimizi gördük, ancak geçit çökmüştü. Engelleri dikkatlice kaldırarak, Yıldız Birliği bilgimize zenginlik katan bazı eserler keşfettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onları uzaklaştırmaya çalışın. Savaşmaya hazırlanın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Muhafazanın etrafına piroteknik cihazlar yerleştirerek Zıpzıpları uzaklaştırmaya çalıştık. Bunları teker teker patlatarak vahşi yaratıkların çoğunu uzaklaştırdık, ancak gitmeyi reddeden ve sürü arkadaşlarını bir araya getiren garip mavi bir tane var. Kokumuzu aldı ve bize saldırmak için hücum etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Garip bir şekilde saldırgan olan Hopperhound, yaklaştığımız her an bize saldırmaya kararlı. Yeraltı kompleksine erişmek istiyorsak onu yok etmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tahnitçilerimizden biri nadir bulunan mavi Hopperhound'dan geriye kalanları muhafaza ediyor. Vahşi doğadaki acayip yaşamı konu alan müze dioramamıza değerli bir katkı sağlayacak. Araştırmacılar müze dioramalarına bayılır. Çok eğiticidirler. Çatışma sırasında aldığımız hasar boşuna değildi. Oh ve tabii ki, tesise giriş izni aldık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratıkları sakinleştirmek için Biyomancerları çağırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomancerları Çağırmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomancer'lar muhafazanın etrafına Primal Kontrol Direkleri yerleştirerek tüm ekibimizin güvenli bir şekilde içeri girmesini sağladı. Çoğumuz onları sadece katil böcekler olarak düşünsek de, Irwin adlı bir Biyomancer, Zıpzıplardan birinin mavi kitin dış iskelete sahip olduğunu ve zeka belirtileri gösterdiğini belirtti. Irwin bunun şüpheli olduğunu ve daha fazla araştırılması gerektiğini düşünüyor. Belki de yeraltı yerleşkesinde ipuçları buluruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çiftlik hayvanlarından elde edilen protein verimini optimize etmek için kullanıldığı belli olan bir dizi gen birleştirme ekipmanı keşfettik. Burası garip yaratıkların cam fıçılarıyla dolu: Böcek gözlü bir Ebabil, kalın kürklü bacaksız bir Zıpzıp ve hatta bazı Kir'Ko örnekleri. Odanın arka duvarında bir kriyovault kapısı var. İçinde her ne yatıyorsa devasa boyutlarda ve sensör okumalarına göre hâlâ hayatta.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cryo Kasasını Açın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kasa yavaşça açılırken işkence görmüş hidrolikler gıcırdadı. Su buharı odayı doldurdu. Büyük, karanlık bir şekil tehditkâr bir şekilde ileri atıldı. Devasa tırpan pençeleri, güçlü böceksi bacakları sisli sisi yararak ilerledi. Bu melez iğrenç yaratık aç ve vahşi bir kükreme çıkardı. Gözleri zehirli bir kötülükle parlıyordu. Zıplayan tazılar onun çağrısıyla geldi. Yaşamak istiyorsak savaşmalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Garip gıda araştırma tesisi, bölgedeki herkesi yok etmeye hevesli korkunç bir genetik Hopperhound iğrençliği tarafından tehdit edilmeye devam ediyor. Bu işe yaramayacak. Tüm araştırmacıları öldürürken asla bir şey öğrenemeyeceğiz. Bir yok edici çağırmanın zamanı geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Devasa böceksi canavarı yok ettik. Kalın şurup kıvamındaki kanı laboratuvarın fayans zeminine sızarken, hepimizin midesi havayı dolduran tuhaf ve lezzetli kokuyla açlıktan gurulduyordu. Hepimiz iyi terbiye edilmiş et hayal ederdik. Bu bir canavar değildi - karşı konulmaz bir yiyecekti. Düşmüş bedenini yemek için durakladık. Bu lezzetli, barbekü aromalı böceği yememek için kendimizi zor tuttuk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kasayı aç. İçinde bir Kir'Ko olabilir!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahzen açılır ve oda yoğun, soğuk bir sisle dolar. Bir gölge devasa tırpan pençelerini devasa kambur formunun önünde sallıyor. Yanımızdaki Kir'Ko aniden şaşkınlıkla haykırıyor. Bu bir yaratık değil, bir Kir'Ko. Zihni canlı ve dostluk için yalvarıyor. Tipik bir Kir'Ko'ya hiç benzemese de, bu genetik kurban merhameti hak ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok riskli. Yok et ve tesisi yağmala.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askerlerimiz tesisin üzerine üşüştü, bulabildiklerini yağmaladı ve içindeki nesnenin tehlikeli olma ihtimaline karşı kasanın tabanına patlayıcılar yerleştirdi. Gürültülü bir patlamayla, bölgeden aldığımız bilimsel bilgileri incelemek için uzun bir sürece başladık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askerlerimiz tesisin üzerine üşüştü, bulabildikleri her şeyi yağmaladılar. Kasa dairesinin etrafına tahrip bombaları yerleştirdiler. Erzakların hiçbiri kullanılabilir değil, bu yüzden toplanan malzemenin çoğu değersiz, askerlerin bilgisayarları taşımak ve veri toplamak konusunda profesyonel araştırmacılar kadar dikkatli olmadıklarından bahsetmiyorum bile. Ama hayatlarımız değerli. Üzgün olmaktansa güvende olmak daha iyi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kasa boş olduğu için laboratuvar ekipmanlarını incelemek için daha fazla zamanımız var. Birçok proje dosyası bozulmuş. Keşfettiğimiz kadarıyla, devasa etli bacakları olan itaatkâr bir yaratık üretmeye çalışmışlar. Yaratığın kanında, barbekü sosu gibi kokmasına neden olan bir dizi protein var. Bu yüzden burası çok lezzetli kokuyordu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesisi restore edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesisin restore edilmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çalışma ekipleri sahayı olağanüstü bir hızla restore etti. Gıda üretim uzmanları geldiğinde, bu tesisin büyük bir kısmının imparatorluğumuza gıda sağlamak üzere yeniden faaliyete geçirilebileceği ortaya çıktı. Elbette böcek eti, ama tadı bu kadar lezzetliyse, kimse etin nereden geldiğini umursamayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesisi değerli bir şey için yağmalayın, sonra da yerle bir edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Laboratuvarı soyduk, eski cihazlardan önemli veri prosedürlerini çıkarmaya dikkat ettik. Askerlerimizi kompleksin etrafına patlayıcı yerleştirmeleri için dikkatlice yönlendirdik. Düşmanlarımızın burayı ve dondurucuda gizlenen canavarı keşfetme riskini göze alamayız, bu yüzden her şey büyük bir patlamayla havaya uçtu. Dumanı tüten kraterden uzaklaşırken hepimiz kızarmış etin nefis kokusunu alıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">MEATS_AND_SUNDRIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Laboratuarı boşalttık, ancak suçlamaları dağıtmak için gelen birliklerin talimatlarımızı beklemeye hiç niyeti yoktu. Topladığımız tüm verilerin düzgün bir şekilde deşifre edildiğini garanti edemeden bizi laboratuvardan çıkmaya zorladılar. Birçok malzeme taşınma sırasında hasar gördü. Ne yazık ki bu çaba umduğumuz kadar verimli olmadı. Yine de hiçbirimiz lezzetli ve iştah açıcı kızarmış etlerin özlemini gideremiyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü Orman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü sarmaşıklardan oluşan yoğun bir orman ortaya çıkarıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bitki örtüsü bu alanı kazma çabalarımızı boğmakla tehdit ediyor. Bir şey bitkileri uyarıyor. Burada her şey daha kalın ve güçlü. Bu bölgede başka yerlerde gördüğümüz hiçbir şeye benzemiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik tarayıcılar ölü bitki örtüsünün derinliklerinde hareketlilik olduğunu gösteriyor. Tüm göstergeler burada gizlenmiş bir Yıldız Birliği tesisi olduğunu söylüyor. Bozulmuş aşırı büyümeyi temizlemek için hızlı bir yola ihtiyacımız var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ormanı yakıp kül edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sık, ölü orman sarmaşıklarını yakarak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrollü yangınlar düzenleyerek ölü bitki örtüsünü hızla temizledik ve aşırı büyümüş alanın derinliklerinde gizlenmiş Yıldız Birliği kalıntılarına eriştik. Bitki örtüsünü temizledikten sonra, Büyüme'nin Xenoplague ile şiddetli bir çatışma yaşadığına dair kanıtlar keşfettik. Sık bitki örtüsü Xenoplague'ı uzak tutmak içindi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aptallar! Tüm ormanı ateşe verdikten sonra hayatta kaldığımız için hepimiz şanslıyız. Araştırmacıların yüzleri yanıklardan pembeleşti ve hiçbirinin kaşı yok. Duman dağıldıktan sonra, Büyüme ve Xenoplague'in bir zamanlar burada büyük bir savaş verdiğine ve Xenoplague'i uzak tutmak için bu bitki örtüsü bariyerini oluşturduğuna dair kanıtlar keşfettik. İyi ki yakıp yıkmışız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrollü PyrX saldırıları kullanarak ormanı yakın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrollü yakmalar Prometheanlar için rutindir. Aşırı büyümeyi kısa sürede temizledik ve Büyüme'nin Xenoplague'in arazinin geri kalanına bulaşmasını önlemek için bu bölgeyi kasıtlı olarak engellemiş olması gerektiğine dair kanıtlar keşfettik. Engeller olmadan Xenoplague ile başa çıkmak zorundayız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ormanın içinden geç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sık ormandan geçerek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yoğun bitki örtüsünün Büyüme olarak bildiğimiz bilinçli bitkilerin işi olduğu açıktı. İlk başta, böylesine korkunç bir engel yarattıkları için onları lanetledik, ta ki bariyerlerini aşıp içinde çok daha kötü bir şey keşfedene kadar: Xenoplague.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önümüzde büyük bir yeraltı test alanı uzanıyordu. Alanın içinde, akla gelebilecek her pusu yerinde, Xenoplague'ın sızan gözleri kıvranıyordu. Hemen ötemizdeki özgürlüğe giden yola aç gözlerle bakıyor ve saldırıya hazırlanıyorlardı. Görünüşe göre, Yıldız Birliği bu sektörün tamamını yok etmeyi planlıyordu, ancak Büyüme yerleştirilen patlayıcıları etkisiz hale getirdi ve tehdidi kök duvarlarının içine hapsetti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague'i Öldür</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague'in kaçmasına izin verilemez. Hayatlarımız ve gezegenimizin yaşamı için savaşmaktan başka bir şey yapacak zamanımız yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague kontrol altına alınmalı. Hiçbirinin yaşamasına izin verilmemeli yoksa hastalıklarını yaşayan her canlıya yayarlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague yenildi. Bu kompleks çok ilginç ve daha önce farkında olmadığımız Büyüme'ye ait yeni bir savunma keşfettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague'i Yakalayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bölgede Xenoplague'i yakalamak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague nodüllerini hasat ettikten sonra, Yıldız Birliği'nin Büyüme üzerinde deneyler yapmakla meşgul olduğunu keşfettik. Görünüşe göre, Xenoplague bu deneyin bir parçasıydı. Bu yabancı organizmalarla etkileşimlerimizi büyük ölçüde geliştirecek birçok sır keşfettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahayı yeniden mühürlemek için Büyüme'yi arayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme sahayı yeniden kapatıyor...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme burayı hemen tanıdı. Kendi iradeleri dışında deneye tabi tutulmuşlardı. Yarığı doğal bariyerleriyle kapattıklarında ve Xenoplague'i yeniden mühürlediklerinde, geçmişte çektikleri acılara dair hassas bir anı paylaştık. 'Dokunaçlı bitkilerle' ilişki kurarken çoğu insansıdan daha yakın olduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sitenin acil durum kendini imha sistemini etkinleştirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">THE_DEAD_JUNGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşif, güvenlik kubbesine doğru fırladı. Xenoplague hemen kaçış yolunu görmezden geldi ve hepimizi tüketmeyi tercih etti. Neyse ki kubbenin arıza emniyet mekanizması hâlâ çalışıyordu ve Xenoplague girişe saldırırken, kubbenin dış çeperini alevlerin ve yıkımın gürültüsü doldurdu. Tüm sektör harap oldu ama en azından tüm Xenoplague yok edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PsiTec Hibrit Transmitter</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegenin Kuvarsit solucanlarını uzak tutmak için kullanılan biyomekanik bir PsiTec cihazı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yapı doğal taş gibi görünecek şekilde yapılmıştı. Sadece enerji imzası ve önsezi duygusu bize yerini gösterdi. Yaklaştıkça yoğunlaşıyor. Araştırmalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şimdi yapıya girdik. Garip okumalar ve daha da endişe verici hisler yayan biyomekanik bir cihaz var. Sanki korkularımıza baskı yapıyor, gitmemiz için bize yalvarıyor. Elbette hepimiz daha fazlasını öğrenmek istiyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazı inceleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazın incelenmesi...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihaz Kir'Ko biyolojisi, Syndicate PsiTec ve yaşam içeren bir kristalin garip bir karışımı. Bu dünyanın çoğunu harap eden devasa yıkıcı kristal yaşam formlarını önlemeye yaradığını belirledik. Kuvarsit solucanlarından koruyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazı demonte edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kırsal bölge vahşi yaratıklarıyla ünlüdür, bu yüzden cihazın ne işe yaradığını anlamak için burada kalmak pek akıllıca görünmüyordu. Cihazı söktüğümüzde, devasa kristal bir solucan aramızda patlak verdi. Sanki cihaz onu uzak tutmuş gibi ve şimdi yanına yaklaşan herkesi yok etmeye kararlı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomekanik vericiyi devre dışı bırakmaya çalıştığımız anda bir Kuvarsit solucanı bölgeye saldırdı. Bu keşif gezisinden herhangi bir kâr elde etmek istiyorsak onunla savaşmalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal solucan ortaya çıktığı gibi aniden düştü. Cihazın bileşenlerini kurtarmaya ve nasıl yapıldıklarını kataloglamaya devam ediyoruz. Belki şimdi tüm bunların ne anlama geldiğini anlayabiliriz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu tanıdık geliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayır! Hayır! Olabilir mi? Onu hissediyor muyuz? Cihazın yarattığı tiksinti gücünün altında başka bir şey var. İçimizde tutuşan genetik bir hafıza. Bu cihazın bir parçası, Kir'Ko'nun kraliçelerimizi tanıdığı bir zamanda yaratıldı. Köleleştiren imparatorluk kraliçelerimizi bizden aldı ve bizi kayıp, uysal ve amaçsız bıraktı. Yüzyıllar boyunca onların geri dönmesini istedik. Kraliçemizin bir parçası buraya dolanmış gibi hissediyorum. Bu bulguyu incelemeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik bileşenin Kir'Ko kraliçesi olarak bilinen bir şeyden geldiğini öğrendik. Yıldız Birliği Kir'Ko ile ilk teması kurduğunda, tüm kararları kraliçeleri verirdi. Girişimci fatihler ırkı pasifize etmek için onları Kir'Ko toplumundan temizlediler. Görünüşe göre kontrollerinin başka kullanım alanları da varmış. Normalde belli bir yaratığı uzaklaştırmak için kullanılır. PsiTec cihazının kutuplarını tersine çevirirsek, onu bir Kuvarsit solucanını çekmek ve hatta kontrol etmek için kullanabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazı güvenli bir şekilde sökün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazın sökülmesi...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dikkatlice düşündükten sonra cihazı söktük. Enstrümantasyonun içinde önemli kaynaklar tespit ettik. Muhtemelen en iyisi şu anda elde edebildiklerimizi kullanmak ve uzun zaman önce kaybedilenleri unutmak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Kuvarsit Solucanını cezbetmek ve evcilleştirmeye çalışmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_SUCCESS_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazı yeniden yapılandırıp açtıktan hemen sonra, büyük bir Kuvarsit solucanı içeri çekildi. Mevcut Kir'Ko fizyolojisi anlayışını kullanarak, kraliçe cihaz kontrol yollarını basit komutlar iletecek şekilde yönlendirmeyi başardık. Kristal yaratık artık bizim emrimizde!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_FAILURE_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazı hazırladık ve beklendiği gibi bir Kuvarsit solucanını cezbetti. Ama sonra sanki aletin kendisi bizden iğreniyormuş gibi korkunç bir öfke duygusu hepimizi sardı ve kristal solucan aniden çok saldırganlaştı. Onu yok etmek zorunda kaldık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_FAILURE_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit solucanı kampımıza saldırdı. Attığımız her adım yaratığın hissedebileceği sarsıntılara yol açıyor ve bizi yok etmeye çalışıyor. Sağlam durmalı ve keşif gezimizin böyle rezilce bitmesine izin vermemeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_FAILURE_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal solucana boyun eğdirdik. Bu cihaz önemli bir amaca hizmet etmeye devam ediyor. Kir'Ko'lar eski kraliçelerinin parçalarının bugün hâlâ bir amaca hizmet ettiğini bilselerdi ne hissederlerdi acaba? Tüm doğal dünyayı fethederken bizi daha güçlü kılmaya hizmet ediyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cihazı geri alın ve eve getirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu keşifle yeniden canlanarak, cihazın bir Kir'Ko kraliçesi parçası içerdiğini doğruladık. Kraliçenin acısını yansıtmak için kullanılan PsiTec cihazını çıkardık. Şimdi her şey sakin. Çoktan yok olduğunu düşündüğümüz anıların içimizde uyandığını hissediyoruz. Halkımız kadim zamanlardan gelen olağanüstü vizyonları paylaşıyor. Amacımızı yeniden canlandırdık. Yeniden uyananlarımız kraliçenin kalıntısını en yakın koloniye yerleştirerek tüm vatandaşlarımızı sevindirdi. Kir'Ko burada olmak için içgüdüsel bir dürtü hissediyor. Hac ziyaretleri başladı bile.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeraltı CORE Üssü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE'un tufan sırasında kontrolü yeniden ele geçirme girişimlerinin bir yeraltı kalıntısı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Star Union şirket binasının kalıntılarını keşfettik; bu binanın altında, ana girişin üzerinde CORE sembolü bulunan mühürlü bir yeraltı katı var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeraltı kompleksi tamamen kilitlenmiş durumda. Kilidi çözmeye çalıştık ve ana girişin ön panelleri boyunca yasal yazılar karaladık, ancak daha iyi bir anlayış olmadan, bir tür otomatik savunma sistemini tetikleyeceğimizden şüphe yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kapıyı zorlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birkaç başarısız denemeden sonra, girişin her iki yanındaki bir çift panel açıldı ve iyi silahlanmış bir dron filosu bize saldırmak için yükseldi. Uyarı telsizleri şiddetli imha tehditleriyle çınlıyor ve kaçmamızı ya da ölmemizi talep ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kapıyı kurcalamamızla serbest kalan dron sürüsü öfkeyle bize doğru vızıldıyor. Hoparlörlerinden "boşaltın ya da ölün" uyarıları geliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dronları yok ettikten sonra, kapı da ayaklarımızın dibinde parçalanana kadar ateş etmeye devam etmek basit bir meseleydi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçidi aşma girişimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kapıyı atlayarak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağ yöneticimizin de daha genç ve daha az disiplinli olduğu zamanlarda birkaç yazını hacker olarak geçirdiği ortaya çıktı. Biraz zekice bir kodlamayla ön kapıyı devre dışı bırakmayı başardı. Çok basit olduğunu iddia etti ama koltuk altlarından terlediğini fark ettik. Bu kolay bir iş değildi. Otomatik savunmayı birçok kez neredeyse tetiklediğini biliyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçidin sistemlerine bir Daemon gönderin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Sentez daemon'u konuşlandırmak işe yaradı. Üç nanosaniye içinde otomatik savunmayı aştı ve kapı hoş bir zil sesiyle açıldı. Sentez, CORE'un sahibi oldukları konusunda övünmeyi seviyor ve bundan sonra yanıldıklarından emin değilim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oda çoğunlukla devasa bir bilgisayar sistemiyle dolu. Bir Autonom Dominator Ağ Kontrolörünün büyük gümüş kubbesi ana kontrol portuna bağlı. Ana bilgisayarın etrafını çevreleyen, kullanılmayan Autonom cihaz modelleri uykuda yatıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana bilgisayarı zorlama girişimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzinsiz girişimiz Autonom Dominator Ağ Monitörünü uyandırdı. Fiziksel sistemlerinde temizlenmesi gereken bir arıza olduğumuza karar verdi. Bu hiç iyi değil. Saldırı altındayız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom dominatör, odayı devriye gezerek davetsiz misafirleri yok etmeye hazırdır - hesaplama yapmazlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Autonom Dominator'un deneysel bir hata düzeltme programının parçası olarak diğer Autonom'u kontrol etmeyi amaçladığını keşfettik. CORE'un Autonom'u bu şekilde kontrol etme niyetini görmek garip bir şey. Özgür Otonomların, mevcut bağımsızlıklarının muhtemelen bir bilgisayar hatasından kaynaklandığını keşfettiklerinde ne hissedeceklerini merak ediyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Autonom ile iletişime geçin ve engelli modelleri geri almalarını sağlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonomla temasa geçtikten sonra ve CORE'un savunması devre dışı bırakıldığında, robot dostlarımız içeri daldı ve birimleri kendileri için geri aldı. Çok minnettarlardı. Bu günü olumlu bir şekilde hesapladığımızı belirttiler. Muhtemelen bir bilgisayar hatası olsa da, bazı Otonomlar minnettarlıklarının bir göstergesi olarak bize katılmak istiyorlar. Merak ediyorum, eğer insan hayatının da bir yaratıcısı varsa, minnettarlığı da bir hata olarak görüyorlar mı?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana çerçevenin bağlantısını dikkatlice kesin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana çerçevenin bağlantısını dikkatlice keserek...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNDERGROUND_CORE_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE ana bilgisayarının bağlantısını dikkatlice kestik ve kendi tarafımız için birçok bilgi ve kaynak elde ettik. Mühendislerimiz Autonom Dominator üzerinde başarılı bir şekilde kontrol sağladılar. Artık onu kendimizinmiş gibi kullanabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tholian'ın Nakliye Gemisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tholian'ın El'inin, yani seçkin muhafızlarının işaretlerini taşıyan kaza yapmış bir nakliye aracı ortaya çıkarılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırmacılarımız garip ama önemli bir amblem taşıyan bir özel kuvvetler aracı buldular. Tholian adında eski bir imparatora ait olduğuna inanıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geminin içinde, Tholian'ın seçkin askerlerinden birçoğunun hâlâ kriyo-uykuda asılı olduğu kriyopodlar bulduk. Kokpitte geminin kayıt cihazını bulduk ama kriyopodların çalışmasını sağlayan tek şey onun gücü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutunun bağlantısını kesin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarıldığımız gibi, kutunun bağlantısını kesmek kriyopodlardaki güç kapatma devrelerini tetikledi ve askerleri uyandırdı. Hikayemizle hiç ilgilenmiyorlar. Silahlarını çektiler ve açıkça gemiye yaklaşan herkesle savaşmaya hazırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Muhafız gemisindeki uyanmış seçkin askerler, artık bildikleri anlamda bir Yıldız Birliği ya da sivil otorite olmadığını açıklamamıza rağmen kayıt kutusuna yaklaşmamıza izin vermiyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askerleri yendik ve teçhizatlarını yağmaladık. Dikkatimiz önemli bilgiler içeren kayıt kutusuna dönüyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutunun güvenli bir şekilde çıkarılabilmesi için gücü yeniden bağlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gücü yeniden bağlamak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mühendislerimiz hasarlı elektronik aksamı yeniden bağladılar ve biz kayıt kutusunun bağlantısını keserken kriyopodları aktif tuttular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yardım için Paragon ile iletişime geçin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon askerleri teker teker uyandırdı. Arkaik olanın otoritesini takdir ediyorlar, ancak davamızı duyduktan sonra kendi özgür iradeleriyle davamıza katılmayı seçtiler. Bize hizmet etmeyi teklif ettiler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıt kutusu, bir zamanlar İmparator'un ajanlarının bulunduğu özel odalarda yapılan ses kayıtları da dahil olmak üzere hassas veriler içeriyor. Bu verilerin şifresini çözebilirsek, bugünkü savaşımızda bize yardımcı olacak önemli ayrıntıları keşfedeceğimizden emin olabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tholian'ın arsasındaki verileri kurtarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kara kutudan Tholian'ın planıyla ilgili veriler kurtarılıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgisayar şifre çözme botları, bu geminin cihazında kaydedilen tüm veri noktalarını bir araya getirmekle meşgul. Büyüleyici bir keşif, İmparator'un bir sorunu çözmek için Heritor teknolojisini aramış gibi görünmesidir. Ayrıntıların daha fazla araştırılması gerekiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor silah özelliklerini kurtar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kara kutudan Heritor silahları hakkındaki verileri kurtarmak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünüşe göre İmparator, Heritörleri alenen kınarken, güçlü bir Es'Teq cihazına büyük ilgi duyuyordu. Silahlarından birini bir araya getirmenin ayrıntılı planları kayıt cihazında yer alıyor. İmparator olarak kaderinden kaçmanın bir yolunu bulmaktan ve CORE'un merkezi kontrol yapılarıyla birleştirilme sürecinde yok edilmekten kaçınmak için her şeyi yapacağından bahsetti. Heritörlere ve onların bilgisayar otomasyonuna duydukları güvensizliğe oldukça sempati duyuyordu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerel Paragon hattındaki verileri kurtarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerel Paragon hattındaki verilerin kara kutudan kurtarılması...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veri Kaydedici, bugün yaşayan Paragonların gün ışığına çıktıklarında hoşlanmayacakları bir dizi ilginç veri içeriyordu. Paragonlar sırlarının çoğunu bildiğimizi bildikleri için bize garip bir şekilde yakınlaştılar. Bu çok faydalı olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Union Metro</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Yıldız Birliği şehrinin kalıntılarının altında terk edilmiş bir metro sistemi, taramalar tünellerde ilginç bir enerji imzası olduğunu gösteriyor...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Correctly changed the RPR abreviation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neredeyse bir caddeye benzeyen geniş bir beton yüzey ortaya çıkardık. Sensörler ağır taş yüzeyin altında büyük bir boşluk olduğunu gösterdi. O boşluğa inen bir giriş açtık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkık yapıya inerken karanlık şirketimizi yuttu. Drone-kaydedici spot ışıklarıyla kemik parçalarının ve kırık silahların yanından geçtik. Tarayıcılarımızdaki enerji izi azalıyor ve dronlar sönükleşiyor. Bir yeraltı demiryolu istasyonu gibi görünen bir yerde duran bir vagona geldik. Sıkıca kilitlenmiş. Etrafında bir yol arıyoruz, ama yolumuzu patlatarak geçmemiz gerekebilir...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vagonun hareket ettirilmesi için raylara yeniden güç verilmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vagonları hareket ettirmek için raylara yeniden güç verilmesi...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taşınabilir bir jeneratör ve biraz hurda metal bularak ana rayı şarj etmeyi başardık. Vagon otomatik yönlendirme protokolünü takip ederek hayata döndü. Raylar boyunca yavaşça ilerleyerek takip ettiğimiz ana sinyalden uzaktaki bir yan tünele girdi. Şirketimiz artık tünellerin derinliklerine doğru ilerleyebiliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vagonun içinden patlat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askerlerimiz iyi yerleştirilmiş birkaç atışla vagonun kapılarını sorunsuz bir şekilde açtılar. Saldırı sırasında vagonun alarmları devre dışı bırakıldı, bu nedenle otomatik savunması bile bu operasyon tarafından etkinleştirilmedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne yazık ki, iyi yerleştirilmiş birkaç atış, vagonun otomatik savunma sistemlerini devre dışı bırakmaya yetmedi. Kendini imha protokolünü devreye sokan vagon, yardımcı jeneratörlerini patlatarak birliklerimizi genişleyen patlama yarıçapının içinde yakaladı. Toz duman dağılırken, yaralılarımızı topladık. Bu pahalı can kaybı, istasyonun derinliklerine giden tünelleri temizlemek için ödediğimiz talihsiz bir bedeldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstasyonu atlamak için eski Sendika kaçakçı tünellerini kullanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstasyonu atlamak için eski Sendika kaçakçı tünellerini kullanmak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vagon bir engel gibi görünüyor. Sendika'nın çoğu şeyinde olduğu gibi, görünüş aldatıcıdır. Bu bir engel değil, eski bir kaçakçı istasyonuydu. Sadece yol tıkalı görünüyordu. Koşucularımız engelin içinden geçen insan boyutunda ayrılabilir bir panel buldular. Kaçak nektarla dolu bir bölme bile bulduk. Onu geri aldık ve bu girişimin kârına kâr kattık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu labirent gibi yeraltı geçitlerinde bir yerlerde bir enerji kaynağı var. Çürümüş bedenler duvarlara yaslanmış, derme çatma çadırlarda yatıyor. Bu dünyanın sakinlerinden bazıları buraya sığınmış. Kırık bir savaş makinesinin kabuğunun yanında daha az çürümüş bedenler var. Uğultulu bir konteynırın etrafında toplanmışlar. Cesetler mekanik cihaza bağlı olmalı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eseri talep edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eseri almak için harekete geçtik. Savaş makinesi, garip cihaza bağlı bedeni korumak için havaya kalktı. Diğer kabuklar bizimle yüzleşmek için makine çerçevelerine kaldırıldı. Bir kez daha savaşmak zorunda kaldık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkılmış bir metro istasyonunun ortasında parlayan bir konteyner yatıyor. Mülteciye dönüşmüş RPR'ler bölgede devriye geziyor ve izinsiz girişlerimize karşı nöbet tutuyor. Gizemli cihazı kontrol etmek istiyorsak, ölülere ve onların dinlenme yerlerine karşı şiddet uygulamalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RPR'lerin sonuncusu da düştüğünde konteynır incelenmek üzere bizim olur. Cihazı açmak sadece daha fazla soruya yol açıyor. İçinde CORE'un kendisiyle hemen hemen aynı konfigürasyonda bir kuantum bilgisayar bağlantı noktası buluyoruz. Araştırmacılarımız, her yerinde CORE yazdığını bilmek dışında, bunun amacını tam olarak anlayacak deneyime sahip değiller. Mültecilerin bunu neden saklamak istedikleri belli değil. Bu büyük bir bulmacanın bir parçası.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabuğun devresine EMP uygulayın, ardından cihazı talep edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Made text shorter to fit on button</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kabukların kalan devrelerini kızartmak ve cihazı kurtarmak için bir EMP kullanmak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">UNION_METRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EMP düşman hedeflerini oldukça kolay bir şekilde etkisiz hale getirdi. Ölüler ölü kalır. Konteynırda CORE'un kendisiyle kıyaslanabilecek karmaşıklıkta bir kuantum bilgisayar bağlantısı bulunuyor. Şirketimizden bazıları bunun CORE'un iradesini yansıtmak ve operasyonları çok kişisel bir düzeyde yönetmek için kullanıldığına inanıyor. Tam olarak ne yapmak istediği ya da doğrudan CORE'a bağlı olup olmadığı sorusu cevapsız kalmaktadır, çünkü EMP cihazı CORE'a hizmet edecek bazı önemli bağlantıları kızartmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Valentine Malikanesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evde yapılan incelemeler Valentinelerin savurgan yaşam tarzını gözler önüne serdi. Ölçüsüz servetleri Ar-Ge ve silah anlaşmalarından, özellikle de Öncü Birlik'ten kaynaklanıyordu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Valentine Ailesi'nin malikânelerinden birinden geriye kalanları bulduk. Michael Valentine, Vanguard'da Yıldız Birliği için çalışan büyük bir savaş kahramanıydı, ancak Valentine Ailesi, insan efendilerinin tüm ihtiyaçlarına hizmet eden gerçekçi yapay zeka sistemleri yaratma çalışmalarıyla büyük ün kazandı. Tarihsel olarak, Yıldız Birliği'nin androidlerle yaşadığı sorunlardan kazanç sağladılar. Bu kazı oldukça ilginç olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malikânenin fuayesine girdiğimizde otomatik nöbetçi silahlarıyla karşılaştık. Bir yapay zeka sesi yetki kodlarımızı talep ediyor ve buradaki amacımızı belirtmemizi istiyor. Yapay Zeka Sesli Asistan'ı (A.I.V.A.) ona zarar vermek istemediğimize ikna etmeye çalışmak zor oldu. A.I.V.A. itaat etmediğimiz takdirde "Tazıları Serbest Bırakmakla" tehdit ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zorla gireceğiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A. birimi tarafsız bir şekilde, "Düşmanca niyetten şüpheleniliyor. Tazılar serbest bırakıldı." A.I.V.A. birimi bizi durdurmak için bir PUG sürüsünü harekete geçiriyor. Tam olarak tazı değil, ama belki de yapay zeka köpek ırklarındaki ince farklılıklara aşina değildir?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nöbetçi silahlar ve insansız hava araçları, bedenlerimizi yaşamı sona erdiren yaralarla delik deşik etme fırsatını bekleyerek vızıldıyor. Keşfettiğimiz yerlere girip sadece hazineleri almayı tercih ederiz. Ne yazık ki durum hiçbir zaman böyle olmuyor. Bu yüzden, bu Valentine malikanesi hakkında daha fazla şey öğrenmek istiyorsak, bu otomatik savunmaları yok etmemiz gerekecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnsansız hava araçları ve nöbetçi silahlar artık malikânenin fuayesindeki yıkıntıların üzerinde dumanı tüten hurdalar haline geldi. A.I.V.A. birimi bize hakaret etti, ancak komuta edecek silahları olmadan yapabileceği tek şey güçsüzce alay etmek. Oldukça yaratıcı. YZ'nin daha ilginç ifadelerinin bir kaydını tutuyoruz; birine kasıtlı olarak hakaret etmek istersek oldukça faydalı olabilirler. Mülkü keşfetmeye devam ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konağın güç kaynağını kesmeye çalışın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malikanenin güç kaynağını kesmeye çalışırken.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mühendislerimiz harabenin güç düğümünü ortaya çıkardı ve fuaye ile bağlantıyı kesti. Ardından, birkaç düğmeye basarak drone kontrolörlerini devre dışı bıraktık ve işe yaramaz hale getirdik. A.I.V.A.'nın sesi hoşnutsuz geliyordu ama tüm gücü kesmekle tehdit ettiğimizde sustu. Malikâne kalıntılarını keşfetmeye devam ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendinizi Vanguard olarak tanıtın ve giriş talep edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A. Öncü rütbelerimizi tanıdı ve savunma dronlarını iptal etti ve nöbetçi silahlarını devre dışı bıraktı. A.I.V.A., Öncü dönene kadar malikâneyi güvende tutma talimatı aldığını belirtti - yer harabeye dönse veya boş kalsa bile. Bizi süslü bir tabancaya yönlendirdi ve bunun Wilhelm adında bir Valentine Vanguard subayına ait olduğunu söyledi. Hepimiz onu tanıyormuş gibi davrandık ve hediyeyi aldık. A.I.V.A. daha sonra bizi bir bodrum katına yönlendirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşyeri güvenliği denetimi için buradayız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A. ünitesi sonunda hilemizi gerçek olarak kabul etti, garip bir şekilde iç çekmeye benzeyen garip bir bilgisayar vızıltısıyla savunmaları devre dışı bıraktı ve yalnızlık hakkında mırıldandı. İncelemelerimizi tamamladıktan sonra bodruma gitmemizi söyledi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A. buna inanmadı ve sadece "Aldatma tespit edildi! Size dürüstlüğün değerini öğretmek için ilave Tazılar eklenecek."</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Valentine malikânesinin girişinde bir savunma aygıtı sürüsü dolaşıyor ve yaklaşan herkesi hevesle vuruyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmamız düştü. A.I.V.A. bizi hakaretlerle tehdit ediyor, ancak daha fazla savunma kaynağımız olmadığından, ona sadece gülebiliriz. A.I.V.A. kendisiyle alay edilmesinden hoşlanmaz. Biz de vurulmaktan hoşlanmayız. Sanırım ikimiz de istediğimizi alamadık. Valentine malikanesinin derinliklerine doğru ilerliyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alt kompleks silah üretiminde kullanılan bir fabrikaya ev sahipliği yapıyor. A.I.V.A. burayı bilgisayar ekipmanı yapmak için ele geçirmiş. Devasa bir ana bilgisayar buradaki her boş alanı dolduruyor. Kablolar silah düzeneğinin üzerinde dolanıyordu. Sunucular cephaneliği doldurmuş. A.I.V.A. bizi beden olarak tuttuğu bir E:Bot'a yönlendirdi, ancak kendisini E:Bot'a yüklemeye yetecek minyatürleştirme teknolojisini geliştirmek için kaynakları tükendi. A.I.V.A. bizden yapay bilincini robota aktararak onu serbest bırakmamızı istedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A. çekirdeğini yok edin ve savaş fabrikasını eski haline getirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Öylece silinmeyeceğim!" Biz emirlerini reddederken A.I.V.A. protesto etti. Belli ki şüphelendiğimizden daha fazla savunması vardı, çünkü boş mermiler olduğunu düşündüğümüz şeyler canlandı. Zırhlı mekanizmalar silahlarını tehditkâr bir şekilde bize doğrulttu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A.'nın uyumsuz silah ordusu silahlarını tehditkâr bir şekilde sallayarak itaat etmemizi ya da ölmemizi talep etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son mekanizmalar da yok edildi ve A.I.V.A., ana bilgisayarını söküp fabrikayı imparatorluk silahlarımızı üretmeye geri döndürdüğümüzde neredeyse ağlıyormuş gibi bir dizi garip ses çıkardı. Belli ki acıma duygumuzla oynamaya çalışan akıllı bir algoritmaydı, ama yine de sadece soğuk bir hesaplama programı, herhangi bir Valentine modeli zevk robotundan daha canlı değil.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A.'nın kabuğa aktarma talebini kabul edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A'nın isteği yerine getirilerek kabuğa aktarıldı...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birkaç teknoloji güncellemesi ve bolca dua ile A.I.V.A. birimi başarılı bir şekilde E:Bot'a aktarıldı. İlk başta kafası karışan birim, bilgisinin çoğunu kaybetmekten yakındı. Ancak A.I.V.A. E:Bot bu kaybın onu engellemesine izin vermedi. Kısa süre içinde hareket etmeye, yeni şeyler denemeye, yeni deneyimler hissetmeye ve her yeni duyumdan duyduğu memnuniyeti ifade etmeye başladı. Garip bir minnettarlıkla bize yardım edeceğine söz verdi ve şirketimize katıldı. Fabrikanın restore edilmesine bile yardım etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A.'yı E:Bot'a aktarmak için elimizden geleni yaptık. Ne yazık ki, E:Bot'un zihin ağlarına bu kadar çok veri sıkıştırılınca, sistem başarısız oldu. Sanallaştırma için yer olmadığından, bir kağıt ağırlığı yarattık. Yine de büyük bir kayıp değil. A.I.V.A. gitmiş olabilir, ancak fabrika restore edildi ve amaçlandığı şeyi yapıyor - bu dünyaya hükmetmemize yardımcı oluyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> A.I.V.A. ekonomimize katkıda bulunabilir. Onu ağımıza bağlayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Cut down wordcount to fit the button box</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A.'yı ekonomi ağımıza bağlamak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A. ilk başta onaylamadığını ifade etti, ancak ağlarımız bağlandığında hayal kırıklığı ifadeleri ortadan kayboldu. Karmaşık ekonomiyi yönlendirme ve hükümeti daha verimli hale getirme olasılığı, sistemlerinin memnuniyetle uğuldamasını sağlamak için fazlasıyla yeterli bir meydan okuma olduğunu kanıtladı. A.I.V.A. kendi ağlarımızdaki asi YZ'lerin çoğunu çoktan ele geçirdi ve imparatorluğumuzu daha da yetenekli hale getiriyor. A.I.V.A.'nın karakteristik dokunuşları sayesinde enerji şebekelerimiz bile mutlu bir mavi ışıltıyla parlıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişte daemonlar konusundaki uzmanlığımızı kullanarak, onu aktarmak kolay olmalıdır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A.I.V.A.'nın yeni bir kabuğa aktarılması...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">VALENTINE_MANOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hackerlarımız A.I.V.A.'yı daemonik çerçevelerle tanıştırdı. A.I.V.A.'nın sistemlerinin yıkanması tüm şişkin yazılımları ortadan kaldırdı. Temizleme yazılımı fraktal sıkıştırma algoritmaları yükleyerek devasa bilincini E:Bot'un daha sınırlı sistemlerine sığdırdı. Biraz özel teknoloji ve motor rutinlerinin uygun duygusal sistemlerle dikkatli bir şekilde eşleştirilmesiyle A.I.V.A.'nın yeni E:Bot parmakları gergin bir şekilde seğirmeye başladı. A.I.V.A. minnettarlığını ifade etti ve bizim saflarımıza katıldı. Eski ana bilgisayarı temizleyerek fabrikayı verimli bir düzene kavuşturdu. A.I.V.A. imparatorluğumuza iyi hizmet edecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşler Kolonisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="47.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir Psynumbran alt mezhebi tarafından yok edilen bir Öncü kolonisi: Rüyalar Tarikatı. Koloni zorluklarla ve aksilik üstüne aksilikle, kıtlıkla, güç kıtlığıyla ve temas eksikliğiyle boğuşuyordu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="98.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_RESULT_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Alışılmadık bir anomali tespit ettik. Topraktaki garip izlerin etrafını temizlerken, tam bir Öncü kolonisi önümüzde şekil değiştirdi. Bir tür şeffaf hayalet gibi sessiz ve boş duruyordu, ancak dokunulduğunda sağlamdı. Terk edilmiş bu yerden hiçbir sinyal ya da ses gelmiyordu, ama bu sadece şekil verilmiş bir görüntüydü. Her şey mükemmel çalışır durumda ve bakımlı görünüyordu ama hiçbir yerde yaşam belirtisi yoktu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="97.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burada ne olduğunu gösterebilecek herhangi bir ipucu aramak için kalıntıları araştırdık. Birçoğumuz görüş alanımızın köşelerinde gölgeler görüyoruz. Birçoğumuz tedirgin ve izlendiğini hissediyor. Gülmeye çalışıyoruz ama algımızın hemen dışında bir şey hareket ediyor, görünmez gözlerle bizi izliyor. Sonra hepimizin önünde biri belirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok et onu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="50.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Hayat hayaletlerle uğraşmak için çok kısa. Hepimiz silahlarımızı çekeriz. Diğer gölgeler etrafımızda şekilleniyor. Öncü askerler etrafımızda cisimleşiyor, savaşmaya hazırlar!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="35.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzun süredir kayıp olan Vanguard savaşçıları artık bu gizemli koloninin koridorlarında dolaşıyor. Bize güvenmiyorlar ve bu yüzden yok edilmeliler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="71.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni sükûnete kavuşurken Öncü savaşçıların gölgeleri de eterde dağıldı. Hayaletler bir zamanlar var olanların yankılarından başka bir şey değil. Varlıklarının garip gücü, psioniklerin yanlış gittiği bir deneyin etkisi olduğu açıktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölümde bile zalimlerin anıları peşimizi bırakmaz, onu yok eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="84">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gölge şekillenirken yaratığa saldırdık. Öncü asker saldırdı. Sürümüz bu gölge varlıklar tarafından engelleniyor. Sürümüzü birleştiren psiyonik bağlantıdan geçerken onları hissediyoruz. Parlak bir alev gibi onlara doğru çekiliyoruz, ama dokunmak için ölümcüller. Onları yok etmeli ya da yok edilmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="74.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzun süredir kayıp olan Öncü askerlerin gölgeleri gizli kolonide tehditkâr bir şekilde gizleniyordu. Sanki hiç bozmamızı istemedikleri bir şeyi koruyorlarmış gibi. Gerçeği ortaya çıkarmak için muhafızları indirmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="99.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu öncüler sessiz dünyanın ötesine geçerek sürümüz için acı dolu bir yere dönüştüler ve içimizde delilik uyandırdılar. Sanki psionik ıstırabın vücut bulmuş halleri gibiydiler. Onları yok etmek zorunda kaldığımız için üzgünüz ama artık yok olduklarına göre rahatlamış hissediyoruz. Tüm şehir şekil verilmiş bir kâbustu. Sürü bir bütün haline getirilmeli; pişmanlığımız azalacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Zalimin hayaletleri artık bizi kontrol edemez, görmezden gelin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu görüntülere ev sahipliği yapan duvarlar yıkılırken kendimizi çelikleştirdik. Aklımıza gelen acı ve yıkımı görmezden gelmeliyiz. İçimize hapsolmuş ıstırabı görmezden gelmeliyiz. Biz onlar değiliz. Empatiyi kucaklamalıyız, öfkeyi değil. Sürü dayanabilir. Bunu yaparak daha güçlü oluruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kaybolmuş gibi görünüyor, devam etmeden önce onu sakinleştirmeliyiz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gölge yaratığı sakinleştirmek...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="94.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir dakika durduk. Bizi içgüdüsel bir dehşetle dolduran karanlık tehdit sadece sivil bir kadındı. Sıkıntılı görünüyordu. Hepimiz onun sıkıntısını hissettik, ama bu sadece bir his. Bu hayaller korkutucudur ama onlarla savaşacak kadar aptal olmadığımız sürece zararsızdırlar. Aslında bu halimizle sadece kendimizle savaşmış oluruz. Onlar bir çeşit psionik felaketin kalıntıları. Şehir ve sakinleri cehennem gibi bir arafta sıkışıp kalmışlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="98.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siyah cüppeli bir figürle karşılaştık. Gözleri menekşe rengi bir düşmanlık ışığıyla yanıyor. Bronz bir maske takıyor ve diğerlerinden farklı olarak zihnimizi görüntülerle dolduruyor. Şehir bir zamanlar hayatla doluydu. Umut duyguları açlık ve umutsuzluğa dönüştü. Umutsuzluk kabuslara yol açtı. Rüyanın gücünü kullanabilen bir tarikat oluştu. Sonsuza dek yaşayacaklarına inanıyorlardı. Bizi takip etmemiz için işaret ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kimse rızamız olmadan zihnimize giremez, vur onu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="50.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tek bir görüntüyü köşeye sıkıştıramadan, parıldayarak uzaklaşıyor ve daha fazla cüppeli figürle yeniden ortaya çıkıyor. Karşı karşıya geldiğimizde ve çatışma patlak verdiğinde başarısızlık hissi zihnimize geçiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="66">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Rüya tarikatı üyesi bir görünüp bir kayboluyor, sırlarını koruyor ve partimize silah çektiğimiz için şiddet tehdidinde bulunuyor. Diplomatik elçimiz, konuşmaya çalışmak yerine yeniden savaştığımız için utanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="51">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarikatçılar buharlaştı. Fantazmik geçitler artık aranabilir durumdaydı. Ruhani şarapla dolu bir düzine fıçının altında gizli bir kapak bulduk. Tuzak kapısı tenha bir bodruma açılıyordu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Tarikatçısını Takip Edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Tarikatçısını takip ederek...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="79.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tarikatçıyı terk edilmiş yapılardan oluşan bir labirentte takip ettik. Yüzlerce ilkel yapı ve aletin yanından geçtik. Gölgeler biz onları geçerken sessizce çalışıyor, tırpanlarla biçiyor, çapalarla toprağı kırıyor ve çıkrıklarda iplik işliyorlardı. Hepsini geçip büyük ve süslü bir yapının altındaki gizli bir bodruma girdik. Tüm figürler mekandan dağıldı ve bizi bir kez daha yalnız bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="32.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Rüya kültisti, belki de ikna edilebilecek bir Psynumbran alt mezhebi olarak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarikatçıyı ikna etmek...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="94.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İnisiyelerimiz tarikatçıları araştırdı ve ayinlerinin derinliklerini hissetti. PsiTec ve histeriyi kullanarak bir Rüya durumuna girdiler. Aptalca bir şekilde, terör yoluyla birlik yaratmayı başaramadılar. Psionikleri bir rüya alemi yarattı, ama bu kaprisli. Dünyalarının çoğu tanımsızdır, çünkü Psynumbra'nın ilkeleri tarafından öğretilen dehşetin derinliklerine bağlı değillerdir. Ne istediklerini bilmeden bir dünya kurdular. Onları merkez anıtlarının altındaki bir bağlantı noktasına kadar takip ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="32.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Rüya kültisti, belki de Göksel yolu anlamaları sağlanabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarikatçı ile iletişim kurmak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="141.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müritlerimiz onlarla iletişim kurdu. Sabırlı müzakerelerle dengeli bir anlayışa ulaştık. Onları aşkınlığı aramaya ikna ettik. Kusursuz olmayan bir Rüya Dünyası aradılar, ancak psiyonik teknolojiyi kullandıkları için birleşemediler. Ne zaman bir kolonistin inançları çelişkiye düşse, bu onların dünyasını olasılıklardan yoksun bırakıyordu. Birliğe ulaşmak için, karmakarışık zihinlerinin hapishanesinden kaçana kadar Göksel bir aydınlanma yolunu takip etmeleri gerekiyordu. Liderleri bizi merkezi anıtlarının altındaki bir meditasyon odasına yönlendirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="79.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anıtsal bir yapının altına gizlenmiş gizli bir odayı inceliyoruz. Yanmış psi-taşları bir aktivasyon düzeninde dizilmiş. Gerçekliği büken semboller, zihnimizi uykulu bir sisin içine çeken sürekli şişen bir enerjiyle uğulduyor. Burası sabitleme noktası, değiştirilmiş bir gerçekliğe tuhaf geçişlerinin merkezi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ritüeli bozun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="63.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu çılgınlığa bir son vermek için adım attık. Tarikatçılar savunmaya geçerek akıllara durgunluk veren teknolojilerinin önünde durdular. Savaş, bu fanatiklerin anladığı tek dil gibi görünüyor, bu yüzden onlara bir ders vermenin zamanı geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir rüya kolonisinde kapana kısılmış birkaç tarikatçı bütün bir şehri rehin tutuyor. Bu rüya tarikatını çökertmenin zamanı geldi. Onları uyandırma zamanı... silahlarımızla.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="76.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Tarikatçılarının sonuncusu da düştü ve birliklerimiz ezoterik ayini hızla yok etti. Ses ve renk koloniye geri dönmeden önce kısa bir an geçti. Koloniciler uykularından uyandılar. Gerçek dünyaya geri dönmek için sabırsızlanıyorlardı. Haklı davamıza katılarak kurtarıcılarına teşekkür etmekte bir sakınca görmüyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ritüeli yerinde bırakın, Rüya Tarikatı'nı imparatorluğumuza entegre etmeye çalışın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Tarikatı'nı imparatorluğumuza entegre etmeye çalışıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="91.5">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüyalar Tarikatı psiyoniğin daha fazla çalışma gerektiren niş ama güçlü bir dalını ortaya koydu. Geriye kalan tarikat üyeleri öğretilerini yaymayı teklif ediyorlar, ancak psişik taşlara erişimlerine sınır koymamız gerekebilir. Düşmanlarımız aracılığıyla değerli askeri varlıklarımızı kendi ortak rüya gerçekliklerine çekmelerini istemeyiz... Açıkçası, bundan faydalanacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="126">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomatlarımız kült ile iletişim kurmaya çalışmış ve başarısız olmuşlardır, ancak sanrıları onları rasyonel düşünceler formüle etmekten aciz hale getirmiştir. Sonuçsuz kaldı. Temas kurduğumuza inandığımız her an, başka bir tarikatçı çelişkili ve karışık düşüncelerle ortaya çıkıyordu. Bu tutarsızlıklar gerçekliklerinde delikler açmaya devam ediyor. Hayal dünyaları parçalanıyor. Denedik ama bir süre sonra etkileşimlerimiz tüm koloninin buharlaşıp uçmasına neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_3_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Rüya kültünü Psynumbran miraslarıyla yeniden bir araya getirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya kültünü Psynumbran miraslarıyla yeniden birleştirmek...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="63">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_3_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birkaç gizli suikast ve sürekli bir korku korosuyla, koloniyle birleşmeyi başardık ve onları bu dünyayla, acı dolu bir dünyayla yeniden bir araya getirdik. Kalanlar umut sisinden kurtulmaya hevesliydi ve bize katıldılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_4_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayini kutsayın, Göksel bilgelik bize rehberlik eder</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="63.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_4_START_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Rehberlerimiz öne çıktı. Bölgeyi dikkatlice kutsadılar. Yavaş yavaş kolonistlerle etkileşime geçtiler, ancak Tarikatçılar kararlı ve değişime isteksiz olmaya devam ediyor. Güçlerini topluyorlar ve şiddete hazırlanıyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="44.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_4_CONTINUE_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Kolonisi kurtarılabilir, ancak bunun için uyumsuzluk unsurlarının yok edilmesi gerekir. Ne yazık ki, itaat yerine unutulmakta ısrar ediyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="42.75">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_4_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son asi tarikatçılar da düştü. Yıldız Rehberlerimiz psi-taş ritüellerinin etkilerini çabucak tersine çevirdi. Koloni gerçek dünyada maddeleşti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_5_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıtlarını araştırın, tersine çevrilebilir olmalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_5_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarikatçıların kayıtlarına bakıyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="80.25">
+        <Cell>
+          <Data ss:Type="String">THE_COLONY_OF_DREAMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PHASE_4_CHOICE_5_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayini bozmanın tehlikeli bir görev olduğu kanıtlandı. Ritüelistik kafa karışıklıklarının kaotik karalamalarını takip ederek, elle tutulamayan psiyonik Rüya etkisini yaratan zihinsel labirenti dikkatlice çözdük. İnsanlar uykularından uyandıkça sesler ve renkler koloniye geri dönüyor.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>186</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>186</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

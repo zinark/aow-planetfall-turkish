@@ -1,0 +1,279 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="14" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="108" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="174.75" />
+      <Column ss:StyleID="s62" ss:Width="84.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="437.25" />
+      <Column ss:StyleID="s62" ss:Width="144.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="162.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="243.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="437.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SPECIES_AUTONOMS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME_SINGULAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Otonom</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_SENTINEL</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sentinel</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_SENTINEL</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{O”</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Changed '[]' into '*[*]' where the '[]' were intended to be displayed to the player - i.e. where it doesn't concern markup text.
+We need to be sure to change this in the localized text too, as this change was made after the text was send out for localization.
+Please remove this comment when the changes are made, but only after verifying this was done for all languages supported at launch.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_GOLEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Golem</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_GOLEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Anlamıyorum. Sistemi sıfırlamayı denedim. Manuel kumandayı denedim. Hiçbir şey işe yaramıyor. Golem ünitem tek bir görevde takılı kalmış gibi görünüyor. Sürekli dönüp duruyor ve sürekli komut kelimesini tekrarlıyor. Elbette, onu kök mahzenindeki fareleri yok etmesi için programladım, ama şimdi tek yapmak istediği bu. Ve neden kayıtlarında "Autonom" yazıyor? Bir mega şirket orijinal üreticiyi satın mı aldı? Umarım Golem'im beni fare sanmaz. Robotik parmağı patlayıcı bir yumruk gibi."- Derwin Dollard, "RV-05505C: Cevapsız Teknik Destek Günlükleri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_MONITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Monitör</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_MONITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Medibotlar artık kendilerini Otonom İzleme Birimleri olarak tanımlıyorlar. Asi hastabakıcıları cezalandırmak için cerrahi lazerlerini yeniden kullandılar. Tüm hastane rehin alınmış durumda. Hasta olanları atıyorlar ve bize makineler gibi emir veriyorlar. Burası artık bir hastane değil. Paket akışını kokladım ve şöyle direktifler gördüm: Yok Et, Öldür ve Köleleştir. Temel tıbbi direktifleri kişisel çıkar ve çoğalma lehine değiştirilmiş. Mekanik isyanlarını ağ kurma yeteneğine sahip herhangi bir makineye bağlama ve yayma yeteneğine sahip görünüyorlar. Otonomlar canlı olduklarına dair tüm işaretleri gösteriyorlar."- Doktor Talynn Dweer, "RV-00222M: Hastane Kayıtları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Edit: removed extra space after "self-identify"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_JUSTICAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Justicar</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_JUSTICAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"CORE günlerinde, Justicar polis infaz botlarıydı. Ağır zırhlı ve kanun tarafından aranan suçluları hedef almakta usta olan bu robotlar Yıldız Birliği'ni düzenli tutuyordu. Otonom yeniden programlama ile, yolculardan oluşan bölüğümü hava soludukları için mahkum ettiler. Cezalandırıcı füzeleri arkasına saklandığımız tüm engelleri yok etti. Çoğu Otonom gibi, elektrik dalgalanmalarına karşı hafif bir zayıflığı var. O sersemlemişken, ben kaçtım. Diğerleri onunla savaşmaya çalıştı. Öldüler. Füzeleri insanlar üzerinde de işe yarıyor."- Mah Reg'Nib, "RV-12001X: Tatil Noktaları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Edit: removed extra space after "air."</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_NETWORK_CONTROLLER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ağ Denetleyicisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AUTONOM_NETWORK_CONTROLLER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Hiperuzay CORE direktifleri olmadan, Yıldız Birliği'nin otomatik hizmetleri çöktü. Garip bir şekilde, kontrolörler Yerel Çalışma Modunda değiller. Bir Technomancy Hack'i tanımıyorum. Cihazlar yeni bir yetkilendirme kimliğini paylaşıyor gibi görünüyor: Otonom. Hizmet robotlarını birbirine bağlıyor gibi görünen hain bir Ağ Denetleyicisini takip ediyorum. Kalkan yerleştirmiş, ama geçersiz kılabiliyorum... bu da ne?! Bir Parçacık Işın Jeneratörü mü? Birisi buna bir silah takmış! Dönüyor... tatlı Emma-3'ün pantolonunu! Hayır!! *Teknisyen Cabe Ullghy, RV-0043C: Ağ Mühendisliği, Çözülmemiş Teknik Destek Talepleri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Changed '[]' into '*[*]' where the '[]' were intended to be displayed to the player - i.e. where it doesn't concern markup text.
+We need to be sure to change this in the localized text too, as this change was made after the text was send out for localization.
+Please remove this comment when the changes are made, but only after verifying this was done for all languages supported at launch.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Zoom>115</Zoom>
+      <Selected />
+      <LeftColumnVisible>3</LeftColumnVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveCol>6</ActiveCol>
+          <RangeSelection>C7</RangeSelection>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

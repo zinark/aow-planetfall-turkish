@@ -1,0 +1,697 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>KyleB</LastAuthor>
+    <LastSaved>2019-03-01T12:58:16Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12795</WindowHeight>
+    <WindowWidth>32760</WindowWidth>
+    <WindowTopX>32760</WindowTopX>
+    <WindowTopY>32760</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66" ss:Parent="s62">
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="41" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="106.5" />
+      <Column ss:StyleID="s63" ss:Width="90" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="422.25" />
+      <Column ss:StyleID="s63" ss:Width="144.75" />
+      <Column ss:StyleID="s63" ss:Width="176.25" />
+      <Column ss:StyleID="s63" ss:Width="117.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="422.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SPECIES_DVAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME_SINGULAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Dvar</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME_PLURAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Dvar</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="113.25">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" ss:HRef="">
+          <Data ss:Type="String">{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT} [br/]  [br/]  [bulletList]  [bullet]  [sand] Starting Bonus: [/sand]  Start with +150 [energy/]  [hyperlink,000003AC00000023]Energy [/hyperlink]  [/bullet]  [bullet]  [sand] Long-Term Bonus:  [/sand]  [hyperlink,000003AC0000029D]Acele Üretim [/hyperlink]  %15 daha ucuz [/bullet]  [bullet] [hyperlink,0000039E0000000F]Ateşli Silahlar [/hyperlink]  Silah Grubu [/bullet]  [bullet] [hyperlink, 000003AC00000293]Patlayıcı [/hyperlink]  Silah Grubu [/bullet]  [bullet] Güçlü etki alanı ve orta menzilli saldırılar [/bullet]  [bullet] Üretime güçlü odaklanma [/bullet]  [bullet] Dağları yok etmek ve oluşturmak için yeniden biçimlendirme seçenekleri [/bullet]  [/bulletList] </Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="51">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION_SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">[hyperlink,0000039E0000001A]Dvar[/hyperlink] hayatta kalmaya çalışan tutumlu bir ırktır. Dvar'lar, Konsorsiyumlarının hayatta kalması ve refahı için mümkün olduğunca çok kaynak elde etmek amacıyla gezegenlerde madencilik yapmak için çok çalışırlar.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="16.5">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Dvar Yerleşimi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="29.25">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir yerleşim, yeterli nüfuza sahipseniz size katılabilecek küçük bağımsız bir kolonidir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="18.75">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Göç Kolonisi: Dvar</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="64.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu koloninin nüfusunu Dvar'a göç ettirin Koloni bir Dvar kolonisi haline gelecektir. [br/][br/][fireCol]Nüfusu göç ettirerek, koloninin {PopulationDeath} kolonistleri öldürülecektir.[/fireCol] [br/][br/]Şunları alırsınız:[br/][fireCol]{Reputation} İtibar[br/]{RaceRelation} {STR_raceName}[/fireCol] ile Irk İlişkisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">IN_PROGRESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Koloni şu anda bir Dvar popülasyonuna taşınıyor. İşlem [INT_duration]'de tamamlanacaktır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="19.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CONFIRMATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu koloniyi bir Dvar kolonisine taşımak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TRENCHER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Trencher</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TRENCHER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Maden makinelerinin ritmik tıkırtılarını duydum ve sesi takip ederek tünelden aşağıya doğru koştum. Genelde Dvar'larla takılmam, çünkü onlar madenciliği gerçekten severler ve ben topraktan hoşlanmayı zor bulurum. Ama böcekler izimi sürerken, yeni bir arkadaş seçtim. Neyse ki Dvar'ın hendek kazıcıları vardı. Uyarım üzerine savunma siperleri kazdılar. Kalkanları havadayken, böcekler kalkan darbelerinin gücüyle geri püskürtüldü. Çivili silahları düşmanın doğal zırhında delikler açarak yaratıkları geri çekilmeye ya da ölmeye zorladı."- Mah Reg'Nib, Gözlemci Subay, "RV-2246X: Dvar Günlükleri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: removed extra space after "sound."
+Edit: Dvartian -&gt; Dvar</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">FOREMAN</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ustabaşı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">FOREMAN</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Ustabaşı olarak patron benim. Astlarımdan kendim yapamayacağım hiçbir şeyi istemem. Kendime efsanevi Forgemaster Dvarnos'u örnek alırım. Dağın kalbine uzandı ve İmparatorluk Eldiveni'ni çıkardı. Eldivenimin gücüyle, adamlarım karanlık derinliklerde gizlenen şeytanların dehşetine karşı güçlü dururlar. Adamlarım kırıldığında, onları onarırım. Havan topumla, uzaktan yok etmek için bir saldırı düzenleyebilirim. Yumruğumun gücüyle hem kayaları hem de canavarları kırarım."- Ustabaşı Gorgle Grok, "RV-32344M: Düşman Mayınları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Empire -&gt; Empires</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PROSPECTOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Prospektör</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PROSPECTOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Öldürmenin zaferi yoktur. Fethetmenin erdemi yoktur. Yapacak işlerim var. Bu evren zengin ve kullanılmamış. Dvar şekillendiriyor. Dvar'ın kötü bir amacı yok. Bu sizsiniz. Hiperuzayı mahvederek, Boşluk kapılarını G-Bombalamadık. Yıldız Birliği olsun ya da olmasın, her zaman işimiz var. Benim işim toplumumu iyileştirecek. İşte bu kadar. Evet, bomba atabilirim ama buna aşık değilim. Ben bir maden arayıcısıyım. Zengin bir cevher damarını çıkarmaktan daha çok sevdiğim bir şey yok."- Maden Arayıcısı Darton Nan, "RV-2244D: Dvar Vakaları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: I've -&gt; I have
+Edit: Dvarton -&gt; Darton</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENFORCER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bulwark</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENFORCER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Dvar madencilerinin kaçmasına yetecek kadar uzun süre kuvarsitle dolu yağmacıları püskürtmek için uyarlanan Bulwark, özellikle düşman ilerleyişini geciktirme konusunda müthiş. İlk karşılaşmamızda onun modifiye edilmiş bir Walker olduğunu düşünmüştük ancak Bulwark'ın üzerindeki silah, çoğu askeri sırt üstü yere seren patlayıcı bir mermi atar. Onun savunma kabiliyetlerini de homurdanarak saldırma tekniğiyle alt etmeye çalışmayın. Normal muhafız kuvvetlerinin bu kadar hızlı saldıracak zamanı olmazken, bir tanesinin yanından hızla geçmeye çalışan istilacılara saldırdığını gördüm."- Yüzbaşı Paxus Plexis, "RV-378M: Askeri Analiz Raporu: Dvar"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">EXCAVATOR_TANK</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ekskavatör Tankı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">EXCAVATOR_TANK</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Tankları yok ettim ama Dvar Ekskavatörü bir zırh kaplama külçesi bile olabilir. Bu şey çok sağlam. Çoğu engelin üzerinden hologrammış gibi geçiyor. Mekanik yürüyüşçümle bir tanesine karşı durmayı denedim; beni kıçımın üstüne devirdi. Kaynak mühendisleri ona yaklaşamaz. Alev püskürtücülerden oluşan savunma halkası ona bitişik olan her şeyi tutuşturur. Topu, en sağlam ayaklı askerin bile dizlerinin üzerine çökmesine neden olan bir Dvar patlayıcı patlaması sağlar."- Yüzbaşı Paxus Plexis, "RV-376M: Askeri Analiz Raporu: Dvar"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ROCKET_ARTILLERY</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Roket Topları</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ROCKET_ARTILLERY</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Zıpzıp Tepesi, Sundew Vadisi'nin baş belasıydı. O yuvada yüzlerce zıpzıp köpeği yaşar ve toplumu tehdit ederdi. Dvar diplomatı, doğal bir yok edici olan bir teyzesi olduğunu söyledi. Güldüm ve 'Şişko Olga'nın vadiye girmesine izin veren belgeleri imzaladım. Daha sonra ağır bir paletli araç gürleyerek göründü. Peş peşe patlayan bombaların ardından tüm zıpzıp inleri yerle bir oldu. Hopper Tepesi'nden geriye sadece büyük bir krater kalmıştı. Şişman Olga yerleşim yerimize doğru dönerken Dvar 'diplomat' hınzırca kıkırdadı. İşte o zaman özgürlüğümüzden vazgeçtiğimi anladım."- Patchery Mazz, "RV-6993D: Sundew Vadisi'nin Teslimiyeti"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Hopperhounds -&gt; hopperhounds
+Edit: Hopperhound -&gt; hopperhound</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">EARTH_CRUSHER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Toprak Kırıcı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">EARTH_CRUSHER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Dvar'lar karşılaşma kıyafetlerinin altındaki canavarlar değildir. Refaha, klana ve icatlarına değer verirler. Eğer bir kusurları varsa, o da dünyaları değiştirilebilir parçalarla dolu makineler olarak görmeleridir. Bir Dünya Kırıcı ile kaçtım. Canavar makine topraktaki her şeyi süzerken, ben de ekstrüderin yanına gizlice gittim. Toprak Kırıcılar düşmanları yakalamak için çekici kirişler kullanarak her şeyi içeri çeker. Devasa dişliler öğütüyor, demirhaneler duman püskürterek ham maddeleri değerli bileşenlere dönüştürüyor. Arkasında çorak bir cüruf izi bırakır. Açlıktan ölmezsem bu çöpler mükemmel bir saklanma yeri."- Mah Reg'Nib, "RV-2390X: Dvar Chronicles"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: sneaked -&gt; snuck
+Edit: Dvartian -&gt; Dvar</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SAPPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Sapper</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SAPPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Ne zaman madencilik için arazi açsak yerli kadınlar işçilerimize saldırıyor. Ağaçların arasında kayboluyorlar ve vahşice saldırıyorlar. Oligark onları püskürtmek için silahlarımızı geliştirmeyi reddediyor. Kâr marjları çok dar.  Dün, bir Sapper'a atladım ve yerleşim yerlerine doğru sürdüm. Toprağın altında kaldığım için vurulması zor bir hedeftim. Kök engellerinin arasından tünel açtım ve sismik bir saldırı başlattım. Doğal örtü paramparça oldu. Birçok orman cadısı sersemledi. Askerler kazdığım siperde siper alarak beni takip etti. Virga ormanları yakında bize ait olacak."- Sapper Stogie Glurp, "RV-8038M: Virga'nın Hasadı"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RAMJET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ramjet</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RAMJET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Roketler olmasaydı, onu uçuramazdım. Ben Dvar'ım, narin bir uzay denizanası değilim. Uzayda uçuşmaya ihtiyacım yok. Motorlarımızın gürültüsüyle yeryüzünü ve toprağı hareket ettirmek kadar tatmin edici bir şey yok. Tüm ihtişamıyla makinelerin gücünü kim sevmez ki? Yine hiçbir şey Ramjet'in burun bloğu hafif düşman uçaklarını ezip geçerken art yakıcıların tam kükremesi gibi hissettiremez. Gemisi kontrolden çıkarak uzaklaşırken paniğe kapılan pilotun yüzündeki ifadeyi izlemeyi seviyorum."- Esir Pilot, Guett Wrek't, "RV-3904M: Kanun Kaçaklarının Tanıklığı"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">BARON</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Baron</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">BARON</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Dvar Baron Durek'e hizmet ettim. Zeki ve çalışkandı. Gece gündüz çalışır, savaş giysisini geliştirir, son kullanma tarihi geçmiş teknolojiyi en yeni tehlikeli silahlarla değiştirirdi. Baronlar her yıl Soylu Şampiyonluk Kemeri'ni almak için kıyasıya mücadele eder. Yine de bu spor Durek için bir amaçtan yoksundu. Bu yüzden, huzursuz Baron savaş giysisini savaş alanında kullandı. Zayıf Dvar birliklerini desteklemek için kıyafetini tamir takımlarıyla donatmasını önerdim. Bir Dvar efsanesi oldu. Tüm birlikleri klanı için zafer kazandı. Artık tüm Baronlar bir amaç uğruna ve en son teknoloji yükseltmelerini denemek için savaşıyor."- Mah Reg'Nib, "RV-2255X: Dvar Chronicles"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Dvartian -&gt; Dvar
+Edit: purpose -&gt; a purpose
+Edit: Dvartian -&gt; Dvar</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">IRONCLAD</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ironclad</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">IRONCLAD</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Dvar Ironclad, aşırı yüklü bir hazine mavnası gibi suda alçakta yüzüyordu. Korsan gemileri onu takip ediyordu. Sayı tehdidini göz ardı eden Ironclad, öncü gemiye çarptı ve vurucu bir çatırtıyla çarpıştı. Yağmacının gemisi alabora oldu ve battı. Diğerleri onu kuşatmaya çalışırken, Dvar Döner Topu bir başka korsan gemisini yok etti. Dvar gemisini çevreleyen liman delikleri açıldı ve bitişikteki tüm gemilere yıkıcı bir yakınlık yaylım ateşi açtı. Duman dağıldığında sadece Dvar Ironclad uzaklaşmıştı."- Merrill Ludwing, Donanma Gözcüsü, "RV-4422M: Açık Denizlerde Gözlemler"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DREADNOUGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Dreadnought</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DREADNOUGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Dvar gemileri Dretnot'un etrafını sardı. Devasa cüssesi gemimizin topçusu için kolay bir hedef gibi görünüyordu. Sarsıcı bir geğirme sesi duyuldu. Bölgeye en yakın adamlar boğulmaya başladı. Yoğun duman perdeleri Dretnot'u ve yakın çevresini gizledi. Bulutların içindeki gemiler gürleyen toplarını serbest bıraktı. Deniz etrafımızda kaynıyordu. Ateşe karşılık vermeye çalıştık ama hasarı net bir şekilde değerlendiremedik. Amiral Reams, artık kazanıyor muyuz yoksa sadece denize mi gömülüyoruz anlayamadığımız için geri çekilme çağrısı yaptı."- Kaptan Lars Sitwell, "RV-44499M: Ticaret Yolları"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOMBARD</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombardıman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOMBARD</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombardıman uçakları Dvar savunma kuleleridir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PLANET_ARRIVAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar Konsorsiyumu'nun yöneticileri olarak, gerçek değeri bulmak için derinlere inmek gerektiğini biliyorsunuz. Yıldız Birliği'nin çöküşü sizi misafirperver olmayan dünyalarda mahsur bıraktı. Bu durum sizin demir gibi iradenizi ve ateşli kalplerinizi güçlendirdi. Konsorsiyumunuz geçmişin hazinelerini çıkarmak için yeniden ortaya çıkarken, makinelerinizi nereye gönderdiğinize dikkat edin. Her şey kâr uğruna ezilmeyi ve işlenmeyi hak etmiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: "Consortia you know one" -&gt; "Consortia, you know that one"</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>3</TopRowVisible>
+      <LeftColumnVisible>1</LeftColumnVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>7</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

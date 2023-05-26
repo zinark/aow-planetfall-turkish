@@ -1,0 +1,3324 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Bas Staffhorst</Author>
+    <LastAuthor>KyleB</LastAuthor>
+    <Created>2018-10-11T14:16:57Z</Created>
+    <LastSaved>2019-02-12T15:49:23Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>8880</WindowHeight>
+    <WindowWidth>23565</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="283" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="204.75" />
+      <Column ss:StyleID="s62" ss:Width="200.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="331.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="209.25" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUSEFFECTS_UNITPROPERTIES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_TYPE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ark</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">BIOCHEMICAL_TYPE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Biyokimyasal</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_TYPE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kinetik</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_TYPE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Termal</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_TYPE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Psionik</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_EMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">EMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_EMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">[abilityred]Stagger[/abilityred] direnç hariç tüm Mekanik birimler.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_EMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_STACK_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">[abilityred]Stagger[/abilityred] bağışıklık hariç tüm Mekanik birimler.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_STATIC_CHARGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Statik Yük</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_STATIC_CHARGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{StaticTurns}[turn/] için bir yığın [abilityred]Statik Yük[/abilityred] uygular.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_STATIC_CHARGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu ünitede yığın başına -{ArcStaticWaveResistance}[DefenseWave/] vardır.[br/]{StackAmount} kata kadar istiflenebilir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARC_STATIC_CHARGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{StaticChance} birimlere [abilityred]Statik Yük[/abilityred] uygulamak için {durationStaticCharge}[turn/] güç şansı.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STUNNED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sersemletme</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Stun as in to paralyze or render senseless.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STUNNED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birim hareket edemez veya eylem kullanamaz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STUNNED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sersemlemiş</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STUNNED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{StunChance} güç şansı ile {durationStun}[turn/] karşılığında Eterik olmayanlara [abilityred]Sersemletilmiş[/abilityred] uygulayın. Direnilirse, bunun yerine {chargeTurns}[turn/] için [abilityred]Statik Yük[/abilityred] uygular.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_INSANITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Delilik</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_INSANITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{InsanityChance}[StrengthPsyche/] güç şansı ile {durationInsanity}[turn/] karşılığında Akılsız olmayan birimlere [abilityred]Akılsızlık[/abilityred] uygulayın. Direnilirse, bunun yerine[abilityred]Broken Mind[/abilityred] uygulayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_INSANITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birim birimlere rastgele saldırır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_BROKEN_MIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kırık Akıl</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">As in left disoriented and in delusion.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_BROKEN_MIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{BrokenMindChance}[StrengthPsyche/] [abilityred]Broken Mind[/abilityred]'yi {durationBrokenMind}[turn/] için Akılsız olmayanlara uygulama gücü şansı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_BROKEN_MIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu ünitede istif başına -{BrokenMindResistance}[DefensePsyche/] ve -{BrokenMindMorale} vardır.[br/]{StackAmount} kata kadar istiflenebilir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_CATATONIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Katatonik</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_CATATONIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{CatatonicChance}[StrengthPsyche/] güç şansı ile {durationCatatonic}[turn/] karşılığında Akılsız olmayan birimlere [abilityred]Katatonik[/abilityred] uygulayın. Direnilirse, bunun yerine [abilityred]Broken Mind[/abilityred] uygulayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_CATATONIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birim herhangi bir yetenek kullanamaz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_MIND_CONTROL</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Zihin Kontrolü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_MIND_CONTROL</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{MindControlChance}[StrengthPsyche/] güç şansı [abilityred]Zihin Kontrolü[/abilityred]. Başarılı olursa, birim sizin kontrolünüz altına girer. Direnilirse, bunun yerine [abilityred]Broken Mind[/abilityred] uygulayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Your" is towards the player. This can be either male or female.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_MIND_CONTROL</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birim zihin kontrolünden geçirilmiş.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_BASIC_PANIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Panik</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_BASIC_PANIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{PanicChance}[StrengthPsyche/] güç şansı [abilityred]Panik[/abilityred]'ye {durationPanic}[turn/] için Akılsız olmayan.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_PANIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Panik</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_PANIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{PanicChance}[StrengthPsyche/] güç şansı [abilityred]Panik[/abilityred] için Akılsız olmayanlara {durationPanic}[turn/]. Direnilirse, bunun yerine [abilityred]Broken Mind[/abilityred] uygulayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_PANIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{durationPanic}[turn/] için Akılsız olmayanlara [abilityred]Panik[/abilityred] için {PanicChance}[StrengthPsyche/] güç şansı. Direnilirse, bunun yerine [abilityred]Stagger[/abilityred] uygulayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PSIONICS_PANIC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birim kaçıyor ve kontrol edilemiyor.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_CONCUSSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Sarsıntı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_CONCUSSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{ConcussionChance}[StrengthPhysical/] güç şansı ile [abilityred]Sarsıntı[/abilityred]'yi {durartionConcussion}[turn/] karşılığında Eterik veya Mekanik olmayanlara uygulayın. Direnilirse, bunun yerine [abilityred]Şiddetli Darbe[/abilityred]'ye neden olur.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_CONCUSSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_NOSTAGGER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{ConcussionChance}[StrengthPhysical/] güç şansı [abilityred]Sarsıntı[/abilityred]'yi {durartionConcussion}[turn/] için Eterik veya Mekanik olmayanlara uygulamak için.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_CONCUSSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim eylem veya hareket kullanamaz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_BLEEDING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kanama</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_BLEEDING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{BleedingChance}[StrengthPhysical/] Biyolojik veya Sayborg hedeflere [abilityred]Kanama[/abilityred] uygulamak için {durationBleeding}[turn/] güç şansı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">KINETIC_BLEEDING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birim Kanıyor, -{KineticResistanceDown}[damagePhysical/] dirence sahip ve her [turn/]'de {BleedingDamage}[damagephysical/] hasar alıyor</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_SHIELDS_OVERHEAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kalkanlar Aşırı Isınıyor</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_SHIELDS_OVERHEAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{ShieldOverheatChance}[StrengthThermal/] uygulamak için [abilityred]Kalkan Aşırı Isınma[/abilityred] savaşın sonuna kadar.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_SHIELDS_OVERHEAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION_NO_CHANCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">İsabet başına {amount}[shield/]'yi yok eder.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BURNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Yangın Çıkarıcı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BURNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{BurningChance}[StrengthThermal/] güç şansı, {durationBurning}[turn/] için Eterik olmayan ve Mineral olmayan hedeflere [abilityRed]Yanan[/abilityRed] uygulamak için.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BURNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Yanan</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BURNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Yanan</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BLIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kör</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BLIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{BlindChance}[StrengthPhysical/] güç şansı ile [abilityRed]Blinded[/abilityRed]'yi {durationBlind}[turn/] karşılığında Eterik olmayan hedeflere uygulayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BLIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kör</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BLIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birimin isabet oranı {BlindAccuracyReduce} kadar azalır ve Overwatch kullanamaz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_BLIND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{BlindAccuracyReduce} daha az doğruluk.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARMOR_PENETRATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Zırh Delme</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ARMOR_PENETRATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bypass {ArmorPenetrationIgnore}</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MASSIVE_ARMOR_PENETRATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Devasa Zırh Delme</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MASSIVE_ARMOR_PENETRATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bypass {ArmorPenetrationIgnore}</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MASSIVE_DEFENSE_PENETRATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Büyük Savunma Bypass'ı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MASSIVE_DEFENSE_PENETRATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{DefensePenetrationIgnoreArmor} ve {DefensePenetrationIgnoreShields}'yi baypas edin</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_CHARRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kömürleşmiş</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_CHARRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{CharredChance}[StrengthThermal/] için [abilityred]Charred[/abilityred]'yi Eterik olmayan, Mineral olmayan ve Mekanik olmayan hedeflere uygulamak için {durationIrradiation}[turn/] güç şansı.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_CHARRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu birimde yığın başına -{CharredResistance} vardır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_IMMOLATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Immolate</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_IMMOLATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">İmmolated</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_IMMOLATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{ImmolateChance}[StrengthThermal/] güç şansı [abilityred]İmmolated[/abilityred]'yi {durationImmolated}[turn/] için Mineral olmayan veya Eterik olmayan hedeflere uygulamak için.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">THERMAL_IMMOLATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">A0[5]9Z[thermal/] güç şansı [turn/]İmmolated{ImmolateDamage}'yi A0[6]9Z{EvasionReduction} için Mineral olmayan veya Eterik olmayan hedeflere uygulamak için.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="71" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_ARMOR_MELT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zırh Eritme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_ARMOR_MELT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION_NO_CHANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İsabet başına {amount}[armor/]'yi yok eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_POISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_POISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehirlenmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_POISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PoisonChance}[StrengthBio/] Biyolojik veya Cyborg hedeflere [abilityred]Zehir[/abilityred] uygulamak için {durationPoison}[turn/] güç şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_POISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim [turn/] başına {PoisonDamage} alıyor ve -{NegativeMorale}[anger/]'ye sahip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_SLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yavaş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_SLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SlowChance}[StrengthPhysical/] güç şansı [abilityred]Slow[/abilityred]'yi {durationSlow}[turn/] için Ethereal olmayan birimlere uygulamak için</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_SLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin hareket puanları [abilityred]En Yavaş[/abilityred] hareket hızına düşürülür, 16[movewalk/] ve 1 hex depar atar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_DEBILITATING_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zayıflatıcı Enfeksiyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_DEBILITATING_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DebilitatingChance}[StrengthBio/] Biyolojik ve Sayborg hedeflere [abilityred] Zayıflatıcı Enfeksiyon[/abilityred] uygulamak için {durationDebilitating}[turn/] güç şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_DEBILITATING_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A0[5]9Z{DebilitatingAccuracyDebuff} Biyolojik ve Sayborg hedeflere {DebilitatingMoraleDebuff} Zayıflatıcı EnfeksiyonA0[3]9Z uygulamak için A0[6]9ZA0[4]9Z güç şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_PARASITIC_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parazit Enfeksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_PARASITIC_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ParasiticChance}[StrengthBio/] güç şansı, savaşın sonuna kadar Biyolojik ve Cyborg birimlerine [abilityred]Parazitik Enfeksiyon[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_PARASITIC_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin {ParasiticMoraleDebuff} ve -{ParasiticBioResistance} hasar direnci vardır.[br/]Avaştan sonra, bu birim, onu enfekte eden kişinin uygun Xenoplague teknolojisinin kilidi açıksa bir Xenoplague birimine dönüşebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blighted</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{BlightedChance}[StrengthBio/] Biyolojik ve Cyborg hedeflere [abilityred]Blighted[/abilityred] uygulamak için {durationBlight}[turn/] güç şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{BlightedDamagePerTurn}[DamageBio/] Biyolojik ve Cyborg hedeflere [turn/]Blighted{BlightedMoralePenalty} uygulamak için A0[6]9Z{BlightedAccuracyReduction} güç şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEBUFF_MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{BlightedAccuracyReduction} azaltılmış doğruluk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_DEMOLISHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Demolisher</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_DEMOLISHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DemolisherDamage} engellere ek hasar verir. Güçlendirilmiş engelleri yok edebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_JUGGERNAUGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Juggernaut</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_JUGGERNAUGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim yavaşlatılmış olmasına rağmen engellerden geçebilir ve engelleri yok edebilir. Bu, güçlendirilmiş engeller için geçerli değildir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_UNSTOPPABLE_JUGGERNAUGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durdurulamaz Juggernaut</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_UNSTOPPABLE_JUGGERNAUGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim engellerden geçebilir ve engelleri yok edebilir. Bu, güçlendirilmiş engeller için geçerli değildir. Birim bu sayede yavaşlamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GENERAL_SUPERIOR_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üstün Overwatch</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_SUPERIOR_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SuperiorDamage} Overwatch'ta ek hasar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GENERAL_SUPERIOR_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, görüş alanı içinde hareket eden veya saldıran bir düşmana otomatik olarak ateş ederek {SuperiorOverwatch} hasar vermesini sağlayan Üstün Gözetim'e girebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GENERAL_UNLIMITED_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çevik Overwatch</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_UNLIMITED_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu birim Overwatch'a girdiğinde, gerçekte kaç tane olduğuna bakılmaksızın, her zaman tam eylem puanına sahip olduğu kabul edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMPROVED_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geliştirilmiş Overwatch</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMPROVED_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ImprovedDamage} Overwatch'ta ek doğruluk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMPROVED_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Geliştirilmiş Gözetleme'ye girebilir ve Gözetleme'deyken görüş alanı içinde hareket eden veya saldıran bir düşmana otomatik olarak {ImprovedOverwatchAccuracy} isabetle ateş etmesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ücretlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın dövüş saldırıları, birim saldırıdan önce en az {ChargeHexes} hex hareket etmişse {damage} daha fazla hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim en az {ChargeHexes} hex hareket ederse {damage} hasar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_SUPER_HEAVY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süper Ağır Silah</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_SUPER_HEAVY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SuperHeavyDefenseBypass}[armor/] ve [shield/]'yi baypas edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMMOBILIZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareketsizleştirmek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMMOBILIZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ImmobilizeChance}[StrengthPhysical/] [abilityred] uygulamak için güç şansı {durationImmobilize}[turn/] için hareketsiz[/abilityred]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMMOBILIZED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareketsizleştirilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_IMMOBILIZED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim hareket edemez, ancak yine de eylem gerçekleştirebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_OBSCURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karartılmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_OBSCURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {ObscuredAccuracyTarget} vurması daha zor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_LIGHTLY_OBSCURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hafif Karartılmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_LIGHTLY_OBSCURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {LightObscuredAccuracyTarget} vurması daha zor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_TARGETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_TARGETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {TargetedAccuracyPenalty} daha kolay vurulur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_EXPOSED_FLANKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açıkta Kalan Kanatlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_EXPOSED_FLANKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birime yönelik yan saldırılar {ExposedArmorIgnore}'ye kadar göz ardı edilir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Devre dışı bırak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim eylemleri kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GENERAL_DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DisableChance}[StrengthPhysical/] uygulamak için güç şansı [abilityred]Disable[/abilityred] için {durationDisable}[turn/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_MELEE_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_MELEE_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm [shield/]'yi baypas edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_PSIONICS_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psionik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_PSIONICS_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm [armor/]'yi baypas edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AIR_TO_AIR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anti-Hava</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="33.75">
+        <Cell>
+          <Data ss:Type="String">AIR_TO_AIR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anti-Hava</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_LONG_REACH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzun Erişim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERAL_LONG_REACH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçan birimleri hedefleyebilir</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="135" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SUPERHEAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Isıtılmış Gaz Bulutu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SUPERHEAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler bu hex'ten geçerken veya sıralarını bu hex'te bitirirken {SuperheatHazardDamage} alırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SUPERHEAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bulutun içinden geçen veya sırasını bu bulutta bitiren birimler {GasDamage} hasarı alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_TALLGRASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzun Boylu Büyüme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_TALLGRASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu hex üzerindeki birimlerin vurulması {TallgrassAccuracyBonus} daha zordur. Büyük Hedef birimleri bundan faydalanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarım İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sırası bu ongende biten birimler {HealingHazard}[hp/] için iyileştirilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_QUARTZITE_EXPLOSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit Kristal</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quartzite refers to the mineral based independent unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAZARD_QUARTZITE_EXPLOSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu engel yok edildiğinde patlayarak bitişikteki Mineral olmayan birimlere {QuartziteCrystalDamage} hasar verir ve Mineral birimleri {QuartziteCrystalHealing} iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_QUARTZITE_ARC_HAZARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit Kristal Kıymıkları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quartzite refers to the mineral based independent unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_QUARTZITE_ARC_HAZARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mineral olmayan birimler bu altıgenden geçerken veya sıralarını bu altıgende bitirirken {NaniteHazardDamage} alırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SMOKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Duman Perdesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SMOKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu hex üzerindeki birimlerin vurulması {SmokescreenAccuracyBonus} daha zordur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_OBSCURING_SHROUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karartıcı Örtü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BURNING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanan Zemin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BURNING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler bu hex'ten geçerken veya sıralarını bu hex'te bitirirken {BurnGroundDamage}'ye maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BURNING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{BurningChance}[StrengthThermal/] güç şansı, bu hex'ten geçen veya sırasını bu hex'te bitiren birimlere {BurningDuration}[turn/] için [abilityred]Burning[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_GRINDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taşlama Zemini</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A grinder on the ground.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_GRINDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öğütücüde ilerleyen veya sırasını bitiren birimler {Kinetic} alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_NANITES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sökücü Nanitler Bulutu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Dissassembler is a unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_NANITES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler bu hex'ten geçerken veya sıralarını bu hex'te bitirirken {NaniteHazardDamage} alırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_NANITES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bulutun içinden geçen veya sırasını bu bulutta bitiren birimlere {NaniteCloudDamage} verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_TOXIN_NANITES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toksin Nanit Bulutu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HAZARD_TOXIN_NANITES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ToxinCloudDamage}[DamageBio/] uygular ve {DebilitatingInfectionChance}[StrengthBio/] güç şansı ile bu bulutun içinden geçen veya sırası gelen Biyolojik ve Sayborg birimlerine {DebilitatingInfectionDuration}[turn/] karşılığında [abilityred]Zayıflatıcı Enfeksiyon[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="160" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STASIS_POCKET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Staz Cebi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Dimensional Pocket</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STASIS_POCKET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{StasisChance}[strengthphysical/] gücü {stasisremoveap} eylem noktasını kaldırma şansı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">to remove 1 Action Point'</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="163" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BEETLE_MORTAR_GAS_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Böcek Havan Gazı Bulutu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BEETLE_MORTAR_GAS_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PosionChance}[StrengthBio/] güç şansı [abilityred]Zehirlenmiş[/abilityred]'yi {PoisonDuration}[turn/] için bu hex'ten geçen veya sırasını bu hex'te bitiren Böcek olmayan Biyolojik ve Cyborg birimlerine uygulamak için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BEETLE_MORTAR_GAS_CLOUD_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ElectrifyChance}[StrengthWave/] güç şansı, bu hex'ten geçen veya sırasını bu hex'te bitiren Böcek olmayan ve Ethereal olmayan birimlere {ElectrifyDuration}[turn/] için [abilityred]Electrified[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_ENCASED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Encase</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Being stuck (encased) in something.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_ENCASED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EncaseChance}[StrengthBio/] gücü {EncaseDuration}[turn/] için [abilityred]Encase[/abilityred] uygulama şansı. Direnilirse, bu yetenek bunun yerine [abilityred]Stagger[/abilityred]'ye neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_ENCASED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim eylem veya hareket kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIGH_IMPACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek Etki</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HIGH_IMPACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Stagger[/abilityred] birimleri, eylem puanlarını azaltır ve savunma modlarını iptal eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MASSIVE_IMPACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Etki</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MASSIVE_IMPACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Stagger[/abilityred] birimleri, stagger dirençli birimler de dahil olmak üzere, eylem puanlarını azaltır ve savunma modlarını iptal eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BIO_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kimyasal Dökülme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BIO_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler bu hex'ten geçerken veya sıralarını bu hex'te bitirirken {SpillDamage}[DamageBio/] alır ve 1 [armor/] kaybeder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_MIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_MIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sis</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="179" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_WHIRLPOOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Whirlpool</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_WHIRLPOOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu altıgende sırası biten birimler {WhirlpoolDamage} alır ve [abilityred]Yavaş[/abilityred] olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOOTHING_MIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yatıştırıcı Sis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOOTHING_MIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yatıştırıcı Sis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOOTHING_MIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yatıştırıcı Sis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_STATIC_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Statik Bulut</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HAZARD_STATIC_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {staticDamage}[DamageWave/] alır ve Eterik olmayan tüm birimler, bu hex'ten geçerken veya sıralarını bitirirken {StunDuration}[turn/] için [abilityred]Sersemletilmiş[/abilityred] almak için {StunChance}[StrengthWave/]) güç şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_ELECTRIFIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elektrikli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ARC_ELECTRIFIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ElectrifiedChance}[StrengthWave/] güç şansı [abilityred]Electrified[/abilityred]'yi {ElectrifiedDuration}[turn/] karşılığında Eterik olmayanlara uygulamak için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_ELECTRIFIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A0[5]9Z[turn/] güç şansı {ElectrifiedDamage}Electrified{AccuracyPenalty}'yi A0[6]9ZA0[4]9Z karşılığında Eterik olmayanlara uygulamak için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Devre Dışı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Arc damage</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim eylemleri kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{durationDisable}[turn/] için [abilityred]Arc Disable[/abilityred] (Strength {DisableChance}[StrengthWave/]) uygulama girişimleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTANGLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dolaşmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENTANGLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EntangledChance}[StrengthPhysical/] güç şansı, {durationEntangled}[turn/] için karaya bağlı Eterik olmayan birimlere [abilityred]Karışmış[/abilityred] uygulamak için.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">edit: landbound</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTANGLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dolaşmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTANGLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim hareket edemez, ancak yine de eylem gerçekleştirebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TURBULENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Türbülans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TURBULENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Türbülans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TURBULENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Türbülans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TURBULENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{TurbulenceChance} güç şansı [abilityred]Turbulence[/abilityred]'yi {TurbulenceTurns} karşılığında Uçan, Göksel olmayan birimlere uygulamak için</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BLINDING_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kör Bulut</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAZARD_BLINDING_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu altıgenden geçen veya sırasını bu altıgende bitiren birimlerin {BlindChance} kuvvet şansı vardır ve [abilityred]Kör[/abilityred] olurlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHOKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boğulma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CHOKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {ChokingAccuracy} isabet oranına sahiptir ve {ChokingDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHOKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ChokingAccuracy} isabet, {ChokingDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CHOKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ChokingChance} Biyolojik veya Sayborg birimlere {durationChoking}[turn/] için [abilityred]Choking[/abilityred] uygulama gücü şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHOKING_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boğucu Bulut</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CHOKING_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu altıgenden geçen veya sırasını bu altıgende bitiren Biyolojik ve Sayborg birimler [abilityred]Choking[/abilityred] ile başlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok edildiğinde patlayarak {EffectRadius} hex yarıçapında {ExplosiveDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLAMMABLE_EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanıcı Patlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FLAMMABLE_EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">0'a düşürüldüğünde bu engel yanmaya başlayacaktır. Bu, yok edilene kadar kendisine zarar verecek ve bu da patlamasına neden olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURNING_EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kararsız Patlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BURNING_EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu engel her turun başında {UnstableExplosiveDamage} hasar alır ve yok edildiğinde patlayarak komşu birimlere ve engellere {ExplosionDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_PROTOCOL_EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Patlayıcı Gaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">PyrX is the gas used by the Prometean secret tech, see Glossary for details.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_PROTOCOL_EXPLOSIVE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Timer}[turn/] sonra, bu bulut patlayarak [abilityred]Kütlesel Etki[/abilityred] ile {ExplDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LESSENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Azalmış Görüş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LESSENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim {lessenedvisionVisionPenalty} görüş aralığına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENABLE_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overwatch</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENABLE_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, görüş alanı içinde hareket eden veya saldıran herhangi bir düşmana otomatik olarak ateş etmesini sağlayan Overwatch'a girebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="223" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_STAGGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Sendeleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_STAGGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırılar, dirençli ve Mekanik olmayan tüm birimleri [abilityred]Stagger[/abilityred] yapacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_STAGGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_STACK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırılar, bağışıklığı olmayan tüm birimleri [abilityred]Stagger[/abilityred] ve Mekanik olarak etkileyecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESCALATING_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artan Ücretlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESCALATING_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareket ettirilen her altıgen için {bonus} ek hasar (maksimum {maxNumStacks})</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ILLUMINATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aydınlatılmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ILLUMINATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {IlluminatedHit} daha kolay vurulur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="232" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KNOCKBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geri tepme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KNOCKBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{KnockbackChance}, [abilityred]Efsanevi olmayan, Ağır olmayan bir düşman birimini [/abilityred] geri püskürtme şansı {KnockbackDistance} hex.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HALLUCINATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halüsinasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HALLUCINATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HallucinateChance} güç şansı [abilityred]Hallucinating[/abilityred]'yi {HallucinateDuration}[turn/] için Akılsız olmayan Biyolojik ve Cyborg birimlerine uygulamak için</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HALLUCINATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halüsinasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HALLUCINATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim şu anda her zaman kuşatılmış olarak kabul edilir ve {HallucinatingAccuracyLoss} hassasiyetine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALWAYS_FLANKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daima Kanatlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALWAYS_FLANKING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILIITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her zaman Yanaşma olarak sayılır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRIPPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sakat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRIPPLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sakat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CRIPPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILIITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CrippleChance}[StrengthPhysical/] güç şansı, {CrippleDuration}[turn/] için Biyolojik ve Cyborg hedeflere [abilityRed]Kırılmış[/abilityRed] uygulamak için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CRIPPLE_FLANKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILIITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yan saldırılarda: {CrippleChance}[StrengthPhysical/] güç şansı, {CrippleDuration}[turn/] için Biyolojik ve Cyborg hedeflere [abilityRed]Kırılmış[/abilityRed] uygulamak için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRIPPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim azaltılmış harekete ve -{CrippleAccuracy} hassasiyetine sahiptir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRIPPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CrippleAccuracy} azaltılmış doğruluk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMBARKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gemiye bindi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMBARKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir su nakil aracında seyahat etmektedir ve saldırıya karşı daha savunmasızdır. Tüm hasarlara karşı -{embarkedWeakness} direnci vardır ve siper kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UPGRADING_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltme Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UPGRADING_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, savaş etkinliğini azaltan yeni modifikasyonlarla geliştiriliyor. {damageReduction} daha az hasar veriyor ve şu anda hiçbir modifikasyonu çalışmıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UPGRADING_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{damageReduction} daha az hasar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UPGRADING_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WARNING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin yükseltilmesi modlarını devre dışı bırakacak ve {duration} için daha az hasar vermesine neden olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UPGRADING_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EXPLANATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin modları yükseltme sırasında devre dışı bırakılır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TURRET_MODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taret Modu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TURRET_MODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir tarettir ve parametrelerine göre birimleri otomatik olarak hedef alacaktır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAUSTIC_SMOKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakıcı Duman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CAUSTIC_SMOKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu hex'ten geçen veya sırasını bu hex'te bitiren birimler hasar alır ve {ArmorReduction} kaybeder</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MADNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çılgınlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MADNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{MadTime}[turn/] karşılığında Akılsız olmayan birimlere [abilityred]Katatonik[/abilityred], [abilityred]Delilik[/abilityred] veya [abilityred]Panik[/abilityred] uygulamak için {MadnessChance}[StrengthPsyche/] güç şansı. Direnilirse, bunun yerine [abilityred]Broken Mind[/abilityred] uygulayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_ENTANGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Dolaşıklık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Entangled by vines made of a dark energy.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DARK_ENTANGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EntangledChance}[StrengthPsyche/]'yi [abilityred]Entangled[/abilityred]'yi {durationEntangled}[turn/] için karaya bağlı birimlere uygulamak için</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">edit: landbound</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_ENTANGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dolaşmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_ENTANGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim hareket edemez, ancak yine de eylem gerçekleştirebilir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COSMITE_TEAR_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Gözyaşı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Cosmite Tear/Piece is an hazardous object found in combat that when destroyed explodes and deals damage to nearby units. Tear as in ripping apart.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COSMITE_TEAR_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok edildiğinde, bu engelin 2 hex'i içindeki her birime [abilityred]Dimensional Instability[/abilityred] uygulamak için 4[StrengthPhysical/] güç şansı. Buna ek olarak, daha önce işgal ettiği hex üzerinde bir Abyss deliği bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COSMITE_GREATER_TEAR_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Kozmit Gözyaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COSMITE_GREATER_TEAR_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok edildiğinde, bu engelin 8 heksi içindeki her birime [abilityred]Dimensional Instability[/abilityred] uygulamak için 8[StrengthPhysical/] güç şansı. Buna ek olarak, daha önce işgal ettiği hex üzerinde bir Abyss deliği bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COSMITE_PIECE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Parça</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">COSMITE_PIECE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok edildiğinde, bu engelin 2 altıgeni içindeki her birime [abilityred]Dimensional Instability[/abilityred] uygulamak için 4[StrengthPhysical/] güç şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COSMITE_GREATER_PIECE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Kozmit Parçası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">COSMITE_GREATER_PIECE_INDICATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok edildiğinde, bu engelin 8 heksi içindeki her birime [StrengthPhysical/] güç şansı [abilityred]Dimensional Instability[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSITEC_IMMOBILIZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareketsizleştirmek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSITEC_IMMOBILIZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PsiImmmobilizeChance}[StrengthPsyche/] güç şansı ile {PsiImmobilizeDuration}[turn/] karşılığında Akılsız olmayan hedeflere [abilityRed]Immobilize[/abilityRed] uygulayın. Direnilirse, bunun yerine [abilityred]Slow[/abilityred] uygulayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VISCOUS_COMPOSITE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Viskoz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VISCOUS_COMPOSITE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{ImmobilizeChance}[StrengthBio/]'yi [abilityred]'ye uygulamak için güç şansıMobilize[/abilityred]'yi [abilityred]'ye[/abilityred]'yi {durationImmobilize}[turn/] için birimler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VISCOUS_COMPOSITE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">MOD_DESCRIPTION_SLOW</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{SlowChance}[StrengthBio/] güç şansı [abilityred]Slow[/abilityred]'yi {durationSlow}[turn/] için Ethereal olmayan birimlere uygulamak için</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_EXPOSED_ARC_WIRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık Ark Kabloları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAZARD_EXPOSED_ARC_WIRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüzmeyen birimler bu hex'ten geçerken veya sıralarını bu hex'te bitirirken {ArcHazardDamage} alırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ESSENCE_CHARGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Esans Yükü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ESSENCE_CHARGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Birim, her  [essencecharge/]  yığını için +%10 hasar kazanır. [br/]  {INT_max}  defaya kadar istiflenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+        <Cell>
+          <Data ss:Type="String">NEURAL_TOXIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nöral Toksin</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s63">
+        <Cell>
+          <Data ss:Type="String">REACTIVE_POISON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PoisonChance}[StrengthBio/] güç şansı ile [abilityred]Nöral Toksin[/abilityred]'yi Biyolojik veya Sayborg hedeflere {durationPoison}[turn/] karşılığında uygulayın.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s63">
+        <Cell>
+          <Data ss:Type="String">NEURAL_TOXIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">Bu birimin her turun başında {ToxinChance}[strengthBio/] [abilityred] Sersemletilmiş[/abilityred] olma olasılığı vardır. Direnilirse, bunun yerine {DamageAmount}[damageBio/] hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Stunend as in the status condition</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PATH_ARMOR_BYPASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Odak</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>7</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>19</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

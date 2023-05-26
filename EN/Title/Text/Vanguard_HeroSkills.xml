@@ -1,0 +1,375 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2019-01-30T12:56:08Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10380</WindowHeight>
+    <WindowWidth>22230</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="23" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="128.25" />
+      <Column ss:StyleID="s62" ss:Width="121.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="186.75" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">VANGUARD_HERO_SKILLS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VANGUARD_SKILL_GROUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILL_SUBTITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Kahraman Becerisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill tree header. 
+Vangaurd is an in-game race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARTIAL_INSPIRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dövüş İlhamı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MARTIAL_INSPIRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın varlığı tüm kuvvetlerinize ilham verir. Kahramanın ordusundaki tüm birimler +{MartialMorale} kazanır.[br/]Sadece kahraman ordunun komutanı olduğunda işlev görür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Commander in this context means the leader of an army, NOT the player character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARTIAL_INSPIRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim ilham alır ve +{MartialMorale} alır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BATTLE_PLAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Planı (mülk)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"property" tag behind the name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BATTLE_PLAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Planı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BATTLE_PLAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi tasarlanmış bir savaş planı, tüm dost birimlere {BattleTurns} karşılığında +{BattleAccuracy} isabet ve +{BattleDamage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BATTLE_PLAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim +{BattleAccuracy} isabetliliğe ve +{BattleDamage} hasara sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RALLYING_CRY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplanma Çığlığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RALLYING_CRY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman müttefiklerini toplar. Tüm dost birimler {RallyingTurns}[turn/] için moral cezalarını yok sayar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Morale is an in-game stat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RALLYING_CRY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim moral cezalarına karşı bağışıktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COORDINATED_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koordineli Saldırı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COORDINATED_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlerinizin odaklanması için bir düşman birimini işaretleyin. Hedef, tur sonuna kadar {CoordinatedAccuracy} daha kolay vurulabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIELD_MEDICINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saha Tıbbı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FIELD_MEDICINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzman saha tıbbı, ordudaki tüm dost birimleri savaş dışındaki her turda {FieldHealAmount} karşılığında iyileştirir.[br/] Yalnızca kahraman ordunun komutanı olduğunda işlev görür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Commander in this context means the leader of an army, NOT the player character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIELD_MEDICINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, savaş dışındaki her turda {FieldHealAmount} kadar iyileşir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IRON_DISCIPLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Demir Disiplin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">IRON_DISCIPLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü disiplin kahramana +{IronPsionicResistance} direnci verir ve [DefensePsyche/] durum ve tehlike etkilerine karşı bağışıklık kazandırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DIG_IN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dig In</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DIG_IN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman siper alma konusunda uzmandır ve siperdeyken tüm hasara karşı +{DigResistance} direnç kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <TopRowVisible>1</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>10</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

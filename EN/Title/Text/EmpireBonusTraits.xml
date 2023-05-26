@@ -1,0 +1,771 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Tom Bird</Author>
+    <LastAuthor>Tom Bird</LastAuthor>
+    <Created>2020-09-03T14:42:13Z</Created>
+    <LastSaved>2020-09-03T14:54:48Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>765</WindowHeight>
+    <WindowWidth>8370</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="57" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="292.5" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="117" />
+      <Column ss:StyleID="s62" ss:Width="121.5" />
+      <Column ss:StyleID="s62" ss:Width="384" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="283.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BONUS_TRAITS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_NAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VETERAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Gazisi:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The lowest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BASE_NAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHAMPION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Şampiyonu:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BASE_NAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Kahramanı:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_NAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Lordu:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The highest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BASE_NAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Komutanlığı:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[br/][br/]Sadece kahraman ordunun komutanı olduğunda çalışır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Gazisi: Asker</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The lowest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Şampiyonu: Asker</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Kahramanı: Asker</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Lordu: Asker</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The highest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Komutanlığı: Asker</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {DamageBonus} hasarı kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {DamageBonus} hasar ve {MoraleBonus} kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {DamageBonus} hasar ve {MoraleBonus} kazanır.[br/][br/]Kahramanın ordusundaki bir birim bir düşman birimini öldürdüğünde, 1 eylem puanı geri kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {DamageBonus} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {DamageBonus} hasar ve {MoraleBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {DamageBonus} hasar ve {MoraleBonus} moral kazanır.[br/][br/]Bu birim bir düşman birimini öldürdüğünde, 1 eylem puanı geri kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOLDIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PERK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman Kahramanlar Salonu'nda 2. seviyeye ulaştığında [abilityblue]İmparatorluk Askeri[/abilityblue] komuta yetenekleri kazanacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Gazisi: Juggernaut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The lowest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Şampiyonu: Juggernaut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Kahramanı: Juggernaut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Lordu: Juggernaut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The highest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Komutanlığı: Juggernaut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {ArmorBonus} kazanır. {XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {ArmorBonus} ve {HealthBonus} kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {ArmorBonus}, {HealthBonus} ve [abilityblue]Resurgence[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING} kazanır.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Resurgence is an ability used elsewhere in the game, that causes a dead unit to come back to life after battle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {ArmorBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {ArmorBonus} ve {HealthBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {ArmorBonus} ve {HealthBonus} kazanır.[br/][br/]Ayrıca [abilityBlue]Resurgence[/abilityBlue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">JUGGERNAUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PERK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman Kahramanlar Salonunda 2. seviyeye ulaştığında [abilityblue]Imperial Juggernaut[/abilityblue] komut yeteneklerini kazanacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Gazisi: Keskin Nişancı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The lowest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Şampiyonu: Keskin Nişancı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Kahramanı: Keskin Nişancı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Lordu: Keskin Nişancı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The highest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Komutanlığı: Keskin Nişancı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {AccuracyBonus} isabetlilik kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {AccuracyBonus} isabet ve {CriticalBonus} kritik vuruş şansı kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {AccuracyBonus} isabet, {CriticalBonus} kritik vuruş şansı ve {CriticalDamageBonus} kritik hasar kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {AccuracyBonus} isabetlilik kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {AccuracyBonus} isabet ve {CriticalBonus} kritik vuruş şansı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {AccuracyBonus} isabet, {CriticalBonus} kritik vuruş şansı ve {CriticalDamage} kritik hasar kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PERK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman Kahramanlar Salonu'nda 2. seviyeye ulaştığında [abilityblue]İmparatorluk Keskin Nişancısı[/abilityblue] komuta yetenekleri kazanacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Gazisi: Pilot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The lowest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Şampiyonu: Pilot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Kahramanı: Pilot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Lordu: Pilot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The highest rank for an Imperial hero</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Komutanlığı: Pilot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {ShieldBonus} kalkanları kazanır.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler dünya haritasında tur başına {ShieldBonus} kazanır ve {HealBonus} iyileşir.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BONUS_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm birimler {ShieldBonus} ve [abilityblue]Regeneration[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {ShieldBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve dünya haritasında her tur {ShieldBonus} kazanır ve fazladan bir {HealBonus} iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir imparatorluk kahramanının komutası altındadır ve {ShieldBonus} ve [abilityblue]Rejenerasyon[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PERK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman Kahramanlar Salonu'nda 2. seviyeye ulaştığında [abilityblue]İmparatorluk Pilotu[/abilityblue] komuta yetenekleri kazanacaktır.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <PaperSizeIndex>9</PaperSizeIndex>
+        <HorizontalResolution>300</HorizontalResolution>
+        <VerticalResolution>300</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <TopRowVisible>47</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>56</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

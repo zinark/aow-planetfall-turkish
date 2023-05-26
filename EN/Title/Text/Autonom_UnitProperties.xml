@@ -1,0 +1,1052 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>KyleB</LastAuthor>
+    <LastSaved>2018-11-08T10:16:56Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>7308</WindowHeight>
+    <WindowWidth>23040</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Borders />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s67">
+      <Borders />
+      <Interior ss:Color="#F8CBAD" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="88" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.6" ss:DefaultRowHeight="15">
+      <Column ss:Index="2" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="169.8" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.79999999999998" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="157.80000000000001" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="174" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="148.80000000000001" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.79999999999998" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">UPGRADES_UNCATEGORIZED_UNITPROPERTIES</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNIDIRECTIONAL_CAMERA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok Yönlü Kamera</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNIDIRECTIONAL_CAMERA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim her yönü gözetliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="11" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefleme Parametrelerini Hesaplama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin isabet oranını ve kritik vuruş şansını {CalculateAccuracyIncrease} artırır. Tüm [abilityblue]Networked[/abilityblue] birimleri de bu etkiyi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geliştirilmiş Hedefleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim yığın başına {CalculateAccuracyIncrease} isabet ve {CalculateCriticalIncrease} kritik vuruş şansı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CalculateAccuracyIncrease} isabet ve {CalculateCriticalIncrease} kritik vuruş şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NANITE_REPAIR_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarım Nanitlerini İletin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NANITE_REPAIR_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarım nanitlerini ağ üzerinden ileterek tüm [abilityblue]Networked[/abilityblue] birimlerini {healAmount} için iyileştirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkan Projeksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SHIELD_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dışa doğru bir kalkan yansıtarak birime ve tüm [abilityblue]Networked[/abilityblue] dost birimlere {ShieldTurn} için {ShieldAmount} verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünitede +{ShieldAmount} vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONTACT_TECH_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknik Destek ile İletişime Geçin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONTACT_TECH_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim yardım çağrısında bulunur ve komşu bir hex'e rastgele bir Autonom birimi çağırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SENTENCE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cümle Hedefi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SENTENCE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cümle Hedefi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SENTENCE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hükümlü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SENTENCE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tüm hasar kanallarında -  {DamageResistanceDown}  dirence sahiptir ve vurulması  {EvadeDown}  % daha kolaydır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="29" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INITIALIZE_CONNECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bağlantıları Başlatma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell>
+          <Data ss:Type="String">INITIALIZE_CONNECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]Network[/abilityblue] tüm dost Mekanik birimlere, sonraki her kullanımda daha da güçlenen bir bonus verir: [br/][br/][bulletList][bullet]Seviye 1: Saldırılarda {accuracyBonus} isabet ve +{arcResistance}[DefenseWave/] direnç. [/bullet][bullet]Seviye 2: Birimin saldırıları bir seviye [abilityred]Sarsıcı Etki[/abilityred] kazanır. [/bullet][bullet]Seviye 3: {damageBonus} tüm saldırıların hasarını artırır. [/bullet][/bulletList][br/][br/]Bu birim öldüğünde güçlendirme kaldırılır ve etkilenen birimlerin {strength} güçle [abilityred]Sersemletilme[/abilityred/] için {stunDuration} veya direnç gösterdiğinde [abilityred]Sarsılma[/abilityred] şansı vardır.[br/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağa Bağlı Seviye 1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim işlem gücünü müttefikleriyle paylaşarak {accuracyBonus} hassasiyet ve +{arcResistance}[DefenseWave/] direnç kazanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="34" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağa Bağlı Seviye 2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin tüm saldırıları bir seviye [abilityred]Sarsıcı Etki[/abilityred] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="38" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağa Bağlı Seviye 3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tüm saldırılarında {damageBonus} artırılmış hasar kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION_MELEE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{damageBonus} hasarı artırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_LEVEL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION_RANGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{damageBonus} hasarı artırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUDDEN_DISCONNECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ani Bağlantı Kesilmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MAIN_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Düğüm</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MAIN_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim öldürülürse tüm birimler bir seviye [abilityblue]Networked[/abilityblue] kaybedecektir. Etkilenen birimler ayrıca {stunDuration} için [abilityred]Sersemletilmiş[/abilityred/] olmak için {strength} güç şansına sahip olacak, direnç gösterdiklerinde birim bunun yerine [abilityred]Sersemletilmiş[/abilityred] olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDENANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sarsıcı Mühimmat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="110.25">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDENANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin Patlayıcı saldırıları, {ConcussChance}[strengthPhysical/] güç şansı (tekrarlanan saldırılar için {ConcussChanceRep}[strengthPhysical/]) kazanarak {ConcussTurn}[turn/] karşılığında Eterik olmayan ve Mekanik olmayan birimlere [abilityred]Sarsıntı[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendi Kendini Onaran Sistemler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, savaş sırasında her turda {healbattle}'ye iyileştiren ve her Stratejik turun başında tam [hp/]'ye iyileştiren kendi kendini onarma sistemlerine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim savaş sırasında her tur {healbattle} karşılığında kendini onarır ve her Stratejik turun başında tam [hp/]'ye iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmmolasyon Matrisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="141">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu matris Lazer saldırılarının isabet ettiği birimleri tutuşturmasına neden olarak {DisruptionMatStr}[strengthThermal/] güç şansı (tekrarlanan saldırılar için {DisruptionMatStrRep}[strengthThermal/]) verir ve {ImmoTurn}[turn/] karşılığında [abilityred]Immolate[/abilityred] Eterik olmayan ve Mineral olmayan birimler sağlar. Direnilirse, bunun yerine [abilityred]Yakma[/abilityred] uygulayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Madencilik Lazer Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm Lazer saldırıları [abilityred]Melt Armor[/abilityred] kazanır ve her vuruşta {armorMelt}[armor/] kaldırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETWORK_COMPATIBLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağ Uyumlu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETWORK_COMPATIBLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite Nework Uyumludur ve [abilityblue]Networked[/abilityblue]'den faydalanabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Autonom Ağ Konektörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite Ağ Uyumluluğu kazanarak [abilityblue]Networked[/abilityblue]'den yararlanmasını sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="59" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Bağlantılı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Kablolu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Matris</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Izgara Üzerinde</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Çevrimiçi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Ağ bağlantılı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Taş Eritme</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Sondaj Kuyusu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Çatlatma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Plaka Ayırıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Kırılma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MINING_LASER_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Perfore</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Forcewave</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Kafatası Boomer</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Cannonball</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Nakavt</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Toprak Çalkalayıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Quake</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Revizyoncu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Kendi Kendini Yeniden Yapılandıran</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Otomatik Şifacı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Regen Bot</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendinden Kaynakçı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Yıkıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Yanan</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Blaze Izgara</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Conflagrated</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Devre Fritözü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Buji</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMMOLATION_MATRIX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Yarı İletken</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>34</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>38</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

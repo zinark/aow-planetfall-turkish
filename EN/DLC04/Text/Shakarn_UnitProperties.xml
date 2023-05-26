@@ -1,0 +1,2403 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2020-03-12T11:31:47Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11025</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="209" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="144" />
+      <Column ss:StyleID="s62" ss:Width="121.5" />
+      <Column ss:StyleID="s62" ss:Width="387" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="380.25" />
+      <Column ss:StyleID="s62" ss:Width="137.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNIT_UPGRADES_SHAKARN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Extra Notes: Sono- relates to Sonic, all abilities that have a Sono- are Sonic abilities. Omni relates to abilities that combine Sonic and Laser damage. Omni abilities are Sonic Laser abilities. Holo refers to the use of Holograms</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Pulse</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RECON_BUOY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşif Şamandırası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Recon is short for Reconnaissance </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RECON_BUOY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşif Şamandırası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reconnaissance Buoy is a Shakarn Unit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RECON_BUOY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşif Şamandırası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RECON_BUOY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşif Şamandırası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CARBINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Karabina</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CARBINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe birleşik bir Sonik Lazer saldırısı yapın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CARBINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Saldırı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CARBINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeften uzaklaşılan her hex başına -{KineticrDamage}[damagePhysical/] verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reads: Deals -1[damagetype] per each [..]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_RUSH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Rush</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_RUSH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HexRange} altıgen hattında hasar verici Sonik ve Lazer karışımını yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_FREQUENCY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Frekans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_FREQUENCY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshift</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Duration}[turn/] için hedef düşman Kahraman olmayan birimin görünümünü ve yeteneklerini kopyala.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshift, Kademe I ve Kademe II Mekanik olmayan birimleri hedefleyebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağırlıklı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshift, Kademe I ve Kademe II birimlerini hedefleyebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçekçi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshift Kademe I, Kademe II ve Kademe III birimlerini hedefleyebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_LAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshift Tekrarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_LAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin dönüştüğü son birime Holoshift.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_LAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dönüşüm Hedefi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIFTBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shiftback</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIFTBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu üniteyi orijinal haline geri getirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTO_SHIFTBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshifted</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AUTO_SHIFTBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim başka birinin kimliğine bürünüyor.[br/]Bu birimin [hp/] değeri 0'a düştüğünde, otomatik olarak {ShiftbackHex} hex uzaklıktaki rastgele bir konuma ışınlanır, orijinal formuna geri döner ve {ShiftbackHP}[hp/] ile yeniden canlanır.[br/][br/][firecol]A birim savaş başına yalnızca bir kez kendini canlandırabilir.[/firecol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLO_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISABLE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim kısa süre önce dönüştü ve bir sonraki sırasına kadar dönüşemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Cannon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe birleşik bir Sonik Lazer saldırısı yapın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEADLY_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölümcül Overwatch</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEADLY_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölümcül Overwatch</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_PERFORATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Perforatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OMNI_PERFORATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe delik açan bir Sonik Lazer saldırısı düzenleyerek {HexRange} altıgen çizgisinde hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Repeater</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISSONOS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dissonos</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISSONOS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef konuma {HexRange} hex menzilli bir koni içinde yıkıcı bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLO_MEND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holo Mend</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLO_MEND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holo Mend</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLO_MEND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holo Mend</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROPAGATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROPAGATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Shakarn Yayını operasyonu aktif olduğunda, bu birim yayına bağlı olarak savaş alanı çapında bir etki kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Related to the [Type] Broadcasting Strategic Operations found in Shakarn_TechGroups</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CLAW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Pençe</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CLAW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın dövüş kombine Sonik Lazer saldırısı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_SHOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Shot</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_SHOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe birleşik bir Sonik Lazer saldırısı yapın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STAGGERING_FORCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sarsıcı Güç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STAGGERING_FORCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe kalkanla vur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Blast</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRESS_THE_ADVANTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avantaja Basın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRESS_THE_ADVANTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktisyen olmayan hedef dost birim tüm eylem puanlarını geri kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALLBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geri Dönüş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FALLBACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim {Heal}[hp/] kadar iyileşir ve olumsuz Durum Etkileri kaldırılır. Birim, bu birime bitişik bir hex'e çekilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONE_OF_US_ALL_ALONG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hepimizden Biri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ONE_OF_US_ALL_ALONG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman Kademe I veya II Piyade birimi, kendi birimlerinden birinin başından beri Uyuyan Ajan olduğunu ortaya çıkarır ve bu birim bitişik bir altıgende sizin kontrolünüz altında belirir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Sleeper Agent is a Shakarn Unit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERBERATING_DAGGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yankılanan Hançer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERBERATING_DAGGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın dövüş Sonik saldırısı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIGH_FREQUENCY_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek Frekanslı Patlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIGH_FREQUENCY_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_EBB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonic Ebb</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in the Ebb from Ebb and Flow</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OMNI_EBB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe bir Sonik saldırı ateşleyin. Kullanıldığında, bu birim bir [abilityblue]Ebb[/abilityblue] yığını kazanır, en fazla {MaxStackAmount} yığını.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_FLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonik Akış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OMNI_FLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe Sonik bir patlama ateşleyin. [abilityblue]Ebb[/abiltyblue] yığınları bu yeteneği değiştirir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in the Flow from Ebb and Flow</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Tekrarlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe birleşik bir Sonik Lazer saldırısı yapın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_BEAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Beam</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_BEAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HexRange} altıgen hattında birleşik bir Sonik Lazer saldırısı düzenleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Charge</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OMNI_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sonraki [abilityblue]Omni Işını[/abilityblue]'yi {HexLong} hex uzunluğunda ve {HexWide} hex genişliğinde bir hat olacak şekilde güçlendirin.[br/]Birim [abilityblue]Defense Moduna[/abilityblue] girer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı yüklüdür ve daha geniş bir alanda hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONOKARNS_RALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonokarn'ın Rallisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Sonokarn is a shakarn unit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SONOKARNS_RALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonokarn'ın Rallisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONOKARNS_RALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonokarn'ın Rallisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Omni Kalkan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">OMNI_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Omni Kalkan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Kalkan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMNI_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Kalkan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_EMISSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Emisyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_EMISSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONAR_ANALYSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonar Analizi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SONAR_ANALYSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HexRadius} altıgen yarıçapındaki birimler {AnalysisChance}[strengthPhysical/] güç kazanma şansına sahiptir [abilityred]Analiz edilmiş[/abilityred], dirençlerini {Duration}[turn/] için {WeaknessAmount} azaltır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTENDED_FARSIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genişletilmiş Uzak Görüş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTENDED_FARSIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ünite +{farsightVisionBonus} görüş aralığına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ULTRA_SOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ultrasonik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ULTRA_SOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EPIMORPHIC_REGENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Epimorfik Rejenerasyon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Epimorphic relates to the regeneration of limbs, usually found on Lizards</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EPIMORPHIC_REGENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir veya daha fazla düşman biriminden veya operasyonundan hasar aldığında, bir sonraki sıranın başında {HPAmount}[hp/] yeniler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_DEBILITATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Debilitation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_DEBILITATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, fizyolojisi nedeniyle durum etkilerine karşı -{StatusResistance} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_EBB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Ebb</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SONO_EBB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Sonik saldırı yansıtın. Kullanıldığında, bu birim bir [abilityblue]Ebb[/abilityblue] yığını kazanır, en fazla {MaxStackAmount} yığını.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EBB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ebb</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EBB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ebb</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_FLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Flow</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SONO_FLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimine bir Sonik saldırı yansıtın. [abilityblue]Ebb[/abiltyblue] yığınları bu yeteneği değiştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EBB_AND_FLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelgit ve Akış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EBB_AND_FLOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelgit ve Akış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_HASHER_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı Hasher SMG</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_HASHER_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Assault Hasher SMG ateşle.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_HASHER_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeften uzaklaşılan her hex başına -{ArcDamage}[damageWave/] verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reads: Deals -1[damagetype] per each [..]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_CLAW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Pençesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_CLAW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Isıtılmış pençelerle bir hedefe pençe atarak hedef hex'i {Duration}[turn/] karşılığında ateşe verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SONO_VOID_BLADES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sono-Void Bıçaklar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISORIENTING_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kafa Karıştıran Çizgi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOSHIFT_CLONED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISABLE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoshifted birimler kendilerini Klonlayamazlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Savunma Modülü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Xeno as in relating to Alien wildlife</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MOD_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, aldığı son hasar türüne karşı +{Resistance} hasar direnci kazanır.[br/]Bu etki, çatışmanın sonuna kadar veya birime farklı bir hasar verilene kadar sürer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taşınabilir Tarayıcılar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MOD_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim [abilityblue]Detection[/abilityblue], +{SensorRange} Sensor Range kazanır ve hasar veren yetenekleri {AnalysisChanceSingle}[strengthPhysical/] güç şansı (tekrar eden saldırılar için {AnalysisChanceRepeating}[strengthPhysical/]) kazanarak [abilityred]Analyzed[/abilityred] uygular ve dirençlerini {Duration}[turn/] için {ResistanceDown} azaltır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkisizleştirici El Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOD_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir altıgene, {HexRange} altıgen yarıçapında Sonik hasar veren bir Bozucu El Bombası atın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holodisplacement Kalkanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MOD_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holodisplacement Kalkanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su ve Nehir Kamuflajı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Su veya Nehir altıgenleri üzerinde dururken tespit edilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orbital Geri Çağırma Sistemleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktiksel Yeniden Yerleştirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim hızla hedef hex'e yeniden konumlandırılır. Ardından {duration}[turn/] için +{ShieldAmount}[shield/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim +{Shields}[shield/] ve [abilityblue]Flanker[/abilityblue]'ye sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı Dış İskeleti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOD_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı Dış İskeleti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı Dış İskeleti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bütünsellik Mantosu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MOD_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Buna {HexRange} altıgeni içinden saldıran Akılsız olmayan birimlerin {HallucinatingChance}[strengthPsyche/] güç kazanma şansı [abilityred]Hallucinating[/abilityred] karşılığında {Duration}[turn/]'dir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoreal Kapak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MOD_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef altıgende siper oluşturun. Komşu akılsız olmayan düşman birimleri {HallucinationChance}[strengthPsyche/] ile {Duration}[turn/] için [abilityred]Hallucinating[/abilityred] olur. Direnç gösterdiğinde, [abilityred]Broken Mind[/abilityred] uygulayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tetikleyici İfade Sistemleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Aktivasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Aktivasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim  [abilityred] Insane [/abilityred]  olup düşmanlara rastgele saldırır. Birim ayrıca +  {DamageIncrease}  % hasar artışına ve tüm Hasar Kanallarına karşı +  {Resistance}  dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DUMMY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin berserk protokolü etkinleştiriliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holokromatik Motorlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir seviye [abilityblue]Sarsıntı Direnci[/abilityblue] kazanır.[br/]Bu birim düşman hasarı aldığında, aynı hasar kanalında bir [abilityblue]Serbest Eylem Hasar Verme yeteneği[/abilityblue] kazanır.[br/][br/]Kullanıldığında, bu şekilde kazanılan tüm yeteneklerin süresi dolar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KINETIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chroma Motoru: Kinetik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KINETIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Hex} hex yarıçapında hasar veren bir Patlamaya neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BIO_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chroma Motoru: Biyokimyasal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BIO_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime Biyokimyasal hasar ver.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ARC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chroma Motoru: Ark</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ARC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir birime Ark hasarı verir. Bu etki {UnitJump} hex içindeki {HexJump} diğer birime sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">THERMAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chroma Motoru: Termal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">THERMAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Hex} onaltılık hattında Lazer hasarı ver.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIONIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chroma Motoru: Psiyonik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIONIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime Psionik hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENTROPY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chroma Motoru: Entropi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENTROPY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime Entropi hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reaktif</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Xeno Defense Module</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korumalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Duyarlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Farkında</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korumalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnkarcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarama</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Portable Scanners</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlayış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teftiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Analizör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değerlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstismarcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Devre dışı bırakma</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Impairing Grenade</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zayıflatıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zayıflatıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yorucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silahsızlandırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mod Yok Edici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerinden Edilmiş</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Holodisplacement Shields</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holografik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayalet gibi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havadar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanıltıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aktarma</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Orbital Recall Systems</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işınlanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden konuşlandırıldı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabul edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teslim edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orbital</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırgan</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Assault Exoskeleton</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çarpıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstilacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanca</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Wardog</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phantasmal</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Holoreality Mantle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoreal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizlenmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Illusionary</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekranlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aldatmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı güçlü</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Trigger-Phrase Systems</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beyni Yıkanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sinirli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değiştirilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Indoctrinated</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tetiklenmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taklitçilik</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Holochromatic Engines</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kromatik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bukalemunik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şatafatlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taklitçi</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>94</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>106</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

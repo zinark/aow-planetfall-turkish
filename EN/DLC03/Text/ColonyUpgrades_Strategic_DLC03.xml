@@ -1,0 +1,675 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Thomas Schuiten</Author>
+    <LastAuthor>Benny Arents</LastAuthor>
+    <Created>2019-04-26T09:01:31Z</Created>
+    <LastSaved>2019-09-19T15:20:31Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10360</WindowHeight>
+    <WindowWidth>28760</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="304" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="221" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="128" />
+      <Column ss:StyleID="s63" ss:Width="316.5" />
+      <Column ss:StyleID="s62" ss:Width="148" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="284" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">COLONYUPGRADES_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="4" ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="18">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ORBITAL_RELAY_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörüngesel Röle Kullanımı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="80.25">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ORBITAL_RELAY_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bir yörünge rölesi sömürüsüdür. Birimlerinizin içinden geçerek bağlı başka bir yörünge rölesine seyahat etmesini sağlar. Bir röle üzerinden seyahat etmek tüm hareket noktalarını tüketecektir. Röle ağı, müttefiklerinizle [abilityblue]Açık Röle Anlaşmaları[/abilityblue] imzalayarak diplomasi yoluyla da genişletilebilir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ORBITAL_RELAY_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SlotBonus}[productionSlot/], {SlotBonus}[energySlot/], {SlotBonus}[foodSlot/], {SlotBonus}[ResearchSlot/], {SlotBonus}[happinessSlot/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Everything between {} and [] can be ignored for localization</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="18">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_RELAY_OP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Röle Hedefleri</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="47.25">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_RELAY_OP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörünge rölesi, müttefik birimlerin bağlı herhangi bir röleye ışınlanmasını sağlar. Yörünge rölesinden geçmek kalan tüm hareket noktalarını kullanacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_RELAY_OP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_destinationName}'ye röle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri Toplanma Üssü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu röleyi bir askeri toplanma üssüne dönüştürmek, gelen birliklere hızla ikmal yapmasına ve savunmasına askeri sınıf kuleler ve duvarlar eklemesine olanak tanır.[br/][br/][productioncol]Bu yalnızca Yörünge Lojistik Üssü olmayan bir Yörünge Rölesi sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu röleye gelen dost ordular tamamen [abilityblue]iyileştirilir[/abilityblue] ve [abilityblue]Tedarik edilir[/abilityblue][br/]Bu röle artık taktik savaşta duvarlara ve kulelere sahip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="21.75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler kazanç [abilityblue]Tedarik Edilen[/abilityblue]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="18.75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden tedarik edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48.75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bir sonraki çatışmaya kadar tüm saldırılarında {ResuppliedMoraleBonus} ve {ResuppliedDamageModifier} ilave hasar veren taze malzemelere sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="16.5">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orbital Lojistik Üssü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="76.5">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu röleyi bir lojistik üssüne dönüştürmek, diğer tüm sömürülen sektörlerin verimliliğini artıracaktır. [br/][br/][productioncol]Bu yalnızca Askeri Montaj Üssü olmayan bir Yörünge Rölesi kullanım sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstismar edilen her sektör, kendi istismar türünde ek bir {BonnusResources} geliri üretir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">String is misspelled, double check that it works</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörüngesel Güçlendirme Platformu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="93.75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">Hızlı müdahale birimleri için bir fırlatma platformu oluşturur. Bağlı koloninin etki alanındaki herhangi bir savaş [abilityblue]Hızlı Takviye[/abilityblue] savaş etkisi kazanır.[br/][br/][productioncol]Bu yalnızca Stratejik Operasyon Platformu olmayan bir Yörünge Aktarım sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloninin etki alanı içindeyken taktik savaşta [abilityblue]Orbital Garnizon[/abilityblue] savaş etkisi verir. Her 2 turda bir, bir drop pod bir düşman birimine çarpar, onları yerinden eder ve dost bir Kademe 1 veya 2 Kara birimi ortaya çıkarır (gözcüler hariç).</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">domain refers to the territory that is claimed by the colony. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stratejik Operasyonlar Platformu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rölenin etkileyici sensör dizisi kullanılarak stratejik bir operasyon platformu kurulabilir.[br/][br/][productioncol]Bu sadece Yörünge Takviye Platformuna sahip olmayan bir Yörünge Rölesi sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{StratOpPointIncome}. {OpDefenseBonus} bağlı koloninin etki alanı içinde.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIVE_QUEEN_EFFIGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kovan Kraliçesi Heykeli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">HIVE_QUEEN_EFFIGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniye {HappinessIncrease} ve bu koloninin etki alanı içindeki Kir'Ko birimlerine {MoraleBonus} verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HIVE_QUEEN_EFFIGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakındaki bir kolonide bulunan Kovan Kraliçe Heykelinden {HappinessIncrease} var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:AutoFitHeight="0" ss:Height="21.75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İleri Röle Tabanına Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="80.25">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ileri üssü bir ileri röle üssüne yükseltir. Aktarma üssü, birimlerin taşınması için yörüngesel bir röle görevi görür ve bir koloniye ilhak edilemez ve herhangi bir gelir toplamaz. İleri röle üssünün bakım masrafı {INT_energyUpkeep}[energy/] ve {INT_crystalUpkeep}[tricorium/]'dir.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">A forward base is a physical structure on the world map, that claims a sector. The forward relay base is the same with added functionality</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INPROGRESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İleri üssü bir ileri röle üssüne yükseltiyorum. İşlem [INT_duration]'de tamamlanacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="36" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_RELAY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İleri Röle Tabanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="109.5">
+        <Cell>
+          <Data ss:Type="String">FORWARD_RELAY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yapı, sahibi için sektörde hak iddia eder. Birimlerinize şifa sağlar ve düşmanlar izinsiz giremez. Ancak herhangi bir gelir toplamaz.[br/][br/]Röle üssü, birimlerin taşınması için yörüngesel bir röle görevi görür ve bir koloniye eklenemez. İleri röle üssünün {INT_energyUpkeep}[energy/] ve {INT_crystalUpkeep}[tricorium/] bakım masrafları vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="39" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ALTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal Sunak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="110.25">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ALTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal Sunak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Essence refers to the Essence we are using in the new secret tech: Heritor. It can be seen as 'lifeforce' however is also found in non biological units. It is a form of energy inherent in all things, that can be tapped into / extracted and used for abilities.
+
+Heritor is refering to the new secret tech that we are implementing. It's derived from Heritage. Heritor is both plural and singular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ALTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal Güçlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="54.75">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ALTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal Güçlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ALTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal Güçlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_ALTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretilen birimler durum etkilerine karşı +  {Resistance}  direnç ve +  {CritChance}  % kritik vuruş şansı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="48" ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="50" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="90" ss:Span="1" />
+      <Row ss:Index="57" ss:AutoFitHeight="0" ss:Height="120" />
+      <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="61" ss:AutoFitHeight="0" ss:Height="90" ss:Span="1" />
+      <Row ss:Index="65" ss:AutoFitHeight="0" ss:Height="120" />
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="71" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="75" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="77" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="81" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="83" ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="85" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="87" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="89" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:Index="94" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="98" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="100" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="102" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="104" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="107" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1" />
+      <Row ss:Index="111" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="113" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="115" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="1" />
+      <Row ss:Index="122" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="127" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="129" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="132" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="1" />
+      <Row ss:Index="137" ss:AutoFitHeight="0" ss:Height="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1" />
+      <Row ss:Index="141" ss:AutoFitHeight="0" ss:Height="90" />
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="2" />
+      <Row ss:Index="147" ss:AutoFitHeight="0" ss:Height="90" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1" />
+      <Row ss:Index="152" ss:AutoFitHeight="0" ss:Height="90" />
+      <Row ss:Index="154" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="156" ss:AutoFitHeight="0" ss:Height="120" />
+      <Row ss:Index="158" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="160" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="164" ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="3" ss:StyleID="s62" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="4" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1" />
+      <Row ss:Index="181" ss:AutoFitHeight="0" ss:Height="60" ss:Span="2" />
+      <Row ss:Index="188" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="190" ss:AutoFitHeight="0" ss:Height="135" />
+      <Row ss:Index="193" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1" />
+      <Row ss:Index="197" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="199" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="203" ss:AutoFitHeight="0" ss:Height="45" ss:Span="8" />
+      <Row ss:Index="224" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="226" ss:AutoFitHeight="0" ss:Height="45" ss:Span="1" />
+      <Row ss:Index="230" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="232" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="235" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="237" ss:AutoFitHeight="0" ss:Height="30" ss:Span="2" />
+      <Row ss:Index="242" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="244" ss:AutoFitHeight="0" ss:Height="30" ss:Span="2" />
+      <Row ss:Index="249" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="251" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="253" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="256" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="258" ss:AutoFitHeight="0" ss:Height="30" ss:Span="3" />
+      <Row ss:Index="263" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="4" />
+      <Row ss:Index="270" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="272" ss:AutoFitHeight="0" ss:Height="30" ss:Span="3" />
+      <Row ss:Index="278" ss:AutoFitHeight="0" ss:Height="60" ss:Span="1" />
+      <Row ss:Index="282" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="284" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="286" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="288" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="290" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="292" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="294" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="296" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="298" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="300" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="302" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="304" ss:AutoFitHeight="0" ss:Height="60" />
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>33</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>43</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

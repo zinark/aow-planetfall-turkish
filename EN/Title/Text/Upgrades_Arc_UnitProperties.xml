@@ -1,0 +1,1585 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Benny Arents</LastAuthor>
+    <LastSaved>2019-09-09T11:45:47Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="139" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="291" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="192.75" />
+      <Column ss:StyleID="s62" ss:Width="151.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="310.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="283.5" />
+      <Column ss:StyleID="s62" ss:Width="184.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">UNIT_UPGRADES_LIGHTNING</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_ROD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Çubuğu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_ROD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orta menzilli bir Ark silahı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Projektörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orta menzilli bir Ark silahı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BLAST_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Patlaması Projesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_BLAST_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef bölgeyi vuran ve Ark hasarı veren yüklü bir atış yapın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Topu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır, uzun menzilli bir Ark silahı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_TASER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Şok Tabancası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_TASER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasardan çok kalabalık kontrolü için tasarlanmış olan bu kısa menzilli Ark silahı bir birime büyük bir şok verebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Uzatma Modülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark silahlarından yapılan saldırılar artık başarılı bir vuruşta {ExtensionJumps} hex içindeki {ExtensionRange} düşman hedefine sıçrayarak {ExtensionDamage} hasar verecek.[br/]D Etki Alanı ve Yakın Dövüş saldırıları için geçerli değildir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasar, {ExtensionJumps} altıgeni içindeki {ExtensionRange} yakındaki düşman birimlerine sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Darbe Modülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark silahlarının saldırıları fazladan bir etki seviyesi kazanarak [abilityred]Düşman birimlerini [/abilityred]Sarsmalarına olanak tanır.[br/]Ayrıca, Ark silahları {StrengthChance}[strengthWave/] güç şansı (tekrar eden saldırılar için {StaticChanceRepeating}[strengthwave/]) kazanarak [abilityred]Elektrifiye[/abilityred] özelliğini {Duration}[turn/] karşılığında Ethereal olmayan birimlere uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sersemletme Modülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark silahlarından gelen saldırılar, {StunChance}[strengthwave/] güç şansına (tekrarlanan saldırılar için {StunChanceRepeating}[strengthwave/]) sahiptir ve {Duration}[turn/] için Eterik olmayan birimlere [abilityred]Sersemletme[/abilityred] uygular. Direnilirse, bunun yerine [abilityred]Statik Yük[/abilityred] uygulanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Statik Birikim Modülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark silahlarıyla yapılan saldırıların {StaticStrengthChance}[strengthwave/] güç şansı (tekrarlanan saldırılar için {StaticChanceRepeating}[strengthwave/]), hedefin Ark direncini {StaticChargeDuration}[turn/] boyunca {BuildupResistance}[DefenseWave/] düşüren bir istifleme zayıflatıcısı olan [abilityred]Statik Yük[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE_IMPLANTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Misilleme Savunması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE_IMPLANTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim statik olarak yüklenir ve {DermalArcResistance} direnç kazanır. [br/][br/]Bu birim {DermalHexRange} altıgeni içinden hasar aldığında, saldıran {DermalDamageBack} hasar alır ve sırasının geri kalanında sersemlemek için {StrengthChanceStun} gücünde bir şansa sahip olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_THROWER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Fırlatıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_THROWER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orta menzilli, havadan havaya bir Ark silahı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Saldırısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LIGHTNING_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} hex yarıçapında yakındaki birimleri vurmak için elektrik patlamaları çağırın. Birim bu yeteneği kullandıktan sonra savunma moduna girer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Yükü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ARC_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geminin dahili kapasitörlerini şarj ederek saldırılarının [abilityred]Stagger[/abilityred] hedeflerine ve bir sonraki dönüşünün sonuna kadar {damageBonus} ekstra hasar vermesine neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_CHARGED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ücretli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_CHARGED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimlerin saldırıları fazladan {damageBonus} hasar verir ve [abilityred]Stagger[/abilityred] hedefleri sarsabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_CHARGED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ArcChargeBonus} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EQUIPMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BASIC_ARC_ROD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Çubuğu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EQUIPMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BASIC_ARC_PROJECTOR_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Projektörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_SWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Kılıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_SWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Ark Kılıcı ile vur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EQUIPMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BASIC_ARC_SWORD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Kılıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BLASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Püskürtücü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BLASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Ark enerjisi patlaması ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_STORM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Fırtınası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_STORM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yukarıdan hedefleri vuran ve siperleri görmezden gelen Ark enerjisi okları çağırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUANTUM_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pozitron Deşarj Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">QUANTUM_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim güçlü bir Ark alanıyla örtülür, bu da onu menzilli saldırılarla vurmayı {DischargeAccuracyEnemy} zorlaştırır ve ona {ArcResistance}[DefenseWave/] direnç kazandırır. Her savaş sırasının başında, {JumpDistanceRadius} altıgen yarıçaplı etki alanı içindeki rastgele bir düşman, {DischargeJumpDamage} hasar alarak bir deşarjla vurulur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUANTUM_ARC_STORM_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pozitron Ark Fırtınası Projektörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUANTUM_ARC_STORM_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pozitron Ark Fırtınası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">QUANTUM_ARC_STORM_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HexDistance} altıgen koni içinde güçlü bir Ark enerjisi seli gönderin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_TENDRILS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Tendrilleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_TENDRILS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe Ark geliştirilmiş dallarla saldır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STORM_CALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtına Çağrısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STORM_CALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir bölgeyi vurması için gök gürültüsünü çağırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NAVAL_ARC_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deniz Ark Topu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NAVAL_ARC_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe gemiye monteli bir Ark topu ateşleyin. Uçan birimlere karşı isabet cezalarını yok sayar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_PISTOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbeli Tabanca</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_PISTOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe Ark enerjisi patlamaları fırlatır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_PULSE_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Tekrarlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_PULSE_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe Ark enerjisi patlamaları fırlatır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BOLAS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Bolas</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BOLAS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimleri yakalamak ve hareketsiz hale getirmek için gelişmiş bir bolas fırlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbeli Keskin Nişancı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_SNIPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe kesin bir Ark enerjisi atışı yapın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_SNIPER_SNAPSHOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbeli Keskin Nişancı Anlık Görüntüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_SNIPER_SNAPSHOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir anlık Ark enerjisi ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_PULSE_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Darbe Topu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HEAVY_PULSE_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Darbe Topunu hedefe ateşleyerek {radius} hex yarıçapında yüksek etkili ağır Ark hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_LANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nabız Mızrağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_LANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir Ark enerjisi mızrağı fırlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_TURRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Sürücüleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_TURRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe Darbe Sürücüleri ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSM_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cataclysm Topu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CATACLYSM_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cataclysm topunu hedef konuma ateşleyerek geniş bir etki alanında hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BAYONET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Güç Patlaması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BAYONET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü, kısa menzilli bir patlama ateşleyin. Bu birim daha sonra [abilityblue]Defense Mode[/abilityblue]'ye girer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BAYONET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCURACY_MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geniş Yayılım</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BAYONET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCURACY_MODIFIER_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{accuracyBonus} daha fazla doğruluk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BLASTER_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Püskürtücü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BLASTER_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir enerji patlaması ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BLASTER_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME_LEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Püskürtücü Tüfek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BLASTER_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION_LEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir enerji patlaması ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREACH_ROUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhlal Turu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BREACH_ROUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sonraki saldırının {BreachRoundArmor} ve {BreachRoundShield}'yi geçmesini ve {AccuracyBonus} isabetlilik kazanmasını sağlayan bir ihlal mermisi yükleyin. Darbeli Keskin Nişancı Atışını etkilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BREACH_ROUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUFF_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DefensePenetrationIgnoreArmor} ve {DefensePenetrationIgnoreShields}'yi baypas edin, {AccuracyBonus} doğruluğunu kazanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREACH_PULSE_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhlal Darbe Tekrarlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREACH_PULSE_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir ihlal darbesi tekrarlayıcı ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_PULSE_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Yükünü Dağıtın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_PULSE_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir alana, birimlere hasar veren bir Ark alanında patlayan, [abilityred]Statik Yük[/abilityred] uygulayan ve alanda bir Statik Bulut Tehlikesi bırakan bir Darbe Yükü yerleştirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TESLA_COIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesla Ark</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TESLA_COIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakındaki düşman birimlerine sıçrayan düşük hasarlı bir Ark saldırısı ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_GATLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Gatling</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_GATLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir dizi Ark oku fırlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Füzesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1 hex yarıçapında Ark hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_GRENADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şarj etme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt İstifleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elektrostatik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşaltma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diyot</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğru Akım</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STATIC_BUILDUP_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kondansatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Retaliator</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pistonlu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şok Şakacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direnç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şok Tuzağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RETALIATION_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık Çekirdek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gürleyen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sarsıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı şarj</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elektro Kuvvet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Statik Etki</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_IMPACT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gigawatt</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taser</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çarpıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elektrodazing</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şaşırtıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şok edici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sığır Üretimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şaşırtıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STUN_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fibrilatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Jumper</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Jumpstarter</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Galvanizli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elektrikle İdam</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şok Süvarisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_EXTENSION_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtına Zinciri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_ARC_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güç Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_ARC_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Exawatt</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_ARC_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thunder Clap</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_ARC_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güncel Savaş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_ARC_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şok Belası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_ARC_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gök Gürültüsü Getiren</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtına Büyücüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lightning Crafter</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Snapvolt Şoklayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldırım Koşucusu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cennetin Gazabı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POSITRON_DISCHARGE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtına Peygamberi</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>10</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>18</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

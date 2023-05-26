@@ -1,0 +1,2529 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Elliott Van Neste</Author>
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <Created>2018-10-30T08:44:30Z</Created>
+    <LastSaved>2020-07-27T10:32:12Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>19965</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="215" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="285.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="244.5" />
+      <Column ss:StyleID="s62" ss:Width="168.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="456.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="293.25" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="49.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="42.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="38.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRUCTURES_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LANDMARK_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039E0000007A]Landmark[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TREASURE_SITE_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039A00000925]Visit Site[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VISIT_SITE_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039A00000925]Visit Site[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPAWNER_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039A00000928]Spawner[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039A00000930]Dwelling[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BASE_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039A0000092F]Base[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OUTPOST_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039A000010D7]Camp[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003AC000000F1]Imperial Defense[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Do not translate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DWELLING_INCOME_GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYO_TOMB_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cryo Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CRYO_TOMB_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir enerji sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000359]Cryo-Medical Facility[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CRYO_TOMB_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir enerji sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{EnergyFlat}, {EnergySlot}.[br/]{ProductionFlat}, {ProductionSlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD00000359]Cryo-Medical Facility[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYO_TOMB_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean Kasası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir üretim sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD0000032B]Heavy Duty Manufacturing Plant[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir üretim sektörüdür ve eklendiğinde aşağıdakileri verir:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{ResearchFlat}, {ResearchSlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD0000032B]Ağır Hizmet Üretim Tesisi[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir araştırma sektörüdür ve eklendiğinde aşağıdakileri verir: [br/][bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot} [/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD0000033A]Shrine of Darkness[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir araştırma sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{EnergyFlat}, {EnergySlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar:[bulletlist][bullet][hyperlink,000003BD0000033A]Karanlığın Tapınağı[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra Sanctorum</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Labs</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir gıda sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000335]Genetics Lab[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir gıda sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{FoodFlat}, {FoodSlot}.[br/]{ResearchFlat}, {ResearchSlot}. [br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar:[bulletlist][bullet][hyperlink,000003BD00000335]Genetik Laboratuvarı[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACEPORT_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzay limanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPACEPORT_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir üretim sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000369]Spaceship Maintenance Bay[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPACEPORT_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir üretim sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{EnergyFlat}, {EnergySlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD00000369]Uzay Gemisi Bakım Bölmesi[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACEPORT_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Parkları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yer işareti gelişmiş bir gıda sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{HappinessFlat}[/bullet][bullet]{HappinessSlot} [/bullet][/bulletlist][br/][br/]In addition, koloninizde inşa edilmek üzere aşağıdakilerin kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000365]Relaxation Center[/hyperlink][/bullet][Bullet][hyperlink,0000038500000313]Roy-2[/hyperlink][/bullet][bullet][hyperlink,0000038500000314]Emma-3[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir gıda sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{FoodFlat}, {FoodSlot}.[br/]{HappinessFlat}, {HappinessSlot}. [br/][br/]Ayrıca, koloninizde inşa edilmek üzere aşağıdakilerin kilidini açar: [hyperlink,000003BD00000365]Rahatlama Merkezi[/hyperlink], [hyperlink,0000038500000313]Roy-2[/hyperlink] ve [hyperlink,0000038500000314]Emma-3[/hyperlink].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hükümet Sarayı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir araştırma sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD0000035D]Imperial Training Center[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir araştırma sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{FoodFlat}, {FoodSlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD0000035D]İmparatorluk Eğitim Merkezi[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Ağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir üretim sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000326]Weapons Facility[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir üretim sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000326]Weapons Facility[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Arşivleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir gıda sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{HappinessFlat}[/bullet][bullet]{HappinessSlot\}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000330]Starlight Observatory[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir gıda sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{FoodFlat}, {FoodSlot}.[br/]{HappinessFlat}, {HappinessSlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD00000330]Starlight Observatory[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech Kompleksi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir enerji sektörüdür ve eklendiğinde aşağıdakileri verir: [bulletList][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/]In addition, koloninizdeki aşağıdaki binanın kilidini açar: [bulletlist][bullet][hyperlink,000003BD00000304]Rift Generator[/hyperlink][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüm noktası gelişmiş bir enerji sektörüdür ve ilhak edildiğinde aşağıdakileri verir:[br/]{EnergyFlat}, {EnergySlot}.[br/]{ProductionFlat}, {ProductionSlot}.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD00000304]Rift Generator[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_BIODOME_COMPOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Imperial Biodome Bileşiği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_BIODOME_COMPOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ faaliyette olan eski bir Yıldız Birliği sektör üssü. Önceden inşa edilmiş bir gıda sömürüsü görevi görür ve ek bir {SupplyFlat} ve {SupplySlots} sağlar.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD000004B2]Beslenme Merkezi[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Star Union is the name of the empire in our game, see the lore.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_BIODOME_COMPOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_ENERGY_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Imperial Enerji Kompleksi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_ENERGY_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ çalışır durumda olan eski bir Yıldız Birliği sektör üssü. Önceden inşa edilmiş bir enerji sömürüsü görevi görür ve ek bir {EnergyFlat} ve {EnergySlots} sağlar.[br/][br/]Ayrıca, koloninizdeki aşağıdaki binanın kilidini açar: [hyperlink,000003BD000004AC]Kalkanlama Laboratuvarı[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_ENERGY_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_MINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Imperial Madencilik Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_MINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ çalışır durumda olan eski bir Yıldız Birliği sektör üssü. Önceden inşa edilmiş bir üretim sömürüsü görevi görür ve ek bir {ProductionFlat} ve {ProductionSlots} sağlar.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD000004B7]Takviye Fabrikası[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_MINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_RESEARCH_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Araştırma Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_RESEARCH_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ çalışır durumda olan eski bir Yıldız Birliği sektör üssü. Önceden inşa edilmiş bir araştırma sömürüsü görevi görür ve ek bir {ResearchFlat} ve {ResearchSlots} sağlar.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar: [hyperlink,000003BD000004AD]Öğrenme Merkezi[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_RESEARCH_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_SUNKEN_CITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Batık Kolonisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_SUNKEN_CITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ faaliyette olan eski bir deniz Yıldız Birliği sektör üssü. Önceden inşa edilmiş bir su istismarı görevi görür ve ek bir {EnergyFlat}, {ResearchFlat} ve {FoodFlat} ile {EnergySlots}, {ResearchSlots} ve {FoodSlots} sağlar.[br/][br/]Ayrıca, koloninizde aşağıdaki binanın kilidini açar:[hyperlink,000003BD00001921]Aquatic Training Facility[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_SUNKEN_CITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GENERIC_UNIT_PROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünitede {UnitBonus} vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_WAR_MONUMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Savaş Anıtı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_WAR_MONUMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin saygıdeğer kahramanlarını onurlandıran bir anma salonu, monolitik ve etkileyici bu yapılar Yıldız Birliği'nin gazilerine saygı duyulmasına ilham verdi.[br/][br/]Bağlı olduğu koloniye {Supply} Gıda ve {Production} Üretim verir.[br/]Sahip kolonide inşa edilen Akılsız olmayan birimler {UnitBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_WAR_MONUMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_WAR_MONUMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız olmayan birimler {UnitBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_WEAPONS_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Silah Fabrikası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEAVY_WEAPONS_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Devasa bir Ağır Silah Fabrikası olan bu devasa kompleks, bir zamanlar Yıldız Birliği'nin ağır askeri teçhizatının çoğunu üretiyordu, şimdi ise terk edilmiş bir halde yağmalanmayı bekliyor.[br/][br/]Bağlı olduğu koloniye {Production} Üretim kazandırır.[br/]Sahip kolonide inşa edilen ağır birimler {UnitBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEAVY_WEAPONS_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır birimler {UnitBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REPAIR_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin silahları bir sonraki çarpışmalarında {Damage} hasarı verecek şekilde değiştirildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_WEAPONS_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REPAIR_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkmal İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">REPAIR_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ziyaret eden birimlere tam [hp/] kazandırır ve bir sonraki savaşlarında saldırılarında {Damagebonus} ilave hasar verir.[br/][br/]İkmal İstasyonu bağlı olduğu koloniye {Supply} Gıda ekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REPAIR_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STADIUM_ARCADIUM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stadyum Arcadium</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STADIUM_ARCADIUM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birliğin Stadyumlarında hala çoktan unutulmuş grupların otomatik konserleri çalınmaktadır. Bağlı olduğu koloniye {happiness} Mutluluğu verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STADIUM_ARCADIUM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MILESTONE_CHARGE_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Milestone Şarj İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MILESTONE_CHARGE_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ziyaret eden birimlerin tüm hareket noktalarını tamamen geri yükler.[br/][br/]Kilometre Taşı Şarj İstasyonu, bağlı olduğu koloniye {energy} Enerji ekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MILESTONE_CHARGE_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_SHRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Shrine</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSI_SHRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin psiyoniği yasaklamasına ve uygulayıcılarına zulmetmesine rağmen, bunun gibi tapınaklar Yıldız Birliği topraklarının her yerinde meydan okurcasına gizlenmiş olarak bulunabilir.[br/][br/]Bağlı olduğu koloniye {Research} Araştırma ve {Energy} Enerji verir.[br/]Bağlı kolonide inşa edilen birimler {UnitBonus} Psiyonik Direnç kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSI_SHRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {UnitBonus} Psiyonik Direnç kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_SHRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DNA_VAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DNA Kasası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DNA_VAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma amacıyla her türden yaratık ve bitki örtüsünün DNA örneklerini ve tohumlarını saklamak için kullanılan eski bir İmparatorluk Tohum kasası. [br/][br/]Bağlı olduğu koloniye {Research} Araştırma ve {Supply} Gıda sağlar.[br/]Bağlı olduğu kolonide inşa edilen Biyolojik ve Sayborg birimleri {UnitBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DNA_VAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DNA_VAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik ve Sayborg birimler {UnitBonus} kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAFORMING_OUTPOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Terraforming Outpost</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TERRAFORMING_OUTPOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bağışıklık sistemini güçlendiren bazı imparatorluk sınıfı uyarıcılar da dahil olmak üzere hala bazı malzemeleri kalan eski, terk edilmiş bir terraforming karakolu.[br/][br/]Bağlı olduğu koloniye {Supply} Gıda verir.[br/]Bağlı kolonide inşa edilen birimler {UnitBonus} Durum Etkisi Direnci kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Imperial-grade stimulants are a kind of drug you can inject yourself with to boost your immune system / resistance</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAFORMING_OUTPOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAFORMING_OUTPOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{UnitBonus} tüm durum etkilerine karşı direnç.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TERRAFORMING_OUTPOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {UnitBonus} durum etkisi direnci kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BROADCAST_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayın İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BROADCAST_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği güçlü bir gezegensel iletişim ve propaganda ağına sahipti. İmparatorluğun en parlak döneminde bu kuleler gezegenler arası iletişime de olanak sağlamıştır. [br/][br/]Bağlı olduğu koloniye {Influencegain} Nüfuz verir.[br/]Bağlı kolonide inşa edilen birimler saldırılarında {UnitBonus} isabetlilik kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Autonom are an NPC faction of robots</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BROADCAST_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BROADCAST_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Accuracybonus} doğruluğu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BROADCAST_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {UnitBonus} doğruluğu kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_BARRACKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon Kışlası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PARAGON_BARRACKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin gerilemesine rağmen Paragon oldukça büyük bir orduya sahip olsa da, bu tesisler Paragon lejyonlarının eskiden sahip olduğu gücü hatırlatır. [br/][br/]Bağlı olduğu koloniye {Energy} Enerji ve {Production} Üretim verir.[br/]Bağlı kolonide inşa edilen ışık birimleri {UnitBonus} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Paragon are an NPC faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_BARRACKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_BARRACKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm Hafif birimler {UnitBonus} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GRAVITY_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerçekimi Jeneratörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GRAVITY_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerçekimi Jeneratörleri hem düşman kuvvetleri hem de vahşi yaşam için savaş dışı bir caydırıcı olarak kullanılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">GRAVITY_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet][abilityred]Düşman[/abilityred] hareket maliyeti bu sektörde dünya haritasında hex başına {MovementCost} artar.[/bullet][bullet]Savaşta:[/bullet][bulletList][bullet][abilityred]Düşman[/abilityred] birimleri [abilityred]Yavaş[/abilityred] hareket hızına sahiptir.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Slow movement speed means the unit has less move points and moves slower on the world map. A hex has a movepoint cost(movement cost), and a unit has a number of move points. A unit spends movepoints equivalent to a hex's movepoint cost to move unto that hex.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GRAVITY_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektördeki aktif bir yerçekimi jeneratörü nedeniyle, bu birimin yerçekimi yapay olarak artırılmıştır. Yavaş hareket hızına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GRAVITY_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektördeki aktif bir Yerçekimi Jeneratörü nedeniyle tüm birimler yavaş hareket hızına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACTIVE_LASER_TRACKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefleme Dizisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ACTIVE_LASER_TRACKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefleme Dizileri, taktiksel bir avantaj için kuvvet hareketlerinin doğru konumlarını elde etmek için kullanılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTIVE_LASER_TRACKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet]Bu sektördeki birimler için görüş ve sensör menzili {sensorRange} artar.[/bullet][bullet][abilityblue]Dost[/abilityblue] birimler Algılama kazanır. [/bullet][bullet]Savaşta, [abilityblue]dost[/abilityblue] birimlerinin menzilli yetenekleri {accuracybuff} ve {rangebuff} altıgen menzil kazanır.[/bullet]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTIVE_LASER_TRACKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SM_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimi güçlendiren bir hedefleme dizisi nedeniyle, bu birim aşağıdakileri kazanır: [bulletList][bullet]Görüş ve sensör menzili {sensorRange} hex artar.[/bullet][bullet]Saptama kazanır.[/bullet][bullet]Bu birimin Menzilli yetenekleri {accuracybuff} ve {rangebuff} hex menzil kazanır.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Detection allows units to see other units that would otherwise be camouflaged and invisible.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACTIVE_LASER_TRACKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hedefleme dizisinden Algılama kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ACTIVE_LASER_TRACKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]dostu[/abilityblue] birimlerinin menzilli yetenekleri {accuracybuff} isabetlilik ve {rangebuff} altıgen menzil kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Operation points are a resource that is spent to cast operations.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_SCRAMBLER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Scrambler Operasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPERATION_SCRAMBLER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Karıştırıcılar genellikle İmparatorluk tarafından karşı istihbarat operasyonları ve casusluk uydularından bölgeleri engellemek için kullanılırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPERATION_SCRAMBLER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet]Bu sektörde hem dünya haritasında hem de taktik savaşta operasyonlar mümkün değildir.[/bullet]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_SCRAMBLER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektördeki aktif bir Operasyon Karıştırıcı nedeniyle bu sektörde operasyonlar mümkün değildir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Savunma Tareti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Savunma Taretleri, bir düşmanın ağır ateş desteğini menzilde devre dışı bırakabilen ve ortadan kaldırabilen gelişmiş araç karşıtı taretlerdir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet]Savaşta, her {turns}dönüşünde:[/bullet][bulletList][bullet]ATüm [abilityred]Düşman[/abilityred] Mekanik ve Sayborg birimleri {TCdamage} Ark hasarı alır. [/bullet][bullet][abilityred]Düşman[/abilityred] Mekanik ve Sayborg birimlerinin {Stunchance} gücünde [abilityred] Sersemletilme[/abilityred] şansları vardır.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mechanical and Cyborg are unit types, that determine whether or not some abilities and status effects can affect them. Stunned is a negative status effect that makes a unit unable to move or act.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns} dönüşte savaş alanı bir Ark darbesiyle vurulur ve tüm [abilityred]Düşman[/abilityred] Mekanik ve Sayborg birimlerine {TCdamage} Ark hasarı vererek {Stunchance} güçle [abilityred]Sersemletme[/abilityred] şansını {Stunduration}'a çıkarır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Darbe Savunma Tareti tarafından etkisiz hale getirildi. Dünya haritası yenilenmeleri engellendi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">regeneration is the amount of hit points (hp) that a unit regains each turn on the world map.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Engelleme Sistemi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ADS, hava sahası sınırlarının maceracı bir şekilde yorumlanmasını engellemek için kontrollü hava sahası alanlarının yakınında bulunur. Havadaki herhangi bir varlıkla başa çıkmada oldukça etkilidirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet]Savaşta, her {turns} dönüşünde: [/bullet][bulletList][bullet]A rastgele [abilityred]Düşman[/abilityred] Uçan birim {TCdamage} Kinetik hasar ve {turnsTurbulence} dönüş boyunca Türbülans zayıflatıcısına maruz kalır.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Turbulence is a negative status effect that affects flying units, making them less accurate with their attacks.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektörde Hava Engelleme Sistemi tarafından angaje edilmiştir. Dünya haritası yenilenmeleri engellenmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turda bir füze rastgele bir [abilityred]Düşman[/abilityred] Uçan birimini hedef alarak {TCdamage} Kinetik hasar verir ve {turns} tur boyunca Türbülans zayıflatıcısını uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orbital Savunma Bağlantısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bağlantı aslında gezegenin yörüngesel savunma platformuyla sürekli iletişim sağlamak için kurulmuştur. Hâlâ aktiftir ve bu sektördeki düşman güçleri hedef almaktadır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet]Savaşta, her {turns} dönüşte:[/bullet][bulletList][bullet]{units} rastgele düşman birimleri {TCdamage} Kinetik hasar alır.[/bullet][bullet]Dayanıklı olmayan birimler [abilityred]Sarsılır[/abilityred].[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Stagger is a negative effect that can be applied to enemy units that means they are less effective.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş alanı her {turns} turda bombalanır, {units} rastgele düşman birimine {TCdamage} Kinetik hasar verir ve [abilityred]Stagger[/abilityred]'a neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektörde Yörünge Savunma Üst Bağlantısı tarafından angaje edildi. Dünya haritası yenilenmeleri engellendi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHROUD_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Örtü Jeneratörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SHROUD_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kefen Jeneratörü, ordu tarafından düşman kuvvetlerinin görüş ve istihbaratını engellemek için kullanılan eski bir İmparatorluk cihazıdır. Özel teçhizat, örtü jeneratörünün etkilerini ortadan kaldırabilir ve bunları kullanan kuvvetlere savaşta avantaj sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SHROUD_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet][abilityred]Düşman[/abilityred] birimleri bu sektördeyken {VisionRange} görüş menziline sahiptir.[/bullet][bullet]Savaşta:[/bullet][bulletList][bullet]Tespit özelliği olmayan birimlerin tüm yeteneklerinin maksimum menzili {WeaponRangeTC} hex'e düşürülür.[bullet/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Vision range is how far a unit can see on the world map. It gets reduced in sectors with the Shroud Generator.  </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHROUD_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Algılaması olmayan [abilityred]Düşman[/abilityred] birimlerinin tüm yeteneklerinin azami menzili {WeaponRangeTC} hex'e düşürülür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHROUD_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektörde Kefen Jeneratörü tarafından meşgul ediliyor. Dünya haritası yenilenmeleri engellenmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE_RAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu, bu yapının yıkılmış bir versiyonunu bırakacaktır; yapıyı içeren sektöre sahipseniz daha sonra yeniden inşa edilebilir. Bu yapının yıkılmış bir versiyonunda listelenen etkilerin hiçbiri aktif olmayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">edit: rebuilt</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE_RAZED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Bu yapı yerle bir edildi ve şu anda hiçbir etkisi aktif değil.[/abilityred]Sektöre sahipseniz, bu yapıyı restore ederek etkilerini ve faydalarını yeniden etkinleştirebilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">edit: if</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE_REBUILD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden İnşa Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE_REBUILD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yapıyı orijinal haline getirin ve tamamlandığında etkilerini yeniden etkinleştirin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">edit: removed will and added reactivating</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE_REBUILD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yapı şu anda yeniden inşa edilmektedir. [INT_duration]'de tamamlandı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">edit: rebuilt</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TELEPORT_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işınlanma İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TELEPORT_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Yıldız Birliği dönemi Işınlanma İstasyonu hâlâ çalışır durumda. Nereye gittiğini öğrenmek için kullanın.[br/][br/]Isınma İstasyonu bir koloninin etki alanı içindeyken {energy} ekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TELEPORT_STATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TELEPORT_OP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işınlanma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TELEPORT_OP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu istasyonun bağlı olduğu tesise gidin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_VAULT_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Arşivlerine Erişim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_VAULT_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kasa değerli verilerle dolu bir hazinedir. Araştırmacıların arşivleri incelemeye adanmasıyla Promethean teknolojilerimiz büyük fayda sağlayacaktır.[br/][br/]Promethean teknolojisini araştırmak {ResearchReduction} daha ucuzdur ve Promethean birimlerinin üretimi {EnergyReduction} daha ucuza mal olur.[br/][br/][orange]Sadece Promethean komutanlar tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_VAULT_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean birimlerinin üretim maliyeti {EnergyReduction}'den [energy/]'ye düşer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_SANCTORUM_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yasak Kütüphaneye Erişim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_SANCTORUM_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sanctorum pek çok karanlık sır barındırır. Araştırmacıları arşivleri incelemeye adadığımızda, Psynumbra teknolojilerimiz büyük fayda sağlayacaktır.[br/][br/]Psynumbra teknolojisini araştırmak {ResearchReduction} daha ucuzdur ve Psynumbra birimlerinin üretimi {EnergyReduction} daha az [energy/] tutar.[br/][br/][orange]Sadece Psynumbra komutanları tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_SANCTORUM_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra birimlerinin üretim maliyeti {EnergyReduction}'den [energy/]'ye düşer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech Arşivlerine Erişim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kompleks değerli verilerle dolu bir hazinedir. Araştırmacıları arşivleri incelemeye adadığımızda, Voidtech araştırmalarımız büyük fayda sağlayacaktır.[br/][br/]Voidtech'i araştırmak {ResearchReduction} daha ucuzdur ve Voidtech birimlerinin üretimi {EnergyReduction} daha ucuza mal olur.[br/][br/][orange]Sadece Voidtech komutanları tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech birimlerinin üretim maliyeti {EnergyReduction}'den [energy/]'ye düşer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARCHIVES_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Aydınlanmayı Arayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARCHIVES_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arşivler hem bilgelik hem de ışık içerir. Araştırmacıları arşivleri incelemeye adadığımızda, Göksel teknolojilerimiz büyük fayda sağlayacaktır.[br/][br/]Göksel teknolojiyi araştırmak {ResearchReduction} daha ucuzdur ve Göksel birimleri üretmek {EnergyReduction} daha az [energy/]'ye mal olur.[br/][br/][orange]Sadece Göksel komutanlar tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARCHIVES_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel birimlerin üretim maliyeti {EnergyReduction}'den [energy/]'ye düşer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Veri İnceleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Sentez ağını araştırma merkezlerimizle entegre edersek, Sentez teknolojilerimiz büyük fayda sağlayacaktır.[br/][br/]Sentez teknolojisini araştırmak {ResearchReduction} daha ucuzdur ve Sentez birimlerini üretmek {EnergyReduction} daha ucuza mal olur.[br/][br/][orange]Sadece Sentez komutanları tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez birimlerinin üretim maliyeti {EnergyReduction}'den [energy/]'ye düşer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LABS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Xenotech Örnekleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LABS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Laboratuvarda çok sayıda deneysel virüs ve doku örneği bulunmaktadır. Araştırmacıların malzemeyi keşfetmeye adanmasıyla, Xenoplague teknolojilerimiz büyük fayda sağlayacaktır.[br/][br/]Xenoplague teknolojisini araştırmak {ResearchReduction} daha ucuzdur ve ortaya çıkan tüm Xenoplague birimleri, seviyeleriyle çarpılarak {HealthPoints} kazanır.[br/][br/][orange]Sadece Xenoplague komutanları tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LABS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenotech Örnek Araştırması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LABS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, eski Xenotech örneklerinin araştırılmasıyla yapılan keşifler sonucunda {HealthModefier} kazanmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACEPORT_TACTICAL_INTEGRATION_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzay Limanı Taktik Entegrasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPACEPORT_TACTICAL_INTEGRATION_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzay limanının uydu ağ sistemlerini kendi taktik ağlarımızla entegre ederek, çok daha yüksek hız ve verimlilikle nokta atışı taktik saldırılar yapabiliriz.[br/][br/]Taktik operasyonların enerji maliyeti {EnergyReduction} azalır. Buna ek olarak, taktik operasyonlar artık savaşın ilk turunda konuşlandırılabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">tactical operations are kind of like spells a player can use in combat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Kampı Takipçileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Park'a yapılan geziler, en sefil ruhların moralini ve canlılığını geri kazandırma yetenekleriyle ünlüydü. Parktaki 'varlıkları' askeri birimlerimize yerleştirebilir, moral ve canlılığı büyük ölçüde artırabilirdik.[br/][br/]AAkılsız olmayan tüm birimler {AddedMorale} kazanır. Biyolojik ve Sayborg birimler de {hitPointsPoints} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MORALE_EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Kampı Uşağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MORALE_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{AddedMorale}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEALTH_EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Kampı Minyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEALTH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HealthPoints}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALL_EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Kampı Takipçisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_CAMP_FOLLOWERS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALL_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{AddedMorale} ve {HealthPoints}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALACE_PROPOGANDA_NETWORKS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saray Propaganda Ağları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PALACE_PROPOGANDA_NETWORKS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yönetim sarayı, propagandayı tüm dünyaya yaymak için kullanabileceğimiz gezegensel bir iletişim ağının merkezinde yer alır ve uluslararası konumumuzu büyük ölçüde artırır.[br/][br/]Tüm ırklarla {AddedReputation} ve {AddedRelation} ilişkiler kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALACE_PROPOGANDA_NETWORKS_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DIPLOMATIC_MODEFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saray Propaganda Ağları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYO_REPOPULATION_PROTOCOL_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyo Repopülasyon Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CRYO_REPOPULATION_PROTOCOL_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyo tesisinin nüfusu uzun süredir uykuda, ancak yeterli enerji ve hazırlıkla kolonilerimizi yeniden doldurmak için topluca geri getirilebilirler. Ancak, kendi vatandaşlarımız bu hamleden memnun olmayabilir...[br/][br/]Hedef koloni anında {AddedPopulation} kazanır, ancak aynı zamanda {Turns} için Büyük Huzursuzluktan ({HappinessModefier}) muzdarip olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CRYO_REPOPULATION_PROTOCOL_DOCTRINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyo tesisinde uyuyan nüfusun bir kısmını uyandırmayı başardınız. Ancak nüfusunuz bu hamleden memnun değil ve bir süre mutsuz olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_CHAMPION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hükümet Sarayı: Şampiyon Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_CHAMPION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunan tarafın her turunun başında, Hükümet Sarayı'nın saltanat motoru rastgele bir savunan birimi şampiyonu olarak seçer ve ona {ChampionProtocolDefense} hasar direnci ve tüm yeteneklerinde {ChampionProtocolDamageBoost} artırılmış hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_CHAMPION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir şampiyon olarak seçildi ve ona {ChampionProtocolDefense} hasar direnci ve tüm yeteneklerinde {ChampionProtocolDamageBoost} artırılmış hasar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNMENT_PALACE_CHAMPION_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ChampionProtocolDamageBoost} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYO_TOMBS_AWAKENED_GUARDIANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cryo Tesisi: Uyanmış Muhafızlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CRYO_TOMBS_AWAKENED_GUARDIANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/]'de, kriyo tesisinin daha fazla sakini uyanır ve savaşın sonuna kadar savunmacı için {AwakenedGuardiansNumber} Paragon Askerleri veya Muhafızları çağırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Paragon troopers are like cyborg zombie soldiers, can be assumed male
+Paragon Trooper and Paragon Guards are the unit names.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACE_PORT_SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzay Limanı: İkmal Damlası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPACE_PORT_SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmacılar her {turns}[turn/]'de uzay limanından ikmal yaparak {armor} biriktirir, {Healing} boyunca iyileşir ve yetenek bekleme sürelerini sıfırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_PARKS_MERITS_OF_BLISS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Parkları: Mutluluğun Erdemleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ELYSIUM_PARKS_MERITS_OF_BLISS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmacıların kritik vuruş şansı {MeritsOfBlissCritBonus} artar. Her {turns}[turn/]'de Elysium Parkları'nın büyüleyici atmosferi etkisini gösterir. Saldıran birimlerin {HalucinationDuration}[turn/] boyunca [abilityred]Hallucinating[/abilityred] başlatmak için {HalucinationStrength} güç şansı vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hallucinating is a negative status effect that cause units to be unable to act for a duration.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_SANCTORUM_CALL_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Sanctorum: Uçurumun Çağrısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DARK_SANCTORUM_CALL_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/]'de Abyss herkesi çağırır. Akılsız olmayan saldıran birimlerin, savaşın sonuna kadar {CallOfTheAbyssStrength} güçle [abilityred]Umutsuzlukla Dolu[/abilityred] olma şansı vardır. Direnilirse, bunun yerine {BrokenMindDuration}[turn/] için [abilityred]Broken Mind[/abilityred]'ye maruz kalırlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Filled with despair and Broken mind are negative status effects. They are psychological and affect the mind.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARCHIVES_CELESTIAN_FAVOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Arşivleri: Göksel İyilik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARCHIVES_CELESTIAN_FAVOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/], Celestian iyiliği savunmaya yardım eder. Saldıran birimlerin savaşın sonuna kadar {CelestianFavorSoulblazeStrength} güçle [abilityred]Soulburn[/abilityred] çekme şansı vardır. Savunan birimler [abilityblue]Aydınlanmış[/abilityblue] kazanır ve {CelestianFavorHeal} iyileşir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Soulburn is a negative status effect that affects the enemy's soul. Enlightened is a postive status effect that means that the unit is following the Path of Light of the celestian, a religion type thing.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Edit: Soulblaze --&gt; Soulburn</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_VAULT_PURIFICATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Kasası: Arıtma Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_VAULT_PURIFICATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/]'de kasanın arındırma protokolleri başlatılır ve {PurificationProtocolsTargetNumber} rastgele düşman hedefler seçilerek bu ve komşu altıgenlere PyrX gazı yayılır. Bulutun içinde kalan Biyolojik ve Cyborg kara birimleri [abilityred]Choking[/abilityred] ile vurulur. {Timer}[turn/]'den sonra bulut patlar ve [abilityred]Massive Impact[/abilityred] ile {ExplDamage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Immolated is a negative status effect. Immolated means covered in fire, taking fire damage every turn and running around in a panic (as you do)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_ADAPTIVE_NETWORK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Ağı: Uyarlanabilir Ağ</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_ADAPTIVE_NETWORK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez ağının uyarlanabilir doğası, tüm savunma birimlerine hasar aldıklarında [abilityblue]Bütünleşik[/abilityblue] ve [abilityblue]Uyarlanabilir Ağ[/abilityblue] vererek onlara {AdaptiveNetworkBuff} kazandırır. Bu, {stacks} katına kadar birikebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Integrated is a positive status effect, that means the unit is connected via cybernetic implants to a network. Adaptive network is a positive status effect as well.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_ADAPTIVE_NETWORK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarlanabilir Ağ</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_ADAPTIVE_NETWORK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim her hasar aldığında {AdaptiveNetworkShields} kazanır. Bu, en fazla {stacks} kez istiflenebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTHESIS_NETWORK_ADAPTIVE_NETWORK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_STACK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim yakın zamanda aldığı hasara karşılık olarak {AdaptiveNetworkShields} kazanmıştır. Bu, {stacks} katına kadar birikebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX_PHASE_GUARDIANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech Kompleksi: Faz Muhafızları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX_PHASE_GUARDIANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her  {turns}   [turn/] 'de, Voidtech kompleksinin kararsız sistemleri rastgele bir birimin Kararsız Yankısını yaratır. Kararsız Yankılar %50 daha az hasar verir, ancak bunun dışında orijinalinden ayırt edilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LABS_INFECTIOUS_VAPOURS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Laboratuvarları: Bulaşıcı Buharlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_LABS_INFECTIOUS_VAPOURS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/]'de, Xenoplague'in bulaşıcı buharları saldıran rastgele bir birime bulaşır. Bu birim {InfectiousVapoursDamage} hasar alır ve {InfectiousVaporsTurns}[turn/] boyunca [abilityred]Kararsız Kirlenme[/abilityred] ve [abilityred]Parazitik Enfeksiyon[/abilityred]'ye maruz kalma şansı {InfectiousVapoursStrength}'dir. Etki, {InfectiousVapoursJumpRange} hex içindeki başka bir hedefe {InfectiousVapoursJumpMax} defaya kadar sıçrar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unstable Contamination is a negative status effect which poisons the unit, dealing damage over time. Parasitic infection lowers the resistances of a unit. This effect can 'jump' meaning it can go from one unit to another, crossing empty hexes in combat.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>79</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>112</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

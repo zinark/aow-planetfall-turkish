@@ -1,0 +1,3007 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Joshua Crowder</LastAuthor>
+    <LastSaved>2020-08-06T22:03:41Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12315</WindowHeight>
+    <WindowWidth>28770</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="211" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="137.25" />
+      <Column ss:StyleID="s62" ss:Width="161.25" />
+      <Column ss:StyleID="s62" ss:Width="387" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="379.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNIT_UPGRADES_OATHBOUND</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_ZAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropik Şok</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.
+
+Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_ZAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı entropik enerji ile şoklayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.
+
+Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_LASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropik Atış</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_LASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı entropik enerji ile vur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_STORM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropik Fırtına</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_STORM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} hex yarıçaplı bir alanı entropi ile patlatın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_WAVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropik Kirpik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTROPIC_WAVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı entropik bir dalgayla vur. Dalga, {hexRange} altıgen içinde en fazla {extraTargets} ek hedefe sıçrayabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_PIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Pike</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_PIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmana yaylı kargı ile vur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Patlaması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmana şimşek fırlatın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_LANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Kılıcı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_LANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmana ark yüklü bir kılıçla saldırın. Yer veya hava hedeflerini vurabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_GREATBOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Greatbow</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_GREATBOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük bir yay kullanarak yayla aşılanmış bir ok at.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_ARROW_STAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Ok Bıçağı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_ARROW_STAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı yayla aşılanmış bir okla bıçaklayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_GREATSWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Büyük Kılıç</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_GREATSWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmana yay yüklü büyük bir kılıçla vur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STORM_DISCHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtına Deşarjı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STORM_DISCHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e atlayın ve etrafındaki {hexrad} hex yarıçapında inanılmaz bir elektrik dalgası boşaltın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STORMVOLT_GLAIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stormvolt Glaive</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STORMVOLT_GLAIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmana fırtına yüklü bir glaive ile saldırın. Hedefe komşu düşman birimlerine {damageperecentage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONSLAUGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onslaught</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ONSLAUGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tek bir düşmana saldırılar yağdırın. Kademe I ve II birimlerinin {arcstrength} kuvvetinde öldürülme şansı vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_PRECOGNITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öngörü Yeteneği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_PRECOGNITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim bir [abilityblue]Tanınma[/abilityblue] yığını kazanarak kendisine isabet edecek bir sonraki doğrudan hasar saldırısını etkisiz hale getirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Providence'ın Hediyesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Providence'ın Hediyesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_ADVERSITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zorlukların Kirpiği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_ADVERSITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimi [abilityred][/abilityred] için {adversityTurns}[abilityred]Avantaj kazanır ve tüm saldırıları başarısız olur. Bu saldırı {hexRange} hex içinde {extraTargets}'ye kadar ek hedefe sıçrayabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RECORD_KEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıt Tutucu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RECORD_KEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yığındaki Kahinler hariç tüm birimler {recordKeeperBonus} bonus deneyim kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMBOLDEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Embolden</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMBOLDEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexRad} hex yarıçapındaki tüm dost birimler {emboldenHeal} iyileşir ve tüm Psionik durum etkilerini kaybeder.[br/]Ek olarak, Kademe I ve II birimleri savaşın sonuna kadar [abilityblue]Heroism[/abilityblue] kazanarak saldırılarının daha yüksek kademedeki birimlere daha fazla hasar vermesini sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEROS_BANNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürün Afişi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HEROS_BANNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef altıgende havada uçan bir Gardiyanın Sancağı fırlatarak bitişikteki düşman kara ve hava birimlerine hasar verir.[br/][br/] Gardiyanın Sancağı, {hexRad} altıgen yarıçapındaki Akılsız olmayan rastgele bir birime {critChanceIncrease} kritik vuruş şansı artışı ve [abilityblue]Her [turn/]'de {buffTurnCount} için [/abilityblue] Yanaşma Bağışıklığı verir. Afiş {bannerTurnCount}'den sonra kaybolur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNERS_HEROISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Banner'ın Algısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BANNERS_HEROISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexRad} altıgen yarıçapındaki Akılsız olmayan bir birime {critChanceIncrease} kritik vuruş şansı ve {buffTurnCount} için [abilityblue]AÇevresel Farkındalık[/abilityblue] verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BANNERS_HEROISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {damageIncrease} ekstra kritik vuruş şansına ve [abilityblue]AÇevresel Farkındalığa[/abilityblue] sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Property Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_ADAMANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adamance Hediyesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_ADAMANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef müttefik [abilityblue]Son Duruş[/abilityblue] kazanarak {turnCount}'ye ölecekken {minimumHP}'de kalmasını sağlar.[br/]Etki sona erdiğinde hedef {HealAmount}'ye iyileşir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_FINALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kadercilik Laneti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_FINALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman [abilityred]Fatalism[/abilityred] alır, {fatalismpercentage} daha kolay vurulmasını sağlar ve {turns} boyunca tüm direnç kontrollerinde (anında ölüm kontrolleri hariç) başarısız olmasını sağlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Instant Death Checks are checks that will instantly kill the target if it fails them</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_FORESIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öngörü Yeteneği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_FORESIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef {hexrad} hex yarıçapındaki tüm dost birimler bir yığın [abilityblue]Precognition[/abilityblue] kazanarak kendilerine isabet edecek bir sonraki doğrudan hasar saldırısını etkisiz hale getirir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_INEVITABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaçınılmazlığın Laneti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_INEVITABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanların savunmalarında mümkün olan en kötü sonucu almalarını sağlayın. Hedef {hexrad} yarıçapındaki tüm düşman birimleri {turn} için [abilityred]Fatalizm[/abilityred] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORDAIN_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordain Kalkanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ORDAIN_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime kalkanınızı verin ve ona {shieldBonus} verin.[br/]Kılıç Moduna geçin. Bu mod {damageBonus} hasar, [abilityblue]Hızlı Hareket[/abilityblue], Akın, Saldırı ve Savunma Modu verir: Kaçınma.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXEMPLARS_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Exemplar'ın Koruması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXEMPLARS_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Exemplar'ın kalkanına sahiptir ve {shieldBonus} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_MODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkan Modu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mode Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GLAIVE_MODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Glaive Modu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mode Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODE_SWITCHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite iki mod arasında geçiş yapar.[br/]Kalkan Modu: Birim {shieldBonus} ve Savunma Moduna sahiptir: Koruyucu Kalkanlar.[br/]Glaive Modu: Birim {damageBonus}, [abilityblue]Hızlı Hareket[/abilityblue] ve Savunma Modu kazanır: Kaçınma.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mode Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODE_SWITCH_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mod Anahtarı: Kalkan</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODE_SWITCH_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkan Moduna geçin. Bu birim {shieldBonus}, Ordain Kalkanı ve Savunma Modu kazanır: Koruyucu Kalkanlar. [abilityblue]Exemplar'ın Koruması[/abilityblue]'yi iptal eder.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODE_SWITCH_GLAIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mod Anahtarı: Glaive</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODE_SWITCH_GLAIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Glaive Moduna geçin. Bu birim +{damageBonus} hasar, [abilityblue]Hızlı Hareket[/abilityblue], Akın, Saldırı ve Savunma Modu kazanır: Kaçınma.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BLITZ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blitz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BLITZ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e sıçrayarak hedef {hexRad} hex yarıçapındaki tüm düşman birimlerine hasar verir. Kalkan Moduna geçer. [abilityblue]Örneğin Koruması[/abilityblue]'yi iptal eder.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NOT_YOUR_TIME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin Zamanın Değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">NOT_YOUR_TIME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birimi {healhp} karşılığında iyileştirir.[br/]Alternatif olarak, hedef dost ölü Kademe I, II veya III, {reshp} ile diriltilir.[br/]Etkilenen birim [abilityblue]Sarsılmazlık[/abilityblue] ve [abilityblue]Diriliş[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_BOW_CRASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Yay Çarpması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_BOW_CRASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark yüklü bir geminin pruvası ile bir düşmana çarpın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STORM_BREATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtına Nefesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STORM_BREATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} altıgen koni içinde saldırarak hem su hem de hava birimlerini vurur. {turbulenceChance} güç şansı, Göksel olmayan Uçan birimlere [abilityred]Türbülans[/abilityred] verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TWINAXES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Twinaxes</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TWINAXES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çift volt şarjlı savaş baltalarıyla bir düşmana saldırın. Hava ya da kara birimlerini vurabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_SURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Dalgalanması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VOLT_SURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e dalgalanarak indiğinde tüm komşu birimlere ark hasarı verir. {turntimer} için [abilityred]Electrified[/abilityred] uygulamak için {surgeStrength} güç şansı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_DISCHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Deşarjı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOLT_DISCHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birimin etrafında {hexrad} hex yarıçapında bir yay patlaması başlatın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FATALISM_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kadercilik İblisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">FATALISM_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimine zorla düşman bir Daemon bulaştırılır. {HaywireTurnCompromised} karşılığında [abilityred]Fatalizm[/abilityred] elde etmek için {HaywireChanceCompromised}[strengthentropy/] güç şansına sahiptirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_OF_JUSTICE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adalet Sancağı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">BANNER_OF_JUSTICE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hava hex'ine uçan bir Adalet Sancağı fırlat. Fırlatıldığında, yer ve hava müttefiklerini {healAmount} süreyle iyileştirir ve {hexrad} altıgen yarıçapındaki olumsuz durum etkilerini ortadan kaldırır.[br/] Sancak, {hexrange} altıgen içinde {healAmount} süreyle iyileştirmek ve tüm olumsuz durum etkilerini ortadan kaldırmak için rastgele bir müttefik birim seçebilir. Sancak {turns}'den sonra kaybolur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNERS_JUSTICE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Banner'ın Adaleti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BANNERS_JUSTICE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrange} hex içindeki rastgele bir birimi {healAmount} süreyle iyileştirin ve tüm olumsuz durum etkilerini kaldırın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HONORS_CALLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Honor's Calling</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HONORS_CALLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız olmayan tüm dost birimlere {moraleIncrease} ve {damagePercentage} hasar artışı ile {turns} ilham ver.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HONORS_CALLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onurun Çağrısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HONORS_CALLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {moraleIncrease} ve {damagePercentage} için {turns} hasar artışına sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HONORS_CALLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{damagePercentage} hasarı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RETALIATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlı Saldırı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RETALIATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmana hızlıca saldırın. {adversitychance} güç şansı ile [abilityred]Avantaj[/abilityred] uygulayabilir. Bu yetenek {turnTimer}'den sonra kaldırılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANALYZE_TIMELINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zaman Çizelgelerini Analiz Edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ANALYZE_TIMELINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim {turnTimer} karşılığında [abilityblue]Against All Odds[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHALLENGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meydan Okuma</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CHALLENGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{strengthChance} güç şansı ile hedef düşmanla bağ kurar ve [abilityred]Mücadele[/abilityred] ederek tüm [movewalk/]'sini kullanarak {duration} karşılığında bu birime doğru koşmasını sağlar. Eğer bu birim sendelerse, etki sona erer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHALLENGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEBUFF_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meydan Okuma</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CHALLENGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEBUFF_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir düşman tarafından [abilityred]Mücadele[/abilityred] edilirse, tüm [movewalk/]'sini ona doğru koşmak için kullanır. Eğer bu birim sendelerse, etki sona erer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHALLENGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUFF_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zorlu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CHALLENGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUFF_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir düşmana [abilityblue]Z meydan okuyarak düşmanın tüm [movewalk/]'sini bu birime doğru koşmak için kullanmasını sağlar. Bu birim sendelerse, etki sona erer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISGRACED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEBUFF_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rezil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Debuff Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISGRACED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEBUFF_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu savaştan sonra XP kazanmayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Debuff Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Scramble Destiny</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sihirbazın etrafındaki {hexrad} altıgen yarıçapındaki düşman birimleri, {turns} için [abilityred]Ölümcülük[/abilityred] veya [abilityred]Yücelik[/abilityred] kazanma şansına sahiptir. {hexrad} altıgen yarıçapındaki dost birimler [abilityblue]İspat[/abilityblue], {damageincrease} tüm yeteneklerde hasar veya {armorincrease} için {turns} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_BUFF_ARMOR_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Scramble Destiny: Zırh</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_BUFF_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {DestinyBuff} kazanmıştır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_BUFF_DAMAGE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Scramble Destiny: Hasar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_BUFF_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {DestinyBuff} hasarı kazandı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_BUFF_PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityblue]Providence[/abilityblue] kazanmıştır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLE_DESTINY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY_DEBUFF</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityred]Fatalism[/abilityred] ve [abilityred]Adversity[/abilityred] kazanmıştır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRECOGNITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önbilgi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Buff name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRECOGNITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir doğrudan hasar saldırısını etkisiz hale getirir, ardından Öngörü kaldırılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Buff Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRECOGNITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NEGATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öngörü: Saldırı Reddedildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Damage popup description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Providence</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Buff name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Providence</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Buff Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAST_STAND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Direniş</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Buff name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LAST_STAND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim ölmek yerine {hp}'de kalacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Buff Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şifa Sancağı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{healamount} için dost birimleri iyileştirme özelliğine sahip bir sancak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNERS_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Banner'ın Şifası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNERS_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{healamount} için hedef dost birimi iyileştir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_TARGETTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Banner Hedefleme Modu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mode name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_TARGETTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_RANDOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Sancak'ın yeteneklerinin hedefleri, mevcut hedefler arasından rastgele seçilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mode Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_TARGETTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Sancağın yeteneklerinin hedefleri oyuncu tarafından seçilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mode Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TIRELESS_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tireless Dash</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TIRELESS_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lightbringer hedef yer altıgenine doğru zıplar ve ağır bir şekilde yere inerek komşu birimlere hasar verir. Kullanıcıya {turns} karşılığında [abilityblue]Tireless[/abilityblue] verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAL_PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Takdir</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAL_PROVIDENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim  {providenceTurns}  için  [abilityblue] Providence [/abilityblue]  kazanarak +%100 kritik şans elde eder. Bir birimin kritik şansı asla saldırısının isabet şansını geçemez. [br/]  [br/] Birim ayrıca savaşın sonuna kadar  [abilityblue] Aydınlanmış [/abilityblue]  olarak kabul edilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CURSING_LIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lanetli Işık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CURSING_LIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{diameter} altıgen yarıçaplı bir alana saldırmak için yıldız ışığını kullanın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_SLASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Kesik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_SLASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir plazma bıçağı keserek birimin önündeki birden fazla hedefe hasar verir. Hava ya da kara birimlerini vurabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VOID_PIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Void Pike</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURNING_GREATBOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanan Büyük Yay</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURNING_GREATBOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe alevli bir ok fırlatın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURNING_BANNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanan Pankart</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">BURNING_BANNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hava altıgenine uçan bir Yanan Sancak fırlatarak bitişikteki düşman kara ve uçan birimlerine hasar verir.[br/][br/]Yanan Sancak rastgele bir düşmana savaş sonuna kadar [abilityred]Soulburn[/abilityred] ve her [turn/]'de {turns} için [abilityred]Burning[/abilityred] verir. Afiş {bannerTurnCount}'den sonra kaybolur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNERS_BURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Banner'ın Yanığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BANNERS_BURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimi savaş sonuna kadar [abilityred]Soulburn[/abilityred] ve {turns} için [abilityred]Burning[/abilityred] alır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saflık Yemini</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{statusResistance} durum direnci ve Zaman İçinde Hasar Bağışıklığı kazanın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Örüntüsü Analizörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MOD_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim [abilityblue]D Algılama[/abilityblue] ve +{SensorRange} Algılayıcı Menzili kazanır. Bu birim {hexRange} altıgen menzili içinde vurulduğunda, {turnTimer} için [abilityblue]Hızlı Saldırı[/abilityblue], {retaliateRange} menzilli [entropy/] saldırısı ve {adversitychance} güç şansı ile [abilityred]Avantaj[/abilityred] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadakat Yemini</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yemin moduna sahip her bir komşu birim için {armorbonus} verir, maksimum {maxarmorbonus}'ye kadar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bağlılık Yemini</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MOD_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]Zihin Kontrolü Bağışıklığı[/abilityblue] verir. Birime savaş başına bir kez [abilityblue]Son Direniş[/abilityblue] verir, aksi takdirde öleceği zaman {turntimer} için ölmek yerine {hp}'de bırakır. Tetiklendiğinde, bu birim [abilityred]Disgraced[/abilityred] olur ve savaşın sonunda herhangi bir deneyim kazanmaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kötü Durum Azaltıcı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin olumsuz durum etkileri varsa, bir sonraki sırasının başında bunları yok eder. Bunu yaptığında, {turn} karşılığında [abilityblue]Providence[/abilityblue] elde edin. Her {cooldown}'de yalnızca bir kez tetiklenebilir.[br/]Ayrıca bu mod, birimin doğal olarak beceriksizleşmesini önler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kötü Durum Hafifletildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Effect Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durum Azaltıcı bu dönüşler sırasında tetiklenmeyecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Effect Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cesaret Yemini</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Timethread Datascrolls</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOD_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, daha önce yoksa sırasının başında bir [abilityblue]Tanıma[/abilityblue] yığını kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umut Işığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOD_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kullanıcıyı ve etrafındaki {hexrad} hex yarıçapındaki tüm dost birimleri her turun sonunda {healAmount} süreyle iyileştirir. Bu etki birikmez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaderin El Yazması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROTECTION_BANNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Banner'ın Koruması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROTECTION_BANNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birim {Heal}[hp/] için iyileşir ve bir yığın [abilityblue]Tanıma[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability Description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bozulamaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dokunulmaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saf</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Söndürülemez</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_1_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bozulmaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhtiyatlı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Becerikli</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurnaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tahlil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Analizör</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_2_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktisyen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dindar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Allegiant</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısız</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Staunch</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ardent</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_3_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görevli</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendini Sunma</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Azizce</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Martyring</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cezalandırılanlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daima Acı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_4_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dindar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dokunulmaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih edilen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dayanıklı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık Fikirli</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stoacı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_5_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabul edilemez</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cüretkar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cesur</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alaycı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Jeering</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alaycı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_6_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurucu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öngörü Yeteneği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öngörmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önsezi Yeteneği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlayış</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıtsız</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_7_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boyun Eğmez</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Destekleyici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umut verici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşvik Edici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Destekleyici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirme</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_8_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aydınlatıcı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tıbbi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyileştirici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarım</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyileştirici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şifacı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOD_9_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktiksel Eczacı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod Template name</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>126</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>141</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

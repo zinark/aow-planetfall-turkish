@@ -1,0 +1,2457 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2019-11-08T13:59:58Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66">
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="229" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="178.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="268.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="350.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="149.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="246" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="122.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="350.25" />
+      <Column ss:Index="12" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="49.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSYNUMBRA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bir Psynumbra birimi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SINISTER_CHORUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uğursuz Koro</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SINISTER_CHORUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimin etrafındaki havaya uğursuz bir koro nüfuz eder. Bu birime komşu olan ve Akılsız olmayan tüm düşman birimleri [abilityred]Sinister Melody[/abilityred] alır, hasar dirençlerini {SinisterResistance} azaltır ve düşme şanslarını {FumbleChance} artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SINISTER_MELODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kötü niyetli bir güç bu birimin hasar direncini {SinisterResistance} azaltır ve düşme şansını {FumbleChance} artırır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SINISTER_MELODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin tüm saldırılarda yanılma şansı {SinisterAccuracy} kadar artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BLEAK_CRESCENDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kasvetli Kreşendo</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BLEAK_CRESCENDO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tüm enerjisini toplayarak bir ses ve sefalet kreşendosu halinde patlar ve bitişikteki tüm düşman birimlerine hasar verir. Bu, Umutsuzluk Yankısı'nı öldürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FILLED_WITH_DESPAIR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umutsuzlukla Dolu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FILLED_WITH_DESPAIR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{FilledWithDespairChance} güç şansı, savaşın sonuna kadar Akılsız olmayan birimlere [abilityred]Umutsuzlukla Dolu[/abilityred] uygulamak için. Direnilirse, bunun yerine {BrokenMindDuration} için [abilityRed]Broken Mind[/abilityRed] uygulayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FILLED_WITH_DESPAIR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {FilledMoralePenalty}'ye sahiptir ve öldüğünde, karşı tarafın komutası altında bir Umutsuzluk Yankısı çağrılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOUL_SPEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruh Mızrağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOUL_SPEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimine bir Psionik ruh mızrağı fırlat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEVOUR_HOPE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umudu Yut</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEVOUR_HOPE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman biriminin umudundan beslenmeye çalışarak umutsuzluğa kapılmasına neden olur. Bu başarılı olursa, büyücü {DevourHP} kadar iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_AWARENESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Farkındalık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_AWARENESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, dünya haritasında kamufle edilmiş birimleri görmelerini sağlayan Algılama sağlayan doğaüstü farkındalığa sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal Pençeler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanları kesmek için cisimsiz pençeler kullanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_SLASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal Slash</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GLIMPSE_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçuruma Bir Bakış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GLIMPSE_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hex} hex yarıçaplı bir alandaki hedef düşman birimlerine, zihinlerini parçalara ayıran Abyss'in bir görüntüsü gösterilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISCORDANT_WHISPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyumsuz Fısıltı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DISCORDANT_WHISPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Abyss'in görüntüleriyle bombardımana tutulur ve Psionik hasara neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBLIVIONS_REFRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oblivion'un Nakaratı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OBLIVIONS_REFRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost birimlere [abilityblue]Dark Elation[/abilityblue] ile ilham vererek onlara {DarkResistance} direnç ve {DarkMorale} karşılığında {OblivionTurns} verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MENTAL_FORTRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihinsel Kale</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MENTAL_FORTRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim +{MentalResistance} direncine sahiptir ve Psionik Durum ve Tehlike Etkilerine karşı bağışıktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOUL_SEEKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruh Arayıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SOUL_SEEKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime doğru Psionik enerji yayarak hasar verir. Bu enerji daha sonra {SoulJumpRange} hex içindeki yakındaki birimlere {SoulJumpAmount} kez sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAGE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı Kafesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CAGE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefi kendi uyumsuzluklarından oluşan bir kafese kilitleyin. Birim hareket edemez veya eylemde bulunamaz, sırasının sonunda hasar alır ve [abilityred]Umutsuzlukla Dolu[/abilityred] olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAGE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Kafes</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CAGE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CoSChance} güç şansı, [abilityred]Psionik Kafes[/abilityred]'yi Akılsız olmayanlara {CoSduration} tur boyunca veya büyücü sendeleyene ya da öldürülene kadar uygular. Buna direnilirse, [abilityred]Broken Mind[/abilityred] uygulanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CAGE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityred]Umutsuzlukla Dolu[/abilityred] hastalığına yakalanır, tur başına {CageDamage} hasar alır ve hareket edemez veya eylem kullanamaz.[br/]Bu etki, büyücü sendelerse veya öldürülürse iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="43" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LURE_OF_THE_DARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlığın Cazibesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LURE_OF_THE_DARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birliğine Psynumbra sanatının gerçeklerini göstererek onları davamıza döndürmeye çalış. Büyüleyici ölürse etki sona erer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kara Güneş'in İşareti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim her öldürücü darbe indirdiğinde, savaşın sonuna kadar  [abilityblue] Dark Reward [/abilityblue]  kazanır ve maksimum  {stacks}  yığınına kadar her yığın başına hasarlarını  {MarkDamage}  % artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{damageBonus} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Ödül</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARK_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, savaşın sonuna kadar yığın başına {DarkDamage} artırılmış hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüketen Bakışlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim gözlerinden karanlık Psiyonik enerji aktararak hedef düşman birimine hasar verir ve büyücüyü {DevouringHeal} karşılığında iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PATH_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yasak Mantra</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="109.5">
+        <Cell>
+          <Data ss:Type="String">PATH_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik saldırılar, Akılsız olmayan birimlere {CatatonicDuration}[turn/] karşılığında [abilityred]Katatonik[/abilityred] uygulamak için {CatatonicChance}[strengthPsyche/] güç şansına (tekrarlanan saldırılar için {CatatonicChanceRepeating}[strengthPsyche/]) sahiptir. Psionik güçlendirmeler hedefe [abilityblue]Dark Elation[/abilityblue] uygulayarak {PathTurn}[turn/] için +{PathMorale}[happiness/] ve +{PathResistance}[DefensePsyche/] verir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Psionic attacks have a {CatatonicChance} strength change to apply [abilityred]Catatonic[/abilityred] to non-Mindless for {CatatonicDuration}. Psionic Buffs apply [abilityblue]Dark Elation[/abilityblue] to the target, granting them +{PathMorale} Morale and +{PathResistance} Psionic resistance for {PathTurn} turns.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PATH_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HOSTILE_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CatatonicDuration} için Akılsız olmayan birimlere [abilityred]Katatonik[/abilityred] uygulamak için {CatatonicChance} güç şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="56" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağrı Aynası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {hexrange} hex mesafesinden hasar aldığında, saldırgana {PainDamage} hasar verin. Bu hasarın ayrıca {BrokenMindChance}[StrengthPsyche/] güç şansı vardır ve [abilityred]Broken Mind[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçurumun Avatarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="89.25">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {AvatarResistance}[defensePsyche/] direnci kazanır ve Psiyonik Durum ve Taktik Tehlike Etkilerine karşı bağışıklık kazanır. Tüm saldırılar, [abilityred]Panik[/abilityred] uygulamak için {AbyssChance}[StrengthPsyche/] güç şansına (tekrarlanan saldırılar için {AbyssChanceRepeating}[strengthPsyche/]) sahiptir. Direnilirse, bunun yerine [abilityred]Broken Mind[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçsuz Bucaksız Gerçek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{AbyssChance} güç şansı [abilityred]Panic[/abilityred]'yi {AbyssTurn} karşılığında Akılsız olmayanlara uygulamak için. Buna direnilirse, [abilityred]Umutsuzlukla Dolu[/abilityred] uygulayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMBRACE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlığın Kucaklaşması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMBRACE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimi {EmbraceDamage} hasar alır ve [abilityred]Massive Impact[/abilityred]'ye maruz kalır. Buna ek olarak, {StrengthChance} kuvvetinde [abilityred]Broken Mind[/abilityred] uygulama şansı vardır ve {BrokenMindTurns} için moral ve Psionik direnci azaltır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oblivion'un Hediyesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GIFT_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef, {SpiritOfOblivionTurns} karşılığında [abilityblue]Spirit of Oblivion[/abilityblue] kazanır, [abilityblue]Psionic Drain[/abilityblue] verir, Akılsız olmayan bir birime her saldırdığında birimi iyileştirir ve {SpiritOfOblivionDam} hasar artışı sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPIRIT_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oblivion'un Ruhu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPIRIT_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]Psionic Drain[/abilityblue] verir, Akılsız olmayan bir birime her saldırdığında birimi iyileştirir ve {SpiritOfOblivionTurns} için {SpiritOfOblivionDam} hasar artışı sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPIRIT_OF_OBLIVION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Damage} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WHISPER_OF_DISCORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nifak Fısıltısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">WHISPER_OF_DISCORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mükemmel bir gözcü olan görünmez, eterik bir yaratık olan Nifak Fısıltısı'nı çağır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">WHISPER_OF_DISCORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyumlu acılar sayesinde, Boşluğun bir temsilcisini çağırmayı başardık. Uyumsuzluğun Fısıltısı, uyumu sağlama mücadelemizde bize yardımcı olmak için geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLAGELLATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kırbaçlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FLAGELLATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost ordudaki Akılsız olmayan tüm birimler tüm [movewalk/] hareket puanlarını geri kazanır, ancak mevcut {HpDamage}'lerinin [hp/]'sini kaybeder ve bu tur için hasar dirençleri {WeaknessAll} azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FLAGELLATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {WeaknessAll} boyunca tüm hasara karşı {duration} direnç gösterir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FLAGELLATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok etme ve işkence, birliklerimizi yürümeye devam etmeleri için motive etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlığın Vizyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef orduya Psionik enerji salgılayarak ötesinde yatan karanlık Abyss'in görüntülerine neden olur. {VisionOfDarknessDamage} ve {VisionOfDarknessMorale} için {VisionOfDarkenssDuration} hasar alırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, hedeflenen birimler yalnızca {DamagePercentage} hasarı alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {DamagePercentage} hasarına maruz kalır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {Duration} için {MoralePenalty} moral kaybeder</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Abyss'in bir görüntüsünü gördü ve {VisionOfDarknessMorale}'den muzdarip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabalanız hedef orduya Uçurum'dan başarılı bir şekilde Psionik enerji aktardı ve ordu hem insan gücü hem de moral açısından önemli kayıplar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabalanız düşmanı Psionik enerji bombardımanına tuttu, ancak sefillerin beklenenden daha dirençli olduğu kanıtlandı ve sadece hafif hasar verildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuz Psionik enerjiler tarafından saldırıya uğradı ve onlara kendilerini bekleyen boşluğun görüntülerini verdi. Önemli ölçüde hasar ve moral kaybı yaşadılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VISION_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarınız kuvvetlerinize Psionik bir bombardıman girişiminde bulundu, ancak birlikleriniz bu tehdit karşısında dirençli olduklarını kanıtladılar ve aldıkları hasarı en aza indirmeyi başardılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçurumun Kefeni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef koloni karanlığa gömülür ve koloninin etki alanındaki tüm dost birimler görünmez olur. Örtüden etkilenen düşman birimleri [abilityred]Blind[/abilityred]'ye maruz kalır ve savaştaki isabet oranlarını düşürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektörde kaldığı sürece Uçurumun Kefeni tarafından gizlenir ve bu da ona Evrensel Kamuflaj sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Maliktorlarımız enerjilerini hedef sektörü karanlıkla örtmeye odaklıyorlar. Sektördeki dost birimler düşman gözlerden gizlenmeli, düşmanlarımız ise kör edilmelidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost birimler [abilityblue]Evrensel Kamuflaj[/abilityblue] kazanır. Düşman birimleri [abilityred]Kör[/abilityred] olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Gözyaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektörde maurauding ordularını ortaya çıkaran, sektörün ekonomik değerini düşüren ve birimleri zayıflatan bir [abilityred]Abyssal Tear[/abilityred] tehlikesi ortaya çıkar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malictor'larımız boşluğu örten perdeyi aşmayı ve bir Abyssal Yırtık açmayı başardılar!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malictor'larımız düşman müdahalesi nedeniyle perdeyi aşma girişimlerinde başarısız oldular. Yarık çökerken, büyük bir psiyonik geri tepme patladı ve bölgedeki tüm kuvvetlere zarar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız gerçekliğin kendisini parçaladı ve bu sektörde bir Abyssal Gözyaşı çağırdı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanın sektörlerimizden birinde gerçeklikte bir delik açmak için bir tür karanlık güç kullandığını keşfettik. Onları durdurmayı başarmamıza rağmen, büyük bir psiyonik geri tepme patladı ve bölgedeki tüm güçlere zarar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, sektördeki tüm birimler bunun yerine {damagePercentage} hasarı alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_TEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {damagePercentage} hasarına maruz kalır</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="100" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_ICON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Simge</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DARK_ICON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim {DarkIconDuration} boyunca gölgelerle örtülür. Hedeflenen birimin {DarkIconRange} heksi içindeki tüm düşman birimleri [abilityred]Haunting Melody[/abilityred] kazanır, tüm dirençleri düşürür ve düşme şansını artırır. Hedefin {DarkIconRange} heksi içindeki dost birimler [abilityblue]Dark Elation[/abilityblue] kazanır, {DarkElationMorale} moral ve {DarkElationResistBonus} verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DARK_ICON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim gölgelerle örtülüdür. Tüm komşu düşman birimleri [abilityred]Haunting Melody[/abilityred] kazanır. Tüm komşu dost birimler [abilityblue]Dark Elation[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAUNTING_MELODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Unutulmaz Melodi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAUNTING_MELODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir Psynumbra'nın Karanlık İkonunun yakınındadır. Menzilde kaldığı sürece, tüm dirençlere {HauntingMelodyDamPen} zarar verir ve {HauntingMelodyAccuracy} yanılma şansı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAUNTING_MELODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{AccuracyPercentage} fumble şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_ELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Sevinç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_ELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite {DarkMorale} ve {DarkResistance} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARK_ELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birim {Duration}[turn/] karşılığında [abilityblue]Dark Elation[/abilityblue] kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçuruma Kurban Edilmek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost Biyolojik veya Cyborg birimini yok ederek yerine bir Oblivion Habercisi çağır. Bitişik düşman birimlerinin {PanicTurns} için [abilityred]Panicked[/abilityred] olma şansı {SacrificetotheAbyssChance}'dir. Oblivion'un Habercisi {HeraldTime}'den sonra kaybolur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçici Birim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim savaşın sonunda veya çağrıldıktan {Duration}[turn/] sonra ölecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARIA_OF_EMPTINESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluğun Aryası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ARIA_OF_EMPTINESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş alanında bir Boşluk Aryası çalar ve Akılsız olmayan tüm düşman birimlerinin {AriaofEmptinessChance} güç şansı {CatatonicTurns} için [abilityred]Katatonik[/abilityred] olur ve birim hareket edemez hale gelir. Başarısızlık durumunda, birim bunun yerine {BrokenMindDuration} için [abilityred]Broken Mind[/abilityred]'ye maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnisiyasyon Törenleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni alınan tüm Psynumbra birimleri {RankIncrease} ile başlar. Buna ek olarak, Psynumbra birimleriniz öldüklerinde savaşın sonuna kadar süren bir Umutsuzluk Yankısı ortaya çıkarır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim öldüğünde, savaşın sonuna kadar süren bir Umutsuzluk Yankısı çağırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra birimleri {RankIncrease}[medaliron/] rütbesi kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadistçe Endoktrinasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düzenli askeri birimlerin Psynumbra teknikleri kullanılarak yoğun bir şekilde telkin edilmesi, saldırı yeteneklerini büyük ölçüde artırabilir.[br/][br/]AAkılsız olmayan tüm birimleriniz [abilityblue]Sadizm[/abilityblue] kazanır ve düşük moralli birimlere {SadismDamage} ekstra hasar vermelerine neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşkence Rejimleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri güçlerimize yapılan sistematik ve kontrollü işkence, onların gizli psiyonik potansiyelini ortaya çıkarabilir.[br/][br/]ATüm birimleriniz tüm hasarlara karşı {PsionicResistance} direnç kazanır ve Psiyonik saldırılarla {PsionicDamage} ekstra hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tüm hasara karşı {PsionicResistance} direnç kazanır ve Psionik saldırıları {PsionicDamage} ekstra hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uğursuz İlahiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölümcül bir emirle, halkımız inancımızı hep bir ağızdan tekrar tekrar okur. Bu karanlık ilahiler herkesi planlarımıza müdahale etmekten caydıracaktır.[br/][br/] Koloni Alanlarımızdaki düşman birimleri {MoralePenalty} ve {PsionicResistance} direncine maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {MoralePenalty} ve {PsionicResistance} direnç cezasına maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SADISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadizm</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SADISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim düşük morale sahip birimlere karşı ilave +{SadismDamageBoost} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SADISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Düşük moralli hedeflere karşı +{SadismDamageBoost} hasar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="131" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dünyayı karanlık ve umutsuzlukla kapla.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="40.6875">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra olmayan birimlerin savaşta her 2 [turn/]'de bir {BrokenMindstrength}[strengthPsyche/] güç şansı [abilityred]Broken Mind[/abilityred] elde etme şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="68.4375">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> -{unhappiness}[anger/] mutluluk.[br/]Sıkıyönetim her zaman İsyancıları öldürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="95.4375">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra birimleri savaşta [abilityblue]Dark Elation[/abilityblue]'ye sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIRGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dirge</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DIRGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha fazla Acı Kulesi inşa ettikçe gücü artan Psionik kaynaklı bir karanlık olan The Dirge for {duration} ile Psynumbra olmayan bir Koloniyi ve çevresindeki bölgeyi enfekte edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_DIRGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şarkı söylendi, Dirge hedef alınan koloninin üzerinde çınladı. Vatandaşlar unutulmanın ihtişamıyla seviniyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DIRGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Hedef koloninin ruhları bize karşı korunuyor ve Dirge başarısız oldu. Ancak yankıları sokaklarda paniğe yol açarak küçük de olsa bir etki yarattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DIRGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kolonilerimizden birine karşı güçlü bir Psionik saldırı başlatıldı. Halk sersemlemiş bir halde sokaklarda tökezliyor, akortsuz bir melodi mırıldanıyor ve boşluğa bakıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_DIRGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Düşman kolonimize Psionik bir saldırı girişiminde bulundu. Girişimlerini engelledik, ancak saldırının yarattığı tepki hala birkaç vatandaşı etkiledi, paniğe ve isyanlara yol açtı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPIRE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı Kulesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPIRE_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı Kulesi, Dirge Kıyamet Günü silahının kilidini açar. İnşa ettiğiniz her ilave Acı Kulesi silahın seviyesini artırarak onu daha güçlü hale getirir.[br/][br/]Kolononi başına yalnızca bir Acı Kulesi inşa edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBLIVIO_MUNDI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oblivio Mundi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OBLIVIO_MUNDI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra planının son adımı, gezegendeki en güçlü Dirge'i serbest bırakıyor.[br/][br/]Dirge seviye 3 gerektirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OBLIVIO_MUNDI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senfoni yükseldikçe, Dirge gezegeni süpürüyor, insanların ruhlarını unutuşun ahengiyle dolduruyor. Kreşendo yaklaşıyor, Abyss'in zaferi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_SPEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eterik Mızrak Darbesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_SPEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal Mızrağı ile sapla.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ETHEREAL_SPEAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_EQUIPMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal Mızrak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOUL_SPLITTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruh Ayırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONYX_OF_SUFFERING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acıların Oniks'i</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Ustalık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko'nun karanlık psiyonik sanatlar konusundaki bilgisi bu birimi güçlendirerek hasarı {PsionicMasteryDamage} artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PsionicMasteryDamage} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RECONSTRUCT_THE_SOUL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruhu Yeniden Yapılandırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RECONSTRUCT_THE_SOUL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj, yeniden birleştirme ustalarıdır ve bu birim öldüğünde, bir Umutsuzluk Yankısı olarak geri dönerler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FUELED_BY_SERVITUDE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kullukla Besleniyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FUELED_BY_SERVITUDE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sendika Psynumbra birimleri, Köleleştirilenlerin sağladığı hizmetten keyif alır ve cesaret bulur. Bu birim, savaştaki her Köleleştirilmiş birim için maksimum {addedDamage}[damagepsyche/] olmak üzere {FueledServitudeDmg} verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FUELED_BY_SERVITUDE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A0[1]9 Savaştaki her bir Sözleşmeli birim için Z hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_LOCUSTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Çekirgeler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DARK_LOCUSTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birimi psiyonik enerjiden yapılmış böceklerle lanetlemeye çalışarak zaman içinde hasar verir. Hedef etkilenirken ölürse, böcekler patlayarak hasar verir ve {hexrange} hex içindeki düşman birimlerine [abilityred]Filled with Despair[/abilityred] yayar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DARK_LOCUSTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DarkLocustsChance} güç şansı [abilityred]Dark Locusts[/abilityred]'yi Akılsız olmayanlara {durationDarkLocusts} karşılığında uygulamak için. Direnilirse, bunun yerine [abilityred]Broken Mind[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DARK_LOCUSTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tur başına {DarkLocustDamage} hasar alır.[br/]Bu birim ölürse, {hexrange} altıgen içindeki tüm dost birimlere nifak yayar, onlara hasar verir ve [abilityred]Umutsuzlukla Dolu[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_VINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Asma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARK_VINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir kara birimini hedef alarak zihinlerini kavrayan karanlık bir sarmaşıkla zincire vurun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_THORNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Dikenler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_THORNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilenen birimin zihnini boğan 1 hektarlık bir alanda karanlık sarmaşıklar oluşturun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_REVERB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Yankılanma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABYSSAL_REVERB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef kareye ışınlanarak komşu düşman birimlerine hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="170" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Azap Kanalcıları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordularımızı güçlendirmek için halkın acısını kanalize edin. Hedef koloni [abilityred]{happinessPenalty}[/abilityred] kazanır ve kolonide üretilen tüm birimler [abilityblue]Reinforced by Suffering[/abilityblue] kazanarak +{hitpointBonus} ve +{damageBonus} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler +{hitpointBonus}[hp/] ve +{damageBonus} hasar kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Maliktorlar kanalları kurdular ve halkın ortamdaki acıları güçlendiriliyor, yakalanıyor ve ordularımızın üretiminde kullanılmak üzere kanalize ediliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni {happinessPenalty} kazanır, üretilen birimler [abilityblue] kazanır Acıyla Güçlendirilmiş[/abilityblue]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı Çekerek Güçlendirildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TORMENT_CHANNELERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, üretimi sırasında masum ruhlardan akıtılan acı ve umutsuzlukla güçlendirilmiştir. +{hitpointBonus} ve +{damageBonus} hasara sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="178" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_INITIAL_NOTIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Oblivio Mundi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı Kulelerimizden biri ele geçirildi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi'ni kaybettiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Acı Kulesi kaybetti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi kaybettiniz. Dirge'yi serbest bırakma girişimimiz iptal edildi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Acı Kulesi kaybetti. Dirge'yi serbest bırakma girişimleri engellendi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_INITIAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Oyuncu Dirge'i serbest bıraktı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_BUILT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi inşa etmek {playerName}'ye Kıyamet Günü Silahı Dirge'ye erişim sağladı. Şu anda zayıftır, ancak daha fazla Acı Kulesi inşa edildikçe daha güçlü hale gelecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_BUILT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} ikinci bir Acı Kulesi inşa ederek Kıyamet Günü Silahı Dirge'i güçlendirdi. Çok güçlü hale gelmeden önce bu yapıları yok etmek için baskınlar planlamalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_BUILT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, son Acı Kulesi'ni inşa ederek Kıyamet Günü Silahı Dirge'in gücünü en üst düzeye çıkardı. Artık onu tamamen serbest bırakmaya ve oyunu kazanmaya çok yakınlar. Saldırı zamanı şimdi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_CAPTURED_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü Zamanlayıcısı duraklatıldı! Kayıp Acı Kulesi'ni geri almalısınız, yoksa Düşmanlarınızın üzerine Dirge'yi salma şansınızı kaybedeceksiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi'nin kaybedilmesi Kıyamet Zamanlayıcısı'nı sona erdirerek Dirge'yi iptal etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi'nin kaybı Dirge'yi zayıflattı ve Kıyamet Günü operasyonlarınız iptal edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_FINISHER_CAST_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız Kıyamet Günü Silahlarını aktif hale getirdiler. Dirge tüm gezegene yayıldı ve kendi Kıyamet Günü Silahınız tufan tarafından yok edildi. Acı Kulelerinden birini yok etmek için {numTurns} süreniz var, yoksa oyunu onlar kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dirge aktiftir ve Acı Kulelerinden birini kaybetmediğiniz sürece {numTurns}'de kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dirge aktif ve Acı Kulelerinden birini yok edemezseniz {playerName}, {numTurns}'de kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi ele geçirildi. Eğer yok edilirse, Kıyamet Günü zamanlayıcımız iptal olacak. Eğer onu tekrar ele geçirirseniz, geri sayımı devam ettirebilirsiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Acı Kulesi ele geçirildi. Eğer yok edilirse, Kıyamet Günü zamanlayıcısı iptal edilecektir. Eğer {playerName} onu yeniden ele geçirirse, geri sayıma devam edebilecekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_EVENT_FINISHER_PRIMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} Dirge Kıyamet Silahını hazırlıyor. Bitirmelerine izin verilirse, kendi Kıyamet Günü Silahınız yok olacak ve {playerName} tam zaferden sadece bir adım uzakta olacak!</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="198" ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSY_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son ışık da söndü.[br/]Kırılanların matem çığlıklarını duyuyorsunuz.[br/]Düşmanlarınızın parçalanmış kalıntılarıyla ziyafet çekiyorsunuz.[br/]Ve yine de bunların hiçbir anlamı yok.[br/]ZZafere ulaştınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">VO: Empress Carminia</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="200" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşaretli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Markalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlamlandırılmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güç Açlığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koyu Kavrulmuş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Soul Starer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hançer Gözler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Kırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürükleyici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gece Bakışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONSUMING_GAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaklaşıyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi Stinger</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phantom Painbringer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkiz Acısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grim Replicator</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siyah Reflektör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PAIN_MIRROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grievous Avenger</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umutsuzluğun Habercisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölüm Walker'ı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Simgesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mania Serpme Makinesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Omen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal One</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>3</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>22</ActiveRow>
+          <ActiveCol>3</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

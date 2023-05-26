@@ -1,0 +1,661 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Thomas Schuiten</LastAuthor>
+    <LastSaved>2020-02-21T13:47:07Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12960</WindowHeight>
+    <WindowWidth>19515</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="48" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="141" />
+      <Column ss:StyleID="s62" ss:Width="121.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="405.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="375.75" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:Width="367.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_UNITPROPERTIES</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Patlama</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı karanlıkla patlat.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_SPIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer Spike</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_SPIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yoğunlaştırılmış karanlığın sivri ucunu ateşle.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_FLAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Flay</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_FLAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanın derisini karanlıkla yüz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WARP_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çarpık Karanlık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WARP_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanın formunu karanlık enerjiyle çarpıtarak ona hasar verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THRALLING_MARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thralling Mark</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod name. Thralling or Enthralled means "to be controlled by Voidbringers"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THRALLING_MARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringerlar tarafından esir alınmanın işareti. Bu birim, ordusunda daha fazla Voidbringer kalmadığında ölecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mod description. Thralling or Enthralled means "to be controlled by Voidbringers"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THRALLING_MARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyülenmiş</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Debuff, it means to be controlled by Voidbringers</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THRALLING_MARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, ordusunda daha fazla Voidbringer kalmadığında ölecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Debuff description, it means to be controlled by Voidbringers</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THRALLBOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thrallbomb</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THRALLBOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Kademe I Büyülenmiş birim patlayarak etrafındaki {hexrad} hex yarıçaplı alana hasar verir ve ölür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLEANSING_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temizleyici Karanlık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CLEANSING_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef [abilityred]Hırpalanmış[/abilityred] birimi {healAmount} süreyle iyileştirilir ve tüm olumsuz durum etkileri ortadan kaldırılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTHRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enthral</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENTHRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman olmayan, Akılsız olmayan Biyolojik veya Sayborg hedef {panicDuration} için [abilityred]Panik[/abilityred]'ye girer. Ardından, birim [abilityred]Düşman[/abilityred] haline gelecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THRALLED_TENDRILS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thralled Tendrils</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THRALLED_TENDRILS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Büyülenmiş birim, komşu düşman birimlere hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Güç</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARK_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef [abilityred]Yıkılan[/ablityred] birim, {turns} boyunca tüm yeteneklerine {damageIncrease} ilave hasar kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARK_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin tüm yetenekleri için {damageIncrease} ilave hasarı vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SIPHON_THRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siphon Thrall</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SIPHON_THRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef [abilityred]Yaralanır[/abilityred], {psiDamage} hasar alır. Büyüleyici {healAmount} için iyileşir ve {turns} için {defenseBonus} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SIPHON_THRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUFF_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thrall Siphoned</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SIPHON_THRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUFF_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünitede {defenseBonus} vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATE_THRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thrall'ı Yeniden Canlandır</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATE_THRALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{healthPercentage} ile ölü [abilityred]Enthralled[/abilityred] birimini canlandırın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_TERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Terörün Çağrısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_TERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime bir terör bombardımanı çağırın. Bu birim ve etrafındaki {hexRad} hex yarıçaplı daire içindeki birimler, 2 tur boyunca {strengthchance} güçle [abilityred]Panicked[/abilityred] olma şansına sahiptir. Bekleme süresinde başlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="38" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_PORTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringers Portalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_PORTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turda Portal titreşir ve kendisine bitişik bir [abilityred]Yükseltilmiş[/abilityred] Kademe I veya II birimi çağırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_PORTAL_SPECIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Portal her turda titreşir ve kendisine bitişik bir [abilityred]Beserk[/abilityred] Voidbringer birimi çağırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Form</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="33.75">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer'ın bu formu, Ethereal formunu Biyokimyasal hariç tüm hasar kanallarına dirençli olacak şekilde değiştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Form</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="31.5">
+        <Cell>
+          <Data ss:Type="String">THERMAL_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer'ın bu formu, Ethereal formunu değiştirerek Ark hariç tüm hasar kanallarına karşı dirençli hale gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Formu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="32.25">
+        <Cell>
+          <Data ss:Type="String">ARC_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer'ın bu formu, Psiyonik dışındaki tüm hasar kanallarına dirençli olmak için Eterik formunu değiştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Form</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="33.75">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer'ın bu formu, Termal hariç tüm hasar kanallarına karşı dirençli olmak için Eterik formunu değiştirir.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>23</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>48</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

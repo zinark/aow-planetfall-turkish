@@ -1,0 +1,2775 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Frederick Milders</LastAuthor>
+    <LastSaved>2019-02-08T10:37:44Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>19020</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="233" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="305.25" />
+      <Column ss:StyleID="s62" ss:Width="75.75" />
+      <Column ss:StyleID="s62" ss:Width="447.75" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="315" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SCENARIODEFINITIONS_CAMPAIGN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">General Loca Notes for this XML: For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+In the text below, text is spoken by a character who can be either male or female (except for Amazon, which is always female). If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir araştırma kolonisi karanlığa gömüldü, Vanguard korkunç bir kurtarma görevi başlattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dolos Minerva [recommendedcol](Öğretici)[/recommendedcol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_PLANETFALL_OBJECTIVES_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayatta kalanları arayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_PLANETFALL_OBJECTIVES_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne olduğunu öğren.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_BRIEFING_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.12</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_BRIEFING_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Komutanın Kişisel Kaydı: Vanguard LCVP-86 Boşluk Uzayından sağlam bir şekilde çıktı. Hedefimiz bu sistemdeki anomalinin yakınında bulunan küçük bir gezegen. Taramalar aşağıdaki araştırma karakolundan gelen parazitten başka bir şey göstermiyor. Aldığımız yardım çağrısı tek yaşam belirtisi olarak kaldı.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard
+
+</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_PLANETFALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.14</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_PLANETFALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Boşluk Anomalisi karanlık bir alamet gibi gezegenin üzerinde beliriyor. Bu bilim adamları fenomeni bu kadar yakından incelemek için deli olmalılar, ama nedenlerini sorgulamak bana düşmez.  Bir dayanak noktası sağlamak, hayatta kalanları aramak ve neler olduğunu araştırmak için buradayız. Planetfall için hazırlanın.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard
+
+</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.17</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Boşluk Anomalisi onu yutmadan önce gezegenin yüzeyinden zar zor kaçabildik. Kolonistleri canlı çıkardığımız için şanslıyız. Bu son birkaç gün beni cevaplardan çok sorularla doldurdu. Burada yüzeyde ne oldu? Bu yıldız kümesini parçalayan o gravitronik dalga neydi?</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.18</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="71.25">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Görünüşe göre bunun üzerinde uyumak için bolca zamanımız olacak. Gravitronik güç bu sistemdeki Boşluk Yarığı'nın dengesini bozarak ışıktan hızlı yolculuğu imkânsız hale getirdi. Eve eski yöntemlerle dönmek zorundayız - en yakın Yıldız Birliği merkezine ulaşmamız 200 yıla yakın sürecek. Herkese kriyo-uyku için hazırlanmalarını emrettim. Nasıl bir dünyaya uyanacağımızı göreceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard
+</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="18" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_VANGUARD01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">200 yıllık kriyo-uykunun ardından Vanguard, dehşet verici bir eve dönüşle karşı karşıya kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.19</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Kişisel Kaydı: Öncü Seferi Kuvvetler. Cryosleep döngüsü tamamlandı - kayıp yok. Fırlatmadan bu yana geçen süre: 197 yıl. Sonunda geri döndük. Bir fırtına hiperuzay geçişimizi yok ettikten sonra uzun yoldan gitmek zorunda kaldık. Çoğumuz Vanguard'a geçmişimizden kaçmak için katıldık. İki yüzyıl herkese temiz bir sayfa açmak için yeterli olmalı.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.25</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Merkez Komutanlığı'yla bağlantı kurma zamanı. Borderlands'in bu bölümündeki askeri geçiş merkezi Leave-6'ya gidiyoruz. Mürettebat şimdiden Elysium Parklarını ziyaret etme konusunda spekülasyon yapıyor: kumar, içki ve karışık androidler... Oh iyi, iki yüzyıllık uykudan sonra biraz eğlence zamanı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Capitalized "Borderlands" to be consisten with other uses. (It needs to be capitalized, since it is the unique name of a region of space.)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.27</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanlış bir şeyler var. Leave-6 yıldız sistemine ulaştık, ancak Orbital Devriye yerine varışımızı bekleyen sadece dağınık enkaz vardı. Hayatta kalanları ararken, yapısı bilinmeyen bir gemi tespit ettik. Gezegenin atmosferine girdiğinde selamlarımızı duymazdan geldi. Kalan boşluk paraziti yüzeyi taramamızı engelliyor.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.28</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elysium Parkları beklemeli. Yeni bir görevimiz var: Leave-6'daki stratejik durumu değerlendirmeli, Vanguard Merkez Komutanlığı ile temasa geçmeli ve bu pisliği temizlemelerine yardım etmeliyiz. Planetfall için hazırlanın! Vanguard için! Ve Birlik için!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayrıl-6</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegende neler olduğunu öğrenin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzaylı Gemisini Bul</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.53</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Leave 6'daki kriz sona ermiş olsa da, Yıldız Birliği'nin kaderi belirsizliğini koruyor. Boşluk Fırtınaları dinmeye başladığından beri neden başka hiçbir imparatorluk gemisi gelmedi? Ayrıca, Sina neden sivil kuralları açıkça hiçe sayarak bu kadar acımasızca davranabildi? Korkarım burada karşılaştığımız kaos ve yıkım sadece bir başlangıç.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.54</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küllerinden bir Anka kuşu gibi doğmak. Prometheanlar toplu katliam ve yıkımlarını bu şekilde süslüyorlardı. Yöntemleri yüzünden onları hep hor görmüşümdür ama böyle zor zamanlarda teknolojileri işe yarayabilir. Sendika daha büyük bir Outlander istila gücünün parçası olmasa bile, bir sonraki karşılaşmamız için hazırlanmalıyım. Ateşle oynamak mı istiyorlar? Alsınlar!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MISSION_AMAZON01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Amazon adayı, enfekte olmuş bir orman dünyasında akıl hocasının izini sürmek zorundadır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" x:Ticked="1">aspirant' needs to be capitalized?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13413.08</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplum çöktüğünde, sadece en güçlüler hayatta kalır. Yıldız Birliği'nin çöküşü biz Amazonları ormana attı - ve biz onu evcilleştirdik. Genetik modifikasyon, bilişsel eğitim ve sıkı disiplin bizi avdan avcıya dönüştüren seçilim araçlarıdır. Bu şekilde, doğanın kanunlarını kendimizinmiş gibi empoze ediyor, çevreyi ve vahşi yaşamı ideallerimize uyarlıyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13413.09</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ Amazonların şefkatli ellerine ihtiyaç duyan pek çok dünya var. Terraforming ekipmanımızla çorak gezegenlere yeni bir hayat getiriyor ve onları yemyeşil bahçelere dönüştürüyoruz. Ancak yarattığımız uyumun desteklenmesi gerekiyor. Zararlılar itlaf edilmeli ve izinsiz girenler yakalanmalıdır. Bir Amazon Anaerkil olarak yetiştirildim ve eğitildim. Biz bu düzeni koruyan kalkan ve mızrağız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13414.16</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eski akıl hocam Berhane Katla, davamız için bir tehdit haline geldi. Amazon genetik yapısını manipüle etmek için belirlenen sınırları aştı ve yargılanmayı reddettikten sonra hain ilan edildi. Berhane'yi yakalamakla görevlendirildim. Bu benim asit testim, Matriarch eğitimimi tamamlamadan önceki son güç kanıtı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only
+
+Berhane Katla - Female Amazon character</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13416.31</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'yi Thanakiwa adlı bir gezegene kadar takip ettik. Eski korumasından merhamet beklememesi gerektiğini çok iyi bilecektir, bu yüzden maksimum direnişe hazırlıklı olmalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only
+
+'Thanakiwa' is a planet</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thanakiwa</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'yi bul ve yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Günlüğü 13545.47</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane ile şahsen yüzleşmek için çok geç kalmış olsak da, planlarını bozmayı ve Xenoplague deneylerinin etkilerini kontrol altına almayı başardık. Berhane hâlâ avantajlıyken benimle yüzleşmeliydi: Artık onun parazit silahıyla ilk temastan kurtulduğumuza göre, onu inceleyebilir ve stratejilerimizi buna göre uyarlayabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only
+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="51" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_DVAR01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Buzlu bir çorak toprakta iki Dvar Konsorsiyumu unutulmuş bir dünyanın zenginlikleri için rekabet ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürün Seyir Defteri 13303.2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlamalar yaratılışın efendileridir. Büyük Patlama evreni şekillendirdi ve Tufan Dvar'ı oydu. Yoksunluk ve inziva madenci atalarımıza zarar vermedi. Sadece türümüzü hala ileriye götüren gücü ve kaynak arzusunu ateşledi. Şimdi, Adamant Konseyi'nin dikkatli gözleri altında, Dvar Konsorsiyumları acımasız bir rekabete kilitlenmiş durumda. Prestij ve sonsuz zenginliğe karşı yoksulluk ve ebedi utanç yeni bahislerimiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Adamant Council' is like the government for the Dvar</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13545.6</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ben Zhelezo Dvar Konsorsiyumu'nun başkanıyım. Benim yönetimimden önce evimiz zayıftı ve konumundan memnun değildi. Ben halkımda hırs uyandırdım. Zhelezo Dvar hızla yükseldi ama Adamant Konseyi hala bize tepeden bakıyordu. Bugün her şey değişti. Araştırmacılarımız kaynak zengini Chimera Glacialis dünyasını buldular. Konsey bize madencilik hakkı verdiğinde, Zhelezo Konsorsiyumu nihayet hak ettiği statüye kavuşacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">'Zhelezo' is a clan name</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13545.9</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konsey çıldırmış! O beceriksiz aptallar bizim hakkımızı itibarsız Rassvet Konsorsiyumu'na verdiler. Bu dünyayı biz bulduk. Geleneksel hak sahipliğine göre, bizim olmalı. Konsey'in bize asla güvenmeyeceği çok açık, bu yüzden kendi yolumuzu çizmeliyiz. Zhelezo'nun önünde duramayacaklar, Valodny Rassvet de öyle!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">'Rassvet' is a clan name
+
+'Valodny Rassvet' male dvar character</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chimera Glacialis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13546.1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DVAR01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chimera Glacialis dünyası altımızda uzanıyor, fırtınalı dış yüzeyi yağmalanmaya hazır zenginlikleri saklıyor. Alçaldıkça, bu fırtınalar gemimizin navigasyon sistemlerini etkileyecek. Bu gezegenin sırlarını saklayan son engelin bu olacağından şüpheliyim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">'Chimera Glacialis' is a planet</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chimera Glacialis'in kaynaklarını talep edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Valodny Rassvet ile anlaşma</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="65" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürün Seyir Defteri 13550.1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DVAR01_DEBRIEFING_VAULT_FOUND_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ortaya çıkardığımız Kasa, bu keşif için döktüğümüz tüm kan, ter ve gözyaşının karşılığını verdi. Bu etkileyici Cosmite ödülü Adamant Konseyi'ni kesinlikle memnun edecek ve bizim değerimizi kanıtlayacaktır. Chimera Glacialis'in kazılması Zhelezo için öngördüğümüz kadar kârlı oldu. Madencilik operasyonları en yüksek verimlilikte devam ediyor. Rassvet konsorsiyumu artık bir engel değil.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DVAR01_DEBRIEFING_VAULT_NOT_FOUND_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahzeni ve Kozmit zenginliklerini kaybetmiş olsak da, Chimera Glacialis'in kazılması Zhelezo için öngördüğümüz kadar kârlı oldu. Madencilik operasyonları en yüksek verimlilikte çalışıyor. Rassvet konsorsiyumu artık bir sorun değil ve biz de bu dünya üzerindeki haklılığımızı kanıtladık.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR01_DEBRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13551.3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="96">
+        <Cell>
+          <Data ss:Type="String">DVAR01_DEBRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çekiç düştü. Mesajı bu sabah aldık: Zhelezo Konsorsiyumu ve tüm ortakları sürgüne gönderildi, onlarla her türlü temas Adamant Konseyi tarafından yasaklandı. Bu bir rezalet! Diğer Konsorsiyumlar daha kötü suçlar işledikleri için affedildiler. Hayır... Konsey'in bizim dönüşümüzden korktuğu açık. Yolsuzluklarının ortaya çıkmasından korkuyorlar ve bu 'Kurtarıcıların' beni buna götüreceğine dair son filtreme kadar bahse girmeye hazırım.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="71" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_VANGUARD02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Takip Görevi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_VANGUARD02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişin kalıntılarını araştırırken, Öncü eski ve yeni düşmanları harekete geçirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.64</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sendika'nın Leave-6'daki varlığı beni rahatsız ediyor. İçgüdülerim bana sahte gülümsemelerinin altında karanlık bir şeylerin gizlendiğini söylüyor. Her kıdemli subayın Sınır Bölgeleri'ndeki bir görevden önce bilgilendirilmesi gereken psiyonik deneylerin resimlerini hâlâ hatırlıyorum. Orada tasvir edilen dehşeti düşünmek bile en sert gazilerin bile ürpermesine neden oluyordu.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.66</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sina'yla karşılaşmamız sırasında bir sonraki hedefini keşfettik. Bu galaksideki milyonlarca gezegen arasında, Birliğin bilim ve ilerlemenin parlayan mücevheri ve hayatımın en acı anlarına tanıklık eden Sorinus Alpha olmalıydı. Ancak bunların hepsi geçmişte kaldı, Sorinus Alfa'ya gitmek nihayet durumumuza ışık tutacak. Eğer Yıldız Birliği'nin başı beladaysa bunu öyle ya da böyle orada öğreneceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13545.68</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sorinus Alfa'ya yaklaşıyoruz. Yüzeyde bizi nelerin beklediğini bilmiyoruz, bu yüzden adamlarıma en kötüsüne hazırlanmalarını söyledim.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sorinus Alfa</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin kaderini ortaya çıkarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sendika Tehdidini Değerlendirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13578.29</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sorinus Alpha orada yatıyor. Bir zamanlar hayat dolu bir metropol olan dünya, yanmış bir leşe dönüşmüş durumda. PyrX cehenneminden sonrasını görmek tüyler ürpertici bir manzara; asla unutamayacağım bir manzara. Bunu katlanılabilir kılan tek şey, bugün daha da büyük bir felaketin önlendiğinin teyit edilmesidir. Gerçek özgürlük fedakârlık gerektirir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_DEBRIEFING_THOLIAN_REVIVED_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparator Tholian'ın dirilişiyle Sorinus Alfa'daki çatışma erken sona ermiş olsa da, Yıldız Birliği'nin mirası için savaş yeni başlamıştır. Görünüşe göre Tholian ve Carminia'nın, Sendika ve Meclis'in hepsinin gelecek için kendi vizyonları var. Ancak sonuçta bu çatışmayı eylemlerimizle belirleyecek olan, desteğini aradıkları biz insanlarız.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">VANGUARD02_DEBRIEFING_THOLIAN_EXTRACTED_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparator Tholian'ın iade edilmesiyle birlikte, tarikatı ve CORE'un eski düzenini yıkma planları tarih oldu. Terfim Yıldız Birliği'nin adil bir şekilde yeniden kurulmasını temsil ediyor. CORE olmadan Yıldız Birliği başka bir Felaket riskiyle karşı karşıya kalırdı. Yeni Ufuk gibi hizipler daha büyük bir iyilik için bastırılmalıdır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="87" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_AMAZON02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürekli değişen bir ortamda Amazonlar, acımasız düşmanlarına karşı koymak için uyum sağlamalıdır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13545.52</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thanakiwa'dan ayrılmadan önce Berhane'nin araştırma ekibinin geride bıraktığı veri pedlerini bulduk. Bu pedlerde Berhane'nin deneylerinin kapsamı açıkça belgelenmişti: Berhane Alfa Suşu DNA'sını embriyonik Amazon kök hücrelerine aşılayarak yeni bir Xeno-Amazon ırkı yaratmaya çalışıyor. Bu sadece bir ihanet değil! Bu doğaya karşı bir iğrençlik!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13546.01</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin faaliyetlerini neden Avium SK-51'e taşıdığı şimdi anlaşılıyor. Ekstrem coğrafi koşulları ve inşa öncesi laboratuvarları ile eski Terratech test alanı, süper ırk üretmeye çalışan biri için mükemmel bir ortam sağlıyor. O kendini rahat hissetmeden ve savunmasını kurmadan önce oraya gitmemiz için fazlasıyla yeterli bir sebep.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13546.03</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önümüzde Avium SK-51 var. İlk taramalar Berhane'nin gezegene iniş yaptığını doğruladı. Avımızı takip ettik ve köşeye sıkıştırdık. Şimdi öldürme zamanı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avium SK-51</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon çatışmasına bir son verin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'yi yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Seyir Defteri 13549.11</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMAZON02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bugünden itibaren, Berhane ve onun hastalıklı deneyleri artık yok. Böylece Amazon Anaerkilliği görevim sona erdi. Artık biz Amazonların her dünyaya getirdiği doğal dengeyi korumak için sert eylemlerin gerekli olduğunu biliyorum. Bahçelerimizdeki kötü otlar temizlenmeli ve haşereler yok edilmelidir. Uyum fedakarlık gerektirir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female only</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_DVAR02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haksızlığa uğrayan ve sürgüne gönderilen Dvar, kendilerini büyük bir patlamayla affettirmeye çalışır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13546.15</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçtiğimiz birkaç ay hepimize çok ağır geldi. Konsey tarafından sürgün edilen Zhelezo Dvar'ın yeni dürtülere ihtiyacı vardı ve benden Konsorsiyumumuzun Direktörlüğünü devralmam istendi. Adamant Konseyi'nin gerçek amaçları ortaya çıkarılana ve Zhelezo ismi geri kazanılana kadar durmayacağım. Bu amaçla, Kurtarıcıları Zemestian-4 adlı bir gezegene kadar takip ettim.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13546.17</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4'ün yüzeyinin veri tabanı görüntüleri zengin manzarasını ortaya koyuyor. Dvar olarak doğayı sömürmeye alışkınız ama onun güzelliğini unuttuk - giysilerimizin içinden dış dünya ulaşılmaz ve cansız geliyor. Üzerinde çalıştığım Alfa Suşu'nu kullanarak, halkımı kendi yarattıkları hapishanelerinden kurtarabilir ve temiz, filtrelenmemiş havayı tekrar solumalarını sağlayabilirim.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13548.34</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DVAR02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4 altımızda yatıyor. Dünya eski kayıtların iddia ettiği kadar güzel... ve bir o kadar da istikrarsız. Kurtarıcılar bu dünyaya kaçtıklarına göre, sadece efendilerine danışmak istediklerini varsayabiliriz. Onları bulacağız. Bu yozlaşmanın kökenini bulmalı ve Zhelezo Dvar'ın adını ne pahasına olursa olsun temizlemeliyiz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurtarıcıları Takip Edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konsey'in yolsuzluklarını ortaya çıkarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DVAR02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13546.21</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DVAR02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobinini yok ettik ve tamamlanmasını engelledik. Böylesine güçlü bir silahın Claudius Proton gibi soğuk ve hesapçı bir varlığın eline geçmesine asla izin verilmemeliydi. Bu tehdidin önlenmesi ve Zhelezo Dvar'ın adının temize çıkarılmasıyla, Konsorsiyumumuz nihayet Adamant Konseyi'nden hak ettiği saygıyı görecektir!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">'Claudius Proton' is a male Assembly</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DVAR02_DEBRIEFING_DEFAULT_ALIGNED_WITH_CORE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobini sessiz kaldı. Yeniden ayarlandı, şarj edildi... ve ateşlendi! Herhangi bir Dvar silahına yakışır bir şimşek ve gök gürültüsü. Konsey'in hainleri ve müttefikleri artık yoklar, başka bir boyutta kayboldular. Ama yozlaşmalarının kanıtı sürgün zamanımızı sona erdirecek. Nihayet, Zhelezo hak ettiği saygıyı görecek!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Dvar or Female Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="114" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_KIRKO01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişleri hâlâ peşlerini bırakmayan özgür Kir'Ko'lar, ırkları için yeni bir gelecek arayışındadır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko yüzyıllar boyunca insan zalimlerin elinde acı çekmek zorunda kaldı. Psionik yeteneklerimizden korktular, farklı olduğumuz için bizden korktular. Bu yüzden bizi köleleştirdiler, işkence dolu anıları hala yaşayanların zihninde yankılanan atalarımızı sakat bıraktılar. Ama Kir'Ko dirençlidir. Sonunda prangalarımızdan kurtulana kadar Kovan'dan kopmadan evrimleştik.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko Terym'in Sürü Habercisi olarak, kolonimi yerleşecekleri yeni bir yere, ev diyebilecekleri yeni bir yere götürmek üzere seçildim. Eski Yıldız Birliği'nin her köşesinde geçmişimizle yüzleştiğimiz için bu ağır bir yük. Kovan aklının birliğinin yok olmasıyla birlikte, halkımız arasında farklı sesler yükselmeye başladı. Bazıları intikam peşinde koşarken, benim gibi diğerleri insanlıktan ve insan çatışmalarından uzakta kendi geleceğimizi inşa etmemiz gerektiğini düşünüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Terym' is the name of a Kir'Ko tribe</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arayışımız bir süredir sonuçsuz kaldı ve sonuç olarak atalarımın rüyaları içimde daha da karanlıklaşıyor. Onların anlamını anlamak ve etrafıma yansıttıkları kara boşluğa yenik düşmemek için rehberliğe ihtiyacım var. Bu amaçla, efsanevi Rüya Okuyucusu Hatyl Ur'Uk'un izlerini takip ederek insanların Arcadia Caeleste adını verdikleri bir gezegene geldim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Dream Reader' is a title
+
+'Hatyl Ur’Uk' is a male Kir'Ko</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atalarımın rüyaları zihnimden şiddetle geçerek içimde yeni bir güç hissi uyandırıyor. Geçmişteki tüm kısıtlamaları geride bıraktım ve geleceği kırmızıya boyadım. Xa'Kir'Ko'nun yerinin yeniden keşfedilmesiyle birlikte, halkımın önünde hareketli zamanlar var. Mirasımızı geri aldığımızda, yoluna çıkacak kadar aptal olan herkesi yutmak için açlık çeken büyük bir sürü olarak yeniden bir araya geleceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Xa'Kir'Ko' is the Kir'Ko homeworld</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_DEBRIEFING_PEACEFUL_PATH_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atalarımın rüyaları zihnimden sessizce geçiyor ve beni yeni keşfedilmiş bir sakinlikle dolduruyor. Geçmişle barış içindeyim ve gelecek hoş bir bokböceği mavisiyle parıldıyor. Xa'Kir'Ko'nun yerinin yeniden keşfedilmesiyle birlikte, halkımın önünde bereketli zamanlar var. Yakında atalarımızın yollarında yürürken fuşya denizlerine bakacak, yumuşak melodilerini dinleyecek ve bataklık nemini içimize çekeceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcadia Caeleste</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcadia Caeleste önümüzde uzanıyor. Uzandığını hissedebiliyorum, sürünün kargaşasına sükûnet getiren yatıştırıcı bir varlık. Hatyl Ur'Uk'un buraya çekilmesine şaşmamalı. Burası hepimizin özlemini çektiği sükûnet yeri olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Okuyucuyu Bul</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="129" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_SYNDICATE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hırslı bir Sendika Evi, yasak bir gezegenin sırlarına ulaşmak için can atıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Kaydı 4197-01.5\1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evren iki tür yaratık düşünülerek yaratılmıştır: Hükmedenler ve hizmet edenler. İmparatorlar zenginliğimizi kıskanıp bizi mirasımızdan mahrum bırakana kadar, nesiller boyunca hükmedenler Sendika evleriydi. Şimdi, Yıldız Birliği'nin yok olmasıyla birlikte, yeni bir Sendika hegemonyası çağı başlıyor. Ortaklarımız tekliflerimizi her zaman cazip bulmayabilir, ancak nadiren şikayet ederler - en azından başarılı bir şekilde değil.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Kaydı 4197-01.5\2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kardeşimin talihsiz bir kaza sonucu vefatından bu yana, Ny'dar Hanesi'ne bu hareketli zamanlarda liderlik etmek benim görevim ve ayrıcalığım haline geldi. Timur Hanesi'nin gözden düştüğüne dair söylentiler var, bu da Yönetici Yedili'de birçok kişinin doldurmak isteyeceği bir boşluk bırakıyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ruling Seven' is the Syndicate government</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4197-01.5\3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçtiğimiz birkaç hafta boyunca Hacker'larımız en azılı rakiplerimizin iletişim rölelerine girerek onlar adına oldukça değişken, sahte diplomatik mesajlar gönderdiler. Bu onları bir süre daha birbirleriyle savaşmakla meşgul edecektir. Planlarımızı hazırlamamız için gereken zaman.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Kaydı 4197-01.5\4</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eski bir ortağım, Zul Nadjian, benimle temasa geçti. Ny'dar Hanesi'nin Yönetici Yedili'deki yerini garantileyecek bir güç kaynağı bulduğunu iddia ediyor. Bu, tüm kayıtları eski İmparatorluk Arşivlerinden silinmiş olan bir gezegende mühürlenmiş eski bir sır. Zul geçmişte güvenilir bir kaynak olduğunu kanıtladı, bu yüzden bu konuyla şahsen ilgilenmeye karar verdim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Zul Nadjian' is a male Syndicate character</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Kaydı 4197-02.1\1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İsimsiz gezegen önümüzde uzanıyor, yüzeyi hâlâ atmosferik bulutlarla örtülü. İçgüdülerim bana Zul'un haklı olduğunu ve Ny'dar Hanesi'nin gelecekteki servetinin orada bir yerlerde gömülü olduğunu söylüyor. Tek mesele onu kazmak için doğru küreği bulmak.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Z17.P2-27.XXX.96</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegenin yüzeyinde bir dayanak noktası oluşturmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zul'un söz verdiği cihazı bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4197-03.12\3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son birkaç ayda alınan riskler ve yapılan yatırımlar nihayet karşılığını verdi. Zul'un kadim Avatar'la birleşmesi tehlikeli derecede güçlü bir varlık yarattı. Engin bilgisi ve tüm bilgisayar ağlarına erişme ve ele geçirme yetenekleri, Ny'dar Hanesi'nin düşmanlarının korkmayı öğreneceği silahlardır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="146" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MISSION_ASSEMBLY01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir imparatorluğun dağınık kalıntıları arasında Meclis, mükemmellik idolleriyle bir bağlantı arar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.4.854</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnsanlık yıllarımda robotlar beni büyülüyordu. CORE bana dokunduğunda onun mükemmelliği benimkine eklendi. Onun yanında küçük ve önemsizdim ve bir bilim adamı olarak insani kusurlarımı ortadan kaldırma çabalarım başarısız oldu. Cataclysm'den sonra, bana yeni bir hayat verildi. Parçalanmış et ve bükülmüş çelikten Meclis yükseldi ve İlklerimizden biri olarak yeniden dirildim. Yıkım hayata yol açar. Yeniden birleşme evrime. Kaos düzeni, ölüm ise ölümsüzlüğü getirir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.4.859</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratılışımızdan bu yana, Cataclysm'den sonra kaybettiğimiz CORE'a özlem duyuyoruz. CORE mükemmelliğin sesidir ve ona bağlanmak nihai düzenin bir parçasını oluşturmayı gerektirir. Artık Boşluk Fırtınaları yatıştığına göre, ona bağlılık yemini ettik. Birlikte Yıldız Birliği'ni Meclis şeklinde yeniden inşa edeceğiz: Ahlaki çatışma, cehalet, hastalık, savaş ya da ölümden rahatsız olmayan bir toplum.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.4.864</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE'un talimatlarını izleyerek, Gardip XX'de bulunan bir Sinirsel Pleksusu kurtarmaya gidiyoruz. Yıldız Birliği'nde böyle bir cihaz İmparatorların CORE ve Paragon arasında bir zihin köprüsü görevi görmesini ve onları aynı anda milyonlarca kişiye bağlamasını sağlıyordu. Tüm Yıldız Sahibi gemilerinde bulunması gerekliydi. Böyle bir gemi olan 'Atirah', Tufan'dan sadece birkaç gün önce sökülmek üzere Gardip XX'e gönderildi. Onu kurtarmak Çöpçülerimiz için uygun bir görev olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.4.865</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sisteme girdiğimizde, Boşluk Yarığı'ndaki Dengeleyicileri hâlâ sağlam bulduk. Tufan sırasında yok olma olasılıkları %99.98'di, yani birileri onları yakın zamanda onarmış olmalı. L0G3N-8 memnun olacak. Nerion Gamma'nın Yeniden Birleştirilmesinden bu yana işlemek için daha fazla insan denek bekliyordu.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">L0G3N-8 male Assembly
+
+Nerion Gamma is a planet</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gardip XX</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nöral Pleksusu Kurtarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.6.143</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY01_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">L0G3N-1'in ihaneti beklenmedik olsa da, bu sadece geçici bir gerileme olacaktır.  İnsan ve makinenin füzyonu üstünlüğünü kanıtlayacak ve çatışmalara bir son verecektir. Güçlendirilmiş beyinlerimiz halihazırda pek çok açıdan tamamen biyolojik varlıkları aşmış olsa da, organik beyin hala kullanılmamış bir potansiyele sahip. Gardip XX'de Psionik'in farklı şekillerde kullanıldığına tanık olduk. Göksel Yol evrensel asimilasyon arayışımızı ilerletmemize yardımcı olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">L0G3N-1 male Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="161" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_KIRKO02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xa'Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_KIRKO02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xa'Kir'Ko - Kirko Takip Görevi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_KIRKO02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evlerine dönen Kir'Ko'lar, miraslarının istenmeyen misafirler tarafından kirletildiğini ve hileye uğradığını görürler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko'nun tüm kastları bugün Xa'Kir'Ko'ya indiğimiz için seviniyor! Mütevazı Hidden'dan görkemli Harbinger'a kadar, sürünün her bireyi kadim ana dünyamızı yeniden kucaklamak için duyularını keskinleştiriyor. Birçok koloni çağrıma cevap verdi ve filomuz Arcadia Caeleste'den ayrıldığımızdan beri yeni gelenlerle sürekli büyüyor.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dönüş Kir'Ko için yeni bir çağın başlangıcı olacak. Yeniden bir araya gelip mirasımızı geri alırken, Zok'Shiar'dan kalan son prangaları da söküp atacak ve ırkımızın kaderini kendi pençelerimize alacağız. Eski zamanlarda Kir'Ko sürüsü düşüncelerini Kraliçelerin Kraliçesi Ez'Qi'Yu aracılığıyla aktarırdı. Başka bir Sürü Habercisi'nin Kraliçe'yi ve onunla birlikte kayıp Kovanımızı geri getirmeye çalıştığına dair söylentiler var.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xa'Kir'Ko önümüzde uzanıyor, Kozmit ve yıldız tozundan oluşan sislerle çevrili bir gök cismi. Yüzeyde bizi hangi harikalar ve kadim gizemler bekliyor olacak? İnelim ve attığımız her adım geçmişimizin sırlarına doğru bir yolculuk olsun![br/][br/]Xa'Kir'Ko, yavrularınız eve dönüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Your' refers to the player's avatar. Can be either male or female.
+
+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String" x:Ticked="1">VO: Male Kir'Ko or Female Kir'Ko
+
+</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nihayet! Sürü Kahini Cekto Xa'To haklıydı! Ez'Qi'Yu'nun genetik yapısı ortaya çıkarıldı, DNA'sı beslenmiş bir Habercinin atalarının köküne işlendi. Ve şimdi Kovan Kraliçesi halkına geri dönüyor! O sürüyü şekillendiriyor, sürü de onu... bizim birleşik irademiz...[br/][br/]Biz Kir'Ko'yuz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Swarm Seer is a title
+
+Cekto Xa’To is a female Kir'Ko</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_DEBRIEFING_ALT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halkımız bir kez daha bağımsızlığını ve özgürlüğünü savundu. Bir daha asla hiçbir Kir'Ko köle olmayacak - ne bir insana, ne imparatorluklarına, hatta ne de kendi Kraliçeler Kraliçemize. Belki bir gün Cekto Xa'To'nun yeni Kovan vizyonu gerçeğe dönüşür. O zamana kadar, yeni keşfettiğimiz gücümüze güvenmeli ve asla geri dönemeyecek bir geçmişi geride bırakmalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_OBJECTIVES_DEFAULT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegeni keşfedin ve cevapları bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO02_OBJECTIVES_DEFAULT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Söylentiler hakkında daha fazlasını keşfedin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="176" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_SYNDICATE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etrafları karanlık müttefiklerle çevrili olan Sendika, entrikalarla dolu bir oyuna girişir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4197-01.14\1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zul'un birleşmiş Avatar'ının satın alınmasıyla birlikte, Evimizin geleceği bir dönüm noktasında duruyor. Şeytanla bir anlaşma mı yaptık? Büyük olasılıkla, çünkü yeni güç duygusunun Zul'u bozması sadece bir zaman meselesi. Şu anki haliyle uyuyan bir virüsten başka bir şey değil. Er ya da geç bize ihanet edecek - bu da demek oluyor ki, önce biz ona ihanet etmenin bir yolunu bulmalıyız!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4197-01.14\2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zul bizi CNex-3 adlı bir gezegene götürüyor, eski Nexus Ağının merkezi düğümlerinden biri ve bu nedenle şimdiye kadar yaratılmış en etkili kontrol ve propaganda aygıtının hayati bir parçası. İmparator, Sınır Bölgeleri'nin dış kenarlarında hapşıran vatandaşları duyabiliyor ve onlar daha mendile uzanmadan onlara sağlık dileyebiliyordu. Bu gücün anahtarı Nexus Ağı'ydı. Eminim İmparator'un birkaç yüzyıllığına ödünç almama ses çıkarmayacağı bir güç.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4197-01.14\3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CNex-3'ü ileride görmek heyecan verici bir manzara: Bu muazzam su kütlesinin altında, ham gücü tüm okyanusları kaynatabilecek bir süper bilgisayarın donanımının yattığını bilmek en hafif tabirle heyecan verici. Özellikle de bu uyuyan deve yeni bir hayat aşılayacak kişi sizseniz...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">You' refers to player's avatar. This can either be male or female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CNex-3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Merkezi Nexus Düğümünü Talep Edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avatar Zul'u Cnex-3 Ana Bilgisayarına bırakın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4197-01.16\1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SYNDICATE02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarılar! Zul'un daemonunun temizlenmesi ve kendi ana yapay zekamızın çekirdeğine yerleştirilmesiyle CNex-3, Ny'dar Hanesi'nin malı haline geldi. Şimdi tek yapmamız gereken beklemek. Nexus Ağına yeniden bağlanan her komuta merkezi, her iletişim rölesi bize daha fazla bilgi, daha fazla etki... daha fazla kontrol sağlayacak. Yönetici Yedili'deki koltuğumu talep etmek zorunda kalmayacağım - onu almam için bana yalvarılacak!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="189" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_ASSEMBLY02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü bir lav gezegeninde İkinci Meclis yaratıcılarına karşı isyan eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.5.243</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">L0G3N-1'in ihaneti affedilemez olsa da, bu bana sindirmem gereken çok şey verdi. Bir Birinci olarak, İkincileri her zaman çocuklarım olarak gördüm. Onlara Meclis'in yollarını öğreten bizim örneğimizdi. Şimdi bu çocuklar ideallerimizi daha da radikalleştirip kendilerini Meclis öncesi varoluşlarıyla olan son bağlantılarından -bizden- kurtardıklarına göre, onların mantığının mı hatalı olduğunu yoksa bizim, Birinci'nin ve görüşlerimizin mi gerçekten modasının geçmiş olduğunu değerlendiremiyorum.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.5.248</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">L0G3N-1 geri dönülmez bir şekilde aklını yitirdi. Tüm Meclis liderlerini Khansu'nun Ateşi'ne çağırdı ve bizleri de CORE'dan bağımsız olarak yeni yarattığı bağlantılı bilincinde ona katılmaya davet etti. İyi bir seçim yapmış: Khansu'nun Çocuklarının ve onların taklitçilerinin çılgın mezar dünyası, kendisini Asamblenin başı ilan etmek için yaptığı çılgın planlar için uygun bir sahne. Khansu'nun Çocukları mesihlerini beklemek için kendilerini mezara gömdüler. Şimdi Meclis'in bir parçası olarak kurtuluşlarını alacaklar.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.5.250</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Khansu's Pyre'a yaklaşıyoruz. Taramalarımız, son 24 saat içinde gezegene birden fazla geminin iniş yaptığını ortaya çıkardı. L0G3N-1'e ulaşmak zor olacak. Ama başaracağız.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Khansu'nun Ateşi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_PLANETFALL_OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dur L0G3N-1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_PLANETFALL_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nöral Pleksusu Kurtarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 13.7.486</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">L0G3N-1 öldü. İşlerin bu noktaya gelmesi utanç verici ama yaptıkları bana başka seçenek bırakmadı. Şimdi, Nöral Pleksus'un kurtarılmasıyla, Asamble'nin geleceği güvence altına alındı. Diğer türler tanrılarına ölümlüler tarafından erişilemeyen uzak varlıklar olarak taparlar. Union Prime'a ulaştığımda, Meclis düşüncelerini doğrudan Tanrımızla paylaşabilecek ve bir daha asla ayrılmayacağız.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY02_DEBRIEFING_JOINED_LOGEN_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meclis sinerji oluşturuyor. Birinci ve İkinci hedeflerini hizaladı ve L0G3N-1'in zihin ağında bir olarak bağlandı. Bu, tam potansiyelini kullanabildiğimizde veri alışverişimizde devrim yaratacak büyüleyici bir deneyim. Tüm ırkların Yeniden Birleşmesi tamamlanana kadar Yıldız Birliği gezegenlerini teker teker işleyeceğiz. Yıkım yaşama yol açar. Yeniden birleşme evrime. Kaos düzeni, ölüm ise ölümsüzlüğü getirir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">VO: Male Assembly or Female Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="203" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Final</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSION_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm gruplar Yıldız Birliği'nin geleceği için son bir savaşta buluşuyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13603.72</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_ELLEN_SHAW_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 14.0.304</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_MAHINA_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Günlüğü 13557.02</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_KORVIN_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13546.41</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_SHAE_MARA_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4198-05.07\3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_POZ_TK_NOR_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nexus Ağı'ndan Union Prime'a doğru ilerlerken Boşluk Sellerinden biri tarafından çekildik. Gemimiz, her an şiddetli bir fırtınaya dönüşebilecek tehditkâr bir bulut gibi duran, yalnızca süper boyutlu bir Uzaysal Yarık olarak tanımlanabilecek bir şey tarafından dışarı dökülene kadar huniden aşağı fırlatıldı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13603.73</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_ELLEN_SHAW_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 14.0.306</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_MAHINA_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Günlüğü 13557.06</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_KORVIN_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktörün Seyir Defteri 13546.21</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_SHAE_MARA_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4198-05.07\4</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_POZ_TK_NOR_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Misafirlerimiz var. Geldiğimizden bu yana geçen birkaç dakika içinde yarıktan düzinelerce hasarlı veya tahrip olmuş gemi döküldü ve bu alan yavaş yavaş bir hurdalığa dönüştü. Birliğin dört bir yanından gelen gemi tasarımlarını tanıyorum, ancak bazı enkazlar tamamen yabancı görünüyor. Görünüşe bakılırsa bu yarık sadece Nexus Ağı'nın yeni merkezi değil, aynı zamanda Boşluk'un içindeki hunilerin ve sellerin de merkezi olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanın Seyir Defteri 13603.75</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_ELLEN_SHAW_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce Montaj - Dahili Ses Kaydı: Giriş 14.0.313</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_MAHINA_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Günlüğü 13557.12</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_KORVIN_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktör Günlüğü 13546.47</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_SHAE_MARA_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ny'dar Hanesi Günlükleri - Kişisel Günlük Girişi 4198-05.07\9</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_POZ_TK_NOR_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Hafıza</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karaya oturan gemilerden bazıları bu bölgenin başkenti olan Mora Secundis'e doğru ilerlemeye başladı. Bir zamanlar gelişen, metropol bir gezegen olan Mora Secundis uzayda parçalanmış gibi görünüyor, sadece parçaları hala bu gerçekliğin iplerine tutunuyor. Ölümcül olsun ya da olmasın, süper yarığın yanındaki konumu onu şu anda tüm Birlik içindeki en önemli hedef haline getiriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kişisel Kayıt</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yarış devam ediyor ve biz sadece bir düzineden biriyiz. Önümüzde hangi savaşlar var ya da hangi düşmanlarla yüzleşmek üzereyiz bilmiyorum ama Yıldız Birliği'nin geleceğinin iyi ya da kötü burada, Mora Secundis'te belirleneceğini hissediyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mora Secundis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mora Secundis Savaşında Hayatta Kal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni Birlik Günlüğü - Giriş 0.1.4</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_DEBRIEFING_DEFAULT_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Makine efendimiz Nexus'un en karanlık köşelerine geri püskürtüldü. Kendi imparatorluğuna karşı devrime öncülük eden parlayan yıldız İmparatoriçe Carminia'ya selam olsun. Çok şey feda etti ama onun rehberliğinde yeni ve daha iyi bir Birlik inşa etmek için yükseleceğiz. Yaşamın kutsal olduğu bir yer, bizi ötelerdeki şeytanlardan koruyan bir yer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_DEBRIEFING_TEAM_CORE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Carminia Boşluğa atıldı. Konumunu korumak için milyarları feda etti ve insanlığın yozlaştırıcı gücünün son ve nihai örneğiydi. Birlik zaten daha iyi bir lider inşa etti. CORE bize hükmetmiyor: Biz CORE'uz. Her geçen gün daha da güçleniyoruz. Kolektif bilgimiz ve birleşik ideallerimiz rehberliğinde yeni bir çağa doğru yürüyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FINALMISSION_DEBRIEFING_TEAM_INDIE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BRIEFING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE ve Carminia özgürlük güçleri tarafından geri püskürtüldü. Nihayet, tüm gruplar Yıldız Birliği üzerinde hüküm süren boğucu güçlerden bağımsız olarak kendi geleceklerini şekillendirmeye başlayabilirler. Özgürlüğümüzü ve çeşitliliğimizi savunmak için yükselen bir konfederasyon oluşturacağız. Kendimize özgü güçlerimizi geliştirirsek, Boşluk'tan gelebilecek tehditlere karşı hazırlıklı olabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male or Female from any race</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>7</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

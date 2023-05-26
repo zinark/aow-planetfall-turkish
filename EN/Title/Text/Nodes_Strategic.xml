@@ -1,0 +1,585 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Thomas Schuiten</LastAuthor>
+    <LastSaved>2019-10-28T13:48:47Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11550</WindowHeight>
+    <WindowWidth>25410</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="205.5" />
+      <Column ss:StyleID="s62" ss:Width="168.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="319.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="156.75" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">NODES_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CRYSTAL_TAG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,0000039F000024D8]Cosmite[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Cosmite is an in-game currency</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESOURCE_NODE_TAG</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">[hyperlink,0000039A00000924]Resource Node[/hyperlink]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource nodes are locations on the map that generate a steady income of the resource.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="6" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Metruk Enerji Santrali</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burada terk edilmiş küçük ölçekli bir Yıldız Birliği Enerji Santrali yatıyor. Bağlı olduğu koloniye {Energy} Enerji verir.[br/][br/]Enerji Kullanımı sırasında ek bir {SynergyEnergy} Enerji verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_ENERGY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Metruk Hidro Tesis</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">WATER_ENERGY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burada unutulmuş bir Yıldız Birliği hidroelektrik santrali bulunuyor. Bağlı olduğu koloniye {Energy} Enerji verir.[br/][br/]Sudan Faydalanma sırasında ek bir {SynergyEnergy} Enerji verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Terkedilmiş Taş Ocağı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Madenler buradan çıkarılır. Bağlı olduğu koloniye {Production} Üretim verir.[br/][br/]Üretim Sömürüsündeyken ek bir {SynergyProduction} Üretim verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_PRODUCTION_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Derin Deniz Madencilik İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">WATER_PRODUCTION_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değerli derin deniz mineralleri bu maden istasyonu kullanılarak deniz tabanından çıkarılır. Bağlı olduğu koloniye {Production} Üretim verir.[br/][br/]Sudan Faydalanma sırasında ek bir {SynergyProduction} Üretim verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kubbe şeklindeki yüksek teknoloji laboratuvarlarında araştırma yapılır. Bağlı olduğu koloniye {Research} Bilgi verir.[br/][br/]Bir Araştırma İstismarı içindeyken ek bir {SynergyResearch} Bilgi verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_RESEARCH_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deniz Araştırma İstasyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">WATER_RESEARCH_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknolojinin sucul uygulamalarına yönelik araştırmalar bu özel Deniz Araştırma İstasyonlarında gerçekleştirilir. Bağlı olduğu koloniye {Research} Bilgi verir.[br/][br/]Sudan Faydalanma sırasında ek bir {SynergyResearch} Bilgi verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Büyümüş Biyodom</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayati malzemeler burada yetiştirilir ve üretilir. Bağlı olduğu koloniye {Supply} Gıda verir.[br/][br/]Tarım Sömürüsündeyken ek bir {SynergySupply} Gıda verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_SUPPLY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sucul Yosun Çiftlikleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">WATER_SUPPLY_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su bazlı Yosun Çiftlikleri organik üretim için daha yüksek büyüme oranlarına sahiptir. Bağlı olduğu koloniye {Supply} Gıda verir.[br/][br/]Sudan Faydalanma sırasında ek bir {SynergySupply} Gıda verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Uzaysal Yarık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burada, içinden Kozmit parçalarının çıktığı, Boşluk'a açılan uzaysal bir yarık bulunur. Kozmit burada sınırlı miktarda hasat edilebilir. Bağlı olduğu koloniye {Crystal} Kozmit geliri sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit Kristal Kümesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit, yaşam döngüsünün bir parçası olarak enerji yüklü kristaller salgılar. Bu kristaller birlikte büyüyerek Kristal Kümeleri haline gelebilir. [br/][br/][bulletList][bullet]Hibeler {QuartziteEnergy}[energy/] [/bullet][br/][bullet] Bu sektördeki savaş sırasında, tüm Mineral birimleri sıralarının başında {QuartziteHealing} karşılığında iyileşir.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Quartzite are wildlife units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıraları geldiğinde, tüm Mineral birimleri {WasteHeal}[hp/] için iyileştirilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Combat modifier description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="37" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARTIFACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Eseri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARTIFACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu garip eserler eski bir 'Göksel' uygarlığa ait. Cihazın zihin üzerinde ince bir etkisi var gibi görünüyor. Eğer biri onu kontrol edebilirse etkili olabilir. [br/][br/]Sahibine {CelestianArtifactInfluence} Etki geliri sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Celestian is a secret tech.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_ARTIFACT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Income}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No translation required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACER_REFINERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Spacer Rafinerisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SPACER_REFINERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu rafineriler ağır hizmet yapıları üretme konusunda uzmanlaşmıştır ve bu nedenle optimize edilmiş üretim süreçlerine sahiptir.[br/]Bir koloninin etki alanı içinde yer aldığında, o kolonideki Ağır birim üretim maliyeti {ProductionCostReduction} [production/] kadar azalır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node description. Spacers are an NPC faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_CRYSTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sucul Kozmit Yarığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resource node name.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>15</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>25</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

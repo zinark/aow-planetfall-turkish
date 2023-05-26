@@ -1,0 +1,895 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>GeraldR</LastAuthor>
+    <LastSaved>2019-03-08T15:23:05Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10185</WindowHeight>
+    <WindowWidth>25200</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="86" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="270" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="224.25" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:Width="279" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="107.25" />
+      <Column ss:StyleID="s62" ss:Width="265.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">NPC_FACTIONS_STORYEVENTS</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Misilleme Saldırısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="83.25">
+        <Cell>
+          <Data ss:Type="String">PARAGON_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin gibi hırsız ve yağmacılarla başa çıkmanın yollarını biliyoruz, {STR_LeaderName}! Yakında ordumuz kapınıza dayanacak. Merhamet göstermemizi beklemeyin.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Saldırısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="79.5">
+        <Cell>
+          <Data ss:Type="String">PARAGON_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, Yıldız Birliği'nin gerçek varislerine karşı çıkma girişimleriniz yakında sona erecek. Gezegenin yüzeyini sizin türünüzden temizlemek için özel kuvvetlerin yolda olduğunu bilin!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Makine Tanrısının Gazabı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="96.75">
+        <Cell>
+          <Data ss:Type="String">PARAGON_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kudretli Paragon {STR_LeaderName}'nin muazzam güçleri karşısında korku içinde titreyin. Eylemleriniz çok uzun zamandır CORE'un iradesine meydan okudu ve şimdi onun korkunç gücünü deneyimleyeceksiniz!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="13" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tendril Sorunu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">GROWTH_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Köklerimiz senin yanında tatsız hissediyor, {STR_LeaderName}. Ortak yaşam aradık ama onun yerine parazit aldık. Yayılmamaları için zararlılar hızla ortadan kaldırılmalıdır. Dallarımız senin için geliyor, Sonriel'in düşmanı.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dikenler ve İğneler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="92.25">
+        <Cell>
+          <Data ss:Type="String">GROWTH_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, ışığın ve ortakyaşarların düşmanı. Zulmünüze müsamaha gösterilmeyecektir. Dikenlerimiz ve iğnelerimiz sizi hedef alıyor ve durdurulamazlar. Sonriel'in kudretini taşıyanların gücünü hisset!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İntikam Tohumları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="88.5">
+        <Cell>
+          <Data ss:Type="String">GROWTH_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonriel'in gazabını hissetmeye hazır olun, {STR_LeaderName}. Düğüm Ana, bahçesini kirleten hiç kimseyi kabul etmez. Polenlerimiz şehirlerinize indiğinde duvarlarınız sizi koruyamayacak!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="20" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temizleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="89.25">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Varlıklar: tespit edildi. Düzen göstergeleri vasatın altında. Asi yaşam formları yok edilmeli. Hedef: {STR_LeaderName}. Tehdit seviyesi: düşük. Protokol: Temizleme ekibi gönder.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süpürme Turu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75.75">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Egemenlik: tehlikede. Birden fazla ihlal tespit edildi: {STR_LeaderName}. Suçlar derlendi. Tehdit seviyesi: orta. Protokol: kontrollü bir tarama düzenleyin.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmha Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tehlikeli yaşam formu tespit edildi. {STR_LeaderName}: Gezegensel tehdit. Gözaltı: bir seçenek değil. Hedef tespit edildi. Birimler hareket halinde. İmha protokolleri: aşırı önyargı ile ortadan kaldırın.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="27" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluk Avcıları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="78.75">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fiziksel formlar... tahmin edilenden daha tehlikeli. {STR_LeaderName} bize karşı çıkıyor. Karanlıkta avcıları gönderin... sonsuz uyku. Rölyef.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Avcıları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="92.25">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sizin türünüz üstün bir tür değil... Bunu kanıtlayacağız. Öfkeli... çılgınlığınız sona eriyor. Sürümüz {STR_LeaderName}'yi tüketecek. Savunmanız... Boşluk tarafından aşılacak.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluğun Habercileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="73.5">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}'nin zayıf, fiziksel zihni... geriye hiçbir şey kalmayana kadar azalır. Hayal kırıklığına uğramış. Sarmal sonsuzluğun boşluğuna hükmederek... türünüze delilik getiriyoruz. Çok yakında. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="34" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hurda Klanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPACERS_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şu fırçaya bak. {STR_LeaderName}, loncanın sert olduğunu mu düşünüyorsun? Bizimkini görene kadar bekle. Size örnek almanız için küçük bir parti göndereceğiz, ancak muhtemelen sizi üzgün bir karmaşadan başka bir şey olmayana kadar kıracaklar! PWNED.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkım Delicileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="108">
+        <Cell>
+          <Data ss:Type="String">SPACERS_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizim bölgemizden defol çaylak. Kendini OP mi sanıyorsun? Yanlış düşünüyorsun! Loncamız bu sunucudaki en OP. Sana doğru birini gönderiyoruz ve onlar Black Nex ile dolu - hiçbir şey onları durduramaz! Seni öyle bir dövecekler ki bir daha giriş yapamayacaksın!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String" x:Ticked="1">n00b' is game slang for someone who is completely new to something (newbie)
+
+'OP' is an abbreviation for "Over powered"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lonca Akıncıları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SPACERS_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vurulacak mıyız? Yok artık! Bu bodurlar hacker olmalı. Her zaman bir örnekte bir tane daha! Vaiz bize, {STR_LeaderName} konumunuzda glitcher'ları durdurmak için yeni bir baskın eklendiğini söyledi! Ne tür bir ganimet düşüreceğinizi görmek için sabırsızlanıyorum. HAHAHA LUL. Bu senin son oyunun olacak.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String" x:Ticked="1">Rekt' is game slang for getting wrecked (beaten horribly in a game)
+
+'Scrubs' is game term for someone who's not good at anything.
+
+'LUL' is game slang for LOL </Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="41" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ATTACK_EVENT_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldıran orduyu göster</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ATTACK_EVENT_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldıran kuvvetin konumunu gösterir</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="44" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_ACCEPT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talebi Kabul Et ({STR_Rewards})</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_ACCEPT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gain:[br/][xpCol]{INT_reputationValue}[reputation6/] Reputation[/xpCol][br/]</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="Default" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_DECLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talepte Düşüş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_DECLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gain:[br/][fireCol]{INT_reputationValue}[reputation0/] Reputation[/fireCol][br/]</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="Default" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_LOCATE_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektörü Bul</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_LOCATE_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep edilen sektöre bakın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_DO_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunun Yerine Görev Yapın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_BUTTON_DO_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep eden gruptan gelen bir görevi, taleplerini karşılamak için alternatif bir eylem olarak kabul edin. Bu görevde başarısız olmak, asıl talebi reddetmekle aynı sonuçları doğuracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="53" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon Fraksiyon Talebi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PARAGON_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ah, tam da aradığımız kişi. Haraç ödemesinin yapılmadığı dikkatimizi çekti. Lütfen bunu yapın, elbette iyi bir ilişkinin hatırına.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PARAGON_ALIENGOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit sınırlı miktardadır, Paragon için bile nadir bulunur. Bizimle iyi ilişkilerinizi sürdürmek için bir haraç talep ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PARAGON_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Sahip olduğunuz toprakların Paragon tarafından hak iddia edildiği dikkatimizi çekti. İyi ilişkiler sürdürmek istiyorsanız, mülkiyeti bırakmanızı talep ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="58" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme Fraksiyonu Talebi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_GROWTH_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ortak yaşamı sürdürmek için Sonriel'in özünü talep ediyoruz, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_GROWTH_ALIENGOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Düğüm ortak yaşamı sürdürmek için yıldızların alaşımını talep eder, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_GROWTH_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ortak yaşamı sürdürmek için talep ettiğiniz toprağa sahip olmayı talep ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="63" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom Fraksiyon Talebi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_AUTONOM_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haraç: gerekli. {STR_LeaderName} olarak bilinen varlık Autonom'a teklifte bulunmalıdır. Kabul edilirse: ilişkiler sürdürülür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_AUTONOM_ALIENGOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haraç: gerekli. Malzeme olarak bilinir: Kozmit. Eğer {STR_LeaderName} düzeni korumak istiyorsa: Kozmit teklif et.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_AUTONOM_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haraç: gerekli. Alanındaki sektör: {STR_LeaderName}. İlişkileri sürdürmek için {STR_LeaderName}'ye sektör teklif edilmelidir: Otonom.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="68" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PSIFISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish Fraksiyon Talebi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PSIFISH_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parlak, dönen enerji. Şehvet. Dengeyi korumak için ona sahip olmalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PSIFISH_ALIENGOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Topladığınız malzeme... Kozmit. Bize tanıdık, hayati. İlişkileri sürdürmek için fedakarlık yapmalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_PSIFISH_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gerçeklik parçası... bize ait, bizim alanımıza. Düzeni korumak için ondan ayrılmalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="73" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Spacers Grup Talebi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_SPACERS_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Loncamızla ilişkilerinizin bozulmamasını mı istiyorsunuz? O zaman ödeme yapmalısın! Sağlıklı bir ilişkiyi sürdürmek için küçük bir haraç.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_SPACERS_ALIENGOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzaycıların iyi listesinde kalmak istiyorsan, etrafta duran o süslü parlak uzay metalinden birazına ihtiyacımız olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_SPACERS_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hey, o arazi bizim loncaya ait! Eğer hala klanla arkadaş olmak istiyorsan, en iyisi orayı Spacer'lara devretmen.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="78" ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_SECOND_SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rakiplerimize yardım etmeyi bırakmanı söylemiştik ama anlaşılan sağır falan olmuşsun. İşleri düzeltmek için son şansın, şimdi vazgeç!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_SECOND_PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rakiplerimize yardım etmeniz konusunda sizi uyarmıştık, ancak buna son vermeniz yönündeki talebimizi görmezden geldiniz. Paragon ile iyi ilişkilerin bir bedeli var ve bunu korumak için ödemelisiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_SECOND_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senden defalarca istedik, Symbiont. Düşmanlarımıza yardım etmeyi bırakmanı istediğimizde hâlâ Ana Düğüm'e karşı geliyorsun. Ortak yaşamı sürdürmek için haraç talep ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_SECOND_PSIFISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kafa karışıklığı... Bunu neden yapıyorsun? Onursuzluk... dinlemiyor. Öfke... şiddetli titreşimler. Bir daha sormayacağız, {STR_LeaderName}. Düşmanımıza yardım etmeyi bırak. Haraç ödemelisiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_SECOND_AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Varlık {STR_LeaderName}: Autonom düşmanlarına yardım etmeyi bırakma talebimizi görmezden geldiniz. Bedel belirlendi: Otonom ilişkilerini sürdürmek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">NEGOTIATE_PEACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[br/][br/](Bu fraksiyonun konutuyla iletişime geçerek barış için müzakere edebiliriz).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>32</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>44</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

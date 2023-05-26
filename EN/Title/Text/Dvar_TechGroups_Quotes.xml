@@ -1,0 +1,747 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2019-05-13T08:14:19Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11985</WindowHeight>
+    <WindowWidth>25200</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF6600" ss:Bold="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="50" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="299.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="219" />
+      <Column ss:StyleID="s62" ss:Width="209.25" />
+      <Column ss:StyleID="s62" ss:Width="298.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="297.75" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="298.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">MILITARYINDUSTRIALCOMPLEX_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Bölümü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Pilotlar neden sadece gemileri tamamen sakatlandığında çarpma yöntemini kullanıyorlar? İntiharda kahramanca bir şey yok. İşte o zaman fark ettim: Neden bir aracın kütlesinin ataletini birincil silah olarak kullanmıyoruz?  Çarpma hızına hazırlanın!"[br/]- Yakov Ukanich, Ramjet Birliği Direktörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male
+
+Edit: period in first sentence changed to question mark</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Ramjet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Ramjet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Noble Bölümü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Zengin ve hak sahibi soylular için savaş alanının ön saflarından daha iyi bir yer düşünemiyorum. Yaşa ya da öl, sadece en güçlüler Dvar'a liderlik etmeye layıktır. "[br/]- Leydi Ivy Vladov, Dvartian Savaş Kahramanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Baron</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Baron</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Döner Top</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dreadnought Tümeni</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Edit: Dreadnaught -&gt; Dreadnought</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dürüst olmak gerekirse, bu kadar çok zırh ve mühimmatı yüzdürmeyi başardığımıza hala kendimi inandıramıyorum!"[br/]- Marzi Dvarwood, Donanma Komutanlığı Baş Mühendisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Dreadnought</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Topçu Tümeni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sesi gök gürültüsü gibi olan şişman bir kadın var. O şarkı söylediğinde yer sallanır. Gırtlaktan gelen gür sesi sonun geldiğini işaret eder. Aynı şeyi topçularımız için de söyleriz. "[br/]- Bardic Kaichiv, Dvar Legendmaster</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male
+
+Edit: removed space before last comma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Roket Topçusu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sismik Üstünlük</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yeni makinemiz topraktaki tüm kaynakları çıkararak dünyayı çoraklaştırıyor. Elbette düşmanlarımız bu zenginlikleri elde etmemizi engellemek için ellerinden gelen her şeyi yapacaklardır. Bu yüzden Ekskavatör silahlar ve zırhlarla kaplı. "[br/]- Zhanna Tserber, Adamant Konseyi üyesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Female
+
+Edit: removed extra space before "Zhanna"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Toprak Kırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ironclad Tümeni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sudan korkmayın. Suya düşerek boğulamazsınız. Yüzeye çıkmadığınız için boğulursunuz. "[br/]- Rock Chagrov, Donanma Boksörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Ironclad</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kazılar Bölümü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bana kalsa, tüm Dvar araçları bir çeşit tank olurdu. "[br/]- Skuld Orvik, Silah Kaçakçısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Ekskavatör Tankı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç Ekskavatör Tankı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çevre Güvenliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sadece tahkimat veya zırhlamanın varlığı bile çoğu zaman bir saldırganın saldırısını önlemek için yeterlidir. Böylece değerli güç, verimli saldırı önlemleri için saklanabilir. "[br/]- İnşaat Direktörü Radov Mog, Rumble Barricades Şirketi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_1_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Derin Patlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_1_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dağları yerinden oynatmak, bir Dvar eşinin yöntemlerini değiştirmekten daha kolaydır. "[br/]- Jegger Flan, Tünel Loncası Lideri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_2_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Drudges</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_2_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İster işçilerden ister bu gezegenin çekirdeğinden olsun, bu evrensel bir gerçektir: her zaman daha fazlasını çıkarabiliriz. Tek gereken kırılmaz çelikten bir kalptir. "[br/]- Dvar Lord Tog Nugget</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male
+Deleted a "-" before Dvar Lord Tog Nugget </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">D-VR Mark IV Yükseltmeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Senin için kurşun yerim. Yani, güçlendirilmiş zırh ve atış dedektörleri giyiyorsam yaparım. "[br/]- Leydi Ivy Vladov, Dvar Savaşı Kahramanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Female
+
+Edit: Dvartian -&gt; Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üstün Mühendislik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dvar toplumunun en büyük başarısı, kalıcı değeri ve kalıcılığı olan bir şey inşa etmektir. "[br/]- Torek Norr, Duvar Mimarı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Risk Yönetimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Hiçbir zırh giysisi mükemmel değildir, ancak yeni Risk Yönetimi Çerçevemizi kullanarak en riskli parçaları - başarısız olma olasılığı en yüksek olanları - aldık ve onları daha iyi hale getirdik. İyileştirmelerimizin yeni hata noktalarını nasıl ortaya çıkardığını görmek için sabırsızlanıyoruz. "[br/]- Unoch Likitostitch, Dvar Araştırma Projesi Direktörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male
+
+Edit: Dvartian -&gt; Dvar</Data>
+        </Cell>
+        <Cell ss:Index="9" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_SUBSKILL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Sapper</Data>
+        </Cell>
+        <Cell ss:Index="9" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş DV-R Takımları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bazı zamanlar vardır ki, bir sorunu çözmenin en iyi yolu o sorunun suratına... tuzağa düşmüş bir patlamanın gücüyle hareket eden... çelik bir tavayla vurmaktır. Pistonlar böyle çalışır. "[br/]- Brenna Illich, Dvar Lordu Tog Nugget'ın İlk Eşi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstismar Kampanyası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yerli mülklerinizi terk etmenizi istersek lütfen telaşlanmayın. Bu kişisel bir şey değil. Teknolojimiz Dvar'a uyması için özel olarak üretildi. Bizim fizyolojimiz sizinkiyle uyuşmuyor ve siz de İmparatorluğumuzun ihtiyaç duyduğu kârı elde etmek için optimize edilmemişsiniz. "[br/]- Prakova Petrovik, Verimlilik Güvenliği Müdürü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cataclysm Üretimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gezegenin yüzeyinin altında madencilik yapma yeteneğimiz, yıkım için eşsiz bir fırsat yaratıyor. Artık her parseldeki en zayıf noktaları biliyoruz. Bir felaketi serbest bırakma zamanı. "[br/]- Dvar Lord Tog Nugget</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tepe Verimliliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dvar ordusunda, Yüzbaşı olacak kadar uzun süre hayatta kaldığınızı varsayarsak, bu makam için kıyafet gerçekten gerekli değildir. Yine de tanınmak her zaman güzeldir. "[br/]- Yüzbaşı Darb Sonk, Topçu Tümeni Komutanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Oligarşi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Savaşta iyiyiz. Bundan kazanç sağlarız. Savaş alanında hakimiyet kuruyoruz. Yeteneklerimizi kucaklamalı ve bu gücümüzü geliştirmeliyiz. Tek korkum düşmanlarımızın tükenmesi ve kendimizden başka savaşacak kimsenin kalmaması. "[br/]- Zhanna Tserber, Adamant Konseyi üyesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>36</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>40</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

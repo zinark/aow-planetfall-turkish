@@ -1,0 +1,1654 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2020-06-15T13:21:47Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowIconic />
+    <WindowHeight>10560</WindowHeight>
+    <WindowWidth>17430</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="187" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="271.5" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="168" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="192.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="299.25" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEXUS_PORTAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir koloni seçin ve görünür bir hex'i hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ARC_MANIFOLD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef {min} ila {max} düşman birimleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REMOVE_NUCLEAR_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir atom kraterini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LINEAR_ACCELERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan, Hızlandırılmamış bir Mekanik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MASS_DRIVER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman biriminin üzerindeki orta altıgeni hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PATHOGENIC_WAVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik veya Cyborg birimleriyle bir düşman kolonisini veya ordusunu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm kolonileri, sektörleri ve birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOUNTAIN_BREAKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağların olduğu bir sektörü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIFIC_CASTING_INSTRUCTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_DEAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost, ölü, Uçmayan bir birimi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="13" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir orduyu hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir orduyu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ordusunu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir orduyu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="20" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_STACK_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman orduları üzerinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="23" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_STACK_MECH_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik veya Cyborg birimleri içeren bir düşman ordusunu hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="25" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir koloniyi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir koloniyi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman kolonisini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir koloniyi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="30" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm kolonileri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost kolonileri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman kolonilerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm kolonileri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="35" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir tabanı hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir üssü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman üssünü hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir üssü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="40" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm üsleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost üsleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman üslerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm üsleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="45" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir sektör tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir sektör tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman sektör üssünü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektör tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="50" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm sektör üslerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost sektör üslerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman sektör üslerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm sektör üslerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="55" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir ileri üssü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir ileri üssü hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ileri üssünü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir ileri üssü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="60" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm ileri üsleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost ileri üsleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman ileri üslerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm ileri üsleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="65" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAST_ANYWHERE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her yeri hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="67" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEX_ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNOBSTRUCTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Engelsiz herhangi bir altıgeni hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEX_ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNEXPLORED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir altıgeni hedefle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEX_ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EXPLORED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşfedilen herhangi bir hex'i hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEX_ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VISIBLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünür herhangi bir altıgeni hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEX_ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VISIBLE_UNOBSTRUCTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünür, engelsiz herhangi bir altıgeni hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="73" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NODE_OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir kaynak düğümünü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="75" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir birimi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir birimi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Yükü olan dost bir birimi hedefle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY_NONMINDLESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız olmayan bir düşman birimini hedefle</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="81" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost birimler üzerinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman birimleri üzerinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler üzerinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="85" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="90" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBSTACLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir engeli hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBSTACLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Engellerin üzerinden hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBSTACLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm engelleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="94" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CORPSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir cesedi hedef al</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="96" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir sektör üssünü veya kolonisini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir sektör üssünü veya kolonisini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman sektör üssünü veya kolonisini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektör üssünü veya kolonisini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="101" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir üretim sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir üretim sektörü tabanı hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman üretim sektörü üssünü hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="106" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir enerji sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir enerji sektörü tabanı hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman enerji sektörü üssünü hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="111" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir araştırma sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir araştırma sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman araştırma sektörü üssünü hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="116" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir gıda sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir gıda sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman gıda sektörü üssünü hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda sektörü tabanını hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="121" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir Biyolojik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir Biyolojik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman Biyolojik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Biyolojik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="126" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan Biyolojik ve Cyborg birimlerini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost Biyolojik ve Cyborg birimlerini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Biyolojik ve Cyborg birimlerini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik ve Cyborg birimleri üzerinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="131" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm Biyolojik ve Cyborg birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost Biyolojik ve Cyborg birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman Biyolojik ve Cyborg birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_BIO_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm Biyolojik ve Cyborg birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="136" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MECH_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir Mekanik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MECH_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman Mekanik veya Cyborg birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="139" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MECH_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Mekanik ve Cyborg birimlerini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="141" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MECH_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost Mekanik ve Cyborg birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="143" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir sektörde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir sektörde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman bölgesinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir sektörde hedef</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Neutral means not belonging to a friend or foe, in this case</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNOCCUPIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nötr bir sektörde hedef</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Neutral means not belonging to a friend or foe, in this case</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED_UNOCCUPIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan veya tarafsız bir sektörde hedef</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Neutral means not belonging to a friend or foe, in this case</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_UNOCCUPIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost veya tarafsız bir sektörde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY_UNOCCUPIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman veya tarafsız bir sektördeki hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY_LAND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir arazi sektöründe hedef</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Neutral means not belonging to a friend or foe, in this case</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_UNOCCUPIED_LAND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost veya tarafsız bir kara sektöründe hedef</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Neutral means not belonging to a friend or foe, in this case</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY_UNOCCUPIED_LAND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman veya tarafsız bir kara bölgesindeki hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="155" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_GROUND_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir kara birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_GROUND_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir kara birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="158" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_GROUND_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost kara birimlerini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_GROUND_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kara birimlerini hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_GROUND_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yer üstü birimlerini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="162" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_FLYING_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman uçan birimleri hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_FLYING_MULTIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçan birimler üzerinde hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="165" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_FLYING_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan tüm uçan birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_FLYING_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost uçan birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_FLYING_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm düşman uçan birimlerini etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_FLYING_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm uçan birimleri etkiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="170" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_EXPLOSIVE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırısı olan sahip olunan bir birimi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_EXPLOSIVE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırısı olan dost bir birimi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_EXPLOSIVE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırısı olan bir düşman birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_EXPLOSIVE_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırısı olan bir birimi hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="175" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir koloniyi veya orduyu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir koloniyi veya orduyu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman kolonisini veya ordusunu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_UNIT_STACK_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir koloniyi veya orduyu hedef alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="181" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_INFANTRY_SINGLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman piyade birimini hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="183" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir oyuncuyu hedefle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman oyuncuyu hedef al</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_AT_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşta olmadığınız bir oyuncuyu hedefleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="187" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELECT_NPC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ANY_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC Fraksiyonu seçin, ardından herhangi bir oyuncuyu hedef alın</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>21</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>16</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

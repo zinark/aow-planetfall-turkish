@@ -1,0 +1,4632 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Jakob Matthes</LastAuthor>
+    <LastSaved>2020-09-07T10:43:13Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17985</WindowHeight>
+    <WindowWidth>-13936</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="390" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="227.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="120.75" />
+      <Column ss:StyleID="s62" ss:Width="316.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="284.25" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">COLONYUPGRADES_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPLOITATION_SHARED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[br/]Seviye, sektörün özelliklerine ve araştırma yoluyla açılan koloni yapılarına bağlıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ENERGY_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Kullanımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ENERGY_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji üretimine adanmış bir sektör[energy/], daha büyük ordular kurmamızı ve sürdürmemizi sağlar.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An exploitation is a structure built in a sector attached to your colony, that allows you to exploit the land for resources. The 'Energy Exploitation' part can be treated as a structure.
+
+Sector Exploitations have a Level, which is their upgrade level, so a level 1 sector is weak, level 2 is stronger etc. This has to do with how much income the sector exploitation generates.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ENERGY_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EnergySlots}[energySlot/] yuvası[br/]{EnergyFlat}[energy/] gelir</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A slot refers to a place a colonist can be assigned to. Slots are spaces for colonists to occupy.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ENERGY_LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EnergySlots}[energySlot/] slot[br/]{EnergyFlat}[energy/] gelir[br/]{EnergySlotIncome}[energy/] başına [population/] içinde [energySlot/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">[population/] refers to a colonist.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_ENERGY_LEVEL_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EnergySlots}[energySlot/] slot[br/]{EnergyFlat}[energy/] gelir[br/]{EnergySlotIncome}[energy/] başına [population/] kolonideki [energySlot/][br/]{EnergyMultiplier}[energy/] gelir</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">EnergyMultiplier is a percentage</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_PRODUCTION_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Endüstriyel Sömürü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_PRODUCTION_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretimi artırmaya adanmış bir sektör[production/], koloninin daha hızlı birim ve yapı üretmesini sağlar.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_PRODUCTION_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionSlots}[productionSlot/] yuvası[br/]{ProductionFlat}[production/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_PRODUCTION_LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionSlots}[productionSlot/] slot[br/]{ProductionFlat}[production/] gelir[br/]{ProductionSlotIncome}[production/] başına [population/] içinde [productionSlot/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_PRODUCTION_LEVEL_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionSlots}[productionSlot/] slot[br/]{ProductionFlat}[production/] gelir[br/]{ProductionSlotIncome}[production/] başına [population/] kolonideki [productionSlot/][br/]{ProductionMultiplier}[production/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_SUPPLY_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarım Sömürüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_SUPPLY_SPECIALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda üretimine adanmış bir sektör[food/], koloninin daha hızlı kolonist kazanmasını ve sektörleri ilhak etmesini sağlar.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_SUPPLY_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SupplySlots}[foodSlot/] yuvası[br/]{SupplyFlat}[supply/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_SUPPLY_LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SupplySlots}[foodSlot/] slot[br/]{SupplyFlat}[supply/] gelir[br/]{SupplySlotIncome}[supply/] başına [population/] içinde [foodSlot/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_SUPPLY_LEVEL_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SupplySlots}[foodSlot/] slot[br/]{SupplyFlat}[supply/] gelir[br/]{SupplySlotIncome}[supply/] başına [population/] kolonideki [foodSlot/][br/]{SupplyMultiplier}[supply/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_SECTOR_UPGRADE_BASIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma İstismarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_SECTOR_UPGRADE_BASIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma üretmeye adanmış bir sektör[research/], yeni teknolojileri daha hızlı bir şekilde ortaya çıkarmamızı sağlar.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RESEARCH_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ResearchSlots}[researchSlot/] yuvası[br/]{ResearchFlat}[research/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RESEARCH_LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ResearchSlots}[researchSlot/] slot[br/]{ResearchFlat}[research/] gelir[br/]{ResearchSlotIncome}[research/] başına [population/] içinde [researchSlot/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RESEARCH_LEVEL_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ResearchSlots}[researchSlot/] slot[br/]{ResearchFlat}[research/] gelir[br/]{ResearchSlotIncome}[research/] başına [population/] kolonideki [researchSlot/][br/]{ResearchMultiplier}[research/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESIDENTIAL_SECTOR_UPGRADE_BASIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konut İstismarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell>
+          <Data ss:Type="String">RESIDENTIAL_SECTOR_UPGRADE_BASIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekstra sektörleri ilhak etmeye ve kolonistlerden elde edilen geliri en üst düzeye çıkarmaya adanmış bir sektör. İnşaat, sektörü koloni ırkıyla eşleşen bir kentsel kaplamaya dönüştürecektir.[br/][br/]Seviye, araştırma yoluyla açılan koloni yapıları inşa edilerek artırılabilir.[br/][br/][firecol]Dağ sektörlerinde inşa edilemez. [/firecol][spacedline/]Her zaman aktif bonuslar:[br/][br/][bulletlist][bullet]20 [population/] ve 24 [population/]'de sömürü başına 1 ilhak edilebilir sektör açılır. [/bullet][bullet]Kolononi, çekirdekten 2 sektörden daha uzakta olsa bile sömürüye bitişik sektörleri ilhak edebilir.[/bullet][bullet]Kolononi Bölge Binası ek bir kez yükseltilebilir.[/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RESIDENTIAL_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[foodSlot/], [energySlot/], [productionSlot/], [researchSlot/] veya [happinessSlot/]'de [population/] başına {PerColonistIncomeBonus} gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RESIDENTIAL_LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[foodSlot/], [energySlot/], [productionSlot/], [researchSlot/] veya [happinessSlot/]'de [population/] başına {PerColonistIncomeBonus} gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RESIDENTIAL_LEVEL_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[foodSlot/], [energySlot/], [productionSlot/], [researchSlot/] veya [happinessSlot/]'de [population/] başına {PerColonistIncomeBonus} gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATER_SECTOR_UPGRADE_BASIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hidro-Exploitation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">WATER_SECTOR_UPGRADE_BASIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esnek bir koloni için enerji[energy/], araştırma[research/] ve gıda[food/] sağlayan, su üzerinde özel bir ekonomik üs.[br/][br/]Seviye, araştırma yoluyla açılan koloni yapılarına bağlıdır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hydro-exploitation is a special exploitation which is built in the water.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_WATER_LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SupplyIncome}[supply/], {EnergyIncome}[energy/], {ResearchIncome}[research/] gelir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_WATER_LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SupplyIncome}[supply/], {EnergyIncome}[energy/], {ResearchIncome}[research/] gelir[br/]{SupplySlots}[foodSlot/], {EnergySlots}[energySlot/], {ResearchSlots}[researchSlot/] yuvalar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_GARRISON_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Standart Askeri Altyapı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_GARRISON_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni milis ordusunu daha güçlü birimler içerecek şekilde yükseltir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The colony militia army is a number of units that defends colonies, and is garrisoned within all of the colonies sectors.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_GARRISON_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geliştirilmiş Askeri Altyapı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_GARRISON_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni milis ordusunu daha güçlü birimler içerecek şekilde yükseltir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_GARRISON_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş Askeri Altyapı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_GARRISON_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni milis ordusunu daha güçlü birimler içerecek şekilde yükseltir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HAPPINESS_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rekreasyonel Kubbe</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HAPPINESS_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni {Slots} mutluluk yuvası ve {HappinessFlat} mutluluk geliri kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Happiness is a resource per colony, that shows how happy the population of the colony is with you as their leader.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HAPPINESS_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Botanik Bahçeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HAPPINESS_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni {Slots} mutluluk yuvası ve {HappinessFlat} mutluluk geliri kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HAPPINESS_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sanal Eğlence Meydanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HAPPINESS_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni, bir mutluluk yuvasındaki kolonist başına {Slots} mutluluk yuvası ve {HappinessSlotFlat} mutluluk geliri kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="49" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HOSPITAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bütünsel Askeri Bakım Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_HOSPITAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bütünsel Askeri Bakım Merkezi, koloninin etki alanı içindeki dost ordulara kapsamlı bakım ve iyileştirme sağlar.[br/][br/]Bu koloninin etki alanı içindeki dost birimler {moraleBonus}[happiness/]'ye sahiptir ve her tur fazladan bir {hp} yeniler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">units regenerate hit points (hp) each turn on the world map, this is called regeneration.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_INFLUENCE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomatik Analiz Kanadı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_INFLUENCE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karargâhınızda diğer gruplarla diplomatik etkileşimleri araştırmaya adanmış bir kanat.[br/][br/]{influence} Karargâh koloninizdeki nüfuz geliri.[br/][br/] Bu, karargâhınız için bir yükseltmedir ve yalnızca karargâh koloninizde inşa edilebilir. Karargahınız başka bir koloniye taşındığında, bu bina da taşınır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">HQ stands for Headquarters, the 'capital' of your empire on this planet. A faction is a force on the world map, each player is a faction, and each computer controled 'side' is a faction. 
+
+Influence is a diplomatic currency. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_INFLUENCE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kseno-ilişkiler Bölümü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_INFLUENCE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karargahınızda tüm hissedebilen varlıklarla ilişkileri geliştiren ve izleyen bir bölüm.[br/][br/]{influence} Karargah koloninizdeki etki geliri.[br/][br/]Diplomatik Analiz Kanadı gerektirir.[br/][br/]Bu, karargahınız için bir yükseltmedir ve yalnızca karargah koloninizde inşa edilebilir. Karargâhınız başka bir koloniye taşındığında, bu bina da taşınır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRANSIT_INFRASTRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Transit Altyapısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TRANSIT_INFRASTRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Transit altyapısını yükseltmek imparatorluğun etki alanı içindeki seyahat süresini kısaltır.[br/][br/]Koloninin etki alanı içindeki dost birimlerin yol altıgenlerinin hareket maliyetini {MoveCostReduction} kadar azaltır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A hex is a measure of a single space on the world map on which units and structures stand. Each unit has a number of move points, and each hex has a move cost, reducing the move cost of a hex means that units will have to spend less move points to move unto that hex.
+
+A colony's domain is simply the surface area on the world map that is encompassed by all sectors of a colony.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cosmite Araştırma Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmitin kökenlerinin ve özelliklerinin araştırıldığı bir araştırma merkezi.[br/][br/]Merkezinizde inşa edildiğinde {cosmite} Kozmit geliri sağlar.[br/][br/]Bu, merkeziniz için bir yükseltmedir ve yalnızca merkez koloninizde inşa edilebilir. Karargahınız başka bir koloniye taşındığında, bu bina da taşınır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Cosmite is a valuable resource that can be found in the world of Planetfall. It is a special kind of crystal that can be harvested from rifts in reality that lead to the Void, an unknown dark dimension.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Büyüme Odaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş araştırmalar kullanılarak, özel büyüme odaları kullanılarak Kozmit yetiştirilebilir.[br/][br/]Karargahınızda inşa edildiğinde {cosmite} Kozmit geliri sağlar.[br/][br/]Bu, Karargahınız için bir yükseltmedir ve yalnızca Karargah koloninizde inşa edilebilir. Karargahınız başka bir koloniye taşındığında, bu bina da taşınır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Hasat Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasat merkezleri kozmit büyüme odalarından daha fazla verim alınmasını sağlar.[br/][br/]Merkezinizde inşa edildiğinde {cosmite} kozmit geliri sağlar.[br/][br/]Bu, merkeziniz için bir yükseltmedir ve yalnızca merkez koloninizde inşa edilebilir. Karargahınız başka bir koloniye taşındığında, bu bina da taşınır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Üretim Reaktörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_COSMITE_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerjiyi Kozmite dönüştürerek hızlandırılmış bir hızda Kozmit oluşturabilen özel bir reaktör.[br/][br/]Karargahınızda inşa edildiğinde {cosmite} Kozmit geliri sağlar. Ayrıca, karargâhınız enerji veya araştırma üretirken {cosmiteConversion} gelir sağlar.[br/][br/]Bu, karargâhınız için bir yükseltmedir ve yalnızca karargâh koloninizde inşa edilebilir. Karargâhınız başka bir koloniye taşındığında, bu bina da taşınır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A colony can generate energy or research instead of building a unit or structure. This converts some of the production of the colony into either energy or research.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_VANGUARD_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Simülasyon Merkezi</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"></Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_VANGUARD_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VR savaş simülasyonları, kuvvetleri savaşa hazırlamak için hayati bir araçtır.[br/][br/]Halihazırda koloni merkezi hex'inde veya bitişiğinde bulunan herhangi bir yığındaki tüm birimlere tur başına {experience} deneyimi verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">VR = Virtual Reality. Combat sims = Combat simulations. Each unit can gain experience and increase in rank when they have gained enough experience.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekrarlayıcı Savunma Taretleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekrarlayıcı Savunma Kuleleri inşa edildiğinde, taktik savaşta koloniyi savunmaya yardımcı olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Turrets spawn in combat involving the Colony center, and help shoot bad guys.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_DVAR_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DV-R Arazi Güvenlik Siperi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_DVAR_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman operasyonlarına karşı bu koruma enstitüsü, koruması altındaki herkese güven aşılar.[br/][br/]Bu koloninin etki alanındaki müttefik birimler {DvarStructureMoraleBonus} kazanır. Bu koloni, etki alanındaki sektörlerin hiçbirinde Volkanik araziden kaynaklanan cezalardan etkilenmez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombardıman Topları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombardıman Savunma Topları inşa edildiklerinde taktik savaşta koloniyi savunmaya yardımcı olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_KIRKO_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuluçka Kümesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_KIRKO_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuluçka Kümesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As with ant colonies, brood are cocooned larvae of the Kir'ko.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kovan Muhafızı Savunma Kuleleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kovan Muhafızı Savunma Kuleleri inşa edildiklerinde taktiksel savaşta koloniyi savunmaya yardımcı olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_SYNDICATE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstihbarat Toplama Bürosu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_SYNDICATE_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IGB, Sendika toplumu için kritik bir bileşendir. Başka nasıl başarılı bir şekilde siyaset yapabilirsiniz? [br/][br/]Koloni Gerçek Görüş ve {OperationDefenceBonus} [operationdefense/] Operasyonel Savunma kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">IGB is the abbreviation of the name of the structure. Syndicate is one of the player factions. True sight means the colony can see units that would otherwise be camouflaged within it's domain. Operational Defense is a value each colony has that means enemy hostile operations have a lower chance to succeed, the higher your Operational Defense is.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Susturucu Savunma Kuleleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşa edildiğinde, Bastırıcı Savunma Kuleleri taktik savaşta koloniyi savunmaya yardımcı olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_ASSEMBLY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nöral Arayüzlü Veri Çekirdeği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_ASSEMBLY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin harabelerde bulunan imparatorluk veri depolarına nöral arayüzle bağlanması araştırmalara destek sağlayabilir.[br/][br/]Kolononi, etki alanındaki her Harabe sektörü için {knowledge} bilgi geliri kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Bobini Savunma Kuleleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşa edildiğinde, Ark Bobini Savunma Kuleleri taktiksel savaşta koloniyi savunmaya yardımcı olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_AMAZON_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arborean İzleme İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_RACIAL_AMAZON_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakındaki Ormanların ve içlerindeki yaratıkların analizi ve izlenmesi yoluyla çok fazla bilgi edinilebilir.[br/][br/]Kolononi, etki alanındaki her Orman sektörü için {knowledgebonus}[research/] araştırma kazanır. Ek olarak, koloninin görüş menzili 2 altıgen artar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A sector can be a 'forest sector' if there is a forest located within it.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lazer Savunma Taretleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_DEFENSE_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lazer Savunma Kuleleri inşa edildiğinde taktik savaşta koloniyi savunmaya yardımcı olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HARBOR_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Liman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HARBOR_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su ünitelerinin üretimini sağlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_GENERAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Bölgesi Binaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üreme Alanları (Temel)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Kuluçka Annesi olarak çalışmak üzere eğitilebileceği bir Kir'Ko uzmanlık merkezi. Yapı daha sonra Konut Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet]Temel:[br/]{NumSlotsIncrease_Basic} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Basic} üretir.[/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Fine} üretir.[/darkgrey][/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Immaculate} üretir.[br/]Bu koloni bir [happiness/] olayı olduğunda veya bir [population/] yetiştirdiğinde bir Acil durum birimi üretir.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üreme Alanları (Fine)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Kuluçka Annesi olarak çalışmak üzere eğitilebileceği bir Kir'Ko uzmanlık merkezi. Yapı daha sonra Konut Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Basic} üretir.[/darkgrey][/bullet][bullet]Fine:[br/]{NumSlotsIncrease_Fine} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Fine} üretir.[/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Immaculate} üretir.[br/]Bu koloni bir [happiness/] olayı olduğunda veya bir [population/] yetiştirdiğinde bir Acil durum birimi üretir.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üreme Alanları (Immaculate)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonicilerin Kuluçka Annesi olarak çalışmak üzere eğitilebileceği, tamamen geliştirilmiş bir Kir'Ko uzmanlık merkezi.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Kuluçka Annesi Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Basic} üretir.[/darkgrey][/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Fine} üretir.[/darkgrey][/bullet][bullet]İmmakulat:[br/]{NumSlotsIncrease_Immaculate} Kuluçka Ana Yuvaları. [br/][population/] Kuluçka Ana Yuvalarında {BroodMotherIncome_Immaculate} üretir.[br/]Bu koloni bir [happiness/] olayı olduğunda veya bir [population/] yetiştirdiğinde bir Acil durum birimi üretir.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üreme Alanları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short form colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yavru Anne Yuvası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bold]Çocuk Annesi[/bold][spacedline/]A [food/] ve [happiness/] gelir üreten Kir'Ko uzmanı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_KIRKO_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[food/] ve [happiness/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Income type enumeration, which gets inserted in the colonist auto assign behavior explanation text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükelçi Kamarası (Temel)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="240">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Büyükelçi olarak çalışmak üzere eğitilebileceği bir Sendika uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet]Temel:[br/]{NumSlotsIncrease_Basic} Büyükelçi Yuvaları. [br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Basic} üretir.[/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Büyükelçi Yuvalarında. [br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Fine} üretir.[/darkgrey][/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Büyükelçi Yuvalarında. Büyükelçi Yuvalarındaki [br/][population/], {AmbassadorIncome_Immaculate} üretir.[br/]Bu koloni, diğer komutanlarla etkileşimde her [influence/] harcandığında {happynessIncome} kazanır.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükelçi Konutları (Fine)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="240">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Büyükelçi olarak çalışmak üzere eğitilebileceği bir Sendika uzmanlık merkezi. Yapı daha sonra Konut Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Büyükelçi Yuvaları. [br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Basic} üretir.[/darkgrey][/bullet][bullet]Fine:[br/]{NumSlotsIncrease_Fine} Büyükelçi Yuvalarında. [br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Fine} oluşturur.[/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Büyükelçi Yuvaları.[br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Immaculate} oluşturur. [br/]Bu koloni, diğer komutanlarla etkileşimde her [influence/] harcandığında {happynessIncome} kazanır.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükelçi Konutları (Immaculate)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükelçi Konutları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short form colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Büyükelçi olarak çalışmak üzere eğitilebileceği, tamamen geliştirilmiş bir Sendika uzmanlık merkezi.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Büyükelçi Yuvaları. [br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Basic} üretir.[/darkgrey][/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Büyükelçi Yuvalarında. [br/][population/] Büyükelçi Yuvalarında {AmbassadorIncome_Fine} üretir.[/darkgrey][/bullet][bullet]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Büyükelçi Yuvalarında. Büyükelçi Yuvalarındaki [br/][population/], {AmbassadorIncome_Immaculate} üretir.[br/]Bu koloni, diğer komutanlarla etkileşimde her [influence/] harcandığında {happynessIncome} kazanır.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükelçi Yuvası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bold]Ambassador[/bold][spacedline/]A Sendika uzmanı [influence/] gelir üretirken [energy/]'ye mal oluyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_SYNDICATE_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[influence/] ve negatif [energy/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Income type enumeration, which gets inserted in the colonist auto assign behavior explanation text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaban Hayatı Koruma Alanı (Temel)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Korucu olarak çalışmak üzere eğitilebileceği bir Amazon uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet]Temel:[br/]{NumSlotsIncrease_Basic} Korucu Yuvaları. [br/][population/] Ranger Yuvalarında {RangerIncome_Basic} oluşturur.[/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Ranger Yuvalarında. [br/][population/] Ranger Yuvalarında {RangerIncome_Fine} oluşturur.[/darkgrey][/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Ranger Yuvaları.[br/][population/] Ranger Yuvalarında {RangerIncome_Immaculate} oluşturur. [br/]Bu koloni, bir toplum araştırması tamamlandığında rastgele bir hayvan birimi üretir (kademe III için düşük şans).[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaban Hayatı Koruma Alanı (Fine)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Korucu olarak çalışmak üzere eğitilebileceği bir Amazon uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Korucu Yuvaları. [br/][population/] Ranger Yuvalarında {RangerIncome_Basic} üretir.[/darkgrey][/bullet][bullet]Fine:[br/]{NumSlotsIncrease_Fine} Ranger Yuvalarında. [br/][population/] Ranger Yuvalarında {RangerIncome_Fine} oluşturur.[/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Ranger Yuvaları.[br/][population/] Ranger Yuvalarında {RangerIncome_Immaculate} oluşturur. [br/]Bu koloni, bir toplum araştırması tamamlandığında rastgele bir hayvan birimi üretir (kademe III için düşük şans).[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaban Hayatı Koruma Alanı (Immaculate)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaban Hayatı Koruma Alanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short form colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonicilerin Ranger olarak çalışmak üzere eğitilebileceği, tamamen geliştirilmiş bir Amazon uzmanlık merkezi.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Ranger Yuvaları. [br/][population/] Ranger Yuvalarında {RangerIncome_Basic} üretir.[/darkgrey][/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Ranger Yuvalarında. [br/][population/] Ranger Yuvalarında {RangerIncome_Fine} oluşturur.[/darkgrey][/bullet][bullet]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Ranger Yuvaları.[br/][population/] Ranger Yuvalarında {RangerIncome_Immaculate} oluşturur. [br/]Bu koloni, bir toplum araştırması tamamlandığında rastgele bir hayvan birimi üretir (kademe III için düşük şans).[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ranger Yuvası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bold]Ranger[/bold][spacedline/][food/] ve [research/] gelir elde eden bir Amazon uzmanı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_AMAZON_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[food/] ve [research/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Income type enumeration, which gets inserted in the colonist auto assign behavior explanation text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Hız Reaktörü (Temel)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Reaktör İşçisi olarak çalışmak üzere eğitilebileceği bir Montaj uzmanlık merkezi. Yapı daha sonra Konut Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet]Temel:[br/]{NumSlotsIncrease_Basic} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Basic} üretir.[/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Fine} üretir.[/darkgrey][/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Immaculate} üretir.[br/]Bu koloni, askeri bir araştırma tamamlandığında rastgele bir kahraman modu veya silah üretir.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Hız Reaktörü (İnce)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Reaktör İşçisi olarak çalışmak üzere eğitilebileceği bir Montaj uzmanlık merkezi. Yapı daha sonra Konut Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Basic} üretir.[/darkgrey][/bullet][bullet]Fine:[br/]{NumSlotsIncrease_Fine} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Fine} üretir.[/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Immaculate} üretir.[br/]Bu koloni, askeri bir araştırma tamamlandığında rastgele bir kahraman modu veya silah üretir.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Hız Reaktörü (Immaculate)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overdrive Reaktörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short form colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Reaktör İşçisi olarak çalışmak üzere eğitilebileceği, tamamen iyileştirilmiş bir Montaj uzmanlık merkezi.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Reaktör İşçisi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Basic} üretir.[/darkgrey][/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Fine} üretir.[/darkgrey][/bullet][bullet]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Reaktör İşçi Yuvaları. [br/][population/] Reaktör İşçi Yuvalarında {ReactorWorkerIncome_Immaculate} üretir.[br/]Bu koloni, askeri bir araştırma tamamlandığında rastgele bir kahraman modu veya silah üretir.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reaktör İşçi Yuvası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bold]Reaktör İşçisi[/bold][spacedline/] [tricorium/] gelir elde ederken [happiness/]'yi düşüren bir Montaj uzmanı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_ASSEMBLY_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[tricorium/] ve negatif [happiness/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Income type enumeration, which gets inserted in the colonist auto assign behavior explanation text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyopod Sığınakları (Temel)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Kriyo-Uzmanları olarak çalışmak üzere eğitilebilecekleri bir Vanguard uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet]Temel:[br/]{NumSlotsIncrease_Basic} Kriyo-Uzman Yuvaları. [br/][population/] Cryo-Expert Yuvalarında {CryoScientistIncome_Basic} üretir.[/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Cryo-Expert Yuvalarında. [br/][population/] Cryo-Expert Yuvalarında {Cryo-ScientistIncome_Fine} oluşturur.[/darkgrey][/bullet][bullet][darkgrey]Immaculate:[br/]{NumSlotsIncrease_Immaculate} Cryo-Expert Yuvaları. [br/][population/] Kriyo-Uzman Yuvalarında {CryoScientistIncome_Immaculate} üretir.[br/]Bu koloni bir birim üretimi tamamladığında {CrobunkerLvl3_IncomeBonus} kazanır.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyopod Sığınakları (İnce)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Kriyo-Uzmanları olarak çalışmak üzere eğitilebilecekleri bir Vanguard uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Kriyo-Uzman Yuvaları. [br/][population/] Cryo-Expert Yuvalarında {CryoScientistIncome_Basic} üretir.[/darkgrey][/bullet][bullet]Fine:[br/]{NumSlotsIncrease_Fine} Cryo-Expert Yuvalarında. [br/][population/] Cryo-Expert Yuvalarında {Cryo-ScientistIncome_Fine} oluşturur.[/bullet][bullet][darkgrey]Immaculate:[br/]{NumSlotsIncrease_Immaculate} Cryo-Expert Yuvaları. [br/][population/] Kriyo-Uzman Yuvalarında {CryoScientistIncome_Immaculate} üretir.[br/]Bu koloni bir birim üretimi tamamladığında {CrobunkerLvl3_IncomeBonus} kazanır.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyopod Sığınakları (Immaculate)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyopod Sığınakları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short form colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Kriyo-Uzman olarak çalışmak üzere eğitilebileceği, tamamen geliştirilmiş bir Vanguard uzman merkezi.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Kriyo-Uzman Yuvaları. [br/][population/] Cryo-Expert Yuvalarında {CryoScientistIncome_Basic} üretir.[/darkgrey][/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Cryo-Expert Yuvalarında. [br/][population/] Cryo-Expert Yuvalarında {Cryo-ScientistIncome_Fine} oluşturur.[/darkgrey][/bullet][bullet]Immaculate:[br/]{NumSlotsIncrease_Immaculate} Cryo-Expert Yuvaları. [br/][population/] Kriyo-Uzman Yuvalarında {CryoScientistIncome_Immaculate} üretir.[br/]Bu koloni bir birim üretimi tamamladığında {CrobunkerLvl3_IncomeBonus} kazanır.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cryo-Expert Slot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bold]Cryo-Expert[/bold][spacedline/]A [food/] ve [production/] gelir üreten Vanguard uzmanı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_VANGUARD_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[food/] ve [production/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Income type enumeration, which gets inserted in the colonist auto assign behavior explanation text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kentsel Maden Şaftları (Temel)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonicilerin Maden Arayıcıları olarak çalışmak üzere eğitilebileceği bir Dvar uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet]Temel:[br/]{NumSlotsIncrease_Basic} Arayıcı Yuvaları. [br/][population/] Prospector Yuvalarında {ProspectorIncome_Basic} üretir.[/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Prospector Yuvalarında. [br/][population/] Prospektör Yuvalarında {ProspectorIncome_Fine} üretir.[/darkgrey][/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Prospektör Yuvaları. [br/][population/] Araştırmacı Yuvalarında {ProspectorIncome_Immaculate} üretir.[br/]Bu koloni bir koloni yükseltmesi ürettiğinde, bir "sektör araştırması" etkinliği kazanır.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kentsel Maden Kuyuları (İnce)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="225">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerin Maden Arayıcıları olarak çalışmak üzere eğitilebilecekleri bir Dvar uzmanlık merkezi. Yapı daha sonra Yerleşim Sömürüsü sektörleri koloniye eklendikten sonra yükseltilebilir.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Arayıcı Yuvaları. [br/][population/] Prospector Yuvalarında {ProspectorIncome_Basic} üretir.[/darkgrey][/bullet][bullet]Fine:[br/]{NumSlotsIncrease_Fine} Prospector Yuvalarında. [br/][population/] Prospektör Yuvalarında {ProspectorIncome_Fine} üretir.[/bullet][bullet][darkgrey]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Prospektör Yuvaları. [br/][population/] Araştırmacı Yuvalarında {ProspectorIncome_Immaculate} üretir.[br/]Bu koloni bir koloni yükseltmesi ürettiğinde, bir "sektör araştırması" etkinliği kazanır.[/darkgrey][/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kentsel Maden Kuyuları (Immaculate)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="210">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonicilerin Maden Arayıcıları olarak çalışmak üzere eğitilebilecekleri, tamamen geliştirilmiş bir Dvar uzmanlık merkezi.[br/][br/][bulletlist][bullet][darkgrey]Temel:[br/]{NumSlotsIncrease_Basic} Maden Arayıcı Yuvaları. [br/][population/] Prospector Yuvalarında {ProspectorIncome_Basic} üretir.[/darkgrey][/bullet][bullet][darkgrey]Fine:[br/]{NumSlotsIncrease_Fine} Prospector Yuvalarında. [br/][population/] Prospektör Yuvalarında {ProspectorIncome_Fine} üretir.[/darkgrey][/bullet][bullet]İmmaculate:[br/]{NumSlotsIncrease_Immaculate} Prospektör Yuvaları. [br/][population/] Araştırmacı Yuvalarında {ProspectorIncome_Immaculate} üretir.[br/]Bu koloni bir koloni yükseltmesi ürettiğinde, bir "sektör araştırması" etkinliği kazanır.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony structure description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_TIER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kentsel Maden Kuyuları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short form colony structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prospector Slot</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bold]Prospector[/bold][spacedline/]A Dvar uzmanı [energy/] ve [production/] gelir elde etmektedir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonist slot description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_DISTRICT_DVAR_SPECIALIST_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[energy/] ve [production/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Income type enumeration, which gets inserted in the colonist auto assign behavior explanation text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarımsal İhracat Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıdanın diğer kolonilere verimli bir şekilde dağıtılması için özel bir tarımsal ihracat merkezi hayati önem taşımaktadır. Daha yüksek seviyelerde, gıda üretimine yönelik organize çabalarla artan gıda verimi elde edilebilir.[br/][br/][productioncol]Bu sadece tarımsal sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıdanın diğer kolonilere verimli bir şekilde dağıtılması için özel bir tarımsal ihracat merkezi hayati önem taşımaktadır. Daha yüksek seviyelerde, gıda üretimine yönelik organize çabalarla artan gıda verimi elde edilebilir.[food/]{FoodSharingModifier}A0[3]9ZBu sadece tarımsal sömürü sektöründe inşa edilebilir.A0[4]9Z</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">When you share food from one colony to the other, you need to pay a tax on this amount, called food tax, which is an amount of food that is wasted in the transsfer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıdanın diğer kolonilere verimli bir şekilde dağıtılması için özel bir tarımsal ihracat merkezi hayati önem taşımaktadır. Daha yüksek seviyelerde, gıda üretimine yönelik organize çabalarla artan gıda verimi elde edilebilir.[food/][br/][food/]Bu sadece tarımsal sömürü sektöründe inşa edilebilir.[foodslot/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomühendislik Ürünü Gıda Plantasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş biyomühendislik, kolonist biyolojisi ve koloninin büyüme hızı üzerinde faydalı bir etkiye sahip olan süper gıdalar yaratabilir. Daha yüksek seviyelerde, kolonistleriniz bakım için daha az gıdaya ihtiyaç duyacaktır.[br/][br/][productioncol]Bu yalnızca bir tarım sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[population/] büyümesi için {ColonistThreshold} [food/].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ColonistThreshold} [food/] için [population/] büyüme.[br/]{ColonistUpkeep} [population/] başına bakım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonists cost food to keep happy and not starving, this is their Upkeep cost. This structure lowers that upkeep cost.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplum Sağlık Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistlerinizin sağlığına odaklanarak, genel sağlıkları ve mutlulukları iyileştirilebilir ve daha hızlı mutluluk etkinlikleri üretebilirler. Daha yüksek seviyelerde, mutluluk etkinliklerinden elde edilen ödüller artırılabilir.[br/][br/][productioncol]Bu yalnızca bir tarım sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Happiness events can occur when a colony has gained enough positive happiness to reach a threshold value. A happiness event is basically a big party where you get extra resources!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[happiness/] olayları {HappinessThreshold}'den daha az [happiness/] gerektirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_FOOD_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[happiness/] olayları {HappinessThreshold}'den daha az [happiness/] gerektirir.[br/][happiness/] olayları {HappinessEventMultiplier} oluşturur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri Mühendislik Loncası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri Mühendislik Loncası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit olmayan birimler için {ProductionDiscount} [production/] maliyeti.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Core, Skirmisher and Specialists are unit types. Each unit has a type like this, which corresponds to the role they have in combat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionDiscount} Elit olmayan birimler için [production/] maliyeti.[br/]Elit olmayan birimler {Armor} ile üretilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit olmayan birimler {Armor} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi İnşa Edilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite türünün bozulmamış bir örneğidir. O kadar iyi inşa edilmiş ki, {Armor}'ye sahip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşaat Mühendisliği Loncası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Endüstriyel kapasitenin inşaat mühendisliği projelerine ayrılması daha hızlı inşa süreleri sağlar. Daha yüksek seviyelerde, kinetik jeneratörler mevcut yapılara inşa edilebilir ve küçük bir pasif üretim bonusu oluşturur.[br/][br/][productioncol]Bu sadece bir endüstriyel sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionDiscount} [production/] koloni yapıları için maliyet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionDiscount} [production/] koloni yapıları için maliyet.[br/]{ProductionBonus} inşa edilen her koloni yapısı için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İleri Askeri Mühendislik Loncası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri mühendislikteki daha fazla gelişme, karmaşık askeri varlıklar için daha hızlı inşa süreleri sağlar. Daha yüksek seviyelerde, birimler o kadar iyi inşa edilir ki savunmaları geliştirilir.[br/][br/][productioncol]Bu sadece bir endüstriyel sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit birimler için {ProductionDiscount} [production/] maliyeti.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Elite is a unit type. Each unit has a type like this, which corresponds to the role they have in combat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionDiscount} Elit birimler için [production/] maliyeti.[br/]Elit birimler {Armor} ile üretilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_PRODUCTION_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit birimler {Armor} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Verimli Montaj Hattı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Verimli Montaj Hattı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EnergyCost} [energy/] birimler için maliyet.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Units cost energy to build, as well as production. Mods are modifications you can apply to your units. You can do this before you build them.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EnergyCost} Birimler için [energy/] maliyet.[br/] Birimler {UnitUpkeep} [energy/] bakım ile üretilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Units have an upkeep value in energy. This is how much energy you need to pay for the unit every turn, else it will desert and leave you =(. Who says money doesn’t buy friends?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {UnitUpkeep} [energy/] upkeep kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin enerji bakım maliyeti {reduction} kadar azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek Enerji Tarama İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Ark savunma şebekesi konuşlandırmak, koloni sınırlarınıza görüş ve tarayıcı kapsamı sağlar. Daha yüksek seviyelerde, savunma ağı o kadar güçlü hale gelir ki koloni alanının operasyonel savunmasını artırır.[br/][br/][productioncol]Bu yalnızca bir enerji sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Range}'den koloniye Görüş ve Sensör aralığı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Range} Koloninin Görüş ve Sensör menziline eklenir.[br/]Koloni Gerçek Görüş kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Range} koloninin Görüş ve Sensör menziline eklenir.[br/]Koloni Gerçek Görüş ve {OpDefense} [operationdefense/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Optimizasyon Kontrol Ajansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonistleri kontrol ederek ve iş süreçlerini optimize ederek, odaklanmış çaba zamanlarında verimli kazançlar elde edilebilir. Daha yüksek seviyelerde, tüm enerji işçilerinden daha fazla enerji kazanımı elde edilebilir.[br/][br/][productioncol]Bu yalnızca bir enerji sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Şimdi Satın Al" {CostReduction}'den [energy/]'ye mal olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">You can instantly complete a production project in you colony by spending energy.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_ENERGY_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Şimdi Satın Al", [energyslot/]'deki kolonist başına {CostReduction}'den [energy/].[br/]{Energy}[energy/]'ye mal olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplum Yatırım Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplumun ilerlemesine yönelik araştırmalara yatırım yapmak, toprağın sömürülmesine daha hızlı erişim sağlayarak diğer gruplara karşı uzun vadeli ekonomik avantajların yanı sıra gelişmiş hükümet doktrinlerine ve casusluk fırsatlarına daha hızlı erişim sağlayacaktır. Daha yüksek seviyelerde, tüm bilim çalışanlarımızın genel üretimini artırabiliriz.[br/][br/][productioncol]Bu sadece bir araştırma sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplum araştırması için {ResearchPercentage} [research/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Society is one of the branches of research, dealing with, economy, governmental policy (doctrines) and covert operations.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplum araştırması için {ResearchPercentage} [research/].[br/]{Research}[research/] kolonist başına [researchslot/].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cosmite Amplifikasyon Laboratuvarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek güçlü kuantum hızlandırıcılar Komsite'nin enerjik özelliklerini artırabilir, bu da askeri uygulamalar için daha azına ihtiyaç duyulacağı anlamına gelir. Daha yüksek seviyelerde, stabilize edilmiş kozmitlerin izlerini zırhımızla birleştirebilir ve birliklerimizin düşman saldırılarına karşı direncini artırabiliriz.[br/][br/][productioncol]Bu yalnızca bir araştırma sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">the Psi-Fish are one of the NPC factions of the game. They are ethereal floating jellyfish type creatures from the Void.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CosmiteCost} [tricorium/] birimler için maliyet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{CosmiteCost} Birimler için [tricorium/] maliyet.[br/] Birimler durum etkilerine karşı {Resistance} dirençle üretilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler durum etkilerine karşı {Resistance} direnci kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stabilize Kozmit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim stabilize kozmit ile aşılanmıştır ve durum etkilerine karşı {resistance} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri İnovasyon Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırmayı askeri yeniliklere adamak, kuvvetlerinizin savunma kabiliyetlerini artırmak için birimlerin, birim modifikasyonlarının ve operasyonların kilidinin açılmasını sağlar. Daha yüksek seviyelerde, bilim insanlarını eğitim ekiplerine dahil ederek üretilen birliklerin kalitesini artırabiliriz.[br/][br/][productioncol]Bu yalnızca bir araştırma sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri araştırma için {ResearchPercentage} [research/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Military is one of the branches of research, dealing with military technology, weapon technology and secret technology.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ResearchPercentage} [research/] Askeri araştırma için.[br/]Üretilen birimler {RankUp} [medaliron/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_RESEARCH_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {RankUp} [medaliron/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yosun Çiftlikleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yosun çiftlikleri için okyanusun biyolojik çeşitliliğe sahip ikliminden yararlanılarak kıyı şeridinde hızla daha fazla gıda yetiştirilebilir. Düzenli gıda yetiştirme süreçlerine alglerin eklenmesi verimin artmasını sağlayabilir. Daha yüksek seviyelerde, yeterli özveri ile gıda katlanarak büyütülebilir.[br/][br/][productioncol]Bu sadece bir hidro-sömürü sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [food/] ve [watersector/] istismarı için +{Food}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [food/] ve [watersector/] sömürü için +{Food}.[br/]+{FoodPercentage}[supply/] gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hidro Akü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Okyanusun akıntıları ve elektrostatik yükü, kıyı boyunca özel hidro bataryalar inşa edilerek enerjiye dönüştürülebilir. Durgun dönemlerde enerji depolayarak ve yoğun dönemlerde düzenli enerji süreçlerine enjekte ederek, tüm kullanımlar için enerji kazançları artırılabilir. Daha yüksek seviyelerde, koloniyi enerji üretimine ayırmak verimi daha da artırabilir.[br/][br/][productioncol]Bu sadece bir hidro-kullanım sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_I_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [energy/] ve [watersector/] istismarı için +{Energy}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [energy/] ve [watersector/] sömürü için +{Energy}.[br/]+{EnergyPercentage}[energy/] gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deniz Eğitim Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzmanlaşmış deniz eğitim tesisleri, deniz birimleri için üretim sürelerini azaltabilir. Daha yüksek seviyelerde, üretilen deniz birimleri deneyim seviyeleri kazanır. [br/]  [br/]  [productioncol] Bu sadece bir hidro-kazanç sektöründe inşa edilebilir. [/productioncol]  [br/]  [br/]  [firecol] Birim maliyetleri asla %75'ten fazla düşürülemez. [/firecol] </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deniz birimleri için {ProductionDiscount}[production/] maliyeti.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Embarking is the act of land units going onto a boat in the water, by moving from a land hex to a water hex.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionDiscount}[production/] deniz birimleri için maliyet.[br/]Üretilen deniz birimleri {RankUp} [medaliron/]'ye sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Donanma birimleri {RankUp} [medaliron/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Denizcilik Araştırma Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Okyanusun biyolojik çeşitliliğe sahip iklimi pek çok araştırma fırsatı sunmaktadır. Okyanus araştırmalarından elde edilen bilginin daha geleneksel araştırma merkezleriyle birleştirilmesi kazanımları artırır. Daha yüksek seviyelerde, bilgi kazanımları yapılan araştırma miktarı ile katlanarak artar.[br/][br/][productioncol]Bu sadece bir hidro-kullanım sektöründe inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Knowledge is one of the four main resources, used for research.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [research/] ve [watersector/] istismarı için +{Research}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_SPECIALIZATION_WATER_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_III_IV</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [research/] ve [watersector/] sömürü için +{Research}.[br/]+{ResearchPercentage}[research/] gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri Avcı Kışlası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kolonide Avcı birlikleri inşa etme yeteneğinin kilidini açar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKS_LINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003CB00000065]Skirmish Units[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIALIST_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzman Eğitim Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIALIST_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kolonide Uzman birimleri inşa etme yeteneğinin kilidini açar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIALIST_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKS_LINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003CB00000066]Specialist Units[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELITE_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elit Askeri Tesis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ELITE_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kolonide Elit birimler inşa etme yeteneğinin kilidini açar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ELITE_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKS_LINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003AC0000028C]Unit Role: Elitler[/hyperlink][br/][hyperlink,000003CB00000067]Elit Birimlerin Listesi[/hyperlink]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Central Biofarm</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Verimli bir biyo-çiftlik gıda sağlar[food/] koloninin kolonist kazanmasını ve sektörleri daha hızlı ilhak etmesini sağlar.[br/]{Food}[br/][br/][productioncol]Sadece bir Merkezi Yapı inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Merkezi Reaktör Çekirdeği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kompakt bir reaktör, ordularımızı oluşturmak ve sürdürmek için enerji[energy/] sağlar.[br/]{Energy}[br/][br/][productioncol]Sadece bir Merkezi Yapı inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Merkezi Çoğalıcı Fabrikası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretimi artıran minyatür bir fabrika[production/], koloninin yapıları ve birimleri daha hızlı üretmesini sağlar.[br/]{Production}[br/][br/][productioncol]Sadece bir Merkezi Yapı inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Merkezi Bilim Laboratuvarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STARTER_BUILDING_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma üreten bir laboratuvar tesisi[research/], araştırmayı daha hızlı tamamlamamızı sağlar.[br/]{Research}[br/][br/][productioncol]Sadece bir Merkezi Yapı inşa edilebilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_CORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">COLONY_CORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloni merkezi binasıdır. Temel bir gelir ve kolonistinizin büyümesi için yer sağlar.[br/][br/]Bu yapı şunları sağlar:[br/]{SupplyBaseIncome}[br/]{ProductionBaseIncome}[br/]{HappinessBaseIncome}[br/][br/]{SupplySlots}[br/]{EnergySlots} yuvaları[br/]{ProductionSlots}[br/]{ResearchSlots}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Each colony has a colony center building, it is the heart of the colony</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENEL MERKEZ</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">HQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burası grubunuzun karargâhıdır. Komutanınız savaşta yenildiğinde, burada iyileşecek ve {RespawnTurns}'den sonra burada yeniden doğacaktır. Grubunuzun yalnızca bir Karargâhı olabilir. [br/][br/]Bu yapı şunları sağlar: [br/][bulletlist][bullet]{EnergyGlobalIncome}[/bullet][br/][bullet]{ResearchGlobalIncome}[/bullet][br/][bullet]{ProductionColonyIncome} [/bullet][br/][bullet]{InfluenceColonyIncome}[/bullet][br/][bullet]{CrystalColonyIncome}[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commander is the hero in the game that represents the leader of the player faction, and the player themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eko-sürdürülebilir Endüstri Kompleksi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yenilenebilir, sürdürülebilir kaynakların inşaat süreçlerine dahil edilmesiyle, daha hızlı üretim süreleri ve daha düşük kaynak maliyeti endüstriye destek sağlayabilir.[br/][br/]Koloniniz, etki alanındaki her Orman sektörü için [productionslot/]'de [population/] başına ek bir {production} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_MOUNTAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek İrtifa Rüzgar Çiftlikleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_MOUNTAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek rakımlarda artan rüzgar akışından yararlanarak, dağların tepesine inşa edilen rüzgar çiftlikleri daha fazla enerji kazancı sağlayabilir.[br/][br/]Koloniniz, etki alanındaki her Dağ sektörü için [energyslot/]'de [population/] başına ek bir {energy} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_PLAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hidroponik Çiftlikler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_PLAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bereketli ovaların benzersiz özelliklerini kullanarak, gıda verimini artırmak için özel hidro-çiftlikler inşa edilebilir.[br/][br/]Koloniniz, etki alanındaki her Bereketli Ova sektörü için [foodslot/]'de [population/] başına ek bir {food} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_RUINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Harabeleri Analiz İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">OVERLAY_BUILDING_RUINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu istasyon Yıldız Birliği'nden kalan eski teknoloji kalıntılarını analiz etmek için kullanılır. Bu eski teknolojinin bir kısmı zaman içinde kaybolmuştur ve araştırmaları artırabilir.[br/][br/]Koloniniz, etki alanı içindeki her Harabe sektörü için [researchslot/]'de [population/] başına ek bir {research} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda Sektörlerinde Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_FOOD_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda Sektörleri Gelişmiş Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm gıda sektörlerine +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ENERGY_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Sektörleri Gelişmiş Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm enerji sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_PRODUCTION_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim Sektörleri Gelişmiş Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm üretim sektörlerine +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlaşmalarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_RESEARCH_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Sektörleri Gelişmiş Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm araştırma sektörlerine +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlaşmalarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_RESIDENTIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konut Sektörlerinde Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_RESIDENTIAL_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konut Sektörleri Gelişmiş Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_RESIDENTIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm konut sektörlerine +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör istismarlarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orman Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ormanlardaki tüm üretim ve gıda sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_RUINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Harabeler Sektör Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_RUINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Harabelerdeki tüm araştırma ve enerji sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_FERTILE_PLAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bereketli Ovalar Sektör Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_FERTILE_PLAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bereketli Ovalar'daki tüm araştırma ve gıda sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_MOUNTAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağlar Sektör Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_MOUNTAINS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağlardaki tüm üretim ve enerji sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ARID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurak Sektörlerde Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ARID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurak iklimlerde tüm üretim ve enerji sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ARCTIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arktik Sektörlerde Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ARCTIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuzey Kutbu iklimlerindeki tüm üretim ve araştırma sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_ARCADIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcadian Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ARCADIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arkadyalı iklimlerde tüm enerji ve gıda sektörlerine +1 seviye verir. Bir sektörün seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_FUNGAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mantar Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_FUNGAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mantar iklimlerinde tüm araştırma ve gıda sektörlerine +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_BADLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volkanik Sektörler Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_BADLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volkanik iklimlerdeki tüm sektörlere +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör sömürülerinden ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.[br/][br/]Bu koloni Volkanik sektörlerdeki tüm ekonomik cezaları yok sayar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_WATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Sektörleri Yükseltmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_WATER_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Sektörleri Gelişmiş Yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LEVEL_UP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_WATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm su sektörlerine +1 seviye verir. Bir sektörün sektör seviyesini yükseltmek, o sektördeki sektör istismarlarından ve sektör uzmanlıklarından elde edilen faydaları artıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rift Jeneratör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kolonide üretilen tüm birimlere özel Yarık Kalkanları eklemek için kullanılabilen bir Voidtech Yarık Jeneratörü.[br/][br/]ABu kolonide üretilen tüm birimler, birimin kademesi başına {Shields} kalkanlara sahiptir.[br/][br/]Ayrıca, bu kolonide üretilen tüm Voidtech birimleri {damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Rift shields is the name of the property given to units. Voidtech is one of the secret technologies in the game.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yarık Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü Yarık Kalkanları bu birimi korur ve ona {Shields} ekstra kalkan sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluk Aşılanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hasarını {DamageIncrease} artırmak için bir Voidtech dönüm noktasının teknolojisini kullanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler birim kademesi başına +1[shield/] kalkan kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RIFT_GENERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech birimleri {damage} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlığın Tapınağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra Karanlık Tapınağı, bu kolonide üretilen birimlere kalıcı bir sis örtüsü verebilir.[br/][br/]ABu kolonide üretilen tüm birimler {Evasion} kaçınma özelliğine sahiptir.[br/][br/]Ayrıca, bu kolonide üretilen tüm Psynumbra birimleri {damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Psynumbra is one of the secret technologies in the game. With fog shroud we mean the unit is permanently shrouded / covered in a fog that makes them harder to hit. Evasion makes a unit harder to hit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Kaçış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık güçler bu birimin içinde yaşar ve ona saldırılara karşı {Evasion} kaçınma gücü verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Güç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hasarını {DamageIncrease} artırmak için bir Psynumbra dönüm noktasının teknolojisini kullanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {Evasion} kaçınma kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHRINE_OF_DARKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra birimleri {damage} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genetik Laboratuvarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Genetik Laboratuvarı, genetik seçilim ve değişiklik deneyleri yaparak birimlerde gelişmiş özellikler sağlar.[br/][br/]ABu kolonide üretilen tüm Mekanik olmayan birimler, birimin kademesi başına {health}[hp/]'ye sahiptir.[br/][br/]Ayrıca, bu kolonide üretilen tüm Xenoplague modifiyeli birimler {damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Xenoplague is one of the secret technologies in the game. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetiştirilmiş Azim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genetik modifikasyon bu birimin canlılığını artırarak ona {health} [hp/] kazandırmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutasyona Uğramış Saldırganlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hasarını {DamageIncrease} kadar artırmak için bir Xenoplague dönüm noktasının teknolojisini kullanıyor. Bu özellik yalnızca birim bir Xenoplague moduyla modlanmışsa etkindir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik olmayan birimler birim kademesi başına {health}[hp/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_GENETICS_LAB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague moduna sahip birimler {damage} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Işığı Gözlemevi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Işığı Gözlemevi, insanlara Göksel inancın Işık Yolu'na bir bakış attırarak onlara bir amaç verebilir.[br/][br/]ABu kolonide üretilen tüm birimler {Morale} morale sahiptir.[br/][br/]Ayrıca, bu kolonide üretilen tüm Göksel birimler {damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Celestian is one of the secret technologies in the game. The Path of Light is a philosophy of the Celestian faith. Almost like a religion.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dürüstlerin Kutsanması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Psionik bir ışıkla aşılanarak {Morale} morali kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Işık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hasarını {DamageIncrease} artırmak için bir Celestian dönüm noktasının teknolojisini kullanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {Morale} morali kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARLIGHT_OBSERVATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian birimleri {damage} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Hizmet Üretim Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean Üretim Tesisi, en güçlü darbelere bile dayanabilen güçlendirilmiş, ağır hizmet tipi zırh kaplaması üretebilir.[br/][br/]ABu kolonide üretilen tüm birimler, birim kademesi başına {Armor} zırha sahiptir.[br/][br/]Ayrıca, bu kolonide üretilen tüm Promethean birimleri {damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Units have tiers, which tells the player how strong the unit is (roughly). Tier 1 units are starting units, where tier 4 units are super strong units only available after heavy research and production investments.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Hizmet Zırhı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, {Armor} ekstra zırh sağlayan zırh kaplamasıyla güçlendirilmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tahliye Aşırı Şarj</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hasarını {DamageIncrease} artırmak için bir Promethean dönüm noktasının teknolojisini kullanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler, birim kademesi başına +1[armor/] zırha sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_HEAY_DUTY_MANUFACTURING_PLANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean birimleri {damage} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Silahları Tesisi, kolonide üretilen tüm silahlara akıllı silah bağlantısı ekleyerek değiştirir ve etkinliklerini artırır.[br/][br/]ABu kolonide üretilen tüm birimler {Accuracy} isabet oranına sahiptir.[br/][br/]Ayrıca, bu kolonide üretilen tüm Sentez birimleri {damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Synthesis is one of the secret technologies in the game. With weapon linking we mean they are connected to a network that gives them better targeting.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah Bağlantısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin silahları, {Accuracy} hassasiyet sağlayan akıllı takip sistemlerine bağlıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasar Büyütme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, hasarını {DamageIncrease} kadar artırmak için bir Sentez dönüm noktasının teknolojisini kullanıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TECH_EFFECT_DESCRIPTION_ACCURACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} doğruluğu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {Accuracy} doğruluğu kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_WEAPONS_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez birimleri {damage} hasarı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_IMPERIAL_TRAINING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Imperial Eğitim Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_IMPERIAL_TRAINING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eski İmparatorluk eğitim rejimleri yerel kuvvetlerin eğitilmesine yardımcı olur. Bu kolonide üretilen birimler artırılmış savaş deneyimiyle başlar.[br/][br/]ABu kolonide üretilen tüm birimler {Medals} rütbelerine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_IMPERIAL_TRAINING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {Medals}[medaliron/] rütbesi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_CRYO_MEDICAL_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyo-tıbbi tesis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_CRYO_MEDICAL_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyo-Tıp Tesisi, bu kolonide üretilen birimlere daha fazla dayanıklılık sağlayan özel bir kriyojenik karışım aşılayabilir.[br/][br/]Bu kolonide üretilen biyolojik ve siborg birimler, durum etkilerine karşı {Resistance} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_CRYO_MEDICAL_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kriyojenik Metanet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_CRYO_MEDICAL_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özel kriyojenik süreçler kullanılarak bu birimin dirençleri güçlendirilmiş, tüm durum etkilerine karşı {Resistance} direnç ve bir seviye sendeleme direnci kazandırılmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_CRYO_MEDICAL_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik ve Sayborg birimler durum etkilerine karşı {Resistance} direnç kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RELAXATION_CENTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rahatlama Merkezleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RELAXATION_CENTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eğitim sırasında belirli Rahatlama Merkezlerinin mevcut olması nedeniyle, bu kolonide üretilen Piyadeler zihinsel olarak daha fazla dinlenir ve yeni becerileri daha hızlı bir şekilde edinme eğilimindedir.[br/][br/]ABu kolonide üretilen tüm birimler tüm kaynaklardan {Experience} deneyimi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RELAXATION_CENTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlanmış Zihin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RELAXATION_CENTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, {XPBoost}'ye tüm kaynaklardan artan deneyim kazandıran çok canlandırıcı bir eğitim dönemi geçirmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_RELAXATION_CENTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler tüm kaynaklardan {Experience} deneyimi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARSHIP_MAINTENANCE_BAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Gemisi Bakım Bölmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARSHIP_MAINTENANCE_BAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Gemisi Bakım Koyu, birimlerin yapımında uzayın zorlu ortamına uygun özel alaşımlar kullanır ve bu kolonide üretilen birimleri daha dayanıklı hale getirir.[br/][br/]Bu kolonide üretilen mekanik birimler tüm hasarlara karşı {Resistance} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARSHIP_MAINTENANCE_BAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek Yoğunluklu Alaşımlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARSHIP_MAINTENANCE_BAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite, uzayın zorlu ortamına uygun özel alaşımlar kullanılarak üretilmiş ve tüm hasarlara karşı {Resistance} direnç sağlamıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_STARSHIP_MAINTENANCE_BAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik birimler {Resistance} hasar direnci kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHIELDING_LABORATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekranlama Laboratuvarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHIELDING_LABORATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakındaki Terk Edilmiş Enerji Reaktöründen salınan teknolojiyi özel bir Kalkan Laboratuvarında kullanarak, birimlerin hayatta kalma kabiliyeti özel kalkanlarla geliştirilebilir.[br/][br/]ABu kolonide üretilen tüm birimler {shields} kalkan kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHIELDING_LABORATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHIELDING_LABORATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite, {shields} kalkanı sağlayan deneysel koruyucu kalkanlara sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_SHIELDING_LABORATORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {shields} kalkanı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_LEARNING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öğrenme Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_LEARNING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler, çökmüş araştırma merkezinde bulunan eski İmparatorluk Arşivlerini inceleyerek savaş taktikleri konusunda benzersiz bilgiler edinebilir.[br/][br/]ABu kolonide üretilen tüm Akılsız olmayan birimler tüm kaynaklardan {experience} deneyim kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_LEARNING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Öğrenme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_LEARNING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim eski İmparatorluk savaş taktikleri hakkında bilgi sahibidir ve tüm kaynaklardan {experience} deneyimi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_LEARNING_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız olmayan birimler tüm kaynaklardan {Experience} deneyimi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_NUTRITION_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beslenme Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_NUTRITION_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Büyümüş Biyodom Çiftliğinden gelen genetik olarak üstün gıdaları kullanan Özel Beslenme Merkezleri, birimlere eğitimleri sırasında metanetlerini artırarak destek verebilir.[br/][br/]ABu kolonide üretilen tüm Mekanik olmayan birimler {health} maksimum [hp/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_NUTRITION_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geliştirilmiş Metanet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_NUTRITION_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eğitimleri sırasında genetik olarak üstün gıdalarla beslendikleri için bu birimin metaneti artmıştır ve bu da ona {health} maksimum [hp/] verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_NUTRITION_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik olmayan birimler {health}[hp/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_REINFORCEMENT_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Takviye Fabrikası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_REINFORCEMENT_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Maden Tesisi'nden elde edilen teknolojiler kullanılarak, birimlere dayanıklılıklarını artırmak için zırh güçlendirme işlemleri uygulanabilir.[br/][br/]ABu kolonide üretilen tüm birimler {armor} zırhı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_REINFORCEMENT_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zırh Takviyesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_REINFORCEMENT_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, {armor} zırhı sağlayan güçlendirilmiş zırh kaplamasına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_REINFORCEMENT_FACTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {armor} zırhı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_AQUATIC_TRAINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Eğitim Tesisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_AQUATIC_TRAINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su eğitim tesislerindeki zorlu koşullar, birliklerin eğitimine yardımcı olarak daha sert, daha dayanıklı kuvvetler oluşturabilir.[br/][br/]ABu kolonide üretilen tüm birimler, durum etkilerine karşı {resistance} direnci kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_AQUATIC_TRAINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sertleştirilmiş Anayasa</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_AQUATIC_TRAINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim sertleştirilmiş bünyeye sahiptir, bu da ona durum etkilerine karşı {resistanceBoost} direnç kazandırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LANDMARK_AQUATIC_TRAINING_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler durum etkilerine karşı {resistance} direnci kazanır.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>18</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>27</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,794 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Joshua Crowder</LastAuthor>
+    <LastSaved>2019-09-30T10:26:17Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12197</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+    </Style>
+    <Style ss:ID="s67" ss:Parent="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Vertical="Top" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+    </Style>
+    <Style ss:ID="s70">
+      <Alignment ss:Vertical="Top" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="43" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="121.71428571428571" />
+      <Column ss:StyleID="s63" ss:Width="198" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.85714285714286" />
+      <Column ss:StyleID="s63" ss:Width="147.85714285714283" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.85714285714286" />
+      <Column ss:StyleID="s63" ss:Width="120" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.85714285714286" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HERITOR_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">OLD TEXT</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HERITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Heritor</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of the secret tech, please translate consistently.</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HERITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_HERITOR_TECHGROUPS@HERITOR@DESC%7D[br/%5d%5bbr/%5d%7BXML_HERITOR_TECHGROUPS@HERITOR@FEATURES%7D">
+          <Data ss:Type="String">{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">No need to translate. This inserts the XML_HERITOR_TECHGROUPS@HERITOR@DESC and XML_HERITOR_TECHGROUPS@HERITOR@FEATURES texts with some white space.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HERITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESC</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Heritorlar, Es'Teq olarak bilinen teokratik bir hanedanın evlatlarıdır. Kadim teknolojileri enerjiyi kullanmalarını ve yaşamlarını uzatmalarını sağlar. Galaksi boyunca mezarda yatan milyarlarca takipçilerini yeniden canlandırmaya ve ilahi yönetimlerini yeniden kurmaya çalışırlar.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Desciption of the secret tech, as shown in character customization and the imperial archive.</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HERITOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">FEATURES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">[bulletlist][bullet][sand]Başlangıç Birimi:[/sand] [hyperlink,0000038C00001D29]Siphoner[/hyperlink][/bullet]A0[7]9Düşmanların Özünü boşaltın ve güçlü yetenekleri beslemek için kullanın. [/bullet][br/][bullet]Güçlü Entropi silahları kullan[/bullet][br/][bullet]H [hyperlink,000003E90000005A]Özün gücünden yararlan[/hyperlink][/bullet][br/][bullet]Eski Es'Teq zihinlerini yeniden canlandır. [/bullet][br/][bullet]Makinelere karşı güçlü saldırılar.[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bulletlist of the features of the secret tech.</Data>
+        </Cell>
+        <Cell ss:StyleID="s69" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Es'Teq'in Hediyesi</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"En ilkel Es'Teq bile bir aşığın dokunuşunu mekanikleştirir. Biri, aşık bir sevgilinin gücünün flört anlarında tükenmesi gibi Öz'ü boşaltabilir. Denekleri güçlendirmek için Öz bahşedilir; ihtiyaçlarını görmezden gelen, pervasız bir tutkuyla dolu aşıklar gibi olurlar. Bu Heritor keşfi, yaşamın kendisinin itici dürtülerine müdahale etmektedir. "[br/]- Dr. Richter Hart, Baş Tıbbi Antropolog</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Siphoner Uyanışı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Biz yüksek emirleri takip ederiz - hayatın kendisinin emirlerini. Biz zalim değiliz. Görevimiz kurtarıcıdır. Hayatı, onu çarçur edenlerden çekip alırız, sadece onların ısrarlı sapkınlıklarında doğal olarak ortaya çıkanı hızlandırırız. Onların özü, yaşama değer verenleri zenginleştiren ilahi bir misyonu besler. Asamın önünde eğilin. Eğer layıksanız, canlılık alacaksınız. Değilseniz, canlılığınız en yüksek amaca hizmet etmek üzere serbest bırakılacaktır. "[br/]- Congregant Mahrood Madur, A Siphoner's Head</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kutsal Varlık</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Etrafınızdaki hayatı hissedin. Hepsi kutsaldır. Bedenin kırılgan yapılarına tutunmak için mücadele ettiğini hisset. Bir nefeste dolu ve parlak, sonra bir sonrakinde yok. Nereye gitti? Gitti. Es'Teq olmadan artık yok. Hiçbir ebedi ruh hayatta kalamaz. Şimdiye kadar, ölüm sondu. Biz onu koruyoruz. Sizi kayıp nesillerden gelen canlılıkla doldurmamıza izin verin. Bu Es'Teq'in Lütfudur. "[br/]- Sheera Na Teev, Yaşamın Yüce Leydisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gayretli İnanç</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"İlk Heritörler iyi niyetlerinin bir göstergesi olarak Özlerini özgürce verdiler. Tedavi edilemez dertleri yenilenebilir bir şekilde iyileştirdiler, mucizeler gerçekleştirmek için kendi Özlerini feda ettiler. Ne yazık ki, inanç tek başına mucizeler ve iyi niyet değildir. Mucizeler Çağı ile ilgili sorun, devam etmesine rağmen çok az kişinin ona değer vermesidir. Bazıları basit, fedakâr bir şekilde yaşamaktan memnun değildi. Bir düşmana ihtiyaçları vardı. Sapkınlıkları kodladılar ve Heritor'un yolunu gasp ettiler. Yüce Lordlar Es'Teq'in yaratıcıları değil, onun aşırı hevesli hırsızlarıydı. "[br/]- Mah Reg'Nib, Kaçak Kâfir</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kadimlerin Gazabı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"İnanç bir yol bulur. Bazıları bize katılır çünkü erdemimizi tanır ve canlılığımızı hissederler. Diğerleri ise uzun yaşam ve daha iyi bir yol vaat ettiğimiz için bize katılır. Yine de bazı sadıklar, Kadimler sapkınların üzerine gazaplarını saldığında ve dünyayı kötülükten dolayı lanetlediğinde bize katılır. Gelirler. Nasıl olduğu önemli değil. "[br/]- Ma Tar Xan, Heritor Hasat Baş Rahibesi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_3_DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ataların İnancı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_3_DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Ölenler için ağlamayın. Kendilerini Ark'a adayan hayatlar kaybolmadı. Binlerce kayıp anıyı, senin annenin yüzünü hatırladığın kadar net hissedebiliyorum. Onlar hayallerini içimde yaşatmak için kendilerini feda ettiler. Bu onların ölümsüzlüğü ve kadim mirasıdır. Bunu iddia edebilecek hiçbir makine yok. Bu Es'Teq mucizesinin büyüklüğünü görmezden gelmek için ona teknoloji diyorlar. "[br/]- Set Koi Xant, Arkın Yüce Lord Bekçisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Transmigrasyon Ritüelleri</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Heritor inancına bağlı tüm hak ve ayrıcalıklarıyla birlikte Es'Teq Rahipliğini sana bahşediyorum. Seni, aramızdaki erdemlileri yeniden canlandırmakla görevli bir yaşam şampiyonu olarak atıyorum. Sadece en pervasız ve aşağılık olanlardan öz al, daha az kafirlerin tövbe edip bize döneceği umuduna sımsıkı tutun. Bu canlı armağana değer verirken, ölümde bile yenilenmiş bir yaşamla yeniden doğacağınızı bilin. "[br/]- Sacer Dotan, Yüce Lord'u Atama</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Quintessence Ark Uyanışı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Hayat, tek bir ömür için ete geçici olarak hapsolmuş bir girdaptır. Kutsal Es'Teq parçası olmadan kaosun içinde kayboluruz. Quintessence Ark yaşamın girdaplarını bir ışık sığınağına bağlar. Heritor başlarından biri olarak, Es'Teq'e sahip olanlara dağıtarak canlılık kuyusuna erişimi koruyorum. Bu gezici tapınakta korunan tatlı Komünyonu hissedin. Burası Heritor bağlılığının merkezidir. Ebediyette tutulan yaşam, dindarları besler. "[br/]-Gemi Nephri Telis, Öz Bekçisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kıyamete Başlangıç</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Yalvarma zamanı kısa bir süre sonra sona erecek. Davamıza katılma ve ölümsüz bir canlılık içinde yaşama seçeneği elimizden alınacak. O gün hem büyük hem de korkunç bir gün olacak. Özle dolan sadıklar için büyük, yozlaşmayı tercih ederek hayatlarını ihmal eden adaletsizler için korkunç. Harcanmış zihinler kutsal kulelerimizin gölgesinde yeniden doğacak. O halde onları tüm topraklarda yetiştirin. Zihin Kıyamını gerçekleştirin. "[br/]- Alsanu Amu Tet, Öz Kahini</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yaygınlaştırma Ritüelleri</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Sadık müritlerin kılığına bürünen aldatıcılara karşı dikkatli olun. Din değiştirenler bayramdan eziyet çekmezler. Onu kucaklarlar. Es'Teq tarafından kendilerine verilen Öz armağanını sorgulamazlar. Yaşam kanalından açlıkla beslenirler, sapkınları derinlemesine beslerler. Şüpheler yayılmayı bozar ve sadıklar onları da kurutmakta tereddüt etmezler. "[br/]- Vallyx Bont, Saflık Engizisyoncusu</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kutsal Providence</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Pek çok Sendika evi, sayısız nesiller boyunca, Heritörler ve onların Es'Teq'leriyle olan bağlarımızı gizledi, ancak binlerce kişiyi sadık hizmete dönüştüren, sapkınları avlayan ve cemaat topluluklarını yeniden canlandıran ilk Yüksek Lordlar bizim atalarımızdı. Artık Heritörler geri döndüğüne göre, teknolojiyi geliştirmeye ve ebedi gündemimize ulaşmak için kullanmaya hazırız. Yalnızca Evlerimiz yaşama boyun eğdirmeye ve Ölümsüzlüğe layık olduğumuzu kanıtlamaya hazırdır. "[br/]- Lady Em of the Sacred Providence</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_7_DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kutsal Diriliş</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_7_DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Onların hoşgörüsüz silahları bedenimizi parçalayabilir, ancak Özümüz kehanet filizlerini beslemek için kalacaktır. Kötüler onları anlamayacak ama biz sonsuza dek unutulmayacağız. Biri Kutsal Şehrimizi uyandırmaya layık olduğunu kanıtlayana kadar saklanacağız. Bir gün, İlahi Lejyon'la birlikte yürüyeceğiz. Derinlerde yaşayan fiziksel formlarımız derin olsa da, gelecek bir günde sevgili soydaşlarımızla yeniden bir araya geleceğiz. "[br/]-Cho Zen Huan, Gizli Şehrin Kahinesi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yüce Lord Uyanışı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"En kutsal ve değerli varlıklarımız kurbanlardan oluşan bir labirentin ardında gizleniyor. Bu uyuyan tanrılar, çökmüş dünyalarımıza ayak basamayacak kadar saftır. Ömür boyu sürecek Yargı'yı kullanarak tüm ölü makineleri yere serecekler. Son günlerde, ölüleri diriltmek ve sadık olanları ödüllendirmek için gazap ve hakikatle dolu olarak gelecekler. Yüce Lordlar uyandığında, uzun bekleyişimizin sonu yaklaşmış olacak. "[br/]- Alsanu Amu Tet, Özün Kahini</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Zorla Dönüştürme</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Biz kimiz ki Es'Teq'i neyin tetiklediğini ve ortaya çıkardığı büyük güçleri neyin harekete geçirdiğini sorgulayalım? Din teknolojidir. Tarikatlar bilimsel sosyal deneylerdir. İnsan zihni merak duygusundan mahrum bırakılmadıkça, dinsiz bir çağ asla olmayacaktır. Öyleyse neden tuhaf ve bilinmez olanı kucaklamayalım? Kim bilir? Belki de eskilerin tanrıları hepimize yıldızları işaret eden teknolojik olarak gelişmiş gezginlerdir. "[br/]- Jax Armstrong, Union spor kahramanı ve Heritor dönüşümü</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_9_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Saygıdeğer Enkarnasyon</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_9_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Ey akılsız ve kör kılavuzlar! Karanlığa çekilirken bile imanınıza sımsıkı sarılın. Bu sadece geçici bir gerileme. Düşmanlarınız benim intikamımla cezalandırılacak. Bu mahzenin arkasında mühürlenmiş ve zamanın derinliklerine gömülmüş olsam da, tekrar dirileceğim. Şu anda bile, zayıf zihinlerinize sahibim. Bana et verin. Onu özümle dolduracağım. Bu hapishane dağından kurtulana ve galakside yeniden özgürce hüküm sürene kadar davanız için savaşacağım. "[br/]- Annu Ix Ishta, Yüce Leydi, Sürgündeki Tanrıça</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Son Vahiy</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Herkes gelecek ve Akıl Kıyamına katılacak. Hepiniz sesinizi yükseltin. Coşku koromuzu söyleyin. İradenizi ve sadık ruhunuzu verin. Tüm potansiyelinizi açığa çıkarın. Yaşayan Tanrı'nın geri dönüşünün kucaklayıcılığını hissedin. Binlerce geçmiş yaşamı yaşayın. Öz bir pınardır. Yargılama zamanı sona erdi. Bu kutsal gelişe kadar yaşadınız ve böylece burada değerli olduğunuzu kanıtladınız. Hayat mücadelesi artık yok. Gelin, mutlu kalabalığımıza katılın. "[br/]-Amun Bis Xhet, Kıyametin Baş Şarkıcısı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s70" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s70" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s70" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s70" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="Default" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <TopRowVisible>1</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>5</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

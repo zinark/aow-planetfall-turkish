@@ -1,0 +1,759 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2019-01-30T09:30:51Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12789</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="52" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.428571428571431" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="163.71428571428572" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:Width="271.71428571428572" />
+      <Column ss:StyleID="s62" ss:Width="147.85714285714283" />
+      <Column ss:StyleID="s62" ss:Width="170.14285714285714" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">GLOBAL_HERO_SKILLS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GLOBAL_SKILL_GROUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILL_SUBTITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küresel Kahraman Becerisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill tree header.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VITALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlılık 1</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VITALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlılık 2</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VITALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlılık 3</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VITALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman {VitalityBonus} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Mesafe Uzmanı 1</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Mesafe Uzmanı 2</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Mesafe Uzmanı 3</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın dövüş silahlarıyla verilen hasarı {CloseBonus} kadar artırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STANDARD_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EXTRA_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ilham verici liderliği bu birime {DamageBonus} ekstra hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RANGED_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli Uzman 1</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RANGED_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli Uzman 2</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RANGED_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli Uzman 3</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RANGED_SPECIALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli silahlarla verilen hasarı {RangedBonus} kadar artırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEAD_EYE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü Göz 1</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEAD_EYE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü Göz 2</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEAD_EYE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü Göz 3</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEAD_EYE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm saldırılar {DeadEyeBonus} daha fazla isabet ve kritik vuruş şansı kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEAD_EYE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DeadEyeBonus} ekstra isabet ve kritik vuruş şansı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PILOTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pilotluk</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PILOTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman artık Seviye I ve II araçları donatabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADVANCED_PILOTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pilotluk (İleri Seviye)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADVANCED_PILOTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman artık Kademe III araçları donatabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AIR_COMMANDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Komutanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AIR_COMMANDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm Uçan birimler {commanderBonus} ek hasar verir.[br/]Sadece kahraman ordunun komutanı olduğunda işlev görür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Commander in this case means the leader of an army, NOT the player character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROUND_COMMANDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kara Komutanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GROUND_COMMANDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm Ağır Zemin birimleri {commanderBonus} ek hasar verir.[br/]Sadece kahraman ordunun komutanı olduğunda işlev görür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Commander in this case means the leader of an army, NOT the player character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFANTRY_COMMANDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Piyade Komutanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">INFANTRY_COMMANDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın ordusundaki tüm Hafif Kara birimleri {commanderBonus} ek hasar verir.[br/]Sadece kahraman ordunun komutanı olduğunda işlev görür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Commander in this case means the leader of an army, NOT the player character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRIMARY_MODULAR_EXPANSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Modüler Uzatma</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PRIMARY_MODULAR_EXPANSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın fazladan bir Mod donatmasını sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Mods are items that can be attached to units, normally up to 3. This skill allows 4 mods to be carried</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATCHMAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bekçi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">WATCHMAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman tüm birincil menzilli saldırılarında Gözcülük kazanır ve Gözcülük saldırılarında {watchmanBonus} isabet oranı artar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.
+Overwatch is an ability that modifies existing attacks.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STEADY_AIM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sabit Hedef</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STEADY_AIM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli silahlarla yapılan saldırılar, siperden ateşlendiğinde {steadyAimBonus} daha isabetlidir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STEADY_AIM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{steadyAimBonus} siperden ateş ederken ekstra isabet.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit buff description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COUNTER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karşı Saldırı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COUNTER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş Overwatch artık Stagger tarafından iptal edilemeyecek ve asla ıskalamayacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALL_ROUND_AWARENESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok Yönlü Farkındalık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALL_ROUND_AWARENESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman artık kuşatılamaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TIRELESS_FIGHTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dövüş Sanatçısı: Yorulmak Bilmeyen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">TIRELESS_FIGHTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman Yorulmak bilmezlik kazanarak bir turda birden fazla kez Yakın Gözetleme tetiklemesine olanak tanır (ancak aynı hedefe karşı asla iki kez tetiklenmez).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIRST_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dövüş Sanatçısı: İlk Saldırı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FIRST_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman İlk Saldırı kazanır, yani birim Kuşatılmadığı sürece Yakın Dövüş Gözetlemesi, onu tetikleyen hedef harekete geçmeden önce tetiklenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PERSONAL_WEAPON_EXPERT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kişisel Silah Uzmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="51.535714285714285">
+        <Cell>
+          <Data ss:Type="String">PERSONAL_WEAPON_EXPERT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir aracın içinde değilken kahramanın saldırıları {DamageBonus} hasar ve {AccuracyBonus} isabetlilik kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PERSONAL_DEFENSE_EXPERT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kişisel Savunma Uzmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="56.25">
+        <Cell>
+          <Data ss:Type="String">PERSONAL_DEFENSE_EXPERT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir aracın içinde değilken, kahraman {ShieldBonus} kalkan ve {ArmorBonus} zırh kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A type of hero skill used by Oathbound heroes to give bonuses to colonies</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OATHBOUND_COLONY_SKILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILL_SUBTITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound Koloni Becerisi</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <TopRowVisible>35</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>52</ActiveRow>
+          <ActiveCol>5</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

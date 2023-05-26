@@ -1,0 +1,743 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2019-03-07T13:17:29Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17235</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="64" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="149.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="180.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5" />
+      <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318.75" />
+      <Row ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ASSEMBLYCYBERNETICS_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">ASSEMBLY_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="8">
+        <Cell>
+          <Data ss:Type="String">SIGNAL_SHREDDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sinyal Parçalama</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SIGNAL_SHREDDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman Mekanik veya Cyborg birimine yıkıcı bir enerji darbesi gönderin. Sinyal Parçalamanın {ApplyStrength}[StrengthWave/] gücünde {SignalTurn}[turn/] için [abilityred]Sersemletme[/abilityred] uygulama şansı vardır. Sersemletme başarısız olursa, birim bunun yerine [abilityred]Şiddetli Darbe[/abilityred] alır ve muhtemelen sersemler.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SYSTEM_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzaktan Sistem Tahliyesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SYSTEM_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bazen bir bilgisayarı sıfırlamak gerekir ve Cyborg'lar da istisna değildir. Hedef dost Cyborg biriminden tüm olumsuz Durum Etkilerini kaldırır. Etki daha sonra {numTargets} hex içindeki {hexDistance} ek dost hedeflere sıçrayabilir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">LINEAR_ACCELERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğrusal Hızlandırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LINEAR_ACCELERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Mekanik veya Cyborg birimini süper şarj ederek tüm eylem puanlarını geri yükler[movewalk/]. Birimler her turda yalnızca bir kez süperşarj edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">LINEAR_ACCELERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LINEAR_ACCELERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Hızlandırıldı ve eylem puanları geri yüklendi. Bu birim, bu savaş sırasında veya bu durum etkisine sahip olduğu sürece tekrar Hızlandırılamaz.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">DEPLOY_CONSTRICTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Constrictor'ı Dağıtın</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_CONSTRICTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş sırasında hedef kareye bir Hortlak çağırın. Çağrılan birim savaşın sonuna kadar dayanır.[br/]Yırtıcı, diğer birimleri etkisiz hale getirebilen ve ardından muazzam hasar verebilen güçlü etkisiz hale getirme yeteneklerine sahip bir Yakın Dövüş birimidir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">ADHESIVE_ARTILLERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yapışkan Toplar</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ADHESIVE_ARTILLERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen alana, çarpmadan hemen önce patlayarak açılan ve {ArtilleryRadius} altıgen yarıçapını yapışkan bir Biyokimyasal köpükle kaplayan, {bioDamage}[DamageBio/] hasar veren ve {SlowChance}[StrengthPhysical/] güç şansı ile [abilityred]Yavaş[/abilityred] için etkilenen birimlere {ArtillerySlowTurns}[turn/] hasar veren yapışkan içeren mermiler ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">TEMPORAL_DISRUPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zamansal Bozulma</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TEMPORAL_DISRUPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{time}[turn/] için tüm düşman birimlerinde {amount} birim modunu devre dışı bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="23">
+        <Cell>
+          <Data ss:Type="String">REPROCESS_COLONIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonisti Yeniden İşle</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">REPROCESS_COLONIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim tesislerinizi geçici olarak artırmak için kolonistlerinizden birini yeniden işleyin. {ReprocessColonist}[population/] kaldırır ve {ReprocessProductionBoost}[production/] artış sağlar. Bu etki {ReprocessTurns}[turn/] boyunca sürer.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REPROCESS_COLONIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ReprocessTurns}[turn/] için {ReprocessProductionBoost}[production/].</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">REPROCESS_COLONIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplayıcılarınız, yeniden kullanım için gerekli malzemeleri üretim tesislerinize başarıyla teslim ederek üretimini önemli ölçüde artırdı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Örnek Toplama</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj nanitleri hedef orduya saldırarak değerli örnekleri alır. Hedef ordudaki tüm birimlere mevcut [hp/]'lerinin {Damage}'si kadar hasar verir, bu tur için tüm dirençlerini {WeaknessAll} azaltır ve bu şekilde hasar gören her birim için {ResearchAmount} sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {DmagaePercentage} hasarına maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {WeaknessAll} boyunca tüm hasara karşı {duration} direnç gösterir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, tüm birimler bunun yerine {Damage}'ye maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nanitleriniz ordularından birkaç örneği başarıyla aldı. Düşman yaralarını sararken bunlar bilim adamlarınıza pek çok yeni bilgi sağlayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nanitleriniz güçlü bir direnişle karşılaştı. Herhangi bir örnek almayı başaramasalar da, hedeflerine zarar vermeyi başardılar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşağılık Meclis nanitleri birliklerinize saldırdı ve örnekleri doğrudan kemiklerinden söktü. Kuvvetlerimiz zarar gördü ve bilim adamları birimlerimiz hakkında bilgi edindi.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SAMPLE_COLLECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vile Assembly nanitleri birliklerinize saldırdı ve onlara zarar verdi, ancak askerleriniz herhangi bir örnek alamadan zararlıların işini çabucak bitirdi.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyon Fırtınası</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havadan statik elektrik çekerek ve hepsini küçük bir hedef alana yönlendirerek, ekonomik geliri azaltan ve sektördeki tüm birimleri zayıflatan güçlü bir [abilityred]Ion Storm[/abilityred] salabiliriz. Hedeflenen sektördeki tüm Mekanik birimler tüm [movewalk/]'lerini kaybeder.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik üniteler tüm [movewalk/]'yi kaybeder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, hedeflenen sektördeki tüm Mekanik birimler tüm [movewalk/]'lerini kaybeder ancak zayıflamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektörde bir İyon Fırtınası yaratmayı başardık, bölgeyi sömürü için kullanılamaz hale getirdik ve tüm Mekanik birimlerin arızalanmasına neden olduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektördeki savunma sistemi İyon Fırtınası yaratmamızı engelledi, ancak hedef sektördeki Mekanik birimler yine de etkilendi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük bir elektrik boşalması Mekanik ünitelerimizin sahada arızalanmasına neden oldu ve ortaya çıkan İyon Fırtınası sektörü kullanılamaz hale getirdi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ION_INSTABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektörde elektrik boşalması başlatıldı! Savunmalarımız çok fazla hasar vermesini önlemeyi başardı, ancak yine de Mekanik birimlerimizi durma noktasına getirdi.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyonik Overdrive</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost orduya ham iyonik enerji aktarın. Tüm Cyborg birimleri {damage}[hp/] kaybeder ve {duration} karşılığında [abilityblue]Ionic Overdrive[/abilityblue] kazanır. İyonik Hız Aşımı birimlere [abilityBlue]Hızlı Hareket Hızı[/abilityBlue] verir, yakın dövüş saldırılarının [abilityRed]Hedefleri Sersemletmesine[/abilityRed] ve {damageBonusPercentage} ekstra hasar vermesine neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cyborg birimleri {damagePercentage} hasarına maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cyborg birimleri {duration} için [abilityBlue]Ionic Overdrive[/abilityBlue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef ordudaki cyborglara başarıyla enerji verdik. Bazı küçük patlamalar ve küçük hasarlar oldu, ancak birlikler şimdi iyonik güçle titreyerek hazır bekliyor!</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyonik Overdrive</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityBlue]Hızlı Hareket Hızına[/abilityBlue] sahiptir ve yakın dövüş saldırıları {damageBonusPercentage} ekstra hasar verir ve [abilityRed]Sersemletme[/abilityRed] hedefleri için {Chance} güç şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">IONIC_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="53">
+        <Cell>
+          <Data ss:Type="String">BATTLEFIELD_AUTOPSIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Alanı Otopsileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">BATTLEFIELD_AUTOPSIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meclis, uğursuz araştırmaları için her somunu, cıvatayı ve organı inceleyerek ölülerin bedenlerini didik didik eder.[br/][br/]A Taktik Muharebeyi kazandıktan sonra, öldürülen her düşman birimi için kademeleriyle çarpılarak {ResearchAmount}[research/] kazanın.[br/][br/]{HeroResearch}[research/], mağlup edilen her düşman komutanı ve kahramanından kazanılır.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SCAVENGERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çöpçüler</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SCAVENGERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meclis, başkalarının atacağı şeylerin kullanımını görebilir.[br/][br/]Dünya Haritasındaki Yapıları temizlemenin ödülleri artar.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">AUGMENTATIVE_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirici Toplum</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AUGMENTATIVE_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Birleştirilmişlerin bir parçası olarak, bedenlerimizi yükseltme ve sürekli olarak güçlendirme gerçeğini kabullenmeye başladık. Bu sürekli büyütmenin bir sonucu olarak, bunu herhangi bir yankı uyandırmadan kolayca yapabiliriz.[br/][br/]Sahadaki birimleri modifiye etmek artık Modifiye zayıflatıcısını uygulamıyor.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">CONNECTED_SOCIETY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bağlantılı Toplum</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CONNECTED_SOCIETY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yedek işlem gücünü ödünç almak için kolonistlerinizin beyinlerine girin. Muhtemelen zaten kullanmıyorlar...[br/][br/]ATüm Kolonistler {ResearchProduced}[research/] sağlar, ancak Kolonilerimiz {HappinesLost}[anger/] çeker.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">THE_GREAT_HARVEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Hasat</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">THE_GREAT_HARVEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yeniden birleştirme ustalığımız tamamlanmaya yaklaşıyor. Hiçbir şey boşa gitmez; her şeyin bir amacı vardır.[br/][br/]A Taktik Savaşını kazandıktan sonra, öldürülen her düşman birimi için {FoodAmount}[food/] ve {ProductionAmount}[production/] kazanın, bu değer onların seviyesiyle çarpılır.[br/][br/]{HeroFood}[food/] ve {HeroProduction}[production/], mağlup edilen her düşman komutanı ve kahramanından kazanılır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">RECYCLE_OF_LIFE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaşamın Yeniden Dönüşümü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">RECYCLE_OF_LIFE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birliklerimizin yok edildikten sonra tekrar tekrar bir araya getirilebileceğini bilmek, sonları ellerinden kaçarken savaşmaya devam etme isteklerini artırır.[br/][br/]Siborg birimleriniz {MoraleIncrease}[happiness/] kazanır.[br/]ATaktik Muharebeyi kazandıktan sonra, öldürülen her dost Siborg birimi için {EnergyAmount}[energy/] kazanın, katmanları ile çarpılır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>46</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>53</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

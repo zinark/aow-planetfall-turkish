@@ -1,0 +1,2603 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2020-09-22T11:34:26Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="218" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="236.25" />
+      <Column ss:StyleID="s62" ss:Width="163.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="390" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="219.75" />
+      <Column ss:StyleID="s62" ss:Width="183.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLING_VIRUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karıştırıcı Virüs</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLING_VIRUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir birime Ark Hasarı verir. Bu saldırı, {ScramblingJumpTime} hex içindeki diğer düşman birimlerine {ScramblingJumpRange} kez sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="9" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Guardian Daemon Shell</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimin menzilli saldırılarla vurulması {WetwareEvade} daha zordur. Ayrıca [abilityblue]Bütünleşik[/abilityblue] olurlar ve Sentez teknolojisiyle arayüz oluşturabilirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daemon Kabuğunu Hedefleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim {InformationAccuracy} isabetlilik ve {InformationCrit} kritik vuruş şansı kazanır. Ayrıca [abilityblue]Entegre[/abilityblue] olurlar ve Sentez teknolojisiyle arayüz oluşturabilirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Hedefleme İfriti bu birimle [abilityblue]Bütünleşik[/abilityblue] olup isabet oranlarını {InformationAccuracy} ve kritik vuruş şanslarını {InformationCrit} artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{InformationAccuracy} isabet, {InformationCrit} kritik vuruş şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzlaşma Modülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah saldırıları artık Mekanik ve Cyborg birimlerine {CompromizedDuration} için [abilityred]Compromised[/abilityred] uygulamak için {CompromisedChance}[StrengthWave/] güç şansına (tekrarlayan saldırılar için {CompromisedChanceRepeating}[StrengthWave/]) sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Compromised is a negative status effect that debuffs enemy units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daemon Kabuğunu Etkisizleştir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birime, düşman birimlerini etkisiz hale getirmek için konuşlandırabilecekleri bir Etkisiz Hale Getirme İfriti içeren bir İfrit Kabuğu sağlar. Ayrıca [abilityblue]Integrated[/abilityblue] olurlar ve Sentez teknolojisi ile arayüz oluşturabilirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. A Shell is a physical container, like a metal box, that contains the Daemon. They deploy the Daemon from this 'box'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İfriti Etkisiz Hale Getir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman Mekanik veya Cyborg birimine düşman bir Daemon bulaştırın. Bu, birimin {DisabledCompromisedChance} güç şansına sahip olmasına ve {DisableTurn} için [/abilityred] sersemletilmesine neden olur. Başarısızlık durumunda, birim bunun yerine sendeler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplam Ağ Entegrasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimin sendelemeye karşı bağışıklığı vardır. Birim savaşta ölürse, bir sonraki sıranın başında maksimum [hp/]'lerinin {NetworkReviveHP}'si ile yeniden canlanırlar. Bu birimin bilincinin acil durum yedeğini oluşturarak, aynı zamanda [abilityblue]Entegre[/abilityblue] olurlar ve Sentez teknolojisiyle arayüz oluşturabilirler.[br/][br/][firecol]A birim savaş başına yalnızca bir kez kendini canlandırabilir.[/firecol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects. The emergency backup is a 'download' of the unit's soul onto computer hardware.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON_INFUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağıtılabilir Kötü Amaçlı Yazılım Daemon'u</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON_INFUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kötü Amaçlı Yazılım Daemon'unun yaşadığı bir drone konuşlandırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON_INFUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malware Daemon drone'unu konuşlandır. Menzilli bir Ark saldırısına sahiptir ve yok edilirse, yakındaki bir düşman Mekanik veya Cyborg birimini [abilityred]Zihin Kontrolü[/abilityred] yapmaya çalışır.[br/][br/] Çağrılan birim, aktif bir yetenek vermeyen tüm uyumlu modları devralır.[br/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTEGRATED_MILITARY_NETWORKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entegre Askeri Ağlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTEGRATED_MILITARY_NETWORKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm Mekanik ve Sayborg birimleri [abilityblue]Entegre[/abilityblue] olur ve Sentez teknolojisiyle arayüz oluşturabilirler.[br/]A Kontrol ettiğiniz tüm milis birimleri [abilityblue]Entegre[/abilityblue] olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTEGRATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entegre</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTEGRATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ünite Synthesis teknolojisi ile entegre edilmiştir ve Synthesis ağları ve Daemon'ları ile iletişim kurmasını sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite bir Sentez Ünitesidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tehlikede</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COMPROMISED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityred]ZZedelenmiştir[/abilityred]. {CompromisedStaggerReduction} seviyesinde sendeleme direnci kaybederler, Ark dirençleri {CompromisedArcResist} azalır ve diğer dirençleri {CompromisedResistenceDrop} azalır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Compromised is a negative status effect that debuffs enemy units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COMPROMISED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik ve Cyborg birimlerine {CompromizedDuration} için [abilityred]Compromised[/abilityred] uygulamak için {CompromisedChance} güç şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BUZZER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Buzzer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_BUZZER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman hedefine tekrar eden bir Yay silahı ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_CONSCIOUSNESS_TRANSMISSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acil Durum Bilinç İletimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_CONSCIOUSNESS_TRANSMISSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir Kötü Amaçlı Yazılım İfriti ile zorla entegre edilmiştir ve savaşın sonuna kadar [abilityred]Zihin Kontrollüdür[/abilityred], sonrasında yok edilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_CONSCIOUSNESS_TRANSMISSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabuğunun imha edilmesinin ardından Kötü Amaçlı Yazılım İfriti, {EmergencyRange} altıgen içinde rastgele bir düşman Mekanik veya Sayborg birimiyle zorla bütünleşmeye çalışacaktır. Düşman biriminin {EmergencyChance} kuvvetinde [abilityred]Zihin Kontrollü[/abilityred] olma ve savaşın sonuna kadar bağlılık değiştirme şansı olacaktır. Başarısızlık durumunda, birim bunun yerine [abilityred]Zehirlenmiş[/abilityred] olur. Birim bağlılığını değiştirirse, [abilityblue]Bütünleşik[/abilityblue] de olurlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Compromised is a negative status effect that debuffs enemy units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasher SMG</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman hedefine bir Hasher SMG ateşle.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hasher is a made up word</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREACH_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhlal SMG</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREACH_SMG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman hedefine bir Gedik SMG ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAYWIRE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haywire Daemon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAYWIRE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman Mekanik veya Cyborg birimine düşman bir Daemon zorla bulaştırılır. [abilityred]Sarsılırlar[/abilityred] ve {HaywireTurnCompromised} boyunca A0[3]9Devre Dışı[/abilityred] olma şansları {HaywireChanceCompromised}'dir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAYWIRE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birime zorla bir Haywire Daemon bulaştırıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neuroscrambler Daemon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Neuroscrambler - neurons from brain, scramble as in mix up</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="54">
+        <Cell>
+          <Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız olmayan hedef düşman birimine zorla düşman bir Daemon bulaştırılır. {HaywireTurnCompromised} boyunca [abilityred]Devre dışı[/abilityred] olmak için {HaywireChanceCompromised} güç şansına sahiptirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">note: the Haywire tags should not be changed</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neuroscrambler Daemon ile zorla enfekte edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNING_STEP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayarlama Adımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="46.5">
+        <Cell>
+          <Data ss:Type="String">TUNING_STEP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef altıgene ışınlanarak {hexrad} altıgen yarıçapındaki dost [abilityblue]Bütünleşik[/abilityblue] birimlere [abilityblue]{turns} için ince ayarlanmış[/abilityblue] ({fineltytunedbonus} hasar ve isabet) verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="46.5">
+        <Cell>
+          <Data ss:Type="String">RECONSTRUCTED_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Yapılandırılmış Daemon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RECONSTRUCTED_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölü bir Mekanik veya Cyborg birimini hedef alarak, hurdayı Yeniden Yapılandırılmış bir Daemon birimine dönüştürecek bir Daemon gönderin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHRAPNEL_VIRUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şarapnel Virüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SHRAPNEL_VIRUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şarapnel parçaları halinde patlayarak düşman birimlerine hasar veren bir el bombası fırlatın. Her şarapnel parçası bir [abilityred]Zarar Veren Virüs[/abilityred] içerir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">With Virus, we mean a computer virus that negatively effects the systems of the enemy unit.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shouldn't the hex radius of the grenade's damage be specified here?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSIVE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Kulesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFENSIVE_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe küçük bir savunma ateşli silah tareti ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UPLOAD_AC_DATA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AC Verilerini Yükle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">UPLOAD_AC_DATA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Duyarlı bir birime yapay bir bilinç yükleyin. Bu, hedef dost [abilityblue]Integrated[/abilityblue] biriminin bekleme sürelerini ve savaş başına bir kez yeteneklerini sıfırlar. [br/][br/]Bu, diğer Ağ Bağlantılarında kullanılamaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The artificial consciousness (AC) is the soul of a being, converted into computer software. Integrated is a status effect that allows the unit to be the target of beneficial effects. Network Link is a type of unit (the one that uses this ability)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOWNLOAD_AC_DATA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AC Verilerini İndirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DOWNLOAD_AC_DATA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilincinin kalıntılarını indirmek için Akılsız olmayan ölü bir birimi hedef alın. Ceset yok edilir ve AC Verilerini Yükle yeteneği sıfırlanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The artificial consciousness (AC) is the soul of a being, converted into computer software. Integrated is a status effect that allows the unit to be the target of beneficial effects</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DATA_INTEGRITY_ENFORCEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veri Bütünlüğü Uygulaması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DATA_INTEGRITY_ENFORCEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm savaş alanındaki dost ve düşman tüm aktif Daemonların ve Alt Programların süresini {IntegrityEnforcementTime} kadar uzatın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durum Kaydetme Daemon'unu Sıfırla</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef [abilityblue]Integrated[/abilityblue] birimiyle arayüz oluşturması için bir Daemon göndererek durumlarını sıfırlar. Birimin tüm düşmanca etkileri yok edilir, tüm durum etkilerine karşı bağışıklık kazanır ve {ResetSaveStateDaemonHP}[hp/] için sıranın başında {ResetSaveStateDaemonTime} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim her turun başında {ResetSaveStateDaemonHP}[hp/] kazanarak yenileniyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_DISRUPTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bozulma Virüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ARC_DISRUPTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimine bir Bozma Virüsü ateşlemek için bir yay düğümü kullanın. Bu saldırı {DisruptionJumpAmount} kez {DisruptionJumpRange} hex içindeki diğer düşman birimlerine sıçrar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">With Virus, we mean a computer virus that negatively effects the systems of the enemy unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OVERLOAD_VIRUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Yük Virüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OVERLOAD_VIRUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime Ark hasarı verir. Bu saldırı {CascadeJumpRange} hex içinde {CascadeJumpAmount} kez sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OVERRIDE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daemon'u Geçersiz Kılma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">OVERRIDE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman Mekanik veya Cyborg birimine, birimin kontrolünü ele geçirmeye çalışan düşman bir Daemon zorla bulaştırılır. {DisabledCompromisedChance} gücünde [abilityred]Zihin Kontrollü[/abilityred] olma ve savaşın sonuna kadar bağlılık değiştirme şansına sahiptirler. [abilityred]ihin Kontrolü[/abilityred], büyücü öldürüldüğünde sona erer. Başarısızlık durumunda, birim [abilityred]Devre Dışı[/abilityred] yerine {disabledTurns}[turn/] olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OVERRIDE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir Geçersiz Kılma Daemon'u tarafından kontrol edilir ve [abilityred]Zihin Kontrollü[/abilityred]'dir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMPLIFY_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amplify Daemon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMPLIFY_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birimle arayüz oluşturması için dost bir İblis göndererek onu büyük ölçüde güçlendirin. Birim {AmplifyDaemonDam} hasar verir ve {AmplifyDaemonResist} seviyesinde Darbe direnci ve Hızlı Hareket kazanır. Birim ayrıca [abilityblue]Bütünleşik[/abilityblue] olur. Bu {duration} boyunca sürer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMPLIFY_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost bir İblis bu birimle [abilityblue]Bütünleşik[/abilityblue]'ye sahiptir ve yeteneklerini artırır. Bu birim +{AmplifyDaemonDam} hasar verir ve {AmplifyDaemonResist} seviyesinde Darbe direnci ve Hızlı Hareket kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AEGIS_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aegis Alt Programları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AEGIS_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyucu alt rutinleri tüm [abilityblue]Integrated[/abilityblue] birimlerine yükler. {AegisSubroutinesTurns} için {AegisSubroutinesShield} alırlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Subroutines are a positive kind of computer virus, which boosts the abilities of friendly units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AEGIS_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin aktif koruyucu alt rutinleri vardır. Kalkanları {AegisSubroutinesShield} tarafından artırılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISRUPTION_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kesinti Virüs Nabzı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DISRUPTION_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimi {DisruptionPulseDam} Ark hasarı alır. Bu yetenek Mekanik veya Sayborg birimini hedef alırsa, hedefin [abilityred]Kompromize[/abilityred] olmasına neden olmak için {DisruptionPulseChance} kuvvetinde bir şansa sahiptir. Bu yetenek, {Kesinti DarbesiHeksleri} heksi içindeki diğer düşman birimlerine {Kesinti DarbesiSıçrama} katına kadar sıçrar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">With Virus, we mean a computer virus that negatively effects the systems of the enemy unit. Compromised is a negative status effect that debuffs enemy units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MOTION_CONTROL_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareket Kontrol Hack</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MOTION_CONTROL_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Radius} altıgen alanındaki Düşman Mekanik ve Sayborg birimleri {DamageAmount}[damageWave/] ile [abilityred]Kütlesel Darbe[/abilityred] alır. Ek olarak, {duration} için [abilityred]Hareketsiz[/abilityred] olma şansına sahiptirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">With hacking we are referring to computer hacking.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOMOUS_REPAIR_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom Onarım Alt Programları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOMOUS_REPAIR_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost [abilityblue]Entegre[/abilityblue] birimlerine onarım alt rutinleri yükler. {RepairSubroutinesHeal}[hp/] için her turun sonunda {RepairSubroutinesTurns} için iyileşirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Subroutines are a positive kind of computer virus, which boosts the abilities of friendly units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOMOUS_REPAIR_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin aktif onarım alt rutinleri vardır. Her turun sonunda {RepairSubroutinesHeal}[hp/] için iyileşirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REDUCE_THREAT_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lokalize Sistem Kapatma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">REDUCE_THREAT_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Radius} hex etki alanındaki düşman Mekanik ve Cyborg birimlerine müdahale etmek için hedefli bir hackleme sinyali gönderir. Bu birimlerin {DisableChance} boyunca [abilityred]Devre dışı [/abilityred] olmak için {duration} güç şansları vardır. Direnilirse, birimler bunun yerine [abilityred]Sarsılmış[/abilityred] olurlar. Ek olarak, bölgedeki Biyolojik birimlerin {ElectrifiedChance}[strengthWave/] güç şansı {ElectrifiedDuration}[turn/] için [abilityred]Elektrifiye[/abilityred] olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çatışma Alt Programları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost [abilityblue]Integrated[/abilityblue] birimlerine savaş alt rutinleri yükler. Bu birimler +{SkirmishImpactIncrease} Darbe direnci kazanır ve {SkirmishTurns} için +{SkirmishDamageIncrease} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Subroutines are a positive kind of computer virus, which boosts the abilities of friendly units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin aktif savaş alt rutinleri vardır. Bunlar +{SkirmishDamageIncrease} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIRMISH_SUBROUTINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{SkirmishDamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="94" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dahili Sistem Aşırı Yük Hack</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman ordusundaki tüm Mekanik ve Cyborg birimleri mevcut [hp/] hasarlarının {InternalSystemOverloadHackHP}'sini alır. Bu şekilde hasar alan birimler, her savaşın başında {InternalSystemOverloadHackTime} stratejik tur için [abilityred]ZZorunlu[/abilityred] olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_FAIL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, tüm Mekanik ve Sayborg birimleri mevcut [hp/] hasarlarının {InternalSystemOverloadHackHP}'sini alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sistem saldırılarımız başarılı oldu ve düşman ordusunun Mekanik ve Cyborg birlikleri hasar gördü. Ayrıca, bu birliklerin sistemleri kısa bir süreliğine tehlikeye girmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sistem saldırımız düşman ordusu tarafından kısmen önlendi. Küçük bir hasar vermeyi başardık, ancak sistemleri ne yazık ki tehlikeye atılmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuz hacklendi! Tüm Mekanik ve Cyborg birimleri hasar gördü ve kısa bir süreliğine tehlikeye girdi.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuza yapılan bir saldırı girişimi önlendi. Mekanik ve Cyborg birimleri küçük hasarlar aldı ancak sistemleri daha fazla tehlikeye atılmadı.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordudaki Mekanik ve Sayborg birimleri [hp/]'lerinin {Damage}'si kadar hasar görür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_COMPRIMISE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordudaki Mekanik ve Cyborg birimleri [abilityred][/abilityred] için {turns}'dir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="104" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıfır Gün Güvenlik Açığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman koloninin operasyonel savunması {Zero-DayVulnerabilityAmount} kadar azaltılır ve mutluluğu {Zero-DayVulnerabilityTime} için {Zero-DayVulnerabilityHappiness} kadar azaltılır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisindeki bir sıfırıncı gün açığını başarıyla kullandık! Operasyonel ağları zayıflatıldı ve nüfuslarının morali düşürüldü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisindeki bir sıfırıncı gün açığından yararlanmaya çalıştık. Ne yazık ki, görevimizi tamamlayamadan durdurulduk, ancak girişimimiz kolonide sivil huzursuzluğa neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman hackerlar kolonimizin güvenliğindeki açıklardan faydalandılar. Operasyon savunma sistemlerimizi başarıyla ihlal ettiler ve onları zayıflattılar. Bu saldırı halkımızın moralini bozdu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman hackerlar kolonimizin güvenliğindeki açıklardan faydalanmaya çalıştılar. Girişimlerini büyük bir hasar vermeden durdurmayı başardık, ancak halk onların çabaları nedeniyle sivil huzursuzluk yaşıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{UnhappinessAmount} neden oldu ve {turns} için operasyonel savunma {OperationalDefense Reduction} ile azaltıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bakım Daemonlarını Dağıtma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bakım Daemonları dost orduya konuşlandırıldı, onları onarıyor ve savaş için ince ayar yapıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_HEAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler tam [hp/]'ye iyileştirilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_FINELYTUNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler [abilityblue]Finely-tuned[/abilityblue] kazanarak +{accuracy} isabet ve +{damage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost ordudaki tüm [abilityblue]Bütünleşik[/abilityblue] birimleri tam [hp/] iyileşir ve {duration} stratejik tur için [abilityblue]İnce ayarlı[/abilityblue] kazanarak +{accuracy} isabet ve +{damage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnce ayarlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bakım iblisleri tarafından ince bir şekilde ayarlanmıştır. +{accuracy} isabet ve +{damage} hasar kazanırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REACTIVATE_IMPERIAL_ANDROIDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Androidlerini Yeniden Etkinleştirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">REACTIVATE_IMPERIAL_ANDROIDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerel imparatorluk androidlerini yeniden etkinleştirmek, sahada hızlı takviyeler sağlayabilir.[br/][br/]Hedef konumda {number} Autonom, E:bot veya Ağ Bağlantısı birimlerini çağırın. Bu birimler yalnızca Kademe 1 veya 2 olabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basamaklı Sistem Arızası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman kolonisinin geliri {CascadingTime} için {CascadingAmount} kadar azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisinde kademeli bir sistem çöküşüne neden olmayı başardık. Ekonomik sistemleri zayıfladı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisinde kademeli bir sistem arızasına neden olmaya çalıştık. Ne yazık ki, görevimizi tamamlayamadan durdurulduk, ancak girişimimiz kolonide sivil huzursuzluğa neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman hackerlar kolonimizin güvenliğindeki açıklardan faydalandılar. Ekonomik sistemlerimizi başarıyla hacklediler ve gelirimizi azalttılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman hackerlar kolonimizin güvenliğindeki açıklardan faydalanmaya çalıştılar. Girişimlerini büyük bir hasar vermeden durdurmayı başardık, ancak çabaları halkımızda sivil huzursuzluğa neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{turns} için {IncomeModifier} ile gelir azaltılmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="128" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORGANIZED_CYBER_DIVISIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Organize Siber Bölümler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ORGANIZED_CYBER_DIVISIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş zamanlarında siber savaş bölümümüzü optimize edip güçlendirerek daha acımasız siber saldırılara ve daha yüksek verimliliğe olanak tanıyın.[br/][br/]Tüm operasyonlar için {OperationStrengthModifier} kazanın. Buna ek olarak, stratejik ve gizli operasyonlar artık {StrategicCostModifier} daha ucuz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WORKER_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşçi Entegrasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">WORKER_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birkaç küçük siber güçlendirme ile fabrika çalışanlarımızı ağa entegre edebilir ve verimliliklerini büyük ölçüde artırabiliriz.[br/][br/][production/] ve [energy/] yuvaları, çalışan kolonist başına ilgili kaynaktan {SlotProductionModifier} üretir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">slots refer to work spaces you can assign colonists to in game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOCIETY_2.0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toplum 2.0</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SOCIETY_2.0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgisayarlar her yerde, her şeyi yapıyor ve her şeyi görüyor. İnsanlarımız dijital bir tüketim ve hedonizm cennetine tamamen entegre olmuş durumda ve bunun için bizi seviyorlar.[br/][br/]ATüm Koloniler {HappinessModifier} kazanır ve {EnergyModefier} üretir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WAR_OF_THE_MACHINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Topyekün Savaş Otomasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">WAR_OF_THE_MACHINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez teknolojisinin savaş fabrikalarına tam entegrasyonu, birimlerimiz için verimlilik ve etkinlikte büyük kazançlar sağlar.[br/][br/]ATüm birimler üretildiğinde {RankModifier} ekstra rütbe kazanır ve {EnergyModifier}'ye mal olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">WAR_OF_THE_MACHINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler {medal}[medalIron/] rütbesi kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">WAR_OF_THE_MACHINES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler için {discount}[energy/] maliyeti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siber Saldırı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CYBER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez olmayan bir düşman kolonisine siber saldırı başlatarak sistemlerine sızın ve onları {INT_duration} karşılığında Basilisk ağına bağlayın. Bu yetenek, ne kadar çok Basilisk Düğümü inşa ederseniz o kadar büyük hasara neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CYBER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siber saldırımız sistemlerine sızma konusunda başarılı oldu ve artık ağlarına erişimimiz var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CYBER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siber saldırımız düşman tarafından durduruldu ve sistemlerini Basilisk ağına bağlamamız engellendi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CYBER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman bir siber saldırı başlattı ve sistemlerimize girdi! Sistemlerimizi temizlemek ve güvence altına almak için biraz zaman harcamamız gerekecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CYBER_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmalarımız, düşmanın siber saldırılarıyla sistemlerimize sızmasını başarılı bir şekilde engellemiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SINGULARITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekillik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SINGULARITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm gezegeni Basilisk ağında birbirine bağlayarak hepsini kontrolünüz altına alın ve mutlak güç sağlayın.[br/][br/]Siber Saldırı seviye 3 gerektirir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SINGULARITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Ağı şu anda tam potansiyeliyle aktif durumda ve gezegeni karmaşık bir veri akışı ve mantık kontrolü ağıyla kaplıyor. Nihai zaferin bizim olması sadece bir zaman meselesi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETWORK_DATABASE_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Düğümü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NETWORK_DATABASE_NODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Düğümü, Siber Saldırı Kıyamet Günü Silahının kilidini açar. İnşa ettiğiniz her ilave Basilisk Düğümü silahın seviyesini artırarak onu daha güçlü hale getirir.[br/][br/]Kolononi başına yalnızca bir Basilisk Düğümü inşa edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Ağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol edilebilmesi için tüm sistemleri ve yaşam formlarını devasa Basilisk ağına bağlayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez birimleri {NetworkAcc} [accuracy/] ve {NetworkCrit} kritik vuruş şansı kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.&lt;REPLACED RESEARCH WITH KNOWLEDGE&gt;</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çal {NetworkResearchTheft}[research/]</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.&lt;REPLACED RESEARCH WITH KNOWLEDGE&gt;</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Ağı Seviye 2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin {NetworkAcc} [accuracy/] ve {NetworkCrit} kritik şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Zehirlenmiş[/abilityred] Sentez olmayan birimler, her [turn/]'de bir [abilityred]Kapasite[/abilityred] veya [abilityred]Haywire[/abilityred] Daemon elde etmek için {NetworkDaemonChance} güç şansına sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Compromised is a negative status effect that debuffs enemy units.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required. &lt;REPLACED RESEARCH WITH KNOWLEDGE&gt;</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Network Seviye 3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Riskli[/abilityred] olan Sentez dışı tüm birimler, her [turn/]'de bir [abilityred]Kapasite[/abilityred] veya bir [abilityred]Haywire[/abilityred] İfriti tarafından enfekte edilmek için {NetworkDaemonChance} güç şansına sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Compromised is a negative status effect that debuffs enemy units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_INITIAL_NOTIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Tekillik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Düğümlerimizden biri ele geçirildi!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Our or your? We need to keep this conistent. Are we referring to the player/commander (singular) or the empire (plural)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümü kaybettiniz!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Basilisk Düğümünü kaybetti!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">STR_Player is the name of the leader in game. Can be male or female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümü kaybettiniz. Tekilliği serbest bırakma girişimimiz iptal edildi!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Basilisk Düğümünü kaybetti. Tekillik'i serbest bırakma girişimleri engellendi!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">STR_Player is the name of the leader in game. Can be male or female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_INITIAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Oyuncu Tekillik'i serbest bıraktı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_BUILT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümü inşa ederek, {playerName} artık Kıyamet Günü Silahı olan Tekilliğe erişebilir. Şu anda zayıftır, ancak daha fazla Basilisk Düğümü inşa edildikçe daha güçlü hale gelecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_BUILT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} ikinci bir Basilisk Düğümü inşa ederek Kıyamet Günü Silahı olan Tekilliği güçlendirdi. Çok güçlü hale gelmeden önce bu Basilisk Düğümü yapılarını yok etmek için baskınlar planlamalısınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_BUILT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, son Basilisk Düğümünü inşa ederek Kıyamet Günü Silahı Tekilliğin gücünü en üst düzeye çıkardı. Artık onu tamamen serbest bırakmaya ve oyunu kazanmaya çok yakınlar. Saldırı zamanı şimdi!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_CAPTURED_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü Zamanlayıcısı duraklatıldı! Kayıp Basilisk Düğümünü geri almalısınız, yoksa Tekilliği düşmanlarınızın üzerine salma şansınızı kaybedeceksiniz!</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümünün kaybı Tekillik'i iptal ederek Kıyamet Günü Zamanlayıcısını sonlandırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümünün kaybı Tekilliği zayıflattı ve Kıyamet Günü operasyonlarınız iptal edildi.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_FINISHER_CAST_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız Kıyamet Günü Silahlarını etkinleştirdi, Tekillik tüm gezegene yayıldı ve kendi Kıyamet Günü Silahınız tufan tarafından yok edildi. Basilisk Düğümlerinden birini yok etmek için {numTurns} süreniz var, aksi takdirde oyunu kazanacaklar.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekillik aktif ve Basilisk Düğümlerinizden birini kaybetmediğiniz sürece {numTurns}'de kazanacaksınız.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekillik aktif ve {playerName}, Basilisk Düğümlerinden birini yok edemezseniz {numTurns}'de kazanacak.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümü ele geçirildi! Eğer yok edilirse, Kıyamet Günü Zamanlayıcımız iptal edilecektir. Eğer onu yeniden ele geçirirseniz, geri sayımı devam ettirebilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Basilisk Düğümü ele geçirildi. Eğer yok edilirse, Kıyamet Günü Zamanlayıcısı iptal edilecektir. Eğer {playerName} onu yeniden ele geçirirse, geri sayıma devam edebilecekler.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SYNTH_EVENT_FINISHER_PRIMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} Tekillik Kıyamet Günü Silahını hazırlıyor. Eğer tamamlamalarına izin verilirse, kendi Kıyamet Günü Silahınız yok olacak ve {playerName} tam zaferden sadece bir adım uzakta olacak!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possible gender specific text required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SYNTH_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senteze ulaştınız.A0[1]9İnsan ve makinenin zihinleri birleşiyorA0[2]9Evrimin yeni bir aşamasındaA0[3]9Büyük bir bilgi ve fikir ağı -A0[4]9Ya da ruh için ebedi bir hapishane.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">VO: Empress Carminia
+Synthesis is a state of transcendance where man is merged with machine, their consciousness merged with technology.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dodgy</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaçmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tasarlanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süper Refleksif</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzlenen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Destekli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Watch Dog</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Analist</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veri Tarayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bullseye</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aimbot</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pro Gamer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzlaşma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Volt Hacker</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik Kodlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Underminer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPROMISE_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veri Boşaltıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Trojan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Solucan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Disabler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Glitch Fighter</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOS başlatıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Donanım Sızdırıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DISABLE_DAEMON_SHELL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holo Coder</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağa Bağlı Zihin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaşam Sıfırlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekillik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Powercycle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Başlatıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçeklik Reddedici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Birader</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Botnet Önleyicisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıfırıncı Gün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rootkit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ex Machina</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tanrı Kompleksi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holo King</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Byte Prensi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMPLIFY_DAEMON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entegre Amplify Daemon</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>49</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>71</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

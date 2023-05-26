@@ -1,0 +1,1749 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Benny Arents</LastAuthor>
+    <LastSaved>2019-09-10T15:14:20Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior ss:Color="#F8CBAD" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="140" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="125.25" />
+      <Column ss:StyleID="s62" ss:Width="367.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="153.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="193.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5" />
+      <Column ss:StyleID="s62" ss:Width="367.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNIT_UPGRADES_GENETICS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SWARM_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SWARM_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü Kalkanına sahip komşu bir dost birim olduğunda birim +{SwarmShieldAmount} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SWARM_SHIELDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü Korumalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SWARM_SHIELDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, Sürü Kalkanları olan bir birimin yanında olduğu için +{SwarmShieldAmount}'ye sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEVOUR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yutmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEVOUR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME_NO_EMERGENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yutmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEVOUR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birimi {DevourStrength} güçle yemeye çalışarak anında öldürme ve bu birimi {HealAmount} karşılığında iyileştirme şansı. Bu birim ayrıca [abilityblue]Yumurtlama Larvası[/abilityblue] yeteneği kazanır.[br/]Sadece Hafif Biyolojik veya Cyborg birimlerde işe yarar.[br/]Bu birim yalnızca Takviye olmayan bir birimi yerse [abilityblue]Yumurtlama Larvası[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEVOUR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION_NO_EMERGENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güç {DevourStrength} hedefi anında öldürme ve bu birimi {HealAmount} karşılığında iyileştirme şansı.[br/]Sadece Hafif Biyolojik veya Cyborg birimler üzerinde çalışır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RENDING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rending Claws</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RENDING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefi parçalayan pençelerle vur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RIPCLAW_GASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ripclaw Gash</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RIPCLAW_GASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü yakın dövüş saldırısı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünmezlik Kabuğu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim [abilityblue]Evrensel Kamuflaj[/abilityblue] kazanır ve vurulması {CloakingAccuracyDecrease} daha zordur.[br/][br/]Ayrıca, bu birim her vurulduğunda, o tur için vurulması {CloakingAccuracyDecreaseBuff} daha zor hale gelir. Bu etki en fazla 3 kez birikebilir.[br/][br/][productioncol]Herhangi bir zamanda yalnızca bir tür kabuk aktif olabilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {CloakingAccuracyDecrease} vurması daha zor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarlanabilir Kabuk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir saldırıya maruz kaldığında, {ArmorReactTurn} karşılığında +{ArmorReact} kazanır. Bu etki en fazla {NumStacks} kez birikebilir.[br/][br/][productioncol]Herhangi bir zamanda yalnızca bir tür kabuk etkin olabilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimde yığın başına +{ArmorReact} vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXPULSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehir Atılımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">POISON_EXPULSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turun sonunda, komşu düşman birimleri {damage} hasar alır ve bu birimlerin [abilityred]Zehirlenmiş[/abilityred] alma şansı {poisonchance} gücündedir.[br/][br/]Bu birim ölürse, patlayarak tüm komşu düşman birimlerine {PoisonExplosionDamage} verir ve bu birimlere [abilityred]Zehirlenmiş[/abilityred] uygulama şansı {poisonchance} gücündedir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRENZY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çılgınlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FRENZY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çılgınlığa sahip bir birimin her başarılı saldırısı, yakın dövüş hasarını {FrenzyMeleeIncrease} artırır. Bu güçlendirme {FrenzyTurns} boyunca sürer ve {StackCap} defaya kadar birikebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRENZY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim çıldırmış durumda ve daha fazla yakın dövüş hasarı veriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="31" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rejeneratif Kabuk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityblue]Yenilenme[/abilityblue] kazanır, savaşta her tur {AcceleratedHealthRegen}[hp/] iyileştirir ve stratejik haritada sahibinin sırasının başında tüm [hp/]'sini geri kazanır.[br/][br/][productioncol]Herhangi bir zamanda yalnızca bir tür kabuk etkin olabilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Resüsitasyon Bezleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim taktik savaş sırasında öldürülürse, {SpareTurnRevive}'den sonra {SpareHealthRevive} ile yeniden canlanacaktır.[br/][br/][firecol]A birim savaş başına yalnızca bir kez canlanabilir.[/firecol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltilmiş Görüş (Dedektör)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {ReflexAccuracyIncrease} artırılmış isabetlilik kazanır. Birim ayrıca +{IncreaseStrategicVision} Stratejik Görüş Menzili ve Algılama kazanarak stratejik haritada gizlenmiş birimleri görmesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğruluk {ReflexAccuracyIncrease} ile artırıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="40" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sakatlayan Pençeler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin yakın dövüş saldırıları, Biyolojik veya Sayborg birimlere {Duration}[turn/] karşılığında [abilityred]Cripple[/abilityred] uygulamak için bir {StrengthCripple}[strengthPhysical/] güç şansı (tekrarlanan saldırılar için {StrengthCrippleRepeating}[strengthPhysical/]) kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTED_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-enfekte Pençeler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="111">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTED_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimden gelen yakın dövüş saldırılarının {StrengthChancePsiClaws}[strengthPsyche/] güç şansı (tekrarlanan saldırılar için {StrengthChancePsiClawsRepeating}[strengthPsyche/]) [abilityred]Sarsıntı[/abilityred], [abilityred]İnsanlık[/abilityred] uygular, [abilityred]Panic[/abilityred], [abilityred]Catatonic[/abilityred] veya [abilityred]Immobilize[/abilityred], {ParasiticInfectionDuration}[turn/] için Akılsız olmayan Biyolojik veya Cyborg birimlerine rastgele.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTED_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güç {InfectChance}[StrengthPsyche/], [abilityred]Sarsıntı[/abilityred], [abilityred]Delilik[/abilityred], [abilityred]Panik[/abilityred]'den birini uygulama şansı, [abilityred]Catatonic[/abilityred] veya [abilityred]Immobilize[/abilityred], {ParasiticInfectionDuration}[turn/] için Akılsız olmayan Biyolojik veya Cyborg birimlerine.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXCRETE_LARVA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yumurtlayan Larva</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXCRETE_LARVA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yutulan birimi dost bir larva olarak doğurur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tünel Açan Pençeler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin yakın dövüş saldırıları +{IncreasedDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String" x:Ticked="1">{IncreasedDamage} hasarı artırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAVAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ravage</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAVAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü pençeleriyle tekrar tekrar saldırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Metabolizma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim benzersiz bir metabolizma geliştirerek [abilityblue]Skitter[/abilityblue] kazanır ve savaş sırası boyunca hareket ettikçe vurulması daha zor hale gelir. Taktik savaşta her turda bir kez, bu birimin eylem puanları bir birimi öldürdükten sonra yeniden doldurulur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öldürmeler her turda bir kez eylem puanlarını doldurur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adrenal Yanıt Bezleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim her hasar aldığında, bir [abilityblue]Hasarlı[/abilityblue] yığını kazanarak birime yığın başına +{AdrenalMeleeDamage} yakın dövüş hasarı, +{AdrenalAccuracy} isabet ve +{AdrenalCritical} kritik vuruş şansı verir. Bu, en fazla {AdrenalStackMax} kez birikebilir. Kızgınlık {AdrenalTurns} boyunca sürer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> +{AdrenalAccuracy} isabet, +{AdrenalCritical} kritik vuruş şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION_MELEE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> +{AdrenalDamage} hasar, +{AdrenalAccuracy} isabet, +{AdrenalCritical} kritik vuruş şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="63" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRUSHING_MANDIBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ezici Alt Çeneler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRUSHING_MANDIBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü dişlerle hedefi ezin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BLINDING_GAS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kör Edici Gaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BLINDING_GAS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{duration} boyunca savaş alanında kalan kör edici bir gaz bulutuyla patlayan bir bomba ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="70" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Seğirme</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Temiz Görüşlü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Farkında</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Keskin Görüşlü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Odaklanmış</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Algılama</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEIGHTENED_VISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yetenekli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Jagged</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yarma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Çatlatma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bilenmiş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yırtılma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUNDERING_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Öngörülemez</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yenileniyor</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Dayanıklı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Onarılmış</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Restore edildi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ölümsüz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kurtarılmış</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kalıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Uçucu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Zehirli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Salya akıtmak</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Zehirli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Dikenli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Asidozik</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">POISON_EXCRETION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Expulsor</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Quicksilver</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kuduz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Apex</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yırtıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Rage Runner</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCELERATED_METABOLISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Primeval</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTECD_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Shieldripper</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTECD_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Şüpheli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTECD_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Disturbed</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTECD_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Perturber</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTECD_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mindsoiler</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI_INFECTECD_CLAWS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kontaminatör</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Tünel Açıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Burrower</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Groundstalker</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Desurfaced</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yeraltı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TUNNELING_ADAPTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Earthswimmer</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Edgedancer</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Zorlu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Belirsiz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Buharlaştırılmış</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sıvı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kayboluş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADAPTIVE_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Maddi Olmayan</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Algılanamaz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Shadowstalker</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nightglare</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bukalemun</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Veilcloaked</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOAKING_CARAPACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Darkhaze</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Amansız</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Neveryielding</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kehanet Edildi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kırılmaz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sonsuzluk</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Foretold</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESUSCITATION_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ölümsüz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66">
+          <Data ss:Type="String">Review needed?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Çılgınca</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Öfkeli</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Wrathshrieker</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Zincir Kıran</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hellraiser</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Öfkeli</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <TopRowVisible>23</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>35</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

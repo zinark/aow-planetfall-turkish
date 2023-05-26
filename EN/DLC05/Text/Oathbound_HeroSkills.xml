@@ -1,0 +1,840 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2020-07-17T11:42:40Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="56" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="139.5" />
+      <Column ss:StyleID="s62" ss:Width="168" />
+      <Column ss:StyleID="s62" ss:Width="354.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="313.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OATHBOUND_HERO_SKILLS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OATHBOUND_SKILL_GROUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILL_SUBTITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound Kahraman Becerisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Skill tree header</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sezgisel Vuruşlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sezgisel Vuruşlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description
+Precognition is a buff that allows you to evade an attack</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zayıflatıcılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir aracın içindeyken, bir seviye [abilityblue]Sarsıntı Direnci[/abilityblue] ve +{staggerResist} [abilityblue]durum etkisi direnci[/abilityblue] kazanın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Trailblazer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç içindeyken birimin [abilityblue]Hızlı Hareket[/abilityblue] özelliği vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saha Onarım Droidi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman tarafından sürülen araçlar  [abilityblue] Yenilenme [/abilityblue]  kazanır. Araç yok edilirse, kahraman da öldürülmediği sürece, savaşın sonunda  {ResurganceRestore}  % [hp/]  oranında yenilenir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oracle'ın Protégé'si</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nötr'ün üzerindeki her itibar seviyesi için +{hpBonus}[hp/] ve {armorBonus}[armor/] kazanırsınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_POSITIVE_REP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman {hpBonus}[hp/] ve {armorBonus}[armor/] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahin'in İyiliği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı öldürmek kahramana bir yığın [abilityblue]Tanıma[/abilityblue] kazandırarak onu etkileyecek bir sonraki doğrudan hasar saldırısını etkisiz hale getirir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Yük Güç Çekirdeği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Savaş Zırhı aracındayken, bu kahraman tek eylemli [abilityblue]Eject[/abilityblue] yeteneği kazanır: [br/]Düşman kara birimlerine {ejectDamage} [damageWave/] {radius} hex yarıçapında hasar vererek savaş zırhını yok et.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description
+Battlesuit is a type of vehicle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çıkart</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Tulumunuzu imha ederek düşman kara birimlerine {ejectDamage} [damageWave/] {radius} hex yarıçapında hasar verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ability description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropik İnfüzyon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HERO_SKILL_8</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin saldırıları {DamageEntropyS}[damageEntropy/] (tekrar eden saldırılar için {DamageEntropyR}[damageEntropy/]) ve {strengthChance}[strengthentropy/] (tekrar eden saldırılar için {strengthChanceR}[strengthentropy/]) [abilityred]Entropik Çürüme[/abilityred] uygulama şansı kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_HERO_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALWAYS_ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her Zaman Aktif</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Conditional part of several hero skills descriptions</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_HERO_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WHEN_IN_CITY_DOMAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni'nin alanındaki kahraman</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Conditional part of several hero skills descriptions</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_HERO_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OUTSIDE_DOMAIN_WITH_THRONE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni alanı dışındaki kahraman</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Conditional part of several hero skills descriptions</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AGRARIAN_IDEALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Tarımsal İdealler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AGRARIAN_IDEALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman bir koloninin efendisi olabilir ve koloniye gıda üretimi ve mutluluk bonusları kazandırır.[br/]Bilimsel Yöntem[abilityblue]ve [abilityblue]Enerjik Verimlilik[/abilityblue]kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AGRARIAN_IDEALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FOOD_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda[food/] geliri {foodIncomeIncrease} kadar artar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AGRARIAN_IDEALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutluluk[happiness/] gelir {happinessIncomeIncrease} kadar artar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NEW_GENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Yeni Nesil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NEW_GENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman, kolonilerinde yeni bir nesle ilham verir.[br/]Kahraman becerisi [abilityblue]Eforik Varlık[/abilityblue] kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NEW_GENERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROWTH_REQUIREMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman, kolonilerinde yeni bir nesle ilham verir.[population/]Kahraman becerisi {growthRequirement}Eforik VarlıkA0[3]9Z kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EUPHORIC_PRESENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Öforik Varlık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EUPHORIC_PRESENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahramanın varlığı kolonilerindeki insanları daha çabuk mutlu eder.[br/]Yeni Nesil[abilityblue] kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EUPHORIC_PRESENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_THRESHOLD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahramanın varlığı kolonilerindeki insanları daha çabuk mutlu eder.{happinessThreshold}Yeni NesilA0[2]9Z kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCIENTIFIC_METHOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Bilimsel Yöntem</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SCIENTIFIC_METHOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman bir Koloninin Lordu olabilir ve ona araştırma ve kozmite geliri bonusları verir.[br/][abilityblue]Agrarian Ideals[/abilityblue] ve [abilityblue]Energetic Efficiency[/abilityblue]hero becerisini kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCIENTIFIC_METHOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman bir Koloninin Lordu olabilir ve ona araştırma ve kozmite geliri bonusları verir.[research/]{researchIncrease}Agrarian IdealsA0[3]9Z ve A0[4]9ZEnergetic EfficiencyA0[5]9Zhero becerisini kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCIENTIFIC_METHOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COSMITE_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cosmite[cosmite/] geliri {cosmiteIncrease} kadar artar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MILITARY_FOCUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Askeri Odak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MILITARY_FOCUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın savaş uzmanlığı bu koloninin askeri araştırmaları geliştirmesini sağlar.[br/]DKahraman becerisi [abilityblue]Toplumsal Odaklanma[/abilityblue] kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MILITARY_FOCUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MILITARY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın savaş uzmanlığı bu koloninin askeri araştırmaları geliştirmesini sağlar.[research/]DKahraman becerisi {researchIncrease}Toplumsal OdaklanmaA0[3]9Z kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOCIETAL_FOCUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Toplumsal Odak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SOCIETAL_FOCUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın zekâsı bu koloninin toplum araştırmalarını geliştirmesini sağlar.[br/]DAskeri Odaklanma[abilityblue] kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOCIETAL_FOCUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SOCIETY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın zekâsı bu koloninin toplum araştırmalarını geliştirmesini sağlar.[research/]DAskeri Odaklanma{researchIncrease} kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGETIC_EFFICIENCY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Enerjik Verimlilik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGETIC_EFFICIENCY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman bir Koloninin Lordu olabilir ve koloniye üretim geliri ve enerji geliri bonusları kazandırır.[br/][abilityblue]Agrarian Ideals[/abilityblue] ve [abilityblue]Scientific Method[/abilityblue]hero becerisini kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGETIC_EFFICIENCY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman bir Koloninin Lordu olabilir ve koloniye üretim geliri ve enerji geliri bonusları kazandırır.[production/]{productionIncrease}Agrarian IdealsA0[3]9Z ve A0[4]9ZScientific MethodA0[5]9Zhero becerisini kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGETIC_EFFICIENCY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENERGY_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahraman bir Koloninin Lordu olabilir ve koloniye üretim geliri ve enerji geliri bonusları kazandırır.[energy/]{energyIncrease}Agrarian IdealsA0[3]9Z ve A0[4]9ZScientific MethodA0[5]9Zhero becerisini kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARMY_STANDARDIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Ordu Standardizasyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ARMY_STANDARDIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın varlığı savaşma isteği uyandırır ve yeni birimler için üretim süresini kısaltır.[br/]Önceden Planlanmış Yapılar[abilityblue] kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARMY_STANDARDIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın varlığı savaşma isteği uyandırır ve yeni birimler için üretim süresini kısaltır.[production/]Önceden Planlanmış Yapılar{productionDiscount} kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PREPLANNED_STRUCTURING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Lordu: Önceden Planlanmış Yapılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PREPLANNED_STRUCTURING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın inşaat bilgisi daha verimli bina inşa edilmesini sağlar ve inşa süresini kısaltır.[br/]Ordu Standardizasyonu[abilityblue] kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PREPLANNED_STRUCTURING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanın inşaat bilgisi daha verimli bina inşa edilmesini sağlar ve inşa süresini kısaltır.[production/]Ordu Standardizasyonu{productionDiscount} kahraman becerisi kazanma seçeneğini devre dışı bırakır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hero Skill description</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>18</ActiveRow>
+          <ActiveCol>5</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

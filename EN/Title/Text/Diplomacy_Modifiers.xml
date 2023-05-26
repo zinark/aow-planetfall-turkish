@@ -1,0 +1,1333 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>ThomM</LastAuthor>
+    <LastSaved>2020-02-17T08:54:05Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>16440</WindowHeight>
+    <WindowWidth>29040</WindowWidth>
+    <WindowTopX>32760</WindowTopX>
+    <WindowTopY>32760</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="128" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="118.5" />
+      <Column ss:StyleID="s62" ss:Width="211.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="322.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="322.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="118.5" />
+      <Column ss:StyleID="s62" ss:Width="330.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DIPLOMACY_MODIFIERS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JUSTMET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadece tanıştık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">These text are all mentioned as modifier names and are displayed in lists and breakdowns. These may be inserted as strings, but never midway of a scentence.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLIMENTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İltifat edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CALLTOWAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reddedilen Savaş Çağrısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TREATYBROKEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlaşma bozuldu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRADEDECLINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Takas teklifi reddedildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alınan hediye</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRSTMEET_POSITIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Olumlu ilk temas</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRSTMEET_NEGATIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Olumsuz ilk temas</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLINEDQUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reddedilen Görev</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="13" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENT_INSULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hakaret gönderdi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENT_COMPLIMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir iltifat gönderdi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENT_GIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hediye gönderdi</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="17" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_TRESPASSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kınama: başkalarının alanına izinsiz girmek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_INSULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kınamak: başka bir oyuncuya hakaret etmek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_COVERTOPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: başka bir oyuncu üzerinde gizli operasyonlar kullandı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_SECTORCLAIM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: göz ardı edilen sektör iddiası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kınama: Kıyamet Günü ile ilerleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_DOOMSDAY_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kınamak: Kıyamet günü zaferine ulaşmak üzere</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_DOMINATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kınama: Hakimiyet ile ilerleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_DOMINATION_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: Hakimiyet zaferi elde etmek üzere</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: Birleştirici zaferiyle ilerliyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_UNIFIER_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: Birleştirici zaferine ulaşmak üzere</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_ATTACKEDTRESPASSER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: düşmanca olmayan yığına saldırdı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCE_DEFEATEDALLIEDPLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: başka bir oyuncunun müttefikini yendi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FABRICATED_DENOUNCEMENT_LVL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: güvenilmez geçmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FABRICATED_DENOUNCEMENT_LVL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: ciddi zulümler işlediğine dair söylentiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FABRICATED_DENOUNCEMENT_LVL3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar: diğer komutanların varlığına yönelik tehdit</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="33" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WASWARNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarılmıştı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WASDENOUNCED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İhbar edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WASFALSELYDENOUNCED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanlışlıkla ihbar edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="37" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RACE_ADORED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sevilen Irk İlişkisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RACE_FRIENDLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dostane Irk İlişkileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RACE_ACCEPTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabul Edilen Irk İlişkisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RACE_DISTRUSTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güvensiz Irk İlişkisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RACE_DISLIKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beğenilmeyen Irk İlişkisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RACE_DESPISED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hor Görülen Irk İlişkisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="44" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STORY_FACTION_HELPED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hikaye etkinliğinde NPC Fraksiyonuna yardım etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STORY_FACTION_OFFENDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hikaye etkinliğinde rahatsız edilen NPC Fraksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="47" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLY_OF_ALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ortak müttefik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREJUDICE_NEGATIVE_GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sevmedikleri: Beceriksizlik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREJUDICE_NEGATIVE_REASON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beğenmedim: {STR_reason}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SECTORLIBERATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektör kurtarıldı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEGLECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir süredir ihmal edilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="53" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCEPTED_DEMAND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep kabul edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="55" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKES_RELATION_WITH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_leaderName} ile ilişkinizi beğeniyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKES_RELATION_WITH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_leaderName} ile ilişkinizi beğenmiyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOO_MANY_FRIENDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok fazla arkadaşın var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEEDS_A_FRIEND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir arkadaşa ihtiyacı var</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AVOID_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşlardan kaçınmak istiyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOO_MANY_WARS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok fazla savaş veriyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OTHER_TOO_MANY_WARS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok fazla savaş veriyorsunuz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHARED_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vassallık hisseleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOW_POPULAR_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük halk desteğine sahiptir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VASSAL_TO_ALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müttefiklerinizden birinin vasalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WAR_DURATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş süresi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WAR_UNSUPPORTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşı desteklemek için yeterli askeri güç yok</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="68" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHEAT_INCREASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hile: Mutlu Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHEAT_DECREASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hile yap: Kızdırmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="72" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OWNRACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendi Irkımız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PEACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırmazlık Paktı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Paktı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İttifak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESOLUTION_PEACEFUL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzlaşma ile barışçıl çözüm</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESOLUTION_VIOLENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzlaşma ile şiddetli çözüm</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CITY_OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni sahibi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CITY_RAZED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerle bir edilmiş koloni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CITY_MIGRATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göç etmiş koloni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CITY_LOSTTOREBELLION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İsyan nedeniyle kaybedilen koloni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACERELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CITY_OCCUPIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şehir dolu</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="86" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLIANCEWITHDWELLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entegre NPC fraksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFENSIVEWITHDWELLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC fraksiyonu ile arkadaşlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PEACEWITHDWELLING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC fraksiyonu ile barış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MADEALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İttifak kurdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEALLIANCE_NOCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir ittifakı bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEALLIANCE_MINORCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük Casus Belli ile ittifakı bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEALLIANCE_NORMALCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Normal Casus Belli ile ittifakı bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MADEDEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir savunma ittifakı oluşturuldu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEDEFENSIVE_NOCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma ittifakını bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEDEFENSIVE_MINORCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük Casus Belli ile savunma ittifakını bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MADEPEACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir saldırmazlık paktı oluşturuldu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEPEACE_NOCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırmazlık anlaşmasını bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_NOCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casus Belli olmadan savaş ilan edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_NOCB_HIGHREPPLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek itibarlı komutana Casus Belli olmadan savaş ilan etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_MINORCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük Casus Belli ile savaş ilan etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_MINORCB_HIGHREPPLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek itibarlı komutana karşı küçük Casus Belli ile savaş ilan etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_NORMALCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Normal Casus Belli ile savaş ilan edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_NORMALCB_HIGHREPPLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek itibarlı komutana normal Casus Belli ile savaş ilan etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWAR_MAJORCB_HIGHREPPLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek itibarlı komutana karşı büyük Casus Belli ile savaş ilan etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLAREWARONFACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC fraksiyonuna savaş ilan etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRESPASSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir alana izinsiz girme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETEDQUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Görevi Tamamladım</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RAZEDCITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir yapıyı yerle bir etti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MIGRATEDCITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir koloniyi göç ettirdi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OFFEREDGIFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hediye sundu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRADEDCASUSBELLI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Casus Belli takas edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCED_INSULTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncuya hakaret ettiği için ihbar edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCED_TRESPASSING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzinsiz girdiği için ihbar edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCED_COVERTOPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizli operasyonları kullanmakla suçlandı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCED_SECTORCLAIM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektör talebini görmezden geldiği için ihbar edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCED_ATTACKEDTRESPASSER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzinsiz giren bir orduya saldırdığı için ihbar edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DENOUNCED_DEFEATEDALLIEDPLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncunun müttefikini yendiği için kınandı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FABRICATEDCB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uydurma Casus Belli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCEPTEDPEACEDEAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabul edilen barış anlaşması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTIONDEMAND_ACCEPTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup taleplerini başarıyla karşıladı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTIONDEMAND_DECLINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup taleplerini karşılayamadı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OUTPOSTEVENT_PEACEFUL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir uzlaşma olayını barışçıl bir şekilde çözdü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OUTPOSTEVENT_VIOLENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir uzlaşma olayını şiddet kullanarak çözdü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKETRUCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateşkes anlaşmasını bozdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHEAT_PEACEKEEPER_L3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hile: Barış Muhafızı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHEAT_WARMONGER_L3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hile: Savaş kışkırtıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INDEPENDENTRETREAT_ALLOWRETREAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yağmacıların geri çekilmesine izin verdi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INDEPENDENTRETREAT_CHASEDOWN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yağmacıları kovaladı</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>2</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>28</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,1274 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>ThomM</LastAuthor>
+    <LastSaved>2020-09-14T09:31:57Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14265</WindowHeight>
+    <WindowWidth>28770</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <NumberFormat />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="89" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="239.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="141.75" />
+      <Column ss:StyleID="s62" ss:Width="167.25" />
+      <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:Index="6" ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">GALACTIC_EMPIRE</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkincil Hedef Tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event Title for when the player has completed a secondary objective</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEP_COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkincil Hedef Adımı Tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event Title for when the player has completed a step of a secondary objective</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ikincil hedefi tamamlamak bir zafer koşulunu tetikleyecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used in a tooltip to explain that the player will be win the game if they complete the secondary objective.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">POP_UP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkincil hedefi tamamlamak, imparatorluğunuzun bu gezegende zafer kazanması için yeterlidir.[br/][br/]Zaferi şimdi mi kazanmak istiyorsunuz yoksa potansiyel olarak daha fazla ödül kazanmak için bu gezegeni fethetmeye devam etmek mi istiyorsunuz? [br/][br/][grey]Oynamaya devam etmek tüm İkincil Hedef zafer koşullarını devre dışı bırakacaktır![/grey]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used in a confirmation panel to explain to the player that for having completed the secondary objective they can now claim victory if they want, which will end the game in victory. Alternatively they can continue playing in hope of more rewards but this will disable all victory conditions for secondary objectives.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUTTON_CONFIRM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer iddiası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Button caption for claiming victory and ending the game.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUTTON_CONTINUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oynamaya Devam Et</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Button caption for continueing to play the game and ignore the victory condition.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANET_OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkincil Hedefler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used as list title, is followed by Secondary Objective Entries</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REQUEST_OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Talepleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used as list title, is followed by Empire Request Entries</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FREE_STARTING_TECH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknik Yetenek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes an Empire Item that represents the player's experience with a certain secret tech or race.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">FREE_STARTING_TECH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğunuzun bu Teknolojiye olan yatkınlığı, seferleriniz için gelişmiş bir teknoloji deposuna erişmenizi sağladı.[br/][br/][bulletList][bullet]Bu Irktan veya Gizli Teknolojiden bir Komutanın bulunduğu bir gezegene indiğinizde [abilityblue]+1 Serbest Teknoloji becerisi kazanırsınız[/abilityblue][/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes an Empire Item that represents the player's experience with a certain secret tech or race. Due to playing a lot with that race/tech they have gained levels unlocking upgrades/skills in the game.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLANET_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_planetName} - Fethedildi!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown on top of the screen where we display the results of the game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLANET_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFEAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_planetName} - Kayıp..</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown on top of the screen where we display the results of the game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DISMISS_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görevden alma {STR_heroName}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Window title for confirming the deletion of a specfied hero.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DISMISS_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kahramanı görevden almak istediğinizden emin misiniz? Kahraman, kahramanlar salonundan kaldırılacak ve artık bu kahramanla yeni gezegenler fethedemeyeceksiniz. Hala devam edebilir, oynayabilir ve bu kahramanla başlatılan mevcut aktif gezegenleri fethedebilirsiniz, ancak bu kahramanla ilgili tüm bilgiler kaybolacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains to the player that deleting a hero will remove it permanently, but they can still continue any save games containing that hero.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACCEPT_PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegen Sonuçlarını Kabul Et</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Window title for confirming the planet results.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="195">
+        <Cell>
+          <Data ss:Type="String">ACCEPT_PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegenin sonuçlarını kabul etmek, onları imparatorluğunuza uygulayacaktır. Eğer oyunu kazandıysanız, bu gezegen fethedilen gezegenlerinize eklenecek, aksi takdirde kaybedilecektir. Kazanılan her türlü deneyim uygulanacak ve bu gezegendeki kahramanlar seviye atlayacaktır. Ancak, bu gezegenle ilişkili tüm kayıt oyunları silinecek ve bu gezegenin sonucu kilitlenecektir. Gezegenin sonucunu değiştirmek isterseniz, bunun yerine Oyunu Yükle düğmesini kullanarak bu gezegen için başka bir kayıt oyunu yükleyin.[br/][br/]ABu gezegenin sonuçlarını kabul etmek istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains to the player that if they finish the planet, all results are locked and any save games are deleted and cannot be loaded anymore.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">DELETE_PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegeni silmek, onu imparatorluğunuzdan kalıcı olarak kaldıracak ve bu gezegenle ilişkili tüm kayıt oyunları da kaldırılacaktır. Gezegeni sildiğinizde tüm ilerlemelerinizi kaybedersiniz ve bu gezegen için herhangi bir deneyim veya başka ödül kazanamazsınız. Bu gezegen için hala deneyim kazanmak istiyorsanız, bir kayıt oyunu yükleyebilir ve oyun içi menüden teslim olabilirsiniz.[br/][br/]ABu gezegeni silmek istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains to the player that deleting a planet will remove it permantly as well as any save games belonging to the planet. This will also NOT give the player any experience. However, if the player instead loads up a save game of this planets and surrenders from the in-game menu, then they do gain experience.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DELETE_EMPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğu silmek, imparatorlukla ilişkili tüm ilerlemenizi, gezegenlerinizi, kayıt oyunlarınızı ve kahramanlarınızı kalıcı olarak kaldıracaktır. Bu imparatorluğu silmek istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains to the player that deleting the empire will result in all progress and save games belonging to this empire being lost.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CANNOT_START_PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOO_MANY_GAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok fazla aktif gezegen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the interface when the player cannot start another scenario because they already have too many active planets.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEP_COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef adım tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the interface when the player has completed a step/part in the objective, but has not finished the objective yet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the interface when an objective has been completed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">XP_DETAILS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunu tamamlamak [favor/] ve [xp/] İmparatorluk Şöhreti kazandıracaktır: {STR_name}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used in tooltip to describe that the player will receive Imperial Renown and Experience for a certain faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETION_XP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tamamlandığında: {INT_xp}[xp/] {STR_name} + {INT_favor}[favor/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes in a tooltip that the player will receive an amount of experience for a certain faction/technology and an amount of Imperial Renown on completion of the objective</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEP_XP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adım başına: {INT_xp}[xp/] {STR_name} + {INT_favor}[favor/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes in a tooltip that the player will receive an amount of experience for a certain faction/technology and an amount of Imperial Renown for each step of the objective</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_FAVOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Şöhreti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of the spendable resource players need to buy items from their empire.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_FAVOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INSUFFICIENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetersiz İmparatorluk Ünü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in interfaces to indicate the player has too little Empire Favor to buy a certain item</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_FAVOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOP_MENU_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Renown'u [abilityblue]İmparatorluk Talepleri[/abilityblue] için kullanılır ve İmparatorluk Rezervlerinizden birimler, kahraman ekipmanları satın almanıza ve operasyonlara ve modlara erişmenize olanak tanır.[br/][br/]İmparatorluk Renown'u yalnızca [abilityblue]İkincil Hedefleri[/abilityblue] tamamlayarak ve [abilityblue]İmparatorluk Taleplerini[/abilityblue] yerine getirerek kazanılabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANET_LIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONQUERED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fethedilen Gezegenler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used as header for a list of planet names</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANET_LIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aktif Gezegenler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used as header for a list of planet names</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_XP_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">XP</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">abbreviation of experience, shown in reward titles like "10 XP".</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_XP_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_ObjectiveTarget}'ye XP ilerlemesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used in rewards window to show that experience is rewarded to the progression of a certain race or tech.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SLOT_UNLOCKS_AT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk seviyesinde açılır {INT_level}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that an item slot unlocks at a certain empire level (number).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ITEM_UNLOCKS_AT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_level} seviyesinde açılır</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that an item unlocks at a certain level</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FREE_ITEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[xpCol] (Her zaman etkin) [/xpCol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that a requisition item is always given to the player and cannot be clicked</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FREE_ITEM_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[xpCol]Bu öğe oyunda her zaman mevcuttur ve manuel olarak eklenemez veya kaldırılamaz[/xpCol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tooltip that describes that a requisition item is always given to the player and cannot be clicked</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INVALID_OWNRACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[fireCol]Kahramanınızın ırkına veya gizli teknolojisine ait öğeler seçilemez.[/fireCol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tooltip that describes that a requisition item cannot be chosen because it belongs to the same race or secret technology of the chosen hero/leader they are playing.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTOFILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otomatik Doldurma</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Autofill button caption</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REQUISITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTOFILL_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu düğmeye tıklandığında mevcut boş yuvalar rastgele talep kalemleriyle doldurulacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tooltip on the autofill button to explain that it will only fill up empty slots with random items.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Kahramanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used as subtitle to indicate a hero belongs to the galactic Empire</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Unutulmuş kahraman</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes a hero that was deleted by the player, it can still be mentioned by planets as a forgotten hero that conquered the world.
+Describes a hero that was deleted by the player, it can still be mentioned by planets as a forgotten hero that conquered the world.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANETS_CONQUERED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegenler fethedildi:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Is followed by a list of planet names, used to describe the planets conquered by a certain hero.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANETS_ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aktif görevler:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Is followed by a list of planet names, used to describe the planets that a hero is currently still active on.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLANETS_ASSISTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegenler yardım etti:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Is followed by a list of planet names, used to describe the planets that a hero was active on and has helped conquer, but where the hero was not the expedition leader.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELICS_UNLOCKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kilidi açılmış emanetler:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Is followed by a list of relics</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RECRUITABLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşe alınabilir</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown at the top of a list of checkboxes which indicate whether the heroes are recruitable or not.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RECRUITABLE_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayarlanırsa, bu kahraman senaryolar sırasında ortaya çıkabilir ve gezegende zaten mevcut değilse ordunuza katılmayı teklif eder. Kahraman en azından imparatorlukta sahip olduğu seviyeye sahip olacaktır. Yeni kahramanlar veya kahramanın görünümünde veya seviyesinde yapılan değişiklikler yalnızca yeni başlatılan senaryolar için geçerli olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains how hero recruitment during a scenario works.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CANNOT_RECRUIT_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOO_MANY_HEROES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artık kahraman toplayamazsınız; İmparatorluğunuz en fazla {INT_heroes} kahraman toplayabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains that the empire has too many heroes and therefore the player cannot recruit another one. Leveling up the empire may however increase the maximum amount.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_planetName}, {STR_heroName}'nin aktif görevi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes the status of a planet as still being in progress, the player has not yet finished playing.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_CONQUERED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_planetName}, {STR_heroName} tarafından {INT_turn}[turn/] dönüşünde fethedildi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes the status of a planet as being conquered by player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalıntı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Type name of a relic item. Used in lists as: "Relic: NAME".</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kilitli</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes an item that the player has not unlocked yet, but can unlock with a certain action.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kilitli değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that a relic was unlocked.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKED_ON_PLANET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_planetName}'de kilidi açıldı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that a relic was unlocked on a given planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKED_BY_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_heroName} tarafından açıldı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that a relic was unlocked by a given hero.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCKED_ON_PLANET_BY_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_heroName} tarafından {STR_planetName} üzerinde açılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes that a relic was unlocked by a given hero on a certain planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_TRAIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kalıntı, aşağıdaki özelliğe sahip bir gezegen fethedilerek açılır: {STR_traitList}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explanation on how the relic is unlocked, requires the player to conquer a planet with a specfic trait (only one).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_TRAITS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kalıntı, aşağıdaki özelliklere sahip gezegenlerin fethedilmesiyle açılır: {STR_traitList}[br/][br/][grey]A fethedilen gezegenlerin kombinasyonu özellik gereksinimini karşılamak için geçerlidir.[/grey]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explanation on how the relic is unlocked when there are multiple traits, all of them are required but the player is allowed to combine multiple planets to gather all the required traits.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_ANY_TRAIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kalıntının kilidi, aşağıdaki özelliklerden herhangi birine sahip gezegenleri fethederek açılır: {STR_traitList}[br/][br/][grey]Bu kalıntının kilidini açmak için özelliklerden yalnızca biri gereklidir.[/grey]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explanation on how the relic is unlocked when there are multiple traits, but only one is required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_INVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kalıntı, voidbringer fraksiyonunun bir istilası sırasında gezegenleri fethederek açılır: {STR_factionName}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explanation on how the relic is unlocked, {STR_factionName} is replaced with the name of the voidbringer variant, e.g. "Psionic Form"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RELIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_GRAIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kalıntı, fethedilen bir gezegende {STR_grailName}'ye ulaşıldığında açılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explanation on how the relic is unlocked, {STR_grailName} is replaced with the name of the grail, e.g. "Grail Configuration of Law".</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Empire Resources Satın Alın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Button caption to describe buying resources from the empire.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluktan kaynak satın almanın maliyeti {INT_favor}[favor/]'dir ve size rastgele bir kaynak sevkiyatı sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tooltip to describe that buying resources from the empire costs Imperial Renown and gives the player a random reward.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONFIRMATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_GALACTIC_EMPIRE@BUY_EMPIRE_RESOURCES@TOOLTIP}[br/][br/]Akaynaklar için {INT_favor}[favor/] takası yapmak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Confirmation dialog, includes the above line and adds a confirmation line at the end to make sure the player wants to spend their Imperial Renown.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Empire Resources Satın Alındı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event title, used when the player has traded their Imperial Renown for a  resource shipment from the Empire.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk şöhreti aşağıdaki kaynaklar karşılığında takas edilmiştir:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event caption to describe the resources that were gained from the trade.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk seviyesi, tüm ırkların ve gizli teknolojilerin birleşik seviyesidir. İmparatorluk seviyesi yükseldikçe, daha fazla talep yuvası kazanırsınız. Daha yüksek bir imparatorluk seviyesiyle, daha zor özelliklere sahip daha zor gezegenler de kullanılabilir hale gelecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in tooltip, describes that the empire level consists of all progression levels added together (races and techs). As the empire levels more requisition slots will unlock. Furthermore higher difficulty traits will become available for random planets.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REQUISITION_SLOTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep yuvaları: {INT_slots}\{INT_maxSlots}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the empire level breakdown, describes the amount of requisition slots currently available.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEXT_REQUISITION_SLOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sonraki talep yuvasının kilidi seviye ile açılır: {INT_nextSlot} (Her {INT_slotInterval} seviyesinde)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the empire level breakdown, describes when the next requisition slot unlocks.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MAX_HEROES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Maksimum kahramanlar: {INT_heroes}\{INT_maxHeroes}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the empire level breakdown, describes the amount of heroes that can be recruited in the hall of heroes.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERFACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUY_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim Satın Al</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Put next to a unit to indicate the user is about to buy the unit outright (i.e. pay and then have the unit appear in game for them)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERFACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_IN_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerde Kilidi Aç</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Put next to a unit to indicate the user is about to buy the ability to produce the unit in their colonies</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERFACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUY_UNIT_LONG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Satın alındıktan sonra, bu ünite sermaye koloninizde görünecektir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERFACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_IN_COLONY_LONG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Satın alındıktan sonra, bu ünite doğru üretim tesislerine sahip herhangi bir kolonide üretilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERFACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_OPERATION_LONG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Satın alındıktan sonra, bu işlem sizin kullanımınıza sunulacaktır</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes Special Operations that are unlocked via the oepration syste</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERFACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNLOCK_MOD_LONG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Satın alındıktan sonra, bu birim modu uygun birimler için kullanılabilir olacaktır</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Describes the unit modifications that are applied to the player's units</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tebrikler! Star Kings seferinin olası sonlarından birine ulaştınız. Başladığınız yolculuk, bu galaksinin ırklarını tek bir bayrak altında birleştirmek için birden fazla gezegeni fethedebileceğiniz Galaktik İmparatorluk modunda devam edecek! [br/][br/]Seferi tamamladığınızda imparatorluğunuz aşağıdaki ödülleri alacak:[br/]- {STR_leaderName} imparatorluğunuza kahraman olarak katılır[br/]{STR_rewards}[br/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Lists all the rewards the player will receive for their empire</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[recommendedcol]Hint: bu ödül en son oynanan imparatorluğa uygulanır. Diğer imparatorluklarda almak için önce imparatorluk kaydınızı yükleyebilir ve ardından sefer kazanılmadan önceki son sefer kaydınıza dönebilirsiniz.[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">Explains that the rewards are only applied to the empire that is currently loaded, if the player wants to apply the rewards to other empires they must first load that empire and then complete the final mission of the campaign again to also receive the rewards for that second empire.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_REWARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFO_NO_EMPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[firecol]Uyarı: Bu ödül şu anda oluşturmakta olduğunuz galaktik imparatorluğa uygulanır. Oluşturma işlemini iptal eder ve oyundan çıkarsanız, gelecekteki bir imparatorluk için aynı ödülü almak üzere Yıldız Kralları seferini yeniden tamamlamanız gerekecektir.[/firecol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Explains that the rewards will be applied if the player loads or creates an empire right now. If they want to then apply it to another empire afterwards OR if the game is shutdown, the player will have to complete the last campaign mission again.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="83" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hafif</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orta</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Derece Yüksek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korkunç.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMPLEXITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabus gibi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet Complexity name</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>62</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>67</ActiveRow>
+          <ActiveCol>6</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

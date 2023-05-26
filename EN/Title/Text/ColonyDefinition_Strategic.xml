@@ -1,0 +1,617 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Ajay Ramautar</LastAuthor>
+    <LastSaved>2019-12-03T15:25:26Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12315</WindowHeight>
+    <WindowWidth>28770</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="52" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="297" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="219.75" />
+      <Column ss:StyleID="s63" ss:Width="132.75" />
+      <Column ss:Index="4" ss:StyleID="s63" ss:Width="147.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="198.75" />
+      <Column ss:StyleID="s63" ss:Width="294" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">COLONYDEFINITION_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Merkezi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="16.5">
+        <Cell>
+          <Data ss:Type="String">CITY_SECTOR_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektör içindeki Koloni Merkezi konumu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektör Tabanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sektörü sahiplenen ve etki alanını genişleten bir yapı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İleri Üs</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FORWARD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yapı, sahibi için sektörde hak iddia eder. Birimlerinize şifa sağlar ve düşmanlar izinsiz giremez. Ancak herhangi bir gelir toplamaz. [br/][br/]Bu yapı üzerinde bir Koloni kurmak ona ücretsiz bir [hyperlink,0000034100000959]Askeri Altyapı[/hyperlink] yükseltmesi sağlayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[annex/] {STR_cityName} için Ek Sektör</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">STR_cityName is the name of the city</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHARED_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletList][bullet][abilitygreen]Sektörden gelir toplayın[/abilitygreen][/bullet][bullet][abilitygreen]Daha fazla gelir elde etmek için ilhak edilen sektörleri geliştirin[/abilitygreen][/bullet][bullet]A0[11]9Koloninin garnizonu tarafından savunulur[/abilitygreen][/bullet][/bulletList]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir üs inşa ederek bu sektörü koloninize bağlayın.[br/][br/]{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@SHARED_TEXT}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INPROGRESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektörde bir üs inşa ediyoruz. İşlem [INT_duration]'de tamamlanacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">INT_duration is an amount of turns</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[annex/] {STR_cityName} için Ek Deniz Üssü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">STR_cityName is the name of the city</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@DESCRIPTION%7D">
+          <Data ss:Type="String">{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@DESCRIPTION}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INPROGRESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektörde bir Deniz Üssü inşa ediliyor. İşlem [INT_duration]'de tamamlanacak</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="18" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İleri Üs Oluşturun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelecekteki genişleme için bu sektörde hak iddia etmek üzere bir ileri üs inşa edin.[br/][br/][bulletlist][bullet][abilitygreen]Güçlü bir garnizon tarafından savunulur[/abilitygreen][/bullet][bullet][warningred]Sektördeki konumlardan gelir toplamaz[/warningred][/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INPROGRESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektörde bir ileri üs inşa ediliyor. İşlem [INT_duration]'de tamamlanacak</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="22" ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_SUPPLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mutluluk Etkinliği: Yemek!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_SUPPLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nüfusunuzun mutluluğu[happiness/] nedeniyle gıda gelirinde bir artış var!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_SUPPLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni {INT_Reward} [supply/] alır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mutluluk Etkinliği: Üretim!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nüfusunuzun mutluluğu[happiness/] nedeniyle üretim gelirinde bir artış var!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="59.25" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni {INT_Reward}[production/]'yi alır</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mutluluk Etkinliği: Enerji!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nüfusunuzun mutluluğu[happiness/] nedeniyle enerji gelirinde bir artış var!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni {INT_Reward}[energy/]'yi alır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mutluluk Etkinliği: Bilgi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nüfusunuzun mutluluğu[happiness/] nedeniyle bilgi gelirinde bir artış var!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni {INT_Reward}[research/]'yi alır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mutluluk Etkinliği: Cosmite!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nüfusunuzun mutluluğu[happiness/] nedeniyle kozmite gelirinde bir artış var!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni {INT_Reward}[tricorium/]'yi alır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Mutluluk Etkinliği: Etkileme!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Nüfusunuzun mutluluğu[happiness/] nedeniyle nüfuz gelirinde bir artış var!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">HAPPINESS_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni {INT_Reward}[influence/]'yi alır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Huzursuzluk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloninizdeki mutsuzluk[anger/] halk arasında huzursuzluğa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="128.25">
+        <Cell>
+          <Data ss:Type="String">UNREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kolonideki kolonicilerin {INT_Reward}'si [rioter/] isyancı haline geldi. İsyancılar yuvalarından taşınamaz ve artık kaynak üretemezler.[br/][br/]İsyancıları tekrar normal kolonistlere dönüştürmek için [hyperlink,000003AC00000026]Koloni Mutluluğunuzu[/hyperlink] artırın veya [hyperlink,000003AC000002AB]Sıkıyönetim Yasasını[/hyperlink] etkinleştirin, bu mutluluk sistemini gelir kaybıyla devre dışı bırakacak ve isyancıları normal kolonistlere dönüştürecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">UnrestColonists is a number of colonists</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNHAPPINESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüyen Mutsuzluk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNHAPPINESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LORE_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Kolonideki insanlar mutsuz. Eğer harekete geçmezsek, isyan etmeye başlayabilirler![br/]İsyan eden kolonistler kaynak slotlarını işgal edecek ve gelir sağlamayacak!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">UNHAPPINESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Mutluluğu artıran bir yükseltme oluşturmayı düşünmeliyiz, örneğin: [hyperlink,0000034100000AD3]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_I@NAME}[/hyperlink], [hyperlink, 0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_II@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_III@NAME}[/hyperlink]. Kolonistleri daha fazla mutluluk üretmeleri için de görevlendirebiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The structure names are: Recreational Dome (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_I, NAME), Botanical Gardens (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_II, NAME), Virtual Entertainment Plaza (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_III, NAME)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">If the names of these upgrades are changed, this line might need to be relocalized because of the gender of the inserted nouns has changed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="47" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tehlikeyi Kaldır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektörü etkileyen tehlikeyi ortadan kaldırır ve ilgili cezaları da kaldırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INPROGRESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektörden bir Tehlike kaldırılıyor. İşlem [INT_duration]'de tamamlanacaktır</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">INT_duration is an amount of turns</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="52" ss:AutoFitHeight="0" ss:Height="30" />
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>9</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>26</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

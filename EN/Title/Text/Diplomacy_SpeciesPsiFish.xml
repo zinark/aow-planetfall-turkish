@@ -1,0 +1,815 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>GeraldR</LastAuthor>
+    <Created>2018-05-01T08:33:50Z</Created>
+    <LastSaved>2019-05-23T15:12:48Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14235</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Normal 2">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s68">
+      <Interior />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="65" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="15">
+      <Column ss:Width="138.75" />
+      <Column ss:Width="289.5" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="335.25" />
+      <Column ss:StyleID="s63" ss:Width="147.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="253.5" />
+      <Column ss:StyleID="s63" ss:Width="120" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="335.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DIPLOMACY_SPECIESPSIFISH</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmosun çocuğu, saf enerji. Komün?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabul edildi, {STR_LeaderName}. Senin için gidiyoruz. Kokunuzu özleyeceğiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fiziksel bir varlık. {STR_LeaderName}... belirgin yeşil tat. Tuhaf bir his. Kıvrılan okyanusun gürültülü ekşi dokunuşu. Biz özlüyoruz... biz özlüyoruz, ya siz? Niyetler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sizin barışçıl titreşimlerinizi gördük. Koruyun, yok etmeyin. Bu gerçeklik tehlike tadında, yabancılık kokuyor. Görev... fiziksel. Bize yardım eder misin, huzurlu olan?</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu konuyu bir an önce çözün, kötü enerjiler... tadı berbat. Komün, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, varlığınız bizi titreştiriyor. Huzurlu enerjiler, mavimsi kokuyorlar. Komün.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değişen enerjiler... farklı titreşimler. İlişkimiz yeni tatlar tadıyor, {STR_LeaderName}. Tarif etmesi zor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, Boşluk ağlıyor. Çok fazla acı, nefretin renkleri. Savaş... son.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45.75">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Daha önceki ortak ilişkilerimizde hissettiğimiz olumlu enerjilerden daha da uzaklaştınız. Bu bizi üzüyor {STR_LeaderName}. İlişkimiz daha da kötüleşti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="16" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kan kırmızısı titreşimler... geri dönün. {STR_LeaderName}, K'ctanq'ın efendisi. Acele edin.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bilinmeyen gelir, kokusuz. {STR_LeaderName}, bunu hatırlayacağız.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kan kırmızısı titreşimler... Dikkatliyiz. {STR_LeaderName}, gelişinizi öngördü. K'ctanq'ın efendisi. Sizin dilinizde... kan dökmek. Varlığınız... derinden rahatsız ediyor. İsteklerinizi söyleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dikkatli... Gerçekten de düşmanca titreşimler. Kontrol. K'ctanq'a aşinasınız, saldırganlık. Görev... fiziksel. Ustasın. Kabullenme mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rica et. Acele et. Varlığınız... eldritch kırmızı bozulma.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kanlı çocuk, düşmanca titreşimler. İsteklerinizi belirtin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabul, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kozmosun çocuğu, kırmızı titreşimleri durdur. Acıya son ver. Kabullenmek mi?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Daha önceki ortak ilişkilerimizde hissettiğimiz olumlu enerjilerden daha da uzaklaştınız. Bu bizi üzüyor {STR_LeaderName}. İlişkimiz daha da kötüleşti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Fiziksel varlık. Organiklere yaklaşıyoruz. Niyetinizin kokusunu alıyoruz, yabancı. İstekte bulunun.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Boşaltacağız, {STR_LeaderName}. Gücün özü, tadı. Anlıyorsunuz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">{STR_LeaderName}, fiziksel bir varlık. Etkileşim. Senin türün... farklı. K'chru. Kozmik akraba. Geri dönme özlemi. Komün.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu gezegen. Küresel. Bu uçak. Yabancı. Tehlikenin tadı, yabancılığın kokusu. Görev... fiziksel. Kabullenme mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acele edin. Senden gelen karanlık enerjilerin tadı ekşi. İsteklerini söyle.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha yakın... kozmosun çocuğu. {STR_LeaderName} bir şey için açlık çekiyor. Komün.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Boşluğun enerjileri hareket ediyor. {STR_LeaderName} ile ilişki... değişiyor, gelişiyor.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">{STR_LeaderName}, kötü duygular. Negatif enerjiler... çok fazla. Z'ctanq'ı bitir. Çatışmayı bitir. Teslimiyeti kabul etmek mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Daha önceki ortak ilişkilerimizde hissettiğimiz olumlu enerjilerden daha da uzaklaştınız. Bu bizi üzüyor {STR_LeaderName}. İlişkimiz daha da kötüleşti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gruplarımız arasında barışçıl bir birliktelik olmasını arzuluyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell>
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lütfen bize bu pozisyonu verir misiniz? {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gerçeklikte başarılı olmanıza yardımcı olmamızın bir yolu var mı?</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin varlığının bu gerçekliğini arındırmaya çalışıyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell>
+          <Data ss:Type="String">Medusa is female</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Medusa'nızla iletişim kurmak istiyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Size yardım edeceğiz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Savaş çabalarımıza yardım etmenizi naçizane talep ediyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">TRADE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Malları takas etmemize izin verin.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize katılmanız akıllıca olur.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell>
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Balık varlığınızı bu binadan uzaklaştırın. {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biz sadece zorluklarla mücadele ederiz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Psi-Fish'ten geriye kalan tek şey kan kırmızısı titreşimler olacak!</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell>
+          <Data ss:Type="String">Medusa is female</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi Medusa'na götür.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğumuz görevleriniz için fazlasıyla beceriklidir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Birlikte, düşmanlarımızı tüketeceğiz!</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">TRADE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Ticaret bizim isteğimiz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barış için geldik. Size yardım etmemize izin verin.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell>
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu konuma ihtiyacımız var. {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Size yardımcı olmaya çalışıyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gerçeklikte sizin gibi yaratıklara yer yok.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell>
+          <Data ss:Type="String">Medusa is female</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Medusa'nızla konuşmamıza izin verin.</Data>
+        </Cell>
+        <Cell ss:StyleID="Default" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize bu görevden bahsedin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Savaşlarımızda yardımınıza açız.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">TRADE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Malları takas edelim, Psi-Fish.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">RIVALRY_WARNING_PISFISH</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Öfke... hayal kırıklığı... sinirli. {STR_LeaderName} neden düşmanlarımıza yardım ediyor? Yüksek titreşimler... düşmanlarımızla iletişimi keser.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_DECLARE_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin için zaman geldi... {STR_LeaderName}. K'chru başladı. Şiddetli, parlak kırmızı. Varlığınızı kurutacağız. Halkınızı tüketeceğiz. Senin türün... artık yok. Kanınız, ekşi sesiniz. Senin türün... ölecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIFISH_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_RESET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmos... Dönüyor. Kaotik... doğa. Sıfır. Başlangıç noktası... varoluş. Bağımız bir zamanlar kırmızı, bir zamanlar mavi, bir kez daha... sıfıra döndü. Umuyoruz ki... sıfır bir olacak.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>18</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>34</ActiveRow>
+          <ActiveCol>1</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

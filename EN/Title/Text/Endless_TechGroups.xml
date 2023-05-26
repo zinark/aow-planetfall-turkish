@@ -1,0 +1,2392 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Laszlo Pieper</Author>
+    <LastAuthor>ThomM</LastAuthor>
+    <Created>2018-09-14T10:48:07Z</Created>
+    <LastSaved>2020-09-22T15:23:33Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>16440</WindowHeight>
+    <WindowWidth>29040</WindowWidth>
+    <WindowTopX>32760</WindowTopX>
+    <WindowTopY>32760</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="207" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="202.5" />
+      <Column ss:StyleID="s62" ss:Width="126" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="414.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_MILITARY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Askeri Teknolojisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_ECONOMIC_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelecek Toplum Teknolojisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_RESEARCH_SUBSKILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">???</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+???: Meant to say this</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TYPE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tekrarlanabilir Araştırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Teknoloji Atılımları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Button caption for viewing all of the completed Repeatable Research</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RECORD_TYPE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Teknolojisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RECORD_TYPE_RARE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Teknolojisi - Özel</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENDLESS_RESEARCH_SUBSKILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilerini ortaya çıkarmak için bu teknolojiyi araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Silahlarında Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Silahı Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Ark silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Ark silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateşli Silahlarda Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateşli Silahlar Silah Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Ateşli Silahlar silahlarının artmasını sağladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Ateşli Silahlar silahlarının artmasını sağladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı Silahlarda Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı Silah Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Patlayıcı silahlarının güçlendirilmesini sağladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Patlayıcı silahlarının güçlendirilmesini sağladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Silahlarda Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Silah Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Psiyonik silahlarının güçlenmesini sağladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Psiyonik silahlarının güçlenmesini sağladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Silahlarda Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Silah Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Biyokimyasal silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Biyokimyasal silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi Silahlarında Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi Silah Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Entropi silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Entropi silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lazer Silahlarında Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lazer Silah Hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Lazer silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah bölümümüzden gelen büyük bir buluş, tüm ordularımızın Lazer silahlarında bir artışa yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GENERAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm birimler +{amount} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This amount is used for various of the techs below, they all refer to the amount of resistance you get to the respective damage channel which is told by an icon inside the {}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik Dirençli Malzemelerde Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Direnç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız malzemelerin biyokimyasal saldırılara karşı dirençli hale getirilmesinde büyük ilerlemeler kaydetmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Dirençli Malzemelerde Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Direnci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız, malzemelerin Ark saldırılarına direnç gösterecek şekilde işlenmesi konusunda önemli adımlar atmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropiye Dirençli Malzemelerde Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi Direnci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTROPY_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız malzemelerin Entropi saldırılarına direnç gösterecek şekilde işlenmesi konusunda önemli adımlar atmışlardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Dirençli Malzemelerde Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Direnç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız, malzemelerin Termal saldırılara karşı direnç gösterecek şekilde işlenmesi konusunda önemli adımlar atmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KINETIC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinetik Dirençli Malzemelerde Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KINETIC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinetik Direnç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KINETIC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız malzemelerin Kinetik saldırılara direnç gösterecek şekilde işlenmesi konusunda önemli adımlar atmışlardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Dirençli Malzemelerde Çığır Açan Buluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Direnç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSIONIC_RESISTANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız malzemeleri Psionik saldırılara karşı dirençli hale getirme konusunda önemli adımlar attılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHA_UNITS_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zırh: Mekanik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHA_UNITS_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş Zırhlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHA_UNITS_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik Üniteler için Zırh alanında bir atılım gerçekleşti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHA_UNITS_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Mekanik birimler +{ArmorGain}[armor/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkanlar: Cyborg ve Mekanik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyucu Metaller</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cyborg ve Mekanik birimler için Kalkanlar alanında bir atılım gerçekleşti!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shields and Armor are defensive stats in the game.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Cyborg ve Mekanik birimler +{ShieldGain}[shield/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_CYBORG_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zırh: Biyolojik ve Cyborg</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_CYBORG_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkinci Cilt</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_CYBORG_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik ve Sayborg birimler için Zırh alanında bir atılım gerçekleşti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_CYBORG_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Biyolojik ve Sayborg birimler +{ArmorGain}[armor/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_UNITS_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shields: Biyolojik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_UNITS_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkan İnfüzyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_UNITS_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik birimler için Kalkanlar alanında bir atılım gerçekleşti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_UNITS_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Biyolojik birimler +{ShieldGain}[shield/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_GRAFTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristaloid Greftler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Crystalloid as in made from / based on crystals</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_GRAFTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit Magma Solucan Ağılları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_GRAFTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristal Greftler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quartzite Magma Worm is an ingame unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_GRAFTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Araştırmamız sırasında Magma Solucanlarını nasıl kontrol edeceğimizi ve zırhlarını alışılmadık birimlere nasıl aşılayacağımızı keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_GRAFTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerimizde Kuvarsit Magma Solucanlarının üretilmesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_GRAFTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Hayvan, Ethereal, Mineral ve Bitki birimleri +{Armor}[Armor/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kristaloid Dalga Vericiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit Kristal Solucan Ağılları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dalga Vericiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Araştırmamız sırasında Kristal Solucanları nasıl kontrol edebileceğimizi ve onların garip elektromanyetik alanlarını kullanarak sıra dışı birimlere nasıl kalkan alanları yansıtabileceğimizi keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerimizde Kuvarsit Kristal Solucanlarının üretilmesini sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quartzite Crystal Worm is an ingame unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Hayvan, Ethereal, Mineral ve Bitki birimleri +{Shield}[Shield/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boyut Dışı Penguen İletişimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Penguen Boşluk Portalları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Penguins are a unit ingame</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Penguen İyileştirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Araştırmalarımız sırasında Boşluktan gelen Boyut Dışı Penguenlerle nasıl iletişime geçebileceğimizi ve teknolojimizi onları geliştirmek için nasıl kullanabileceğimizi keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerimizde Penguen üretimine izin verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Penguen birimleri +  {damage}  % hasar verir, +  {Armor}   [Armor/] , +  {Shield}   [Shield/]  ve +  {Health}   [hp/]  kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTNED_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Aydınlanma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTNED_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aydınlanmış Zihinler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTNED_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Yıldızları gördük ve aydınlandık! Artık birimlerimize her şeyin yolunu kolayca öğretebiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTNED_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm birimler [abilityblue]Aydınlanmış[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Enlightened is a Celestian Secret Tech term</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_PHASERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Dalgaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_PHASERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dalga Entegrasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARC_PHASERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Herhangi bir saldırı biçimiyle birleşerek ona Ark hasarı verebilen bir elektron dalgası entegrasyon yöntemi keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_PHASERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm birimler saldırılarında {ArcDamage}[damageWave/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARC_PHASERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_PROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ArcDamage}[damageWave/] ek hasar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XNA_AGITATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">XNA Karıştırıcılar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XNA_AGITATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Hasteners</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Xenoplague is a Secret Tech</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XNA_AGITATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Xenoplague yaşam formlarının XNA'sını daha fazla ajite ederek, bir sonraki aşamalarına daha hızlı dönüşmelerini sağlayabiliriz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XNA_AGITATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Xenoplague yaşam formlarının XNA'sını daha fazla ajite ederek, bir sonraki aşamalarına daha hızlı dönüşmelerini sağlayabiliriz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHANICAL_AUGMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanik Güçlendirmeler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MECHANICAL_AUGMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Performans Arttırıcı Metaller</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MECHANICAL_AUGMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Makinelerimizin performansını artırırken daha az Ark iletken olan yeni bileşikler keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MECHANICAL_AUGMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Makinelerimizin performansını artırırken daha az Ark iletken olan yeni bileşikler keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBERNETIC_RESILIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sibernetik Dayanıklılık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBERNETIC_RESILIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cyborg Son Direniş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CYBERNETIC_RESILIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Cyborg birimlerini hızlı bir şekilde stabilize etmenin ve onlara Steadfast vermenin bir yolunu keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CYBERNETIC_RESILIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz Cyborg birimleri [abilityblue]Steadfast[/abilityblue] kazanarak 1[hp/]'de kalırlar ve 1[hp/]'nin altına düştüklerinde, savaş başına bir kez olmak üzere, bir tur boyunca zarar görmezler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CYBERNETIC_RESILIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kararlı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CYBERNETIC_RESILIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş başına bir kez, birim 1[hp/] değerinde kalır ve 1[hp/] değerinin altına düştüğünde bir tur boyunca zarar görmez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik Sertleştirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genom Düzenleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Buluş! Biyolojik birimlerin DNA'larını değiştirerek onları nasıl daha sert hale getirebileceğimizi keşfettik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrol ettiğiniz tüm Biyolojik birimler {Armor}[armor/] ve {HP}[hp/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBFUSCATION_MATERIALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oklüzyon Filtreleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBFUSCATION_MATERIALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şaşırtma Malzemeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OBFUSCATION_MATERIALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Atılım! Karartma malzemeleri ve kontrolü konusunda yeni bir ilerleme kaydettik. Birimlerimizin etrafında kalıcı bir sis oluşturarak onları düşman görüş alanından gizleyebiliyoruz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OBFUSCATION_MATERIALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tesadüfi Atılım! Karartma malzemeleri ve kontrolü konusunda yeni bir ilerleme kaydettik. Birimlerimizin etrafında kalıcı bir sis oluşturarak onları düşman görüş alanından gizleyebiliyoruz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Verimliliği: Üretim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Üretim Artışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Üretim kazancı alanında Kolonist verimliliğine doğru büyük adımlar attı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[productionSlot/] başına {Amount}[production/] kazanın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">productionslot/ and others like it show an icon of a colonist in the designated slot.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Verimliliği: Tedarik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Arzı Artışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız, Tedarik kazanımı alanında Kolonist verimliliğine doğru büyük adımlar attı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[FoodSlot/] başına {Amount}[Supply/] kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Verimliliği: Enerji</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Enerji Artışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Enerji kazanımı alanında Koloni verimliliğine doğru büyük adımlar attı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[EnergySlot/] başına {Amount}[Energy/] kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Verimliliği: Bilgi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist Bilgi Artışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Bilgi kazanımı alanında Kolonist verimliliğine doğru büyük adımlar attı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[ResearchSlot/] başına {Amount}[Knowledge/] kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Birim Rütbeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karmaşık Eğitim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otomatik Eğitim Önleyicileri kullanarak, kolonilerinizde üretilen birimler daha yüksek eğitimle üretilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniler +{Amount}[medaliron/] ile birimler üretir</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">medaliron is an icon for the unit rank</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Birim Zırhı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelecek Zırhları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimlerimizi zırhlandırma alanında büyük adımlar attık!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniler +{Amount}[Armor/] ile birimler üretir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_UNIT_GENERAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimde +{Amount} vardır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Birim Kalkanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kompakt Kalkanlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimlerimizi koruma konusunda büyük adımlar attık!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniler +{Amount}[Shield/] ile birimler üretir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Birim Sağlığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değişen Yapı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ünitelerimizi inşa etme biçimimizde büyük adımlar attık!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniler +{Amount}[HP/] ile birimler üretir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Enerji</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Kazanımları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız Enerji elde etmenin daha etkili bir yolunu buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız Enerji elde etmenin daha etkili bir yolunu buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Tedarik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tedarik Kazanımları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Tedarik elde etmek için daha etkili bir yol buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Tedarik elde etmek için daha etkili bir yol buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Üretim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim Kazanımları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız Üretim elde etmek için daha etkili bir yol buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız Üretim elde etmek için daha etkili bir yol buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Atılımı: Bilgi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgi Kazanımları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Bilgi edinmenin daha etkili bir yolunu buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız Bilgi edinmenin daha etkili bir yolunu buldular!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Empire Breakthrough: Doktrin Yuvası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Bürokrasi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sosyal bilimcilerimiz Örgütsel Bürokrasi alanında ilerleme kaydederek daha ileri politikalar için alan açmışlardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk +{Amount}[doctrine/] kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Atılımı: Cosmite</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Void Cosmite</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmiti Boşluktan çıkarmanın bir yolunu yarattık!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk +{Amount}[tricorium/] kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Atılımı: Etki</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geliştirilmiş Diplomatlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız, gelişmiş dil eğitimi ve manipülasyon becerileri sayesinde Diplomatlarımızı ve Elçilerimizi daha verimli hale getirmeyi başardılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk +{Amount}[Influence/] kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Atılımı: Nehirler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atık Değil</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız nehirlerde yaygın olarak bulunan atıkları kolonilerimiz için gıdaya dönüştürmenin bir yolunu buldu!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk bir koloninin Etki Alanındaki Nehirlerden +{Amount}[Supply/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Atılımı: Lav Akıntısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Jeotermal Jeneratörleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız entropi teknolojisini kullanarak hızla enerji toplayan jeotermal jeneratörlerin nasıl yapılacağını buldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk, bir koloninin Etki Alanındaki Lav Akıntılarından +{Amount}[Energy/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atılım Operasyonu: Op Savunma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelecekteki Karşı İstihbarat Önlemleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim insanlarımız verilerimizin çalınmasını önleyecek yeni bir şifreleme yöntemi buldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğunuz +{amount}[operationDefense/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atılım Operasyonu: Op Güç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelecekteki Intel Çıkarımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilim adamlarımız düşman şifrelemesini kırmanın daha hızlı bir yolunu buldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğunuz +{amount}[operationstrength/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atılım Operasyonu: Taktiksel Noktalar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Taktik Operasyon Desteği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lojistik alanındaki yeni bir keşif, daha fazla Taktiksel Operasyon gerçekleştirmemizi sağlıyor!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğunuz +{amount}[castingtactical/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atılım Operasyonu: Stratejik Noktalar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceğin Stratejik Operasyon Desteği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lojistik alanındaki yeni bir keşif, daha fazla Stratejik Operasyon gerçekleştirmemizi sağlıyor!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSKILL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğunuz {amount}[casting/] kazanır.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>110</Zoom>
+      <Selected />
+      <TopRowVisible>2</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>7</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

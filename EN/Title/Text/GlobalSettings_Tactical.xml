@@ -1,0 +1,791 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Jamie Visser</LastAuthor>
+    <LastSaved>2019-06-26T08:37:50Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11683</WindowHeight>
+    <WindowWidth>25200</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="58" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="249.85714285714286" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="183" />
+      <Column ss:StyleID="s62" ss:Width="176.14285714285717" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261" />
+      <Column ss:StyleID="s62" ss:Width="147.85714285714283" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="228" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TACTICAL</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACTION_COMPLETE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bu turda zaten harekete geçti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit has used all his action points thus game turn and has to wait for the next game turn to be able to do something again </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COOLDOWN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_turns} dönüşleri için yetenek kullanılamaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{INT_turns} will be replaced with a numerical value for the number of turns to wait before using the skill again </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BAD_ACTION_POINTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeterli eylem noktası yok</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed when a unit has not enough action points left to perform a action </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ONCE_PER_BATTLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu savaşı zaten kullandım</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed in the tooltip of a spell when it is already used and is only allowed to be used once</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISABLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetenek kullanılamıyor: {STR_property}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Used when a ability is being made unavailable</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEPLOYMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağıtım sırasında kullanılamaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_IMMUNE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef etkilenemez</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Printed over units/obstacles when the current spell/ability would not affect them</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OUT_OF_RANGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzil dışı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Printed when a target is too far away from a caster to affected by an ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NO_LINE_OF_SIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görüş hattı yok</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Printed when a target cannot be hit by an ability due to an obstacle being in the way</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CANNOT_REACH_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe ulaşılamıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Printed when a target cannot be moved to because it is too far away ro the path is blocked</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WEAPON_NOT_LOADED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah dolu değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Indicates to the player that they cannot use an ability until they reload</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELOAD_NOT_NEEDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah zaten dolu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Indicates to the player that they cannot reload, since they're already loaded</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IN_TRANSPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir taşımada kullanılamaz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Indicates to the player that they cannot use an ability because the unit is on a transport ship</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_ENOUGH_ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeterli esans ücreti yok</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Indicates to the player that they cannot use an ability because the unit does not have the required number of essence charges</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GUARD_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Muhafız</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Header of the guard button tooltip, name of the button </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GUARD_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimi savunma pozisyonuna geçirerek gelen hasarı azaltır. Korunan birimlerin farkındalığı artar ve kuşatılamazlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Description of the guard button. [def/] and [resist/]  are icons </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOVE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareket</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in: the ability move. Used as name for the move action button in tactical combat </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MOVE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimi savaş alanı üzerinde hareket ettirin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in: the ability move. Used as name for the move action button in tactical combat </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HUD_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTO_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otomatik Savaş</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Let the AI handle the combat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALL_TODO_EVENTS_HANDLED_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TODO_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dönüşü sonlandırmak için tıklayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Notifies the player to end his turn </Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="25" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AFFECTED_LINE_OF_SIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görüş hattı kurallarından etkilenir</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NO_COVER_OR_UNIT_PENALTIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siper ve birim cezalarını yok sayar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Indicates that an ability can be aimed through cover or other units without an accuracy penalty. See NO_LINE_OF_SIGHT in Interface.xml</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NO_LINE_OF_SIGHT_PENALTIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görüş hattı cezalarını yok sayar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Indicates that an ability can be fired through units, and most obstacles without penalty</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OVERWATCH_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overwatch</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OVERWATCH_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overwatch'taki birimler, görüş alanlarındaki korumasız bölgelerden geçen veya ateş eden düşmanlara otomatik olarak ateş eder.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENTER_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overwatch'a girdim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIT_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENTER_MELEE_OVERWATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş Overwatch'a Girildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNIT_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OVERWATCH_TRIGGERED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overwatch tetiklendi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Overwatch here indicates both ranged and melee overwatch</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLANKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuşatılmış</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_TYPES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KINETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinetik</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_TYPES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_TYPES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSYCHE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psionik</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_TYPES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_TYPES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">prev sk_interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_TYPES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENTROPY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KINETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinetik'e karşı bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSYCHE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psionik'e Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark'a karşı bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAMAGE_IMMUNITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENTROPY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropiye Karşı Bağışıklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIP_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atlama birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SKIP_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıranın geri kalanı için bu birimi atlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STAGGER_WARNINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STAGGER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stagger!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Stagger is the name of the rffect caused by High Impact attacks, that reduces move poitns and cancels various unit special modes.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STAGGER_WARNINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFENSE_MODE_CANCEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma modu iptal edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STAGGER_WARNINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OVERWATCH_CANCEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Overwatch iptal edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STAGGER_WARNINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MELEE_OVERWATCH_CANCEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş Overwatch iptal edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_ENOUGH_ACTION_POINTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeterli eylem noktası yok</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOVEMENT_LOCATION_BLOCKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hareket konumu engellendi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CANNOT_USE_WATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su içinde kullanılamaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CAN_ONLY_USE_WATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadece su içinde kullanılabilir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ROTATE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Döndür</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in: the ability rotate. Used as name for the rotate action button in tactical combat </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ROTATE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Baktıkları yönü değiştirmek için üniteyi döndürün</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in: the ability rotate. Used as name for the rotate action button in tactical combat </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ABILITY_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AT_MAX_ESSENCE_LINKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim daha fazla komünyon bağlantısı yapamaz</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>36</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>57</ActiveRow>
+          <ActiveCol>1</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

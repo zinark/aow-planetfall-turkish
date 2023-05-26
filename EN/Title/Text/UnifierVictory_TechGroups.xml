@@ -1,0 +1,1095 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2019-05-23T14:09:28Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowIconic />
+    <WindowHeight>10380</WindowHeight>
+    <WindowWidth>22230</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="77" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="227.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="114.75" />
+      <Column ss:StyleID="s62" ss:Width="209.25" />
+      <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:Index="6" ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_VICTORY</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni Bir Birliğin Şafağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_VICTORY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> "Onu yeniden inşa edebiliriz... ya da onu... ya da onu. Geliştirmeler gereksizdir. Ölen kahramanlarımız sonlandırılmalarının doğası gereği öğrenirler. Boşlukta bekleyerek çok fazla zaman geçirmenin tüm öğretmenlerin en büyüğü olduğunu söylerler. "[br/]- Rachel Greene, Hemşire</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BASIC_INFO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici Zafer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a victory condition where the player attempts to win by unifiying the planet under their own control.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">START_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLINGS_OWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alliance'a ait Dost Konutlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">START_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_ALLIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanlarla İttifaklar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">START_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_ALLIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC Grupları ile İttifaklar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">START_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_WARS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanlarla Savaşlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">START_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_WARS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC Grupları ile Savaşlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">START_MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OTHER_PLAYER_TRYING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rakip Komutanlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost Konut kayboldu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_GAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost Konutlar Kazanıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLY_DWELLING_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müttefikiniz tarafından kaybedilen Dost Konut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLY_DWELLING_GAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müttefikiniz tarafından kazanılan Dost Konut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_WAR_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC Fraksiyonu ile savaş başlıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_WAR_END</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC Fraksiyonu ile savaş sona erer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_WAR_STARTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Komutanla Savaş Başlıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_WAR_END</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Komutanla Savaş Sona Eriyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_ALLIANCE_STARTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC Fraksiyonu ile İttifak başlıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_ALLIANCE_END</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC Fraksiyonu ile ittifak sona erer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_ALLIANCE_STARTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutan İttifakı başlıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players, an alliance is the highest level of diplomatic relationship</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_ALLIANCE_ENDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutan İttifakı sona eriyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Commanders are other players, an alliance is the highest level of diplomatic relationship</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLY_STARTS_TRYING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir müttefik Gezegensel Birleştirici Protokolü'nü başlattı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NON_ALLY_STARTS_TRYING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman Gezegensel Birleştirici Protokolü'nü fırlattı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NON_ALLY_STOPS_TRYING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman Gezegensel Birleştirici Protokolünü iptal etti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REPUTATION_INCREASED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İtibarınız arttı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MODIFIERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REPUTATION_DECREASED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İtibarınız azaldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Birleşme Protokolü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE düğümünü uyandırın ve Gezegensel Birleştirici statüsü için dilekçe verin. Bu, oyunu sona erdirebilecek bir zamanlayıcı başlatacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE ile protokolü kendiniz tetikleyerek müttefikinize destek beyan edin. Bu, müttefikinizin deneme süresini {reductionDuration} kadar azaltacak ve hepinizin oyunu daha hızlı kazanmasını sağlayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.
+Probtionary Period is the name of the countdown the player must wait for befroe they win the victory condition</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUCCESS_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE talebinizi değerlendirmeye karar verdi. Mevcut durumunuza göre, zafer size verilecektir:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Only added a space, no re-localization required.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUCCESS_ALT_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE dilekçenizi aldı. Müttefikiniz artık gezegen yöneticisi için daha iyi bir aday olarak görülüyor. Onların zaferi şimdi kabul edilecek:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_COOLDOWN_STARTS_OTHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PlayerName}: Gezegensel Birleşme Protokolü başlıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_COOLDOWN_BLOCKED_SELF</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Birleşme Protokolü engellendi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_COOLDOWN_BLOCKED_OTHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PlayerName}: Gezegensel Birleşme Protokolü engellendi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_COOLDOWN_CANCELED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PlayerName}: Gezegensel Birleşme Protokolü iptal edildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_FINAL_CONSIDERATION_SELF</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Birleşme Protokolünüz tamamlanmak üzere</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_FINAL_CONSIDERATION_OTHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PlayerName}: Gezegensel Birleşme Protokolü tamamlanmak üzere</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOTIFY_TIMER_CHANGED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Birleşme Protokolü geri sayımı değiştirildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_COUNTDOWN_STARTS_ALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müttefikiniz gezegeni kendi liderliği altında birleştirmeye çalışmak için bir CORE düğümü başlattı.[br/][br/]CORE düğümü, bu rol için uygunluklarını bir sonraki dönemde değerlendirecektir: {turnTimer}[br/][br/]ABu sürenin sonunda gezegenin kontrolünü ele geçirecek ve oyunu sonlandıracaklardır. Siz onların müttefiki olduğunuz için, onların ortak hükümdarı olarak adlandırılacaksınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_COUNTDOWN_STARTS_NON_ALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir komutan, gezegeni kendi liderliği altında birleştirmeye çalışmak için bir CORE düğümü başlattı.[br/][br/]CORE düğümü, bir sonraki dönemde bu rol için uygunluklarını değerlendirecektir: {turnTimer}[br/][br/]ABu sürenin sonunda, oyuncu ve müttefikleri gezegenin yöneticileri olarak adlandırılacak ve oyun sona erecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_COUNTDOWN_BLOCKED_SELF</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE performansınızla ilgili analizlerini tamamladı ve bu gezegenin yöneticisi olma başvurunuzu reddetti. Verilen sebep şudur:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_COUNTDOWN_BLOCKED_OTHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir komutan Planet-CORE'u gezegen yöneticisi olmaya uygunluğu konusunda ikna edemedi. Başvuru geri sayımı sonlandırıldı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A commander is another player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_COUNTDOWN_CANCELED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir komutan gezegen yöneticisi olarak atanmak için Planet-CORE'a yaptığı başvuruyu geri çekti. Başvuru geri sayımı sonlandırıldı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A commander is another player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_FINAL_CONSIDERATION_SELF</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE şu anda gezegen lideri olarak uygunluğunuzla ilgili analizin son aşamasında. Bu hassas bir dönem, en ufak bir hata planlarımızı alt üst edebilir. Her şey planlandığı gibi giderse, {turnTimer}.[br/][br/]D'de Gezegensel Yönetici seçileceğiz Bu dönemde, dış olaylar artık geri sayımı azaltmayacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_FINAL_CONSIDERATION_ALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müttefikiniz şimdi CORE tarafından gezegen yöneticisi olarak değerlendirilmenin son aşamasına girdi. Bu hassas bir dönem; en ufak bir hata planlarımızı alt üst edebilir. Her şey planlandığı gibi giderse, {turnTimer}.[br/][br/]D'de Gezegen Yöneticileri olarak adlandırılacağız Bu süre zarfında, dış olaylar artık geri sayımı azaltmayacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_FINAL_CONSIDERATION_NON_ALLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımızdan biri CORE tarafından gezegen yöneticisi olarak adlandırılmanın eşiğinde duruyor. Onları durdurmak istiyorsak, konutlarını ele geçirmeli ve gezegenin yerlilerini onlara karşı çevirmeliyiz. Elbette onlarla müttefik olursak, gezegeni kendimiz de paylaşabiliriz...[br/][br/]Düşman oyunu {turnTimer}'de kazanacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PANEL_TIMER_CHANGED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son zamanlarda meydana gelen bazı olaylar nedeniyle Planet-CORE, değerlendirme döneminizin süresini ayarlamıştır. Yeni süre {turnTimer}'dir:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BLOCKED_REASON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_ENOUGH_DWELLINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İttifakınız artık {numColoniesNeeded} dost kolonilerini kontrol etmiyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Alliance refers the player and the other players they are allies with</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BLOCKED_REASON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REPUTATION_TOO_LOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İtibarınız çok düştü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PHASE_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NEED_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma 'Yeni Bir Birliğin Şafağı'</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Dawn of a New Union is the name of a tech group that the player must research in order to use the victory condition</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PHASE_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BOOST_REPUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Erdemli bir itibar kazanın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are. 
+Virtuous is the name given to the highest level of reputation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PHASE_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACQUIRE_DWELLINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost konutlar edinin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PHASE_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LAUNCH_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Birleşme Protokolünü Başlatın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PHASE_MESSAGES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WAIT_FOR_COUNTDOWN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE'un kararını bekleyin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EVENT_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OTHER_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player}, {INT_Turns}[turn/]'de kazanacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EVENT_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_Turns}[turn/]'de kazanacaksınız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EVENT_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OTHER_PLAYER_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Değerlendirme! {STR_Player}, {INT_Turns}[turn/]'de kazanacak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EVENT_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Değerlendirme! {INT_Turns}[turn/]'de kazanacaksınız</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU_STARTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegendeki NPC gruplarıyla ve diğer oyuncularla bir İttifak kurarak Planet-CORE'u gezegenin yönetimini size vermesi için ikna edebilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU_ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE başvurunuzu değerlendiriyor. Konutlarınızı savunmanız ve ittifaklarınızı sürdürmeniz gerekecek. Oyuncularla ve NPC gruplarıyla savaşlar süreci geciktirirken, yeni ittifaklar kurmak ve yeni konutlar toplamak süreci hızlandıracaktır.[br/][br/]{INT_numDwellings} dost konutların kontrolünü elinizde tutmalı ve itibarınızı {STR_requiredLevel}'nin üzerinde tutmalısınız, aksi takdirde süreç sonlandırılacaktır!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves. A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE uygulamanızın Son Aşamasında. Bu dönemde hiçbir şey süreci hızlandıramaz, ancak süreç yine de savaşlar ve kaybedilen konutlar nedeniyle gecikebilir.[br/][br/]{INT_numDwellings} dost konutların kontrolünü elinizde tutmalı ve itibarınızı {STR_requiredLevel}'nin üzerinde tutmalısınız, aksi takdirde süreç sonlandırılacaktır!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLY_ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE müttefikinizin başvurusunu değerlendiriyor. İmparatorluğunuza yeni dost konutlar kabul ederek veya Gezegensel Birleşme Protokolünü kendiniz başlatarak onlara yardımcı olabilirsiniz.[br/][br/]İttifakınız {INT_numDwellings} dost konutların kontrolünü elinde tutmalıdır, aksi takdirde süreç sonlandırılacaktır!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLY_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planet-CORE müttefikinizin başvurusunun Son Değerlendirme aşamasındadır. Bu dönemde hiçbir şey süreci hızlandıramaz, ancak süreç yine de savaşlar ve kaybedilen konutlar nedeniyle gecikebilir. [br/][br/]Müttefikiniz {INT_numDwellings} dost konutlarının kontrolünü elinde tutmalıdır, aksi takdirde süreç sonlandırılacaktır!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. 
+A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. 
+Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY_ACTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanınız bu gezegenin hükümdarı olmak için Planet-CORE'a dilekçe verdi. Bu süreç onları savaşlara sokarak, ittifaklarını zayıflatarak ve konutlarını fethederek yavaşlatılabilir.[br/][br/]Düşmanınızın ittifakı {INT_Turns}[turn/][br/][br/]'de galip gelecekDüşmanınızın ittifakının yaklaşan zaferini iptal etmek için dost konutlarından {INT_numDwellings}'sini ele geçirmeniz veya itibarlarını {STR_requiredLevel}'ye düşürmeniz gerekir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. 
+A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. 
+</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENEMY_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanınız şu anda gezegen hükümdarı olmak için yaptığı başvurunun Son Değerlendirme aşamasında. Bu süreç onları savaşa sokarak, ittifaklarını zayıflatarak ve konutlarını fethederek yavaşlatılabilir.[br/][br/]Girişimlerini iptal etmek için dost konutlarından {INT_numDwellings}'sini ele geçirmeniz veya itibarlarını {STR_requiredLevel}'ye düşürmeniz gerekir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. 
+A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. 
+Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NUM_DWELLINGS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İttifak kontrolü altındaki konutlar:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">QUEST_PANEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CURRENT_REPUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güncel itibar:</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="72" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirme Çabaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegeni fethetmek için güç kullanmak yerine, zirveye çıkmak için nüfuzumuzu ve ittifaklarımızı kullanacağız.[br/][br/]Görevleri tamamlamak için elde ettiğiniz bağlantı kazançları {RelationIModifier} artar ve itibarınızda {ReputationModifier} artış elde edersiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.
+Relation is the score that determines how strong a player's relation ship is with an NPC faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="75" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici zafer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALLIED_VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici Müttefik Zaferi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIFIER_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFEAT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici Yenilgisi</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>26</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>32</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

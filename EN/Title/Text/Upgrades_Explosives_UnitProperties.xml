@@ -1,0 +1,1365 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2019-04-30T09:33:51Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15940</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="122" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="145.5" />
+      <Column ss:StyleID="s62" ss:Width="107.5" />
+      <Column ss:StyleID="s62" ss:Width="280.5" />
+      <Column ss:StyleID="s62" ss:Width="148" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="323.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNIT_UPGRADES_EXPLOSIVES</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRAG_GRENADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">El bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30.75">
+        <Cell>
+          <Data ss:Type="String">FRAG_GRENADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} hex yarıçapında hasar veren bir el bombası atın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30.75">
+        <Cell>
+          <Data ss:Type="String">GREATER_FRAG_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltilmiş Taarruz Füzesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRAG_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı Füzesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRAG_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} hex yarıçapında hasar veren bir füze fırlat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="12" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_DESTRUCT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendini imha et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_SELF_DESTRUCT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendini İmha Tetikleyicisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_DESTRUCT_MODULE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kendini imha eder ve tüm komşu birimlere hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="16" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dengesiz Yapı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim öldüğünde patlayarak tüm komşu birimlere {DestructDamage} hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_SELF_DESTRUCT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yangın Çıkarıcı Kendini İmha</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PYRX_SELF_DESTRUCT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kendini imha eder ve tüm komşu birimlere [damagethermal/] hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="21" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyogaz Kendi Kendini İmha Ediyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kendini imha eder ve tüm komşu birimlere [damageBio/] hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="24" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMP_SELF_DESTRUCT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Kendini İmha</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMP_SELF_DESTRUCT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kendini imha eder ve tüm komşu birimlere [damagewave/] hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="27" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EQUIPMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BASIC_GRENADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel El Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SWARM_MISSILES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü Füzeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SWARM_MISSILES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birimin etrafındaki bir alanı vuran bir füze sürüsü ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXECUTION_MISSILES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cezalandırıcı Füze</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXECUTION_MISSILES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e bir füze fırlatarak etki alanındaki her şeye hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUSTER_MISSILES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Buster Füzesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BUSTER_MISSILES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e bir füze fırlatarak etki alanındaki her şeye hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASHBANG_GRENADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Flashbang El Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FLASHBANG_GRENADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef altıgen ve komşu altıgenlere bir anda Patlayıcı hasar veren bir el bombası fırlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASHBANG_GRENADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLUGIN_ADDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Flashbang</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="38" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAND_MORTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">El Harcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAND_MORTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir El Havanı ateşleyin, {hexrad} hex yarıçapındaki birimlere hasar verin.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="41" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAMJET_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ramjet Roket</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RAMJET_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir roket ateşleyerek {hexrad} hex yarıçapında Patlayıcı hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEMOLISHER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkıcı Top</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEMOLISHER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkıcı Topu ateşleyerek {hexread} hex yarıçapındaki hedeflere Patlayıcı hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSILE_BARRAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Füze Barajı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MISSILE_BARRAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe tekrar eden bir Patlayıcı yaylım ateşi açın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="48" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOSS_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bomba Atmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TOSS_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tek bir hedefe Patlayıcı hasar veren bir bomba fırlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güdümlü Teslimat Mekanizmaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli Patlayıcı saldırıların menzilini {GuidedDelRan} hex ve isabet oranını {GuidedDelAcc} artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yönlendirme Mekanizması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı menzili {GuidedDelRan} hex artar ve +{GuidedDelAcc} isabetliliğe sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Flash Yükü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="81.75">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırıların artık {FlashPayloadStrength}[strengthphysical/] güç şansı (tekrar eden saldırılar için {FlashPayloadStrengthRepeating}[strengthphysical/]), {BlindDuration}[turn/] için Eterik olmayan birimlere [abilityred]Kör[/abilityred] uygulamak için vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INCENDIARY_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcılar: Yangın Çıkarıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="96">
+        <Cell>
+          <Data ss:Type="String">INCENDIARY_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırılar artık Termal hasar veriyor ve [abilityred]Yanma[/abilityred] uygulamak için 12[StrengthThermal/] güç şansına (tekrarlanan saldırılar için 8[strengthThermal/]) sahip.[br/][br/][productioncol]Patlayıcılarla birleştirilemez: Elektrik.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcılar: Ark Aşırı Yüklemesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="109.5">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırılar artık Ark hasarı veriyor ve [abilityred]Sersemletilmiş[/abilityred] uygulamak için 6[StrengthWave/] güç şansına (tekrarlanan saldırılar için 3[strengthWave/]) sahip.[br/][br/][productioncol]Patlayıcılarla birleştirilemez: Yangın Çıkarıcı.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="61" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mikro Nükleer Görev Yükü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="108.75">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırılar bir seviye [abilityred]Sarsıcı Etki[/abilityred] kazanır, isabet başına {amountA}[armor/] ve {amountS}[shield/] yok eder ve {ImmolateStrength}[strengthThermal/] güç şansı (tekrarlanan saldırılar için {ImmolateStrengthRepeating}[strengthThermal/]) ile [abilityred]İmmolate[/abilityred] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Eriyiği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İsabet başına {amountA}[armor/] ve {amountS}[shield/]'yi yok edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akıllı Yük</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı saldırılar dost hedefleri yok sayar ve bir [abilityred]Sarsıcı Etki[/abilityred] seviyesi kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dost hedefleri yok sayar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NAVAL_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deniz Füzesi Fırlatın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NAVAL_MISSILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e bir füze fırlatarak etki alanındaki her şeye hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEAVY_SHELL_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Mermi Tareti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HEAVY_SHELL_TURRET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağır Mermi Taretini hedefe ateşleyerek Patlayıcı hasar verir. Bitişik birimler bu hasarın {DamagePercentage}'sini alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Broadside Bombardımanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} hex yarıçapında hasar vererek mevcut tüm silahlarla serbest bırakın. Bu, bu saldırı tekrar kullanılmadan önce dışarı atılması gereken duman ve ısı oluşturur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Egzoz Dumanını Dışarı Atın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Egzoz dumanı ve ısı yayarak Geniş Taraf Bombardımanını mümkün kılar ve bu birimin etrafındaki alanı bulutlandırır. Duman içindeki tüm birimlerin vurulması {evadeup} daha zordur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOMBARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombardıman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BOMBARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef konuma güçlü ama isabetsiz bir top mermisi atarak 1 hex yarıçaplı bir alanda hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_ROUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı Mermi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVE_ROUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef konuma tek bir Patlayıcı mermi ateşleyerek {hexrad} hex yarıçapında hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_FACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktik F.A.C.E.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_FACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvvetle Uygulanan Temas Patlayıcısı, kalabalık kontrolü için oldukça etkili bir yöntemdir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">B.O.M.B.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vücuttan Kaynaklanan Kitlesel Patlama, tüm komşu birimlere isabet ederek Patlayıcı hasar verir. Herkesi F.A.C.E. yapmaya vaktiniz olmadığı zamanlar için idealdir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="85" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gösterişli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Parıldayan</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Flickerwick</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bom Yanıp Sönüyor</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Parlak</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FLASH_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Işıltılı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yakma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Enkindling</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yanıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Napalm</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Charring</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Siyanür</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Optimize Edilmiş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Destekli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sleekshot</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kolaylaştırılmış</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yönlendirilmiş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Driftshot</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Şok Paketlenmiş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yıldırım bombası</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Elektrostatik</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İletkenlik</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Ücretli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Volt Blaster</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Nöral Başlatıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Dost Ateşi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Verimli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Akıllı Başlatıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yüksek Teknoloji</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SMART_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Akıllı Hedefleyici</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Son</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Doom Başlatıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Meltdown</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yargıç</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Cehennem Çanları</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Son Savaş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Savaş Durdurucu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>49</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>58</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

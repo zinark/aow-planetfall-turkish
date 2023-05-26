@@ -1,0 +1,1235 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>GeraldR</LastAuthor>
+    <LastSaved>2019-03-12T14:50:58Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Center" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="100" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="225.75" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291" ss:Span="1" />
+      <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DWELLING_QUESTGROWTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">The Growth are a sentient botanical species. They speak poetically, using puns and metaphors to describe things and speak romantically. They use the word "symbiosis" to refer to their relationships with other races and species. The "Mother Node" is their leader, and they refer to her in such.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEFAULT_RESPONSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Görevi tamamlamadığınızı hissediyoruz. İşlerin bu noktaya gelmesi çok üzücü, ancak artık çabalarınıza ihtiyaç kalmadı. Bir daha hayal kırıklığına uğratmadığınızdan emin olun.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Default response to failed quests.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çekirge Salgını</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Hopperhound'ları yen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlı canlı yeniyoruz, dallarımız çıplak bırakılıyor, açık yaralardan özsu akıyor. Bu hayvanların açtığı her kesikte acı var. Meyvelerimiz ve nektarımız serbestçe mevcut, ancak bu bazıları için yeterli değil. Bitki yiyenlerin bedenlerini toprağa vererek besinlerimizi geri verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"plant-eaters" refers to the Hopperhounds in the quest.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba durduruldu. Bitki yiyenlerin bedenlerindeki besinlerle beslenerek iyileşeceğiz. Minnettarız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest completed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="13" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanize Maymunlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyümenin Düşmanlarını Yenmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir grup makineleşmiş maymun yumurtlama alanımızın yakınına zehirli dumanlar yayıyor. Taze yeşil yapraklar yaklaştıklarında büzüşerek yeni filizleri öldürüyor. Bu yaratıkların nasıl bir çevreden geldiklerini düşündükçe ürperiyoruz. Sektörü bu geğiren et torbalarından temizleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir kez daha temiz hava! Yavrularımız minnettarlık içinde çiçek açıyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest completed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="18" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kopuk Bağlantılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyümenin Düşmanlarını Yenmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendimize ait bir alanla bağlantımızı kaybettik - bağlantılarımız koptu. Sakatlanmış bağlantılarımızda şimdi bir kopma paniği duygusu hüküm sürüyor. Birçok döngü önce, dünyanın büyük bölümüyle benzer bir gerginlik içinde bağlantımızı kaybettik. Sayısız yer, göz kırparak varlığını yitirdi. Köklerimizi kimin kopardığını bulun ve onları ortadan kaldırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kök kesiciler gitti ve bölgeyle olan bağımız yavaş yavaş yeniden kuruluyor. Çabalarınız için teşekkür ederiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahte Simbiyont</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Xenoplague'i Yen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korkunç bir hastalık dünyamıza yayılıyor. Sahte bir simbiyont ortaya çıktı ve bizi kendi yozlaşmasının bir parçası yapmaya kararlı. Gezegeni tüketmeden önce bu salgını durdurun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Salgın kontrol altına alındı, korkunç iğrençlikler öldürüldü. Şimdi iyileşme zamanı. Şükret, Symbiont.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The Growth refer to the player as "Symbiont" as a title.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Depolanmış Güneş Işığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme için Fotovoltaik Paneller Kurun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işık veren ve yaşam getiren Sonriel sana gülümsüyor, {STR_LeaderName}. Biliyoruz. Cihazlarınızdan gelen yaşam ışığını kullanarak türünüzün büyüdüğünü ve ışıltılı yapraklar yaydığını gördük. Onun yankılanan zarafetinin dokunduğu fidanlarımız her zamankinden daha çok çiçek açtı. Sonriel'in hediyesini paylaşacak ve bize geceyi aydınlatan yaprakları verecek misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Sonriel" refers to the name given by the Growth for the sun. They worship Sonriel as their god.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkür et, Symbiont. Sonriel artık uyurken bile fidanlarımızı besliyor. Çiçek açmamıza yardım ettin. Meyvelerini paylaşıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fotovoltaik Paneller</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme doğası gereği fotosentetiktir ve güneş panellerini kullanarak güneş ışığını depolayabilmeleri, gece döngüleri sırasında enerji depolayabilmelerini sağlayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sera Etkisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Refers to (https://en.wikipedia.org/wiki/Greenhouse_effect)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme için Sera Parçaları Oluşturun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ana Düğümün ve fidanlarının gücü Sonriel'in ebedi ışığıyla bağlantılıdır. O bize gülümsediğinde büyür ve çiçek açarız, o seyahat edip uyuduğunda ise bocalar ve solarız. Kök salmamış türün pek çok şekil alabileceğini biliyoruz. Atalarınızın geride bıraktığı camsı kabuklar Sonriel'in ışığını yoğunlaştırır ve verimli bir şekilde çiçek açmamızı sağlar. Türünüzün 'sera' dediği bu karapaslardan daha fazla yaratmamıza yardım eder misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Mother Node" is their leader in-game.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkür et, Symbiont. Çiçek açmamıza yardım ettin. Meyveleri paylaşıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sera Parçaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegendeki iklim Büyüme için her zaman uygun değildir, ancak seralar onlara tüm yıl boyunca üstün koşullar sağlayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="42" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tek İyi Böcek Ölü Böcektir</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reference to the film, "Starship Troopers".</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hopperhound Yuvasını Yok Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Garip mutasyonlara sahip açgözlü etoburlar ekosistemimiz için hayati önem taşıyan canlıları avlıyor. Sürüler halinde avlanıp, korularımızda yaşayan yerlileri öldürüyorlar. Bir itlaf başlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkürlerimizi kabul et, Symbiont. Bu iğrenç yaratıkların itlaf edilmesi etkili oldu ve fauna bağrımıza geri döndü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Kaya ile Zor Bir Yer Arasında</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">See (https://en.wikipedia.org/wiki/Between_a_Rock_and_a_Hard_Place)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvarsit İnini Yok Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Köklerimiz kıvrılan kayaların arasında öğütülüyor. Diğer yerlerde kayalar parlıyor ve sıvılaşarak bizi besinlerimizden mahrum bırakıyor. Bu canlı kayaları durdurun ve besinlerini bir kez daha toprağa geri verin. Bu ödülsüz kalmayacak, Symbiont.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yeniden kök salıyoruz. Değerini kanıtladın, {STR_LeaderName}. Sonriel senin üzerinde parlasın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderName} can be male or female.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="51" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dokunaç Takdir Programı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme için Araştırma Dokunaç Uygulamaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Ortak yaşamı sizin türünüzü de kapsayacak şekilde genişletmeyi hedefliyoruz. Bunun gerçekleşmesi için dokunaç, nektar ve özsuyun sevgisini nasıl yayabileceğimizi anlamamız gerekiyor. Bu araştırmada bize yardımcı olur musunuz?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Symbiont, kucaklaşmamız artık daha da yakınlaşabilir. Bu bilgi için teşekkür ederim.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dokunaç Uygulamaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme, dokunaçları aracılığıyla ortak yaşam sevgilerini nasıl daha iyi yayabilecekleri konusunda bir çalışma başlatmak istiyor. Bir dokunaç sabah kahvenizi içmenize yardımcı olabilir mi? Belki de haber akışını okumanıza yardımcı olur? Haydi deneyelim!</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="58" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Tohumlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme için Gezegenler Arası Ekim Yöntemlerini Araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Ana Düğüm tamamen büyüdü ve tohum kapsülünü bu gezegenden fırlatmaya hazır. Ancak birçok güneş önce, diğer dünyaların ortak yaşamıyla olan tüm bağlantımızı kaybettik. Yönümüzü kaybettik. Güneş rüzgarlarının bizi verimli topraklara götürmesi için bir yörünge hesaplamamıza yardım edin.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tohum kabuğumuz yeni bir dünyaya doğru yola çıktı. Teşekkür ederim, Symbiont.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegenlerarası Ekim Yöntemleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme, Ana Düğüm tarafından fırlatılan devasa tohumlarını diğer dünyalara göndererek yayılır. Tohum fırlatma yörüngelerini hesaplamalarına yardımcı olun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom Düşmanlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom Budama Birimlerini Yok Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onların sıcak kulelerinde yetişme çabalarımıza rağmen, bu Otonomlar asmalarımızı üzerlerinde yetiştiremeyeceğimiz konusunda ısrar ediyorlar. Sadece kablolarını güçlendirmeleri gerekiyor. Sonriel'in öpücüğünü almak için yüksek noktalarda büyümeliyiz. Asmalarımızı kesip temizleyenleri yok edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Otonomlar büyümemizi engellemek için ajanlarını göndermeden önce iki kez düşünecekler, hepsi senin sayende, {STR_LeaderName}. Sana saygılarımızı sunuyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="69" ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Salata Kültü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bitki yiyen tarikatı yok edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korkunç! Zalimliklerinin sonu yok: Kök yumrularımızı kaynatan, yapraklarımızı tüketen ve çocuklarımızı asmadan koparıp dilimleyerek zevkleri için şekerli nektara bulayan tarikatçılar. Büyümenin her filizi, sadece bu isimle bilinen bir insanımsılar tarikatı olduğunu bilmenin dehşetiyle titriyor: Vejetaryenler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s66">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yapraklarımız rüzgârda sakinleşiyor. Bu mutfağın dehşetini asla unutmayacağız, ancak bunların ortadan kaldırılmasındaki katkınızın farkındayız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="74" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kanalizasyon Smoothie'leri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme Gübresi için Kanalizasyonu Yeniden Yönlendirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konutlarınızdan lezzetli emisyonlar geldiğini hissediyoruz. Kanalizasyon dediğiniz şeyi istiyoruz. Bu yöne gönderebilir misiniz? Lezzetli özütlerinize açız. Belli ki ortak yaşam içinde birlikte yaşamamız gerekiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lezzetli ve değerli kanalizasyonunuz için teşekkür ederiz. Bizimle paylaştığınız için çok mutluyuz. Biz onu seviyoruz. Biz birlikte olmak için yaratılmışız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme için Kanalizasyon Tankları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu özel üretim görevini, şehir kanalizasyonunuzu toplayıp paketleyerek ve bu değerli gübreyle beslenmek isteyen Büyüme'ye dağıtarak tamamlayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="81" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi Yalnız Bırakın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonik Haşere Kovucu Cihaz Oluşturun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A play on the saying,"Leave us alone".</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçücük boylu, tuhaf bir şekilde sempatik bir gezgin adam bize haşere kovucu bir cihaz yaratmak için teknolojiyi icat edebileceğinizi söyledi. Çoğu yaratığın ultrasonik seslerden hoşlanmadığını söyledi. Bu cihazı ana düğümlerimizi korumak için istiyoruz. Lütfen temin edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cömertliğiniz ve yaratıcılığınız için teşekkür ederiz. Siz gerçekten bu dünyanın efendisisiniz ve Sonriel tarafından kutsanmışsınız. Lütfen cömertliğimizi kabul edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sonik Haşere Kovucu Cihaz</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bilinçli olabilirler ama Büyüme hâlâ bitkidir. Gezegenin faunasına karşı onlara bir itici güç vermek onlara çok yardımcı olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pod Kaçakçıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Pods refer to the Growths botanics.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korsan Kaçakçıları Ortadan Kaldırın</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Suçlular özümüzü çalıyor, en korkuncu da tohumlarımızı çalıyorlar. Birçok arkadaşımız öldü. Çok üzücü. Hep aynı şey. Korkunç iştahları için değerli tohumlarımızı toplamak üzere iç organlarını oydular.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Symbiont refers to the name given to the player by the Growth.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korsan mezbahasını yok ettiğiniz için teşekkür ederiz. Seni tanıyoruz, güzel Symbiont, ve seni bir dost olarak görüyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İntikam Asmadır</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A play on the saying, "Vengeance is mine".</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme bedenlerinden yapılan yuvayı yok edin.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Harekete geçilmesini istiyoruz! Göklerden geldiler, fidanlarımızı köklerinden söktüler, yuvalarına ördüler! Katiller kurumuş bedenlerimizi sığınak olarak kullandılar! Bunu kim yapar? Kaybımızın intikamını mutlaka alacaksınız!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Flying creatures are using the Growth to build their nests.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fidanlarımızı katleden yaratıkları yok ettiğiniz için size çok teşekkür ederiz. Büyüme'nin dostu olduğunuzu kanıtladınız.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sprinkler Boruları</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyümeyi Sulamak için Yağmurlama Boruları İnşa Edin</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratıcılığınızı duyuyor ve çiftçilerinizin sulama teknolojinizi paylaşmasını arzu ediyoruz. Sulama girişimlerimiz daha az incelik içeriyor ve köklerimiz sular altında kaldıkça besinlerin akıp gittiğini hissediyoruz. Sisleme fıskiyeleri kullanarak bizi nemli tutar ve beslerseniz minnettar kalacağız.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüyen asmalar tarlalar boyunca uzanıyor ve teknolojinizin serin sularından kana kana içiyoruz. Cömertliğiniz için teşekkür ederiz. Yapraklarımız gelecek yüzyıllar boyunca yavrularınıza barınak sağlayacak.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme İçin Bir Sulama Sistemi Kurun</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu özel üretim görevini yağmurlama boruları inşa ederek ve Büyüme'nin arazilerini daha verimli bir şekilde sulaması için bunları yerleştirerek tamamlayın.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>90</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>94</ActiveRow>
+          <RangeSelection>R95</RangeSelection>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

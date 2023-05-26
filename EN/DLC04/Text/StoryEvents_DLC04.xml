@@ -1,0 +1,432 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Michelle Kusters</LastAuthor>
+    <LastSaved>2020-02-05T14:43:58Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>9810</WindowHeight>
+    <WindowWidth>20850</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="33" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="270" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="240" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:Width="279" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="180.75" />
+      <Column ss:StyleID="s62" ss:Width="265.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DLC04_STORYEVENTS</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERIANS_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğal Seçilim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THERIANS_WEAK_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürümüze destek olmalıyız. Burada ya yiyeceğiz ya da yeneceğiz. Ve biz çok açız. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERIANS_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eldivenler Çıktı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THERIANS_MEDIUM_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pençelerimiz bilenmiş, dişlerimiz gösterilmiş ve tüm silah emniyetleri kapatılmıştır. Şirketimizin gerçek potansiyelini deneyimlemenizi istiyoruz. Hâlâ neşeli, sadece daha kanlı.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERIANS_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parçalara Ayrıldı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THERIANS_STRONG_ATTACK_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arkadaş olabilirdik. Ama şimdi avcı av oldu. Korkunuzun kokusunu alıyoruz. Ulumalarımızı duyduğunuzda çok geç olacak. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_THERIANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Therian Fraksiyon Talebi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_THERIANS_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Feryatlarımızı ve homurdanmalarımızı dinlemiyorsunuz. Belki de doğrudan bir talep daha nettir. Barınağımız için enerjiye ihtiyacımız var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_THERIANS_ALIENGOOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etrafta dolaşıyor, istediğinizi yapıyor, bizi ve isteklerimizi görmezden geliyorsunuz. Bize bir kemik at. Ya da en azından biraz kozmite.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FACTION_DEMAND_THERIANS_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dostluk çok tek taraflı görünüyor. Siz alıp götürüyorsunuz, biz de bizim olanı talep edeceğiz. Bu sektörü bize bırakın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_SECOND_THERIANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şirketimiz sizi mutlu etmiyor mu? Gerçekten diğerleri gibi misiniz - zorbalar ve isyancılar? Farklı olduğunuzu kanıtlayın, yoksa size kötü tarafımızda olmanın nasıl bir şey olduğunu gösteririz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_SHAKARN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Shakarn yerleşimi, sokakların ve sakinlerinin üzerinde yüzen güzel holografik nesnelerle süslenmiştir. Ancak yaklaştıkça renkler solmaya başlıyor ve yerleşimin gerçek doğası size askeri bir operasyon üssü olarak kendini gösteriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">You in the text can refer to a male or female character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp Serseri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zulaya yaklaşırken, kasalardan birini açmaya çalışan yalnız bir Therian başıboş {STR_UnitName}'yi ürkütüyorsunuz. Temkinli bir şekilde geri çekiliyor, aç ve yalnız. Ona yardım edebilir ya da kaynakları kendinize saklayabilirsiniz. [br/][productioncol]Bu karar bu Grupla olan ilişkileri etkileyecektir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sokak hayvanlarını saflarınıza kabul edin ({STR_UnitName})</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_UnitName} gives a unit name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üniteyi teslim alırsınız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başıboşu görmezden gelin ve {STR_Rewards}'yi kendiniz için alın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_Rewards} shows a reward amount</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alırsınız: {STR_Rewards}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sokak hayvanına bırakmak için sandığı açın ve [diplomaticlinks/] kazanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Therialılarla [diplomaticlinks/] ilişkileriniz gelişiyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlak Enerji Önbelleği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasarlı enerji deposuna yaklaştığınızda küçük bir grup Therialı'nın depoyu açmak için bir silah kullandığını fark ediyorsunuz. Liderleri buraya ilk kendilerinin geldiğini ve bu yüzden 'benim' dediklerini size bildiriyor, ancak denerseniz onları kovalayabileceğinizden eminsiniz. [br/][productioncol]Bu karar bu Grupla olan ilişkileri etkileyecektir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onları kovalayın ve silahı alın: ({STR_ItemName})</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_ItemName} gives an item name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silahı alırsın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onları kovalayın ve silahı kaybederek önbelleği alın: {STR_Rewards}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alırsınız: {STR_Rewards}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunu Therians'a bırakın ve [diplomaticlinks/]'yi kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Therialılarla [diplomaticlinks/] ilişkileriniz gelişiyor</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>1</ActiveRow>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

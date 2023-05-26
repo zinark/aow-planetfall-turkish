@@ -1,0 +1,614 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>KyleB</LastAuthor>
+    <LastSaved>2019-02-28T13:53:28Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="40" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="140.25" />
+      <Column ss:StyleID="s62" ss:Width="198" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="264" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="94.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="198" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="174.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="264" />
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{XML_PROMETHEAN_TECHGROUPS@PROMETHEAN@DESC}[br/][br/]{XML_PROMETHEAN_TECHGROUPS@PROMETHEAN@FEATURES}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No need to translate. This inserts the PROMETHEAN_TECHGROUPS@PROMETHEAN@DESC and PROMETHEAN_TECHGROUPS@PROMETHEAN@FEATURES texts with some white space.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003AC0000032F]Prometheans[/hyperlink] gezegensel yok edicilerdir ve PyrX ateşleriyle tehditleri ortadan kaldırırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletlist][bullet][sand]Starting Unit: [/sand] [köprü, unitlookup0000038700001E8D]Arındırıcı[/hyperlink][/bullet][bullet]Kitle imha silahları oluştur[/bullet][bullet]Güçlü yangın silahları kullan[/bullet][bullet]Yerleşim misafirperver olmayan yerlerde[/bullet][bullet]Birimleri ve kolonistleri Armageddon'dan korur[/bullet][bullet]Isı ve Kinetik hasar kanallarını kullanır[/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktiksel Koruma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Promethean topraklarında seyahat ederken, taktiksel koruyucu teknolojileri kullanabilen ajanlara yakın durun. Ben zarar görmeden geçerken, etrafımdaki dünyanın bir cehennemde yok oluşunu izledim. "[br/]- Mah Reg'Nib, Promethean Ateşinden Kaçarken</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Op İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Hiç metal ateşi gördünüz mü? Yeterli ısı ve doğru yakıt verildiğinde her şey yanar. Böylesine yoğun bir ateş dikkatli bir kurulum gerektirir. Plazmoidler konsantre ateşle dolu özel dağıtım botlarıdır. Güçlü bir yangını ateşlemek için oldukça kullanışlıdırlar. "[br/]- Haute Ashman, Kızıl Alev Rütbesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: removed extra space before "special"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anka Şafağı Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Saf olanlar Promethean Tümeni'nden korkmamalı ya da kendilerini tehdit altında hissetmemelidir. İyi eğitilmişlerdir ve katı protokolleri hatasız uygularlar. Bu, içinde yozlaşma barındırmayan herkes için büyük bir rahatlık olmalıdır. Alevden korkmalılar. "[br/]- Khansu, Yanan İmparator</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arındırıcı Birliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dünyayı ateşle temizlemek her Arındırıcı'nın kutsal görevidir. Arıtıcı gümüşü yoğun ısı ile eritir. Sıvı cevher cüruftan ayrılır. Toplumu ateşle arıtma ve vebanın lekesini yakma görevimizi benimsiyoruz. "[br/]- Logan Dwerg Prometheans'a Katılma Üzerine</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Arıtıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Arıtma Tabancası</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Paladin Arındırıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyosferin Boyunduruk Altına Alınması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sadece Promethean adanmışları masum hayatları zehirli tehlikelerden ve ateşli kimyasal reaksiyonlardan korumaya yetkilidir. Metal yangınları kimyasal yangınlardan farklıdır. Biz hangi felaketlerin yakılması, söndürülmesi ya da sadece yanmasına izin verilmesi gerektiğini biliyoruz. "[br/]- İtfaiye Şefi Skollis Ernist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş Aegis Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İlgili herkesi temin ederim. Biz sadece kontrollü yakma yapıyoruz. Silahlarımız sadece amaçlanan hedefleri vurur. İçiniz rahat olsun, eğer orayı yaktıysak, bu hepimize yönelik bir tehdidi yok etmek içindi. "[br/]- İtfaiye Şefi Billis Tonkata</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Başlangıç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Keşfedildiğinde, PyrX ajanı çok uçucuydu. Muhteşem bir ateş yaratmak için en güçlü moleküler bileşikleri bile oksitleyebilen nihai reaktandır. Bu son yeniliklerle, nihayet PyrX'i silah haline getirmeye hazırız. "[br/]- Shela Kilgraves, Alchemicorp CEO'su</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aegis Tank Birliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Benim görevim masum ve saf olanlara karşıdır. Mum ile alev arasında duruyoruz. Ben çaresizlere hizmet ederim. Diğerleri ateşten kaçarken, ben ateşin içinden koşacağım. Tehlike ne olursa olsun, tehlike ne olursa olsun, çizgiyi koruyacağım. "[br/]- Promethean Aegis Corp Credo</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Aegis Tankı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Aegis Tankı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Dalgalanma Modülleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Zaman zaman bir örgüt, gözetimimizi, özel PyrX emilim malzemelerini ve güvenlik protokollerini göz ardı ederek Promethean teknolojisini çalmaya çalışır. Başarıları sınırlıdır, kaçınılmaz olarak düşmanları kadar kendilerine de zarar verirler. Yüzyıllardır var olmamızın bir nedeni var. "[br/]- Haute Ashman, Kızıl Alev Rütbesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Nighttide Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Xenoplague tamamen yakılmalıdır. Galaksiye yayılmasını önlemek için denizleri kaynatacak ve bu belaya maruz kalma ihtimali olan tüm canlıları yakacağız. "[br/]- Khansu, Yanan İmparator</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Sektör Hazırlıkları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Size söylediğimiz yere, söylediğimiz zamanda ve söylediğimiz şekilde gidin. İtaat edin. Eğer yanarsanız, bu koruma prosedürlerimize gerektiği gibi uymadığınızın ya da imha listesinde olduğunuzun bir göstergesidir. "[br/]- Madam Flora Radner, Phoenix Prosedür Yöneticisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Syndicate Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Walker Birliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Anka kuşu yükseklerde beliriyor, kızıl ateş tüyleriyle toprağı ıslatıyor. Küllerden oluşan yolumdan yükselerek cehennemin içinden geçiyorum. Kanatlarımın parıltısı arkamdan spiral girdaplar gönderiyor. Her zamankinden daha canlıyım. "[br/]- Ginette Greyson, Elit Asker, Phoenix Savaş Birliği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Phoenix Walker</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Phoenix Walker</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Arındırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gezegenler alev ve kaos içinde doğar. Hayat başarılı olmak için ateşi kullanmalı ama kaosu reddetmelidir. Alev ocağı ısıtır. Kıvılcımları pistonlara güç verir. Dünya sona ererken, ateşi serbest bırakacağız, ancak bu sefer düzenli bir şekilde, kontrol ettiğimiz bir şekilde. "[br/]- Khansu, Yanan İmparator</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anka Yükseliyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Zekanın ilk işareti -insanlığı diğer hayvanlardan ayıran araç- insanın ateşe hakim olmasıyla ortaya çıktı. Yıkıcı bir gücü bir araca dönüştürdük. Bu son icatlar, yaratıcılıkta yepyeni bir seviyeye ulaştığımızı kanıtlıyor. "[br/]- Dr. Simon Fiddler, Plasmatech Laboratuarları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <TopRowVisible>12</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>16</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

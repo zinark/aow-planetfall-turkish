@@ -1,0 +1,3293 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Arno van Wingerden</LastAuthor>
+    <LastSaved>2019-08-28T12:04:52Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11910</WindowHeight>
+    <WindowWidth>29445</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s29" ss:Name="Input">
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+      </Borders>
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333399" />
+      <Interior ss:Color="#FFCC99" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+      <Interior />
+      <NumberFormat />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s29">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s69" ss:Parent="s62">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="216" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="219" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="121.5" />
+      <Column ss:StyleID="s63" ss:Width="277.5" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="386.25" />
+      <Column ss:StyleID="s63" ss:Width="150" />
+      <Column ss:StyleID="s63" ss:Width="237" />
+      <Column ss:StyleID="s63" ss:Width="230.25" />
+      <Column ss:StyleID="s63" ss:Width="87.75" />
+      <Column ss:StyleID="s63" ss:Width="176.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">NET</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUCCEEDED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">başarılı oldu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: succeeded to join a network session</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">başarısız oldu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: failed to join a network session</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">USER_ALREADY_EXISTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">kullanıcı zaten var</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the player if the username is already used by another player</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROFILE_ALREADY_EXISTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">profil zaten mevcut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the player if the profile name is already used</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INVALID_PASSWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">geçersi̇z şi̇fre</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the player if the password given to login is wrong</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INVALID_USERNAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">geçersi̇z kullanici adi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the player if the username given to login is not registered </Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KEY_ALREADY_USED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">anahtar zaten kullanılmış</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: registration key has already been used once and became invalid, ( a combination of letters and numbers )</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INVALID_KEY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">geçersiz anahtar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: invalid registration key, ( a combination of letters and numbers )</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EMAIL_ALREADY_EXISTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">e-posta zaten mevcut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: the email adress is already registered</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DATABASE_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">veritabanı hatası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: there was an error on the database of the game</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NETWORK_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ağ hatası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">as in: there was a error with the network connection </Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SERVER_NOT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sunucu bulunamadı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the used when the connection to the server failed </Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SERVER_FULL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sunucu dolu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the player when the server is full </Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SERVER_NOT_READY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sunucu hazır değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">displayed to the player when the server is not fully setup yet </Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COULD_NOT_CREATE_ACCOUNT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hesap oluşturulamadı: {STR_reason}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_reason} will be replaced with a string for the reason why the user could not create an account</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COULD_NOT_SETUP_EXISTING_ACCOUNT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mevcut hesap kurulamadı: {STR_reason}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_reason} will be replaced with a string for the reason why the user could not setup an account</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COULD_NOT_CHANGE_PASSWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parola değiştirilemedi: {STR_reason}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_reason} will be replaced with a string for the reason why the user could not change his password</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CANNOT_CONNECT_TO_SERVER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sunucuya bağlanılamıyor (lütfen daha sonra tekrar deneyin)</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_ACTIVATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">etkinleştirilmedi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PRODUCT_MISSING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ürün eksik</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCOUNT_IN_USE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">kullanımdaki hesap</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUILD_OUTDATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">modası geçmiş inşa etmek</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNKNOWN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilinmiyor</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEAM_USER_ALREADY_ASSIGNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">steam kullanıcısı zaten atanmış</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The "Steam User" is already assigned to a different account</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEAM_USER_ALREADY_SET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">steam kullanıcısı zaten bağlı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The "Steam User" is already linked</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEAM_TICKET_INVALID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">buhar bi̇leti̇ geçersi̇z</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The "SteamTicket" is invalid</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STEAM_USER_INVALID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">steam kullanıcısı geçersiz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The "SteamUser" is invalid</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TO_MANY_EXCHANGE_GROUPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok fazla değişim grubu var</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when there are to many exchange groups</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NAME_ALREADY_USED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup adı zaten kullanılıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the group name is already used</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ACCESS_DENIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Erişim reddedildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when access is denied</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_SUBSCRIBED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abone değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the player is not subscribed</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALREADY_SUBSCRIBED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zaten abone oldum</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the player is already subscribed</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NOT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup bulunamadı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the group is not found</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_LOCKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup kilitli</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the group is locked</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_TYPE_MISMATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup türü uyuşmazlığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the group type has a mismatch</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONTENT_ALREADY_EXISTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçerik zaten mevcut</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the content already exists</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONTENT_NOT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçerik bulunamadı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the content is not found</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_FULL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup tam</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the player when the group is full</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_FULL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">oturum dolu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Error message when joinin a session fails.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_LOCKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">oturum kilitlendi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Error message when joinin a session fails.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_INVALID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">oturum geçersiz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Error message when joinin a session fails.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_SYNC_MISMATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sürüm uyuşmazlığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Error message when joinin a session fails.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_YOUR_TURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıra Sende Değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Turn as 'per turn', interface.xml, line 5</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUBSCIPTION_LIMIT_REACHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abonelik sınırına ulaşıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed when user has joined to many sessions.</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONTENT_TOO_LARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçerik çok büyük</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Error message when content that is uploaded it too large</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONTENT_LIMIT_REACHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçerik sınırına ulaşıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Number of content that a user tries to upload exceed the limit</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KEY_SIZE_TOO_LARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anahtar boyutu çok büyük</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Error when a datafield has become to large to be stored in the database</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">NETRESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KEY_LIMIT_REACHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anahtar sınırına ulaşıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Amount of datafields in the database exceeds a limit</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="52" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKIPPED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">atlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The turn of a player was skipped</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">takım</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFEATED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">mağlup</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORIOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">muzaffer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KICKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tekmeledi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEFT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sol</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ev sahibi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TURN_RESTARTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">dönüş yeniden başlatıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LAST_TURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">son dönüş</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ITS_YOUR_TURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sıra sende</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NOT_READY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">hazır değil</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONFIRMATION_REQUEST</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Onay Talebi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">User status message</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">READY_TO_PLAY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oynamaya Hazır</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Text displayed when everyone is ready to play</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">OLDER_TURN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Son tur sizinkinden daha yeni bir sürümle yüklendi! Oyununuzu güncelleyin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Error message shown when a player is trying to play a turn which is not the most recent turn</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SAVE_AND_EXIT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kaydet ve Oyundan Çık</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Text displayed to the player if they want to save and exit their game</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">WANT_TO_TERMINATE_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bu oturumu sonlandırmak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Asked to the player if they want to terminate the session they are playing</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">INVALID_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum geçersiz ve oynatılamıyor</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Status text when the session in the list is invalid and they cannot play it anymore</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REFRESH_REQUIRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">En son bilgileri almak için yenileme gerektirir</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Status text when the session requires a refresh to get the latest information to display to the player</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">INFO_EXITING</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturumdan çıkılıyor</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Information displayed in the top bar when in a multiplayer game.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ROUND</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yuvarlak: {INT_round}</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">The actual round the pbem session is in </Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">USERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kullanıcılar:</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">The uses are in a pbem session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">WANT_TO_EXIT_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bu oturumdan çıkmak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Asked to the player if they want to exit the session that they are currently in</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REFRESH_WARNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yenileme devre dışı[br/]{STR_TimeLeft} kalan...</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed as a warning to the player when they press the refresh button and it is currently disabled.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:Index="76" ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CREATE_ACCOUNT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hesap oluştur</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LOG_IN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Giriş yap</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LOG_OUT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturumu kapat</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_HOST</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ev Sahipliği Oturumu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_HOST_TIME_OUT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sunucuda barındırma hatası: zaman aşımı!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Error hosting on server: Time out!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_JOIN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Katılma Oturumu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ERROR_UPDATING_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hata: oturum güncellenemedi</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Error: Could not update session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_FIALED_REVISION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturuma katılınamadı (neden: kaynak\dönüşüm uyuşmazlığı)</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_FAILED_PASSWORD</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturuma katılınamadı (neden: geçersiz şifre)</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SESSION_FAILED_UNKNOWN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturuma katılınamadı (neden: bilinmiyor)</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STORE_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum saklanamadı ve durduruldu.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Removed the mention of 'Cloud' from this sentence to resolve a certification issues.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Removed the mention of 'Cloud' from this sentence to resolve a certification issues.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:Index="3" ss:StyleID="s67" />
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPLOAD</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yükle</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DELETE_GAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir oyunu silmek kalıcıdır ve son turunuzda yaptığınız bazı değişiklikleri geri alabilir. Bu oyunu silmek istediğinizden emin misiniz? [br/] [br/] {STR_SessionName}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPLOAD_REQUIRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yükleme Gerekli!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPDATING</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Güncelleniyor...</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IN_COMBAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Savaşta</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CHECKING_PRIVILEGES</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Lütfen bekleyin...</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Checking privileges and online state before going into online mode</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOWNLOADING_SESSIONS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturumlar güncelleniyor - lütfen bekleyin...</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">downloading multiplayer session data after entering online state</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CANNOT_CONNECT_TO_STUNT_SERVER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Dublör sunucusuna bağlanılamıyor!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SESSION_OPENED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum açıldı.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">as in: a network game has been created and players are able to join the game</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SESSION_CLOSED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum kapanmıştır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">as in: a network game has been closed and players are not able to join the game anymore</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FAILED_TO_JOIN_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturuma katılma başarısız oldu. Birazdan tekrar deneyin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">as in: failed to join the network game</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">USER_JOINED_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kullanıcı [green]{STR_userName}[/green] oturuma katıldı.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">as in: user joined the network game</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">USER_LEFT_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kullanıcı [green]{STR_userName}[/green] oturumdan ayrıldı.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">as in: user left the network game</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SIGNING_OUT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Çıkış yapıyorum:</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">INVALID_USERNAME_OR_PASSWORD</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Geçersiz kullanıcı adı veya şifre - yalnızca çevrimdışı özellikler desteklenir!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ACTIVATION_REQUIRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Giriş yapılamadı: çevrimiçi özelliklere erişmek için aktivasyon gereklidir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COULD_NOT_LOGIN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Giriş yapılamadı: bilinmeyen hata - yalnızca çevrimdışı özellikler desteklenir!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COULD_NOT_LOGIN_BUILD_OUTDATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Giriş yapılamadı: derleme güncel değil - yalnızca çevrimdışı özellikler destekleniyor!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">UPDATE_GAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Lütfen oyununuzu güncelleyin ve\veya en son yamaları yükleyin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NOT_HOSTED_PLEASE_CHANGE_GAME_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturumda ev sahipliği iptal edildi - lütfen oyun açıklamasını değiştirin</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ERROR_HOSTING_SESSION_ON_SERVER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sunucuda oturum barındırma hatası - lütfen ağ ayarlarınızı yeniden yapılandırın</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">GAME_FULL</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oyun dolu \ başka slot yok</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">GAME_IN_PROGRESS_SESSION_LOCKED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oyun devam ediyor \ oturum kilitli</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_NOTCONNECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: bağlı değil</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Not connected</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_INTERNALERROR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Belirtilmemiş bir hata oluştu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_SESSIONJOINFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturuma katılamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to join session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_NOSESSIONINPROGRESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: devam eden oturum yok</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: No session in progress</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_UNEXPECTEDRESPONSEDATA</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: beklenmeyen yanıt verileri</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Unexpected response data</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYCREATEFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: lobi oluşturulamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to create lobby</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSINSUFFICIENTSPACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Maksimum eş zamanlı çok oyunculu oturum sayısına ulaştınız! Lütfen yeni bir oturum başlatmadan önce bir oturumu kaldırın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSNOTFOUND</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: saklanan oturum bulunamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Could not find the stored session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSALREADYEXISTS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturum depolama alanı dolu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Session storage occupied</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSUPLOADFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturum yükleme başarısız oldu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Session upload failed</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSENUMERATIONFAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturumlar listelenemedi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to list sessions</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSNOMORESLOTS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturumu saklamak için daha fazla yuva yok</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: No more slots to store the session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSCHANGEDWHILERETRIEVING</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: indirme sırasında oturum değişti</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Session changed during download</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSDOWNLOADFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturum indirilemedi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to download session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSNOTCONNECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: bağlı değil</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Not connected</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TURNNOTIFICATIONFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: bir sonraki oyuncuya bildirilemedi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to notify the next player</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_FRIENDINVITEFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: davet başarısız oldu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Invitation failed</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_P2PCONNECTIONLOST</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: bağlantı kesildi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Connection lost</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYLEAVEFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: ayrılamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to leave</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYJOINFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: katılma başarısız oldu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to join</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYSTARTFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: başlatılamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to start</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYSTOPFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: durdurulamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to stop</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYLISTFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturumlar listelenemedi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to list sessions</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYSENDCHATFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: sohbet mesajı gönderilemedi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to send chat message</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_LOBBYKICKFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: tekme başarısız oldu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Kick failed</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TUSDELETEFAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: oturum kaldırılamadı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Failed to remove the session</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_TIMEOUT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: bir zaman aşımı meydana geldi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: A timeout has occurred</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_NOTHOST</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: ev sahibi siz değilsiniz</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: You are not the host</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_VERSIONMISMATCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: sürüm uyuşmazlığı tespit edildi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: A version mismatch was detected</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_MAINTENANCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: bakım altında</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Under maintenance</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_BUSY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: meşgul</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: Busy</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_PASSWORDREQUIRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir şifre gereklidir</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_INVALIDPASSWORD</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Şifre geçersizdi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_PLEASECHANGEGAMEDESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Lütfen oyun açıklamasını değiştirin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_NATTYPEMISMATCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu: NAT türü uyuşmazlığı tespit edildi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">An error has occurred: A NAT type mismatch was detected</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_ERROR_UNSPECIFIEDERROR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Belirtilmemiş bir hata oluştu</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_WARNING_RELAY_PING_FAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">UDP aktarıcısı ile iletişim kurulamadı; çok oyunculu deneyiminiz sınırlı olabilir. Bu durum devam ederse lütfen NAT yapılandırmanızı kontrol edin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">GAME_NOT_FOUND</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir hata oluştu ve oyun bulunamadı.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_INVITE_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Lütfen oyunuma katılın!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">The default message sent with an invitation to a lobby when there is no system default</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">MULTIPLAYER_TURN_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sıra sende!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">The default message sent with a turn notification (push notification) when there is no system default. Currently this is only implemented on PS4, on which there is no system default.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NEED_TO_REGISTER_PRODUCT_MSG</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Çevrimiçi hizmetimize erişmek için ürününüzü kaydettirmeniz gerekir. Anahtarınızı kaydetmek için başlatıcıdaki hesap ayarlarınıza gidin veya çevrimiçi mağazalardan birini ziyaret edin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">KEY_TO_OPEN_CHAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sohbeti açmak için {STR_button} tuşuna basın</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BUTTON_TO_OPEN_CHAT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{STR_button} (basılı tutun) açık sohbet</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">OPEN_HOST_PROFILE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ev Sahibi Profilini Görüntüle</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed next to the button used to open the profile of the host in the session list (previously joined sessions).</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">OPEN_PLAYER_PROFILE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oyuncu Profilini Görüntüle</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed on the button used to open the profile of the currently selected player in the session information dialog.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SEND_EMAIL</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">E-posta Gönder</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed on the button used to send an email to the currently selected player in the session information dialog.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REMOVING_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum kaldırılıyor - bir dakika lütfen</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed to the user in a dialog when they have chosen to delete a session from their session list.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REMOVING_SESSION_ERROR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum silinirken hata oluştu!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed to the user in a system message when there was an error deleting the session.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SIGNING_IN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">İmzalıyorum:</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COULD_NOT_LOGIN_ACCOUNT_IN_USE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Giriş yapılamadı: hesap kullanımda - yalnızca çevrimdışı özellikler desteklenir!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Someone tries to login with one account on 2 systems</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CANNOT_CONFIGURE_NETWORK_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sunucularımız bilgisayarınızla bağlantı kuramıyor. Lütfen güvenlik duvarınızı kontrol edin ve\veya yönlendiricinizdeki bağlantı noktalarını manuel olarak açın.[br/]Ağ sorunlarını çözme hakkında daha fazla bilgi için lütfen web sitemizi ziyaret edin:[br/] www.ageofwonders.com\support\networking\</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Displayed when network couldn't be configured.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CANNOT_CONFIGURE_NETWORK_HEADER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yapılandırma Hatası</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Header for window..</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CANNOT_CONFIGURE_NETWORK_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Destek</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Text on button</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LIVE_ESTABLISH_FAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Xbox Live'a bağlantı kurulamadı. Çevrimiçi özelliklere erişmek için Xbox Live'a bağlı olmanız gerekir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when a user initiated request ended in a loss of connection. Keep in mind that the official terminology needs to be used.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PSN_ESTABLISH_FAILED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PlayStation™Network ile bağlantı kurulamadı.[br/]Çevrimiçi özelliklere erişmek için PlayStation™Network'e bağlı olmanız gerekir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when a user initiated request ended in a loss of connection. Keep in mind that the official terminology needs to be used.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DISCONNECTED_FROM_SERVICE_XB1</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Xbox Live bağlantısı kesildi!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when the player has lost connection to Xbox Live. Keep in mind that the official terminology needs to be used.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DISCONNECTED_FROM_SERVICE_PS4</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PlayStation™Network bağlantısı kesildi!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when the player has lost connection to PlayStation™Network. Keep in mind that the official terminology needs to be used.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DISCONNECTED_FROM_LOBBY_SERVER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Lobi sunucusuyla bağlantı kesildi!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when the player has lost connection to the server</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">KICKED_FROM_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturumdan çıkarıldınız!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when the player was forcibly removed from a multiplayer session. The cause is unspecified.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NETWORK_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ağ adı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">text above an input field where players can input the name of the network that they are playing on</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ADAPTERS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Adaptörler</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">text above a list of all adapters</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_POOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Zayıf</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Indicates quality level of connection</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_MODERATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Orta düzeyde</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Indicates quality level of connection</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_GOOD</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">İyi</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Indicates quality level of connection</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_POOR_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Zayıf bağlantı nedeniyle, diğer oyuncular sizin tarafınızdan düzenlenen bir oturuma katılamıyor. Bu durum güvenlik duvarı, yönlendirici veya internet servis sağlayıcınızdan kaynaklanıyor olabilir. Bu sorunun nasıl çözüleceği hakkında daha fazla bilgi için lütfen destek web sitesini ziyaret edin. Bununla birlikte, başkalarının oyunlarına katılabilirsiniz, ancak ikiden fazla oyuncuyla oynarken bağlantının biraz gecikme yaşayabileceğini lütfen unutmayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Poor connection quality message</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_MODERATE_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Orta düzeyde bağlantı nedeniyle, diğer oyuncular size güvenilir bir şekilde bağlanamayabilir. Bu büyük olasılıkla yönlendiricinizden kaynaklanmaktadır. Bu sorunun nasıl çözüleceği hakkında daha fazla bilgi için lütfen destek web sitesini ziyaret edin. Ayrıca, bu bağlantı kalitesiyle ikiden fazla oyuncuyla oynarken biraz gecikme yaşayabileceğinizi unutmayın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Moderate connection quality message</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bağlantı</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">As in connection to the internet</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_MESSAGE_HEADER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bağlanabilirlik</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bağlanabilirlik:  {STR_Name}</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CONNECTION_QUALITY_GOOD_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bağlantınız açık ve diğer oyuncular size bağlanabilmeli.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SESSION_VERSION_MISMATCH_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Oturum, çalıştırdığınızdan farklı bir oyun sürümü ile barındırılıyor. Not: Bu durum, oyunculardan biri oyunu hata ayıklama modunda çalıştırıyorsa da meydana gelecektir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Popup text in session dialog..</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DISCONNECTED_FROM_STUNT_SERVER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">STUNT sunucusuyla bağlantı kesildi!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Message that pops up when the player has lost connection to the server</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DIRECT_CON_TOOLTIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{STR_Icon} Doğrudan Bağlantı: Bu bağlantı için veriler doğrudan kullanıcıya gönderilir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Tooltip message in chat window..</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">USER_RELAY_TOOLTIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{STR_Icon} Kullanıcı Aktarımı: Bu bağlantı için veriler başka bir kullanıcı üzerinden aktarılmaktadır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Tooltip message in chat window..</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SERVER_RELAY_TOOLTIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{STR_Icon} Sunucu Aktarımı: Bu bağlantı için veriler bir sunucu üzerinden aktarılmaktadır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Tooltip message in chat window..</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DATA_TRANSFER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Veri aktarımı...</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PASSWORD_RESET_SENT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Şifrenizi sıfırlamaya devam etmek için lütfen e-posta gelen kutunuzu kontrol edin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRANSFERRING_SAVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaydetme aktarımı...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPLOAD_FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükleme başarısız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESET_PASSWORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şifreyi sıfırla</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">USER_ABANDONED_SESSION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kullanıcı [red]{STR_userName}[/red] oturumu terk etti.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">as in: user abandoned (will never comeback) the network game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UPLOADING_SESSION_FIRST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükleme oturumu, tamamlandığında tekrar katılabilirsiniz...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Displayed to the user in the busy screen to let them know what is going to happen after pressing the play/upload button.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="194" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturum onarılamadı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturum onarılamadı çünkü: {STR_Reason}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REASON_NETWORK_BUSY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ağ şu anda meşgul</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REASON_NO_CURRENT_TURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">mevcut bir dönüş yok</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REASON_NOT_YOUR_TURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin sıran değil.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REASON_TURN_ALREADY_REVERTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">dönüş çoktan onarıldı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REASON_NO_PREVIOUS_TURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">önceki dönüş yok</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturum onarılamıyor çünkü: {STR_Reason}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_DIALOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarım Oturumunu Onaylayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_DIALOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturumu onarmak önceki eylemlerin kaybına neden olabilir. Tüm oyuncular bu işlemden e-posta yoluyla haberdar edilecektir![br/][br/]AOturumu onarmak istediğinizden emin misiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_DIALOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BODY_PS4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturumu onarmak önceki eylemlerin kaybına neden olabilir. Tüm oyuncular bu eylemden haberdar edilecektir![br/][br/]AOturumu onarmak istediğinizden emin misiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REVERT_TURN_DIALOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BODY_XB1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturumun onarılması önceki eylemlerin kaybedilmesine neden olabilir.[br/][br/]AOturumu onarmak istediğinizden emin misiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MULTIPLAYER_REPAIR_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturum onarıldı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">REVERTED_NOTIFICATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">{STR_username} dönüşü onardı, ilerleme kaybedilebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Translated using Google Translate on July 4th 2019, please update</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">PBEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">RESTART_NOTIFICATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">{STR_username} dönüşü yeniden başlattı ({STR_restart_counter}x)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Translated using Google Translate on July 4th 2019, please update</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ACTIVATION_WARNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Uyarı Paradox hesap aktivasyonu önerilir! Hesabınızı etkinleştirmek için lütfen e-posta gelen kutunuzu kontrol edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48.75">
+        <Cell>
+          <Data ss:Type="String">KICK_USER_DIALOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kick Kullanıcısını Onayla</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Kick in the sense of forcefully removing someone from a multiplayer session due to bad behavior.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KICK_USER_DIALOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Username}'yi oturumdan atmak üzeresiniz. Onların yerini yapay zeka alacak. Devam etmek istiyor musunuz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">AI as in artificial intelligence </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KICK_USER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STATUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oturumdan atıldın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KICK_USER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUSY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kullanıcı tekmeleme - bir dakika lütfen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KICK_USER_ERROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kullanıcı atılamıyor - nedeni bilinmiyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell>
+          <Data ss:Type="String">ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MULTIPLAYER_ERROR_KICKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hata oluştu: oturumdan atıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An error has occurred: kicked from the session. Kicked in the sense of being removed forcefully from a multiplayer session due to bad behavior.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45.75" />
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <PaperSizeIndex>9</PaperSizeIndex>
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>131</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>144</ActiveRow>
+          <ActiveCol>3</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

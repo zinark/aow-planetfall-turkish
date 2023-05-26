@@ -1,0 +1,2948 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Benny Arents</Author>
+    <LastAuthor>Joshua Crowder</LastAuthor>
+    <Created>2019-09-10T13:07:39Z</Created>
+    <LastSaved>2019-09-23T10:53:02Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>7308</WindowHeight>
+    <WindowWidth>23040</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="258" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.6" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="169.8" />
+      <Column ss:StyleID="s62" ss:Width="156" />
+      <Column ss:StyleID="s62" ss:Width="390.59999999999997" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="274.8" />
+      <Column ss:StyleID="s62" ss:Width="120.60000000000001" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HERITOR_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HERITOR_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HERITOR_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir Heritor Birimi olarak kabul edilir ve saldırgan Heritor Operasyonlarından ve yeteneklerinden korunur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Heritor is the name of the secret technology in this DLC</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTRA_ESSENCE_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Yükü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EXTRA_ESSENCE_CHARGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite yığın başına {Charges} ilave [abilityblue][essencecharge/]Essence Charge[/abilityblue] taşıma kapasitesine sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Essence Charges are like 'lifeforce' that is stolen from enemies. These Essence Charges can be spent as a resource for some abilities.  {Charges} is always 1.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEVOUR_ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özü Yutmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEVOUR_ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeften zorla öz çıkarır ve ondan beslenir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Essence = lifeforce</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEVOUR_ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her vuruş bu birimi {LifeSteal}[hp/] kadar iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIND_POSSESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Sahipliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MIND_POSSESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız olmayan, Kahraman olmayan hedef birimin kontrolünü ele geçirmeye çalışın. Başarılı olursa, bu birim savaştan sonra bile ele geçirilen birime aktarılır ve ele geçirilen birim olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This ability mind  controls a unit, when successful, the casting unit disappears 'into' the possessed unit, taking them over, like a ghost in Ghostbusters.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MIND_POSSESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{MindPossessionChance}[strengthentropy/] güç şansı [abilityred]Zihin Kontrolü[/abilityred] hedef Akılsız olmayan, Kahraman olmayan, kademe I veya II düşman birimi. Başarısızlık durumunda, birim bunun yerine {StunDuration}[turn/] için [abilityred]Sersemletilir[/abilityred].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIND_POSSESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Possessed</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MIND_POSSESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kadim bir Es'Teq zihni tarafından ele geçirilmiş ve bağlılığını değiştirmiştir. Moral etkilerine karşı bağışıklığı vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Es'Teq Minds are the spirits of ancient units the Heritor is based on. This spirit can go inside of units to various effects.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_DISCIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Öğrencisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_DISCIPLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, sahip olduğu her [abilityblue][essencecharge/]Essence Charge[/abilityblue] yığını için savaş sonunda +{ExperienceBonus}[xp/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DRAINED_LEVELUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> +{damage}[damageentropy/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mentions of Entropy are referring to a new damage channel that was added; Entropy damage. Entropy damage is caused by stealing the energy from something.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DRAINED_LEVELUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim +{damage}[damageentropy/] işlemini gerçekleştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ESTEK_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Sifon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Es'Teq is the name of the religious order that the Heritor were based on. All the technology of the Heritor can be traced back to the Es'Teq.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESTEK_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşmanın Özüne bağlanarak onu tüketir ve entropi hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEVOTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bağlılık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEVOTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue][essencecharge/]Essence Charges[/abilityblue]'ı büyücüden hedef dost birime aktarır ve eylem puanlarını geri kazandırır. Sadece gerekli sayıda yük aktarılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">All mentions of charges refer to Essence Charges.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tüm [abilityblue][essencecharge/]Essence Yüklerini[/abilityblue] dönüştürür ve hedef birime kalkan olarak verir. Bu birim tüketilen her [abilityblue][essencecharge/]Essence Charge[/abilityblue] için {turns}[turn/] karşılığında {shields}[shield/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimde {Baseshield}[shield/] artı yığın başına ek bir {shield}[shield/] vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_GUARDIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Bekçisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_GUARDIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim ilave bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] taşıyabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nabız Boşaltma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim hedefe entropik bir darbe göndererek ona hasar verir ve özünü boşaltır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_PULSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue][essencecharge/]Essence Charge[/abilityblue] yığını başına {damage}[damageentropy/] hasar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECT_COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyon Bağlantısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CONNECT_COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, kendisi bağlantı kuramayan hedef dost birime bağlanır.[br/]Her iki birim de belirli yetenekler tarafından hedef alınmalarını sağlayan [abilityblue]Communion[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Connections and Essence Links are connecting two units together in combat, so they are both affected by abilities that targets units linked in this way.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREAK_COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cemaat Arası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BREAK_COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimi [abilityblue]Communion[/abilityblue] aracılığıyla diğer birimlere bağlayan tüm Öz bağlantılarını keser.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim başka bir birime bağlanarak belirli yetenekler tarafından hedef alınmasını sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ESTABLISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyon Kuruldu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BROKEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyon Bozuldu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite [abilityblue]Communion[/abilityblue] ile {links} ünitelerine bağlanabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_VITALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlılık Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_VITALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tüm [abilityblue][essencecharge/]Esans Yüklerini[/abilityblue] tüketir, [abilityblue]Communion[/abilityblue] aracılığıyla {hp}[hp/] artı tüketilen her [abilityblue][essencecharge/]Esans Yükü[/abilityblue] için {hp}[hp/] ile bağlantılı tüm birimleri ve Arkın kendisini iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_DECAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çürüme Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_DECAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çürüme Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_DECAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çürüme Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_BATTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Akü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_BATTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim fazladan bir [abilityblue][essencecharge/]Essence Charge[/abilityblue]'a sahip olabilir. Taktik Savaşta her turun başında, bu birim {EssenceCharge}[abilityblue][essencecharge/]Essence Charge[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_DRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Tahliyesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_DRAIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, hedef düşman biriminden zorla Esans çeker.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_JUDGEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Kararı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_JUDGEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm [abilityblue][essencecharge/]Esans Yüklerini[/abilityblue] tüket ve {range} hex yarıçapındaki tüm düşman birimlerine hasar veren güçlü bir Esans patlaması yarat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_JUDGEMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüketilen [abilityblue][essencecharge/]Essence Charge[/abilityblue] başına +{ExtraDamage}[DamageEntropy/] uygular ve {stack} [abilityred]Entropic Decay[/abilityred] yığınları uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIND_PUPPET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Kuklası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MIND_PUPPET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Kuklası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIND_PUPPET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kadim bir Es'Teq zihninin taşıyıcısıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MACHINE_RUIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruin Machina</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MACHINE_RUIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5[essencecharge/] [abilityblue]Essence Charges[/abilityblue]'a kadar tüketir ve Mekanik birimleri devre dışı bırakmaya çalışmak için bozucu bir Essence patlaması yayar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mechanical as in a tank, aircraft or other type of vehicle, including robots etc.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MACHINE_RUIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüketilen her [abilityblue][essencecharge/]Essence Charge[/abilityblue] için [abilityred]Stunned[/abilityred] for {turn}[turn/] uygulamak için {chance}[strengthentropy/] güç şansına sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Stunned as in, unable to move or act.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_MASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Ustası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_MASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim iki ilave [abilityblue][essencecharge/]Essence Charges[/abilityblue] taşıyabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ENHANCEMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Geliştirmeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ENHANCEMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tarafından yapılan tüm saldırılar, hedefe {strength}[strengthEntropy/] güç şansı ile [abilityred]Enerji Boşaltma[/abilityred] uygular ve bu birime bir [abilityblue][essencecharge/]Esans Yükü[/abilityblue] verir.[br/][br/]Bu güçlendirme, bir sonraki Taktik Savaşının sonuna kadar sürer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SIPHONER_STAFF_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah: Siphoner Asası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LINK_SHARD_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah: Link Shard</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIGH_LORD_VEHICLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Yüce Lord</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Gauntlet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tarafından yapılan tüm yakın dövüş saldırıları artık {EnergyDrainChance}[strengthentropy/] güç şansı ile [abilityred]Enerji Boşaltma[/abilityred] uygular (tekrarlanan saldırılarda {EnergyDrainSingleAttack}[strengthentropy/] güç şansı). Başarılı olduğunda, büyücü bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] kazanır ve verdiği hasarı artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Çıkarma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm [abilityblue][essencecharge/]Esans Yüklerini[/abilityblue] tüketir, tüketilen her [abilityblue][essencecharge/]Esans Yükü[/abilityblue] için tüm komşu birimlere fazladan bir {damage}[damageentropy/] verir ve onları sendeletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Confiscator</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tarafından yapılan tüm menzilli saldırılar artık {EnergyDrainChance}[strengthentropy/] güç şansı ile [abilityred]Enerji Boşaltma[/abilityred] uygular (tekrarlanan saldırılarda {EnergyDrainSingleAttack}[strengthentropy/] güç şansı). Başarılı olduğunda, büyücü bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] kazanarak hasarı artırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Energy Drain is the status effect associated with draining the lifeforce from an enemy and giving it to yourself. They get 'Energy Drain' and you get 'Essence Charge'</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {Accuracy}[accuracy/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Odak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Odak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Any mention of Essence is regarding to using the 'lifeforce' mentioned previously</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Koruyucu Enkarnasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir saldırıyla vurulduğunda, saldırgana {EnergyDrainChance}[strengthentropy/] güç şansı ile [abilityred]Enerji Boşaltma[/abilityred] uygular. Başarılı olursa, bu birim bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] kazanır.[br/][br/][productioncol]Herhangi bir zamanda yalnızca bir Enkarnasyon türü etkin olabilir.[/productioncol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Incarnations in this context are the spirits of the Es'Teq that are reborn into other units by taking their 'spirit' and putting that into that unit, thus in a way 'reincarnating' them. This can be seen as something religious for them.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Bariyeri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm [abilityblue][essencecharge/]Essence Yüklerini[/abilityblue] tüketir. Birim kendi etrafında ve tüm komşu altıgenlerde bir bariyer oluşturur, birim ve bariyer içindeki tüm müttefikler bariyeri oluşturmak için tüketilen her [abilityblue][essencecharge/]Essence Charge[/abilityblue] başına +{shield}[shield/] kazanır. Bu yetenek kullanıldıktan sonra birim Savunma Moduna geçer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Acolyte Enkarnasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim taşıdığı her [abilityblue][essencecharge/]Essence Charge[/abilityblue] için {morale}[happiness/] kazanır.[br/][br/][productioncol]Herhangi bir zamanda sadece bir tür Enkarnasyon aktif olabilir.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim taşıdığı her [abilityblue][essencecharge/]Essence Charge[/abilityblue] için {morale}[happiness/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Aktarımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birim {strength}[strengthentropy/] güç şansı ile {EntropyStackAmount} yığın [abilityred]Enerji Boşaltma[/abilityred] kazanır ve büyücü {buffstacks} yığın [abilityblue][essencecharge/]Esans Yükü[/abilityblue] kazanır. Bu her zaman dost hedeflere karşı başarılı olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirilmiş Süzülmüş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süzülmüş, [abilityblue]Resurgence[/abilityblue] kazanarak savaştan sonra ölümden dönmesini sağlar. Ayrıca, Zihin Sahipliği yeteneği, kademe III birimler üzerinde çalışan Zihin Hakimiyeti'ne yükseltilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> Her bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] için +{modifierDamage}[damageentropy/].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Hakimiyeti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{MindPossessionChance}[strengthentropy/] güç şansı [abilityred]Zihin Kontrolü[/abilityred] hedef düşman Akılsız olmayan, kahraman olmayan, kademe I, II veya III birimi. Başarısızlık durumunda, birim bunun yerine {StunDuration}[turn/] için [abilityred]Sersemletilir[/abilityred].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Kanalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birime Özünü aktarabileceği bir kanal vererek menzilde hasar vermesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Patlaması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tüm [abilityblue][essencecharge/]Esans Yüklerini[/abilityblue] tüketir ve bunları bir Esans patlamasına kanalize ederek {range} hex yarıçaplı bir etki alanında hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue][essencecharge/]Essence Charge[/abilityblue] başına {ExtraDamage}[DamageEntropy/] verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirilmiş Ark</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha güçlü yeteneklerin kilidini açmak için bir Quintessence Ark'ı güçlendirin. [abilityblue]Communion[/abilityblue] artık en fazla {units} birimiyle bağlantı kurabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]Communion[/abilityblue] artık {units} birimlerine kadar bağlantı kurabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herkesi Komünyona Bağlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aynı ordu yığınında bulunan tüm birimleri Quintessence Ark'a bağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Lord Enkarnasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Es'Teq Lordunun zihnini birimle birleştirin. Bu birim bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] kazandığında, {health}[hp/] için iyileşir.[br/][br/][productioncol]Herhangi bir zamanda yalnızca bir tür Enkarnasyon etkin olabilir.[/productioncol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The Es'Teq lord is referring to a 'spirit' of the Es'Teq that can be incarnated into another unit, we call this 'merging the mind'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir [abilityblue][essencecharge/]Essence Charge[/abilityblue] kazandığında, {health}[hp/] karşılığında iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öşür</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tithe as in the taxes levied by religion in the middle ages.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim uzanır ve hedef birimden [abilityblue][essencecharge/]Essence Charges[/abilityblue]'ı zorla alır. Hedef birimdeki tüm [abilityblue][essencecharge/]Essence Charge[/abilityblue] yeteneği kullanana aktarılır. Bu yetenek diğer Lordlar üzerinde çalışmaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Lord in this case is refering to the 'High Lord' unit as well as units with the 'Lord Incarnation' mod active.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="108" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BESTOW_ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bestow Esans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BESTOW_ESSENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir birime Es'Teq Özü bahşedin. Hedef dost birim maksimum sayıda [abilityblue][essencecharge/]Essence Charges[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Bestow as in, giving it to someone</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONDEMN_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süzülmeye Mahkum</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">CONDEMN_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşmanı Es'Teq adına mahkum ederek bir Süzülmüş birime dönüştürün. Kahraman olmayan hedef düşman Piyade biriminin savaş sonuna kadar {StrengthChance}[strengthentropy/] güç kazanma şansı [abilityred]Kınanmış[/abilityred] olur. Mahkûm edilmiş birimler -{moraledebuff}[anger/] ve -{EntropyDebuff}[defenseentropy/] değerlerine sahiptir.[br/][br/][abilityred]Kondemlenmiş[/abilityred] değerine sahip bir birim öldüğünde, büyücünün kontrolü altında bir Süzülmüş birime dönüşür. Bu birim savaştan sonra da kalır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Drained is a unit of the Heritor lineup of units.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONDEMN_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahkum</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CONDEMN_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityred]Condemned[/abilityred]'dir. {moraledebuff}[anger/] ve -{EntropyDebuff}[defenseentropy/] değerlerine sahiptirler. Birim ölürse, arkasında bir ceset bırakmak yerine, düşmanın kontrolü altında bir Süzülmüş birim çağrılır. Bu birim kalıcıdır ve savaşın sonunda kaldırılmaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Condemned as in cursed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_REINCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reenkarnasyon Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_REINCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reenkarnasyon Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_DISSEMINATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaygınlaştırma Töreni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_DISSEMINATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimlere Esans yayarak onlara [abilityblue][essencecharge/]Esans Yükü[/abilityblue] verir ve morallerini yükseltir. Savaştaki tüm dost birimler savaşın sonuna kadar {ChargeAmount} [abilityblue][essencecharge/]Essence Charge[/abilityblue] ve +{Morale}[happiness/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_REVITALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Canlandırma Ayini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RITE_OF_REVITALIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir birimdeki Özü hedef alarak canlandırma reaksiyonunu tetikleyin ve onları iyileştirin. Hedef dost birim {health}[hp/] karşılığında iyileşir. Birimde [abilityblue][essencecharge/]Essence Charge[/Abilityblue] varsa, bunun yerine {HealthEssence}[hp/] iyileşir, tüm düşman durum etkilerinden kurtulur ve {charges} [abilityblue][essencecharge/]Essence Charge[/Abilityblue] kaybeder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONVERT_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dönüştürülmüş Kafir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CONVERT_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Es'Teq zihnini serbest bırakarak bir düşman birimini ele geçirmeye çalışın. Akılsız ve Mekanik olmayan hedef düşman birimi, savaşın sonuna kadar bağlılığını değiştirmek ve [abilityblue]Es'Teq Sahipliği[/abilityblue] kazanmak için {Strength}[strengthentropy/] güç şansına sahiptir. Başarısızlık durumunda, birim bunun yerine [abilityred]Sersemletilir[/abilityred].[br/][br/][abilityblue]Es'Teq Sahipliğine[/abilityblue] sahip bir birim ölürse, Es'Teq Zihni kaçar ve {StrengthJump}[strengthentropy/] güç şansı {range} altıgen içinde uygun başka bir düşman birimine yayılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In this case, the Es'Teq mind or 'spirit' is trying to possess a hostile unit, mind controlling them.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONVERT_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Mülkiyet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CONVERT_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Es'Teq zihni bu birimi ele geçiriyor. Bu birimin ölümü üzerine, Es'Teq zihni kaçar ve başka bir birimi ele geçirmeye çalışır. Zihnin {StrengthJump}[strengthentropy/] güç şansı vardır ve {range} altıgen içindeki Akılsız olmayan, Mekanik olmayan bir düşman birimine yayılır ve onları ele geçirir, bağlılıklarını değiştirir ve savaşın sonuna kadar onlara [abilityblue]Es'Teq Sahipliği[/abilityblue] verir. Başarısızlık durumunda, birim bunun yerine [abilityred]Sersemletilir[/abilityred].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This ability 'jumps' to another unit when the original unit dies, and tries to mind control the other unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONVERT_HERETIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION_FINAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Es'Teq zihni bu birimi ele geçiriyor. Bu zihin zayıflamıştır ve bu birim ölürse başka bir birimi ele geçirmeye çalışmayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_SMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atalardan Gelen Darbe</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_SMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saf Öz'den şiddetli bir yaylım ateşi yaratarak düşmanları paramparça eder. {range} altıgen yarıçaplı etki alanı içindeki tüm düşman birimleri {damage}[damageentropy/] alır, {morale}[happiness/] kaybeder ve {strength}[strengthentropy/] güç şansı ile [abilityred] Antropik Çürüme[/abilityred] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="128" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Antik Sırları Ortaya Çıkarın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef koloniye en yakın Anormal Sitenin yerini gösterir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anomalous Sites are archeological dig sites in the world, added in this DLC.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Antik Es'Teq teknolojisi kullanılarak, potansiyel anormal alanlara işaret edebilecek benzersiz arkeolojik imzalar tespit edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_SUCCEED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni bir Anormal Site bulundu!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_FAIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni bir Anormal Alan bulunmamıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BLESSING_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in Kutsanması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BLESSING_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in Kutsanması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BLESSING_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordumuzu başarıyla kutsadık! Çabalarımızla canlandılar ve güçlendiler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in Laneti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in Laneti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in Laneti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ordusunu başarıyla lanetledik! Çabalarımız sayesinde zarar gördüler ve zayıfladılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ordusunu lanetlemeyi başaramadık. Sadece küçük bir hasar aldılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordumuz Es'Teq tarafından saldırıya uğradı. Birimlerimiz hasar aldı ve entropi saldırılarına karşı zayıfladı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordularımızdan birine yapılan bir saldırıyı başarıyla engelledik. Sadece küçük bir hasar aldılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAUNT_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayalet Kolonisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAUNT_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman kolonisindeki tüm [population/] artık işgal ettikleri kaynak yuvasında {resourceincomereduction} gelir üretir ve koloni {turns}[turn/] için -{Unhappiness}[anger/]'den muzdariptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAUNT_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq zihinleri düşman kolonisine başarıyla musallat oluyor. Kolonistlerin gelirleri azalıyor ve mutlulukları olumsuz etkileniyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAUNT_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq zihinleri düşman kolonisine musallat olmakta başarısız oldular ve uzaklaştırıldılar. Bu girişim koloniyi sivil bir huzursuzluk içinde bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAUNT_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq zihinleri kolonilerimize hayalet gibi musallat oluyor! Nüfusumuz daha az üretken ve koloninin genel mutluluğu acı çekiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HAUNT_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq zihinleri kolonilerimize sızmaya çalıştı ancak başarısız oldular. Bu girişim halkımızı sivil huzursuzluk içinde bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dönüşüm Tarikatına Sızma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dönüşüm Tarikatına Sızma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sifon Rahiplerimiz düşman kolonisine başarıyla sızdı ve kolonistlerini dönüştürmek için çalışıyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sifon Rahiplerimiz düşman kolonisine sızmayı başaramadı, ancak bu girişim bir sivil huzursuzluk durumuna neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Sifon Rahipleri kolonilerimizden birine sızdı ve kolonistlerimizi dönüştürmeye çalışıyorlar!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerimizden birine sızmaya çalışan Siphon Rahiplerini yakaladık. Her ne kadar onları yakalamış olsak da, bu girişim bir sivil huzursuzluğa neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_WRATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ataların Gazabı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_WRATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman kolonisi {colonists}[population/] kaybeder ve Koloni Merkezinin bitişiğinde kontrolünüz altında {summons} Süzülmüş birimler çağrılır. Ayrıca sektörde bir [abilityred]Essence Gash[/abilityred] tehlikesi yaratılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Essence Gash is a fissure, a canyon in the ground, that is filled with Essence. It is considered a hazard, and bad for the colony in the same sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_WRATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in gücü düşman kolonisini başarıyla vurdu! Kolonistlerinden bazılarının özü süzüldü ve davamıza katılmak için [abilityblue]Drained[/abilityblue]'ye dönüştüler. Yan etki olarak sektörde bir [abilityred]Essence Gash[/abilityred] açıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_WRATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in gücünü koloni üzerinde kullanmayı başaramadık, ancak bu girişim koloniyi sivil bir huzursuzluk içinde bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_WRATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü bir entropi patlaması kolonimize saldırdı ve bazı kolonistlerimizi korkunç [abilityred]Drained[/abilityred] yaratıklarına dönüştürdü. Saldırı, sektörde bir [abilityred]Essence Gash[/abilityred] oluşmasına neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ANCESTRAL_WRATH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerimizden birine güçlü bir Entropi patlamasıyla saldırma girişiminde bulunuldu. Saldırıyı engellemeyi başardık, ancak bu girişim kolonimizi sivil bir huzursuzluk içinde bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MACHINE_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknoklast Haçlı Seferi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">As in Iconoclast; a destroyer of images used in religious worship. But then with Technology</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MACHINE_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknoklast Haçlı Seferi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MACHINE_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EntropicDecayChance}[strengthEntropy/] [abilityred]Entropik Bozunma[/abilityred]'yi {durationEntropicDecay}[turn/] için Mekanik birimlere uygulama gücü şansı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Entropic decay is a status effect associated with the Entropy damage channel, that deals damage over time.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INNER_COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçsel Komünyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">INNER_COMMUNION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnsanlarınıza odaklanmaları ve içlerindeki Öz ile iletişim kurmaları için alan sağlayarak, Öz'ün sunduğu ödülleri almaya daha yatkın hale gelirler.[br/][br/]ATüm birimler {EssenceChargeIncrease} ek [abilityblue][essencecharge/]Esans Yükü[/abilityblue] taşıyabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DIVINE_LEGION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlahi Lejyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DIVINE_LEGION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süzülmüş birimlerine Öz aşılayarak durdurulamaz ilahi bir lejyon oluştur. [br/][br/]ATüm Süzülmüş birimler [abilityblue]Essence Infusion[/abilityblue] kazanarak onlara +{shield}[shield/], [abilityblue]Resurgence[/abilityblue] verir ve {charges} ek [abilityblue][essencecharge/]Essence Charges[/abilityblue] taşımalarını sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Resurgance is a unit ability that brings units back to life after successful combat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DIVINE_LEGION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans İnfüzyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DIVINE_LEGION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Esans Aşılaması sayesinde +{shield}[shield/], [abilityblue]Diriliş[/abilityblue] kazanır ve {charges} ilave [abilityblue][essencecharge/]Esans Yükü taşıyabilir.[/abilityblue]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CITY_OF_THE_AWAKENED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyanmışların Şehri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CITY_OF_THE_AWAKENED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyanmışların Şehri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GLOBAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Aktarımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kadim Es'Teq zihinlerini serbest bırakın ve Son Kıyameti başlatın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Final Rapture is the name of the Heritor Doomsday weapon.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Aktarımı Seviye 1</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşta, Heritor olmayan bir oyuncu biriminin {Strength}[strengthentropy/] güç şansı vardır [abilityred]Sersemletilme[/abilityred] her [turn/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Aktarımı Seviye 2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">  {Chance}  %  {popAmount} 'yi her  [turn/] 'de bir Süzülmüşe dönüştürme şansı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Aktarımı Seviye 3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor oyuncu birimleri savaşın başında tam [abilityblue][essencecharge/]Essence Charges[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIND_REBIRTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihnin Yeniden Doğuşu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MIND_REBIRTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın zamanda serbest bırakılan Es'Teq zihinlerini Heritor olmayan bir düşman kolonisine salın, kolonistlerinin zihinlerine sızın ve {INT_duration}[turn/] karşılığında Es'Teq reenkarnasyonu yoluyla fiziksel formlarını ele geçirmeye çalışın. Bu yetenek, ne kadar çok Öz Kulesi inşa ederseniz o kadar güçlenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MIND_REBIRTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisinin savunmasını aşmayı başardık! Es'Teq zihinlerimiz şimdi onların kolonicilerinin zihinlerine sızıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MIND_REBIRTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisinin savunmasına girmekte başarısız olduk. Es'Teq zihinlerimiz düşman tarafından temizlendi ve artık sonsuza dek kayboldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MIND_REBIRTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman, kolonicilerimizin arasına sızmak için Es'Teq zihinlerini fırlattı! Onları kolonimizden temizlememiz ve savunmamızı güvence altına almamız gerekecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MIND_REBIRTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmalarımız, Es'Teq zihinlerinin kolonimize karşı başlattığı bir sızmayı başarıyla önledi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_SPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Essence Spire</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ESSENCE_SPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Kulesi, Zihnin Yeniden Doğuşu Kıyamet Günü Silahının kilidini açar. İnşa ettiğiniz her ilave Esans Kulesi silahın seviyesini artırarak onu daha güçlü hale getirir.[br/][br/]Kolononi başına yalnızca bir Esans Kulesi inşa edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FINAL_RAPTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Kıyamet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FINAL_RAPTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor planının son adımı tüm gezegende Zihin Aktarımını başlatarak Son Kıyameti başlatır.[br/][br/]Zihin Yeniden Doğuş Seviye 3 gerektirir.[br/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FINAL_RAPTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Aktarımımız artık tam güçte! Es'Teq Zihinleri gezegen üzerinde serbestçe dolaşıyor, düşmanlarımızın zihinlerine sızıyor ve onlara hükmediyor. Bu gezegene hakim olmamız ve zaferle çıkmamız sadece bir zaman meselesi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_LOCAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATION_GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Oyuncu Son Kıyameti başlattı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Son Kıyamet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_LOST_GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öz Kulelerimizden biri ele geçirildi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_LOST_YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Essence Spire kaybettiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_LOST_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Esans Spire kaybetti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_LOST_LOCAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Essence Spire kaybettiniz. Es'Teq kardeşlerimiz için gerçekleştirdiğimiz Son Kıyamet girişimimiz iptal edildi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_LOST_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Öz Spire kaybetti. Nihai Kıyamet girişimleri engellendi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_UPGRADE_BUILT_I</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Öz Kulesi inşa eden {playerName} artık Kıyamet Günü Silahı olan Son Fırtına'ya erişebilir. Şu anda zayıftır, ancak daha fazla Esans Kulesi inşa edildikçe daha güçlü hale gelecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_UPGRADE_BUILT_II</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} ikinci bir Esans Kulesi inşa ederek Kıyamet Günü Silahı olan Son Kıyamet'i güçlendirdi. Çok güçlü hale gelmeden önce bu yapıları yok etmek için baskınlar planlamalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRUCTURE_UPGRADE_BUILT_III</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, son Esans Kulesini inşa ederek Kıyamet Günü Silahı olan Nihai Fırtına'nın gücünü en üst düzeye çıkardı. Artık onu serbest bırakmaya ve oyunu kazanmaya çok yakınlar. Saldırı zamanı şimdi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Esans Kulesi ele geçirildi! Eğer yok edilirse, Kıyamet Günü Zamanlayıcımız iptal edilecektir. Eğer Spire'ı yeniden ele geçirirseniz, geri sayımı devam ettirebilirsiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_STRUCTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPPONENT_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Esans Kulesi ele geçirildi! Eğer yok edilirse, Kıyamet Günü Zamanlayıcısı iptal edilecektir. Eğer {playerName} Spire'ı yeniden ele geçirirse, geri sayıma devam edebilecekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü Zamanlayıcısı duraklatıldı! Kayıp Esans Kulesini geri almalısınız, yoksa düşmanlarınızın üzerine Son Kıyameti salma şansınızı kaybedeceksiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GLOBAL_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Esans Kulesinin kaybı Son Kıyameti iptal ederek Kıyamet Günü Zamanlayıcısını sona erdirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCAL_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Esans Spire'ının kaybı Nihai Kıyametimizi zayıflattı ve Kıyamet Günü operasyonlarınız iptal edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OVERRIDE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız Kıyamet Günü Silahlarını etkinleştirdi! Son Kıyamet gezegenin her yerinde gerçekleşiyor ve kendi Kıyamet Silahınız tufan tarafından yok edildi. Onların Öz Kulelerinden birini yok etmek için {numTurns} süreniz var, yoksa oyunu onlar kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Kıyamet aktiftir ve Öz Kulelerinizden birini kaybetmediğiniz sürece {numTurns}'de kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPPONENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Kıyamet devam ediyor ve Esans Kulelerinden birini yok edemezseniz {playerName}, {numTurns}'de kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FINISH_PRIMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} Son Kıyamet Silahını hazırlıyor. Bitirmelerine izin verilirse, kendi Kıyamet Günü Silahınız yok olacak ve {playerName} tam zaferden sadece bir adım uzakta olacak!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Kıyameti başarıyla tamamladınız.[br/]Tüm kadim Es'Teq kardeşlerimizin zihinleri serbest bırakıldı ve düşmanlarımızın istemeden sağladığı kaplarda yeniden bedenlendi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REAWAKEN_HERITOR_SANCTORUM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sanctorum'u yeniden uyandırın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Sanctorum refers to the landmark structure from the Heritor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">REAWAKEN_HERITOR_SANCTORUM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kadim ayinleri kullanarak Heritor'un kadim mezarlarını yeniden uyandırın ve Es'Teq'in tarihinden bir şeyler öğrenmek için kullanın. [br/][br/]Heritor teknolojisini araştırmak {ResearchReduction} daha ucuzdur ve Heritor birimlerini üretmek {EnergyReduction} daha az [energy/] tutar.[br/][br/][orange]Sadece Heritor komutanları tarafından kullanılabilir[/orange]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Heritor tech refers to the research unlocks of the Heritor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">REAWAKEN_HERITOR_SANCTORUM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EnergyReduction}[energy/] Heritor birimleri için maliyet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Maiming</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Flayer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anatomizer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vitiating</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vergilendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yorucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_GAUNTLET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enervating</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Recompenser</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barınma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Misilleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kinci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cezai</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Devourer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esans Kırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizleyici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Essence Claimer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biçerdöver</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cesaretlendirici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlham verici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gayretli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dindar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fanatik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fervent</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Titiz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sabitlenmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rehberli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Algısal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Honlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONFISCATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zeki</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Divine Hoarder</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüce Kanalcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruh Taşıyıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden yönlendirildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heretic Destroyer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ES'TEQ_CONDUIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsanmış Caster</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutlak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göz kamaştırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_ARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsal</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetkilendirilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Emanet Edilenler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saygıdeğer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPOWERED_DRAINED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadık</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>66</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>71</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,611 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Kyle</LastAuthor>
+    <LastSaved>2019-02-01T11:36:12Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11550</WindowHeight>
+    <WindowWidth>25410</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="49" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="192.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="157.5" />
+      <Column ss:StyleID="s62" ss:Width="118.5" />
+      <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:Index="6" ss:StyleID="s62" ss:Width="120" />
+      <Row ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">UNITPROPERTIES</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="5">
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STUNNED_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sersemlemiş</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">STATUS_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STUNNED_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim hareket edemez veya yetenek kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">LARGE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LARGE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin menzilli saldırılarla vurulması {largeTargetPenalty} daha kolaydır. Ayrıca kendisi siper alamaz, ancak diğer birimler için siper sayılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">%</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">HUGE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Hedef</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HUGE_TARGET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin menzilli saldırılarla vurulması {largeTargetPenalty} daha kolaydır. Ayrıca siper alamaz ve görüş hattını engeller.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">%</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">PHASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşama</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Phase as in to teleport</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">PHASE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef boş hex'e ışınlan.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">HOPPER_JUMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Atlayışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOPPER_JUMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Hafif kara birimine zıplayarak hasar verir ve onları geri savurur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="16">
+        <Cell>
+          <Data ss:Type="String">GREATER_DEATH_EXPLOSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetişkin Böcek Ölüm Çıngırağı</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">DEATH_EXPLOSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Böcek Ölüm Çıngırağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEATH_EXPLOSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öldürüldüğünde, bu birim patlayarak {damage}[damagebio/] hasar verir, {armormelt}[armor/] yok eder ve komşu tüm birimlere [abilityred]High Impact[/abilityred] verir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">RESURGENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diriliş</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RESURGENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim savaşta öldüğünde, sahibi galip gelirse savaşın sonunda yeniden canlandırılır. Canlandırılan birimler maksimum [hp/]'lerinin {resurrectHP}'si ile geri getirilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">%</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">BEETLE_MORTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Böcek Havanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BEETLE_MORTAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal tehlike yayan zehirli bir kapsülle 1 hektarlık bir alanı vurur.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FOREST_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orman Kamuflajı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FOREST_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Orman altıgenleri üzerinde dururken tespit edilemez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Edit: stood -&gt; standing</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This unit cannot be detected when stood on Forest hexes.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SWAMP_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bataklık Kamuflajı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SWAMP_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Sulak Alan altıgenleri üzerinde dururken tespit edilemez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Edit: stood -&gt; standing</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This unit cannot be detected when stood on Wetland hexes.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evrensel Kamuflaj</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim herhangi bir altıgen üzerinde dururken tespit edilemez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Edit: stood -&gt; standing</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This unit cannot be detected when stood on any hex.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Engebeli Arazi Kamuflajı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Dağ, Çorak veya Uçurum altıgenlerinde dururken tespit edilemez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Edit: stood -&gt; standing</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This unit cannot be detected when stood on Mountain, Barren or Chasm hexes.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">HOPPER_AIR_LEAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Sıçraması</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HOPPER_AIR_LEAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim havaya sıçrar ve arkalarına inmeden önce Uçan birimlere hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="34">
+        <Cell>
+          <Data ss:Type="String">FLANKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Flanker</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FLANKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim kuşatıldığında ek bir  {FlankingBonus}  % hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">WATER_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Kamuflajı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">WATER_CAMOUFLAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Su altıgenleri üzerinde dururken tespit edilemez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Edit: stood -&gt; standing</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This unit cannot be detected when stood on Water hexes.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">STRONG_WILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihin Kontrolü Bağışıklığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRONG_WILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, birimi düşmanın doğrudan kontrolü altına sokan tüm etkilere karşı bağışıktır.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kahraman</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu karakter bir kahraman.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">TUNNEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tünel</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TUNNEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, Taktiksel Savaşta zeminde tünel açabilir ve Overwatch'tan kaçınabilir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">CUMBERSOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hantal</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CUMBERSOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim taktik savaşta daha yavaş hareket eder</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">EVOLVED_VITALITY_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evrimleşmiş Canlılık 1</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVOLVED_VITALITY_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önceki formunda kazanılan deneyim bu birimi +{HealthIncrease}[hp/] ile güçlendirmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">EVOLVED_VITALITY_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evrimleşmiş Canlılık 2</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EVOLVED_VITALITY_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önceki formunda kazanılan deneyim bu birimi +{HealthIncrease}[hp/] ile güçlendirmiştir.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>33</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>46</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

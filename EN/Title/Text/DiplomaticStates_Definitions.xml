@@ -1,0 +1,1005 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>ThomM</LastAuthor>
+    <LastSaved>2019-05-16T07:52:09Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>10005</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="74" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="164.25" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:Width="284.25" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="213.75" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:Width="284.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DIPLOMATICSTATES_DEFINITIONS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_NORMAL_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Normal Casus Belli ile Savaş İlan Et (6-10[CasusBelli/])</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_NORMAL_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Normal bir Casus Belli kullanarak diğer oyuncuya savaş ilan edin. Diplomatik durumunuz savaşa dönüşecek ve Halk Desteğiniz artacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_MINOR_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük Casus Belli ile Savaş İlan Et (1-5[CasusBelli/])</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_MINOR_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük bir Casus Belli kullanarak diğer oyuncuya savaş ilan edin. Diplomatik durumunuz savaşa dönüşecek ve Halk Desteğiniz artacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_MAJOR_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Binbaşı Casus Belli ile Savaş İlan Et (11+[CasusBelli/])</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_MAJOR_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük bir Casus Belli kullanarak diğer oyuncuya savaş ilan edin. Diplomatik durumunuz savaşa dönüşecek ve Halk Desteğiniz artacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casus Belli Olmadan Savaş İlan Etmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer oyuncuya savaş ilan edin. Bu, ilişki durumunuzu savaş olarak değiştirecek ve Nüfus Desteği cezasına maruz kalacaksınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_PEACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırmazlık Paktı Önerin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPTION_PEACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her iki oyuncunun da barışçıl bir durumu muhafaza ettiği bir saldırmazlık anlaşması teklif edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateşkes Teklifi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPTION_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her iki oyuncunun da tüm düşmanca eylemleri durdurmayı kabul ettiği bir ateşkes teklif edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vassal olursun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPTION_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Vassal olursun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_OVERLORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Derebeyi olursun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPTION_OVERLORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Diğer oyuncu üzerinde derebeyi olun. Bu, diğer oyuncuyla sadece derebeyinin bozabileceği sabit bir ittifak oluşturur. Anlaşma sadece iki oyuncu da halihazırda vasal değilse geçerli olur. Derebeyi, vasalının gelirine bağlı olarak tur başına ek  {INT_energy}  % enerji ve  {INT_research}  % araştırma kazanacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Savunma Paktı Önerin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPTION_DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her iki oyuncunun da savaşta birbirlerine yardım etmeye çalıştığı bir savunma paktı önerin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPTION_ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İttifak Önerisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OPTION_ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer oyuncuya bir ittifak teklif edin. Bu karşılıklı bir eylemdir ve her iki oyuncunun da önce bir savunma anlaşması paylaşması gerekir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREAK_NONAGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırmazlık Anlaşmasını Bozun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BREAK_NONAGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırmazlık anlaşmanızı bozun ve tarafsız bir duruma geri dönün. Bu, bazı görüş ve itibar cezalarına neden olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREAK_DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Anlaşmasını Boz</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BREAK_DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma anlaşmanızı bozun ve tarafsız bir duruma geri dönün. Bu, orta düzeyde görüş ve itibar cezalarına neden olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREAK_ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mola İttifakı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BREAK_ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İttifakınızı bozun ve tarafsız bir duruma geri dönün. Bu, ağır görüş ve itibar cezalarına neden olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BREAK_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vassallığa Son</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BREAK_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vassallığı sona erdirin. Bu, vasalı serbest bırakır ve ilişkiyi saldırmazlık anlaşmasına geri döndürür. Bu eylem bir tur sürer ve itibarınızı ve her iki oyuncunun birbirlerine karşı görüşlerini etkiler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="33" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPENBORDERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık sınırlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPENBORDERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sınırları diğer oyuncuya açın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OPENBORDERSFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Belirli bir süre için açık sınırlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OPENBORDERSFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sınırları sabit bir süre için diğer oyuncuya açın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="38" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHAREVISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vizyonu paylaşın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHAREVISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vizyonu diğer oyuncu ile paylaşın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHAREVISIONFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Belirli bir süre için vizyon paylaşımı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHAREVISIONFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sabit bir süre için diğer oyuncu ile görüş paylaşın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="43" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHAREINTELLIGENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zekayı paylaşın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHAREINTELLIGENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer oyuncu ile bir istihbarat anlaşması paylaşın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHAREINTELLIGENCEFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sabit süre için istihbarat paylaşın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SHAREINTELLIGENCEFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Belirli bir süre için diğer oyuncuyla bir istihbarat anlaşması paylaşın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="48" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep edilen sektörler üzerinde inşaat yapılmasına izin verin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer oyuncunun talep edilen sektörler üzerinde inşaat yapmasına izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ALLOWCLAIMEDSECTORSFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep edilen sektörler üzerinde sabit bir süre için inşaat yapılmasına izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is listed as an item in the interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ALLOWCLAIMEDSECTORSFORTURNS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talep edilen sektörler üzerinde sabit bir süre için inşaat yapılmasına izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="53" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRADE_MODIFIER_DISLIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sevmediğiniz Şeylerin Üstesinden Gelin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRADE_MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşağıdaki değiştiriciler kaldırılır: [br/]{STR_modifiers}[br/]Bu değiştiricileri değiştirmek onları ilişkiden kaldıracaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="56" ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş çağrısında birbirimize yardım edebilmemiz için bir ittifak kurmayı öneriyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barışçıl ilişkilerimizi ilerletmemizin ve bir savunma paktı içinde müttefik olmamızın zamanı gelmiştir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_PEACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir saldırmazlık anlaşması yapmalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişi unutalım ve yeni bir geleceğe doğru ilerleyelim!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğumu size teslim ediyorum. Bir ittifak kuralım ve senin tebaan olarak benimle birlikte çalış.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_OVERLORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bana teslim ol ve sadık tebaam olarak hayatta kal. Birlikte, dünya bizim olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ilişki bitti. Senin için geleceğim!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_MINOR_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bana karşı yaptıkların kabul edilmeyecek. Listemde sırada sen varsın!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_NORMAL_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öylece unutacağımı düşünmedin, değil mi?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPTION_WAR_MAJOR_CB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaptıkların affedilemez. İntikamımı alacağım!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">BREAK_ALLIANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ittifak artık bana uygun görünmüyor. Burası yollarımızı ayırdığımız yer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">BREAK_DEFENSIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu savunma anlaşması kesinlikle iyi bir fikir değildi. İstediğim zaman imparatorluğunuzu yıkabileceğimi unutmayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">BREAK_NONAGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha fazla bağımsızlığa ihtiyacım var. Anlaşmamız sona erdi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">BREAK_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vassal olarak bana iyi hizmet ettiniz, ancak şimdi size daha fazla diplomatik özgürlük vereceğim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEMAND_BREAK_VASSALAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Size yeterince hizmet ettim. Lütfen bana daha fazla diplomatik özgürlük verin ve bu köleliğe son verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OPENBORDERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sınırlarımızı birbirimize doğru açalım. Bu hareket kabiliyetimizi büyük ölçüde artıracaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SHAREVISION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birbirimize daha iyi yardımcı olabilmemiz için vizyonumuzu paylaşalım!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SHAREINTELLIGENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstihbaratımızı paylaşmak bize karşılıklı koruma sağlayacaktır!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI_DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pozisyonlarımızı güçlendirelim. Sınırlarınızın yakınında inşaat yapmama izin vermeniz ikimizi de güçlendirecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <TopRowVisible>66</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>69</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

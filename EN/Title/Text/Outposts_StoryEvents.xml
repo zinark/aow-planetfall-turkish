@@ -1,0 +1,604 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>KyleB</LastAuthor>
+    <LastSaved>2018-11-09T13:18:07Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17025</WindowHeight>
+    <WindowWidth>32760</WindowWidth>
+    <WindowTopX>32760</WindowTopX>
+    <WindowTopY>32760</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF6600" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="60" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="228" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="259.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="78" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="178.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="198.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="180.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">OUTPOSTS_STORYEVENTS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_PAY_INFLUENCE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu insanları bize katılmaya ikna edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_PAY_INFLUENCE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşimi elde etmek için Nüfuz kullanın.[br/]Kazancınız:[br/][xpCol]+50 İtibar[br/]+100 Yerleşimin Irkı ile Irk İlişkileri[/xpCol].</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">
+            <Font html:Color="#000000">Use Influence to acquire the settlement.[br/]</Font>
+            <Font html:Color="#FF0000">Gain:</Font>
+            <Font html:Color="#000000">[br/][xpCol]+50 Reputation[br/]+100 Race Relation with the Race of the settlement[/xpCol]</Font>
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onlar bizim için bir hiç. Saldırın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşime Saldırın.[br/]Kazanacaklarınız:[br/][fireCol]-50 İtibar[br/]-150 Yerleşimin Irkı ile Irk İlişkileri[/fireCol]</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">
+            <Font html:Color="#000000">Attack the settlement.[br/]</Font>
+            <Font html:Color="#FF0000">Gain:</Font>
+            <Font html:Color="#000000">[br/][fireCol]-50 Reputation[br/]-100 Race Relation with the Race of the settlement[/fireCol]</Font>
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_WITHDRAW_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunun için zamanımız yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_WITHDRAW_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bağlantıyı koparın ve kararı sonraya bırakın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="12" ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_MEET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir yerleşime yaklaşıyorsunuz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaslı, savaşa hazır kadınlar, büyük, güçlendirilmiş hayvanlarla birlikte bu yerleşimde yaşıyor. Onları hemen Amazon olarak tanıyorsunuz, yüksek teknolojili biyolojik gelişimleri toplumlarının her alanında kendini gösteriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sibernetik olarak geliştirilmiş vatandaşlar size meraklı gözlerle bakıyor. Eski ve yeni etin mekanik parçalarla karışımı, muhteşem bir tezat oluşturuyor ve karşınızdakinin Meclis olduğunu kesinleştiriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matkapların ve kısmen kontrollü patlamaların yüksek sesleri kulaklarınızda çınlıyor. Bu yerleşimdeki Dvar'lar metallerini alıp satmakla ve silahlarını bakımlı tutmakla meşguller.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuluçkahaneler dışarıdan görülebiliyor ve buradaki insanlar bir taraftan diğerine uçarak ve vızıldayarak komünlerinin bakımını sağlıyor. Kir'Ko'nun sorunlu bir geçmişi olabilir, ancak burada geleceğe hazırlanırken görülebilirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Filolar halinde örgütlenmiş çok sayıda asker bu yerleşimin avlularında yürüyüşe geçer. Öncü birliklerin eğitimi, savaş sırasında kullandıkları savaş makineleri kadar etkilidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_OUTPOST_EVENT_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zenginler, hizmetkârlardan oluşan bir maiyet eşliğinde mağazaları inceliyor. Otomatik Sentineller insanların üzerinde geziniyor, izliyor ve kontrol ediyor. Sendika'ya ait işyerlerinde muhalefete yer yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="22" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_FOUND_COLONY_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[colony/] Bu Yerleşimi Koloniye Dönüştürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_FOUND_COLONY_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burada bu Fraksiyona ait bir Koloni bulundu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_ABSORB_COLONISTS_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Yerleşimi bir Kolonizatör birimine dönüştürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_ABSORB_COLONISTS_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Fraksiyondan bir Kolonizatör birimi oluşturun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="33.75">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_RECEIVE_COLONIZER_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halkı Kolonilerinizde yaşamaya davet edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="62.25">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_COLONY_INPROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yerleşim yeri bir koloniye dönüştürülüyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="29" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim Yeri Katılım Etkinliği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OUTPOST_ACQUISITION_EVENT_GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarılarınızdan ve itibarınızdan etkilenen bu yerleşim yerinin halkı, kendilerini sizin korumanız altına vermeyi kabul ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="34" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FREE_ACQUISITION_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sevinçli Vatandaşlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">FREE_ACQUISITION_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim sakinleri ününüzü duydular ve size katılmak istiyorlar!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">FREE_ACQUISITION_EVENT_ACCEPT_JOIN_OFFER_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Davanıza katılma tekliflerini kabul edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FREE_ACQUISITION_EVENT_ACCEPT_JOIN_OFFER_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim Yerini Edinme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FREE_ACQUISITION_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne kadar aptallar. Saldırın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">FREE_ACQUISITION_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşime Saldırın[br/]Kazanacaklarınız:[br/][fireCol]-50 İtibar[br/]-100 Yerleşimin Irkı ile Irk İlişkileri[/fireCol]</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">
+            <Font html:Color="#000000">Attack the Settlement[br/</Font>
+            <Font html:Color="#FF0000">]Gain:</Font>
+            <Font html:Color="#000000">[br/][fireCol]-50 Reputation[br/]-100 Race Relation with the Race of the Settlement[/fireCol]</Font>
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="43" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ATTACK_ONLY_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmaları cılız. Saldırın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ATTACK_ONLY_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşime Saldırın[br/]Kazanacaklarınız:[br/][fireCol]-50 İtibar[br/]-100 Yerleşimin Irkı ile Irk İlişkileri[/fireCol]</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">
+            <Font html:Color="#000000">Attack the Settlement[br/]</Font>
+            <Font html:Color="#FF0000">Gain:</Font>
+            <Font html:Color="#000000">[br/][fireCol]-50 Reputation[br/]-100 Race Relation with the Race of the Settlement[/fireCol]</Font>
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ATTACK_ONLY_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendini Adamış Savunucular</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ATTACK_ONLY_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş kışkırtıcısı olarak ününüz sizden önce geliyor ve Yerleşim halkı sizinle konuşmayı reddederek barikat kurdu.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="49" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_PLAYER_LOST_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anarşi İçinde Koloni</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_PLAYER_LOST_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluklarının çöküşünden sonra, bu koloninin vatandaşları anarşi ve kaosa sürüklendi. Onlarla nasıl başa çıkmak istiyoruz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_PLAYER_LOST_EVENT_PAY_INFLUENCE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onlara yardım edelim ve yol gösterelim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_PLAYER_LOST_EVENT_PAY_INFLUENCE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniyi ele geçirmek için Nüfuz kullanın.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">
+            <Font html:Color="#000000">Use Influence to acquire the colony. [br/] </Font>
+            <Font html:Color="#FF0000">Gain:</Font>
+            <Font html:Color="#000000">[br/][xpCol]+50 Reputation[br/]+100 Race Relation with the Race of the Colony[/xpCol]</Font>
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_PLAYER_LOST_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onlar değersiz. Saldırın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_PLAYER_LOST_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniye Saldırın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">
+            <Font html:Color="#000000">Attack the Colony[br/]</Font>
+            <Font html:Color="#FF0000">Gain:</Font>
+            <Font html:Color="#000000">[br/][fireCol]-50 Reputation[br/]-100 Race Relation with the Race of the Colony[/fireCol]</Font>
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="57" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_TAKEN_BY_MARAUDERS_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Terör Kolonisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_TAKEN_BY_MARAUDERS_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Azgın yağmacılar bu koloninin sakinlerine dehşet saçıyor. Sokaklar yanıyor. Her yerde ölüm ve kaos var. Nasıl devam etmek istiyoruz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_TAKEN_BY_MARAUDERS_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu trajediye bir son verelim. Saldırın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ANARCHY_TAKEN_BY_MARAUDERS_EVENT_ATTACK_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniyi yağmacılardan kurtarmak için saldırın</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>45</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>54</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

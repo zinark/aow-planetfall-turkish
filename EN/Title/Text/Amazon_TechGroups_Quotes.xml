@@ -1,0 +1,720 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Frederick Milders</LastAuthor>
+    <LastSaved>2019-03-05T14:08:07Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s29" ss:Name="Input">
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#7F7F7F" />
+      </Borders>
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333399" />
+      <Interior ss:Color="#FFCC99" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64" ss:Parent="s29">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="86" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="162" />
+      <Column ss:StyleID="s62" ss:Width="198" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="234" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="101.25" />
+      <Column ss:StyleID="s62" ss:Width="288.75" />
+      <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="228" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SYMBIOSIS_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arborian Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bir ağaca yeterince uzun süre sarılırsanız o da size sarılır. "[br/]- Mah Reg'Nib, Gezgin, Orman Yollarında</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Arborian Sentinel</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Harrier Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Kızlarım, hiçbir sınırlamayı kabul etmeyin. Harrier atlarınıza binin. Vahşi kanatları yukarı doğru fırlayıp sizi havaya kaldırırken, altınızdaki vahşi gücü hissedin. Amazonlar, göklere çıkın!"[br/]- Sinnise Volara, Tünek Ana</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Harrier</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Harrier</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_1_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hydromancer Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_1_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bırak gelgit alçalsın ve aksın; taşan seller acımızın gözyaşlarını silsin. Gelin. Burada davetsiz misafirlerden korkmayın. Bu şifalı sular, masmavi mağaranın tadını çıkarabilmemiz için kutsal bir muhafız tarafından korunuyor. Hydromancer sırlarımızı koruyacak. "[br/]- Artemis Ripley, Pod Anaerki</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_1_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Hidromancer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombardon Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Tüm yaşam bir sıvı çuvalından biraz daha fazlasıdır. Bombardon çoğu yaratıktan daha çok benziyor. Daha da dikkat çekici olanı, bir Bombardon'un doğrudan isabet etmesi sizi neredeyse sıvılaştıracaktır. Bu yüzden patlama başlığının önünde durmayın. "[br/]- Lale Pınarı, Güvenlik Kardeşliği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon
+
+Edit: liquify -&gt; liquefy</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Bombardon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_1_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aquatica Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_1_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Aquatica deniz yaşamının kutsal rahmidir, tüm deniz yaşamını beslemek ve büyütmek için Amazonların sönmeyen ruhundan beslenir. "[br/]- Tanya Zee, Mistress Boatswain, Aquatica Filosu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_1_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Aquatica</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tyrannodon Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Onunla ilgili her şey bana ilham veriyor: avını takip etme ve tüketme şekli, dişleri düşmanlarımızı delerken fışkıran kan. Kaç eğitmen yediği umurumda değil, savaşta bir tanesine binmeliyim. "[br/]- Chara Zarde, Kızıl Kraliçe</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Tyrannodon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Tyrannodon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arbor Kraliçesi Komünü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Amazon ruhu tüm canlıları geliştirir, zarafet ve güç verir. Ağaçlar görkemli kraliçeler olarak uyanır. Şarkımıza kulak verirler ve düşmanlarımızı ormanın sessiz gücüyle ezerler. "[br/]- Dame Viola Dalta, Ağaç Şarkıcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Arborian Kraliçesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="27" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlkel Kontrol</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Doğal dünyayı kabul edin. Sürüde güç vardır. Yırtıcılar saklandıkları yerden izlerler. Sempatinizin araya girmesine asla izin vermeyin. Kan akacak. Derin nefes alın. Ölümde hayat yenilenir. Ancak o zaman gerçekten yaşayabilirsin. "[br/]- Sappho Tori, Emerald Hummock'un Avcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon
+
+Edit: removed extra space before "Breathe"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yemyeşil Uyanış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bu dünya bizim ilk annemiz. Onu koruyacağız. Neye ihtiyacı olduğunu ve onu en iyi nasıl koruyacağımızı sadece biz biliyoruz. İşgal ettiğimiz toprakları iyileştirmeye, onu ilk karşılaştığımız halinden daha iyi bırakmaya yemin ediyoruz. "[br/]- Galnidra Orlanis, Çevre Aktivisti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyucu Topraklama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Onsuz bir dünya hayal edemeyeceksek, tüm bu savaşın amacı nedir? Çiçekli mücevherlerle dolu çeşmeler ve bahçeler olsun. İyileşme ve meditasyon için yerler hazırlayın - hepimize neden savaştığımızı hatırlatacak bir sığınak. "[br/]- Selia Varju, Kinsmother</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Forest Genesis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Terratech tarafından üretilen Soil-ENT-Green serumu hiperaktif bitki büyümesi sağlar. Bu buluş, tüm tarlaları anında dolambaçlı aşırı büyümeyle kaplayabilir ve hatta tüm ormanları yeniden oluşturabilir. Sadece neyden yapıldığını sormayın. Bu pek çok hayata mal olmuş bir sırdır. "[br/]- Charlene Hester, Botanikçi, Terratech Labs</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rejeneratif Biyo Rezonans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Beni bekle. Bırak bu kabuk etrafımda büyüsün. Güçleniyorum. Dinginlik içinde, içimden besleniyorum. Beni bekleyin. Çok yakında yükselip sana katılacağım. "[br/]- Leydi Willa Loveday, Ozan</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gaian Vekilharçlığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Atalarımız bu arketipin hayalini kurmuşlardı: temiz, canlı bir ormanda gezinen, çağıran bir şarkı söyleyen ve rengarenk, itaatkar kuşların neşeli bir şekilde şarkısına karşılık vermek için parmağına konduğu muhteşem bakire. Bu hayale her zamankinden daha yakınız. "[br/]- Dr. Sidney Jaadoo, Terratech Yaban Hayatı Bölümü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlendirilmiş Biyo Rezonans</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Güç direklerini büyüterek eşsiz gücümüzü artırabiliriz. Yaşam Amazon gücüyle yankılanır. Ulu ana ağaç bile bizim için savaşır. Kökleri toprağın derinliklerinde, saldırganları büyük meşe dallarının arasında ezecektir. "[br/]- Dr. Misty Glade, Terratech Biyo-Rezonans Ekibi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onarıcı Klonlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İnsan yiyen dev hopperhoundlar tarafından saldırıya uğradıklarında ve bakımlı parkları katil canavarların yuvası haline geldiğinde pikniklerinde ne kadar eğleneceklerini hayal edin! Bu onların ordularını meşgul etmeli!"[br/]- Chara Zarde, Kızıl Kraliçe</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Organizma Uyaranı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Acıları kovun ve bütünden güç alın. Tüm yavrular avcılardan kurtulamaz, ancak sürüyü ayıklayın ve genetik olarak zeki olanlar daha güçlü bir nesil yetiştirir. Tüm yaşam rekabet halindedir. Uyum sağlayamayanlar, uyum sağlayan nesli besler. "[br/]- Sappho Tori, Emerald Hummock'un Avcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni Cennet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Eğer bu dünyayı kötüye kullanırsak, kendimize zarar veririz. İstilacılar bu dünyayı kötüye kullanırsa, teslim olana ya da kanları tarlaları sulayana ve bitkiler kemiklerinin üzerinde kalın ve yeşil büyüyene kadar onları avlayacağız. "[br/]- Galnidra Orlanis, Çevre Aktivisti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gaialojik Yakınlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sevinin! Araştırmalarımız en büyük hayalimize giden yolu açtı. Karasal bir armoninin telleri ayaklarımızın altındaki kök ağında yankılanıyor ve biz de onun melodisini söylüyoruz. Hayvanlarımız artık bizim akrabalarımız ve doğanın kendisiyle birleşebiliriz. "[br/]- Morgana Silverstar, Gaialojik Araştırmacı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="52" ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="55" ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="84" ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="86" ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveCol>6</ActiveCol>
+          <RangeSelection>C7</RangeSelection>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

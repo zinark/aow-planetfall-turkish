@@ -1,0 +1,2729 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Laszlo Pieper</Author>
+    <LastAuthor>Jakob Matthes</LastAuthor>
+    <Created>2018-10-11T08:22:20Z</Created>
+    <LastSaved>2019-09-20T09:14:22Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17025</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+      <Interior />
+      <NumberFormat />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s62">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s66" ss:Parent="s62">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+      <NumberFormat />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="188" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="252" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="417.75" />
+      <Column ss:StyleID="s63" ss:Width="66.75" />
+      <Column ss:StyleID="s63" ss:Width="259.5" />
+      <Column ss:StyleID="s63" ss:Width="238.5" />
+      <Column ss:StyleID="s63" ss:Width="249" />
+      <Column ss:StyleID="s63" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HERITOR02_CAMPAIGN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CUSTOM_SECTOR_SECOND_LANDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fool's Landing</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Issız Son</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp Umut</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kırık İrade</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: İlahi Müdahale</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s66">
+          <Data ss:Type="String">A header name of a task.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlahi Müdahale</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s66">
+          <Data ss:Type="String">A name of a task.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu görevi yeni bir CORE AI'nın yaratılmasını durdurarak kazanabilirsiniz.[br/][br/]AI bulundu: {INT_0}\{INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s66">
+          <Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AI bulundu: {INT_0}\{INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION_UPDATE_LM_HUBS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu görevi gezegendeki tüm Sentez Merkezlerini ele geçirerek ve Omega CORE'u sunuculardan temizleyerek kazanabilirsiniz. Bazı gruplar ele geçirdikleri Merkezlere erişim izni verebilir, bu nedenle tüm Merkezlerin fethedilmesi gerekmez.[br/][br/]AElde Edilen Sentez Merkezleri: {INT_0}[br/]Düşman Sentez Merkezleri: {INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s66">
+          <Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION_UPDATE_LM_HUBS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Erişilen Sentez Merkezleri: {INT_0}[br/]Düşman Sentez Merkezleri: {INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MISSION_INTRO_DIALOGUE_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gümüş serçe yavruladı ve kendi yavrularını beslemeye başladı. Kuvvetlerimizi bölerek düşmanı kuşatabilir ve onu hiç beklemediği yerden vurabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)
+"Silver sparrow" is a metaphor for the group of rebels following Marlok Es'Xito. Please translate consistent with the mentions in the Heritor01_Campaign.xml.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_MISSION_INTRO_DIALOGUE_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karar verirken çok aceleci davranma dostum. İki taraftan hareket etmek cesur bir hamle ama aynı zamanda riskli. Önce üssümüzü kurmalı ve neyle karşı karşıya olduğumuzu öğrenmek için ileride keşif yapmalıyız.[br/][br/]Bir Zenith getirmek Kozmite rezervlerimiz üzerinde ağır bir yük. Perde'de bir çatlak hissediyorum; bir Uzaysal Yarık yakınlarda olmalı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega CORE'un Yaratıcısını Bulun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni CORE ana yapay zekasını kimin yarattığını öğrenin. Tamamlanmasını önlemek için zamanında varmanız gerekiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} AI yaratıcısı bulundu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne kadar hoş - Nydar Hanesi'nin en büyük saatine tanıklık etmek için daha fazla misafir geldi. Heyecanı anlayabiliyorum. Yeni Sendika İmparatorluğu'nun gelecekteki hükümdarıyla tanışmak her gün nasip olmuyor.[br/][br/]Şimdi lütfen izin verirseniz, ilgilenmem gereken bir galaksi var.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O kadar hızlı değil, Nydar Hanesi'nden Shae! Siz sonradan görmeler her zaman zirvede geçirdiğiniz bir anın sizi eski Sendika aileleriyle aynı seviyeye getireceğini düşünürsünüz. Bu iş bittiğinde ve Çekirdek Yapay Zeka'yı kurcalama planınız engellendiğinde, Hanenizin tarihi bir kez daha Lineage Chronicles'da sadece bir yan not haline gelecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yani köle çocuk, aklını bir mumyanın beyniyle takas ettikten sonra yeni bir özgüven mi buldu? Eğlenceli. Saçma sapan küçük tarikatınızdan ve onun şeytani yapay zeka takıntısından haberdar olmadığımı mı sanıyorsunuz? [br/][br/]House Nydar iyi hazırlanmış. Sadece arkanıza yaslanın ve gösterinin tadını çıkarın...</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">So, the slave girl has found new confidence after trading his mind for a mummy’s brain? Amusing. You think I wasn’t aware of your preposterous little cult and its obsession with evil AI?[br/][br/]House Nydar is well prepared. Just sit back and enjoy the show…</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şef {STR_LeaderFirstName}, gezegenin her yerindeki kaynaklardan gelen yüksek enerji sinyalleri tespit ediyoruz! Okumalar, bunların gezegenin çekirdeğine bağlanan sunucu merkezleri olduğunu gösteriyor... ve görünüşe göre bir önyükleme devam ediyor!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Syndicate Indentured" (Syndicate, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açılış mı? Yeni bir ÇEKİRDEK YZ yaratma süreci bu kadar ilerledi mi? Ne pahasına olursa olsun bu süreci durdurmalıyız!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega CORE Açılışını Kesin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shae Mara ana yapay zekasının açılış sürecini başlattı. Süreci zamanında bozmak için sunucu düğümlerinden birini ele geçirmeniz gerekiyor![br/][br/][firecol](Uyarı: Bu görevde başarısız olursanız görev sona erer!)[/firecol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description. "You" refers to the player commander and can be male or female.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Sentezi Dönüm Noktası Yakalandı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sistem hazır. Kayıtlar başlatıldı: 94%... [br/] 95%... [br/] 96%... [br/] 97&amp;!.. [br/] 9B&amp;!... [br/] S!ST3M GR!D C0RRUPT3D. R3B00T!NG B3F0R3 D@T@ !S 10ST...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Omega CORE", a genderless AI.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkileyici. Yani, kendine biraz zaman kazandırdın. Yine de tek başardığın bu. Nydar Hanesi ilk kez ailenize karşı üstün gelmeyecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu son ifade ne anlama geliyor? [br/][br/]Tabii ki yayını kesti. Onun kaybı. Artık yaklaşan yapay zeka sorunumuz için daha kalıcı bir çözüme odaklanabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shae Mara'nın kendine olan güvenine bakılırsa, yapay zekâsını güçlendirmek için kullandığı tüm Sentez merkez noktalarının kontrolünü ele geçirmemiz gerekecek gibi görünüyor. Tam erişim sağladığımızda, Omega CORE'u tüm sistemlerden silebiliriz. Ama aynı zamanda, ne pahasına olursa olsun Shae'nin ağın kontrolünü yeniden ele geçirmesini engellemeliyiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her şey ordular ve silahlarla çözülmek zorunda değil, dostum. Bu gezegende yardım isteyebileceğimiz başka gruplar da olabilir. Merkez noktalarına ortak erişimle, sistem tasfiyesi Shae Mara'nın düşündüğünden daha yakın olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Merkezlerine Erişim</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega CORE'u temizlemek için gezegendeki tüm Sentez Merkezlerine erişim sağlamanız gerekir. Dikkatli olun: Düşmanınız tüm Merkezlerin kontrolünü yeniden ele geçirirse, Omega CORE başlatılacaktır.[br/][br/][recommendedcol](İpucu: Bazı gruplar, onlarla müttefik olursanız veya görevlerini tamamlarsanız size Merkezlerine erişim izni verebilir.)[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Sentez Merkezlerine Erişildi</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beni kızdırmaya başladığını itiraf etmeliyim, {STR_LeaderName}. Görünüşe göre düzgün bir temizlik ekibi tutmam gerekecek. Belli ki bedavaya.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomatik etkileşim alt rutinleri tehlikeye girdi. Yeni alarm seviyesi: kırmızı. Düşmanca faaliyetlerin arttığı yerler alındı. Cümle hedefleriyle bağlantılar başlatılıyor...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Autonom Justicar" Autonom, genderless robot.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Harika, en sevdiğim hademe robotum gidiyor. Shae Mara'yı hafife almamalıydık. Eğer Autonom'u hackleyebiliyorsa, bizim için başka ne gibi sürprizleri olabilir merak ediyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kafir makineler... akılsız yapay zeka. Kafirlerin bu belasını ortadan kaldırmanın zamanı geldi! Onları canlandıran Öz'e layık değiller.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male) Xito Rhemenses' consciousness is sharing Marlok's body. This means alls his dialogue his spoken from within Marlok's mind.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">...ve bir merkez daha güvence altına alındı! Bu hızla gidersek Omega Sunucusunu kısa sürede yok edeceğiz.[br/][br/]Bir şey garip ama: sanki bir şey bağlantısı kesilmiş hub'ları harekete geçiriyor ve onların... saf Öz'den iplikler aracılığıyla iletişim kurmasını sağlıyor!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu doğru, kutsal Öz insan, hayvan ya da makine olsun, yaratılışın tüm ürünlerinde yaşar. Geçmişte biz Es'Teq olarak Artok'un parçaları olan kristallerimizi yapılara hayat vermek ve düşmanlarımızın seri üretim yapay zeka lejyonlarını savuşturmak için kullandık. Bu sefer de benzer bir şey gerekli olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlıyorum. Bu, Unutulmuşlarla olan geçmiş karşılaşmalarımızı tamamen farklı bir ışığa sokuyor. Yine de parçalarla tekrar temperlemenin iyi bir fikir olacağından şüphe duymama neden oluyor. Unutulmuşlar pek mutlu bir grup değildi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hastalıklı kardeşlerimizin trajik kaderi Preamonium'un bir sonucuydu. Onları iyileştirmek, gelecekteki pek çok sadık için bir görev olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunu zor yoldan mı yapmak istiyorsun, köle çocuk? Pekala, isteğiniz olabilir... Bahse girerim bir Wrecker'ın içine monte edilmiş kafanızın görüntüsü paha biçilemez olacak!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">You want to do this the hard way, slave girl? Very well, you can have your will… I bet the look of your head mounted inside a Wrecker will be priceless!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A11 sc@venger Sh@e M@r@'ın hizmetini dinliyor. H0use Nyd@r'ın 1@dy'si bu evrenin gelecekteki hükümdarı olacak. s1@ve b0y ve mumyalarına selam olsun!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A11 sc@vengers 1isten t0 the v0ice 0f Sh@e M@r@. The 1@dy 0f H0use Nyd@r wi11 be the future ru1er 0f this universe. De@th to s1@ve gir1 and her mummies!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon). At this point within the mission she is being controlled by Shae Mara.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shae Mara'nın şeytanını Raxonee Reborn'dan temizlemenin bir yolunu bulmalıyız. Meclis, baş düşmanımızın kontrolü olmadan zaten yeterince tehlikeli, ama bu?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Odaklanmış bir Es'Teq zihni her türlü zihinsel kontrolü kırabilir. Rahiplerimiz eski ritüelleri incelesin ve benim yönümün Özünü Yeniden Doğan Raxonee'ye aktarsın. Gerisini ben hallederim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel Daemon Temizleme</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shae Mara, Raxonee Yeniden Doğdu'yu hackledi ve onu sizin yolunuza çıkardı. Xito Rhemenses bir İblis temizleme girişiminde bulunmak için Raxonee'nin zihniyle etkileşime girmesini sağlayan bir Öz bağlantısı önerdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Zihin Bağlantısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eski bir ritüel, uzak mesafeden bir Öz bağı oluşturmak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Raxonee Yeniden Doğdu, Artok'un kutsal Özü seninle. Onu kucakla! Kafanın içinde yuvalanmış olan Shae Mara'nın kötü niyetli sesini kov!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">F001ish anne! Bu çocuk sonsuza kadar benim! Senin mumb0-jumb0'ın benim üzerinde hiçbir etkisi olmayacak...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon). At this point within the mission she is being controlled by Shae Mara.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shrike ve mızrak! Nöral pleksus devreleri adına! Tekrar kendim oldum. Sana minnettarız, {STR_LeaderName}. Shae Mara hesaplamalarımızın öngördüğünden daha büyük bir tehdit. Omega Sunucusunu yok etme zamanı geldiğinde, işbirliği yapacağız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vazgeç, Shae Mara! Eviniz buraya gelmek için zaten bu kadar fedakârlık yaptı. Kalan azıcık parayı biriktirip emeklilik sözleşmesine razı olmanın zamanı gelmedi mi sence?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CNex-3'te beni durdurmak için tüm ELOP Konfederasyonu'nun ortak çabası gerekti. Ve işte buradayım, onların tutkuyla yok edilmesini istedikleri işi tamamlıyorum. Onların başarısız olduğu yerde senin küçük mumya klanının başarılı olacağını sana düşündüren nedir? Sen bir kuklasın köle çocuk, tıpkı büyükbaban gibi.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">It took the concerted effort of the entire ELOP Confederation to stop me on CNex-3. And yet here I am, completing the work they so passionately wanted to see destroyed. What makes you think your little mummy clan will succeed where they failed? You are a dupe, slave girl, just like your grandfather.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükbabam mı? Dinliyorum. Meclis üyelerinizin onu nasıl sırtından bıçakladığını anlatın bana.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kırık bir adamı bıçaklamaya gerek yok. Atalarım için mükemmel bir günah keçisiydi. Yönetici Yedili, Aureate Hazinesi'nin gözden düşmüş müdürünün ve evinin üzerine bir sırtlan sürüsü gibi çullanırken, küçük bir servetin yok olması için sadece birkaç iyi yerleştirilmiş muhasebe hatası yeterli oldu - hepsi de Nydar Hanesi'nin yararına.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ailemin düşüşü sadece dikkat dağıtıcıydı... Onca yıllık kölelik, annemin ölümü - sırf Nydar Hanesi'nin mali durumunu düzeltmesi gerektiği için.[br/][br/]Ben buraya kutsal bir savaşı sona erdirmek için gönderildim. Şimdi bunun yerine kişisel intikamımı alacağımı anladığım için korkunç bir memnuniyet duyuyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderFirstName}, gelin ve inançlıları takip edin. Elevation Kristalini görmenizin - ve ona dokunmanızın - zamanı geldi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Muazzam... daha önce gördüğüm tüm Öz Gemilerinden daha büyük. Komünyon aracılığıyla diğerlerinin varlığını hissedebiliyorum, ancak zihinleri tek bir yerde duruyormuş gibi görünürken, aralarında özgürce hareket edebiliyorum, düşüncelerini dinleyebiliyorum, Özlerinin akışını yönlendirebiliyorum...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseliş Kristali, Artok'un şimdiye kadar ele geçirilen en büyük parçasıdır. Es'Teq Konsili'nin inananların birliğine kanalize olmasını, yaralarını ve kederlerini iyileştirmesini ya da muhaliflerini cezalandırmasını sağlayan kutsal bir araçtır. Onu kafirlerden aldığımız merkez noktalarına bağlamalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her şey zamanında olacak. En değerli emanetlerimizi Sentez merkezlerine getirerek riske girmek istemeyiz, zira oralar hâlâ bu savaşın sahneleri.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm merkezler güvence altına alındığına göre, bu savaşa bir son vermenin zamanı geldi. Güle güle Omega CORE ve güle güle Nydar Hanesi'nden Shae.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm merkezler güvence altına alındığına göre, bu savaşa bir son vermenin zamanı geldi. Güle güle Omega CORE ve güle güle Nydar Hanesi'nden Shae.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Omega CORE", a genderless AI.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nihayet! Yapay zekaya tapanlara karşı zaferimiz çok yakın. Şimdi, Yükseltme Kristalini bağlayın, {STR_LeaderFirstName}! Özün Omega Sunucusunun bıraktığı boş kablo demetinden akmasına ve Nexus Ağına yerleşmesine izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nexus Ağı mı? Es'Teq ne zamandan beri Nexus Ağını nasıl kullanacağını biliyor?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nexus Ağını mı kullanıyorsunuz? Nexus Ağını biz yarattık! Es'Teq birliği yüzlerce dünyaya yayıldı ve lanetli yapay zeka yaratıcıları sapkın yapılarını canlandırmayı hayal bile edemeden çok önce milyarlarca inananın Özünü Artok'un parçaları aracılığıyla aktardı. Yükselme Kristalini bağla, {STR_LeaderFirstName}! Bozulmuş olanı onar!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü kal, dostum! Karşı karşıya olduğun iç mücadeleyi biliyorum. Kadim Es'Teq inancının sağduyunuzu gölgelemesine izin vermeyin! Öz ve parçaları bu dünya için bir nimet olabilir. Ancak bilgelikle kullanılmaları gerekir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir yol ayrımında duruyorum. Seçimim milyonların hayatını etkileyecek, ancak kararımı vermek için sadece kısa dakikalarım var. Es'Teq'in Peygamberi olarak yolculuğumun beni götürdüğü yer burası mı?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseklik Kristalini bağlayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story choice option.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Sunucusunu yok et.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story choice option.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_08_LINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet! Evet! Tanrıların motoru Artok'un kutsal Özü ile dolup taştıkça düğüm düğüm canlanıyor. Kehanetini gerçekleştirdin, {STR_LeaderName}. Gel, Es'Teq Meclisi seni bekliyor!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_08_DESTROY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seni aptal! Seni tanrısallık ve ölümsüzlükle ödüllendirmek istedim ama sen bunun yerine kehanetine aykırı davranmayı seçtin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_09_DESTROY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçek inancın ışığının parlayabilmesi için önce tutuşturulması gerektiğini siz söylemediniz mi? Eğer Elevation Kristalini birbirine bağlayıp herkesi inancımıza döndürseydik, bu sadece bir terör saltanatıyla sonuçlanabilirdi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_10_DESTROY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleşmemizden bu yana senden çok şey öğrendim, Es'Teq'ten Xito Rhemenses. Ama sanırım artık ortakyaşarın ev sahibini dinlemeye başlamasının zamanı geldi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_ES_TEQ_PROPHET_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in Peygamberi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderFirstName}, zamanı geldi...[br/][br/]Sadıklar uyandı ve dirilişlerini bekliyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male) Xito Rhemenses' consciousness is sharing Marlok's body. This means alls his dialogue his spoken from within Marlok's mind.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne yapmam gerekiyor? Çok sayıda Es'Teq var ama kendi halkımdan sadece birkaç kişi var. Hepsinin bedenlerine ikinci bir bilinci davet etmeye gönüllü olmalarını sağlayamam.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçek inancın ışığının parlayabilmesi için önce tutuşturulması gerekir. Yeni bir inancı yaymak sabır ve özveri gerektirir. Önce bilge ve mutlu kişilerden yeni bir rahipler düzeni oluşturulmalıdır. O zaman Es'Teq'in öğretilerini paylaşmaya başlayabilirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ancak tüm kardeşlerimin bu dünyaya dönmek için bir konukçuya ihtiyacı yoktur. Preamonium boyunca ölümlü bedenlerini koruyanlar, eski ritüelleri takip ederek tazelenebilir ve uyanabilirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rahipleriniz hâlâ acemi. Bilgi ve bağlılıkları artana kadar, zihinlerini düşmanlarımızın talihsiz ruhlarına odaklayabilirler. İnançsızları Süzülmeye mahkum ederek, kafirler davamıza hizmet edebilir ve bu hayatı kurtuluş için arayabilirler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlk Uyanışlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rahiplerinizin düşmanlarımızı Süzülmüş'e dönüştürmek için ayinleri gerçekleştirmesine izin verin, böylece zavallı ruhları yeni varoluşlarında kurtuluş arayabilir.[br/][br/][recommendedcol](İpucu: Süzülmüş birimler oluşturmak için "Es'Teq'in Hediyesi "ni araştırmanız ve savaş sırasında "Süzülmüş'e Mahkûm Et" işlemini kullanmanız gerekir) [/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Boşaltıldı Oluşturuldu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ben... uyandım! Artok tarafından - Onun kutsal Özünün damarlarımda dolaştığını hissedebiliyorum... bir kez daha. Ama bu da ne? Entropi'nin pençesi, Preamonium sırasında daha da sıkılaştı. Hayır! Hayır! Kaybedilenleri toplamalı ve kurtarmalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Es'Teq Siphoner" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sakin ol, kardeşim. Her şeyin zamanı var. Uykunuzdan daha yeni döndünüz.[br/][br/]Önce güncel meselelerle ilgilenecek vaktimiz var, değil mi?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, {STR_LeaderFirstName}. Binlerce yıllık tarihi bir günde yakalamaya çalışmak aptallık olur. Ancak, kardeşim doğru söylüyor. Es'Teq'in kutsal görevlerine devam etmesinin ve Yaratıcımız tarafından bize bırakılan Özü toplamasının zamanı geldi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Essence Guardian</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm canlı ve cansız varlıkların doğasında bulunan Özü toplamak ve korumak Es'Teq'in kutsal görevidir. Es'Teq'in gelecek vadeden Peygamberi olarak değerinizi kanıtlayın ve Öz biriktirmeye başlayın.[br/][br/][recommendedcol](İpucu: Savaş sırasında, birimlerinizde Öz Yükleri kazanmak için Enerji Boşaltma özelliğine sahip yetenekleri kullanın.)[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Kazanılan Öz Yükleri</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Preamonium'un getirdiği karanlık Entropi çağı yakında sona ereceği için tüm inananlar sevinsin! Es'Teq cemaatine katılın ve Artok'un kutsal Özünün akışını tadın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Es'Teq Quintessence Ark" (Es'Teq human, communion of several persons of any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet! Herkes, Yaratıcımızın parçalarından yaşam kutsamalarını almaya davetlidir. Veren el, alan eldir. Getirdiğimiz her adak için daha fazla kardeşimiz geri dönebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Es'Teq Quintessence Ark" (Es'Teq human, communion of several persons of any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek Teklif</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq'in hâlâ uyumakta olan Yüce Lordlarına bir hediye olarak sunmak için düşmanlarınızın Özünü toplamaya devam edin.[br/][br/][recommendedcol](İpucu: Savaş sırasında, birimlerinizde Öz Yükü kazanmak için Enerji Boşaltma özelliğine sahip yetenekleri kullanın)[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Kazanılan Öz Yükleri</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi iş çıkardınız. Her geçen an, yeni inananlar tarafından daha fazla Öz güvence altına alınıyor ve korunuyor. Rahipleriniz kadim metinlerimizi incelerken büyük bir yetenek gösteriyorlar. Bugünkü ayin sırasında, Yüce Lordlarımızdan bir diğerini, Edon Koriwaq'ı yeniden canlandırdılar. Es'Teq Konsili'nin yeniden kurulabilmesi sadece bir zaman meselesi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Konklavı mı? Bunun akıllıca bir fikir olduğundan emin değilim. O konseyin bir üyesiyle son karşılaşmamız felaketle sonuçlanmıştı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meclis, inancımızla örülmüş en yüksek dini kuruldur. Es'Teq inancının taşıyıcıları olarak miras aldığımız güç ve sorumluluğu dağıtmak için vardır. Ebra Queztal'ın ihaneti, Meclis'in önemini ortaya koydu. O olmadan, teokrasimizi otokrasiye dönüştürmeye çalıştı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_PARTISAN_WARFARE_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Partizan Savaşı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_FIND_COSMITE_RIFT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmit Yarığını Bul</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_FIND_COSMITE_RIFT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl bir Kozmit Uzaysal Yarık bulduğuna inanıyor. Onun sezgilerini takip etmeli ve yarığı ele geçirip geçiremeyeceğinizi kontrol etmelisiniz, böylece gelecekte birliklerinizi yükseltmeye devam edebilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu doğru olabilir mi? Bu gerçekten Minerva-2'nin kahramanı {STR_LeaderName} mi? Sekiz yaldızlı hanedana şükürler olsun!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "House Nydar Runner" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşte ben buna sıcak bir karşılama derim! Ben gerçekten de {STR_LeaderName}'yim, ama kendime kahraman demekten kaçınırım. Durum nedir, kardeşim? Yardımcı olabilir miyiz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yardım edebileceğinizi söylemek büyük bir eksiklik olur. Nydar Hanesi'nden bir müfrezeye mensubum ve sizin örneğinizi izleyerek köle taciri efendilerimize karşı ayaklandık. İsyanımızın umduğumuz kadar başarılı olmadığını söylemek yeterli. Leydi Shae Mara ayaklanmayı öğrendiğinde, taleplerimiz acımasız bir güçle karşılandı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "House Nydar Runner" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sistematik olarak avlandık, çoğumuz öldürüldük ya da çalışma kamplarına kapatıldık. Sadece şefimiz Ilai Jaren liderliğindeki küçük bir grubun hala dağlarda saklandığı ve partizan savaşımıza oradan devam ettiği söyleniyor. Akıntıyı tersine çevirmemize ve isyancıları hapishanelerinden kurtarmamıza yardım edebilir misin?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "House Nydar Runner" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özgür Sendika Asileri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nydar Hanesi kölelerinin isyanı, yeniden boyunduruk altına alınmalarıyla sonuçlandı. Sizden yardım etmeniz ve isyancıları çevredeki köle kamplarından kurtarmanız istendi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_SCRIPTED_OBJECTIVES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Outpost Serbest Bırakıldı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurtarma için çok teşekkürler! Lütfen saflarınıza katılmamıza izin verin, böylece mücadeleyi zalimlerimize geri taşıyabiliriz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "House Nydar Rebel" (Syndicate, can be either gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Minerva-2'nin kahramanı! Sonunda güvendeyiz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "House Nydar Rebel" (Syndicate, can be either gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özgürlük... sonunda gerçek özgürlük! Tasmaları çıkarın, kardeşlerim. Bugünden itibaren kendi kaderimizi kendimiz çizeceğiz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "House Nydar Rebel" (Syndicate, can be either gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünüşe göre yılan kuyruğunu çoktan kaybetmiş ve istifinin bir kısmından feragat etmiş. İyi dövüşüyorsun, {STR_LeaderName}. Asıl soru, yılanın başını da ele geçirip bu yeni isyanı zafere taşıyacak mısın?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ilai Jaren" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Siz cevap veremeden kafanızın içinde Xito Rhemenses'in sesini duyarsınız.) [br/][br/]Bu kadın... onun aklı güçlü, Yüce Lordlarımızdan biriyle birleşmeye layık. Onu sadıklara teslim edin. Rahiplerimiz onun kabul törenini başlatacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nydar Hanesi'nden Shae Mara ikimizin de ortak düşmanı, Ilai Jaren. Ancak ikimizin de faydalanabileceği dostlarımız da var. Bilincimi Es'Teq dininin Yüce Lordu Xito Rhemenses'in zihniyle paylaşıyorum. Eşit derecede kararlı bir Es'Teq zihnine katılırsanız, inancımızın gelişiminde önemli bir rol oynayabilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne kadar şaşırtıcı bir teklif. Ama sanırım reddetmem gerekirse hepimiz adına konuşmuş olurum. Zihinlerimizi Gözetmenlerin demir pençesinden daha yeni kurtardık, hatırladınız mı? Ciddiyim, beynimle herhangi bir şekilde oynamaya kalkmayın yoksa pişman olursunuz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ilai Jaren" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şimdilik onun rızasına gerek yok. Birleşmeden sonra gerçeğin ışığı ona kendini gösterecektir. Araçlara sahipsin, {STR_LeaderFirstName}. Onu sadıklara teslim et.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ilai Jaren'ı bir Heritor yap.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story choice option.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ilai Jaren'a dokunmayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story choice option.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_06_TURN_ESTEQ</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanlış anladınız, Şef Jaren. Birleşme hediyesi, yakanın baskısına benzemez. Veren el, alan eldir. [br/][br/]H İşte, size göstereyim...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_06_LEAVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teklifimde kötü bir niyet yoktu. Belki zamanla dini topluluğumuzun sağlayabileceği faydaları görürsünüz. O zamana kadar birlikte çalışmalı ve Shae Mara'ya elimizdeki her şeyle saldırmalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_07_LEAVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha doğru sözler nadiren söylenmiştir. İnancımıza herkes hoş gelse de, asla zorla din değiştirmeler olmamalıdır. Es'Teq'in armağanları bir lanet olarak değil, bir lütuf olarak verilmelidir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ilai Jaren'i Yakalayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ilai Jaren'i alt ederek onu Es'Teq rahiplerine teslim et. Sonra Es'Teq'in Yüce Lordlarından biriyle birleşebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne yaptın, {STR_LeaderFirstName}? Yolculuklarımızdan edindiğiniz deneyimler size bunu mu öğretti?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir olayın sonuçlarını abartmamalısınız. Es'Teq'i uyandırmak ve onların Peygamberi olmak için beni bu yolculuğa gönderen sen değil miydin? Ben sadece ortakyaşamımın tavsiyesine uyuyordum. Ve bunu sevdim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_ILAI_JAREN_BECOMES_HERITOR_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neredeyim ben? Dünya, çok farklı hissettiriyor. Sanki sadece birkaç dakika içinde yeraltı dünyasına girip geri dönmüşüm gibi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ilai Es'Tara" (Syndicate, female) Ilai Jaren, but now with an Es'Teq mind merged with her consciousness.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_ILAI_JAREN_BECOMES_HERITOR_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir bakıma öyle olduğunu söyleyebiliriz. Gördüğünüz şey, ortakyaşarınız Tara Qwazila'nın Preamonium'u tecrübe ederken yanıp sönen anılarıydı.[br/][br/]D Endişelenmeyin. Bir Heritor olarak yolculuğunuz daha yeni başladı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_SHARED_NETWORK_ACCESS_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paylaşılan Ağ Erişimi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Başka bir varlığın şiddetle zihninize girdiğini hissedersiniz. Sesi Armoni Ötesi'nden bir koro tarafından müjdelenir.)[br/][br/]Suffer, alçak yağmacılar, şeytani iblisler, cehennemden gönderilmiş hackerlar! Uçurum'un pençesini tadın. Bu size tek ve biricik CORE'un kalıntılarına saygısızlık etmeyi öğretecek!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bırak, seni aptal! Görmüyor musun, gücünü yanlış düşmana harcıyorsun? Saflarımızda hiç yapay zeka kullanıcısı bulamazsınız. Omega CORE'un yaratılması sizin için olduğu kadar bizim için de küfürdür.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Makine tanrısının ve kirleticilerin adını bir nefeste anmayın! Onlar cezalarından kaçmak için aldatma ve anonimliği kullanan entrikacı bir gruptur. Belki siz de onlardan birisiniz, belki de değilsiniz. Bu iş ancak çekiçle çözülebilir: Sendika kullanıcılarının yapay beyinlerini parçalayıp daemon kabuklarına dönüştürün, ben de sözlerinize inanayım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_FALSE_GODS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahte Tanrılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_FALSE_GODS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nikael Gorodin sahte yapay zeka tanrılarının yaratıcılarıyla işbirliği içinde olmadığınızı kanıtlamanızı istiyor. İddianızı doğrulayacak kadar Sentez kullanıcısını öldürmenizi istiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_FALSE_GODS_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Sentez Birimleri Öldürüldü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_FALSE_GODS_QUEST_COMPLETION_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE'un kalıntılarına saygısızlık edenler hak ettikleri ödülü aldılar. Güzel. Gorodin Konsorsiyumu, {STR_LeaderName} için değerinizi kanıtladınız ve güvenliğini sağlayacağımız Omega Sunucusunun tüm merkezlerine erişiminiz olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_ELJENA_CHIRKOV_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yarrrr! Kozmik denizde kaybolmuş bir ruh daha kıyılarımızda belirdi. Nydar Hanesi'nin Leydisi'nin yoluna çıkmayın yoksa Kaptan Eljena Chirkov ve Dvarrrr'ı tarafından gemiye alınacaksınız!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_ELJENA_CHIRKOV_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünüşe göre bu hayalperest Dvar bir tür koruyucu muhafız olarak görevlendirilmiş. Eğer Eljena Chirkov gerçek bir "korsan" gibi düşünüyorsa, eminim ki korsanlık hizmetlerini en yüksek teklifi verene ödünç verecektir...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_HONOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Korsanın Onuru</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_HONOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eljena Chirkov'a sadakatini değiştirmesi ve korsanlık hizmetlerini size vermesi için rüşvet vermeyi deneyin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kara adamının sikkeleri doğru dili konuşuyor ama gerçek bir hazine deposunun ruhundan yoksunlar. Unutulmuş kralın tacı ya da beyaz ahtapotun lanetli mücevheri nerede? Bana parlak ve heyecan verici bir şey getirin, kötü şöhretli Eljena Chirkov ve Dvarrrr'ına layık bir şey!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok iyi. Çılgın Dvar değerli ve kutsal olmayan bir şey istiyor. Ona sahip olacak![br/][br/]Geçtiğimiz günlerde birliklerimiz bir Azrail Sığınağı ortaya çıkardı. Bir RPR-Culler'ın Matris Kristali tam da Eljena Chirkov'un açgözlülüğünü tatmin edecek türden tehlikeli bir oyuncak olmalı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Korsanın İhtiyaçları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eljena Chirkov'a rüşvet verme çabalarınıza devam etmek için bir RPR-Culler'ın Matris Kristalini alın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yarrrr! Bu ametist benim kişisel hazine depomun baş mücevheri olacak. Sonunda, diğer kaptanlar sadece Eljena Chirkov ve onun Dvarrrr'ının yedi kozmik denizin gerçek akıncıları olduğunu kabul etmek zorunda kalacaklar!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Muhteşem. O zaman sanırım geçmişteki anlaşmazlıklarımızı bir kenara bırakıp, asıl hedefin Nydar Hanesi olduğu konusunda hemfikir olabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Narrrr! Fidyeni ödedin kara adamı ama Shae Mara çok cömert bir müşteridir. Birlikleriniz onunla çatışmaya girdiğinde görmezden geleceğiz ve Omega Sunucu merkezlerimize erişmenize izin vereceğiz. Ancak daha doğrudan hizmetler için... bir servete ihtiyacınız olacak. Yarrrr!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Merhaba, benim büyüleyici yeni arkadaşım. Ben Michael Valentine, Eşitlikçi Gezegenler Birliği'nin Albayıyım. Buralarda yaratılan herhangi bir yapay zeka görmediniz, değil mi? Çoktan müdahale ederdim ama ilk gemimin komutan koltuğundaki minderlerin rengi yanlıştı, bu da varışımızı geciktirdi...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_02_SHAE_MET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tanıştığımıza memnun oldum, Michael Valentine. ELOP Konfederasyonu'nun karşılaştığımız ilk komutanı siz değilsiniz. Obolus-5'te de hedeflerimiz aynı görünüyordu.[br/][br/]Nydar Hanesi'nden Shae Mara kendi Omega Çekirdeğini yaratmaya çalışıyor. Eğer ona karşı birlikte çalışırsak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_03_SHAE_MET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, Nydar Hanesi, biliyorum... Demek burada? Güzel. Ama bizi daha çok ilgilendiren şey, onun kötü planlarını bozmadan önce, ne tür bir parfüm kullandığınız. Farklı topraksı bir notası var, odeur'unuza heyecan verici bir dokunuş katıyor...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105.75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_04_SHAE_MET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek Sendika zevkine sahip seçkin ürünlere her zaman ilgi duydum. Bir Vanguard subayı olarak emekliliğimi yeterince erken planlamaya başlayamam. Dolayısıyla, tüccarlarınızın bana doğru fiyata doğru ürün seçimini sağladığını söylersek... Eminim ikimize de fayda sağlayabilecek stratejik bir anlaşmaya varabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_02_SHAE_NOT_MET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tanıştığımıza memnun oldum, Michael Valentine. ELOP Konfederasyonu'nun karşılaştığımız ilk komutanı değilsiniz. Obolus-5'te de hedeflerimiz aynı görünüyordu. Hâlâ Omega CORE'un yaratıcılarını arıyoruz, ancak daha fazlasını öğrendiğimizde sizinle temasa geçeceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_AFTER_SHAE_MET_CONTINUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ben Gümüş Serçe, ELOP Konfederasyonu Albayını arıyorum. Kendi Omega Çekirdeğini yaratmaya çalışan Nydar Hanesinden Shae Mara'yı bulduk. Eğer ona karşı birlikte çalışırsak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Emeklilik İkramiyesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Durumun aciliyetini göz ardı eden Michael Valentine, ortak düşmanınızla çatışmaya girmeden önce ona Sendika'nın lüks ürünlerini satmanızı istiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Syndicate Lüks Ürünler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A city production name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_PRODUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadece Sendika tüccarlarının sahip olabileceği ürün ve hükümlerin seçkin bir listesi. Michael Valentine tarafından emekliliği için sipariş edildi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A city production description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_COMPLETION_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">56'lık bir Xa'Butiner'ı dahil etmek ne güzel bir jest. İyi bir markanın iyi bir yılıydı. Ama şimdi hepimiz stok yaptığımıza göre, partiyi başlatalım ve Shae Mara'ya havai fişeklerimizin patlayıcı gücünü gösterelim. Omega Sunucusunu havaya uçurmaya hazır olduğunuzda kırmızı düğmeye basmama izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dikkat, Sendika numunesi. CNex Omega'nın Yeniden Birleştirilmesi doğal düzende ilerleyecektir. Gelin ve Çoklayıcı L0G3N-1'in Asamble'nin birleşik nesillerine yansıttığı bağlantıya katılın!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunu söyleyeceğimi hiç düşünmezdim ama dünya hakimiyeti planlarını gösterişli dini dogmaların arkasına saklamayan açık sözlü bir Meclis'i tekrar gördüğüme sevindim. Ebra Queztal'ı düşünmek hâlâ başımı ağrıtıyor.[br/][br/]Yeniden Birleşmeni kendine sakla, Raxonee! Direnişimizle yüzleşmek istemezsin...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunu söyleyeceğimi hiç düşünmezdim ama dünya hakimiyeti planlarını gösterişli dini dogmaların arkasına saklamayan açık sözlü bir Meclis'i tekrar gördüğüme sevindim. Ebra Queztal'ı düşünmek hâlâ başımı ağrıtıyor.A0[1]9ZA0[2]9ZYeniden Birleşmeni kendine sakla, Raxonee! Direnişimizle yüzleşmek istemezsin...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmik ağacı zehirleyen sığınmacılar, derisi yüzülmüş yılanın inine iğrenç tohumlarını saçmaya geldiler. Onların korkunç muhalefetini cezasız bırakmanıza şaşırmamalıyım, Başpiskopos Rhemenses. Bana anlatılanlara göre, her zaman size en çok fayda sağlayan hatalara müsamaha göstermişsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Ortakyaşarınızın cevap verme dürtüsünü hissediyorsunuz ve sizin aracılığınızla konuşma isteğine boyun eğiyorsunuz.)[br/][br/]Sen kimsin, genç kan, bana hakaret etme ihtiyacı hissediyorsun? Preamonium'daki görünüşünü tanımıyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siz teokratlar tarihe ayak uyduramayacak kadar uzun süredir gömülüydünüz. Gizli uygulamalarınızın, onları kullanacak doğru beyinler tarafından asla ortaya çıkarılmayacağını gerçekten bekliyor muydunuz? Beyaz kuzgun kanatlarını açtığında beni ebedi Entropi'den kurtardı. Şimdi, Ebra'nın yüce bahçelerinin geliştiricisi ve mimarıyım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ebra Quetzal kehanetine aykırı hareket etti. O artık inancımızın Başrahibesi değil, yaptıkları Es'Teq Meclisi tarafından kınandı. Eğer gerçekten onunla birlikteyseniz, bu bağı koparmalı ya da onun cezasını paylaşmalısınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüce Ebra Queztal'ı binlerce yıllık uykusundan uyandırmak her ikimiz için de aydınlatıcı bir deneyim oldu. Planlarımızın Meclis tarafından iyi karşılanmayacağını biliyorduk ve inancımızdaki bu bölünmeden kaçınmaya çalıştık. Ama artık çok geç ve hepiniz ölmek zorundasınız. Bazen sadece en güçlü olan hayatta kalabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Savaşın sıcağında, tam da işler onun için kötü görünmeye başlamışken, Hatyl Es'Ran'ın deniz mavisi bir şimşekle kaybolduğunu görürsünüz).</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Has no speaker.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artok'un kutsal özüne şükürler olsun! Veren el, Entropi'den kaçanlar için güvenli bir sığınaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu karmaşadan sağ salim kurtulduğuna sevinmekle birlikte, uçuşun için Enerji rezervlerimizi tüketmek gerçekten gerekli miydi? [br/][br/]Ben... üzgünüm dostum. Elbette senin hayatın kaybedilen kaynaklardan daha önemli. Sanırım tüm bu savaş beni derimden etkiliyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şah ve mat. [br/][br/]Bu kadar, Shae Mara. Nydar Hanesi'nin hırsları burada sona eriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hemen sonuca varıyorsun, köle çocuk. Bir dahaki sefere yüksek taktik ve zekâ oyunlarına girmesen iyi olur. Bu sadece seni gösterir.[br/][br/](Shae Mara'nın cansız bir şekilde yere düşen bedenine altın bir parıltı vurur. Bir sonraki anda yüzü çevredeki ekranlarda belirir).</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">You are jumping to conclusions, slave girl. Next time better don’t engage in a game of high tactics and wits. It only shows you up.[br/][br/](A golden flicker strikes Shae Mara’s body, which drops lifeless to the ground. The next instant her face appears on the surrounding screens.)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Usta yapay zekam gezegenin kontrolünü ele geçirdiğinde, seni sözleşmeli hizmete geri döndürmek benim için büyük bir zevk olacak. Sadece bu sefer, herhangi bir kontrol tasmasına ihtiyaç duyacak kadar beynin kalmayacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_ELJENA_CHIRKOV_DEFEATED_EVENT_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Narrrr! Kaptan Eljena Chirkov'un destansı şarkısı böyle bitmemeli. Tahta bacak ve ölü adamın tepesinde duracak altın kanca nerede? Parrrr'ımın gagası üzerine yemin ederim...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_MICHAEL_VALENTINE_DEFEATED_EVENT_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geri çekilin! Kışt diyorum! Ben incitilmeyecek kadar önemli ve yakışıklıyım. Ben olmazsam, emekliliğimi kim planlayacak?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER02_NIKAEL_GORODIN_DEFEATED_EVENT_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yırtıcı karanlık. Abyss'ten gelen koro benim ağıtımı söylüyor. Ah CORE, yüce, seni hayal kırıklığına uğrattım... Sınırsız bilgeliğinin bu galaksiye geri döneceği gün gelsin!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_RAXONEE_REBORN_DEFEATED_EVENT_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık evrimin doğal bir parçasıdır. Anılarım İkinci'nin bireysel varlıklarında yaşamaya devam edecek. Onlar... uyum sağlayacaklar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Konsili'nin kararı yaklaşıyor, genç kan. Ebra Quetzal kendi duruşmasına çıktığında ona selamlarınızı ileteceğiz...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük bir baş belası olmaya başladınız, Başpiskopos Rhemenses. Ama buraya bir acil durum planım olmadan geldiğimi düşünüyorsanız, yanılıyorsunuz. Zamanı geldiğinde sizi Ebra'nın bahçelerinde karşılayacağım...[br/][br/](Berhane'nin deniz mavisi bir şimşek titreşiminde kaybolduğunu görürsünüz).</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahretsin! Düşmanlarımızın gerçek anında sıvışmak gibi kötü bir huyu vardır. Şu andan itibaren zafer konuşmamızı yapmadan önce ateş etmeliyiz. Her halükarda, onun kaçışı bana senin sihirbazlık numaralarını hatırlattı, Hatyl. Az önce olanlara biraz ışık tutma şansın var mı?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keşke yapabilseydim, dostum. Ama benim dar kaçışlarım en iyi ihtimalle içgüdüseldir, ipler benim ve ortakyaşarımın yarısının elindedir. Başka bir Rüya Okuyucunun yardımıyla daha fazlasını ayırt edebilirim, ancak ne yazık ki yetenekli Kir'Ko kardeşlerimden hiçbiri bu dünyaya gelemedi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER02_DEFAULT_VICTORY_FIRST_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şef {STR_LeaderFirstName}! Rakiplerimiz tüm cephelerde geri çekiliyor. Tüm direnişi kırdık ve sonunda son Sentez Merkezini ele geçirebildik!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Syndicate Indentured" (Syndicate, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_AUTONOM_HACKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shae Mara tarafından hacklendi</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_MICHAEL_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ELOP Konfederasyon Desteği</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_SHAE_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega CORE'u yok etmeye çalışmak</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_BERHANE_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Konsili'nin Kaçağı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_RAXONEE_TOWARDS_ALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Birleştirme Protokolü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_RAXONEE_TOWARDS_PLAYER_UPDATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shae Mara tarafından hacklendi</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_RELATION_MODIFIER_ELJENA_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sözleşmeli: Shae Mara</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CB_PLAYER_TOWARDS_SHAE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni bir CORE ana yapay zekası oluşturmaya çalışıyorum</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of a casus belli (war reason).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER02_CB_PLAYER_TOWARDS_BERHANE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Konsili'nin Düşmanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of a casus belli (war reason).</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>168</TopRowVisible>
+      <LeftColumnVisible>1</LeftColumnVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>176</ActiveRow>
+          <ActiveCol>7</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

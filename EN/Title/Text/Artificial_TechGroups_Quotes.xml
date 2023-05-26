@@ -1,0 +1,1277 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Djurre van Dijk</LastAuthor>
+    <LastSaved>2018-12-07T13:33:24Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12197</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="227" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="240.85714285714286" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="123.85714285714286" />
+      <Column ss:StyleID="s62" ss:Width="214.71428571428572" />
+      <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.85714285714283" />
+      <Column ss:Index="6" ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">{XML_ARTIFICIAL_TECHGROUPS@ARTIFICIAL@DESC}[br/][br/]{XML_ARTIFICIAL_TECHGROUPS@ARTIFICIAL@FEATURES}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No need to translate. This inserts the ARTIFICIAL_TECHGROUPS@ARTIFICIAL@DESC and ARTIFICIAL_TECHGROUPS@ARTIFICIAL@FEATURES texts with some white space.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003AC0000032D]Synthesis[/hyperlink] yapay zekaları kendi çıkarları için manipüle eder, sistemleri kendi çıkarları için hackler ve tehlikeye atar.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Edit: AI's -&gt; Ais</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ARTIFICIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletlist][bullet][sand]Starting Unit: [/sand] [köprü, unitlookup0000039A00000DB3]Hacker[/hyperlink][/bullet][bullet]Davaşta AI daemonları konuşlandır[/bullet][bullet]Hack ve düşman mekanik birimlerini geçersiz kıl[/bullet][bullet]Kılıf Stratejik operasyonlar[/bullet][bullet]Halkı ağa entegre etme[/bullet][bullet]Ark ve Kinetik hasar kanallarını kullanma[/bullet][/bulletlist]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Entegrasyonu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Tüm hataları görmezden gelirseniz, bu bugüne kadarki en iyi sürümümüz. "[br/]- Finn-Attic, Democoder, Perpetual Root-Kit</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Assembly Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daemon Dağıtımı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Daemon'lar, kendilerini dağıtan aracıya hizmet sağlamayı amaçlayan kalıcı programlardır. Daemonlar, efendilerine hizmet etmek için sistem kaynaklarını tüketir. Her iyi hacker'ın birkaç tane vardır. Ben kendiminkini özelleştiririm. Onlar sanal evcil hayvanlar gibidir. "[br/]- Dijital Derebeyi, Hacker Anarşist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgi Kontrolü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bilgisayar sistemleri, kaynakların adil paylaşımını sağlamak için birçok gereksiz korumaya sahiptir. Bu engelleri yıkarak tam kontrol sağlıyoruz ve düşüncelerin, programlamanın ve hesaplamaların aynı olduğu bir dünyaya giriyoruz. "[br/]- H4X0R, Hacker Manifestosu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Hacker</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Hasher SMG</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Alt Programları</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Onarım, düzenli regresyon testi ile tespit edilen hasarlı bileşenlerin işaretlenmesinden ibarettir. Arızalı bileşenleri altın modellerden sentezliyor ve montaj sırasına göre derliyoruz. Bu oldukça kolay. Hâlâ kafanız karışıksa, kendi kendini belgeleyen sözde kodum var. "[br/]- H4X0R, Daemon Chat Eğitim Akışı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_GOVERNANCE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siber Optimizasyon</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_GOVERNANCE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Savaşın tohumları fikir alışverişi ile başlar. Fikirler ağa bağlı kişisel cihazlar aracılığıyla aktarılır. Siber savaş bu ağlara nüfuz eder ve fikirler bize aittir. "[br/]- Rax Xing, ParanoiA ParadoX Hacktivisti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareket Bozulması</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Tellerine ulaşabilirim. Hadi oynayalım! Benim için dans edin, kuklalar!"[br/]- Teem.L0Lz, Hacktivistler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Ağı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Aydınlanmış mazlumların ayağa kalkması ve donanımlarını korumayan tüm moronları cezalandırması için belirlenmiş bir zaman var. Korunmayan veriler bizim oyun alanımızdır. "[br/]- Teem.L0Lz, Hacktivist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağ Bağlantısı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Makinenin içine girdikten sonra, işlemcinin fiziksel sınırlamaları dışında her şeyi kontrol edebiliyoruz. Ağı genişletmek için bir cihaza ihtiyacımız var. Yeni ÇEKİRDEK'e yeniden dahil olmak için hesaplama yapabilen tüm mekanizmalarla arayüz oluşturma konusunda yetkin bir mobil cihaz. "[br/]- N.O.C.-Turn, Siber Aktivist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Ağ Bağlantısı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: S Tipi Mobil Ağ</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pasifikasyon Şifresi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Ağın derinliklerine nüfuz ettikçe, bedenimin terk edilmesi gereken bir bağ olduğunu görüyorum. Zihnim makinenin içinde. Ben kodumdan daha iyiyim. Sibernetik mekanizmalara sahip olabilir ve onların gerçek gücünü ortaya çıkarabilirim. "[br/]- H4X0R, Hacktivist, Synthesis Stream</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_GOVERNANCE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siber Toplum</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_GOVERNANCE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gücümüzü artırmak ve silah üretimini kolaylaştırmak için fazla bilgisayar kaynaklarını kullanmak topluma istediklerini sağlayabilir. Mutluluk seviyeleri hiç bu kadar yüksek olmamıştı, çünkü onlar göz kamaştırıcı otoportrelerini, sanal kedi yavrularını ve inanılmaz lezzetli görünen yiyecek tariflerini paylaşıyorlar. "[br/]- Teem.L0Lz, Hacktivist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sistem Yönetmeliği</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"CORE düşmeden önce, Yıldız Birliği'ni düzenlediğinde, en sıradan öğeler bile veri kaydedebilir, ağlar üzerinden iletişim kurabilir, konumları izleyebilir ve algoritmaları işleyebilirdi. Bu öğeler ayaklarımızın altında devre dışı bırakılmış halde yatıyor. Onları yeniden etkinleştirebilirsek yaratabileceğimiz kaosu hayal edin. "[br/]- Dijital Derebeyi, Hacker Anarşist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sinirsel Entegrasyon</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Ben yaşamıyor muyum? Eskiden olduğum her şey gitmiş olsa da, geriye ne kaldığını görmüyor musun? Ben veri ve koddan daha fazlasıyım. Ben bilinçliyim. Sentez bilincinin diğer tüm potansiyel gemileriyle arayüz oluşturmak için bir bileşenler bulutu toplamanın zamanı geldi. "[br/]- iGh0st Birleştirilmiş V.R.I. Varlık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Avatar</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Kesinti Rölesi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom Kötü Amaçlı Yazılım</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"'Tüm kodlarınız bize aittir. Ağ üzerinde en saçma memler, ticareti yapılan totemlerdir. Totemleri anlarsanız, doğru ağ arayüzü hack'leriyle istismar edilebilecek diğer yeteneklerle bir ilişki kurabilirsiniz. Çözüm: aptal memleri yaymayın. "[br/]- Andrew Hillock, Siber Güvenlik Karşı Operasyonlar Uzmanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Basilisk Tekilliği</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Artık bu sanal gerçeklikte yaşadığımıza göre, yapay zekâlara ihtiyacımız yok, çünkü zaten kendimizin farkındayız. Tüm ağ kaynaklarını birleştirmenin ve sonsuz bağlantıya sahip bir dünya inşa etmenin zamanı geldi. "[br/]- F00-Bar Birleştirilmiş V.R.I. Varlığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s65" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+        <Cell ss:StyleID="s62" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>5</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

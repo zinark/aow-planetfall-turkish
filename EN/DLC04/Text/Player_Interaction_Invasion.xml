@@ -1,0 +1,667 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Nathan van den Berg</LastAuthor>
+    <LastSaved>2020-02-24T13:04:49Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11550</WindowHeight>
+    <WindowWidth>25410</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="44" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="158.25" />
+      <Column ss:StyleID="s62" ss:Width="159.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="287.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146.25" />
+      <Column ss:StyleID="s62" ss:Width="309" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PLAYER_INTERACTION_INVASION</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="52.5">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Note that all the texts in this document that refer to two people - the speaker and the one spoken too - that can both be male or female.
+
+Note that use of the 'localized' and 'alternative localized string' only applies for the gender of the speaker.
+
+If the gender of the person spoken to requires inflection, please try to translate the text in a way that doesn't require such inflection. If this is impossible, please get in touch with us informing us of which lines this concerns and how they would be inflected in the language you are translating too.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_DARKVOID_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlaşıldı, {STR_leaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_DARKVOID_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluk bize rehberlik ediyor, {STR_leaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_DARKVOID_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşlukta Birlik, {STR_leaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_NORMAL_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendi isteğinle bize katılmaya geldin, {STR_leaderName}. Güzel.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_NORMAL_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beklemekten yorulduk, {STR_leaderName}. Şimdi teslim ol ve sonsuza dek birleşelim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_NORMAL_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direnmeyi bırak, {STR_leaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_DARKVOID_NORMAL_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakında, herkes boşlukla bir olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_NORMAL_DARKVOID_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Efendilerinize geldikleri yere dönmelerini söyleyin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_NORMAL_DARKVOID_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zihnini özgür bırakmam için bana yalvarmaya mı geldin, {STR_leaderName}?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_NORMAL_DARKVOID_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne kadar büyük olurlarsa o kadar sert düşerler, {STR_leaderName}. Efendileriniz de farklı değil.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_INVASION_NEUTRAL_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gördüğüm kadarıyla hâlâ hayattasın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_INVASION_NEUTRAL_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yardım istemeye mi geldin, {STR_leaderName}?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_INVASION_NEUTRAL_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onlardan biri değil mi? O zaman tanıştık. Ne oldu?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_INVASION_POSITIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selam ve iyi karşılaşmalar, {STR_leaderName}. Bu karanlık zamanlarda dost bir yüz görmek güzel.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_INVASION_POSITIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koşullara rağmen iyi olduğunuzu görmek güzel.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GREET_INVASION_POSITIVE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hoş geldin dostum, aklını kaybetmediğini gördüğüme sevindim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLARE_FRIENDSHIP_INVASION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu boşluk sakinlerinin akıntısına karşı durmak küçük bir başarı değil, dostum. Gelecekte bunu yan yana yapalım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLARE_FRIENDSHIP_INVASION_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflerimiz aynı, {STR_leaderName}. Aramızdaki dostluk, halkımızın bu karanlık abberasyonlarla mücadele azmini güçlendirecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECLARE_FRIENDSHIP_INVASION_EXTERNAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_otherName} halklarını, inançlarını ve dünyamızı cesurca savunmaktadır. Onlar gerçek bir ilham kaynağı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPOSE_DIPLOMATICSTATE_INVASION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küçük farklılıklarımızı bir kenara bırakalım ve varlığımıza yönelik bu tehdide karşı birleşelim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Please check to ame sure this still makes sense in game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPOSE_DIPLOMATICSTATE_INVASION_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkimiz de boşluktan gelen varlıklara karşı alabileceğimiz her türlü yardıma ihtiyacımız olacağını biliyoruz. Bu anlaşma ile birbirimize yardım edebiliriz. Var mısın?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Please check to ame sure this still makes sense in game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPOSE_DIPLOMATICSTATE_INVASION_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu beyin emiciler yeterince ileri gittiler! Bölünmüş olarak ancak bu kadarını yapabiliriz, ancak birlikte bu dünyanın ihtiyacı olan kaleyiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Please check to ame sure this still makes sense in game</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FORESHADOW_IMPROVEMENT_INVASION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sen bu karanlık zamanlarda bir ışıksın, {STR_leaderName}. Dileğim, her iki halkın da iyiliği için aramızdaki bağları güçlendirmemizdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FORESHADOW_IMPROVEMENT_INVASION_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seni iyi görmek kararlılığımı güçlendiriyor, {STR_leaderName}. Bağlılığımızı güçlü bir ittifaka dönüştürmeye çalışalım mı? Bu ikimize de büyük fayda sağlayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FORESHADOW_IMPROVEMENT_INVASION_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, yoldaş. Siz bu karanlık zamanlarda bir umut ışığısınız ve birlikte bize karşı koyacak güçlere karşı çok daha güçlü durabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FORESHADOW_IMPROVEMENT_INVASION_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seni görmek güzel, dostum. Umarım iyisindir? Voidbringer'ların istilasına karşı birlik olabilmemiz için aramızdaki bağı geliştirmeliyiz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPOSE_TREATY_INVASION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin için bir teklifim var: {STR_actionName}. Kabul edelim; bu anlaşma ikimizin de yaklaşan canavarlık dalgasına karşı daha güçlü durmamıza yardımcı olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPOSE_TREATY_INVASION_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünyayı ve insanlarımızı boşluk tarafından ele geçirilenlerden korumak için istikrar ve güç, işte bu antlaşma bunu yapmamıza yardımcı olacak, {STR_actionName}. Bana katılacak mısınız?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPINION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DARKVOID_DARKVOID_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni efendimizin bu desteğiyle bu dünyayı fethedecek ve kendimizinmiş gibi yöneteceğiz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPINION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DARKVOID_NORMAL_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluğun Karanlığı eninde sonunda sizi ve müttefiklerinizi ele geçirecektir. Bu sadece bir zaman meselesi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPINION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NORMAL_DARKVOID_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biz savaşırken kendini kurtarmak için bu canavarların tarafını tutuyorsun. Acınacak haldesin. Efendilerine geri dön ve savaş alanında karşılaşmamamız için dua et.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OPINION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NORMAL_NORMAL_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir arada kalmalıyız. Aksi takdirde bu karanlık boşluk varlıkları tarafından istila edilebileceğimizden korkuyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JOINED_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fiziksel Baskı. Enerjimizi yayalım. Tüketin. Fiziksel Reddedicileri Yok Edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Thrall refers to the player. "Physical Renouncers" refers to enemies. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JOINED_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji topla, Serf.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Serf Refers to the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JOINED_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havanızı Titretmeyin. İştahımızı doyurun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PENDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seç.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REFUSED_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Begone.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REFUSED_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zaman seninle birlikte akıp gidiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REFUSED_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Reddettin. Ölürsün.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_GREET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REFUSED_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sığır. Açız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Cattle refers to the player.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AT_WAR_DURING_INVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşgali savuşturmaya odaklanmalıyız</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This is the name of a modifier and is displayed in lists and breakdowns. May be inserted as strings, but never midway of a scentence.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>26</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>36</ActiveRow>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

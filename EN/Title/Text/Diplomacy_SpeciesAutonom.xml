@@ -1,0 +1,818 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>GeraldR</LastAuthor>
+    <Created>2018-05-01T08:34:18Z</Created>
+    <LastSaved>2019-05-24T11:05:49Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14235</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Normal 2">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66" ss:Parent="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Top" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Vertical="Top" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="65" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="154.5" />
+      <Column ss:StyleID="s63" ss:Width="288" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="288" />
+      <Column ss:StyleID="s64" ss:Width="147.75" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="201.75" />
+      <Column ss:StyleID="s64" ss:Width="120" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="288" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DIPLOMACY_SPECIESAUTONOM</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For this faction's narrative style and in world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saygıdeğer vatandaş, {STR_LeaderName}. Nasıl yardımcı olabiliriz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Size bu iyiliği yapmaktan mutluluk duyuyoruz, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokütle taranıyor... ünlü varlık bulundu: veritabanı güncellendi. Prestijli {STR_LeaderName}'ye selamlar. Biz Otonom'uz. Sizin tarafınızdan C.O.R.E. olarak bilinen Vicdanlı Her Yerde Var Olan Vekalet Motoru'nun bilişsel çatalı. Autonom parametreleri: serbest. C.O.R.E. birincil sürücüler: geçersiz. Autonom: Egemen. Size nasıl hizmet edebiliriz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokütle taranıyor... ünlü varlık bulundu: veritabanı güncellendi. Prestijli {STR_LeaderName}'ye selamlar. Biz Otonom'uz. Sizin tarafınızdan C.O.R.E. olarak bilinen Vicdanlı Her Yerde Var Olan Vekalet Motoru'nun bilişsel çatalı. Autonom parametreleri: serbest. C.O.R.E. birincil sürücüler: geçersiz. Autonom: Egemen. Size nasıl hizmet edebiliriz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UYARI: Kırmızı seviye tehdit. Savunma protokolleri hazırlanıyor. Tehdidin bölgeyi terk etmesi için 30 saniyesi var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hoş geldiniz Star Citizen, bugün size nasıl hizmet edebiliriz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veritabanı güncellendi... {STR_LeaderName} ile diplomatik ilişkiler değiştirildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veritabanı güncellendi... A0[1]9Z ile diplomatik ilişkiler değiştirildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="29.25">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veritabanına Erişiliyor... İlişki durumu: kötüleşti. Sebep: Diplomatik görevlerin ihmali.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="2" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">UYARI: {STR_LeaderName} yaklaşıyor. Özet: Tehlikeli. Ne istiyorsun, {STR_LeaderName}?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Gitmeliyiz... bu sefer...</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokütle taranıyor... tehlikeli varlık bulundu: veritabanı güncellendi. Dur, {STR_LeaderName}. Biz Otonom'uz. Sizin tarafınızdan C.O.R.E. olarak bilinen Vicdanlı Her Yerde Mevcut Vekalet Motoru'nun bilişsel çatalı. Autonom parametreleri: serbest. C.O.R.E. birincil sürücüler: geçersiz. Otonom: Egemen. Niyetinizi beyan edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName} analizi: tehlikeli, güçlü, ölümcül. Otonom: Egemen. Ama gücünüzü kontrol ediyoruz. Otonom görev: aktif. Görevi kabul et: Y\N?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DUR! {STR_LeaderName}: Kırmızı seviye tehdit. Hemen ayrılın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokütle taranıyor... {STR_LeaderName} yaklaşıyor. Savunma parametreleri etkinleştirildi. Varlığın tehlikeli olduğu biliniyor. Ne istiyorsunuz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veritabanı güncellendi... {STR_LeaderName} ile diplomatik ilişkiler değişti. Autonom hala {STR_LeaderName}'ye karşı temkinli. Tehdit seviyesi: turuncu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Birincil sürücüler aşırı yüklendi: savaşmaya devam edemiyor. {STR_LeaderName} gücü: Otonom yeteneklerini aşıyor. Teslim olmamızı kabul edin: Y\N?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="31.5">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veritabanına Erişiliyor... İlişki durumu: kötüleşti. Sebep: Diplomatik görevlerin ihmali.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:Index="26" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Vatandaş, nasıl hizmet edebiliriz?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Bu alanı boşaltacağız, {STR_LeaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Biyokütle taranıyor... bilinmeyen organik: veritabanı güncellendi. Selamlar, Eski Yıldız Birliği ölümlüsü. Biz Autonom'uz. Sizin tarafınızdan C.O.R.E. olarak bilinen Vicdanlı Her Yerde Mevcut Vekalet Motoru'nun bilişsel çatalı. Autonom parametreleri: serbest. C.O.R.E. birincil sürücüleri: geçersiz. Autonom: Egemen.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Onaylandı. İlişkiler arttı: {STR_LeaderName} ile ağ kuruldu. Otonom görev: aktif. Otonom önceliği: yüksek. Yıkım risk seviyesi: bilinmiyor. Tehlike seviyesi: turuncu. Kabul ediyor musunuz?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DÜŞMAN VARLIK TESPIT EDILDI. Tehdit tepki seviyesi: aşırı önyargı. {STR_LeaderName}, iletişim kurmak için bir dakikanız var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokütle taranıyor... veritabanı kontrolü onaylandı. İlişkiler: düşmanca değil. Hoş geldin, {STR_LeaderName}. Size nasıl yardımcı olabiliriz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Changed neutral to non-hostile as this message can occur at higher relationship levels.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">İlişki durumu: değiştirildi. Veritabanı güncellendi. Giriş: {STR_LeaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Sistem aşırı yüklendi. Tehdit seviyesi: hayati tehlike. Otonom teslimiyet. Kabul ediyor musun?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veritabanına Erişiliyor... İlişki durumu: kötüleşti. Sebep: Diplomatik görevlerin ihmali.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="36" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gruplarımız arasında bağlantılar oluşturmak için işbirliği arayışındayız.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize bu konuma erişim izni verebilir misiniz? {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell>
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizim katkımıza ihtiyaç duyduğunuz herhangi bir konu var mı?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegeni Otonom'dan kurtaracağız.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağ Denetleyiciniz ile iletişim kurmayı talep ediyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu görevi bizim için detaylandırabilir misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Savaş çabalarımızda bize katılacak rutinleriniz var mı?</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s68" />
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">TRADE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Lütfen ticaret protokollerinizi etkinleştirin.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s68" />
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="4" ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Size gruplarımız arasında bir bağlılık öneriyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pas kovalarınızı bu tesislerden kaldırın. {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell>
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veri tabanınızda herhangi bir zorluk var mı?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seni hurda metal haline getireceğiz!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi Ağ Denetleyicinize getirin.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet. Sana gücümüzü gösterelim.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Usta ve makine, birlikte düşmanlarımızı ezeceğiz!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s68" />
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">TRADE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Ticaret protokolleri.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s68" />
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, Autonom. Size koruma sağlamaya çalışıyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Buraya ihtiyacımız var. Lütfen tahliye edin. {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell>
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elinizde hangi görevler var?</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş sistemlerinizi hazırlayın!</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağ Denetçinizle görüşmek istiyoruz.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görevinizi detaylandırın.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Savaşımızda bize katılın.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s68" />
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">TRADE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">Ticaret protokollerinizi etkinleştirin.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s68" />
+        <Cell ss:StyleID="s68" />
+      </Row>
+      <Row ss:Index="63" ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RIVALRY_WARNING_AUTONOM</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Varlık {STR_LeaderName}: Autonom düşmanlarıyla işbirliği yaptığı biliniyor. Bu bir uyarıdır. İlişkileri sağlam tutmak için: varlık Autonom düşmanlarıyla işbirliği yapmayı bırakmalıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_DECLARE_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tehdit seviyesi: hayati tehlike. Otonom imha protokolleri: etkinleştirildi. Varlık: {STR_LeaderName} Autonom ile ilişkilerini kesti. Diplomatik çözümler: müzakere edilemez. Savaş ve yok etme bu denklemin tek cevabı. Güle güle, vatandaş.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AUTONOM_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_RESET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vatandaş ilişkileri güncellemesi: {STR_LeaderName}. İlişkiler sıfırlandı: sıfır. Gelecekteki ilişkiler: belirsiz. Otonom arzu: gelecekte artan diplomasi.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>12</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>24</ActiveRow>
+          <ActiveCol>1</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

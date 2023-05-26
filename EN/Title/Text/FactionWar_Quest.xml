@@ -1,0 +1,578 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Ajay Ramautar</Author>
+    <LastAuthor>GeraldR</LastAuthor>
+    <Created>2019-04-23T14:53:13Z</Created>
+    <LastSaved>2019-04-26T07:37:53Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>10005</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s65">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="59" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="292.5" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="90.75" />
+      <Column ss:StyleID="s62" ss:Width="145.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="655.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="283.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FACTIONWARQUEST</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup Savaşı: {STR_FactionName}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_FactionName} indicates a name of a minor faction </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FACTION_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OVERVIEW_HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grup Savaşı(ları)</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="7" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish Grup Savaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Psi-Fish'lerle savaş patlak verdi. Bu gezegende onları yok ettiğimiz için bizi ödüllendirecek pek çok düşmanları var, ya da belki ölüleri arasında değerli bir şey bulabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="10" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Mağlup Psifish'ten aldığımız örnekleri araştırma departmanımıza teslim ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLACK_MARKET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Psi-Balık'ın etli cesetleri Karaborsa'da isimsiz uzmanlara satıldı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPACERS_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Gürültülü olanlar... sürekli rahatsızlık verenler... sonunda... huzur. Artık baskın yok... insan barbeküsü yok. Özlenmeyecekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROWTH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Dikenler... sarmaşıklar... zehir. Onların elinden kurtulduk. Onlar... toprağa geri döndüler. Asla geri dönmeyecekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARAGON_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Eskiler... sonunda unutuldu. İmha... hak edilmiş yıkım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PSI-FISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTONOM_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yapay... sert... duygusuz. Onların türü artık yok. Organikler düzeni korur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="17" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom Fraksiyon Savaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Autonomlar ile savaş patlak verdi. Bu gezegende yok edilmeleri karşılığında bizi ödüllendirecek pek çok düşmanları var ya da belki ölüleri arasında değerli bir şey bulabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="21" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yenilen Autonom'lardan elde ettiğimiz verileri araştırma departmanımıza teslim ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLACK_MARKET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Autonom'lardan çıkarılan antik yapay zeka bileşenleri karaborsada hobicilere satıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPACERS_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Varlık olarak bilinir: Uzaycılar, Asi siviller. Durumları: Yok edildi. Otonom: Mutlu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROWTH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Varlık olarak bilinir: Büyüme, yabani otlar ve dikenler. Durum: Yok edildi. Otonom: Mutlu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARAGON_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Varlık olarak bilinir: Paragon, geçmişin seçkinleri. Durumları: Yok edildi. Otonom: Mutlu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIFISH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Varlık olarak bilinir: Psi-Fish, uzaylı ve tehlikeli. Durum: Yok edildi. Otonom: Mutlu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="29" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon Fraksiyon Savaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Paragonlarla savaş patlak verdi. Bu gezegende, yok edilmeleri karşılığında bizi ödüllendirecek pek çok düşmanları var ya da belki ölüleri arasında değerli bir şey bulabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="32" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yenilen Paragon'dan aldığımız örnekleri araştırma departmanımıza teslim ettik.</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLACK_MARKET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Paragon hanedan armaları ve hizmet dışı bırakılan imparatorluk silahları karaborsada koleksiyonculara ve meraklılara satıldı</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPACERS_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tanrı'ya şükür, o avamların icabına nihayet bakıldı. Bu dünyaya biraz düzen getirmenin zamanı gelmişti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROWTH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">O kaotik sarmaşık yığını nihayet öldü ve solup gitti. Düzen ve istikrar bu dünyanın yolunu açmalıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTONOM_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu hizmet botlarının kötü yola düşmesi utanç verici, yararlı şeylerdi ama sonunda can sıkıntısından başka bir şey olmadılar. Yazık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIFISH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Gerçekten iğrenç yaratıklar. Dünyamızda yerleri yok. Türlerinin yok edildiğini görmek için kimse ağlamayacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="40" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme Fraksiyonu Savaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Büyüme ile savaş patlak verdi. Bu gezegende onları yok ettiğimiz için bizi ödüllendirecek pek çok düşmanları var, ya da belki ölüleri arasında değerli bir şey bulabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="43" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yenilen Büyüme'den aldığımız örnekleri araştırma departmanımıza teslim ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLACK_MARKET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Karaborsadaki Büyüme'den toplanan malzeme için beklenmedik bir alıcı bulduk: Vejetaryenler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPACERS_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Deliler sonunda yenildi. Benzinleri artık toprağı zehirlemiyor ve hava onların pis kokularından arınmış durumda.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARAGON_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Aristokrat cyborglar artık yok ve 'senden daha kutsal' söylemleri de onlarla birlikte. İyi ki kurtulduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTONOM_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Metal, yapay, organik olmayan. Uzun zamandır yok olmalarını istiyorduk. Aferin, Symbiont.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIFISH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Boşluk'tan gelen uzaylılar, sonunda kendi türleri kara uçuruma geri döndü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="51" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzaycılar Grup Savaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Uzaycılarla savaş patlak verdi. Bu gezegende, yok edilmeleri karşılığında bizi ödüllendirecek pek çok düşmanları var ya da belki ölüleri arasında değerli bir şey bulabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="54" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESEARCH</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Mağlup Spacer'lardan aldığımız örnekleri araştırma departmanımıza teslim ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLACK_MARKET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Aralayıcı'nın ekipmanlarının çoğu değersiz, ancak Kara Pazar'da satılmak üzere bazı seçkin malzemeleri kurtarmayı başardık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROWTH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hangi marka ot ilacı kullanıyorsunuz? İşte böyle bir bahçecilik görmek isteriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PARAGON_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tam zamanında! O havalı cyborglar hak ettiklerini buldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AUTONOM_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İyi ki kurtulduk. Bu rahatsız edici teneke kutular hurdalığa gitmeyi hak ediyor. Hazır elin değmişken onları parçalara ayırabilirsin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PSIFISH_DEFEATED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Nihayet! O kokuşmuş denizanaları öldü ve artık zamanı gelmişti.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>10</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>24</ActiveRow>
+          <ActiveCol>5</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

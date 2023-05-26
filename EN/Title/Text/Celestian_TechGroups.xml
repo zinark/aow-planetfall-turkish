@@ -1,0 +1,2771 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Laszlo Pieper</Author>
+    <LastAuthor>KyleB</LastAuthor>
+    <Created>2018-09-14T10:48:07Z</Created>
+    <LastSaved>2019-03-22T11:15:02Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>8880</WindowHeight>
+    <WindowWidth>23565</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Normal 2">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s63" ss:Name="Normal 3">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s69" ss:Parent="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s71" ss:Parent="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s72">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior ss:Color="#F8CBAD" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="247" x:FullColumns="1" x:FullRows="1" ss:StyleID="s64" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="267" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="358.5" />
+      <Column ss:StyleID="s64" ss:Width="147.75" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="252" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="158.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Huzur İlkeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tüm olumsuz moral etkilerine karşı bağışıktır ve bir seviye Sendeleme Direnci kazanır.[br/]Bu birim artık [abilityblue]Aydınlanmış[/abilityblue] olarak kabul edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pişmanlık Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Bu birim başka bir birim tarafından her hasar gördüğünde, saldırganın {SoulBurnChance}[strengthpsyche/] gücünde [abilityred]Soulburn[/abilityred] olma şansı vardır. Saldırgan ayrıca [abilityred]Remorse[/abilityred], {RemorseTurns} için {RemorseHappiness} uygulayan bir istifleme zayıflatıcısı kazanır.[br/]Bu birim artık [abilityblue]Enlightened[/abilityblue] olarak kabul edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pişmanlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim vicdan azabıyla doludur ve {RemorseMorale}'den muzdariptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şifa İlkeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALING_TOUCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyileştirici Nabız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALING_TOUCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim artık [abilityblue]Aydınlatılmış[/abilityblue] olarak kabul edilmektedir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HEALING_TOUCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etki alanındaki tüm dost Biyolojik ve Sayborg birimlerinden düşmanca etkileri kaldırın ve onları {HealingTouchHP} karşılığında iyileştirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pasifizm İlkeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim artık Overwatch saldırılarını tetikleyemez.[br/]Bu birim artık [abilityblue]Aydınlatılmış[/abilityblue] olarak kabul edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pasifizm Projesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etki alanındaki tüm birimlerin {PacifiedChance} kuvvetinde [abilityred]Pakifiye[/abilityred] olma şansı vardır ve {PacificationAuraTurns} boyunca hasar verme yeteneklerini devre dışı bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pasifize</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim herhangi bir saldırı yeteneğini kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hesaplaşma Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, kendisine verilen tüm hasarın {ShieldofReckoningChance}'sini saldırgana geri yansıtır.[br/]Bu birim artık [abilityblue]Aydınlanmış[/abilityblue] olarak kabul edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="26" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karmik Güçlendirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian yolunu takip etmesi için etkileyebileceğimiz herkesi kabul ediyoruz. Başkalarına yardım ederek, onlara tek ve biricik gerçeği gösteriyoruz.[br/][br/]Bir fraksiyondan yeni bir görev talep etmek için bekleme süresi {durationChange}[turn/] kadar azalır.[br/]Faaliyetteyken, fraksiyonlar daha yavaş bir oranda talepte bulunacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Misyoner Müzakereciler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başkalarını davanızın haklılığına ikna etmek, hazinelerini daha ucuza satmaya daha meyilli olmalarını sağlar.[br/][br/]NPC Fraksiyon yığınlarına rüşvet vermenin maliyeti {Bribereduction} azalır. [br/]Konut Dükkanlarından satın alabileceğiniz eşyaların [influence/] maliyeti {LoweredCost} azalır.[br/][br/]A0[7]9Konut Dükkanı indirimleri asla {MaxDiscountPercentage}[/firecol]'yi geçemez.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_TOOLDESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Misyoner Müzakereciler: {CostReduction}</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyumlu Varoluş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halkınıza dünyayla ve birbirleriyle uyum içinde yaşamayı öğreterek daha mutlu bir yaşam süreceklerdir.[br/][br/]Başlangıç ırkınızdan olmayan sahip olduğunuz her Koloni, o ırkla olan ilişkilerinize ek bir {RaceRelations} sağlar.[br/]ATüm Kolonileriniz {HappinessBonus}[happiness/]'ye sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Yargı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herkese konuşarak ve kutsal yazılarla ışık gösterilemez - bazılarının öğretilerimize boyun eğmeye zorlanması gerekecektir.[br/][br/]Aydınlanmış birimleriniz, Aydınlanmamış birimlere {AdditionalDamage} ek hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]Aydınlanmış[/abilityblue] birimleriniz, Aydınlanmamış birimlere ek bir {AdditionalDamage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aydınlanmamış birimlere {AdditionalDamage} hasarı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Caydırıcı Dualar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her gün inançlarımızı zikrederek, istenmeyen ziyaretçilerin çoğunu bir daha yanımıza gelmekten caydırabiliriz.[br/][br/]Çapulcular artık Kolonilerinize ve sektör üslerinize saldırmıyor ve alanınıza izinsiz girmiyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bir Celestian birimi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTENED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aydınlanmış</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTENED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Celestian yöntemlerine göre Aydınlanmıştır. {EnlightenedMorale}'ye sahiptir ve Ruh Yanığı olan birimlere karşı {EnlightenedDam} ekstra hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENLIGHTENED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ruh Yanığı olan birimlere karşı {EnlightenedDam} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SOULBLAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Soulburn</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SOULBLAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güç {SoulburnChance} savaş sonuna kadar [abilityRed]Soulburn[/abilityRed] uygulama şansı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SOULBLAZE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birimin ruhu yanıyor, gerçek özünü ve zayıflığını ortaya çıkarıyor. [abilityblue]Aydınlanmış[/abilityblue] birimleri bu birime karşı {EnlightenedDam} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHTS_HARMONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WEAPON_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işıkların Uyumu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RADIANT_FORCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WEAPON_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işıldayan Güç</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_FISTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WEAPON_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cehennem Yumrukları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cehennem Saldırısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Binlerce güneşin cehennemi gücünü açığa çıkaran bir yakın dövüş saldırısı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_RAVAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cehennem Pençesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_RAVAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Binlerce güneşin cehennemi gücünü açığa çıkaran bir yakın dövüş saldırısı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">METEOR_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meteor Çizgisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">METEOR_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lightbringer hedef yer altıgenine doğru zıplar ve ağır bir şekilde yere inerek komşu birimlere hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Assault Dash</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lightbringer hedef yer altıgenine doğru zıplar ve ağır bir iniş yaparak komşu birimlere hasar verir ve {AssaultDashShields} karşılığında {AssaultDashTurns} kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BONECRUSHER_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bonecrusher Dash</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURNING_METEOR_DASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanan Meteor Hücumu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">METEOR_SWOOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meteor Çulluğu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">METEOR_SWOOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lightbringer'ın Harrier'ı hedef kara altıgenine doğru süzülerek komşu birimlere hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNWAVERING_WILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sarsılmaz İrade</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNWAVERING_WILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Psiyonik Durum Etkilerine karşı bağışıktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHT_BOLT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hafif Cıvata</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LIGHT_BOLT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Menzilli Psionik saldırı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAL_GUIDANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Rehberlik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAL_GUIDANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırıların {CelestialAccuracy} doğruluğu vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CELESTIAL_GUIDANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim [abilityblue]Yönlendirme[/abilityblue] alır, {CelestialGuidanceAccuracy} isabetlilik kazanır ve savaşın sonuna kadar [abilityblue]Aydınlanmış[/abilityblue] olarak kabul edilir. Bu yetenek zaten Aydınlanmış bir birimi hedef alırsa, ek bir {CelestialGuidanceMorale} alırlar.[br/] Akılsız birimler üzerinde çalışmaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="71" ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REGENERATIVE_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Rejeneratif Işık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REGENERATIVE_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Hedef birim [abilityblue]Psionik Yenilenme[/abilityblue] kazanır ve her turun sonunda {RegenerativeLightHP} karşılığında {RegenerativeLightDuration} iyileşir. Bu yetenek kullanıldığında birim tüm olumsuz durum etkilerinden kurtulur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BLINDING_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kör Edici Işık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BLINDING_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{hexrad} altıgen yarıçapında saldırmak için yıldız ışığını kullanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECEIVING_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Aldatıcı Işık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECEIVING_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{hexrad} altıgen yarıçapında saldırmak için yıldız ışığını kullanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">RADIANT_BLAST</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Parlak Patlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">RADIANT_BLAST</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Menzilli Psionik saldırı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PATH_OF_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Işık Yolu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PATH_OF_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yükselmiş Öğretmen, savaşta kendilerine katılanlara Işık Yolu boyunca rehberlik eder. Ordudaki tüm dost birimler [abilityblue]Aydınlanmış[/abilityblue] ve [abilityblue]Diriliş[/abilityblue] kazanır.[br/]Yükselmiş Öğretmenler ve Akılsız Birimler üzerinde çalışmaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_PRESENCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Etkileyici Varlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_PRESENCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedef düşman biriminin {strengthmindcontrol} güç şansı [abilityred]Zihin Kontrollü[/abilityred] olur, hedef [abilityred]Soulburn[/abilityred]'den etkilenmişse güç şansı {strengthmindcontrolimprov}'ye çıkar. Savaşın sonuna kadar hayatta kalırlarsa, bir koloniste dönüştürülürler. [abilityred]Zihin Kontrolü[/abilityred] büyücü öldürüldüğünde sona erer. Bu yetenek başarısız olursa, birim {PsionicDamage} hasar alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_PRESENCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir düşman birimi silahlarını bıraktı ve kolonilerinizden birine katıldı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CELESTIAL_RADIANCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Göksel Parlaklık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CELESTIAL_RADIANCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Saf Göksel ışık dalgası tüm Aydınlanmış birimleri {RadianceHeal} Vuruş Puanı kadar iyileştirir ve {CelestialRadianceRadius} hex yarıçaplı bir alandaki dost birimleri canlandırır. İyileştirme, savaştaki her dost Aydınlanmış birim için daha güçlü olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CELESTIAL_WRATH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Göksel Gazap</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CELESTIAL_WRATH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Göklerden inen bir Göksel Gazap dalgası, {CelestialWrathRadius} hex yarıçaplı bir alandaki tüm düşman birimlerine hasar verir. Savaştaki her dost Aydınlanmış birim için hasar artacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ENLIGHTENED_DAM_MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Aydınlanmış: Hasar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ENLIGHTENED_DAM_MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Savaştaki her Aydınlanmış birim için {EnlightenedDamageModifier}. En fazla 5 kez istiflenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ENLIGHTENED_HEAL_MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Aydınlanmış: Şifa</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ENLIGHTENED_HEAL_MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Savaştaki her Aydınlanmış birim için {EnlightenedHealModifier}. En fazla 5 kez istiflenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CLEANSING_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Temizleyici Işık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CLEANSING_LIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedef birim {CleansingLightHP} kadar iyileşir ve tüm olumsuz durum etkilerinden kurtulur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CLEANSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Temizlemek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CLEANSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedef birim olumsuz durum etkilerinden arındırılır ve {CleanseHeal} karşılığında iyileştirilir. Bu, savaştaki her [abilityblue]Aydınlatılmış[/abilityblue] birim için en fazla {MaxCountUnit} olmak üzere ek bir {CleanseAddedHeal} iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">RESURGENCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Diriliş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">RESURGENCE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedef birim  {Duration}   [turn/]  karşılığında  [abilityblue] Rejenerasyon [/abilityblue]  kazanarak tur başına  {HpRegen}   [hp/]  iyileşir. Ek olarak, bu birim savaşın sonuna kadar  [abilityblue] Diriliş [/abilityblue]  kazanır, ölmüş ancak savaş kazanılmışsa maksimum  [hp/] 'sinin  {ResurrectHp}  %'si ile hayata döner.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NEGATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Negate</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NEGATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{NegateTurns} için, hedef dost birim tüm hasara karşı bağışıktır, ancak bu süre boyunca hareket edemez veya yeteneklerini kullanamazlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NEGATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION_MOD</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Birim tüm hasarlara karşı bağışıktır, ancak hareket edemez veya yetenekleri kullanamazlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SPIRIT_FLASH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Spirit Flash</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SPIRIT_FLASH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Akılsız olmayan hedef düşmanın ruhu parlak bir şekilde yanıp sönerek kendisine ve etrafındaki 2 hex yarıçapındaki tüm düşman birimlerine [abilityred]Soulburn[/abilityred] ve [abilityred]High Impact Stagger[/abilityred] etkisi yapar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REPRIEVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Erteleme Alanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">REPRIEVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{ReprieveTurns} savaş sırası boyunca tüm Taktiksel Operasyonları ve birim hasar verme yeteneklerini engelleyin. Aydınlanmış birimler {ReprieveHP} boyunca iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BLESSING_OF_STARLIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yıldız Işığının Kutsanması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BLESSING_OF_STARLIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Hedef dost ordu veya garnizon {BlessingofStarlightHP} değerinde iyileşir. Ayrıca bir sonraki savaşlarının sonuna kadar Sendeleme Direnci ve {accuracy} isabetlilik kazanırlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BLESSING_OF_STARLIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Ordunuz Yıldız Işığı tarafından başarıyla kutsandı. İsabetleri arttı ve bir sonraki savaşlarının sonuna kadar daha fazla sendeleme direncine sahipler. Ayrıca tüm [hp/]'lerini geri kazandılar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BLESSING_OF_STARLIGHT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_EFFECT</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Ordunuz iyileşti ve bir sonraki savaşlarının sonuna kadar isabet ve Sendeleme Direnci artışı kazandı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ruh Ateşi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedef düşman ordusu {SoulfireDam} hasar alır ve {SoulfireTurn} boyunca savaşa girerse [abilityred]Soulburn[/abilityred] zarar görür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Soulfire operasyonumuz başarılı oldu - hedeflenen ordudaki düşman birimleri {SoulfireDamage} hasar gördü ve {SoulfireTurn} için [abilityRed]Soulburn[/abilityRed]'den etkilendi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Soulfire düşman ordusu tarafından kısmen direndi. Ordunun birimleri {SoulfireFailureDamage} hasar aldı, ancak [abilityred]Soulburn[/abilityred]'den zarar görmediler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Ordularımızdan birine karşı bir Celestian Soulfire saldırısı başlatıldı! Ordu {SoulfireDamage} aldı ve bir sonraki {SoulfireTurn} sırasında savaşa girdiklerinde [abilityred]Soulburn[/abilityred] ile etkilenecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Ordularımızdan birine karşı bir Celestian Soulfire saldırısı başlatıldı. Neyse ki tam olarak etkisini gösteremeden tespit edildi ve hasar en aza indirildi. Ordu {SoulfireFailureDamage} aldı ancak bunun dışında etkilenmedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">EFFECT_DAMAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Hedef ordu [hp/]'sinin {Damage}'si kadar hasar alır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">EFFECT_SOULBURN</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Hedef ordu {turns} için [abilityred]Soulburn[/abilityred]'den zarar görür</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SOULFIRE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION_FAIL</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Başarısızlık durumunda hedef {Damage} hasar alır ancak [abilityred]Soulburn[/abilityred]'den etkilenmez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Doğruluk Koğuşu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedef sektörde bir [abilityred]Veil of Tranquility[/abilityred] ortaya çıkarır. Bu tehlike ekonomiyi ve bu sektördeki birimleri etkiler. Ayrıca sektörde taktiksel bir savaş etkisi de vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kuyruklu yıldızın yörüngesini başarıyla ayarladık ve hedeflenen bölgeye düştü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Psioniklerimiz kuyruklu yıldızın yörüngesini değiştirmekte yetersiz kaldı. Bunun sonucunda, kullanılan Psionik enerjinin tamamı hedef sektörde açığa çıktı ve oradaki tüm birimleri iyileştirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşman, bazı birliklerimizin yakınındaki bir sektöre bir kuyrukluyıldız çarptırdı ve onların Göksel davaya karşı huşu içinde tereddüt etmelerine neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Gökbilimciler bir kuyruklu yıldızı gezegenin yüzeyine doğru çekmeyi başaramadı. Bu da sektördeki tüm birimleri iyileştiren bir Psionik patlamaya yol açtı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILTY_EFFECT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Celestian birimleri tamamen iyileşti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VEIL_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION_FAIL</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Başarısızlık durumunda, sektördeki tüm birimler tamamen iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Savaşın Yararsızlığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Kan dökülmesi karşısında sarsılmaz inanç, düşmanlarınızı savaşa girmekten vazgeçirir. Hedeflenen oyuncu {turns} için herhangi bir Casus Belli kullanamaz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_EFFECT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedeflenen oyuncu herhangi bir Casus Belli kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Misyonerlerimiz düşmanlarımızın Göksel Düzen'le savaşmanın anlamsızlığını anladıklarını ve bize saldırmak için bir neden görmediklerini bildiriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Misyonerlerimiz düşmanlarımızı bize karşı savaşmaktan vazgeçirmeyi başardılar, ancak bu zorlamanın arkasında bizim olduğumuzun farkındalar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Misyonerlerimiz halkı bize karşı savaşma isteğinden vazgeçirmekte başarısız oldular. Olaya dahil olmamız gizli kaldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Misyonerlerimiz halkı bize karşı savaşma isteğinden vazgeçirmekte başarısız oldular. Ne yazık ki, bu taktiğe bizim de dahil olduğumuz ortaya çıktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşmanlarımız halkımızı savaşa girme isteğinden vazgeçirmeyi başardı. Bunun arkasında kimin olduğuna dair kaynaklarımız var. Elbette bu cevapsız kalamaz...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FUTILITY_OF_WAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşmanlarımız halkımızı savaşa girme isteğinden vazgeçirmeye çalıştılar ancak bunu başaramadılar. Bunun arkasında kimin olduğuna dair kaynaklarımız var. Elbette bu cevapsız kalamaz...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Sway İdeolojisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Hedeflenen oyuncunun en tanınmış fraksiyonundaki konumunu {FactionRelations} puan düşürür ve aynı miktarı o fraksiyonla olan ilişki seviyenize ekler.[br/][br/]Başarısızlık durumunda, her iki oyuncu da {FailRelations} puan alır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatlarımız, düşmanımızın müttefiklerinden birinin fikrini değiştirmeyi başardı ve aynı zamanda bize yönelik görüşlerini sağlamlaştırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Diplomatlarımız düşmanımızın müttefiklerinden birinin fikrini değiştirmeyi başardılar ve aynı zamanda onların bizim hakkımızdaki düşüncelerini de sağlamlaştırdılar. Ne yazık ki, bu meseledeki dahlimiz keşfedildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Diplomatlarımız düşmanımızın müttefiklerinden birinin fikrini değiştirmekte başarısız oldu ve ortaya çıkan karışıklık her iki tarafın da yararına oldu. Bizim bu meseleye karıştığımız ortaya çıkmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Diplomatlarımız düşmanımızın müttefiklerinden birinin fikrini değiştirmekte başarısız oldular ve ortaya çıkan karışıklık her iki tarafın da yararına oldu. Ne yazık ki, bu meseledeki dahlimiz keşfedildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşman diplomatların müttefiklerimizin zihinlerini zehirlediği tespit edildi ve bu nedenle müttefiklerimizle ilişkilerimiz bozuldu. Ajanlarımız bu hain eylemin izini düşman bir devlete kadar sürmeyi başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SWAY_IDEOLOGY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşman diplomatlarının müttefiklerimizin zihinlerini zehirlediği keşfedildi. Ancak, bu müttefikimizle olan bağlarımızın güçlü olduğu kanıtlandı ve düşmanın sözleri davamıza yardımcı oldu. Ajanlarımız bu hain girişimin izini bir düşman devlete kadar sürmeyi başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yıldızların Mabedi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">Hedefin sahip olduğu koloni zararlı etkiler tarafından hedef alınamaz. Bu koloninin etki alanı içindeki dost ordular zararlı operasyonlar tarafından hedef alınamaz ve düşmanlar koloninin etki alanı içinde Taktiksel Operasyonlar kullanamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Göksel Işık kolonimizin üzerinde parlayarak tüm sektörlere mutluluk ve moral yayıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_EFFECT</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloni artık diğer oyuncu operasyonlarından korunuyor ve bu bölgede taktiksel operasyonlar kullanamıyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_CAUSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Zorlayıcı Neden</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_CAUSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir düşman kolonisini hedef alın ve onları kendi davanız için zorlayın. Hedef fraksiyondan iki Kademe 2 birim çağırın ve onları düşman kolonisinin yanında ortaya çıkarın.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_CAUSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Misyonerlerimiz bir düşman askeri birliğini Işığın Yolu'na döndürmekte başarılı oldular. Koloniden kaçtılar ve şimdi bizim kontrolümüz altındalar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_CAUSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Misyonerlerimiz bir düşman askeri birliğini dönüştürme çabalarında başarısız oldular. Bu girişim kolonide sivil huzursuzluğa neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_CAUSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşman misyonerleri askeri birliklerimizden birini kendi davalarına katılması için dönüştürdü. Bir birlik koloniyi terk etti ve duvarların dışında yeni bir düşman olarak ortaya çıktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COMPELLING_CAUSE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Düşman misyonerleri askeri birliklerimizden birini kendi davalarına katılmaya ikna etmeye çalıştılar. Başarısız oldular, ancak girişimleri kolonide sivil huzursuzluğa neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Gerçeğin Işığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Tüm gezegeni Gerçeğin Işığında yıkayın, onları Göksel yolla aydınlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LEVEL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Celestian olmayan birimler [abilityred]Soulburn[/abilityred] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LEVEL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Celestian olmayan birimler [population/]Soulburn[turn/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LEVEL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Celestian birimleri savaşta her bir {LightHeal}[hp/]'yi [turn/] iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COLONIST_STOLEN</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">{STR_cityName}'den bir kolonist firar etti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">COLONIST_ACQUIRED</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir düşman kolonist dönüştü ve {STR_cityName}'ye katıldı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">LIGHT_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Doğruluk Işığı bu birimi gençleştirir. Her turun başında {LightHeal}[hp/] kadar iyileşirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECLARATION_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Doğruluk Beyanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECLARATION_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Celestian olmayan düşman kolonisini ve kolonistlerini {INT_duration} karşılığında Psionik olarak zorlanmış Doğrulukta yıkayın. Daha fazla Doğruluk İşaretçisi inşa ettikçe bu güç artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECLARATION_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">İşaretçilerimizi kullanarak gerçeği kolonilerine iletmeyi başardık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECLARATION_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bir şey sömürgecileri gerçekler konusunda aydınlatmamızı engelledi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECLARATION_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Düşmanımız, kolonistlerimize "gerçeği" bildiklerini iddia eden Psionik mesajlar göndermeyi başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DECLARATION_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Düşmanımız kolonistlerimizin beyinlerini psişik olarak yıkama girişiminde başarısız oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FINAL_REVELATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Son Vahiy</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FINAL_REVELATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Tüm gezegeni Hakikat Işığının getirdiği vahiylere maruz bırakarak onlara Göksel yolu gösterin.[br/][br/]Hakikat Bildirgesi seviye 3 gerektirir.[br/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">FINAL_REVELATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Gerçeğin Işığı dünyayı sıcak kucağında yıkıyor. Yakında savaş olmayacak, çatışma olmayacak, sadece barış olacak, herkes için, sonsuza dek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BEACON_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Gerçeğin İşareti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">BEACON_OF_TRUTH</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Doğruluk İşareti, Doğruluk Bildirgesi Kıyamet Günü Silahının kilidini açar. İnşa ettiğiniz her ek Doğruluk İşareti silahın seviyesini artırarak daha güçlü hale getirir.[br/][br/]Kolononi başına yalnızca bir Doğruluk İşareti inşa edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PSIONIC_REGENERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Psiyonik Yenilenme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">PSIONIC_REGENERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bu birim, sırasının sonunda {RegenerativeLightHP} yeniler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TRUE_ASCENDENCY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Gerçek Yükseliş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">TRUE_ASCENDENCY</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Yıldızın iradesi ruhani formda tezahür eder.[br/]Emriniz altında bir Yükselmiş Öğretmen çağırır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="177" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_INITIAL_NOTIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Durumu: Son Vahiy</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_CAPTURED</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">Doğruluk Fenerlerimizden biri yakalandı!</Data>
+        </Cell>
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">Bir hakikat fenerini kaybettiniz!</Data>
+        </Cell>
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">{STR_Player} bir Doğruluk Fenerini kaybetti!</Data>
+        </Cell>
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_GLOBAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">Bir Hakikat Fenerini kaybettiniz. Son Vahiy girişimimiz engellendi!</Data>
+        </Cell>
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">{STR_Player} bir Hakikat İşaretini kaybetti. Son Vahiy girişimleri engellendi!</Data>
+        </Cell>
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s71" />
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_INITIAL_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Oyuncu Son Vahiylerini serbest bıraktı!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_BUILT_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} bir Hakikat İşareti inşa ederek Kıyamet Günü Silahı olan Son Vahiy'e erişebilir. Şu anda zayıftır, ancak daha fazla Hakikat İşaretçisi inşa edildikçe daha güçlü hale gelecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_BUILT_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} ikinci bir Doğruluk İşareti inşa ederek Kıyamet Günü Silahı olan Son Vahiy'i güçlendirdi. Çok güçlü hale gelmeden önce bu yapıları yok etmek için baskınlar planlamalısınız.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_BUILT_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, son Doğruluk İşaretini inşa ederek Kıyamet Günü Silahı olan Son Vahiy'in gücünü en üst düzeye çıkardı. Artık oyunu kazanmak için onu tamamen serbest bırakmaya çok yakınlar. Saldırı zamanı şimdi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_CAPTURED_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü Zamanlayıcısı duraklatıldı! Kayıp Hakikat Fenerini geri almalısınız, yoksa herkese ışık tutma ve onlara tek ve biricik Hakikati açıklama şansınızı kaybedeceksiniz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Hakikat İşaretinin kaybı Son Vahyi iptal ederek Kıyamet Günü Zamanlayıcısını sona erdirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Hakikat İşaretçisinin kaybı Nihai Vahyimizi zayıflattı ve Kıyamet Günü operasyonlarınız iptal edildi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_FINISHER_CAST_TEXT</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız Kıyamet Günü Silahlarını etkinleştirdi! Son Vahiy tüm gezegene yayıldı ve kendi Kıyamet Günü Silahınız tufan tarafından yok edildi. Onlar oyunu kazanmadan önce onların Hakikat İşaretçilerinden birini yok etmek için {numTurns} süreniz var.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Vahiy aktiftir ve Hakikat İşaretçilerinizden birini kaybetmediğiniz sürece {numTurns}'de kazanırsınız.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son Vahiy aktif ve {playerName}, Hakikat İşaretçilerinden birini yok edemezseniz {numTurns}'de kazanacak.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Doğruluk İşareti ele geçirildi. Eğer yok edilirse, Kıyamet Günü zamanlayıcımız iptal olacak. Eğer onu tekrar ele geçirirseniz, geri sayımı yeniden başlatabilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Doğruluk İşareti ele geçirildi. Eğer yok edilirse, Kıyamet Günü zamanlayıcısı iptal edilecektir. Eğer {playerName} onu yeniden ele geçirirse, geri sayıma devam edebilecekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_EVENT_FINISHER_PRIMING</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} Son Vahiy Kıyamet Günü Silahını hazırlıyor! Bitirmelerine izin verilirse, kendi Kıyamet Günü Silahınız yok olacak ve {playerName} tam zaferden sadece bir adım uzakta olacak.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="197" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_END_GAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s71">
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hissedebiliyor musunuz? Somut barış.[br/]Duyabiliyor musunuz? Tatlı bir uyum.[br/]Birleşmişler, silahlarını gömüyorlar[br/]ve dostlarının farklılıklarına değer veriyorlar.[br/]Sevinçli dansları yeni bir aydınlanma çağını kutluyor.[br/]Yıldızlar onaylayarak parıldıyor,[br/]onlara katılmanızı bekliyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">VO: Empress Carminia</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="199" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sakin</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Serene</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Pastoral</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Dengeli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Huzurlu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_TRANQUILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sorunsuz</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kınama</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tövbe Etmek</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kederin Kalkanı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Suçluluk Kapağı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Suçlama</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_REMORSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Utanç verici</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Koruyucu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Peacetouch</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Şefkatli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sağlıklı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bakım</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kürleme</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Düşünceli</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_HEALING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_8</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Finetouch</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Emzik</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Calmsoul</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Peacemaker</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Alleviator</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Huzur Feneri</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sakinleştirici</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TENETS_OF_PACIFISM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">İnanç İkonu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Heavenshroud</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Aziz'in Gazabı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Işık Nemesis'i</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Paladin</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Haçlı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kutsal Şampiyon</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHIELD_OF_RECKONING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Exodus</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s72">
+          <Data ss:Type="String">Review</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>73</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>81</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,1209 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>GeraldR</LastAuthor>
+    <LastSaved>2019-03-13T10:46:12Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="109" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="263.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="225.75" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:Width="262.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:Index="6" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="274.5" />
+      <Column ss:StyleID="s62" ss:Width="262.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DWELLING_PSIFISH</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The Psi-Fish are an extremely exotic and alien species. We tried to convey this through language that is broken, strange, and somethings only use one word to communicate. The use of vibrations, sounds and colours are prevalent to convey their language style.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_RESPONSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Negatif başarı titreşimleri alındı. Güvenilmez. Başarısızlığın tadı... tatsız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Default text for all fails Psi-Fish quests.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="9" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ex Oblivione</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.
+"Ex Oblivione" refers to the H.P. Lovecraft poem.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanca Büyümeyi Yenmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bitkilerle konuşun. Büyüme. Yanlış yönlendirilmiş, tehdit. Tohumları yayar, ama anlamını dikkate almaz. Unutulma duygusu yok. Anlam aşılanmalı. Kabul etmek mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oblivion. Bu düzlemdeki hayat anlamsız. Sürekli mücadele ediyoruz. Boşluk bizi tekrar kucaklayana kadar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Void" refers to an in-game location.
+(see glossary)</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="14" ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldızlardan Gelen Karıştırıcılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.
+"Shamblers from the Stars" refers to a horror short story by American writer Robert Bloch.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Hainleri Yen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hainler, düşman ruhlar. Vahşi kırmızı. Yok edilmeli... ortadan kaldırılmalı. Bunu yap... ödül seni bekliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tehdit ortadan kaldırıldı. Denge yeniden sağlandı. İyi bir takas. Ödülü kabul et.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="19" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yenmeyen Düşmanlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Otonomu Yenmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yenmeyen mekanik varlık. Birleşemez. Varlık... düşmanca. Yardıma ihtiyacımız var. Varlık... kapatılmalı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mekanize varlık... söküldü. Sessizlik yeniden sağlandı. Organik tüketimine devam ediliyor. Teşekkürler, makine sökücü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="24" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siren'in Ağıtı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Kuvarsiti Yen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.
+"Quarzite" are an in-game species.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bir siren ve sürüsü... saldırgan mineral... acıya maruz bırakır. Küreler sirenin acısıyla titreşiyor. Bize yardım et, {STR_LeaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderName} can be male or female.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Silikon bazlı yaşam... yok edildi. Takdirler, {STR_LeaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Edit: live -&gt; life</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="29" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bedensel Sınırlamalar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Balıkları için Yiyecek Kapları Oluşturun</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açlık... her zaman artar. Ama yemek koşusu... sürekli. Yorucu. Yemek fizikseldir, maddeye bağlıdır. Sen fizikselsin, rızık içermeye yardım ediyorsun. Anlaştık mı?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rahatlatıcı konfor. Besin içeriyor. {STR_LeaderName}... minnettarlık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konteyner gelmedi... Açlık devam ediyor. Gri hayal kırıklığı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest failed text for production quest.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish için Yiyecek Kapları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Balıklar bu gerçeklik düzlemine ait değildir ve yiyecek saklama kavramı onlara yabancıdır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Building queue description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="37" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yapay Yayılım</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.
+"Propagation" refers to keeping a species alive.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Balık için Krizalit Kapsülleri üretin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Biz... Biz kötü değiliz. Evimiz... Boşluğun ötesinde. Bu düzlem... yabancı. Sizin türünüzün hayvanları ve bitkileri yediği gibi bizim de çoğalmaya ihtiyacımız var. Büyümemizin krizalit aşaması için bize kapsüller inşa edin. Artık organik konaklara ihtiyacımız olmayacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Void" is an in-game location.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bu kapsüller için minnettarız. Artık organik konakçılara ihtiyaç duymadan çoğalabiliriz. Minnettarız.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Krizalit Bölmeleri Üretin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Balıkları türlerini çoğaltmak için bir parazit gibi organik konakçılar kullanır. Üretilmiş kapsüllerin kullanılması Psi-Balıklarının konakçılara ihtiyaç duymadan üremesini sağlayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Building queue description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="45" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyumsuz Organizmalar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korsan Sığınağını Yok Et</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.
+"Pirate Hideout" refers to an in-game unit spawner</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korkunç yaratıklar, gürültülü ve acımasız. Dengemizi bozdular. İmha... tek seçenek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akraba ruh, yumuşak titreşimler akıyor. Denge yeniden sağlandı. Teşekkür ederim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="50" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Balık Yemi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Su Yuvasını Yok Et</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Aquatic Nest" refers to an in-game location that spawns aquatic species.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Yerli su canlılarıyla karıştırılıyor. Varlığınız... müdahale etmeli.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Artık balık yemi değil.  Yerli türler... artık tehdit değil.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="55" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ultrason Baş Ağrısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Deniz Üssünü yok et</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Çıldırmış durumdayız. Derin sinyaller... yüzeye çıkıyor. Dikkat dağıtıcı sesler. Yok et... sıkıntıyı.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Denizlerden gelen garip yaratıklar. Şimdi yok edildiler... Minnettarız.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="61" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgi Dökümü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish için Ethereal Eğitim Araştırması</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Aradığımız... bilgi. Merak. Bilgelik. Dünyayla ilgili tüm bilgileri aktarın ki anlayabilelim. Bunu yaparsak... bilgi için beynimizi ıslatmamıza gerek kalmaz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Teşekkürler, {STR_LeaderName}. Bu bilgiyi kullanabiliriz. Kazanç yollarımız değişti... daha iyisi için.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderName} can be male or female.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s63" />
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ethereal Eğitim</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Psi-Balıklar organik konakçıların beyinlerinden fiziksel olarak bilgi çekerek öğrenirler. Ancak onlara daha medeni yöntemler öğretebiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest description.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish Telefon Ev</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest name.
+Reference to the film, "E.T. The Extra-Terrestrial"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish için Araştırma İletişim Cihazı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ev... Boşluk. Kaybolduk... uzak dünya. Kökenimizi bulmamıza yardım et. Özlem duyuyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Void" refers to an in-game location.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ahhhh... sıcak titreşimler, karanlık ve derin. Ev. Teşekkürler, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İletişim Cihazı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Fish'in Boşluk'taki evlerinden gelen sinyalleri almasını sağlayan bir iletişim cihazı inşa edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="76" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fabulosity Sağlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Psi-Fish için Diplomatik Kıyafetler Üretin</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Farkında oluruz. Organikler kıyafet kullanır... gösteriş... resmiyet. Biz çıplakız. Arzumuz... ihtişam... nezaket. Dış güzellik... şeffaf içimizle eşleşir. Eşitlik için... ilk izlenim için... moda ararız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendimizi... güzel hissediyoruz! Biz... trendiz. Sevinç... şimdi süsümüzü etkiliyoruz... süslü... çalımlı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendimizi çıplak hissediyoruz. Keder. Gülme stoku. Hayır, moda aptalca bir zaman kaybı. Bıçak gibi öfke... hayal kırıklığı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Psi-Fish için Diplomatik Cübbeler</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Psi-Balıklar garip bir tür, ancak bizim gerçekliğimize hızla adapte oluyor gibi görünüyorlar. Bu onların daha da entegre olmalarına yardımcı olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="84" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşılayın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Xenoplague İstilasını Yok Et</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İğrençlikler... düşüncesiz yaşam... açlık... vahşet... yok edin. Tüm izleri yok edin... Doğal olmayan organizma her şeyi tüketir. Durdurun onu!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sakinlik geri geldi. Minnettarlık fışkırtıyoruz... tatlı minnettarlık Zehir yok edildi... şurup gibi teselli.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="89" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuşatma Mühürleyicileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Korsan Kaçıranları Yok Edin</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Türümüz haykırıyor... cezalandırıcı kanun kaçakları bizi parçalara ayırıyor. Tuzlu kirleticiler... bizi esaretimizden çalıyorlar. Durdurulmalılar... kalelerini kaldırın... onları unutulmaya gönderin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neşeli kavuşma... zafer. Coşku... Sana layık bir minnettarlık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="94" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız Gevezelik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Psiyonik Konuşma Çevirmeni Araştırması</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gerçeklikte akılsız varlıklar... mekanik zeka. İletişim araçları yok... arzular yerine getirilmemiş. Zihinden maddeye dönüşüm arayışı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Minnettarlık... Artık her şey için mutlu düşünceler dile getiriyoruz. Kanepeler... ocaklar... robotlar... elektrikli süpürgeler. Cihazlar sevgimizi biliyor... mutlu akılsız şeyler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Psiyonik Konuşma Çevirmeni</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Psi-Balıklar bildiğimiz organikler gibi iletişim kurmazlar. Eğer bir Psionik çevirmen araştırabilirsek, bu onlarla iletişimi çok daha kolay hale getirecektir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:Index="101" ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arkaik Olanlar</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon Askerlerini Yok Et</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi avlıyorlar... sakinliği deniyoruz... etkili olmuyor. Geçmişe takılıp kaldılar. Ulaşmayı deneriz... bizi avlarlar... kaçarız. Paragon bizi takip ediyor... koruyor mu?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The Psi-Fish talk with broken English, they are exotic and foreign to this world.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tatlı teselli... Paragon avcıları gitti. Lezzetli uyum... geçmiş geçmişte kalmalı. Lezzetli boşluk onların mezarlarını süslüyor... Boşlukta dolaşıyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Void" refers to an in-game location.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="106" ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlık Yürekli</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zalim Uzatıcıları yok edin</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fell yağmacıları... onların zalimliği. Uzaylılar... Acı kan. Zor ev sahipleri... korkunç bir meydan okuma. Kırık zihinler... Uyum umudu yok. Vahşi tat... boş kaplar. Daha iyi zihinlere ihtiyacımız var... çılgınlığı durdurun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Spacers" refers to another in-game faction.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sessizlik... zehirli kirlilikler düşüncelerin akışında seyrelir. Duman dağılır... Yeniden yükseliriz... Vahşi baskılardan kurtuluruz. Tekrar uyanıyoruz... Sana teşekkür ediyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>96</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>99</ActiveRow>
+          <RangeSelection>R100</RangeSelection>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

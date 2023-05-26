@@ -1,0 +1,650 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Tom Bird</LastAuthor>
+    <LastSaved>2019-11-05T09:04:53Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11025</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="57" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="162" />
+      <Column ss:StyleID="s62" ss:Width="198" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="387.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="313.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SYMBIOSIS_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">AMAZON_SKILLS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Amazon</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROTECTIVE_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyucu Büyüme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PROTECTIVE_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyucu Büyüme</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROTECTIVE_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim hareket edemez, fazladan bir  {ArmorProtection}   [armor/] 'ye sahiptir ve her turda maksimum  [hp/] 'sinin %  {healthregen} 'sini geri kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRIMAL_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Primal Override</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PRIMAL_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]ihin Kontrolü[/abilityred] Akılsız veya Mekanik olmayan bir Kademe I veya Kademe II Hayvan birimini {PrimalChance}[StrengthBio/] güç şansı ile kontrol etmeye çalışın. [br/]Eğer hedef [abilityred]Entangle[/abilityred] veya [abilityred]Sleep[/abilityred] etkisi altındaysa, güç şansı {PrimalSuperiorChance}[StrengthBio/]'ye yükselir.[br/]Bu şekilde zihin kontrolü yapılırsa, birim kalıcı olarak sizin kontrolünüz altına girer. Direnilirse, bunun yerine [abilityred]Insanity[/abilityred] uygulayın.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRIMAL_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayvan Kontrol</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRIMAL_OVERDRIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu hayvan sizin kontrolünüz altında.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NOURISHING_FIELD_PYLON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Besleyici Saha Pilonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">NOURISHING_FIELD_PYLON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş alanına bir iyileştirici pilon yerleştirir. Pilon hareket edemez veya hareket edemez. {range} altıgeni içindeki tüm dost Biyolojik ve Sayborg birimleri, bu yetenek kullanıldığında ve her turun başında {healing} süreyle iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltici Saha Pilonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş alanına güçlendirici bir pilon konuşlandırır. Pilon hareket edemez veya hareket edemez. Bu pilona bitişik olan dost Biyolojik ve Sayborg birimleri, pilona bitişik kaldıkları sürece {damage} ek hasar kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LURING_FIELD_PYLON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cezbedici Saha Direği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LURING_FIELD_PYLON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş alanına bir yaban hayatı yem pilonu yerleştirir. Pilon hareket edemez veya hareket edemez. Her turun başında rastgele bir Kademe II vahşi yaşam birimi çağırır. Pilon, {duration} süresince veya yok edilene kadar varlığını sürdürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="23" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RAPID_REFORESTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlı Ağaçlandırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RAPID_REFORESTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektörü bir Orman ([supply/]\[production/]) sektörüne dönüştürür.[br/][br/][productioncol]Şehir, Dağ veya Düşman sektörlerinde başlatılamaz.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RAPID_REFORESTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomancerlarımız genetik olarak geliştirilmiş ağaçlarımızı başarıyla dikerek tüm sektörü hızla evimiz diyebileceğimiz bir ormana dönüştürdüler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dolaşan Aşırı Büyüme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen düşman kolonisinin [supply/] gelirini {EntanglingTurn}[turn/] için {FoodIncomeReduction} azaltır. Bu süre boyunca, o koloninin etki alanındaki düşman birimleri hareket ederken ek bir {MovePointCost} harcar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{EntaglingTurn}[turn/] için {FoodIncomeReduction} gelir.[br/]Düşman birimleri {EntaglingTurn}[turn/] için bu alanın içindeki her hex için {MovePointCost} daha fazla harcarlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyonik olarak geliştirilmiş büyüme hedef düşman kolonisini istila etti. Bu agresif aşırı büyüme ekinlerini mahvedecek ve düşmanın hareketini engelleyecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş büyüme bir yer edinmeyi başaramadı. Hedeflenen düşman kolonisinin nüfusu bazı huzursuzluklar yaşıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarlalarımız, ekinlerimizi mahveden ve birliklerimizi engelleyen bir tür saldırgan büyüme ile kirlenmiş durumda.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENTANGLING_OVERGROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız koloniye saldırgan bir bitki türü yerleştirmeye çalıştı, ancak bu bitki tutunamadan solup gitti. Ancak halkımız mutlu değil.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTRODUCE_PREADATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Klon Predatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="24">
+        <Cell>
+          <Data ss:Type="String">INTRODUCE_PREADATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef konuma güçlü bir yırtıcı hayvan çağırır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="35.25">
+        <Cell>
+          <Data ss:Type="String">INTRODUCE_PREADATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerel bir yırtıcıyı başarıyla klonladı ve kullanıma hazır şekilde konuşlandırdı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARCADIAN_RESTORATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcadian Restorasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARCADIAN_RESTORATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektör bir Arkadyalı ([supply/] \ [energy/]) sektörüne dönüştürüldü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ARCADIAN_RESTORATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomancerlarımız hedef sektörü başarılı bir şekilde Arkadya sektörüne dönüştürdüler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="41" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekolojik Yapı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ahşap ve yerel malzemelerin akıllıca kullanımı, doğaya zarar vermek veya doğayı sömürmek zorunda kalmadan yeşil, uygun maliyetli altyapı geliştirilmesine olanak tanır.[br/][br/]Kolonilerinizin her biri, etki alanındaki her orman sektörü için {Production} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşamalı Yetiştirme</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Verimli toprakları sonuna kadar kullanan genetiği değiştirilmiş mahsullere yatırım yaparak hasatlarımızı daha bereketli hale getirebiliriz.[br/][br/]Kolonileriniz {GlobalFoodIncomeIncrease} ve onlara bağlı her Arkadyalı sektör için ek bir {FoodIncomeIncrease} kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_CLEANUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Temizlik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_CLEANUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıkılan Birlik geride pek çok şey bıraktı; bunlardan bazıları yararlı olsa da bazıları hem doğa hem de canlılar için zararlı. Dünyayı bu yıkıcı kalıntılardan kurtarmayı ve dünyayı doğal harikasına geri döndürmeyi görevimiz olarak görüyoruz.[br/][br/]Dünya Tehlikelerini Temizlemek {EnergyCostReduction} daha ucuz.[br/][abilityblue]Hızlı Ağaçlandırma[/abilityblue] ve [abilityblue]Arkadya Restorasyonu[/abilityblue] stratejik operasyonları artık {EnergyCostStratOpReduction} daha ucuz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="23.25">
+        <Cell>
+          <Data ss:Type="String">WILDLIFE_MILITARIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelişmiş Yaban Hayatı Militarizasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="93.75">
+        <Cell>
+          <Data ss:Type="String">WILDLIFE_MILITARIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayvan refahına ve implantasyonuna ekstra kaynak ayırarak, insan olmayan varlıkları askeri kuvvetlerimize daha fazla entegre edebilir, genel refahlarını ve savaştaki etkinliklerini artırabiliriz.[br/][br/]ATüm Hayvan ve Atlı birimler {moraleBonus}, {healthBonus} kazanır ve [xp/] {xpBonus} daha hızlı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="93.75">
+        <Cell>
+          <Data ss:Type="String">WILDLIFE_MILITARIZATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Amazon işleyicileri tarafından ustalıkla eğitilmiş ve bakılmıştır. {moraleBonus}, {healthBonus}'ye sahiptir ve [xp/] {xpBonus}'yi daha hızlı kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ARBOREAL_HABITATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arboreal Cennet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="95.4375">
+        <Cell>
+          <Data ss:Type="String">ARBOREAL_HABITATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ormanın ve içindeki organizmaların Amazon toplumunun her yönüne bütünsel olarak entegre edilmesiyle mükemmel bir ortak yaşam sağlanabilir.[br/][br/]Orman sektörleri kolonilere bağlandığında {happinessBonus} verir.[br/]Ormanların hareket maliyeti daha da azalır ve birimleriniz içlerinde savaşırken ek bir {moraleBonus} moral kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30.5625">
+        <Cell>
+          <Data ss:Type="String">BIO_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik Haçlı Seferi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BIO_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çabalarımızı bu gezegeni tüm makinelerden ve organik olmayanlardan temizlemeye odaklamalıyız. Onlar doğanın gelişmesine izin vermek için yok edilmesi gereken doğal olmayan varlıklardır.[br/][br/]Birimleriniz Mekanik ve Sayborg birimleriyle savaşırken {DamageIncrease} ek hasar verir.[br/]Yakın dövüş saldırılarına sahip Atlı veya Hayvan birimleriniz [abilityblue]Frenzy[/abilityblue] kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="33">
+        <Cell>
+          <Data ss:Type="String">BIO_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon ve Hayvan birimleri, Mekanik ve Sayborg birimleriyle savaşırken {DamageIncrease} ek hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO_CRUSADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{DamageIncrease} Mekanik ve Cyborg birimlerine karşı hasar ekledi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ECOLOGICAL_WARFARE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekolojik Savaş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="33">
+        <Cell>
+          <Data ss:Type="String">ECOLOGICAL_WARFARE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askerlerinizi savaş amacıyla yerel bitki ve hayvanlardan kimyasal elde etme teknikleri konusunda eğitin.[br/][br/]Birimlerinizin Yakın Dövüş ve Biyolojik saldırıları, Biyolojik ve Sayborg hedeflere [abilityred]Zehir[/abilityred] uygulama, morallerini düşürme ve zamanla hasar verme konusunda {strength} gücünde bir şansa sahiptir.[br/][br/]Ayrıca mekanik olmayan birimleriniz dünya haritasında her turda ek bir {heal} iyileştirir.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <TopRowVisible>6</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>12</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

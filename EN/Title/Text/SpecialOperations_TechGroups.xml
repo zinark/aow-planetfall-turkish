@@ -1,0 +1,2196 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>TomB</LastAuthor>
+    <LastSaved>2019-03-06T10:22:52Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15940</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="194" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="172.5" />
+      <Column ss:StyleID="s62" ss:Width="207" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="355.5" />
+      <Column ss:StyleID="s62" ss:Width="148" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="355.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="425.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SPECIALOPERATIONS_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GROUP_NAMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SPECIALOPERATION_SKILLS_OPERATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="8" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haritaları Çalın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef oyuncudan harita verilerini çalarak dünya haritasının keşfettikleri tüm alanlarını ortaya çıkarır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın veri sistemlerini başarıyla hackledi ve fark edilmeden büyük miktarda coğrafi bilgi çalmayı başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın veri sistemlerini başarıyla hackledi ve büyük miktarda coğrafi bilgi çalmayı başardı, ancak son anda tespit edildiler! Ne yazık ki düşman artık bu işe karıştığımızın farkında.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız, gerekli verilere tam erişim sağlamak için düşmanın güvenlik sistemlerine nüfuz edemedi ve sadece küçük bir miktar coğrafi veri alındı. Neyse ki bu girişimleri tespit edilememiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın güvenlik sistemlerine sızarak gerekli verilere tam erişim sağlayamadı ve sadece küçük bir miktar coğrafi bilgi elde edilebildi. Daha da kötüsü, hack girişiminde bulunurken yakalandılar ve düşman artık bizim bu işe karıştığımızı biliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları güvenlik sistemlerimizi kırdı ve büyük miktarda coğrafi bilgi çaldı! Ajanları yakalamayı başardık, ancak tüm verileri efendilerine iletmeden önce değil.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STEAL_MAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları coğrafi verileri çalmak için güvenlik sistemlerimizi kırmaya çalışırken yakalandı! Ajanları yakalamayı başardık, ancak efendilerine küçük miktarda veri iletmeden önce değil.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Sifonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Belirli sayıda tur boyunca hedeflenen oyuncunun toplam enerji gelirinin {INT_percentage}'sini toplayın. Operasyon {duration} boyunca devam ettikten sonra enerji bize aktarılacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine başarıyla sızdı ve enerji sifonlarını yerleştirdi. Birkaç tur içinde işlem tamamlanacak ve çalınan enerji bize iletilecek.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine sızarken yakalandılar ve enerji sifonlarını yerleştiremediler. Neyse ki, konuşarak beladan kurtulmayı başardılar, bu yüzden düşman sızma girişimimizden habersiz.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine sızarken yakalandılar ve enerji sifonlarını yerleştiremediler. Ne yazık ki, ajanlarımız düşman sorgusu altında çözüldü ve operasyondaki rolümüzü ortaya çıkardı.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları, rezervlerimizden enerji çekmek üzere tasarlanmış cihazlar yerleştirmek üzere tesislerimize sızmaya çalışırken yakalandı. Saatler süren sorgulamanın ardından, bu alçakça girişimin arkasındaki devleti tespit etmeyi başardık.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji sifonlarımız mükemmel bir şekilde işledi ve enerjilerini bize aktardı. Sifonlar kendi kendilerini imha ettiler ve bizi bu hırsızlıkla ilişkilendirebilecek hiçbir kanıt bırakmadılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji sifonlarımız mükemmel bir şekilde çalıştı ve enerjilerini bize aktardı. Ancak, bir sifon kendini imha etmeyi başaramadı ve düşman artık bu hırsızlığa karıştığımızın farkında.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir çeşit enerji sifonlama cihazının kullanımıyla büyük miktarda enerji kaybettik. Ne yazık ki, cihazlar biz analiz edemeden kendilerini imha ettiler, bu yüzden onları kimin yerleştirdiği hakkında hiçbir bilgimiz yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ENERGY_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir çeşit enerji sifonlama cihazı kullanarak büyük miktarda enerji kaybettik. Analiz için cihazlardan birini geri almayı başardık ve enerji aktarım hedefini bir düşman devlete kadar takip ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Muslukları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birkaç tur boyunca hedef oyuncudan araştırma verileri toplayın. Veriler bize iletilir ve operasyon {duration} boyunca devam ettikten sonra hedefin araştırma çabaları sabote edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine başarıyla sızdı ve araştırma dinleme cihazlarını yerleştirdi. Birkaç tur içinde işlem tamamlanacak ve veriler bize iletilecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine sızarken yakalandılar ve araştırma dinlemelerini kuramadılar. Neyse ki, konuşarak beladan kurtulmayı başardılar, bu yüzden düşman sızma girişimimizden habersiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine sızarken yakalandılar ve araştırma dinleme cihazlarını yerleştiremediler. Ne yazık ki, ajanlarımız düşman sorgusu altında çözüldü ve operasyondaki rolümüzü ortaya çıkardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları, araştırma akışlarımızı dinlemek üzere tasarlanmış cihazlar yerleştirmek üzere tesislerimize sızmaya çalışırken yakalandı. Saatler süren sorgulamadan sonra, bu alçakça girişimin arkasındaki devleti tespit etmeyi başardık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma dinleme cihazlarımız mükemmel bir şekilde çalıştı ve düşmanın verilerini bize aktardılar. Sifonlar kendi kendilerini imha ederek hedefin araştırma çabalarına büyük zarar verdi ve bizi bu hırsızlıkla ilişkilendirebilecek hiçbir kanıt bırakmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma dinleme cihazlarımız mükemmel bir şekilde çalıştı ve düşmanın verilerini bize aktardılar. Sifonlar kendi kendilerini imha ederek hedefin araştırma çabalarına büyük zarar verdi. Ancak, düşman iletimin izini sürmeyi başardı ve bundan bizim sorumlu olduğumuzu biliyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman araştırma dinleme cihazları büyük miktarda araştırma verimizi çaldı ve bu süreçte sunucularımızdan sildi. Ne yazık ki, cihazlar biz onları analiz edemeden kendi kendilerini imha ettiler, bu yüzden onları kimin yerleştirdiği hakkında hiçbir bilgimiz yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_TAPS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman araştırma dinleme cihazları büyük miktarda araştırma verimizi çaldı ve bu süreçte sunucularımızdan sildi. Analiz için cihazlardan birini geri almayı başardık ve veri aktarım hedefini bir düşman devlete kadar takip ettik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evrensel Veri Sifonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{duration} için hedef oyuncunun görüşüne erişim kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın veri sistemlerini başarıyla hackledi ve tespit edilmeden veri sifonlarını kurmayı başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız veri sifonlarını yerleştirmek için düşmanın güvenlik sistemlerine sızmayı başaramadı. Neyse ki bu girişimleri fark edilmedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız veri sifonlarını yerleştirmek için düşmanın güvenlik sistemlerine sızmayı başaramadılar. Daha da kötüsü, hack girişiminde bulunurken yakalandılar ve düşman artık bizim bu işe karıştığımızı biliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları tarayıcı sistemimize veri sifonları yerleştirmeye çalışırken yakalandı! Bu sifonlar düşmanın tüm gezegen topolojisi kayıtlarımıza tam erişimini sağlayacaktı. Neyse ki bu ajanları yakalamayı başardık ve bunun bir düşman devletin işi olduğuna dair elimizde kanıtlar var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Erişilen görüntü verileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sensör Karıştırıcılar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef oyuncunun {duration} için Algılamasını devre dışı bırakın, yani sadece kendi yığınlarına ve yapılarına bitişik olan gizli birimleri algılayacaklar. Ayrıca bu, ordularımızın hedef oyuncunun sensörlerinde görünmemesini sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın veri sistemlerini başarıyla hackledi ve sensör karıştırıcıları tespit edilmeden kurmayı başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız sensör bozucuları yerleştirmek için düşmanın güvenlik sistemlerine sızmayı başaramadı. Neyse ki bu girişimleri fark edilmedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız sensör bozucuları yerleştirmek için düşmanın güvenlik sistemlerine sızmayı başaramadılar. Daha da kötüsü, hack girişiminde bulunurken yakalandılar ve düşman artık bizim bu işe karıştığımızı biliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları tarayıcı sistemimize sensör karıştırıcı yerleştirmeye çalışırken yakalandı! Bu karıştırıcılar sensörlerimizi ve gizli düşman birimlerini tespit etme kabiliyetimizi engelleyecekti. Neyse ki bu ajanları yakalamayı başardık ve bunun bir düşman devletin işi olduğuna dair elimizde kanıtlar var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Algılama sistemleri devre dışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SENSOR_JAMMERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_TEXT_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sensörlerden gizlenen ordular</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyon Merkezine Sızma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef oyuncunun Operasyon Savunmasını operasyonlarımıza karşı {operationDefensePenalty} azaltın ve kişilik özelliklerinin yanı sıra bu oyuncunun aktif özel, gizli olmayan operasyonlarının bir listesini görmemize izin verin.[br/][br/] Operasyon Merkezini zayıflattığınız oyuncular da Yetenek sıralamasında gösterilecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız düşmanın operasyon merkezine başarıyla sızdı ve güvenli bir kanaldan bize veri aktarıyor. Onların yardımıyla düşmanın mevcut operasyonlarını görüntüleyebilir ve onları kendi operasyonlarımıza karşı daha savunmasız hale getirebiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımızın düşmanın operasyon merkezine sızma girişimleri başarısız oldu. Neyse ki, üstün eğitimi sayesinde kaçarken tespit edilmekten kurtuldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız düşmanın operasyon merkezine sızmaya çalışırken yakalandı. Daha da kötüsü, sorgu sırasında çözüldüler ve bizi efendileri olarak adlandırdılar!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ajanı operasyon merkezimize sızmaya çalışırken yakalandı. Eğer başarılı olsalardı, özel operasyonlarımızı izleyebilecek ve operasyonel savunmalarımızı aşabileceklerdi. Düşman ajanı sorgu altında çoktan çözüldü ve efendilerinin adını verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_TEXT_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Operasyonu bizim operasyonlarımıza kıyasla {operationDefensePenalty} oranında azaldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_TEXT_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizli olmayan tüm özel operasyonlar ve gizli teknolojiler ifşa edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dahili Tahliye</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şu anda sizi etkileyen tüm Gizli Operasyonları tespit etmeye ve kaldırmaya çalışın. Bu aynı zamanda [abilityblue]A Uyarı Seviyenizi[/abilitylevel] kadar yükselterek Operasyon Savunmanızı artıracaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Alert level is described in SpecialOperations_TechGroups.xml (this document)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_ON_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyon merkezimizdeki tüm personel ve ekipmanın kapsamlı bir denetimine başladık, bu sürecin {duration} tur sürmesini bekliyoruz. Her türlü sızma girişiminin bulunup açığa çıkarılacağından eminiz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_ON_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız operasyon personelini ve sistemlerini kapsamlı bir şekilde tasfiye etmeye başladı, bu süreç yaklaşık {duration} tur sürecek. Keşfedilmemeleri için ajanlarımızı derhal geri çekmeliyiz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_ON_COMPLETE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman, sızma girişiminde bulunanların ve casusların kökünü kazımak amacıyla operasyon sistemlerinde kapsamlı bir temizlik yaptı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INTERNAL_PURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESULTS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haftalar süren sorgulama ve araştırmalardan sonra, iç temizliğimizi tamamladık ve sonuçlarımızı sunmaya hazırız.[br/][br/]Aşağıdaki ihlaller tespit edilmiş ve ortadan kaldırılmıştır:</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sayaç Operasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman operasyonunu bozmaya ve kapatmaya çalışın. Başarı, düşmanın Operasyon Savunmasına karşı Operasyon Gücü ile belirlenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşman operasyon merkezine başarıyla sızmış ve sabotajlarını gerçekleştirmişlerdir. Herhangi bir sorunla karşılaşılmadı ve ajanlarımız tespit edilmeden kaçtı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşman operasyon merkezine başarıyla sızdı ve sabotajlarını gerçekleştirdi. Ancak, kaçış sırasında bir ajanımız yakalandı ve düşman artık bu işe karıştığımızın farkında.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşman operasyon merkezine sızdı, ancak sabotajlarını tamamlayamadan yarıda kesildiler. Neyse ki ajanlar bu karmaşa içinde kaçmayı başardılar, bu nedenle olayla ilgimiz gizli kaldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşman operasyon merkezine sızdı, ancak sabotajlarını tamamlayamadan yarıda kesildiler. Ne yazık ki ajanlar kaçmaya çalışırken yakalandılar ve düşman artık bu işe karıştığımızın farkında.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları operasyon merkezimize sızdı ve operasyonlarımızdan birini sabote etti! Ajanlar iyi eğitilmişlerdi ve görevlerini yerine getirdikten sonra iz bırakmadan ortadan kayboldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları operasyon merkezimize sızdı ve operasyonlarımızdan birini sabote etti! Neyse ki, bir düşman kaçmaya çalışırken yakalandı ve işverenlerinin adını sorgucularımıza çoktan açıkladı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları operasyon merkezimizde operasyonlarımızdan birini sabote etmeye çalışırken yakalandı! Ne yazık ki, ajanlar ortaya çıkan karmaşada kaçmayı başardılar ve işverenlerinin kimliğine dair hiçbir ipucu bırakmadılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları operasyon merkezimizde operasyonlarımızdan birini sabote etmeye çalışırken yakalandı! Neyse ki, bir düşman kaçmaya çalışırken yakalandı ve işverenlerinin adını sorgucularımıza çoktan açıkladı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABORT_TARGET_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız hedefledikleri operasyonun aniden ortadan kaybolduğunu bildiriyor. Ya düşmanımız onu dağıttı ya da başka bir aktör ona karşı harekete geçti. Ne olursa olsun, bizim müdahalemiz artık gerekli değil.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABORT_NO_TIME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız, hedefledikleri operasyonun yakın gelecekte dağıtılmasının planlandığını bildirdi. Harekete geçmeye hazır olduklarında operasyonun çoktan dağıtılmış olacağını hesaplıyorlar. Bu nedenle, sabotajın gerçekleştirilmesi imkansız olacak ve bu nedenle iptal edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MONITOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Monitör Dağıtma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MONITOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen altıgende bir izleme istasyonu belirir. İstasyon, konuşlandıran oyuncuya {DeployMonitorVision} altıgeni için görüş ve {DeployMonitorSensor} altıgeni için sensör kapsama alanı sağlar.[br/]İstasyon gizlidir ve yalnızca Algılama özelliğine sahip diğer oyuncular tarafından ya da istasyonun yanına hareket ettiklerinde tespit edilebilir. İzleme istasyonları belirli bir oyuncuya ait olarak işaretlenmez ve savaşı tetiklemeden diğer oyuncular tarafından yok edilebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Edit: casting -&gt; deploying</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">A monitoring station appears on the targeted hex. The station provides the casting player with vision for {DeployMonitorVision} hexes and sensor coverage for {DeployMonitorSensor} hexes.[br/]The station is concealed, and can only be detected by other players with Detection, or if they move adjacent to it. Monitoring stations are not marked as belonging to a particular player, and can be destroyed by other players without triggering war.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MONITOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MARKER_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzleme İstasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MONITOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MARKER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakındaki alanı tarayan ve gözetim verilerini sahibine gönderen gizli bir izleme tesisi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MONITOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MARKER_DESTROYED_EVENT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzleme İstasyonu düşman faaliyeti nedeniyle kesintiye uğradı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_MONITOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzleme istasyonu yörüngeye başarıyla yerleştirildi. Düşman tarafından keşfedilene kadar yerinde gizli kalacak ve bize kritik veriler sağlayacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orduların Yerini Tespit Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonraki {duration} turları boyunca hedef oyuncunun tüm orduları oyuncu tarafından görülebilir. Her ordu, hedef oyuncunun ana renginde bir sensör parçacık efekti kullanılarak işaretlenir. Yalnızca kamufle edilmiş birimlerden oluşan ordular görüntülenmez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın veri sistemlerini başarıyla hackledi ve ordu yer belirleme virüsünü tespit edilmeden yüklemeyi başardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız ordu yer belirleme virüsünü yüklemek için düşmanın güvenlik sistemlerine sızmayı başaramadı. Neyse ki bu girişimleri fark edilmedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız ordu yer belirleme virüsünü yüklemek için düşmanın güvenlik sistemlerine sızmayı başaramadılar. Daha da kötüsü, hack girişiminde bulunurken yakalandılar ve düşman artık bizim bu işe karıştığımızı biliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları askeri sistemlerimize casusluk cihazları yerleştirmeye çalışırken yakalandı! Bu cihazlar tüm ordularımızın yerlerini ortaya çıkarabilirdi. Neyse ki ajanları yakalamayı başardık ve bunun bir düşman devletin işi olduğuna dair elimizde kanıtlar var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARMIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu yerleri açıklandı</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="91" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECRET_STATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizli Devlet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SECRET_STATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halkınıza ve topraklarınıza yönelik olası tehditleri önlemekle görevli gizli bir departman kurulur.[br/][br/]{OperationDefenceBonus} Operasyonel Savunma kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_I_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Destek I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_II_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Destek II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_III_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Destek III</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_IV_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Destek IV</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_V_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Destek V</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_VI_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Destek VI</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_SUPPORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{OperationalSupportBonus} Stratejik Operasyon puanı ve {OperationalSupportBonusTactical} Taktik Operasyon puanı kazanın.[br/][br/]Bu, hem savaş içinde hem de dışında her tur daha fazla operasyon kullanmanızı sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_I_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Hüner I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_II_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Hüner II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_III_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Hüner III</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_IV_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Hüner IV</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_V_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Hüner V</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_VI_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyonel Hüner VI</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OPERATIONAL_PROWESS_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{OperationalStrengthBonus} Operasyonel Güç ve {OperationalDefenceBonus} Operasyonel Savunma kazanın.[br/][br/]Bu, operasyonlarınızın düşmanlarınıza karşı başarılı olma olasılığını artırır ve düşmanlarınızın operasyonlarının size karşı başarılı olma olasılığını azaltır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="108" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerilla Saldırısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef oyuncuya saldırmak için seçilen düşman olmayan fraksiyondan bir ordu oluşturun. Düşman olmayan uluslar bilinmiyorsa kullanılamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız hedefimize karşı bir saldırı organize etmekte başarılı oldu! Ajanımız tüm dikkatleri ustalıkla yerel halkın üzerine çekti ve bizim bu işe karıştığımıza dair hiçbir iz bırakmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız hedefimize karşı bir saldırı düzenlemekte başarılı oldu! Ne yazık ki, ajanımız bu meseleye dahil olduğumuzu kanıtlayan izler bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız hedefimize karşı bir saldırı düzenlemekte başarısız oldu! Neyse ki ajanımız tespit edilmekten kurtuldu ve bu işe karıştığımıza dair hiçbir iz bırakmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız hedefimize karşı bir grev organize etmekte başarısız oldu! Ne yazık ki, bu başarısız girişimin izini bize kadar sürdüler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ajanı, şanlı imparatorluğumuza karşı saldırı düzenlerken yakalandı. Yerel halklardan birini egemenliğimize saldırması için etkilediler. Neyse ki ajanı yakalamayı başardık ve bir düşman devlete işaret eden kanıtlar bulduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GUERRILLA_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ajanı keşfedildi, ancak kuvvetlerimiz bize karşı bir saldırı düzenleme planına müdahale etmek için çok geç kaldı. Ancak, düşman ajanı yakalandı ve saatler süren sorgulamanın ardından, sorumlunun kim olduğunu bilmek için yeterli bilgiye sahibiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="117" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerel Halk ile Sabotaj İlişkisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef oyuncu ile yerel gruplardan biri arasındaki ilişkiye zarar vererek ilişkilerinin bir seviye düşmesine neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız hedefimize saldırmaları için yerel bir grubu başarıyla etkiledi. Ajanımız tüm dikkatleri ustalıkla yerel halkın üzerine çekti ve bizim bu işe karıştığımıza dair hiçbir iz bırakmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız hedefimize saldırmaları için yerel bir grubu başarıyla etkiledi. Ne yazık ki ajanımız bu olayla ilgimizi kanıtlayan izler bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız yerel grupları hedefimize karşı etkilemede başarısız oldu! Neyse ki ajanımız tespit edilmekten kurtuldu ve bu işe karıştığımıza dair hiçbir iz bırakmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanımız yerel grupları hedefimize karşı etkilemede başarısız oldu. Ne yazık ki bu başarısız girişimi bize kadar takip ettiler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ajanı, yerel gruplara imparatorluğumuz hakkında yalanlar yayarken yakalandı. Neyse ki ajanı yakalamayı başardık ve bir düşman devleti işaret eden kanıtlar bulduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir düşman ajanı keşfedildi, ancak kuvvetlerimiz onun imparatorluğumuz hakkında yerel bir gruba yalanlar yayma planına müdahale etmek için çok geç kaldı. Ancak, düşman ajanı yakalandı ve saatler süren sorgulamanın ardından, sorumlunun kim olduğunu bilmek için yeterli bilgiye sahibiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Fraksiyonla Savaşı Tetikle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hedef düşman oyuncunun bir grupla ilişkisini sabote edin, sonunda oyuncuyla savaşa girecekleri bir duruma gelene kadar ilişkilerini zamanla bozun.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hedef grup içindeki muhalif partilerle temas kurduk ve onlarla düşmanlarımız arasında hızlı bir şekilde savaşa yol açacak propaganda ve yanlış bilgileri yaymaya başlamak için planlar zaten yürürlükte.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tüm çabalarımıza rağmen yerel gruplarda davamıza sempati duyan kimseyi bulamadık. Ajanlarımızın sağduyusu en azından düşmanlarımızın planlarımızdan haberdar olmasını engelledi.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Ajanlarımızdan biri yerel bir grubun üyeleriyle bir toplantı ayarlamaya çalışırken yakalandı. Aşağılık yerel halk ajanı düşmanlarımıza teslim etti! Korkarız ki planlarımız hakkında her şeyi zaten biliyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bir ihbar üzerine, yerel gruplar arasında anlaşmazlık ve isyan tohumları ekmeye çalışan yabancı bir ajan yakaladık. Kapsamlı sorgulamanın ardından işverenlerinin kimliği ortaya çıktı.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROGRESS_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Ajanlarımızın devam eden çalışmaları sayesinde düşmanın yerel grupla ilişkisi azaldı!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Zulümleri Tahrif Etmek</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hedef düşman oyuncuya karşı ağır savaş suçları iddialarını ustalıkla çarpıtın. Düşman oyuncu itibar kaybeder ve diğer tüm oyuncular bu oyuncuya karşı maksimum seviyede Casus Belli kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sahte haber raporları, casusluk akışlarına veri ekleme ve eski moda dedikodular yoluyla, dünyanın hedefimizin adı bile konulamayacak kadar aşağılık suçlardan suçlu olduğuna inanmasını sağladık. Daha da iyisi, hedefin bizim bu işe karıştığımızdan haberi bile yok!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Sahte haber raporları, casusluk akışlarına veri ekleme ve eski moda dedikodular yoluyla, dünyanın hedefimizin adı bile konulamayacak kadar aşağılık suçlardan suçlu olduğuna inanmasını sağladık. Ne yazık ki, ajanlarımızdan biri müstehcen duvar yazıları yazarken yakalandı ve operasyondaki rolümüzü itiraf etti!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kültürel bir yanlış anlaşılma nedeniyle, ajanımız hedefimizin suçları konusunda çok fazla insanı ikna edemedi. Aslında, kazara onları biraz daha popüler hale getirmiş olabiliriz. Ajanlarımız en azından fark edilmemeyi başardı, bu yüzden hedefimiz sorumlu olduğumuzdan habersiz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Kültürel bir yanlış anlaşılma nedeniyle, ajanımız hedefimizin suçları konusunda çok fazla insanı ikna edemedi. Aslında, yanlışlıkla onları biraz daha popüler hale getirmiş olabiliriz. Daha da kötüsü, ajanlarımızdan biri yerel bir muhabire yalan söylerken yakalandı ve operasyondaki rolümüzü itiraf etti!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Düşman ajanları gezegendeki diğer güçlere hakkımızda aşağılık ve acımasız yalanlar yayıyor. İtibarımız ciddi şekilde zedelendi ve diğer ırklar bize savaş ilan etmeyi bile açıkça tartışıyor! Daha da kötüsü, bu çirkin ihanetten kimin sorumlu olduğuna dair hiçbir fikrimiz yok.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Düşman ajanları gezegendeki diğer güçlere hakkımızda aşağılık ve acımasız yalanlar yayıyor. İtibarımız ciddi şekilde zedelendi ve diğer ırklar bize savaş ilan etmeyi bile açıkça tartışıyor! Bu rezaletten kimin sorumlu olduğunu biliyoruz, ancak ne yazık ki hasar çoktan verildi.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Düşman ajanlarının hakkımızda kötü söylentiler ve yalanlar yaymaya çalıştıkları dikkatimizi çekmiştir. Şanslıyız ki pek çok insan cehaletleri nedeniyle bizim hakkımızda daha iyi şeyler düşünüyor! Ne yazık ki bundan kimin sorumlu olduğuna dair hiçbir fikrimiz yok...</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Düşman ajanlarının hakkımızda kötü söylentiler ve yalanlar yaymaya çalıştıkları dikkatimizi çekmiştir. Şanslıyız ki, cehaletleri nedeniyle birçok insan bizim hakkımızda daha iyi şeyler düşünüyor! Yine de, eğer onları sorumlu tutmak isterseniz, kimin sorumlu olduğunu tespit ettik. Ya da onlara teşekkür etmek için.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">{STR_leaderName} tarifsiz bir vahşete imza attı</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT_MODIFIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Tarifsiz bir vahşetle suçlanıyor</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALIGNMENT_BONUS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yanlış anlaşılmış bir vahşet suçlaması</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OTHER_PLAYER_EVENT_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">{STR_playerName} bir vahşet işledi!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">FALSIFY_ATROCITIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OTHER_PLAYER_EVENT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Ajanlarımız, {STR_playerName} adlı bir komutan arkadaşımızın, tek makul tepkinin derhal savaş ilan etmek olacağı kadar tarifsiz ve aşağılık bir eylemde bulunduğuna dair birçok söylenti alıyor. Bu eylem o kadar iğrenç ki, gerçekte ne olduğundan emin değiliz, sadece bunu duymak bizim için gerçekten korkunç olmalı!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARTIFACTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Yerel Tehdit Bulucu</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARTIFACTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Hedef koloniye en yakın, keşfedilmemiş düşman Yumurtlayıcının yerini gösterir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARTIFACTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bir yumurtlayıcının yeri tespit edildi:</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARTIFACTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Bu gezegende yeni yumurtlayanlar tespit edilemiyor.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">LOCATE_ARTIFACTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CAST_SUCCESSFULLY</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Mevcut arşivlerin ve sensör verilerinin uzun ve kapsamlı bir analizinin ardından, bilim adamlarımız sonuçlarını sunmaya hazır.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REVIVE_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman Diriltme Protokolü</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REVIVE_HERO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genetik manipülasyon ve rejeneratif tıp süreciyle düşmüş bir Kahramanı yeniden diriltin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casus Belli Üretme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çalıntı veri ve sahtecilik kullanarak bu oyuncuya karşı savaşı haklı çıkaracak bir Casus Belli oluşturun. Bir oyuncu üzerinde aynı anda sadece bir Casus Belli aktif olabilir.A0[1]9Başarısızlık durumunda, küçük bir Casus Belli uygulanmaya devam edecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız hedefe karşı destekleyici kanıtlarla birlikte suçlayıcı bir anlatıyı başarıyla oluşturdular! Bu kanıtların yayınlanması, eğer savaşmayı seçersek, savaşı haklı çıkarmak için yeterli olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız hedefe karşı destekleyici kanıtlarla birlikte suçlayıcı bir anlatıyı başarıyla oluşturdular! Ne yazık ki, bir ajanımız kanıt toplarken yakalandı ve tüm plan ortaya çıktı, ancak diğerlerinin bizim sözümüzü onlarınkine tercih edeceğinden eminiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız hedefi suçlamak için kullanabileceğimiz herhangi bir yararlı bilgi bulamadılar. Sonuç olarak, hiç yoktan bir uydurma inşa etmek zorunda kaldılar. Kanıt yeterli olacaktır, ancak çok zayıftır ve yakından incelemeye dayanmayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız hedefi suçlamak için kullanabileceğimiz herhangi bir yararlı bilgi bulamadılar. Sonuç olarak, hiç yoktan bir uydurma inşa etmek zorunda kaldılar. Ne yazık ki düşman izlerini buldu ve onları planlarımız konusunda uyardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casuslarımız, bir düşmanın bize karşı bir savaşı haklı çıkarmak için yapmadığımız bir şeyi bize yıkmaya çalıştığını bildiriyor! Girişimleri durduruldu ancak bazı insanlar hala onlara inanmaya devam edecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FABRICATE_CASUS_BELLI</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casuslarımız, bir düşmanın bizimle ilgili olumsuz bir tablo çizmek için inandırıcı bir anlatı oluşturmayı başardığını bildiriyor. Hikayelerini destekleyecek kanıtları bir şekilde ele geçirmişler ve uygun görürlerse bunu bir savaş başlatmak için bize karşı kullanabilirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="163" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_I_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin Geliştirme I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_I_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{doctrine} doktrin yuvası kazanarak aynı anda aktif olabilen Doktrin sayısını artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_II_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin Geliştirme II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_II_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{doctrine} doktrin yuvası kazanarak aynı anda aktif olabilen Doktrin sayısını artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_III_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin Geliştirme III</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_III_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{doctrine} doktrin yuvası kazanarak aynı anda aktif olabilen Doktrin sayısını artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_IV_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin Geliştirme IV</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_IV_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{doctrine} doktrin yuvası kazanarak aynı anda aktif olabilen Doktrin sayısını artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_V_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin Geliştirme V</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_V_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{doctrine} doktrin yuvası kazanarak aynı anda aktif olabilen Doktrin sayısını artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_VI_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin Geliştirme VI</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DEVELOPMENT_VI_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{doctrine} doktrin yuvası kazanarak aynı anda aktif olabilen Doktrin sayısını artırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCANNING_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RANGE_UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarayıcı Yükseltmesi: Menzil</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCANNING_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RANGE_UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerinizdeki tarayıcıları yükseltir. Tüm koloniler artık {rangeincrease} görüş ve tarayıcı menziline sahip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCANNING_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFORMATION_UPGRADE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarayıcı Yükseltmesi: Grup Bilgileri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCANNING_UPGRADE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFORMATION_UPGRADE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerinizdeki tarayıcıları yükseltir. Tüm koloniler artık tarayıcı menzilindeki tüm hedeflerin fraksiyon bilgilerini gösteriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNLOCK_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetenek Sıralaması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">UNLOCK_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk Görevleri arayüzünde gösterilen yetenek sıralamalarının kilidini açarak İmparatorluğunuzun diğer oyunculara kıyasla nasıl olduğunu görebilirsiniz.[br/][br/]Yetenek, İmparatorluğunuz ve müttefikleri için görülebilir. Diğer oyuncuların rütbelerini görmek için [abilityblue]Sızma Operasyon Merkezi[/abilityblue]'yi kullanmalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALERT_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarı Seviyesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="84">
+        <Cell>
+          <Data ss:Type="String">ALERT_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncunun size karşı bir operasyon kullandığını tespit ettiğinizde, Uyarı Seviyeniz yükselecektir. Her seviye düşman operasyonlarına karşı {INT_pointsPerLevel}[operationDefense/] operasyon savunması verir.[br/][br/]Şu anki Uyarı Seviyeniz {INT_level}'dir ve {INT_currentDefense}[operationDefense/] verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="18">
+        <Cell>
+          <Data ss:Type="String">ALERT_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EXPIRES_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarı Seviyesi {INT_duration}[turn/]'de bir düşecektir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">ALERT_LEVEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RAISED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarı Seviyesi şimdi {INT_newLevel}'de!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The system prints this if the alert level is raised OR if the alert level is at max level and cannot be raised</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmite Yer Değiştiriciler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen oyuncunun toplam kozmit gelirinin {INT_percentage}'sini sabit sayıda tur boyunca toplayın. Kozmit, operasyon {duration} boyunca devam ettikten sonra bize aktarılacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine başarıyla sızdı ve kozmit yer değiştiricileri yerleştirdi. Birkaç tur içinde işlem tamamlanacak ve çalınan kozmit bize iletilecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="54">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine sızarken yakalandılar ve kozmite yer değiştiricileri yerleştiremediler. Neyse ki konuşarak beladan kurtulmayı başardılar, bu yüzden düşman sızma girişimimizden habersiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="62.5">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın tesislerine sızarken yakalandılar ve kozmite yer değiştiricileri yerleştiremediler. Ne yazık ki, ajanlarımız düşman sorgusu altında çözüldü ve operasyona dahil olduğumuzu açıkladı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları, rezervlerimizdeki değerli kozmiti yer değiştirmek üzere tasarlanmış cihazlar yerleştirmek üzere tesislerimize sızmaya çalışırken yakalandı. Saatler süren sorgulamadan sonra, bu alçakça girişimin arkasındaki devleti tespit etmeyi başardık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="54">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işınlayıcılarımız mükemmel bir şekilde çalıştı ve Kozmiti bize ışınladı. Işınlayıcılar kendi kendilerini imha ettiler ve bizi bu hırsızlıkla ilişkilendirebilecek hiçbir kanıt bırakmadılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="46.25">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yer değiştiricilerimiz mükemmel bir şekilde çalıştı ve Kozmiti bize ışınladı. Ancak, bir yer değiştirici kendini imha edemedi ve düşman artık bu hırsızlığa karıştığımızın farkında.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="65.5">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir tür yer değiştirme aygıtının kullanılması sonucu büyük miktarda kozmit kaybettik. Ne yazık ki, cihazlar biz onları analiz edemeden kendi kendilerini imha ettiler, bu yüzden onları kimin yerleştirdiği hakkında hiçbir bilgimiz yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.75">
+        <Cell>
+          <Data ss:Type="String">TRANSLOCATE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir çeşit yer değiştirme cihazı kullanarak büyük miktarda kozmit kaybettik. Analiz için cihazlardan birini geri almayı başardık ve kozmit transfer hedefini bir düşman devlete kadar takip ettik.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>45</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>51</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

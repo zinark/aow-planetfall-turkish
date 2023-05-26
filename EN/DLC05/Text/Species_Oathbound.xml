@@ -1,0 +1,696 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2020-08-07T10:01:54Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12789</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="44" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="129" />
+      <Column ss:StyleID="s63" ss:Width="104.14285714285714" />
+      <Column ss:StyleID="s63" ss:Width="409.71428571428572" />
+      <Column ss:StyleID="s63" ss:Width="110.14285714285714" />
+      <Column ss:StyleID="s63" ss:Width="228" />
+      <Column ss:StyleID="s63" ss:Width="85.714285714285708" />
+      <Column ss:StyleID="s63" ss:Width="409.71428571428572" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIES_OATHBOUND</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_SINGULAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Race name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_PLURAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Race name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" ss:HRef="">
+          <Data ss:Type="String">{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT} [br/]  [br/]  [bulletList]  [bullet]  [sand] Başlangıç Bonusu:  [/sand] Başlangıç kolonisinin yakınında ortaya çıkan ekstra arazi [/bullet]  [bullet]  [sand] Uzun Vadeli Bonus:  [/sand] Pozitif İtibar Değiştiricileri %50 daha uzun sürer.  [/bullet]  [bullet] Savaşçılar [hyperlink,0000039E0000000D]Arc [/hyperlink]  tabanlı yakın dövüş saldırıları kullanır [/bullet]  [bullet] Savaşçılar savaş alanını kontrol etmek için olasılığı manipüle eder.  [/bullet]  [bullet] [hyperlink,0000039E0000000D]Arc [/hyperlink]  ve [hyperlink,000003E900000096]Entropy [/hyperlink]  hasar kanallarını kullanın. [/bullet]  [bullet] Irksal Yetenek: Oathbound kahramanlar ekonomik bonuslar için kolonilere bağlanabilir. [/bullet]  [/bulletList] </Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.
+Racial description text</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">hyperlink,000003F600000318]Oathbound[/hyperlink] bilge Kahinler ve onların geleceğe dair öngörüleri tarafından yönetilen feodal bir toplumdur ve düzeni korumak için güçlü savaş kıyafetleriyle onurlu Şovalyelere rehberlik ederler.[br/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Short race description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound Yerleşimi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic map structure name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir yerleşim, yeterli nüfuza sahipseniz size katılabilecek küçük bağımsız bir kolonidir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic map structure description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göç Kolonisi: Oathbound</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic structure operation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloninin nüfusunu Oathbound'a geçirin. Koloni bir Oathbound kolonisi haline gelecektir.[br/][br/][fireCol]Nüfusun göç ettirilmesiyle, kolonideki kolonistlerin {PopulationDeath}'si öldürülecektir. [/fireCol] [br/][br/] Şunları alırsınız:[br/][fireCol]{Reputation} İtibar[br/]{RaceRelation} {STR_raceName}[/fireCol] ile Irk İlişkisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic structure operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni şu anda Oathbound bir popülasyona taşınıyor. İşlem [INT_duration]'de tamamlanacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic structure operation description in progress</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONFIRMATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloniyi bir Oathbound kolonisine taşımak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Warning tooltip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LONG_TERM_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WAR_PER_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşta (Oyuncu)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LONG_TERM_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WAR_PER_NPC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşta (NPC Fraksiyonu)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Scryer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SCRYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Normalde güçlü kuruluşlara güvenmem. Mutlak güç yozlaştırır. Ama ya Oathbound mükemmel bir toplum için mükemmel teknolojiyi keşfettiyse? Evlerimizin etrafında dolaşan Scryer'lara karşı temkinliydim ama sonra kıyma makinesi kullanırken beni uyardı. Güvenlik muhafazasını yanlış monte ettiğim için elimi sosis haline getirdiğimi gösteren bir görüntü gösterdi. Bunun gibi şeyler işte. Tehlike gerçekleşmeden önce beni uyarıyorlar. Hangi baskıcı toplum en alttaki vatandaşlarını kendi aptallıklarından koruyacak kadar önemser? Oathbound benim için sorun değil." - Beaver McSnubbins, "RV-93824C: Görüşler"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_ASPIRANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Aday</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">PALADIN_ASPIRANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Biz Vanguard'ların çoğu Oathbound'a döndü. Maaş aynı ama vatandaşlar size saygı duyuyor. Ben insanlara polislik yapmıyorum, onlara hizmet ediyorum. Yerel düşmanları etkisiz hale getiriyoruz ama ölümcül teknolojiler bile önce sersemletiyor. İlerleme, kontrolü ele geçirecek kadar güç biriktirme yarışından ziyade güvene dayalıdır. Gücü kötüye kullanırken yakalananlar ya ayrılır ya da bir Paladin'in temel görevini yeniden öğrenmek için Aday seviyesine indirilir: Kendinden önce hizmet. Savunmasız nüfusu suistimal ederek sadakatimi kanıtlamamı isteyen yüksek rütbeli çatlaklara yalakalık yapmak yerine masumları koruyorum." - Walter Jones, "RV-246014M: İşe Alım"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WATCHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gözcü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">WATCHER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bu Kahinlerin kaderi tahmin etme yeteneklerini kullanabildiğimizi hayal edin. Açıkçası, bu teknoloji, sihir değil - her ne kadar öyle düşünmenizi isteseler de. Galaktik egemenlikle aramızda duran tek şey bu. Yine de ne yapacağınızı siz yapmadan önce gören birinden nasıl çalabilirsiniz? Düşük seviyeli Gözcüleri bile zayıflıklarımızı görüyor, sürekli öğreniyor ve casusluk girişimlerimizi sürekli kaydediyor. Sonra bizi 'Sıkıntı Laneti' ile vuruyorlar ve sonra da komplolarımızın kendi kendilerine dağılmasını izliyorlar." - Syndicate House Tee'den Leydi Kay, "RV-347223: Kader ve Alınyazısı"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_PROTECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Koruyucu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">PALADIN_PROTECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Onlarca yıl boyunca Spacer vahşetine katlandık. 'Munchies' adını verdikleri bir ritüel için oyun alanlarından topluca inerlerdi. Onların hedonist barbeküleri, korkunç haraçlar olarak talep ettikleri şeylerle kaçamayan aile üyelerimizi tüketti. Oathbound Koruyucuları gelene kadar bizi koruyacak kimse yoktu. Cesur ruhlar yıldırım mızraklarıyla savaştı, hepimizi koruyan kalkanlar taşıdı. Uzaycılar korkunç yapılarını ortaya çıkardılar ama bu sadece savunucularımızı daha sıkı savaşmaları için cesaretlendirdi. Artık Uzaylılar tarafından rahatsız edilmiyoruz. Oathbound bize barış getirdi." - Quarla Arx, "RV-9444490T: Kurtuluş"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+Oathbound and Spacers are an in-game faction
+
+The person of the quote is female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_WARDEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Warden</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PALADIN_WARDEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gerçek inananlardan oluşan bir cemaat gibi, ortak davamızda birleşmiş, birlikte en güçlüyüz. Hepimizin içindeki güce hayranım. Bugün, bir Gardiyan olarak görev yapıyorum. Yayımı geri çektiğimde, gökyüzünde saklanan veya bizi uzaktan vuran düşmanlarıma yıldırım okları gönderiyorum. Düşman etrafımızı sardığında, sancağımı dikerim ve bizi nasıl geride bırakmaya çalışırlarsa çalışsınlar saldırılarını engellerim. Eğer bocalarsam, tekrar bir Aday olabilirim. Kahinlerin öngördüğü gibi olsun. Ne kadar alçakgönüllü olursam olayım, sonsuza dek Yeminliyim."-Müdür Ullen Strig, "RV-030422V: Solemn Devotions"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+Aspirant is a unit as well
+
+The person of the quote is female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AUGUR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Augur</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">AUGUR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Evrenin bir sonu vardır. Kader. Hiç kimse düşmeyecek kadar önemli değildir. Bir kez önemliysen, maddeye geri dönersin. Bizler, Augurlar, Kader'in kavşağına yerleştirilmiş korkuluklarız. Tüy gibi kesinlik, olasılıkla dönen bir entropik kuş sürüsü gibi uçuşur. Elimizi uzatırız. Kaderi değiştirmeyiz. Kıyamet kuzgununa tünemesi için bir yer sağlarız ve sonra bekleriz. Bekleriz. İşte o zaman en savunmasız olduğumuz andır. Augur, Kıyamet tüneyene kadar bekler. Biri yükselebilir, diğeri düşer." - Cortex Chambo, "Kahinleri ve Kâhinleri Eğitmek"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GALLEON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalyon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">GALLEON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gemi suyu bir kuğu gibi yarıyor, pruvası ve omurgası yüksek ve zarif bir şekilde uzanıyordu. Geçerken uğultusunu duyabiliyor ve havadan titreşen enerjiyi çekerken ozonun belirgin kokusunu alabiliyorduk. Yağmacı gemiler, kalyonun Volt Pruvası'ndan mavi şimşekler çakarken dağıldılar. Geminin kendisi bir fırtına gibiydi ve hiçbir gemi ona karşı koymaya cesaret edemedi. Bu yeni gelenleri selamlıyoruz - bu Oathbound'ları. Adaletsizliğin devam etmesine izin vermiyorlar, yalnız denizlerde bile." - Kaptan Mareşal Brightwater, "RV-577753C: Denizcilik Bilgeliği"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_CHAMPION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Şampiyonu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PALADIN_CHAMPION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Savunmamız kırılırken ve bitkin Oathbound inananları kararlılıklarının sınırında sallanırken. Bir şampiyon şimşeklerle donanmış bir şekilde belirdi, üzerimizde çatırdayan yaylar çizerek her bir saç telini bir mıknatıs gibi kendine çekti. Voltlu Büyük Kılıcını her savuruşunda kesin hükümler vererek gökten düşerken haykırdık. O gün asil davamız için savaşmak üzere ayağa kalkan herkes, bir gün bir Şampiyon olarak insanlara hizmet etmeye ve adaletin doğru iradesini yerine getirmeye layık olacağına yemin etti." - Danika Blaze, Paladin Şampiyon Pilotu, "RV-475888M: Neden Hizmet Ediyoruz."</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DIVINER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diviner</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DIVINER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bazıları beni bir kâhin olarak görüyor. Bu yanlış bir yakıştırma. Ben sadece sürekli kaçıyorum. Kâhinler kaos dalgalarındaki dalgalanmaları okurlar. Kaçınılmazlığın görünmez akıntılarını görürler. Nedensellik akışındaki boşlukları, girdapları ve bulanıklıkları algılarlar. Ne olacak, ne olmayacak ya da olamaz. Bir keresinde gerçek bir Kâhinle tanışmıştım ama beni hiç algılayamamıştı. Arkadaşları onu şaka yapmadığıma ikna etmek zorunda kaldı. Kaderden kaçma konusunda her zaman iyi olduğumu biliyordum. Belki de benim kaderim budur: kadersiz olmak." - Mah Reg'Nib, "RV-00004300T: Kahinler ve Orioller"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_EXEMPLAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Örneği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">PALADIN_EXEMPLAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Efsanelerdeki bir savaş tanrısı gibi, makine tebaasını korumak için yükseldi. Düşman onu kuşattı ama kalkanları açıldığında atışlar iyi inşa edilmiş bir çatıda yağmur gibi çınladı. Belki de bu kadardır diye düşündük, ta ki devasa elektrikli glaive silahıyla bir düşman topçu birliğini vurana kadar. Devasa titan bir anda düşmanın savunmasını paramparça ederek geri çekilmelerine neden oldu. Oathbound Exemplar, bu yeni gelenlerin ideallerini hoş sözlerden daha fazlasıyla savunacaklarını açıkça kanıtlıyor." - General Otis Falk, Horde Kaptanı. "RV-422241M: Oathbound Kuvvet Değerlendirmeleri"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_WARLORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Savaş Lordu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PALADIN_WARLORD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Kendinizi büyük ve yetkili hissetmenizi sağlasa bile, mekanize zırhlı giysilerden hiç hoşlanmadım. Sadece Paladin Savaş Lordu'nun Volt Dalgalanmasının bir oyuncak olmadığını, düşman kümelerine ark enerjisi verdiğini bilin. Ayrıca, bu ikiz baltalar oduncu fantezilerini yaşamak için tasarlanmamıştır. Şarjlı baltalar ağaçların patlamasına neden olarak kerestenin değerini tamamen yok eder. Bunu hiç denediğimi kabul etmiyorum-Oathbound ekipmanlarını kime emanet ettikleri konusunda çok ciddidirler." - Mah Reg'Nib, "RV-9110066T: Kahinler ve Orioller"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_MARQUIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Marquis</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">PALADIN_MARQUIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İçindeki hayvan içgüdüleriyle yaşar. Tüm beden yeminleri unutur. Yeminli kişi başkalarını erdemli yapamaz. Yeminli Onur'a giden yol asla zorlanmaz. Erdem kişisel bir seçimdir. Biz ruha değişim için ilham veririz, daha büyük vizyonları arzularız. Adalet ceza değildir. Şovalyeler Marki'lerine bindiklerinde, sancaklarını dalgalandırdıklarında ve onurun ilahilerini seslendirdiklerinde, hepimiz gücümüzü hatırlar ve yeniden kazanırız. Her alçak vadiye ve her iklime şovalyelerle gidin. Her kulak görkemli haberi duyana kadar yolculuk edin: kendimizi özgürleştirebiliriz." - Tedora Publia RV-453009E: Paladin Şair"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PLANET_ARRIVAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahinlerinizin rehberliğinde, görevinizde tereddüt etmeyeceğinizden emin olmalısınız.[br/][br/]Emriniz altındaki seçkin ve adil Şovalyeler tarafından kullanılan savaş kıyafetleri halkınıza ilham verecek ve soyunuzu tehdit edenlerin aklına korku salacak. Oathbound olarak, izole edilmiş mükemmel bir toplumun tadını çıkardınız, ancak şimdi bu vahşi zamanlarda lütuftan düşmüş olanları aydınlatmanın zamanı geldi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person that speaks this is a Seer female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BANNER_OF_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruma Sancağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="195">
+        <Cell>
+          <Data ss:Type="String">BANNER_OF_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Oathbound güç anomalisini değerlendirin. Gözlem: Tek bir Oathbound Sancağı zayıfları güçlendiriyor. Q1: Güç kumaşta mı yoksa üzerine işlenmiş sözcüklerde mi saklı? A1: Bilinmiyor. S2: Sadece standartlarını alenen sergilemek gücü nasıl iletir? A2: Bilinmiyor. S3: Bu hüner nereden kaynaklanıyor (ya da) karşı soru: başından beri içlerinde miydi? A3: Savurgan. Verimsiz. Neden her zaman kullanmıyoruz? Risk Değerlendirmesi: Ya bu güç Montaj öznesi yaratma sürecinde daha düşük protezlerle değiştirildiyse? Hafifletme: bilinmiyor." - Asamble Tehdit Değerlendiricisi, "RV-332876X: Aşağılık Kompleksi"</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Structured like a question and answer list
+
+The person of the quote is male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_LIGHT_BRINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Işık Getiren</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_PURIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Arındırıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PALADIN_ECHO_WALKER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Echo Walker</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>6</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>19</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,1429 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <LastSaved>2020-03-19T09:13:12Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10125</WindowHeight>
+    <WindowWidth>18240</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#333333" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#333333" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="102" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="288.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="158.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="104.25" />
+      <Column ss:StyleID="s62" ss:Width="402.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="283.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">INVASION</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer'ların İstilası</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Title of an event. The Voidbringers are an in-game faction of evil aliens attacking the planet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INVASION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yer tutucu açıklama istilası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="34.5">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_EARLIEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">En erken</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="32.25">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_EARLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Erken</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_NORMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Normal</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_LATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geç</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_LATEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">En son</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila {turn} dönüşü civarında gerçekleşecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Elaboration of the above.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INVASION_SETTING_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION_RANDOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila rastgele seçilen bir turda gerçekleşecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORESHADOWING_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tanımlanamayan Bir Güç</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Title of an event.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORESHADOWING_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğumuzun yakınlarında tanımlanamayan bir düşman gücü rapor edildi. Kökenleri hakkında daha fazla bilgi edinmek için onlarla ilgilenmeliyiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Description of an event.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORESHADOWING_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşaret Fenerinin İnişi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Title of an event.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORESHADOWING_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Voidbringer İşaretçisi indi ve bütün bir sektörü yok etti. Etrafında aşılmaz bir bariyer var gibi görünüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Description of an event.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INVASION_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila Başlıyor</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Title of an event.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">INVASION_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünyanın her yerinde, görünüşe göre yakın zamanda inen İşaretçi tarafından çağrılan gizemli parçalar yüzeye düştü.[br/][br/]Bu parçalardan Voidbringer yaratıkları ortaya çıkıyor. Onlarla birlikte, tamamen Voidbringer efendilerine bağımlı olan Efsunlanmış birimlerden oluşan ordular da ortaya çıkıyor.[br/][br/]Eğer bir şansımız olmasını umuyorsak, Beacon'a baskın yapıp onu yok etmeden önce bu Voidbringer Yumurtlayanlarından yeterince yok etmeliyiz ki Beacon savunmasız kalsın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Description of an event.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_BEACON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer Beacon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_BEACON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dünya dışına sinyaller gönderiyor gibi görünen gizemli, beliren bir işaret.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Structure description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_SPAWNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer Yumurtlayıcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Structure name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_SPAWNER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer birimlerini taşıyan bir gemi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Structure description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_JOIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer Talep</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event title where the Voidbringers demand you join their cause</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_JOIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sanki zihninizi istila ediyormuş gibi, Voidbringer'lardan biri size yaklaşıyor.[br/][br/]Bu dünyayı yok etmek için fetihlerinde onlara katılma dürtüsü hissediyorsunuz.[br/][br/][abilityred]Voidbringer'lara katılmak, imparatorluğunuza saldırmalarını engelleyecektir. Bu, Voidbringers'a katılan tüm Komutanlarla ittifaklar ve katılmayanlarla savaş yaratır.[abilityred/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event text where the Voidbringers demand you join their cause</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_JOIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JOIN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teslim olun ve katılın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reply button</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_JOIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JOIN_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringers'a katılacaksın. Bu, tüm NPC Grupları ve Voidbringers'a katılmamış herhangi bir Komutan ile anında savaşı tetikleyecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reply button tooltip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_JOIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESIST_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direnin ve savaşın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reply button</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DARKVOID_JOIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESIST_TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer'lara katılmayacaksın ve onlarla savaşmak zorunda kalacaksın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Reply button tooltip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psiyonik Form</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Voidbringers form name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48.75">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu formdaki Voidbringer'lar Psionik yeteneklere büyük ölçüde yaslanır. Biyokimyasal hariç tüm hasar kanallarına karşı dirençlidirler. Bu Voidbringer'ların Thrall'ları çoğunlukla Psionik yeteneklere sahip birimlerdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Formu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Voidbringers form name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu formdaki Voidbringer'lar büyük ölçüde Ark yeteneklerine dayanır. Psionik hariç tüm hasar kanallarına karşı dirençlidirler. Bu Voidbringer'ların Thrall'ları çoğunlukla Ark yeteneklerine sahip birimlerdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyokimyasal Form</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Voidbringers form name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu formdaki Voidbringer'lar büyük ölçüde Biyokimyasal yeteneklere dayanır. Termal hariç tüm hasar kanallarına karşı dirençlidirler. Bu Voidbringer'ların Thrall'ları çoğunlukla Biyokimyasal yeteneklere sahip birimlerdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Form</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Voidbringers form name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu formdaki Voidbringer'lar büyük ölçüde Termal yeteneklere dayanır. Ark hariç tüm hasar kanallarına direnç gösterirler. Bu Voidbringer'ların Thrall'ları çoğunlukla Termal yeteneklere sahip birimlerdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAYER_JOINED_DARKVOID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName} Voidbringer'lara katıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">a player joined the Voidbringers invasion</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPAWNER_SPAWNED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringers Spawner indi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">event title for when a spawner landed</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPAWNER_WARNING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarı! Voidbringers Spawner bırakma konumu tespit edildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Event title for when a spawner is about to land</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Black Mindbreakers</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Psionic form as much as possible</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psi-Rending Derebeyleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Hollow Thoughtrippers</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Willbenders</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öteki Dünyadan Çarmıha Gerenler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğaüstü Okült</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlığın Habercileri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akıl Almaz Derinlikler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiçliğin Yırtığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eons'un Yükselenleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_PSIONIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_11</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaşam Yükü Kurtarıcıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Thundercallers</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Arc form as much as possible</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonsuzluğun Şarjörleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fırtınanın Çağırıcıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siklonların Efendileri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Galvanik Aklayıcılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zincirsiz Yıldırım</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldırım Parçaladı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voltaik Mesihler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gök Gürültüsü Kanalları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_ARC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcbound Yıkıcıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehirli Karanlık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Biochemical form as much as possible</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehirli Terör</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehirli Sızıntılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Asidik Kurtarıcılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zararlı Spacerender'lar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehirli Saygıdeğer</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Zehir Salgını</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saygıdeğer Plagueswarm</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsal Blightrain</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_BIOCHEMICAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önceden Haber Verilen Acı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateş Fırtınası Efendileri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Thermal form as much as possible</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alev Konveyörleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Çatışma</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Everblaze Haçlıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonsuz Cehennem</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Searsong Burnbearers</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsal Ateş Babaları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kavurucu Derinlikler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meşale Taşıyıcıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORM_THERMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_NAME_10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Charscorn Yıkıcıları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BEACON_SHIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beacon kalkanı hasar gördü!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of an event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FORESHADOW_KILLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tanımlanamayan güçler yenilgiye uğratıldı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of an event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="99">
+        <Cell>
+          <Data ss:Type="String">FORESHADOW_KILLED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldıran gücün tanıdık birimler olduğu ortaya çıktı. Artık 'Voidbringers' olarak adlandırılan bilinmeyen, vahşi yaratıklar tarafından büyülendiler.[br/][br/]Voidbringers'ın gelen alt grubuna, onlar tarafından büyülenmiş olanlar tarafından '{STR_InvasionName}' adı verildi. Bu, istilacıların üzerimize getireceği hasar kanalının bir göstergesi olmalıdır.[br/][br/]Ordularımızı bu Voidbringer'ların yaklaşan istilasına hazırlamalıyız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Description of an event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BEACON_SHIELD_DAMAGED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beacon kalkanı hasar gördü!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of an event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BEACON_SHIELD_BROKEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EVENT_TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beacon kalkanı artık kırıldı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of an event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="87" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INVASION_BEATEN_POPUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringerlar yenildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Header of a story event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="76.5">
+        <Cell>
+          <Data ss:Type="String">INVASION_BEATEN_POPUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer Beacon yok edildi ve Voidbringer'ların bu dünyaya daha fazla erişmesi engellendi.[br/]Aetrafımızda harap olmuş, birleşik imparatorluklar tarafından umutsuzca onarılmaya ihtiyaç duyan bir dünya var.[br/][br/]Diğer imparatorlukları birleştirip bu dünyayı yeniden inşa ederek şimdi zafer mi kazanacağız yoksa Voidbringer istilasından önce olduğu gibi fetihlerimize devam mı edeceğiz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Content of a story event</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INVASION_BEATEN_POPUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">END_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zaferi Talep Edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Button text</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INVASION_BEATEN_POPUP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CONTINUE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oyuna Devam Et</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Button text</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="92" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISABLED</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">İstila yenilgiye uğratılana kadar devre dışı bırakıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Text for all victory conditions when they are disabled</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="94" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidbringer Operasyonları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story event message header</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="50.25">
+        <Cell>
+          <Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BODY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artık Voidbringer'ları yardımına çağırabilirsin![br/][br/]Direnişe saldırmak üzere bir Voidbringer Spawner'ı çağırmak için Spawner'ı Çağır'ı kullan![br/][br/]Kontrolün altındaki Voidbringer birimlerini çağırmak için Voidbringer'ları Çağır'ı kullan!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story event message body</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="97" ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JOIN_WARNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Voidbringer'lara katılacak ve onlara katılmamış tüm Komutan ve NPC Fraksiyonlarıyla bir savaşı tetikleyeceksiniz. Voidbringer'ları yardımınıza çağırmak için iki özel operasyon elde edeceksiniz.[br/][br/]AOnlara katılmak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Warning event message</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="35.25">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RESIST_WARNING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Voidbringer'lara direnecek ve onlara karşı savaşacaksınız.[br/][br/]AOnlara direnmek istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Warning event message</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BLOCKED_QUESTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila devam ederken hiçbir görev verilmeyecektir!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="36.75">
+        <Cell>
+          <Data ss:Type="String">DIFFICULTY_SETTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EASY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila sırasında savunma yapan ve dolaşan düşmanların gücünü ve miktarını azaltır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Difficulty setting tooltip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="41.25">
+        <Cell>
+          <Data ss:Type="String">DIFFICULTY_SETTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NORMAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila sırasında savunma yapan ve dolaşan düşmanların normal gücü ve miktarı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Difficulty setting tooltip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="36">
+        <Cell>
+          <Data ss:Type="String">DIFFICULTY_SETTING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila sırasında savunma yapan ve dolaşan düşmanların gücünü ve miktarını artırır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Difficulty setting tooltip</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>90</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>106</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

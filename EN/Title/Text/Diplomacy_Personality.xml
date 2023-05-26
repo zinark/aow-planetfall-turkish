@@ -1,0 +1,835 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>ThomM</LastAuthor>
+    <Created>2018-05-01T08:33:50Z</Created>
+    <LastSaved>2020-02-19T12:59:26Z</LastSaved>
+    <Version>12.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14265</WindowHeight>
+    <WindowWidth>28770</WindowWidth>
+    <WindowTopX>32760</WindowTopX>
+    <WindowTopY>32760</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="61" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="129.75" />
+      <Column ss:StyleID="s62" ss:Width="182.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="334.5" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="262.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DIPLOMACY_PERSONALITY</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PERSONALITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kişilik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIDDEN_BEHAVIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Strateji Özelliği (Gizli)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the interface when the Strategy trait has not been discovered yet and is currently hidden.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HIDDEN_BEHAVIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu özellik gizlidir. Bu özelliği ortaya çıkarmak için bu oyuncunun içine sızın veya bir istihbarat paylaşım anlaşması yapın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIDDEN_PREFERENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tercih Özelliği (Gizli)</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shown in the interface when the Preference trait has not been discovered yet and is currently hidden.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HIDDEN_PREFERENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu özellik gizlidir. Bu oyuncunun içine sızın, bir istihbarat paylaşımı anlaşması yapın veya bu özelliği ortaya çıkarmak için tercihlerini tetikleyin. [br/][br/]Aşağıdaki eylemlerden biri aracılığıyla diğer oyuncuyla diplomasi yaparken de özelliklerini ortaya çıkarma şansı vardır: [br/][bulletList][bullet]Ticaret yapmak[/bullet][br/][bullet]Onlara hakaret etmek\onları övmek[/bullet][br/][bullet]Kınama veya uyarı göndermek[/bullet][/bulletList]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Warmonger</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş kışkırtıcısı daha agresif bir oyun tarzı oynar ve araştırmalarını ırklarına özgü silahlara ve birimlere odaklar. Daha fazla birim inşa etmek için koloni üretkenliklerini artırmayı hedeflerler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_MERCANTILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ticaret</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_MERCANTILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüccar oyuncular daha barışçıl ve işbirlikçidir, imparatorluklarını üretim ve enerjiye odaklarlar. Diğer oyuncular ve NPC gruplarıyla daha iyi anlaşmak için nüfuz gelirlerini artırmayı hedeflerler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_TECHNOLOGIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknolog</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_TECHNOLOGIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknoloji uzmanı, araştırmalarını gizli teknolojilerini geliştirmeye, bu türden birimler inşa etmeye ve kıyamet günü silahlarına ulaşmaya odaklanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_OPERATIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_OPERATIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör, diğer oyuncuları gözetlemek ve imparatorluklarını ortaya çıkarmak için gizli operasyonlar düzenler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_GENERALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genel Uzman</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_GENERALIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Genelci belirli bir odağa sahip değildir ve dengeli bir oyun tarzı kullanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_XENOPHILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenophile</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_XENOPHILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluklarında farklı etnik kökenleri barındıran oyuncularla çalışmayı sever ve yerleşimlerin yardımına koşarken onları imparatorluklarına kabul etme olasılığı daha yüksektir. Yerleşimlere yardım eden oyuncuları ve NPC gruplarıyla iyi ilişkileri olan oyuncuları sever.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_XENOPHOBE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yabancı Düşmanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_XENOPHOBE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Monokültür bir imparatorluğu tercih eder ve kolonileri kendi toplumlarına göç ettirmeye daha yatkındır. NPC gruplarıyla savaş halinde olan oyuncuları sever.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_TOPDOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elitist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_TOPDOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek kabiliyet sıralamasına sahip olanlarla arkadaş olun ve yüksek kabiliyet sıralamasına sahip oyunculara ulaşmaya ve onlarla arkadaş olmaya daha hevesli olun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_COMPASSIONATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şefkatli</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_COMPASSIONATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük yetenek sıralamasına sahip olanlarla arkadaş olun ve düşük yetenek sıralamasına sahip oyunculara ulaşmaya daha hevesli olun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_MILITARIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Militarist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_MILITARIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek savaş derecesine sahip oyuncularla ve düşük üne sahip oyuncularla uğraşmayı tercih eder. Diğer oyuncuları yenmiş oyuncuları sever.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_PACIFIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pasifist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_PACIFIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük savaş sıralamasına sahip oyuncularla ve yüksek itibara sahip oyuncularla uğraşmayı tercih eder. Diğer oyuncuları yenmiş oyunculardan hoşlanmaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_LOYAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sadık</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_LOYAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Antlaşmalara bağlı kalmayı tercih eder ve antlaşmaları bozma olasılığı düşüktür; antlaşmaları bozanları ise sert bir şekilde yargılar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_TREACHEROUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hain</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_TREACHEROUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu oyuncunun mesajları her zaman gerçek niyetini göstermeyebilir. İlişkileri bozma olasılığı daha yüksektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_RUTHLESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acımasız</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TRAIT_RUTHLESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaşa girmek için çok az nedene ihtiyaç duyar ve genellikle ölümüne savaşır. Casus Belli daha büyük bir fikir cezasını tetikler. Yerleşimlere yardım etmekten hoşlanmaz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_GOOD_NPC_RELATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC gruplarıyla iyi ilişkileri sever.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_GOOD_NPC_RELATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC gruplarıyla iyi ilişkilerden hoşlanmaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_BAD_NPC_RELATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC gruplarıyla savaşları sever.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_BAD_NPC_RELATIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NPC gruplarıyla savaşlardan hoşlanmaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_PLAYER_WAR_TREACHEROUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş fırsatı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_MULTI_ETHNIC_EMPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok ırklı imparatorlukları sever</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_MULTI_ETHNIC_EMPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok ırklı imparatorlukları sevmez</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_MONO_ETHNIC_EMPIRE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tek ırklı imparatorlukları sever</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_HIGH_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek kapasite sıralamasını sever</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_HIGH_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek kabiliyet sıralamasından hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_LOW_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük kapasite sıralamasını sever</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_LOW_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük kapasite sıralamasından hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_HIGH_MILITARY_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek askeri kabiliyet sıralamasını seviyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_HIGH_MILITARY_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüksek askeri kabiliyet sıralamasından hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_LOW_MILITARY_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük askeri kabiliyet sıralamasını seviyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_LOW_MILITARY_CAPABILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşük askeri kabiliyet sıralamasından hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_NOT_BREAKING_TREATY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiçbir anlaşmayı bozmamış olmayı seviyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_BREAKING_TREATIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir anlaşmayı bozmayı seviyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_BREAKING_TREATIES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir anlaşmayı bozmaktan hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_DEFEATING_PLAYERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer oyuncuları yenmeyi sever</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_DEFEATING_PLAYERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer oyuncuları yenmekten hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_HELPING_SETTLEMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşimlere yardım etmeyi seviyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_HELPING_SETTLEMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim yerlerine yardım etmekten hoşlanmaz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LIKE_ATTACKING_SETTLEMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim yerlerine saldırmayı seviyor</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_ATTACKING_SETTLEMENTS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerleşim yerlerine saldırmayı sevmez</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DISLIKE_CASUSBELLI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casus Belli Hakkında Bağışlayıcı Olmayan</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>5</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

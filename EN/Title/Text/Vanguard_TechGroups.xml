@@ -1,0 +1,866 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Tom Bird</LastAuthor>
+    <LastSaved>2020-08-27T11:33:16Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12789</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="67" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="230.57142857142858" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="199.71428571428572" />
+      <Column ss:StyleID="s62" ss:Width="156" />
+      <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.85714285714283" />
+      <Column ss:StyleID="s62" ss:Width="228.85714285714283" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">EXPEDITIONAIRYWARFARE_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VANGUARD_SKILLS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Vanguard</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NANITE_SUPPORT_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Nanit Destek İstasyonu</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NANITE_SUPPORT_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Savaş alanına bir Nanit Destek İstasyonu bırakır. Nanit Destek İstasyonu, tüm komşu birimlere [abilityblue]Obscured[/abilityblue] veren yerleşik bir bulanıklık alanına sahiptir. Ayrıca istasyon, her turun başında bitişiğindeki tüm dost birimleri {MedicalHealAmount} iyileştirir. Nanit Destek İstasyonu yok edilebilir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NANITE_SUPPORT_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Her turunun başında {NaniteSupportHeal} karşılığında komşu birimleri iyileştirmek için destek nanitleri gönderir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEPLOY_AUTOTURRETS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ağır Fırlatıcı Tareti</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEPLOY_AUTOTURRETS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Çatışmaya bir Ağır Fırlatıcı Tareti konuşlandırır. [br/][br/] Taret {TurretDamage} [damagephysical/] etki alanı hasarı verir ve savaşın sonuna kadar sürer.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">INFERNO_DROP_POD</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Valkyrie'yi konuşlandırın</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">INFERNO_DROP_POD</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Bir yörüngesel atlama kapsülü hedef konuma iner ve çarpma konumunun etrafındaki 1 hektar yarıçaplı etki alanındaki birimlere {damage} ile [abilityred]High Impact[/abilityred] hasar verir. Atış kapsülü siper olarak açılır. Atma kapsülü, savaşın sonuna kadar süren bir Valkyrie birimi içerir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DIRECT_COMMAND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Doğrudan Komut</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DIRECT_COMMAND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Doğrudan Komut</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DIRECT_COMMAND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">INSPIRED_EFFECT_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Doğrudan Komutlu</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DIRECT_COMMAND</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">INSPIRED_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Doğrudan Komutlu</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Savaş Destek Sistemi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Hedef birime yardımcı olması için bir CAS drone'u gönderin. Drone tüm olumsuz durum etkilerini temizler ve aktif olduğu süre boyunca {CombatDuration}'ye kadar {CombatShields} sağlar.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Birim geçici olarak CAS drone operasyonundan +{CombatShields} kalkanına sahiptir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="23" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_RECON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acil Durum Kurtarma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_RECON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acil durum keşfi sağlamak için koloni rezervlerinden bir OWL konuşlandırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_RECON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni rezervlerinden bir OWL konuşlandırıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECURITY_DRONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güvenlik Dronları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SECURITY_DRONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güvenlik dronları koloninin etki alanında aktiftir. Dost ordular bu alanda savaştığında, {AmountUnitsSpawned} Dronlar savaşta onlara yardımcı olur.[br/] Dronlar savaşın sonunda kaybolur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SECURITY_DRONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bölgenin savunulmasına yardımcı olmak üzere insansız hava araçları konuşlandırılmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUNKER_BUSTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunker Buster</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">BUNKER_BUSTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunker Buster bombasıyla bir düşman kolonisini veya ordusunu hedef alın. Bir koloni etkilenirse, varsa bir Askeri Altyapı veya Savunma Kulesi binasını yok eder ve bir ordu etkilenirse, o hex'teki tüm birimlere {KineticDamage} hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BUNKER_BUSTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Bunker Buster'ı bir hedefe başarıyla bıraktık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BUNKER_BUSTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunker Buster hedefini ıskaladı ve işe yaramaz hale geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BUNKER_BUSTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız bizi bir Bunker Buster ile hedef aldı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BUNKER_BUSTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız bizi bir Bunker Buster ile hedef almaya çalıştı, ancak hedefin dışına çıktı. Bu durum vatandaşlarımızı endişelendirmeye devam ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörüngesel Lazer Topu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen ordunun [hp/]'sinin {damage}'sine eşit hasar verir. Bir koloni merkezi hedef alınırsa, {ColonistsKilled} kolonist öldürür ve {TurnDuration} için koloni mutluluğunu {HappinessIncome} azaltır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörüngesel Lazer Topu hedefine ağır hasar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörüngesel Lazer Topu hedefe sadece kısmen hasar vermiştir. Topun gücü karşısında dirençli olduklarını kanıtladılar ve ruhları hiç azalmadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuz bir Yörüngesel Lazer Topu tarafından hedef alındı ve ağır hasar gördü.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuz bir Yörüngesel Lazer Topu tarafından hedef alındı, ancak birlikleriniz en kötüsünden kaçınmayı başardı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{TurnDuration} için mutluluğu {HappinessLowered} kadar azaltır</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu {Damage} hasar gördü.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="35.464285714285715">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_LASER_CANNON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, hedeflenen ordu {Damage} hasarı alır</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tedarik Düşüşü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost ordu, Vanguard destek dronları tarafından yeniden tedarik edilir, onları tam [hp/]'ye kadar iyileştirir ve bir sonraki savaşın sonuna kadar hasarlarını {DamageIncrease} artırır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuza yeniden ikmal yapıldı. Güçleri yenilendi ve harekete geçmeye hazırlar!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tedarik Edildi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, çatışma sonuna kadar {DamageBonus} artırılmış hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING_HEAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilenen birimler tam [hp/]'ye sahiptir</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SUPPLY_DROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilenen birimler bir sonraki çarpışmalarının sonuna kadar {DamageIncrease} artan hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FRONTIER_SURVIVAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sınırda Hayatta Kalma</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">FRONTIER_SURVIVAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öncü birlikler uzak dünyalara gönderildikleri sürece, yeni malzemeler yoldayken kendilerini idame ettirmek üzere eğitilmişlerdir. Sonuç olarak ordu, kolonilerinizdeki [br/][br/]{FoodIncome} gıda tüketimini korumaya ve kontrol etmeye yardımcı olmaktadır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">COLONY_MILITA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Milisleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="189">
+        <Cell>
+          <Data ss:Type="String">COLONY_MILITA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nüfus silahlanmış ve hazır. Doğrudan koloni milislerimizden asker toplamak, eğitim süresini kısaltarak sahaya daha hızlı asker çıkarmamızı sağlar. [br/]  [br/] Kolonilerinizdeki tüm birimlerin üretim maliyeti  {ProductionCost1}  azalır. Buna ek olarak, koloninizdeki her Askeri Altyapı veya Savunma binası için üretim maliyeti fazladan bir  {ProductionCost2}  daha azalır. [br/]  [br/]  [firecol] Birim maliyetleri asla %75'ten fazla düşürülemez. [/firecol] </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">COLONY_MILITA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler için {productionBonus}[production/] maliyet, artı kışla veya savunma binası başına {extraBonus}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INTEGRATED_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Küresel Entegre Destek</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">INTEGRATED_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlı müdahale ve konuşlandırma için operasyon ağımızı küresel düzeyde genişletin[br/][br/]Savaşın ilk turundan itibaren Taktiksel Operasyonlar gerçekleştirebilir ve {NumTacticalPoints}[castingtactical/] ve {NumStrategicPoints}[casting/] kazanabilirsiniz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEARTS_AND_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalpler ve Zihinler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HEARTS_AND_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğal karizmamızı ve liderliğimizi kullanarak nüfusları daha hızlı pasifize edebiliriz.[br/][br/]+{InfluenceIncome} Görevleri tamamlayarak kazanılır. Ayrıca, kolonileri özümsemek {AbsorbtionSpeed} daha hızlıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HEARTS_AND_MINDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{InfluenceIncome} Görevleri tamamlamak için etki.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIG_STICK_DIPLOMACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Sopa Diplomasisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="124.5">
+        <Cell>
+          <Data ss:Type="String">BIG_STICK_DIPLOMACY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barışı getirmek için askeri tehditlerden yararlanabiliriz.[br/][br/]Savaş başlatmak artık itibar cezaları vermiyor ve artık negatif bir itibarımız olduğunda diğer oyuncular bize karşı [casusBelli/] almayacak.[br/]Ayrıca, bu doktrin aktifken {reputation}[reputation6/] itibar ve {popularSupport} Halk Desteği kazanıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_CONQUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Fetih</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_CONQUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askeri başarımızı ilan etmek halkı yenilmez olduğumuza, nihai zaferin ufukta göründüğüne ikna eder.[br/][br/]Bu Doktrin aktifken fazladan bir {PopularSupportIncrease} Halk Desteğiniz var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHOCK_AND_AWE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şok ve Huşu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="130.28571428571428">
+        <Cell>
+          <Data ss:Type="String">SHOCK_AND_AWE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlayıcı silahları ikincil rolden birincil role taşımak için askeri doktrinimize yeniden odaklanın.[br/][br/]ABirimlerinize yapılan tüm patlayıcı saldırılar {AccuracyBonus} isabet, {DamageBonus} hasar ve bir ekstra [abilityred]Sarsıcı Etki[/abilityred] seviyesi kazanır.[br/][br/]El bombası saldırıları da {RangeBonus} menzil kazanır.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>60</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>70</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

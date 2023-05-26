@@ -1,0 +1,1169 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Michelle Kusters</LastAuthor>
+    <LastSaved>2020-01-15T09:24:27Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Center" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="110" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="240" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="312.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="210" ss:Span="1" />
+      <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="312.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DWELLING_QUESTEMPIRE</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The Paragon speak with a very formal tone, upper class, elitest society. Highly educated, very sophisticated.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DEFAULT_RESPONSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne büyük hayal kırıklığı. Bu meseleyi zaten kendimiz hallettik. Artık yardımınıza ihtiyacımız yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="9" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uygarlığın Siperi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluk muhafızları parçalanıyor. Plebler vahşi doğalarına teslim oldular. Medeniyetimizin son kalesinde düzeni sağlamamıza yardım edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon'un Düşmanlarını Yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize yardım ettiğiniz için teşekkür ederiz. Ödülünüz sizi bekliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="14" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmplant Kapkaççıları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Korsanları Yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir grup korsan Paragon bedenlerinden implantları söküp çıkarıyor. Bu korkaklar genellikle savunmasız kriyo-uyuyanları hedef alıyor ve onları avam olarak ölüme terk ediyor. İmplantlar bize Yıldız Birliği'nin yeniden dirilişi için ihtiyacımız olan yetenekleri veriyor. Bu hırsızları takip edin ve öldürün.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çabalarınız sayesinde bir kez daha güvenle uyuyabiliyoruz. Tüm kavgacı akrabalarımız artık mezarlarına dönebilir. Size minnettarız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="19" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vandallar Kudurmuş Durumda</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon'un Düşmanlarını Yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük anıtlarımız ve sanat eserlerimiz bir dizi düşmanı cezbediyor. Rafine yöntemlerimiz vahşi zihinlerde öfkeyi tetikliyor, sanki anlamadıkları şeyleri parçalamak dünyayı onlar için doğru hale getiriyormuş gibi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sayenizde davetsiz misafirler yok edildi. Ödülünüz sizi bekliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="24" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahte Peygamber</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman Paragon'u yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir gaspçı ortaya çıktı, yeni İmparator gibi davranarak halkı kışkırtıyor. Sadece tek bir gerçek İmparator vardır ve Yıldız Birliği'ni bize geri verecektir. Bu kafiri ve çürümüş implantından saçtığı sahte vaatleri durdurun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Emperor" refers to the Emperor of the Star Union.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sayenizde, bir şarlatan tarafından yürütülen büyük bir ayaklanmayı durdurduk. Size en içten şükranlarımızı sunuyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="30" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zamanın Yıkımları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon için Protez Yedeklerini Yapın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin son mirasçıları olarak, atalarımızın kültürel ve teknolojik mirasını korumak Paragon'un birçok görevinden biridir. Karanlık Çağ'ın çöküşüne tanık olduk ve bu çürümüş çağda hala bilgili ve medeni insanların var olabileceğini gösteren az sayıdaki kişiyi desteklemeye kendimizi adamalıyız. Asıl soru şu: {STR_LeaderName}, sen de onlardan biri olacak mısın?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Dark Age" refers to the Cosmic Dark Age of the Star Union.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zaferlerimizde bile bize solmakta olan mükemmelliğimizin hatırlatılması bir zalimliktir. Yine de, bizim ve Valimiz {STR_LeaderName}'nin minnettarlığına sahipsiniz. Eski İmparatorların dönüşünü görecek kadar yaşamanız dileğiyle!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"Prefect" refers to the leader of the Paragon.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Protez Değişimleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragonlar yavaş yavaş çürüyor. Arızalanan implantlarını değiştirmek için yedek vücut parçalarına ihtiyaçları var.[br/][br/]Paragon tarafından size verilen bir görevi tamamlamak için bu özel üretim projesini tamamlayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="37" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veren El</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon için Lüks Ürünler Üretin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu yaşamda, bu gerçeklikte cenneti deneyimlemek üzere seçildik. En iyi şarapları tattık, altın kadehlerden içtik ve en pürüzsüz ipekleri giydik. Bunlar size yüzeysel şeyler gibi görünebilir, ancak ince duyularımız için daha azı işkencedir. Tanrımız bizi terk etti. Yaşam standardımızı Paragon idealine yükseltmemize yardım edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"God" refers the the Emperor of the Star Union.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cömertliğinize kadeh kaldırıyoruz. Yeni bir kurtarıcı bulduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lüks Ürünler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragonlar bir zamanlar Yıldız Birliği toplumunun üst kademelerinde yer alan insanlardı. Onlara bu konforlardan bazılarını tekrar sağlamamız için bize güveniyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="45" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onursuz Hırsızlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korsan İnini Yok Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hırsızlar! Hainler! Aşağılık pislikler! Hayır, sen değil, {STR_LeaderName}. Son zamanlarda yerleşim yerlerimizde terör estirmeye başlayan küçük korsan grubundan bahsediyoruz. Onlar onursuzca savaşıyor, teknolojimizi çalıyor ve vazgeçilmez implantları için vatandaşlarımızı yağmalıyorlar. Bu tehditle başa çıkmanız halinde, Valimiz sizi cömertçe ödüllendirecektir!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sefil saygısızların adalete teslim edildiğini görmek çok tatmin edici. Size minnettarız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="50" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğayı Geri Kazanmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaban Hayatı Yuvasını Yok Edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Önce yollarda yabani otlar belirdi. Sonra parklar kendi sınırlarının dışına taşmaya başladı. Şimdi de vahşi hayvanlar büyük bulvarlarımızı yağmalıyor. Doğanın saldırısını durdurmamız gerekiyor! Bu canavarları yok edin ki medeniyet gelişebilsin.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Medeniyetin doğanın aşırı büyümesine karşı zafer kazandığını görmek ne kadar muhteşem. Hizmetiniz için teşekkürler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="56" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Medeni Komşular</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Paragon için Treatise Civilis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin son mirasçıları olarak, atalarımızın kültürel ve teknolojik mirasını korumak Paragon'un birçok görevinden biridir. Karanlık Çağ'ın çöküşüne tanık olduk ve bu çürümüş çağda hala bilgili ve medeni insanların var olabileceğini gösteren az sayıdaki kişiyi desteklemeye kendimizi adamalıyız. Asıl soru şu: {STR_LeaderName}, sen de onlardan biri olacak mısın?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halkınızın bilgelik yolundaki ilk adımları, bu cehalet çölündeki su damlacıkları gibidir. Senin için henüz umut var, {STR_LeaderName}! Bu hediyeleri desteğimizin bir nişanesi olarak kabul edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Treatise Civilis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kültürel, moral ve felsefi konular ve bunların nasıl ele alınacağına dair bir özet.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="63" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yer Hizmetleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaklaşan Büyümeyi Budayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir zamanlar bakım görevlilerimiz geniş ve güzel bahçeler tutarlardı. Bu topraklar bir cennetti. Şimdi ise ağaçlar bile bizden nefret ediyor gibi görünüyor. Özellikle iğrenç bir yabani ot yığınının yok edilmesini istiyoruz. Görünüşe göre gitmek istemiyorlar ve kalan birkaç bahçıvanımızı da öldürerek araziyi Büyümeleriyle istila etmeye devam ediyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişteki büyük bahçelerle aynı olmayabilir, ancak yeşil parmağınızı alkışlıyoruz. Bu toprakları otlandırmamıza yardım ettiğiniz için teşekkür ederiz. İşte çabalarınızın karşılığı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="68" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük Av</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">Hopperhound İnini Yok Et</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnsanlara korku salan bir yaratığın inini bulmak ve inini yağmalamak bir efsanedir. Eski İmparatorluk bunu en rafine spor olarak kabul ederdi. Tabii ki herkese göre değil. Bölgede vatandaşları yiyen Zıpır Tazı sürüleri görülmüştür. Sizi Büyük Av'a katılmaya davet ediyoruz. İnlerini bulun ve orada bulduğunuz yaratıkları yok edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aferin! Bravo, bravo! Ne cesaret ama. Sen büyük bir avcısın. Al bunu, avın için ödülün.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="73" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp Bir Çağa Övgü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon için Anıtlar İnşa Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük imparatorların yönetimi altında, bir büyüme ve refah dönemine tanık olduk. Ne yazık ki, o dönem neredeyse unutuldu. Bir zamanlar o dönemin büyük yapılarını inşa eden aletleri kaybettik ama her şey kaybolmuş değil. {STR_LeaderName}, hafızanın örtüsünü al. Halkının kalplerini geçmişle doldur. Geçmişin imparatorları için anıtlar inşa ederek hayallerimizi uyandır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şehirlerinizi görüyorum... Bu anıtlar geçmişle nasıl da parıldıyor. Gerçekten geçmiş asla unutulmayacak. Çok güzel, gerçekten muhteşem! Paragon'a büyük bir hizmette bulundun, {STR_LeaderName}. Lütfen ödememizi kabul edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Paragon için Anıtlar</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Bu anıtları inşa etmek Paragonları etkileyecektir... ve Paragonlar kolay kolay etkilenmezler.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:Index="80" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyonik Adam</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma ve prototip elit Paragon Bionics</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişten gelen teknolojiyi ve en seçkin Paragon ayrıcalıklarımızı araştırma ve geliştirme araçlarını kaybettik. Koloniniz ilerliyor. Bizim rehberliğimizle, bir zamanlar efsaneye dönüştüğünü düşündüğümüz teknolojileri geri getirebilirsiniz. Aşağıdaki biyonikleri kullanarak, bu çok güçlü implantları geliştirip geliştiremeyeceğinizi bize gösterebilir misiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yeni araştırmayla, eski biyoniklerimizi daha güçlü, daha sürdürülebilir geliştirmelerle değiştirebiliriz. Paragon sana teşekkür ediyor, {STR_LeaderName}. Ödülünüz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Paragon Biyonik</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">İster kabul etsinler ister etmesinler, Paragon'un sibernetikleri eski ve modası geçmiş. Birkaç yükseltme kesinlikle onlara yardımcı olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:Index="87" ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çocukları Düşünün</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A popular meme from the TV show, "The Simpsons".</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haydutları Ortadan Kaldırın</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kabadayılar, kanun kaçakları, haydutlar! Paragon'un iradesine karşı çıkmaya nasıl cüret ederler? Biz topraklarımızdaki çocukları doyurmak için mücadele ederken, bu soyguncular yağmalıyor ve çalıyor, yoksulların acı çekmesine neden oluyor. Bunun bir geleceği yok. {STR_LeaderName}, bizi onların tehdidinden kurtaracak mısın? Çocukları düşünün!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderName} can be either male/female.
+"Children" refers to citizens.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi kurtulduk. Çabaların için teşekkürler, {STR_LeaderName}. Bu toprakların çocukları, onları koruyacağınızı bilerek bu gece rahat uyuyacaklar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğal Düzen</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sığınmacıları yen</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öncülerin kendilerine söyleneni yaptığı günleri hatırlıyoruz. Ne yazık ki artık durum böyle değil. Görünüşe göre Birlik'teki kargaşa, Öncülerin söz sahibi olmaları gerektiğini düşünmelerine yol açtı. Hatta bize sırt çevirme cüretini bile gösterdiler. Adalete teslim edilmeleri gerekiyor. Örnek teşkil etmeleri için.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Astlarımızın hatırlayacağından emin olduğumuz bir adalet dersi. Size minnettarız, {STR_LeaderName}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderName} can be either male/female.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">KILL_UNITS_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonuç alamadığınızı görünce meseleyi kendimiz hallettik. Gelecekteki eylemleriniz daha az hayal kırıklığı yaratsın, {STR_LeaderName}, yoksa sizi de ibretlik bir hale getiririz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderName} can be either male/female.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:Index="98" ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enfes Ahlak</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon'un sivil yaşamdan beklentilerini araştırın</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bakın. İşte kültürel, ahlaki ve felsefi konular ve bunların nasıl ele alınacağına dair bir özet. Ahlaki zarafetin ziynetleriyle süslenmiş olarak önümüze gelin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Aka, show the Paragon you can live up to their moral standards.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kusursuz duyarlılıklarınız türümüzle bu mevcut seviyede etkileşim kurmak için yeterli. Ustalaşmanızı beklediğimiz pek çok seviye var, ancak nesillerdir görmediğimiz bir öğrenme kapasitesi sergilediniz. Tebrikler, işte ödülünüz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sivil yaşamın örnek beklentileri</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon'un katı ahlaki ve felsefi kurallarıyla rahatça bütünleşebileceğinizi gösteren bilgileri öğrenin ve uygulamaya koyun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This explains the quest.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="105" ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yüz Germe</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Referring to cosmetic surgery.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SHORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon güzelliğini geri kazandırmak için holografik kaplamaları araştırın</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir zamanlar bedenimiz güzeldi. Çocuklarımız arasında tanrılardık. Şimdi etimiz çürüyor ve en iyi hücresel yenilenmemize rağmen zamanın korkunç görüntüsüne maruz kalıyoruz. Bununla birlikte, günümüz ırklarının güzelliğimizi geri kazanmamıza yardımcı olabilecek holografik teknolojiden yararlandıklarını duyduk. Yaptıkları şeyi nasıl yaptıklarını araştırın ve gençliğimizi geri kazanmak için uygulayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String" x:Ticked="1">Children' refers to citizens.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMPLETED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize yeni yüzler kazandırdığınız için teşekkür ederiz. Artık bir zamanlar olduğumuz gibi görünebiliriz, hepsi serap olsa bile. Yine de, tüm yaşam bir yanılsama değil midir? Ah! Dost kibir, seni yeniden selamlıyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holografik Kaplamalar</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon'u eski güzelliğine kavuşturun. Holografik kaplamaları değiştirin, böylece Paragon'un eski gençliğinin bir görüntüsünü giymesine ve korkunç çürümesini örtmesine izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>87</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>89</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

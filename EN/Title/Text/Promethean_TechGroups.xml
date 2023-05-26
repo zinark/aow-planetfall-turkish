@@ -1,0 +1,2341 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>LaszloP</LastAuthor>
+    <LastSaved>2018-11-15T16:03:08Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>8880</WindowHeight>
+    <WindowWidth>23565</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="205" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="215.25" />
+      <Column ss:StyleID="s62" ss:Width="234.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="360" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="293.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="126.75" />
+      <Column ss:StyleID="s62" ss:Width="400.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean Ünitesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bir Promethean ünitesi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="10" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_ARMOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Bomba Atarları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Isıtılmış Plazma Aktüatörler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Yanma[/abilityred] veya [abilityred]Boğma[/abilityred] ile yapılan plazma saldırıları artık bunun yerine [abilityred]İmmolasyon[/abilityred] uygular ve tur başına {ImmoDamage} hasar verir. Tecrit {ImmoTurn} boyunca sürer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Hedefleme Rölesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Hedefleme Rölesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEBUFF_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Röle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String" x:Ticked="1">Termal Röle</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arıtma Alanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HealAmount}[hp/]'yi geri yükleyin ve bu birimden veya hedef komşu birimden Psionik olmayan tüm Durum Etkilerini kaldırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="21" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tehlikeli Madde Koruması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birime koruyucu bir sistem sağlayarak durum etkilerine karşı +{BiochemicalResistance} direnç ve [abilityblue]Taktik Tehlike Bağışıklığı[/abilityblue] kazandırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BACKLASH_PROJECTORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluk Projektörleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Absorpsiyon Panelleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">These are found in Hazards_unitproperties.rpk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Tehlikelerde dururken, bu birim +{PanelsDamageIncrease} hasar verir ve her turun başında {PanelsHealPerTurn}[hp/] iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION_MOD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Tehlikelerde dururken, bu birim +{PanelsDamageIncrease} hasar verir ve her turun başında {PanelsHealPerTurn}[hp/] iyileşir.[br/][br/]Birim ayrıca +{DefenseThermal}[defenseThermal/] direnç ve [abilityblue]Termal Durum Etkilerine ve Taktik Tehlikelere karşı bağışıklık kazanır[/abilityblue].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, içinde durduğu PyrX ateşini emerek sistemlerini şarj eder. Birimin hasarı {PanelsDamageIncrease} artar ve PyrX ateşi içinde durduğu sürece {PanelsHealperTurn} iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PanelsDamageIncrease} hasarı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KINETIC_FORCE_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuvvet Projektörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">KINETIC_FORCE_PROJECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe odaklanmış bir şok dalgası yönlendirir, [abilityred]hafif birimleri[/abilityred]geri atar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WIDE_FORCE_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geniş Kuvvet Patlaması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WIDE_FORCE_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrange} hex yarıçaplı bir alanda patlayan öngörülen bir Kuvvet Patlaması fırlatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BOMBS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Bombaları Fırlatın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BOMBS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Plazma Bombası ateşleyerek {hexrad} hex yarıçaplı bir alana hasar verir ve arkasında {plasmaBombDuration} boyunca yanan bir Tehlike bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_BOMBS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anka Bombalarını Fırlatın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INFERNO_BOMBS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Anka Bombası ateşleyerek {hexrad} hex yarıçaplı bir alana hasar verir ve arkasında {plasmaPhoenixDuration} boyunca yanan bir Tehlike bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Patlaması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BLAST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe bir tutuşmuş plazma patlaması ateşleyin, hedef hex'i {PlasmaDuration}[turn/] için ateşe verin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Yayı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BOW</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havada plazma ile tutuşan oklar atarak {PlasmaDuration}[turn/] için hedef hex'i tutuşturur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Tekrarlayıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_REPEATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe hızlı ateşlenen plazma patlamaları yaparak hedef hex'i {PlasmaDuration}[turn/] boyunca ateşe verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="17.25">
+        <Cell>
+          <Data ss:Type="String">PLASMA_SMOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Dumanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="37.5">
+        <Cell>
+          <Data ss:Type="String">PLASMA_SMOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yoğun bir plazma-sis karışımı patlatarak hedef hex'i {PlasmaDuration}[turn/] kadar ateşe ver.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Ustalığı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma madenciliği araçlarına ilişkin Dvar bilgisi silah geliştirmeye uygulanarak hasar {PlasmaMasteryDamage} oranında artırıldı.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Edit: creation of weapon --&gt; weapons development</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_MASTERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{PlasmaMasteryDamage} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LASH_OUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lash Out</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LASH_OUT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe saldırmak için plazma kullanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_SURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Dalgalanması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_SURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim hızla başka bir hex'e ilerler ve indiğinde tüm komşu birimlere hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BACKLASH_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geri Tepme Projeksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BACKLASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geri Tepme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BACKLASH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasar aldığında, bu birim kendi etrafında ateş püskürtür ve komşu tüm düşman birimlerine {backlashDamage} hasarı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Serpinti Kalkanlarını Güçlendirin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEFENSE_ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma Modu: Serpinti Kalkanlarını Güçlendir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sonraki turun başlangıcına kadar [abilityblue]Fallout Protection Shielding[/abilityblue]'nizin gücünü artırarak ek bir {BoostShields} ve {BoostResistance} direnci sağlar.[br/]Bu birim sendelerse bu etki iptal edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu üniteye ekstra koruma sağlanmış ve {FalloutShields} daha fazla Kalkan ve {FalloutThermalResistance} direnç kazanmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FALLOUT_PROTECTION_SHIELDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Serpinti Koruma Kalkanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FALLOUT_PROTECTION_SHIELDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, kendisini ve tüm komşu dost birimleri koruyan bir kubbe yansıtır. Kubbe +{FalloutShields}, +{FalloutThermalResistance} direnci ve Termal Durum ve Tehlike Etkilerine karşı Bağışıklık sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FALLOUT_PROTECTION_SHIELDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim yakındaki bir Aegis Tankından koruma alıyor. {FalloutShields} Kalkan ve {FalloutThermalResistance} Termal direncin yanı sıra Termal Durum ve Tehlike Etkilerine karşı bağışıklık kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_CUTTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Kesici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_CUTTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her şeyi kesebilecek kadar sıcak, odaklanmış bir alev uzatın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BELCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Geğirmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMA_BELCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma-sis karışımı geğir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIRESTORM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateş Fırtınası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIRESTORM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HexRange} hex menzili içindeki tüm hex'lere sıvı alev salın, {HazardDuration}[turn/] için zemini ateşe verin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TORRENT_OF_FLAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alev Torrent'i</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TORRENT_OF_FLAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexcon} altıgen koni alanına büyük bir alev seli yay.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_GAS_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_GAS_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktik savaşta {PyrXGasBombRadius} hex yarıçaplı bir alanda bir PyrX bulutu dağıtan bir bomba bırakır. Bulutun içinde kalan Biyolojik ve Cyborg kara birimleri [abilityred]Choking[/abilityred]'ye maruz kalır. {Timer}[turn/]'den sonra bulut patlar ve [abilityred]Massive Impact[/abilityred] ile {ExplDamage} hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PLASMOID_DEPLOYMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazmoid Dağıtımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMOID_DEPLOYMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stratejik haritaya bir Plasmoid birimi çağırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PLASMOID_DEPLOYMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uydunuz başarılı bir şekilde yüzeye bir Plasmoid birimi yerleştirdi. Tüm sistemleri çalışır durumda.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_SHIELDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acil Durum Koruması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_SHIELDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birime koruyucu bir kalkan yerleştirerek birime {EmergencyShield} tur boyunca +{ShieldShieldingDefenses}, [abilityBlue]Sarsıntı Bağışıklığı[/abilityBlue] ve [abilityBlue]Termal Bağışıklık[/abilityBlue] kazandırır. Birim etki süresi boyunca hareket edemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMERGENCY_SHIELDING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim +{shields} ve Termal Bağışıklığa sahiptir, ancak hareket edemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aegis Koruma Alanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm dost birimler [abilityblue]Aegis Koruması[/abilityblue] kazanarak {AegisProctShield}'nin yanı sıra {DeployFalloutShieldingTime} tur boyunca +{AegisThermalResistance} ve +{AegisBiochemicalResistance} direnci elde eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aegis Koruma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ünite +{aegisshield}'nin yanı sıra {AegisThermalResistance} ve {AegisBiochemicalResistance} direncine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FIRESTORM_PROJECTILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateş Fırtınası Mermisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FIRESTORM_PROJECTILE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]High Impact[/abilityred] ile bir hedefe {FirestormDamage} hasar veren bir hava saldırısı çağırın. Mermi ayrıca tüm komşu düşman birimlerine {FirestormAdjacentDamage} hasar verir ve etkilenen tüm altıgenlerde {FirestormTurns} tur boyunca bir PyrX Tehlikesi bırakır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PLASMA_RAY_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Işını Savunması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PLASMA_RAY_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost koloni bir Aşırı Isıtılmış Plazma Işını tarafından savunulmaktadır. Savaşın ilk {numTurns}'si boyunca, {minNumber} ila {maxNumber} arasında Mineral ve Eterik olmayan rastgele birimlerin her [turn/]'de [abilityred]İmmolated[/abilityred] olma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLASMA_RAY_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Işını Savunma prosedürleri devreye sokuldu ve tüm sistemler beklendiği gibi çalışıyor. Herhangi bir saldırgan önemli ölçüde daha kolay püskürtülmelidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PLASMA_RAY_DEFENSE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her taktiksel [turn/], {minNumber} ila {maxNumber} arasında Mineral ve Eterik olmayan rastgele birimlerin bu koloninin etki alanında {strength} güçte [abilityred]İmmolated[/abilityred] olma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakma Grevi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir saldırı dronu düşmanı napalm yağmuruna tutar. Mevcut [hp/]'lerinin {IncinerationProtocolDamage}'si kadar hasar verir ve {IncinerationProtocolsDuration} Stratejik [turn/] için savaşta [defensethermal/] dirençlerini {IncinerationProtocolsResistance} kadar zayıflatır.[br/][br/] Başarısız olduğunda, sadece mevcut [hp/]'lerinin {IncinerationProtocolDamage}'si kadar hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Drone saldırınız hedefini tam isabetle vurdu. Düşman ordusu önemli ölçüde hasar gördü ve daha fazla termal saldırıya karşı daha az dirençli olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman drone saldırısına beklenenden daha hazırlıklıydı. Bombardımanın tam etkisine maruz kalmasalar da yine de bir miktar hasar aldılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean saldırı dronları ordunuzu bombalayarak ciddi hasar verdi ve daha fazla termal saldırıya karşı dirençlerini zayıflattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean saldırı dronları ordunuza bir bombardıman girişiminde bulundu, ancak birlikleriniz tarafından engellendi. Saldırı tam olarak etkili olmasa da, bir miktar hasar aldık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim son bir Yakma Saldırısından etkilenmiştir ve Termal Direnci {IncinerationStrikeResistance} kadar azalmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilenen birimler mevcut [hp/]'lerinin {DamagePercentage}'sini kaybetti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">INCINERATION_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_WEAKNESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilenen birimler {Duration} stratejik [turn/] için {ThermalWeakness} daha az [defensethermal/] dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Flash Strike</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef sektöre, düşman birimlerine mevcut [hp/]'lerinin {ProportionalDamage}'si kadar hasar veren ve sektörü bir Volkanik sektöre dönüştüren hızlı ateşlemeli bir füze ateşleyin. Bu operasyon bir düşman Koloni Çekirdeğini hedef alırsa, hedeften {Kaldırılan Kolonistler}[population/] Kolonist kaldırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarılı bir PyrX ani grevi başlattık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX ani saldırı füzemiz arızalandı ve çok az hasar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acımasız bir PyrX saldırısına uğradık ve ağır kayıplar verdik!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız bizi bir PyrX flaş saldırısıyla hedef almaya çalıştı, ancak sadece marjinal miktarda hasar verildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, yalnızca {FailureDamage}'yi verir ve {ColonistAmount} [population/]'yi öldürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_FLASH_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etkilenen birimler mevcut [hp/]'lerinin {DamagePercentage}'sini kaybetti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmha Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Galaksinin tüm kirliliklerini temizlemek bizim görevimizdir ve bunu tereddüt etmeden yapacağız.[br/][br/]Birimleriniz {ExtraDamage} ekstra hasar verir. Xenoplague ile savaşırken bu {ExtraXenoDamage}'ye çıkar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimleriniz {ExtraDamage} ekstra hasar verir. Xenoplague ile savaşırken bu {ExtraXenoDamage}'ye çıkar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ExtraDamage} hasar, Xenoplague birimlerine karşı {ExtraXenoDamage}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anka Kolonizasyon Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kasada hâlâ tasfiye sonrası kolonileşme protokolleri bulunuyor - bunlar tehlikeli arazilerde kolonileşme çabalarımıza yardımcı olabilir.[br/][br/]A Tüm Kolonileriniz Tehlikelerden ve Volkaniklerden kaynaklanan ekonomik cezaları göz ardı eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Silahlanma Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix silahlanma teorisi her şeyden önce verimliliği teşvik eder. [br/]  [br/] Promethean birimlerinin inşası  {PrometheanProduction}  daha ucuzdur ve bakım maliyetleri  {UpkeepRedec}  azalır. [br/]  [br/]  [firecol] Birim maliyetleri asla %75'ten fazla düşürülemez. [/firecol]  [br/]  [firecol] Birim bakımı asla %50'den fazla düşürülemez. [/firecol] </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_UNIT_BONUS_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean birimleri için {PrometheanProduction}[energy/] + [production/] maliyeti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Phoenix Savunma Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX'in tüm potansiyelini açığa çıkarana kadar düşmanlarımızı sınırlarımızdan ve kolonilerimizden uzak tutmalıyız.[br/][br/]Birimleriniz Etki Alanınız içinde {ExtraArmor}[armor/] kazanır ve siz de {OperationalDefense}[operationdefense/] kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimleriniz Etki Alanınız içinde {ExtraArmor}[armor/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="119" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegeni arındırmak için atmosferi ateşleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean olmayan oyuncu birimleri -{thermalweakness}[resistThermalDown/] dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm gelir {SupplyReduction} tarafından azaltılmıştır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Seviye 2</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean olmayan oyuncu Biyolojik ve Cyborg birimleri savaşta [abilityred]Choking[/abilityred]'ye sahiptir.[br/]PyrX ateşleri savaşta görünür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Fümigasyon Protokolleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean olmayan bir düşman kolonisini {duration} karşılığında PyrX gazı ile doldurur ve daha fazla PyrX Rafinerisi inşa ettikçe bu gazın gücü artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX bombalarımız düşman kolonisini gazla doldurarak ve halk arasında panik yaratarak doğru hedefi vurdu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX bombalarımız düşman savunma sistemleri tarafından saptırıldı. Bombalar patlamamış olsa da, bu kıl payı kurtuluş hedef koloninin sokaklarında paniğe neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman şehirlerimizden birine bir tür gaz bombası yerleştirdi. Yoğun, yanıcı bir gaz sokakları kaplıyor, paniğe ve sık sık patlamalara yol açıyor!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunma sistemlerimiz kolonimize fırlatılan bir tür gaz bombasını savuşturdu. Halk güvende olsa da, bu yakın temas sokaklarda paniğe yol açtı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_GAS_REFINERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Rafinerisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PYRX_GAS_REFINERY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Rafinerisi, PyrX Fumigasyon Protokolleri Kıyamet Günü Silahının kilidini açar. İnşa ettiğiniz her ilave PyrX Rafinerisi silahın seviyesini artırarak daha güçlü hale getirir.[br/][br/]Koloni başına yalnızca bir PyrX Rafinerisi inşa edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Arındırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean planının son adımı tüm dünya atmosferini PyrX ile doldurur.[br/][br/]PyrX Fumigasyon Protokolleri seviye 3 gerektirir.[br/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnsanlarımız yeraltının derinliklerine sığınırken, PyrX gazı artık atmosferi doyuruyor. Bu gezegenin görkemli bir şekilde yeniden doğuşuna işaret eden tufanın gerçekleşmesi sadece an meselesi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFIER_GUN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arındırıcı Tabanca</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="138" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_INITIAL_NOTIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Gezegensel Arınma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PyrX Rafinerilerimizden biri ele geçirildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisini kaybettiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir PyrX Rafinerisini kaybetti!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisini kaybettiniz. Gezegeni Arındırma girişiminiz iptal edildi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir PyrX Rafinerisini kaybetti. Gezegeni Arındırma girişimleri engellendi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_INITIAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Oyuncu, gezegeni arındırmaya başlamak için atmosfere PyrX salmaya başladı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_BUILT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisi inşa ederek, {playerName} artık Kıyamet Günü Silahı olan Gezegensel Arındırma'ya erişebilir. Şu anda zayıftır, ancak daha fazla PyrX Rafinerisi inşa edildikçe daha güçlü hale gelecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_BUILT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} ikinci bir PyrX Rafinerisi inşa ederek Kıyamet Günü Silahı olan Gezegensel Arındırma'yı güçlendirdi. Silahları çok güçlü hale gelmeden önce bu yapıları yok etmek için baskınlar planlamalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_BUILT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, son PyrX Rafinerisini inşa ederek Kıyamet Günü Silahı olan Gezegensel Arındırma'nın gücünü en üst düzeye çıkardı. Artık onu serbest bırakmaya ve oyunu kazanmaya çok yakınlar. Saldırı zamanı şimdi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_CAPTURED_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü Zamanlayıcısı duraklatıldı! Kayıp PyrX Rafinerisini geri almalısınız yoksa gezegeni arındırma şansınızı kaybedeceksiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisinin kaybı Gezegensel Arındırmayı iptal ederek Kıyamet Günü Zamanlayıcısını sonlandırdı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisinin kaybı atmosfere salınan PyrX miktarını azalttı ve sonuç olarak Gezegensel Arıtmamızı durdurdu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_FINISHER_CAST_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız Kıyamet Günü Silahlarını aktif hale getirdiler ve PyrX'i tüm gezegene yaymaya başladılar. Kendi Kıyamet Günü Silahınız tufan tarafından yok edildi. PyrX Rafinerilerinden birini yok etmek için {numTurns} süreniz var, yoksa oyunu onlar kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Arıtma başladı ve PyrX Rafinerilerinizden birini kaybetmezseniz oyunu {numTurns}'de kazanacaksınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Arındırma başladı ve {playerName}, PyrX Rafinerilerinden birini yok edemezseniz {numTurns}'de kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisi ele geçirildi! Eğer yok edilirse, Kıyamet Günü zamanlayıcımız iptal edilecektir. Rafineriyi yeniden ele geçirirseniz, geri sayımı devam ettirebileceksiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir PyrX Rafinerisi ele geçirildi! Eğer yok edilirse, Kıyamet Günü zamanlayıcısı iptal edilecektir. {playerName} rafinerisini yeniden ele geçirirse, geri sayıma devam edebilecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_EVENT_FINISHER_PRIMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, PyrX'lerini serbest bırakmaya ve gezegeni arındırmaya hazırlanıyor, eğer bitirmelerine izin verilirse, kendi Kıyamet Günü Silahınız yok olacak ve {playerName} tam zaferden sadece bir adım uzakta olacak!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">VO: Empress Carminia</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROME_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean ateşlerinin küllerinden bir zafer doğar,A0[1]9ve bu dünya için yeni bir başlangıç.A0[2]9Çürüme tarafından tüketilmeyin,A0[3]9 yoksa bir sonraki ateş sizin ateşiniz olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PLATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Dirençli Kaplama</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PLATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, +{ThermalResistance} direnci ve Termal Tehlikelere ve Durum Etkilerine karşı bağışıklık sağlayan özel olarak tasarlanmış termal zırha sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_PLATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Termal Dirençli Kaplama</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFERNO_PLATING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, +{InfernoThermalResistance} direnci ve Termal Tehlikelere ve Durum Etkilerine karşı bağışıklık sağlayan özel olarak tasarlanmış termal zırha sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temizleyici</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurtarma</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Medic</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mender</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktor</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PURIFICATION_FIELD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yatıştırıcı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hazırlanmış</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korumalı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hazard Walker</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrollü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZMAT_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atıcı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok Edici</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bulaşma</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haşere Kontrol</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahçıvan</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Botanik Avcısı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is now used for Backlash Projectors</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amaç Destekli</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is now used for Backlash Projectors</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blaze Dancer</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is now used for Backlash Projectors</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Scalding Herald</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is now used for Backlash Projectors</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıcak Kanlı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is now used for Backlash Projectors</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güneş Kaplama</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This is now used for Backlash Projectors</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Magma Koşucusu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yangın Dağıtıcı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sıcak Bir</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kırmızı-Sıcak</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Immolator</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı ısınmış</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aktüatörlü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Plazma Savaşçısı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateş Baba</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Isı Emici</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karıştırılmamış</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Isı Emici</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ateş Kaplama</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obsidyen</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alev Fırlatıcı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kavrulmuş</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanık Getiren</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alev Sürüsü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Wastelayer</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegen Avcısı</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>57</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>66</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

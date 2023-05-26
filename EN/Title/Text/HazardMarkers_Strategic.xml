@@ -1,0 +1,696 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Benny Arents</LastAuthor>
+    <LastSaved>2019-03-13T13:21:06Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17235</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="56" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="14.4375">
+      <Column ss:StyleID="s63" ss:Width="221.25" />
+      <Column ss:StyleID="s63" ss:Width="168.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25" />
+      <Column ss:StyleID="s63" ss:Width="147.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="228" />
+      <Column ss:StyleID="s63" ss:Width="120" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="358.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+        <Cell>
+          <Data ss:Type="String">HAZARDMARKERS_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Jeotermal Kararsızlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör jeotermal açıdan dengesizdir ve yangın ve ısının yüzeye sızmasına neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="171">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör jeotermal açıdan dengesizdir ve yangın ve ısının yüzeye sızmasına neden olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Annexing a sector means attaching the sector to your colony sector.All units have 'Regeneration'  on the world map, which is how much life they get every turn. Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="65.25">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/]'de savaş alanı jeotermal ısı ile dolar, tüm birimlere {Tcdamage} hasar verir ve {Burnchance} güç ile {BurningDuration}[turn/] boyunca Eterik olmayan ve Mineral olmayan birimlere [abilityred]Yanma[/abilityred] neden olma şansı verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Jeotermal Kararsızlıktan etkilenir ve her stratejik dönüşte alınan [hp/] yenilenmesini geçersiz kılar.[br/]Birim [abilityred]{Resistancereduction}[/abilityred] direncine maruz kalır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">All units have a resistance against damage and status effects.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Jeotermal Kararsızlıktan etkilenir ve her stratejik dönüşte alınan [abilityred] yenilenmesini geçersiz kılar.[/abilityred]Birim [production/]A0[5]9ZA0[4]9Z direncine maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="10" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyon Fırtınası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör bir İyon Fırtınasının etkisi altında ve bu da Ark oklarının havada dalgalanmasına neden oluyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="152.25">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör bir İyon Fırtınasının etkisi altında ve bu da Ark oklarının havada dalgalanmasına neden oluyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Happiness is a value in your colonies, that deals with how happy the population in your colony is. </Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="63">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her {turns}[turn/]'de, {TargetNumber} rastgele birim Ark oklarıyla vurulur ve {BoltDamage}[damagewave/] güçle {ElectrifiedStrength}'lik bir şansla [abilityred]Elektrifiye[/abilityred]'ye neden olarak {ElectrifiedDuration}[turn/]'ye kadar Eterik olmayan birimlere zarar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki İyon Fırtınasından etkilenir ve stratejik dönüş başına alınan [hp/] yenilenmesini geçersiz kılar.[br/]Birim [abilityred]{Resistancereduction}[/abilityred] direncine maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki İyon Fırtınasından etkilenir ve stratejik dönüş başına alınan [abilityred] yenilenmesini geçersiz kılar.[/abilityred]Birim [energy/]A0[5]9ZA0[4]9Z direncine maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Spor Bulutu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör, çoğu geleneksel yaşam formu için tehlikeli bir Biyokimyasal tehlike olan Spor Bulutundan etkilenmektedir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="152.25">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör, çoğu geleneksel yaşam formu için tehlikeli bir Biyokimyasal tehlike olan Spor Bulutundan etkilenmektedir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Xenoplague is one of the secret technologies of the game. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turda, Xenoplague dışındaki tüm Biyolojik ve Cyborg birimlerinin {Poisonchance} gücünde [abilityred]Zehirlenmiş[/abilityred] olma şansı {PoisonDuration}[turn/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Spor Bulutundan etkilenir ve stratejik tur başına alınan [hp/] yenilenmesini geçersiz kılar.[br/]Birim [abilityred]{Resistancereduction}[/abilityred] direncine maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Spor Bulutundan etkilenir ve stratejik tur başına alınan [abilityred] yenilenmesini geçersiz kılar.[/abilityred]Birim [food/]A0[5]9ZA0[4]9Z direncine maruz kalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="23" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nükleer Serpinti</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör geçmişteki bir patlamadan kaynaklanan Nükleer Serpintiden etkilenmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="111.75">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör geçmişteki bir patlamadan kaynaklanan Nükleer Serpintiden etkilenmiştir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler tüm dirençlere [abilityred]{ResistanceReduction}[/abilityred] zarar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Nükleer Serpintiden etkilenir ve stratejik tur başına alınan [hp/] yenilenmesini geçersiz kılar.[br/]Birim tüm dirençlere {resistances} zarar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Nükleer Serpintiden etkilenir ve stratejik tur başına alınan [abilityred] yenilenmesini geçersiz kılar.[/abilityred]Birim tüm dirençlere [food/] zarar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Gözyaşı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör, kötücül etkisinin bu dünyaya sızdığı Uçurum'da bir yırtık içerir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="146.25">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör, kötücül etkisinin bu dünyaya sızdığı Uçurum'da bir yırtık içerir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Psynumbra is one of the secret technologies of the game. Vision and scanning range deal with how far a unit can see or detect units on the world map, respectively. Mindless units are units without a mind, so simple drones and robots etc. Marauders are units on the world map that cannot be engaged in diplomacy, and attack everything they see in sight.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akılsız ve Sinumbra olmayan birimler {MoraleReduction}'ye maruz kalır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Abyssal Gözyaşı'ndan etkilenir ve stratejik tur başına alınan [hp/] yenilenmesini geçersiz kılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_02_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Karartma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_02_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Abyssal Gözyaşı'ndan etkilenerek görüş ve tarama menzilinin {SightRangeReduction} kadar azalmasına neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_03_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Moral Sönümleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_03_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektörde Abyssal Gözyaşı'ndan etkileniyor ve {MoraleDebuff}'den muzdarip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektörde Abyssal Gözyaşı'ndan etkileniyor ve [abilityred]'den muzdarip.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boşluk Fırtınası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="50.25">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör Boyutsal Olarak Dengesizdir ve uzayın bu bölümündeki gerçekliğin bulanıklaşmasına neden olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Dimensionally unstable is in refering to alternate dimensions that are interfering with the current dimension (reality) of the sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="123">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör Boyutsal Olarak Dengesizdir ve uzayın bu bölümündeki gerçekliğin bulanıklaşmasına neden olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Voidtech is one of the secret technologies of the game. Dimensional Instability is a status effect that</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turda, Voidtech olmayan birimlerin {DimensionalInstabilityStrength} kuvvetinde [abilityred]Dimensional Instability[abilityred/] alma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Boşluk Fırtınası'ndan etkilenir ve stratejik tur başına alınan [hp/] yenilenmesini geçersiz kılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Boşluk Fırtınası'ndan etkilenir ve stratejik tur başına alınan [abilityred] yenilenmesini geçersiz kılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Huzur Perdesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör Sükûnet Perdesi'nin altındadır ve inananlara sığınak, suçlananlara ise lanet sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="128.25">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektör Sükûnet Perdesi'nin altındadır ve inananlara sığınak, suçlananlara ise lanet sağlar.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Edit: --&gt; Soulfire to Soulburn</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian is one of the secret technologies of the game. Enlightened is a celestian status effect that speaks to their soul being enlighted with starlight, washing their soul in truth. Soulburn is a debuff applied to enemy units, that sets their soul on fire, dealing damage and debuffing them.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her tur, [abilityblue]Aydınlanmış[/abilityblue] birimleri {EnlightenedHeal} karşılığında iyileşir ve [abilityred]Şullanmış[/abilityred] birimleri {SoulblazeDamage} hasar alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Sükûnet Perdesi'nden etkilenir ve stratejik tur başına fazladan bir {Hpregen} alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, bu sektördeki Sükûnet Perdesi'nden etkilenir ve stratejik tur başına fazladan bir [abilityred] alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Petrol Sızıntısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sektörü kirleten bir petrol sızıntısı var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String"> [bulletList]  [bullet] Bu sektörün ilhak edilmesi koloniyi  [abilityred]   {Happiness}   [/abilityred]  [/bullet]  [bullet]  ile cezalandırırBu sektörün ilhak edilmesi koloninin  [abilityred] - üretmesine neden olur. 20 [/abilityred]  [energy/]  ve  [supply/]  [/bullet]  [bullet] Bu sektördeki birimler Stratejik Harita  [hp/]   [abilityred] Rejenerasyon [/abilityred]  özelliklerini kaybeder.  [/bullet]  [bullet] Bu sektördeki birimler  [abilityred] -  {OilResistanceReduction}   [/abilityred]   [DamageThermal/]  direncine maruz kalır.  [/bullet]  [bullet] Her Savaş Dönüşü: [/bullet]  [bulletList]  [bullet] Uçmayan birimlerin  {OilSlowChance}   [DamagePhysical/]  gücünde olma şansı vardır  [abilityred] Yavaş [/abilityred]  için  {OilSlowDuration}  . [/bullet] </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turda, birimlerin {OilSlowChance} güç şansı {OilSlowDuration} için [abilityred]Yavaş[/abilityred] olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Petrol Sızıntısından etkilenir, stratejik tur başına alınan [hp/] yenilenmesini geçersiz kılar ve [abilityred]-{OilResistanceReduction}[/abilityred] [DamageThermal/] direncine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15">
+        <Cell>
+          <Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SCREEN_INCOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bu sektördeki Petrol Sızıntısından etkilenir, stratejik tur başına alınan [abilityred] yenilenmesini geçersiz kılar ve [/abilityred]-A0[5]9Z[energy/] A0[4]9Z direncine sahiptir.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>47</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>52</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

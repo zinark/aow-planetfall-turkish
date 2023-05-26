@@ -1,0 +1,1037 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Laszlo Pieper</Author>
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <Created>2018-09-14T10:48:07Z</Created>
+    <LastSaved>2019-05-10T16:40:18Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15825</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Normal 2">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s63" ss:Name="Normal 3">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s67" ss:Parent="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s70" ss:Parent="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s71">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+    </Style>
+    <Style ss:ID="s73" ss:Parent="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s74">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+      <NumberFormat />
+    </Style>
+    <Style ss:ID="s75">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s76">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="241" x:FullColumns="1" x:FullRows="1" ss:StyleID="s64" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="267" />
+      <Column ss:StyleID="s64" ss:Width="204" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="252.75" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="93" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="257.25" />
+      <Column ss:StyleID="s64" ss:Width="115.5" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="252.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">{XML_CELESTIAN_TECHGROUPS@CELESTIAN@DESC}[br/][br/]{XML_CELESTIAN_TECHGROUPS@CELESTIAN@FEATURES}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">No need to translate. This inserts the CELESTIAN_TECHGROUPS@CELESTIAN@DESC and CELESTIAN_TECHGROUPS@CELESTIAN@FEATURES texts with some white space.</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[hyperlink,000003AC0000032E]Celestians[/hyperlink], içsel aydınlanmaya ulaşmak ve evrende denge ve uyum yaratmak için çabalayan Psişik yetenekli bireylerden oluşan kadim bir tarikattır. Psionik gücün Yıldızlardan geldiğine inanırlar ve bu gücü ideallerini ve öğretilerini korumak için kullanırlar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">CELESTIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FEATURES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[bulletlist][bullet][sand]Starting Unit: [/sand] [köprü, unitlookup0000039A00000D9C]Işık Getiren[/hyperlink][/bullet][bullet]Düşman askerlerini ve kolonicileri davanıza yönlendirir[/bullet][bullet]NPC diplomasi bonusları[/bullet][bullet]Güçlü Moral güçlendirmesi ve hasar yansıması[/bullet][bullet]Psionik ve Termal hasar kanallarını kullanır[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işığın Kucaklaması</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="91.5">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Mumun alevini düşünün. Sizi ısıtırken, bir ömür boyu karanlıkta tökezleyerek edindiğiniz yaralara bakın. Bu sizin kararınız. Karanlıkta mı kalacaksın? "[br/]- Rahibe Rebe Katiere, Arınma Daveti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parlaklık</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Işık getirenlerin parlak bir şekilde yanmasına izin verin, körfez boyunca bir parıltı gönderin, karanlık sellerde sürüklenen zavallı mücadele eden ruhlar gemilerini güvenli bir şekilde kıyıya yönlendirebilsinler. "[br/]- Lu'Kalla Candelieri, Fotonların Koruyucusu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Female
+
+Edit: added space before "Lu'Kalla"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Işık Getiren</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Cehennem Yumrukları</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Paladin Işık Taşıyıcı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kefaret</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Tövbe bir ceza değil, bir kutlamadır. Güvenilir olmaya giden bir yoldur. Bilge güçler sırlarını güvenemeyecekleri kişilerle paylaşmazlar. "[br/]- Lu'Samaeliss, Yerçekimi Koruyucusu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Azim</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Zihninizi disipline edin ve evren sırlarını size emanet etsin. "[br/]- Lu'Qian Wu, Zihin Koruyucusu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İç Ateş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yol Gösterici Yıldız'ın çocukları olarak her ruh doğruyu yanlıştan ayıran bir ışıkla doğar. Bencil seçimler bir ruhu ışığını söndürmeye ikna ettiğinde, zayıflığı kucaklayarak kendilerini cezalandırırlar. "[br/]- Eris Harper, Yıldız Bakiresi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Varlığı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Karanlık cehaletle doluyum;[br/]Kayıp hayatım açlıktan ölüyordu[br/]Kararmış utanç köşelerinde,[br/]Bu pişmanlık örtüsü beni boğuyor. [br/]İyiliğin suçluluk kefenimi deliyor.[br/]Sevgi dolu davranışlar gecemdeki yıldızlar.[br/]Görüyorum:[br/]Lütfunun kıvılcımlarının rehberliğinde. "[br/]- D'Nac, Yıldız Rehberinin İtirafı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Male
+
+Edit: This -&gt; this</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Yıldız Rehberi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Işığın Uyumu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barış Yolu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gururda değer yoktur.[br/]Duvarların ardında güvenlik yoktur.[br/]Öfkede güç yoktur.[br/]Bar parmaklıkların ardında özgürlük yoktur.[br/]Yargılamada neşe yoktur.[br/]Altında servet yoktur.[br/]Savaşta barış yoktur. "[br/]- Aya Nago, Öğretmenin Pasifizm İlkeleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçeğin Işığı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gerçekten zeki yaşamın sevme kapasitesi vardır. Sevgi, kaybı fedakârlığa dönüştürür ve bir amaç uğruna acıya katlanır. Sevgi her ruhun içindeki değeri görür ve onlara özverili bir hizmet örneğiyle gururlarından ve intikamlarından vazgeçmeleri için ilham verir. "[br/]- Sorli Auro, Yükselen Hacı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yankı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Erteleme vermeyenler için, hiçbir şey verilmeyecektir. Telafi etmeyenler için bir hesaplaşma olacaktır. "[br/]- Lu'Vir Corr, Anahtarın Muhafızı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Kir'ko Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Koğuşu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yükselmek için şehitlerin yolunda yürüyoruz. Yine de akıl bu dünyada yaşadığı sürece, şehitlerin kanı aydınlanmışların kulaklarında çınlayacaktır. Ruhları, yaşamayı hak eden bir hayatı çalmanın adaletsizliğinden geri dönecektir. "[br/]- Jonah Covenant, Candlekeeper</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Işık Aksiyomu</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Zekâ, tıpkı güneş ışığının birçok yolun izini sürerek varış noktalarını görünür kılması gibi, seçim âlemlerini açığa çıkarır. Işığa söz vermek de her iki yolcuya saf zekâyı aktarır: öğretmen ve öğrenci. "[br/]- Lu'Dex Pon, Kapının Muhafızı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Kir'ko Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim Çağırma: Yükselmiş Öğretmen</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Işıldayan Güç</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Sığınağı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Ah! Kardeşlerim, şimdi gerçeği gördüğümüze ve bu kurtarıcı güçten pay aldığımıza göre, onu alacak herkesle paylaşmak için yüreğinizde bir ateş yanmıyor mu? Gayretli olalım ve ışığı arayan sadık yolcuları bir araya getirelim. "[br/]- Sigris, Kuyruklu Yıldızların Dostu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseliş</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yaşam bir kaza ya da şans oyunu değil, kozmik uyumun doğal bir sonucudur. Gerçekliği oluşturan teller üzerinde oynanan büyük uyum. "[br/]- Aya Nago, Yüce Aşkın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Syndicate Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neo Evanjelikler</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bizler yıldızların çocuklarıyız. Dürüst bir ruh - kökeni ne olursa olsun - ışığa hoş gelir. Gelin ve görün. "[br/]- İmparatoriçe Carminia</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Empress Carminia</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Saltanat</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_7_DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yıldızlardan daha parlak bir kovanda yuva kurmaya çalışsak da, sürünün dışında her zaman sönmekte olan bir kıvılcımı tutuşturan izole ruhlar olacaktır. Karanlığa nüfuz edin. Kayıplara doğru uçun. Kıvılcımlarını alevlendirin. "[br/]- Pik'Ki Pok, Göksel Misyoner, Kir'Ko Bölge Konferansı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">V.O.: Kir'ko Male
+
+Edit: Kir'ko -&gt; Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="43" />
+      <Row ss:Index="87" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="21" />
+      <Row ss:Index="110" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="1" />
+      <Row ss:Index="113" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="12" />
+      <Row ss:Index="127" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="7" />
+      <Row ss:Index="136" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="6" />
+      <Row ss:Index="144" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s70" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s71" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" />
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="20" />
+      <Row ss:Index="169" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" ss:Span="1" />
+      <Row ss:Index="172" ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s73" />
+        <Cell ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:StyleID="s74" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" />
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="2" ss:StyleID="s73" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68" />
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s76" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s76" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:StyleID="s68">
+        <Cell ss:Index="3" ss:StyleID="s75" />
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="s69" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <TopRowVisible>3</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>12</ActiveRow>
+          <ActiveCol>1</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

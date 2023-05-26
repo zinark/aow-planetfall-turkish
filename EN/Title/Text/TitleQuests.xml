@@ -1,0 +1,1929 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Frederick Milders</LastAuthor>
+    <LastSaved>2019-02-13T14:46:48Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>11190</WindowHeight>
+    <WindowWidth>24015</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="170" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="95.25" />
+      <Column ss:StyleID="s62" ss:Width="121.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="315.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="342.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="139.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TITLEQUESTS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstilacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegen kaynaklar ve zenginliklerle dolu, ancak bunlar vahşiler ve geçmişin tozlu eski kalıntıları tarafından korunuyor. Bu insanlara karşı silahlanmalıyız ki bu dünyanın hazineleri bizim olsun!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC fraksiyonuna savaş ilan et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC fraksiyonuna ait {count} ordularını öldürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstilacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kapsamlı propaganda ve telkin, birliklerinizin bu gezegenin yerlilerine karşı doğal üstünlüklerine inanmalarına yol açar.[br/][br/]Birimler, bağımsız birimlere karşı savaşta {moraleBonus}[happiness/] moral kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başkent koloninizde 1. kademe bir birim alın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstilacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_INVADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstilacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elçi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünya yaşam ve fırsatlarla dolup taşıyor. Buradaki yerliler zengin bir kültüre sahipler ve bize çok şey öğretebilirler. Bu insanlarla temas kurmak ve yeni bir barış çağı başlatmak için bir elçi göndermeliyiz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC fraksiyonu için {numQuests} görevleri yapın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC fraksiyonu ile Barış Sağlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elçi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özel bir zenolog ekibi kiralamak, bu gezegendeki yerlilerle iletişiminize yardımcı olur.[br/][br/]Görevlerden {bonusPercentage} daha fazla etki[influence/] elde edersiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Etki ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{influenceAmount} [influence/] etkisini alın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elçi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMISSARY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elçi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşaatçı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşa ettiğimiz koloni sadece bir başlangıç, kudretli imparatorluğumuza giden yoldaki ilk adım. Odak noktamız inşaat ve büyüme olmalıdır; şimdi inşa ettiğimiz koloniler geleceğimizin temelidir!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sermayenize bir sektör ekleyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir koloni sektöründen yararlanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkinci bir koloni kurdu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşaatçı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mimarlardan oluşan uzman ekipler istihdam ederek normalden çok daha hızlı inşa edebiliyoruz.[br/][br/]Koloni yapıları inşa etmek için {percentage} daha az [production/] üretim gerekiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonist ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerinizden birinde özgür bir kolonist [population/] beliriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşaatçı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_BUILDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşaatçı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Kışkırtıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğerleri bu dünyaya hazinelerini çalmak ve sırlarını yağmalamak için geldiler. Buna izin verilmemeli! Bu hırsızları cezalandırmak ve hakkınız olanı almak için ordularınızı gönderin!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncuyla tanışın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncuyla savaşa girin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncuya ait {count} birimlerini öldürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Kışkırtıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımızın ordularına karşı ayrıntılı eğitim simülasyonları oluşturmak için kaynak ayırarak, kuvvetlerimizin savaşta üstünlük sağlamasını temin edeceğiz.[br/][br/]Birimler diğer oyunculara karşı savaşta {moraleBonus}[happiness/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başkent koloninizde 2. kademe bir birim alın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Kışkırtıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_WARRIOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Kışkırtıcısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünyada yalnız değiliz: başkaları da bu dünyayı bizimle paylaşmaya geldi. Onlarla temas kurmalı, onlarla barış yapmalıyız! Barıştan dostluk, dostluktan da birlik doğar ve birleşerek bu gezegeni kendimize ait hale getirebiliriz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncuyla tanışın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir oyuncuyla Saldırmazlık Paktı imzalayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{numberOfTurns}[turn/] ardışık dönüşleri için barışçıl bir ilişki sürdürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi finanse edilmiş ve kendini adamış bir diplomatik çekirdek, bu gezegendeki misyonumuz için çok önemlidir ve başkalarının bizi her zaman en iyi şekilde görmesini sağlayacaktır.[br/][br/]Diğer oyuncularla {opinionBonus} görüş kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutluluk ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm kolonileriniz anında {happinessAmount}[happiness/] mutluluğu kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_DIPLOMAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomat</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerde botları ve ellerinde silahları olan ordularımız var. Ancak daha ince, daha güvenli ve daha akıllıca başka yollar da var. Bu gezegendeki seçeneklerimizi keşfetmenin zamanı geldi. Düşmanlarımızı daha iyi düşünürsek, savaş daha ilk kurşun atılmadan kazanılabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir Gizli veya Stratejik operasyonu araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyon Etkinliğini Araştırma 1 beceri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stratejik bir operasyon kullanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizli bir operasyon kullanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doktrin İşlemi Kullanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koordineli, hükümetler arası bir operasyon komutanlığı, ajanların ve diğer varlıkların konuşlandırılmasında büyük tasarruflar sağlayabilir.[br/][br/]Gizli ve Stratejik operasyonlar artık {discountPercentage} daha az enerjiye mal oluyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{energyAmount}[energy/] enerjisini alın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_OPERATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Economist</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş makinelerimizin motorları, sanayi ve ekonominin motorları olmadan bir hiçtir. Topraklarımız ve kolonilerimiz var ama çok daha fazlasına sahip olabiliriz! Hayal edebileceğimizin ötesinde zenginlikler elde edebilmek için bu dünyayı tamamen sömürmenin yollarını bulmamızın zamanı geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnşaatçıyı Tamamla</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekonomi ağacındaki herhangi bir Kaynak iyileştirmesini araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektör uzmanlığı oluşturun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir sektörü {requiredLevel} seviyesine yükseltme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Economist</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dikkatli piyasa manipülasyonu ve devlet kontrolündeki bir ekonomi, sağlıklı ve büyüyen bir vergi gelirine yol açar.[br/][br/]Kolonilerinizde inşa edilen temel yapılar artık kaynaklarından {basicIncome} ek gelir sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{energyAmount}[energy/] alırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Economist</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_ECONOMIST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">The Economist</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknolog</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elinde küreği olan bir adam bir baraka inşa edebiliyorsa, teknolojinin sağladığı tüm araçlarla neler inşa edebileceğini bir düşünün! Ordularımıza görkemli yeni imparatorluğumuzu inşa etmek için ihtiyaç duydukları araçları vermemizin zamanı geldi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Herhangi bir Birim Modunu veya Taktiksel Operasyonu araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim modlarını {count} ayrı birimlerine uygulayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{count} kullanın Savaşta taktik operasyonlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknolog</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordularımıza uzman destek personeli yerleştirerek taktik saldırılarımızı daha iyi koordine edebiliriz.[br/][br/]{TcOpPoints}[castingtactical/] Taktik Operasyon puanı kazanın.[br/]Taktik Operasyonların kullanımı {discountPercentage} daha ucuzdur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman eşyası ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutanınız rastgele bir kahraman eşyası alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknolog</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_TACTICIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teknolog</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arabulucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünyanın halklarıyla dostluklar kurmak için çok çalıştık ve artık emeklerimizin karşılığını alma zamanı geldi. Yeni keşfettiğimiz nüfuzumuzu sırları öğrenmek, paralı askerler tutmak ve savaş zamanlarında bize müttefikler kazandıracak anlaşmalar imzalamak için kullanmalıyız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Elçiyi Tamamla</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir grupla Dostluk Anlaşması imzalayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir fraksiyondan {count} öğeleri satın alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arabulucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ortaklarımızın xeno-psikolojik değerlendirmeleriyle birlikte gelişmiş pazar analizi, ticaret yaparken her zaman en iyi fırsatları elde etmemizi sağlar.[br/][br/]Dwellings'ten satın alınan ürünler {discountPercentage} daha ucuz [influence/].[br/][br/][firecol]Dwelling Shop indirimleri asla {MaxDiscountPercentage}[/firecol]'yi geçemez</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaynaklar ödül</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{influenceAmount} [influence/] etkisi ve {energyAmount} [energy/] enerjisi alın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arabulucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arabulucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_NEGOTIATOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME_WITH_DISCOUNT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arabulucu: {discountPercentage}[influence/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patron</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağınık haldeki bu dünyanın insanları zayıftır, ancak bizim himayemiz ve rehberliğimizle çok daha fazlası olabilirler! Dostlarımızı büyük ulusumuza katılmaya davet etmeliyiz ki onların gücünü paylaşabilelim ve gerçek potansiyelimize birlikte ulaşabilelim!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arabulucuyu Tamamlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir NPC fraksiyonundan {count} konutları satın alın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patron</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok kültürlü entegrasyon politikası, hem savaş alanında hem de savaş dışında karşılıklı saygı ve anlayışa yol açar.[br/][br/]ATüm NPC fraksiyon birimleri {moraleBonus}[happiness/] moral, {healthBonus}[hp/] ve {damageBonus} ekstra hasar kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {moraleBonus}[happiness/] morale, {healthBonus}[hp/] ve {damageBonus} ekstra hasara sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başkent koloninizde NPC fraksiyon birimlerinden oluşan küçük bir ordu belirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patron</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_AMBASSADOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patron</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fatih</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haklı mirasımızın haydut yapay zekalar ve uzaylı ayaktakımı tarafından işgal edilmesine çok uzun süre izin verdik. Bu dünyaları kendimiz için geri alma zamanı geldi ve ilk adımımız bu yaratıkların yuvalandığı konutları ele geçirmek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstilacı'yı tamamla</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{count} Konutlarını Fethedin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fatih</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Generallerinizin korkunç savaş hünerleri hakkında vahşi söylentiler ve hikayeler yaymak için psi-op ve propoganda kullanın.[br/][br/]Komutanınız ve kahramanlarınız, tüm düşman birimlerinin {moralePenalty}[happiness/] cezasına maruz kalmasına neden olan [abilityblue]Korkutucu İtibar[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Irksal birimlerden oluşan küçük bir ordu başkent koloninizde belirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korkunç İtibar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim savaştayken tüm düşman birimleri {moralePenalty}[happiness/] morale sahip olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fatih</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_CONQUEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fatih</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casusluk Ustası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgi güçtür ve size ne kadar güçlü olduğumuzu göstermeliyiz. Ajanlarınızı düşmanlarımızın üzerine salın, sırlarını araştırın, güçlerini sabote edin. Işıktaki zaferimizi garantilemek için gölgelerde savaşacağız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operatörü tamamlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{count} farklı gizli operasyonlar kullanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casusluk Ustası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgiyi paylaşmak ve operasyonları koordine etmek için istihbarat ve askeri kurumları birleştirecek bir organ kurun.[br/][br/]{strengthBonus}[operationStrength/] operasyon gücü ve {defenseBonus}[operationDefense/] operasyon savunması kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahraman eşyası ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahramanlarınızın bir orduyu görünmez yapmasını sağlayan güçlü bir eşya kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casusluk Ustası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_SPYMASTER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Casusluk Ustası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurduğumuz dostluklar güçlü ve bereketli, ancak çok daha fazlası olabilirler! İttifaklar kurmamızın, büyük bir koalisyon, yıldızlara uzanabilecek yeni bir Birlik inşa etmemizin zamanı geldi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomat'ı tamamlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{count} farklı oyuncu ile ittifak yapın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{count} ardışık dönüş için bir ittifakı sürdürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ütopik bir uyum ve birleşme duruşu benimseyerek itibarınız artar ve ordularınız inanılmaz başarılar sergilemek için ilham alır.[br/][br/]ATüm birimleriniz {moraleBonus}[happiness/] moral kazanır ve siz de {ReputationPositive}[reputation6/] kazanırsınız.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Edit: reputation typo fix, raises --&gt; rises</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaynaklar ödül</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{influenceAmount}[influence/] ve {energyAmount}[energy/] alırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_UNIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleştirici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparator</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şimdiye kadar birçokları arasında biriydik, ancak bu dünyayı bizden almak isteyen zayıflara büyüklüğümüzü kanıtlamanın zamanı geldi. Ordularını ezeceğiz, kolonilerini yerle bir edeceğiz ve imparatorluğumuzu onların külleri üzerine kuracağız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş kışkırtıcısını tamamla</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başkentlerini ele geçirerek veya komutanlarını öldürerek {count} oyuncularını yenin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparator</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatorluğunuzun kaynaklarının tamamını savaş yoluyla zafer kavramına adayın.[br/][br/]Bu Doktrin aktifken fazladan bir {PopularSupportIncrease}[popularSupport0/] Halk Desteğine sahipsiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordu ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Irksal birimlerden oluşan bir ordu başkentinizde belirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparator</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_EMPEROR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatoriçe</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haberci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FLUFF_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünya cehaletin karanlığıyla örtülü kalmaya devam ediyor, ancak çalışmalarımız daha büyük bir gerçeği ortaya çıkarmaya başlıyor. Bu bilgiyi güçlü bir yapı, kurtuluş ışığıyla parlayan bir fener inşa etmek için kullanmak bizim elimizde!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PREREQUISUITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizli Teknolojinizin Kıyamet Günü silahının kilidini açın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerinizden birinde bir Kıyamet Günü yapısı inşa edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TASK_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Kıyamet Günü operasyonu başlatın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haberci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DOCTRINE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü yapılarının ve Operasyonlarının enerji maliyeti {percentageDiscount} kadar azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutluluk ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">REWARD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm kolonileriniz anında {happinessAmount}[happiness/] mutluluğu kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_MALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haberci</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_HARBINGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TITLE_FEMALE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haberci</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>98</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>111</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

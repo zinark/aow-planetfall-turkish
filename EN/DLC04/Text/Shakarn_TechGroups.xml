@@ -1,0 +1,867 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2020-02-27T14:22:13Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>8670</WindowHeight>
+    <WindowWidth>14475</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="73" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="234.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="117" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="237.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="402" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="270.75" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHAKARN_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHAKARN_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Shakarn</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konutta Gözdağı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konutta Gözdağı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Faction War Quests is a special mechanic that rewards players who do well when fighting against a NPC Faction.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Homeworld Hatıraları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Homeworld Hatıraları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">"An atoll, sometimes called a coral atoll, is a ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely."</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kavrulmuş Toprak Politikası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kavrulmuş Toprak Politikası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aktif Ajan Ağları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aktif ajanlar arasındaki iletişimi kolaylaştırarak istihbarat daha hızlı yayılır.[br/][br/][abilityblue]Sızma Operasyon Merkezi kullanıldığında +{Strength}[operationstrength/] kazanın[/abilityblue][br/]Tek bir oyuncuya yapılan her aktif sızma için tur başına +{InfluenceAmount}[Influence/] ve +{KnowledgeAmount}[Research/] kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltilmiş Domok Rejimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltilmiş Domok Rejimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_5_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükseltilmiş Domok Rejimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holocrafted Zardas Kanalları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holocrafted Zardas Kanalları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">holocrafted - created through holograms</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="21" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Restorasyonun Çoğaltılması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birimin olumsuz Durum Etkilerini kaldırır ve onu {HPAmount}[hp/] karşılığında iyileştirir. Bu etki {OtherTargets} hex içindeki {HexRange} diğer birimlere sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hololusion</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hologram + Illusion</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hololusion</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_2_PROP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hololusion</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orbital Kaçırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef birimin, [hp/]'sinin ne kadar düşük olduğuna bağlı olarak, araştırma için yörünge katmanına taşınma ve birimi öldürme şansı vardır. [br/]Birim [abilityred]Sarsılmış[/abilityred], A0[5]9Disorientated[/abilityred] ise şans daha da artar, [abilityred]Impaired[/abilityred],[br/][abilityred]Stunned[/abilityred], [abilityred]Sleeping[/abilityred] or [abilityred]Disabled[/abilityred]. [br/]Kaçırılan birimin kademesi başına {KnowledgeAmount}[research/] kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omni Flare</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omni Flare, {HexRange} altıgen menzilindeki birimlere {ThermalAmount}[damageThermal/] ve {SoundAmount}[damagePhysical/] uygular. {ImpairedChance}[strengthPhysical/] kuvvetinde [abilityred]Engelli[/abilityred] uygulama, birim modlarını devre dışı bırakma ve {Duration}[turn/] için [abilityred]Yavaş[/abilityred] uygulama şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dezenformasyon Kampanyası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef oyuncunun medya kanalları aracılığıyla dezenformasyon yayarak tüm ırklarla olan ilişkilerini {Duration}[turn/] için -{RaceReduction}[opinion0/] kadar azaltır.[br/]Başarısız olduğunda, bunun yerine -{RaceReductionFailure}[opinion0/] uygular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın haber ağlarına ve sosyal medyasına başarılı bir şekilde sızarak yanlış bilgileri fark edilmeden yaydı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın haber ağlarına ve sosyal medyasına başarılı bir şekilde sızarak yanlış bilgiler yaydı, ancak düşman hesaplarımızı tespit edip yasakladı ve artık bizim bu işe dahil olduğumuzun farkında.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_CASTER_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız, düşmanın itibarına zarar vermek için ihtiyaç duydukları medya ilgisini elde edemediler. Neyse ki düşman ajanlarımızın kimliğini tespit edemedi ya da hesaplarımızı izleyemedi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_CASTER_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşmanın itibarını zedelemek için ihtiyaç duydukları medya ilgisini elde edemediler. Daha da kötüsü, etkileyicilerimiz ve haber spikerlerimiz yakalandı ve düşman sorgusu altında ifşa oldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_TARGET_SUCCESS_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları haber ağlarımıza ve sosyal medyaya sızarak halkı yanlış yönlendirmiş ve aldatmış, hükümetimizi yozlaşmış ve ahlaksız olarak göstermiştir! Bu saldırıların doğruluğu ne olursa olsun, ajanları yakaladık ve artık kimin sorumlu olduğunu biliyoruz, ancak imajımızı temizleyene kadar ırk ilişkilerimiz azaldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_TARGET_FAILURE_DETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanlarının sosyal medyamıza sızdığını fark ettik, ancak karşı istihbarat ajanlarımız onları yakaladı, hesaplarını engelledi ve bu saldırının kaynağını tespit etti. Ne yazık ki, yaydıkları az miktardaki yanlış bilgi yine de ırk ilişkilerine zarar verdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_TARGET_SUCCESS_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları haber ağlarımıza ve sosyal medyaya sızarak halkı yanlış yönlendirdi ve kandırdı, hükümetimizi yozlaşmış ve ahlaksız olarak gösterdi! Doğru olsun ya da olmasın, imajımızı temizleyene kadar ırk ilişkilerimiz azaldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_TARGET_FAILURE_UNDETECTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanlarının sosyal medyamıza sızdığını keşfettik, ancak karşı istihbarat ajanlarımız onları durdurmak için çok geç kaldı. Neyse ki, iddialarını viral hale getirecek çekicilikten yoksundular ve sadece küçük bir miktar ırk ilişkileri kaybedildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Irk ilişkileri {Duration}[turn/] için -{RaceRelation}[opinion0/] oranında düşer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Motive Edici Yayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Motive Edici Yayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayım Kuleleri şimdi motivasyonel imgeler yayıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma: Motivasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim çatışmaya girdiğinde, tüm dost birimlere +{Morale}[happiness/] verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_COMBAT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayın sahibinin tüm birimleri {MoraleIncrease}[happiness/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rahatsız Edici Propaganda</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman kolonisinde yanlış ve rahatsız edici propaganda yayma girişimi, {Duration}[turn/] için {Unhappiness}[anger/] ve {RioterAmount}[rioter/]'ye kadar neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman kolonisinde bir Kir'Ko'nun bile yüzünü kızartacak kadar rahatsız edici bir propagandayı başarıyla yaydık!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman karşı istihbaratı ajanlarımızın işlerini düzgün bir şekilde yapmalarını engelledi, ancak bu girişim koloniyi sivil huzursuzluk içinde bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birileri kolonimizde tatsız propagandalar yayarak yerel halkı tedirgin etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonimiz üzerinde aşağılık bir propaganda yayma girişiminde bulunuldu, ancak karşı istihbarat ekibimiz onları zamanında durdurdu, ancak bu girişim kolonimizi sivil bir huzursuzluk içinde bıraktı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Duration}[turn/] için {UnhappinessAmount}[anger/] ve {RioterAmount}[rioter/] kazanımı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vigilant Broadcasting</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vigilant Broadcasting</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayım Kuleleri şu anda uyanıklık mesajları ve kutsal kalkanlar yayıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma: Kalkanlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim çatışmaya girdiğinde, tüm dost birimlere +{Shields}[shield/] verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_COMBAT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayın sahibinin tüm birimleri {ShieldIncrease}[shield/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoreality Broadcasting</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holoreality Broadcasting</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma Kuleleri artık vatandaşlarınıza holoreal nesneler ve eğlence sunarken düşmanların da kafasını karıştırıyor ve onları şaşırtıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma: Yanılsamalar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her komabt sırasının başlangıcında, Akılsız olmayan düşman birimlerinin {HallucinatingChance}[strengthPsyche/] karşılığında [abilityred]Hallucinating[/abilityred] olma şansı {duration}[turn/]'dir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_COMBAT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her turun başında, Akılsız olmayan düşman birimleri {HallucinateChance}[strengthPsyche/] karşılığında [abilityred]Hallucinating[/abilityred] olma {Duration}[turn/] oranına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağırlıklı Hologramlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağırlıklı Hologramlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_1_PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ağırlıklı Hologramlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçekçi Hologramlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçekçi Hologramlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_2_PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim +  {Shield}   [shield/]  kazanır ve +  {DamageIncrease}  % hasar verir. Bu, birim holoshifted olduğunda da geçerlidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASTING_INSTRUCTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COLONY_FRIENDLY_PROPAGATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma Kulelerine sahip tüm dost kolonileri etkiler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Propagation Tower is the Shakarn unique building.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFFS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">INFILTRATOR_BUFF_3_PROP_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yayılma Kulelerine sahip tüm dost kolonileri etkiler</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>45</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>54</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

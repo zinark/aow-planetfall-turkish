@@ -1,0 +1,571 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Tom Bird</LastAuthor>
+    <LastSaved>2019-11-19T15:42:02Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15940</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="45" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="235" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="131.5" />
+      <Column ss:StyleID="s62" ss:Width="198" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247" />
+      <Column ss:StyleID="s62" ss:Width="148" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="207" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="153" />
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">GENETICS_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">KIRKO_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ONE_WITH_THE_SWARM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü ile Bir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">ONE_WITH_THE_SWARM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü Kalkanı artık {turntime} için ek bir {Shieldbonus} veriyor.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_ABYSSIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssian'ı dağıtın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DEPLOY_ABYSSIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş sırasında hedef kareye bir Abyssian çağır. Çağırma, çatışmanın sonuna kadar sürer.[br/]Bu birim, hedefi balmumu kıvamında bir çimentoya [abilityred]Kavuşturabilen güçlü Biyokimyasal yeteneklere sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HEALING_SURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyileştirme Dalgası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HEALING_SURGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Mekanik olmayan birim {Healamount}[hp/] için iyileştirilir. Bu iyileştirme, {range} hex menzili içindeki yakındaki dost birimlere {jumps} defaya kadar sıçrayabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DREAM_SHARING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rüya Paylaşımı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DREAM_SHARING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük savaşçılarımızın geçmiş anılarını ön saflarda savaşan Kir'Ko'larla paylaşmak, onların daha hızlı gelişmelerine yardımcı olur.[br/][br/]ATüm Kir'Ko birimleri savaştan {ExperienceIncrease} deneyim kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRESERVING_THE_FUTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geleceği Korumak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PRESERVING_THE_FUTURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni nesiller bizim geleceğimizdir, bu nedenle yeni nesil ne kadar büyük olursa o kadar iyidir.[br/][br/]A Sahip olunan tüm koloniler {FoodIncome} [food/] gelir artışından faydalanır.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACT_OF_RETRIBUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İntikam Eylemi</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">ACT_OF_RETRIBUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko bir zamanlar onları köleleştirenleri affetmedi ve eski zalimlerinden intikam alacaklar.[br/][br/]Dost birimler Kir'Ko olmayan tüm birimlere +{ExtraDamage} hasar verir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACT_OF_RETRIBUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'ko dışındaki tüm birimlere {ExtraDamage} hasarı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACT_OF_RECONCILIATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uzlaşma Yasası</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ACT_OF_RECONCILIATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko affetmeyi ve eski düşmanlarını yeni müttefikleri olarak kabul etmeyi öğrendi. [br/][br/]A Sahip olunan tüm Koloniler diğer oyuncularla yapılan her Saldırmazlık Paktı için {HappinessIncomePeace} [happiness/], diğer oyuncularla yapılan her Savunma Paktı için {HappinessIncomeDefensive}[happiness/] ve diğer oyuncularla yapılan her İttifak için {HappinessIncomeAlliance}[happiness/] alır.[br/]Ayrıca tur başına {influenceBonus} gelir elde edersiniz.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_SWARMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegensel Sürü</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_SWARMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saf sayılar her türlü muhalefeti alt edecektir. Birlikte güçlüyüz. [br/]  [br/] Tüm Kir'Ko birimlerinin bakım masrafları  {ReducedUpkeep}   [energy/]  azalır. Buna ek olarak, tüm Hafif birimler  {ProductionCostReduction}   [production/]  üretime ve  [energy/]  enerjiye mal olur. [br/]  [br/]  [firecol] Birim maliyetleri asla %75'ten fazla düşürülemez. [/firecol]  [firecol] Birim bakımı asla %50'den fazla düşürülemez. [/firecol] </Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PLANETARY_SWARMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UNIT_BONUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{ProductionCostReduction}[production/] + [energy/] tüm birimler için maliyet</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HIVE_EMBRACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kovan'ın Kucaklaması</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HIVE_EMBRACE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mutluluk etkinliği ödülleri iki katına çıkar ve sahip olduğunuz her Kir'Ko olmayan koloni {InfluenceIncome}[influence/] katkıda bulunur.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPAWN_EMERGENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ortaya Çıkan Yumurtlama</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPAWN_EMERGENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef hex'e bir Kir'Ko Emergent çağırır. Bu birim bir Saklı ya da Aşkın'a dönüşebilir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPAWN_EMERGENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrolünüz altında yeni bir Emergent ortaya çıktı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BERSERKER_PHEROMONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berserker Feromonları</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BERSERKER_PHEROMONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen ordudaki tüm Biyolojik ve Sayborg birimleri tam [hp/]'ye iyileştirir ve verilen tüm yakın dövüş hasarı {Duration} için {MeleeDamage} artar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BERSERKER_PHEROMONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim {MeleeDamage} yakın dövüş hasarı verir.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BERSERKER_PHEROMONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Feromonlar bu orduyu çılgına çevirdi.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BERSERKER_PHEROMONES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Belirli feromonlara maruz kalmanın bir sonucu olarak birimleriniz hızla yenilendi.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_HIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kovanın Çağrısı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_HIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sahip olunan bir koloniyi hedefleyin. Dost ordular o koloninin alanında savaştığında, savaş sırasında onlara yardımcı olmak için {AmountUnitsSpawned} Kir'Ko Kovan Muhafızları ortaya çıkar. Ortaya çıkan birimler savaşın sonunda kaybolur.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">Changed references from Sector to Owned Colony</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_HIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonilerimizi savunmak için başarılı bir şekilde ekstra savaşçılar çağırdık.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="52.5">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_HIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kovanı savunmaya yardımcı olmaları için fazladan Kir'Ko Kovan Muhafızları çağrıldı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63">
+          <Data ss:Type="String">Now correctly mentions the Hive Guard units it spawns instead of the Frenzied</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zararlı Bombardıman</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman ordusuna mevcut [hp/]'lerinin {Damage}'si kadar hasar verin ve onlara {AmountOfTurns} için tüm dirençlerinde {ResistanceReduction} verin.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef ordunun üzerine başarılı bir Zehirli Bombardıman uygulandı, zayiat verdirildi ve {NoxiousBomardmentDuration} için savaşta aldıkları herhangi bir hasara karşı dirençleri zayıflatıldı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehirli Bombardıman hedef ordunun üzerine başarılı bir şekilde salındı, ancak saldırı maksimum etkinlikte etkili olmadı. Gaz yeterince güçlü değildi, ancak yine de düşman ordusuna hafif hasar vermeyi başardı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuza başarılı bir Zararlı Bombardıman uygulandı, zayiat verdirdi ve {BiochemicalGasStrikeDuration} boyunca savaşta aldıkları her türlü hasara karşı dirençlerini zayıflattı.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlerinizin üzerine başarılı bir şekilde bir Noxious Bombardımanı yapıldı, ancak birlikleriniz bunun en kötüsünden kaçınmayı başardı ve sadece hafif kayıplar verildi.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflenen birimler mevcut [hp/]'lerinin {damage}'sini kaybettiler ve tüm hasar kanallarında {ResistanceReduction} dirence maruz kalıyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

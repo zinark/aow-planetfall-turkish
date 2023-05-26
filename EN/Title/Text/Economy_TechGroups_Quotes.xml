@@ -1,0 +1,902 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Tom Bird</LastAuthor>
+    <LastSaved>2019-11-08T09:00:59Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>19965</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Top" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="117" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="230.25" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="122.25" />
+      <Column ss:StyleID="s62" ss:Width="152.25" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" />
+      <Column ss:StyleID="s63" ss:Width="147.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="233.25" />
+      <Column ss:StyleID="s63" ss:Width="207.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ECONOMY_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="4" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sucul Dağıtım</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Deniz birçok ruh haline sahip bir bakiredir... çoğu öldürücüdür. "[br/]- Kaptan Peter Visser, Salty Bay Kolonisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sınır Tesisleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_1_2_ESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Kolonilerimizin kendilerini korumak için araçlara ve kalmak için bir nedene ihtiyaçları var. En azından eski moda silahlara ve biraya yatırım yapmanın zamanı geldi. "[br/]- Dollar Smith, Deneb Kolonisi Belediye Başkanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda Geliştirme I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gıda bir yönetim aracıdır. Tıpkı yakıtın bir makineyi çalıştırmak için gerekli olması gibi, gıda da mutlu, güçlü ve üretken kolonicilerin yönetim ilkesidir. "[br/]- Tony "Rubio" Strong, Manpower &amp; Machine Motivational Consulting</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim Geliştirme I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Her şeyi yapmanın bir yolu vardır. Ayrıca her şeyi yapmanın daha akıllıca bir yolu da vardır. Ticari sırlar genellikle gizli bir sostan çok iyi eğitilmiş bir işgücüyle ilgilidir. "[br/]- Tony "Rubio" Strong, Manpower &amp; Machine Motivasyon Danışmanlığı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Geliştirme I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İmparatorluk tarafından kullanılan elektronik mekanizmalar istismara karşı pasif-agresif bir tutum geliştirmiş gibi görünüyor. Eğer bir cihaz yanlış kullanılırsa, sistem özelliklerinde belirtilenden daha fazla enerji tüketebilir. Automaton aktivistlerinin bundan sorumlu olduğundan şüpheleniyoruz. Yine de, altyapınızı yükseltmenizde fayda var. "[br/]- Tate Oreck, Üretkenlik Komplocusu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Geliştirme I</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Sonuç olarak, bilgi güçtür, ancak iyi eğitimli olmanın ek bir faydası daha vardır. Kimse size aptal diyemez... özellikle de dedikleri takdirde onları buharlaştıracak silahları araştırmışsanız. "[br/]- Dr. Millicent Rickles, Baş Araştırmacı, Lazilite Inc.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: well educated -&gt; well-educated</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çevresel Şartlandırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Bu toprak parçasını, saf ıstırap ve dehşet boyutundan kirleticiler püskürten kozmik ölümün öfkeli cehennem kırığı olmadan hayal etmek önemlidir. "[br/]- Phil Dunford, Imperious IV Colony Emlak Ofisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_6_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">Konut Geliştirme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="99.75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_2_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Hiçbir şey bir nüfusta üretkenliği ipotekten daha fazla motive edemez. Mülk sahibi olmanın cazibesi, bireylerde mülk değerlerini sürekli olarak artırma motivasyonu uyandırır ve bir mahremiyet yanılsaması sağlar. "[br/]- Phineas Shaker, Koloni Finansörü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sucul Gelişim</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Neredeyse yaşanabilir her gezegende, okyanuslar sonsuz mekanik enerjinin motorları, ritmik besin kaynakları ve sonsuz yaşamdır, sadece savrulan derinliklerine cesaret edecek kadar zeki biri tarafından kullanılmayı beklerler. "[br/]- Sammy Sellis, Denizci ve Yıldız Birliği Deniz Kabuğu Satıcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arktik Sömürüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Dışarıda, buzun içinde saklanan, hareket eden, yer değiştiren, izleyen ve öğrenen bir şey var. Dikkatli olun. Burada sahip olunması gereken bir güç var. Burası donmuş bir çorak araziden çok daha fazlası. "[br/]- Natali Budler, Arktik Sanatkâr</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">V.O.: Dvar Female
+
+Edit: Artic -&gt; Arctic</Data>
+        </Cell>
+        <Cell ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arcadian Sömürüsü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yaşamı sürdürmek için ideal olan en zengin Arcadian toprağı bile üretken ve sürdürülebilir kalmak için özen gerektirir. Bu tekniklerin birçoğu eski çiftçilerin ticari sırları olsa da, sürdürülebilir verimlilik için hala çok önemlidir. "[br/]- Tammy Wellers, Antares Tarım Konsolosluğu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orman İstismarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bu dünyada bazı yaşamlar akıllı uygarlığın cömert yardımseverliği sayesinde var olmaktadır. Bir ormanı korumak ve kaynaklarını sorumlu bir şekilde hasat etmek bilimsel ustalık ve ruhani sabır gerektirir. Bu, son derece gelişmiş bir sivil topluma işaret eder. "[br/]- Dame Viola Dalta, Treesinger</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bereketli Ovaların Sömürülmesi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gözlemleyin. Verimli düzlüklerdeki yaşam bile hızlı, zeki ve acımasızdır yoksa daha güçlü, daha acımasız bir yaratık onların yaşam alanlarını ele geçirir ve onları av olarak kullanır. Rahat açık alanları bile daha verimli bir şekilde kullanmalıyız yoksa yaşam bizim yerimizi alacak." [br/]- Dr. Ellen Shaw, Assembly Environmental Adaption Research</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Assembly Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Antropolojik Araştırma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_3_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Dost olmaya çalıştığınız kişilerin güdülerini ve arzularını anlamadan güçlü ittifaklar ve anlamlı dostluklar kuramazsınız. Kibar bir cehalet diplomatik bir strateji değildir ve sadece ilk birkaç karşılaşmada hoş görülebilir. "[br/]- Voyan Hanesi'nden Cerera Tan, Diplomatik Eş</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Syndicate Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sanal Ağırlama Sistemleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dırdırcı eşlerden ve cinsel sınırlamalardan arınmış mükemmel yanılsamaları deneyimleyin. Sanal eğlence, vatandaşlarımızın aklına gelebilecek her türlü çarpık kaprise uyacaktır. Ama ben kim oluyorum da kolonistleri yurttaşlık görevlerine bağlı tutuyorsa yargılıyorum? "[br/]- Pannus Bardum, Vardus III Kolonisi Evlilik Komisyoncusu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurak Sömürü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Çöller, yaşam biçimimizin yapı taşlarının nadir bulunduğu bir başka biyomdur. Çöllere adapte olmuş organizmalar, tam olarak araştırıldıklarında, ilk olarak insanoğluna kaynakların nadir olduğu uzayda nasıl hayatta kalabileceklerini anlamaları için ilham verdi." [br/]- Ferris Endu, Ekolojist</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mantar İstismarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Belki de evrendeki en başarılı yaşam formları olan mantar büyümeleri kilometrelerce uzanır, hepsi birbirine bağlıdır, hepsi tek bir canlıdır ve genellikle diğer organizmalar için çok güçlü kimyasallarla beslenir. Mantar manzaralarından öğrenecek çok şeyimiz olabilir. "[br/]- Dr. Elfa Durall, Baş Mikolog, Terratech Industries</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dağ İstismarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dağlar sadece bir cesedi saklamak için harika bir yer değildir. Bir kanyondaki güçlü bir duvar, bir türbini döndürmek için bir rezervuarı tutabilir. Kanyon rüzgarları da aynı şekilde enerji üretebilir. Doğru teçhizatı yanınıza alırsanız dağ yolculuğu oldukça doğaldır. "[br/]- Old Man Jugger, Blue Mountain Lodge</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sömürü Kalıntıları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_4_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Harabeler, bir zamanlar aydınlanmış bir çağdan geriye kalan tek şeyin bu harabeler olmasının nedenlerini keşfetmediğimiz sürece hepimizi bekleyen gelecektir. "[br/]- Mah Reg'Nib, Harap Labirentin Kaşifi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hydro-Expertise</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Okyanus akıntılarının haritasını çıkardık. Gelgitin dalgalanmasını hissettik. Bu dizginlenemez hareketin ardında, kullanılmayı bekleyen dünya değerinde bir momentum var. Bir gemi imparatorluğu olmak için gerekli bilgiye sahibiz. "[br/]- Amiral Dommus Kent</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda Geliştirme II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gıda bizi hayatta tutar. Güvenliktir. Zorlayıcı olabilir. Basit bir pirinç tanesinin bile bir hikayesi vardır. Gıda savaşları başlatır. Gıda savaşları bitirir. Bir anıdır ve bizi rahat bir unutkanlığa sürükler. Sadece bir aptal yemeğe saygısızlık eder. "[br/]- Mah Reg'Nib, İkinci Akşam Yemeği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enerji Geliştirme II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Sürekli hareket eden makineler bizim işimiz. Gerçi şimdi düşünüyorum da, eğer böyle bir şey icat etseydik, işimizden olurduk. "[br/]- Dillon Ullard, Forward Energy Solutions CEO'su</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üretim Geliştirme II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Elbette bu sanayi bölgesinde yaşayamazsınız! Burası onsuz yaşayamayacağınız her şeyi ürettiğimiz ve sevk ettiğimiz yer. "[br/]- Redikk Flinkov, Dvar Foreman</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Dvar Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırma Geliştirme II</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Artık araştırmamızdan mümkün olan her ayrıntıyı nasıl çıkaracağımızı keşfettiğimize ve gerçekten harika şeyler yarattığımıza göre, süreci belgeleyelim ve sonra da başından beri böyle yaptığımızı iddia edelim. "[br/]- Ryan Calkins, Yapılandırma Yöneticisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Altyapısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Artan kozmit üretimini kolaylaştırmayı amaçlayan yerçekimsel muhafaza ve atalet sönümleme sistemlerindeki atılımlar, çeşitli arazilerdeki toplu taşıma sistemlerinde tesadüfi uygulamalara sahip olduğunu kanıtlayarak, bu teknolojinin kullanıldığı koloniler arasında daha verimli taşımacılığa olanak tanıyor. "[br/]- Dr. Axynnic, Baş Araştırmacı, MagTec Inc.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.:Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmite Ustalığı</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s66" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_9_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Cosmite, esrarengiz gerçeklik bükme özellikleri nedeniyle gıpta ile bakılıyor. En iyi teknoloji ona ihtiyaç duyar. Artık Cosmite Ustalığına ulaştığımıza göre, toplumu bu kârlı kaynağı çevreleyen yalanlardan, yanlış anlamalardan ve kültlerden arındırmanın zamanı geldi. Onu korkusuzca kullanmanın zamanı geldi. "[br/]- Toriq Vestum, Cosmite Extraction Industries CEO'su</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s66">
+          <Data ss:Type="String">V.O.:Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarlanabilir Sömürü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">"Bazılarının toksinlere karşı duyduğu tiksintiyi hiçbir zaman anlayamadım. Doğa, rakip yaşam formlarını uzaklaştırmak için toksinleri kullanır. Zehirli bir çöplükte yaşayamamak, ırk olarak biraz evrim geçirmemiz gerektiğinin bir göstergesidir. "[br/]- Charlene Hester, Botanikçi, Terratech Labs</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_7_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hızlandırılmış Kuvvet Konuşlandırması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_5_7_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Tüm hız rekorları kırılmak içindir. Artık keyifli ara yollar ve manzaralı dolambaçlı yollar için zaman yok. Eğer endüstrinin baş döndürücü hızından kurtulmak istiyorsak, en ilginç engelleri bile buldozerle ezmeliyiz. Manzaralar ilk dağcınınki kadar görkemli olmayabilir, ama bizim ana yollarımız ilerleme uğruna bir dağın kalbine girebilir. "[br/]-Enzo Mantle, Ulaştırma Bakanı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">V.O.:Vanguard Male</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="117" ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+        <Cell ss:StyleID="s66" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <TopRowVisible>14</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>18</ActiveRow>
+          <ActiveCol>3</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

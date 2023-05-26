@@ -1,0 +1,701 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Frederick Milders</LastAuthor>
+    <LastSaved>2020-08-13T11:34:30Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14265</WindowHeight>
+    <WindowWidth>28770</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="46" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="268.5" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="117" />
+      <Column ss:StyleID="s62" ss:Width="214.5" />
+      <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:Width="255.75" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">OATHBOUND_TECHGROUPS_QUOTES</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdür Rütbeleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Warden is an Oathbound Unit (large mech)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İnsanların güçlerini emanet edebilecekleri bir dosta ihtiyaçları var. Yükseliş yolunda onlara güvenle rehberlik edecek, popülerliğin ya da kendini öne çıkarmanın cazibesine kapılmayacak bir Gardiyan." - Orfen Bearns, Sivil Koruyucu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Paladin (Frankly)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_1_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Paladin Warden</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_1_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Paladin Warden</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gözetmen Rütbeleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Watcher is an Oathbound Unit (cloaked seer)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Hepimizin yeminlerimize itaat edecek daha iyi bir doğası vardır. Ne yazık ki, yalnız bırakıldığımızda, bu daha iyi doğa bencillikle bozulabilir. Eylemlerimizin sonuçları olduğunu unutuyoruz. Bunu düzeltmek için, daha iyi doğalarımız sürekli izlenerek güçlendirilir." - Gözetmen Goody Momo</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (threatening, ominous)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_2_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Gözcü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_2_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Gözcü Parşömenleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şampiyon Rütbeleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Champion is an Oathbound unit (large mech)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yeni bir şampiyon var, erdemleri su götürmez. Halk tarafından, savunmalarında büyük güç kullanması için emanet edilen biri. Bu kudretli asker, kılıç kullanırken barış arayan birinin gerektirdiği sert fedakarlığı yapsın ve ruhları kıran vahşete boyun eğmeden savaşın dehşetiyle yüzleşsin. Hakikat davasına sonsuza kadar sadık kalacaktır." - Marva Nexa, Yemin Edici</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Paladin (Boldly)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_3_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Paladin Şampiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_3_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Paladin Şampiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kâhin Rütbeleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Diviner is an Oathbound unit (cloaked seer)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Birbirine karışan fikirlere, sorunlu tarihe, siyasi önyargılara, hikayeleştirilmiş ortamlara, hormonal tepkilere, göreceli kaynaklara, temel kimyasal reaksiyonlara, depolanmış enerjinin boşalmasına ve genetik özelliklerin bir senaryosuna, öngörülen olasılıkların girdabında bakın ve eğer akıl sağlığınızı koruyabilirseniz, uygun bir Kâhin olabilirsiniz." - Tantalya Corvidan, Kâhin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Seer Female (Ominous)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_4_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Kâhin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_4_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ekipman: Kâhin İplikleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Exemplar'ın Vestibülü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Exemplar is an Oathbound unit (large mech)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Dağ ne kadar yüce olursa olsun, aşınarak enkaza dönüşecektir. Aynı şekilde, her inisiye Örnek zırhı giymeyi arzular, ancak çoğu sadece kaos fırtınası tarafından aşındırılmış dağlardır. Yalnızca erdemli ve sadık, rafine elmasın zirvesi tanrısal güçlere sahip olabilir. Pek çok güçlü makine inşa edebiliriz, ancak değerli askerler olmadan hiçbir amacımıza hizmet etmezler." - Groll Cassot, Paladin Konseyi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Paladin (Wisely)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_5_SUBSKILL_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim: Paladin Örneği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_FORCES_5_SUBSKILL_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araç: Paladin Örneği</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_STRATEGIC_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Muhafızları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_STRATEGIC_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"İnsanlar kendilerini güvende hissetmezlerse çalışmazlar. İnsanlar kendilerini güvende hissetmezlerse paylaşmazlar. İnsanlar kendilerini güvende hissetmezlerse umursamazlar. Buradaki ortak noktayı görüyor musunuz? Güvenliğimizi sağlayın, biz de sizin ideallerinizi gerçekleştirmek için çalışalım." - Alandis Marta, İşçi Organizatörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Oathbound Paladin (Patronizing)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_STRATEGIC_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düzenlenmiş Manipülasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_STRATEGIC_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Evren sizin etrafınızda dönmüyor, ama ya bir an için dönseydi? İntikamcı bir tanrı mı olurdunuz, yoksa ölümü aldatmak için kadere müdahale mi ederdiniz? Şimdi bu gücün neden kimseye verilmediğini anlıyorsunuz." - D'Nex Tornek, Kader Eğitmeni</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (Instructive)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_STRATEGIC_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mükemmel Komünyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_STRATEGIC_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Öngörü, felaket ve talihsizlikten vazgeçmek değildir; bunları atlatmak için sığınak sağlar. Kıtlık gelebilir, ama ne zaman ve nerede geleceğini bilmek hazırlık yapılmasını sağlar. En büyük Kahinler şifa yolunu bulmak için dehşetin ötesine bakarlar." - Teyla Vinzi, Zümrüt Saray Kapısı Bekçisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (ominous)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İndüksiyon Törenleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Tarihin doğru tarafında olduğunuzu bildiğinizde, dünyayı değiştirme fırsatınızı kaçırmazsınız. Tek gereken bağlılıktır." - Rorymandus Millingworth, Oathbound İşveren</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Paladin (Enthusiastic)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş El Yazmaları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Saflık ve amaç, Oathbound'un savaşı haklı çıkarmak için kullanabileceği tek yöntemdir. Şiddetin geri dönülmez sonuçları vardır ve sadece saf olanlar bundan kurtulabilir. Bir savaşçı ahlaki netliğe sahip olmalıdır, yoksa düşmana çoktan teslim olmuştur." - Lyconis Merliss, Savaş Modeli Analisti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Paladin (Gentle)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Tulumuna Uyum</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Kötü alışkanlıklar ve daha iyi bir yaşam arasında gidip gelmeyi bırakın. Güç, kararlılıktan gelir. Kararınızı verin ve artık sizi sömürmek isteyen güçlerin kurbanı olmayacaksınız. Bağlılık Yemini edin." - Eldon Fermi, Emeritus Örnek İnsan</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Oath of Devotion is also the name of an in-game mod
+Exemplar is an in-game unit
+
+The person of the quote is male</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Male Paladin (Noble)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Talihsizlik Manipülasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Kader bir jiletin ucunda dengede durur. Ya sen ya da ben lanetliyiz. Senin yaşaman için, benim ölmem gerek. Ve eğer ben yaşarsam, sen mahkum olursun. Senin kaderin bana bağlı ve ben yaşamaya niyetliyim." - Pulminis Vurgent, Augur</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Augur is an in-game unit
+
+The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (Ominous)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düzenlenmiş Kaos Teorisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gerçeklikle ilgili en şaşırtıcı keşiflerden biri, cesur seçimlerimizin, saf ve dürüst olduğunda, olasılıksal olarak önemli olduğunun keşfedilmesidir. Ahlaki seçimler kaos üzerinde etki yaratır. Bana göre bu, varoluşumuzun bir amacı olduğunu kanıtlıyor." - Gillis Tarlox, Gözetmen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Overseer as in team leader, NOT the Syndicate unit named Overseer
+
+The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (Enlightening)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kusursuz Kehanet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_TACTICAL_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Kıyamet kehanetinde bulunmak kolaydır. Korku geçmişimizin köleliğidir. Gerçek kehanet, başkaları sadece kıyamet görürken umut olasılığını seçmekten gelir. Kesin olarak görürseniz ilahi bir yetkiyle konuşursunuz. Her şeyi göremeyeceksiniz ama birileri inanacak ve bu kehaneti gerçeğe dönüştürecek." - Nella Marsdotter, Safir Yıldızın Kahinesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (Informative)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_GOVERNANCE_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Halk Sözleşmeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_GOVERNANCE_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Aydınlanmayı korumak için, en bilgili olanlar keşiflerini acemilerle paylaşmayı asla unutmazlar. Hayallerinizi kaydedin. Buluşlarınızı belgeleyin. Her ruh bakımı hak eder, sadece bedenen değil, zihnen de. Dersler kolay gelmeyebilir, ancak yalnızca sabırlı bir şefkate sahip olanlar gerçekliğin en önemli faktörlerini kavrayabilir. Sadece onlar peygamberdir." - Pasha Lyle, Halkın Gören Kadını</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (Patient)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_GOVERNANCE_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnanç Maddeleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_GOVERNANCE_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sadece bir direğe asılı bir bez parçasına bakarak kurtulabileceğinizi hayal edin. Bu bayrağa saygısızlık etmeyeceksiniz. Yeminli sancağımıza sadakat, onura ilham verir ve birliği teşvik eder. Bu, hepimizin yaşamın temel onurunu, özgürlüğü ve şefkatli bakımı hak ettiğimizi kabul etmenin bir yoludur." - Wella Sharp, Paladin Standart Taşıyıcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Paladin is the type name of the large Oathbound mechs (Protector, Warden, Champion, Exemplar, etc)
+
+The person of the quote is female
+
+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Paladin (Patriotically Fierce)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_GOVERNANCE_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kırılmaz Yeminler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SKILLGROUP_GOVERNANCE_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Gelecek zihnimizde çoktan gerçekleşti. Oathbound'un başına gelecekleri gördük. Bizi tüm baskılardan kurtaracak büyük bir galaktik toplum kuracağız. Onun yükselişi engellenemez. Yolumuza çıkanlar unutulacak. Geriye kalan tek soru sizin hatırlanıp hatırlanmayacağınızdır." - Merissa Link, Kaliope II'nin Kahinesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The person of the quote is female</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Female Seer (Ominously certain)</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>38</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>45</ActiveRow>
+          <ActiveCol>6</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

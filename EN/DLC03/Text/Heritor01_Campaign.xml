@@ -1,0 +1,4352 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Laszlo Pieper</Author>
+    <LastAuthor>Jakob Matthes</LastAuthor>
+    <Created>2018-10-11T08:22:20Z</Created>
+    <LastSaved>2019-10-04T12:20:55Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17025</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+      <Interior />
+      <NumberFormat />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65" ss:Parent="s62">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s67" ss:Parent="s62">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="307" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="252" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="435.75" />
+      <Column ss:StyleID="s63" ss:Width="66.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="338.25" />
+      <Column ss:StyleID="s63" ss:Width="150" />
+      <Column ss:StyleID="s63" ss:Width="254.25" />
+      <Column ss:StyleID="s63" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HERITOR01_CAMPAIGN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="4" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CUSTOM_SECTOR_CRASHED_SHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp Umutlar Çölü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CUSTOM_SECTOR_PSYNUMBRA_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Edgelords Şapeli</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CUSTOM_SECTOR_CELESTIAN_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gülen Güvercin Tapınağı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CUSTOM_SECTOR_ELYSIUM_PARKS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bling-Jack Tapınağı 90k</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_CUSTOM_SECTOR_HAND_OF_INFLUENCE_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rhemenses'in Eli</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector. 
+Rhemenses is the last name of a human character.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CUSTOM_SECTOR_STARTING_BRONZE_LANDMARK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sızdıran Geçmiş Jeneratörü</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">Name of a unique world map sector.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="11" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Es'Teq Kodu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s62">
+          <Data ss:Type="String">A header name of a task.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Kodu</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s62">
+          <Data ss:Type="String">A name of a task.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eski Es'Teq dininin kalıntılarını bularak bu haritayı kazanabilirsiniz.[br/][br/]Es'Teq bulundu: {INT_0}\{INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s62">
+          <Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq bulundu: {INT_0}\{INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s67">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gümüş serçe iniş yaptı ve yeni yuvasını inşa etti. Bu bölgeyi yörüngeden taradık: taranacak çok sayıda kalıntı var. Tüm bu moloz yığını içinde Es'Teq'i bulmak samanlıkta iğne aramak gibi olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşte burada hatalısın dostum. Es'Teq dini yasaklandığında ve kardeşlerim saklanmaya başladığında, daha sonra bazı aşağılık yağmacılar tarafından tökezlensin diye mabetlerimizi terk etmedik. Gerçek bir müminin içgörüsü olmadan taşları yerinden oynatmanın bize hiçbir faydası olmayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="74.25">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq kodunu kırmak, farklı parçaların vahiyler olduğu ve onları birbirine bağlayan iplerin doğru dönemden doğru insanların anıları olduğu bir bulmacayı çözmek gibidir. Ran Do'Lar'ın bakış açısını zihnimde taşıyorum ve onun sezgileri bana bir sonraki işaretin yakın olduğunu söylüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalın gizem katmanlarına sarılmış bilmecelerle konuşuyorsun. Ama bu gerçek anında senin kararından şüphe etmek için birlikte çok fazla zorluk yaşadık. Ben annemin ve Faron Hanesi'nin geri kalanının burada, yüzeyde bize katılmasını beklerken git ve önüne serilen yolu takip et.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlk Vahiyler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl Es'Ran'ı imgelemindeki yere getirin ve Es'Teq eseriyle iletişim kurmasına izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rhemenses'in Eli ile Komünyon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl Es'Ran'ın Es'Teq eseriyle iletişim kurmasına izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kalıpları Es'Teq ortakyaşarımın anılarından tanıyorum. Alan el, veren eldir. Yankılanan Özü kaynağına kadar izleyebiliyorum ama kurumuş, beslenmesini ve işlevini yitirmiş. Yolculuklarımız sırasında topladığım Öz ile onu aşılayarak, amacına geri döndürebilirim...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pasif taramalar sonuçlandı: formula-E tespit edildi. Hazırda bekleme modu kesildi.[br/][br/]Bekleyen emirler güncelleniyor... bağlantı başarısız oldu. Yedek protokoller yeniden çalıştırılıyor... Formula-E yok edilmeli. Hedefler alındı. Sonlandırma devam ediyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: RPR Stalker (genderless robot)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölümcül Günahlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyon düşmanları kendine çekmiş gibi görünüyor. Görünüşe göre o katil robotlar birinin Es'Teq eserini aktive etmesini bekliyorlarmış.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl! İyi misin? [br/][br/]Sekiz yaldızlı hanedanlıkta o şeyler neydi?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkinci çağdan tasfiyeciler! Bu robotlar acımasız ölüm makineleridir. Zamanın tozları arasında kaybolduklarını düşünmüştük ama ne yazık ki Es'Teq belası bu dünyada hâlâ varlığını sürdürüyor gibi görünüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O halde bir dahaki sefere onlarla karşılaştığımızda daha iyi hazırlandığımızdan emin olalım. Bizi nasıl bu kadar çabuk buldukları hâlâ bir soru. Kullandığınız bu Esans teknolojisiyle bir ilgisi olabilir mi?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne yazık ki, RPR robotlarının doğasını hiçbir zaman tam olarak anlayamadık. Ancak Öz hasadının beklenmedik sonuçlar doğurabileceği de bir gerçek. Obolus-5'e yayılan ve yüzeyinin çoğunu çorak arazilere ve soğuk çoraklara dönüştüren yanıklığı fark etmişsinizdir. Bunun, gezegenin yavaş yavaş Özünün boşaltılmasının bir belirtisi olduğundan şüpheleniyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq eseriyle iletişim kurduğumda, tüm ley hatlarının birleştiği bir doruk noktası bulana kadar Öz'ü ortaya çıkan arazi boyunca izleyebiliyordum: Obolus-5'in yüzeyinin altında bir yerde gizlenmiş mahzen benzeri bir yapı. Ne yazık ki, içimdeki göz onun yerini çözemedi ve bizi başka bir gizemle baş başa bıraktı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gizemlerden bahsetmişken: veritabanımız Yıldız Birliği günlerinde inançlarını Obolus-5'e odaklayan bir dizi dini mezhebi listeliyor. Onların 'kutsal emanetlerinden' bazılarının Es'Teq eserleri olduğu ortaya çıkarsa hiç şaşırmam. Onların kült alanlarını kontrol etmek değerli bir çaba olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor Mahzenini Bul</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obolus-5'te gizlenmiş bir Es'Teq mahzeni var. Hatyl Es'Ran'ın aradığı şey tam olarak buydu. Tam yerini öğrenmeniz gerekecek.[br/][br/][recommendedcol](İpucu: Obolus-5'i keşfederek ve mevcut gruplarla etkileşime girerek bu görevi tamamlamak için daha fazla rota açabilirsiniz.)[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Es'Teq Şifresi Bulundu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişin hazinelerini yağmalamak için başka bir Sendika mı? Söylemeliyim ki, senin türün hiç değişmemiş. Yolumdan çekilirseniz, acınası varlığınızı bağışlayacak kadar önemsiz olduğunuzu düşünebilirim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu doğru olabilir mi? Başrahibe Ebra, varlığınızla bizi onurlandırdınız. Bu işaretlerin doğru yorumlandığı anlamına mı geliyor? Beyaz kuzgun kurbanını verdi ve büyük yılan kozmik ağaçtan geri çekildi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegende bir Öncü olduğunu bilmiyordum. Kiminle arkadaşlık ettiğine dikkat etmelisin kardeşim.[br/][br/]Söyledikleriniz bilgelikten yoksun değil. Ancak, Yeniden Doğuş zamanı henüz gelmedi. Uyanışımı beklenmedik bir hayrana borçluyuz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başrahibe, eğer öyleyse ve Regenesis'in beklemesi gerekiyorsa, herhangi bir riskten kaçınmamız ve size tapınaklarımızdan birine kadar eşlik etmemiz gerekmez mi? Naçizane yardımımı sunabilirim. Arklarımızdan birinin burada, Obolus-5'te olduğuna inanmak için iyi bir neden var.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sözleriniz bir Öncü'ye yakışır nitelikte ve eninde sonunda sizi kabul edeceğim. Ancak, öncelikle dikkat etmem gereken bazı şeyler var. Şimdilik kehanetini yerine getirmeye devam et Ran Do'Lar. Ben sana tekrar ulaşana kadar Sandık'a dokunma.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kehanetler, Öncüler, Yeniden Doğuş - Sanırım bana bazı açıklamalar borçlusun, Hatyl. Eğer bu gerçekten Es'Teq'lerden biriyse, benimle tanıştığına pek memnun olmuşa benzemiyordu.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eski Sendika evleri inancımızın takipçileri arasında pek dost edinemedi. Ama Başrahibe Ebra bilge bir kadındır. Ona iyi niyetinizi gösterdiğinizde sizi adil bir şekilde yargılayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beni adil bir şekilde yargılayacak mısın? Obolus-5'e başka bir kararı dinlemek için gelmedim. Bu Başrahibeniz bir zamanlar bir azize olabilir, ancak şimdi onun yönü bir Meclisin çarpık bedenine hapsolmuş durumda. Ona güvenmiyorum ve siz de güvenmemelisiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O zaman başkaları da size aynı önyargıyla yaklaştığında şaşırmayın. Hayat yanlış anlamalarla dolu sonsuz bir mücadeledir. Birçok Kir'Ko neslinin ortak hayallerinden ve bir insan ortakyaşarının ömür boyu süren anılarından yararlanabiliyorum ve herhangi bir evrensel gerçeğin gerçeklik tarafından yalanlanmadığı bir günü henüz görmedim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_CRYPT_GUARDIAN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahzen: İlahi İyilikler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_CRYPT_GUARDIAN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ally Ebra Queztal, Es'Teq mezarının yerini ortaya çıkarmak için.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_CRYPT_GUARDIAN_QUEST_SCRIPTED_OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Ebra Queztal Müttefik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_DIVINE_FAVORS_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlahi İyilikler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ran Do'Lar... zamanın geldi.[br/][br/]Entropi bekliyor!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Es'Teq Siphoner" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gücümün azaldığını hissediyorum... {STR_LeaderFirstName}, dostum, kaçabilirsen kaç!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Entropi Çağrısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl Es'Ran'a saldıran tarikatçıları ortadan kaldırın veya arkadaşınıza güvenli bir yere kadar eşlik edin!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_HERITOR_HERO_DEATH_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Savaşın sıcağında, tam da işler onun için kötü görünmeye başlamışken, Hatyl Es'Ran'ın deniz mavisi bir şimşekle kaybolduğunu görürsünüz).</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Has no speaker. (Second person narration.)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_HERITOR_HERO_DEATH_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ro'Qwer'Z'in boynuzu ve kuyruğu adına, bu çok yakındı! Boşluğa ulaşmak ve katlanmış uzay-zamandan kaçmak için topladığım tüm Özü kullanmak zorunda kaldım. Ne yazık ki, bu hareketim tüm Kozmit rezervlerimizi de tüketti.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_HERITOR_HERO_DEATH_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hâlâ tek parça olduğunuzu gördüğüme sevindim. Kozmit tekrar çıkarılabilir. Ancak yeni arkadaşlar öylece gökten düşmez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artık hepimiz güvende olduğumuza göre konuşmamız gerek Hatyl. Saldırganların üzerindeki işaretleri tanıdım. Senin kullandığın Esans teknolojisinin aynısını kullanıyorlardı. Bunlar bize kurtuluş getirmesi gereken Es'Teq 'dostları' mı?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kardeşlerimin uyanık olması ve bana karşı bu kadar açık bir şekilde cephe alması gerçekten endişe verici. Haberci olarak, Es'Teq kehanetinin bir müjdecisiyim. Ben ayinimi derlerken, tüm inananlar mabetlerimizde uyumaya devam etmelidir. Başrahibe Ebra daha fazlasını biliyor olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">...bize söylememesi dışında. Daha fazla kanıt olmadan bu konuyu açmak istemedim ama en yetenekli ajanlarımızdan bazılarını Başrahibenize göz kulak olmaları için gönderdim ve görünüşe göre o çoktan - kelimenin tam anlamıyla - yeniden uyandırılmış Es'Teq'in kendi ev sahiplerini bir araya getirmeye başlamış.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Regenesis'ten önce bir Heritor'un yükselişi mi? O halde bu doğru ve Başrahibe Ebra artık kehanetlerin önümüze koyduğu yolda yürümüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planları ne olursa olsun, Mahzen'i bulmamızı istemediği çok açık. Dahası, eğer kendisi çoktan bulmuşsa hiç şaşırmam. Onun içinden geçmek hoş olmayabilir ama yine de hedeflerimize ulaşmanın en etkili yolu olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_05_CRYPT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Planları her ne olursa olsun, Mahzen'in içinde ne olduğunu bulmamızı istemediği oldukça açık. Onun içinden geçmek hoş olmayabilir ama yine de hedeflerimize ulaşmanın en etkili yolu olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnancımız içinde şiddet düşüncesinden nefret etsem de, Ebra Queztal'ın tüm Es'Teq için oluşturabileceği tehlikeyi görmezden gelemem. Eğer onu durdurmanın bedeli Regenesis ise, öyle olsun!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahzen: İlahi Müdahale</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq mahzeninin yerini ortaya çıkarmak için Ebra Queztal'ı yen.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Ebra Queztal Yenildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Sendika tarafından işlenen ihanet mi? Ne kadar orijinal... Katılmaya asla layık değildin. Şimdi leş yiyicilerim bedenin ve ruhunla ziyafet çekecek.[br/][br/]Ran Do'Lar, dostun Es'Teq'e dönme vakti geldi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üzgünüm Başrahibe Ebra, ama benim yerim arkadaşım {STR_LeaderName}'nin yanıdır. Kardeşlerimizi peşimden göndermemeliydin. Regenesis'i görmeyi hak ettiler.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yetkilerini aşıyorsun, Öncü! Kehanetimizi korumak için yapılması gerekeni yapıyorum. Suçlamalarınızı şimdi geri alın, Meclis sizi affetmeyi yine de düşünecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Masumlar için affa gerek yoktur. Kir'Ko ev sahibimden zorbalığın pek çok kılığa girebileceğini öğrendim. Dizginleri Başrahibe Ebra'nın elinde olan bir teokrasi olmayacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O halde Öz'ün bizimdir. Ran Do'Lar, Es'Teq Konsili'nin şu anki tek temsilcisi Ebra Queztal tarafından en ağır sapkınlıktan suçlu bulundun ve yargılandın.[br/][br/]Entropi seni bekliyor!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teslim ol, Meclis'ten Ebra Queztal! Seni köşeye sıkıştırdık, silahlarımız hazır ve sana nişan almış durumda.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlkel silahlarınız beni durduramaz! Elimdeki tek bedenin bu olduğunu mu sanıyorsunuz? Klonlama teknikleri ve organ hasadı ile Meclis, ilahi düzenimizin restorasyonunu sağlamak için mükemmel bir araçtır. Yükselişim... kaçınılmaz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ebra Queztal" (Assembly, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Övünmesinde haklılık payı var mıydı bilmiyorum ama en azından Ebra Queztal'ın bu enkarnasyonunun icabına bakıldı! Şimdi etrafa bir göz atalım...[br/][br/]ABu kayıtlara göre Başrahibe Obolus-5'e varmadan önce oldukça meşgulmüş. Bir düzineden fazla ziyaret edilen dünya ve çoğunun üzeri çizilmiş bir isim listesi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu isimleri tanıyorum: Erees Caloque, Rhesha Ometi, Tlalo Potchilim... hepsi bu çağın Öncüleriydi. Başrahibe Ebra onları öldürdüyse, işaretleri benim yaptığım gibi yorumlayacaklarını ve Regenesis zamanının geldiğini açıkça biliyordu.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dahası da var: Görünüşe göre Ebra Queztal Obolus-5'teki Es'Teq Mahzenini biz gelmeden çok önce bulmuş. Muhtemelen sadece yerini bize bildirme riskine girmemek için oraya girmekten kaçındı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_UNEARTH_CAULDRON_OF_SOULS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor Mahzenine Girin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_UNEARTH_CAULDRON_OF_SOULS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq mahzeninin girişini buldun. Girin ve çabalarınızın ödülünü alın.[br/][br/][recommendedcol](İpucu: Olaylarında ilerlemek için bunun gibi anormal bir yerde bir kahramana ihtiyacınız var.)[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_UNEARTH_CAULDRON_OF_SOULS_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Anormal Site Tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İşte orada, Es'Teq'in değerli eseri, obsidyen bir dikilitaş gibi parıldıyor. Söyle bana Hatyl, onu açtığımızda ne bulacağız?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kefaret. Yeni bir hayat. Güç. Önünüzdeki sorumluluklar bir karakter ve inanç sınavı olacak. Bu yeni yolculukta bana ihtiyacın olursa yanında olacağım dostum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkürler, Hatyl. Faron Hanesi'nin yeni lideri olarak, geçmişi düşünmeyi bırakıp aile tarihimize yeni bir bölüm eklemenin zamanı geldi diyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Regenesis Ark'ı açın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçindekilere erişmek için Regenesis Ark'ın üzerindeki mührü kırın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık Regenesis Ark</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçindekilere erişmek için Regenesis Ark'ın üzerindeki mührü kırın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kalkın kardeşlerim, kalkın! Regenesis şafağında.[br/][br/]Yüce Rabbimizin ilahi mahkemesinin önüne gelen yeni Peygamberi selamlayalım!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Es'Teq Minds" (group of Es'Teq, various genders)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kontrast, renkler - sanki gerçekliğin dokusunun ötesine bakabilirmişim gibi hissediyorum. Anılarım ve geçmişim, hepsi yeni bir akış durumuna girmiş gibi görünüyor.[br/][br/]Vahyin alevi, tüm günahları yakıp yok ediyor. Hayır, hayır... Neden durmuyor?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hoş geldiniz, {STR_LeaderName}.[br/][br/]Sizi bekliyordum...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_FAMILY_SECRETS_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aile Sırları</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gümüş serçe karga yuvasını arıyor. Sorunsuz bir şekilde aşağı indik ve operasyona hazırlanıyoruz. Şimdiye kadar düşman tespit edilmedi. Yukarıda durum nedir? İniş hazırlıkları plana göre ilerliyor mu?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Böcek arkadaşın henüz herkesi öldürmeyi başaramadı mı? Ne kadar rahatlatıcı... Planetfall planlandığı gibi devam edecek, komuta yeteneğine sahip birinden bekleneceği gibi. Ama son kez söylüyorum, {STR_LeaderFirstName}, çocukça kod adlarını kullanmayı bırak! Bana Faron Hanesi'nden Leydi Ista olarak hitap edilecek. Ailemizin reisi olarak bana miras kalan on sekiz onursal unvanı saymazsak bile...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm mülk ve ayrıcalıklarımızı kaybettiğimizde elimizden alınan unvanları mı kastediyorsunuz? Eğer 'böcek arkadaşım' olmasaydı, muhtemelen hala daha çökmüş bir zevk kızı olarak varlığınızı sürdürüyor olacaktınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="180">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diline sahip ol, evlat! Lord Ardelli üzerindeki etkimi küçümsüyorsun. Eğer sen ve küçük isyanın araya girmeseydi, onu çoktan parmağımın ucuna getirmiştim. Ama daha fazla konuşma! Faron Hanesi Leydisi'nin geri çekilme ve gelişini hazırlama vakti geldi.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Guard your tongue, daughter! You are underestimating the influence I already had over Lord Ardelli. If you and your little rebellion hadn’t intervened, I would have had him wrapped around my little finger soon enough. But speak no more! It is time for the Lady of House Faron to withdraw and prepare her arrival.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İniş</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkinci ana geminin Obolus-5'e inmesini bekleyin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_THE_LANDING_QUEST_SCRIPTED_OBJECTVIE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Ana Gemi İndi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vakit geldi. İnmeye hazır olmalılar.[br/][br/]Durum nedir anne? Faron Hanesi'nden Leydi Ista bu gezegeni varlığıyla kutsayacak mı?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neden sesinizde hafif bir alaycılık seziyorum? Umarım beni bu tür hatalarla hayal kırıklığına uğratmaya devam etmezsin...[br/][br/]Gemi gezegene iniş için hazır. 3, 2, 1... içinde ineceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Yayın aniden kesilir. Hala duyabildiğiniz tek şey statik seslerdir).</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Has no speaker. (Second person narration.)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anne mi? Ne oldu? On sekiz unvanınız aşkına cevap verin! Hiçbir şey, lanet olsun! Hemen bir kurtarma ekibi toplamalı ve iniş alanını kontrol etmeliyiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp Temas</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Formula="=R101C1">
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkinci geminin iniş alanını kontrol edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_LOST_CONTACT_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} İniş Alanına Ulaşıldı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Faron-2'! Obolus-5'in kum tepelerine, bir Zenith mavnasına çarpan uğultulu bir kuş gibi çarptılar. Bu olmamalıydı - ailemizin çöküşüyle ilgili gerçeği bilen son kişi annemdi. Onun gidişiyle, evimizin adını asla hakkıyla kurtaramayabilirim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şef {STR_LeaderFirstName}, sakın tereddüt etmeyin! Faron-2 sağlam bir gemiydi. Taramalarımız hala kısmen sağlam olduğunu gösteriyor. Yoldaşlarımız için hala umut olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Syndicate Indentured" (Syndicate, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyimserliğin ilham verici, kardeşim. Ve haklısın: geçmişte herhangi bir ihtimalden korkmuş olsaydık, burada duruyor olmazdık. Toparlanalım ve enkazda hayatta kalanları arayalım!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşen Gemiyi Araştırın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Faron-2'nin enkazında hayatta kalan olup olmadığını kontrol edin ve neden düştüğünü öğrenin.[br/][br/][recommendedcol](İpucu: Olaylarda ilerlemek için bunun gibi anormal bir bölgede bulunan bir kahramana ihtiyacınız var) [/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Anormal Site Tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">House Faron Kaza Yeri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Faron Hanesi'nin ikinci gemisi Obolus-5'in yüzeyinin derinliklerine şiddetli bir çarpışma inişi yaptı. Bu noktada trajedinin nasıl meydana geldiği ya da çarpışmadan sağ kurtulan olup olmadığı belirsizdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_1_RESULT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adamlarınız kayalardan aşağıya inip Faron-2'nin arka tarafını kazdılar. Geminin bu kısmı hala çoğunlukla tek parça gibi görünüyor, en azından dışarıdan bakıldığında. Çarpışmanın şiddeti esas olarak yerin derinliklerine gömülü olan ön kısmı etkilemiş olmalı. Gövdeyi biraz inceledikten sonra, birlikleriniz kırık bir kapak buluyor ve geminin kargo bölümüne giriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_INTRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kargo bölmesinin içindeki kasalar ve konteynerler yıkıcı bir kaos içinde dağınık bir şekilde durmaktadır. Tıkalı kapının yanında sızıntı yapan bir PsiTec modülatör motoru var. Üstten, havalandırma sisteminin şık uğultusunu duyabilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sandıkları yığın ve havalandırma bacalarından çıkın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havalandırma bacalarında sürünerek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action while being performed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kapıyı açmak için motora ateş edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Motora nişan alıyorum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action while being performed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Modülatörü onarın ve kapı ile arayüz oluşturmak için kullanın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_3_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Modülatör onarımı devam ediyor...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action while being performed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havalandırma sisteminde manevra yapmak biraz zaman aldı ama en azından dar, bağımsız şaftlar sizi kötü sürprizlerden korudu. Yavaş ama istikrarlı bir şekilde, birlikleriniz geminin komuta merkezine doğru yol aldı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Askerleriniz silah teknolojisini iyi biliyor: Tek bir isabetli atışla modülatör motoru kontrollü bir şekilde patlıyor ve geminin derinliklerine doğru bir yol açılıyor. Ancak ölü yoldaşlarınızı bulmaya başladıkça moraliniz bozulmaya başlıyor. Şimdiye kadar kimse çarpışmadan kurtulmuş gibi görünmüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atış ıskalıyor ve arkadaki duvardaki navigasyon panelini kızartıyor. Aynı zamanda geminin alarm sistemini de tetiklemiş gibi görünüyor, çünkü birkaç dakika sonra kapı yeni edinilmiş bir grup güvenlik robotu tarafından açılıyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_AFTER_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendi malınızı vurmak hiç hoş değil ama en azından artık geminin derinliklerine giden yol açık. Ancak ölü yoldaşlarınızı bulmaya başladıkça moraliniz bozulmaya başlıyor. Şimdiye kadar kimse çarpışmadan kurtulmuş gibi görünmüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_RETURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Faron-2 için kısa süre önce edindiğiniz bir grup güvenlik robotu, herhangi bir davetsiz misafire saldırmaya hazır bir şekilde kargo bölümünde devriye gezmeye devam ediyor. Doğal olarak, artık hiçbir geçiş kodunuzu tanımıyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Modülatör motoruyla yeterince uğraştıktan sonra, kapıyı açmak için arayüz olarak kullanılabilir. Askerleriniz geminin derinliklerine doğru ilerlerken hassas cihazı ellerinde tutuyorlar. Ancak ölü yoldaşlarınızı bulmaya başladıkça moraliniz bozulmaya başlıyor. Şimdiye kadar kimse çarpışmadan kurtulmuş gibi görünmüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_INTRO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geminin eski komuta merkezi hoş bir manzara değil. Parçalanmış metal ve motorların arasında, ev üyelerinizin tanınmaz haldeki kalıntıları yayılmış. Onları kurtarmak için hiçbir zaman gerçek bir şans olmadı.[br/][br/]Eğer... Boşluk mühendislerinizden biri ana faz sürücü reaktörünün hala kısmen sağlam olduğunu fark eder. Böyle bir reaktörün başka bir boyuta itilirken aşırı şarj edilmesiyle, mevcut zaman çizgisini değiştirerek geçmişle bir geri besleme döngüsü yaratılabileceğine dair teoriler var...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişi unutun ve bir anıt inşa edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_1_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anıt inşa etmek...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action while being performed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Faz sürücü reaktörünü aşırı şarj edin ve zaman çizgisini bozun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_2_IN_PROGRESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tarihi değiştirmek...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site action while being performed.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Annenizin ölümüyle, sadece on sekiz onursal unvanı değil, tüm bir evin geçmişinin yükü de size geçti. Faron-2 mürettebatının anıt mezarına çiçekleri yerleştirirken, ailenizin kurtuluşunun değerli bir hedef olup olmadığını merak ediyorsunuz, oysa gerçekten yargılanmanız gereken kendi eylemlerinizdir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu imkansız olmalı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Faz sürücü reaktörü yavaşça Boşluğun içine çekilirken tekrar eden bozulma sesleri çıkarıyor. Reaktör mavi yıldırımla aşırı yüklenirken bir an için gerçeklik değişmeye başlar: tahrip olmuş kanallar yeniden bütün hale gelir, parçalanmış bedenler yeniden maddeleşir ve ters yönde hareket etmeye başlar. Ama sonra bir şimşek daha çakıyor ve tüm kaza sahnesi geri sarılıyor. Herkesin ikinci kez öldüğünü görüyorsunuz, ancak şimdi parçalanmış kalıntılarının yanında bölünmüş yankıları kalmaya devam ediyor. Ve ateş açıyorlar!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_AFTER_COMBAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dengesi bozulan faz sürücü reaktörü, şu anda Faron-2'den geriye kalan her şeyi tüketen Boşluk anomalisi içinde kayboluyor. Faz yankılarıyla yaşadığınız deneyim size Voidtech hakkında yeni bilgiler verdi, ancak olanları düşününce bu küçük bir teselli gibi görünüyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_RETURN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geminin komuta merkezi, ayrılan Faron-2 mürettebatının yankıları tarafından korunuyor. Eski arkadaşları ve ailelerinden herhangi biriyle etkileşime girmeye istekli görünmüyorlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An anomalous site description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderFirstName}, ne yaptın sen? Bizi huzur içinde bırakamaz mıydın?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Leydi Ista... anne... Sizi kurtarmak için elimden gelen her şeyi yapmak zorundaydım. Soyumuz bu şekilde sona ermemeli![br/][br/]Ne oldu? Faron-2 neden düştü?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Cahil çocuk! Evimizin varlığı otuz yıldan fazla bir süre önce sona erdi. İhanet bize gururumuz dışında her şeye mal oldu. Ailemizdeki son asalet kırıntısı da yok olmadan önce ölmeyi hak etmiştim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlamıyorum... Bize yapılan adaletsizliği ortaya çıkarmamız, Faron Hanesi'nin adını yeniden onurlandırmamız gerekiyordu.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="195">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şeref mi? Sakın bu kadar az bildiğin o kelimeyi kullanmaya cüret etme! Oğlumun sözleşmesini bozduğunu ve aptal bir köle isyanının lideri olarak hareket ettiğini öğrenmek... bundan daha büyük bir utanç olamazdı. Ya da seni o Kir'Ko ile görene kadar ben de öyle düşünüyordum - Faron Hanesi'nin son soyundan gelen kişi bir böceğin hizmetkârı olmuştu!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Honor? Don’t you dare use that word you have so little knowledge of! Learning that my daughter had broken her  Indentured contract and acted up as leader of a silly slave rebellion... there could have been no greater shame. Or so I thought, until I saw you with that Kir’Ko – the last descendant of House Faron had become the servant of a bug!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gemiyi Obolus-5'in yüzeyine indirdim! Faron Hanesi'nin Leydisi'nin yok olması, akrabalarının son düşüşüne tanık olmasından daha iyidir. Elveda, {STR_LeaderFirstName}. Uçurum beni bekliyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Ista of House Faron" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="143" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CHURCHES_OF_THE_STAR_UNION_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği Mezhepleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_THE CRYPT_CHURCHES_OF_THE_STAR_UNION_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahzen: Yıldız Birliği Mezhepleri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_THE CRYPT_CHURCHES_OF_THE_STAR_UNION_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Heritor mahzeninin yerini ortaya çıkarmak için Obolus-5'teki çeşitli kült alanlarını ziyaret etmeli ve arşivlerini araştırmalısınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_THE CRYPT_CHURCHES_OF_THE_STAR_UNION_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Tarikat Siteleri Arandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra Tarikatını ziyaret edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obolus-5'teki Psynumbra mezhebinin tapınağını bulun ve girin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Abyssal Edgelords Şapelini Ara [firecol](Birimi Tüketir!)[/firecol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şapele girin ve Es'Teq ve Esans teknolojileri hakkında herhangi bir ipucu arayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Salvage Soul-Reaper Motoru</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq eserlerinden biri, çılgın bir Assembly ve Psynumbra tarikatı üyesi olan Empris Lox'un motosikletinin içinde bulundu. Empris Lox'u yenerek "ruh-azrail motoru" dediği şeyi kurtarın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Arka kapı kolay bir giriş yolu gibi görünüyordu, ancak ilk odaya girdiğinizde bir tuzak kuruldu ve adamlarınızdan birini mor bir ışık parlamasıyla tüketti).</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Has no speaker. (Second person narration.)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ziyaretçiler! Gelin ve karanlığı kucaklayın! Perdenin ötesinde, çektiğiniz acılar ödüllendirilecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Empris Lox" (Assembly, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kötülüğün güçlerine tapan bir Meclis mi? Neden hiç şaşırmadım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanlış! Metal ve etin efendileri göklerden inmeden çok önce Abyssal Edgelords'un bir rahibiydim. Diğerleri Yeniden Birleştirme'den kaçarken, bedenimi geliştirmek için mutlulukla sıraya giren ilk kişi bendim. Sonunda, ruh-azrail motorumu şık bir şekilde sürmek için doğru görünüme sahibim!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Empris Lox" (Assembly, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayal mi görüyorum, yoksa kullandığınız bu şey Essence teknolojisiyle mi çalışıyor? [br/][br/]Motosikletinizin motorunu bize bırakmanız için sizi ikna etmenin güzel bir yolu olduğunu sanmıyorum, Empris Lox?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Motorumun motoru Abyssal Edgelords'un çıkardığı en metal şey. Yaşayanların çığlık atan ruhlarıyla besleniyor. Alabilirsiniz... cesetlerinizin üzerinden geçin, haha!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Empris Lox" (Assembly, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Urgh, bana ciddi olduğunu söylemeliydin. İşte, al şu lanet motoru! Ara parçacı dostlarıma yeni bir tane kazdıracağım!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Empris Lox" (Assembly, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güzel. Şimdi bu iş hallolduğuna göre... yeni transferimiz Hatyl hakkında ne düşünüyorsun?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Tarikatı ziyaret edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obolus-5'teki Celestian mezhebinin tapınağını bul ve gir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gülen Güvercin Tapınağı'nı arayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tapınağa girin ve Es'Teq ve Esans teknolojileri hakkında herhangi bir ipucu arayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha fazla kayıp ruh, rehberliğe ihtiyaç duyan Göksel tapınaklara giden dolambaçlı yolu göze aldı. Kararlılık ve güçlü bir irade hissediyorum, ama aynı zamanda utanç ve geçmişteki bir adaletsizliğin gölgelerinden gelen zehirli intikam tohumları da hissediyorum.[br/][br/]{STR_LeaderName}, aradığınız şey nedir?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obolus-5'e eski bir hanedanın kalıntılarını aramaya geldik. Onların eserlerinden birinin tapınağınızın içinde bulunabileceğine inanmak için sebepler var. Belki arayışımızda bize yardımcı olabilirsiniz? Peşinde olduğumuz nesne etkinleştirildiğinde muhtemelen deniz mavisi bir parıltı yayıyor olacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayrıca her şeyi soldurur ve lanetli kürküne dokunacak kadar talihsiz olan herkesin yaşam gücünü tüketirdi. Hangi eserden bahsettiğinizi çok iyi biliyorum. Kötülüğünün kökünü kazımak için yapılan tüm girişimler başarısızlıkla sonuçlandıktan sonra uzun bir süre emrim tarafından korundu. Sizde olmamalı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Peki ya size bu objeyi kullanmak gibi bir niyetim olmadığını söylesem? O sadece yolculuğumuzda ihtiyaç duyduğumuz bir yapboz parçası, isterseniz bir pusula. Arkadaşım biraz gözlemden sonra onu yok etmenin bir yolunu bile bulabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kötülüğün ortaya çıkardığı bir yol yalnızca daha fazla kötülüğe yol açabilir. Aydınlanmış olanlar bile böyle bir karanlıkta yürürken dikkatli olmalıdır. Yasak olana gerçekten girmek istiyorsanız, önce Göksel yargılamadan geçmelisiniz. Zihninizi kederden arındırmak için bahçelerimizi ziyaret edin. Hazır olduğunuzda bana dönün.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Göksel Denemeyi Geçin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gülen Güvercin Tapınağı'nın bahçelerinde biraz zaman geçirin ve meditasyon yapın. Hazır olduğunuzda, Göksel Deneme'yi tamamlamak için Laila Dama'ya dönün.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meditasyon</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meditasyon yapmak için Celestian bahçesine oturun.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_SCRIPTED_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Deneme Tamamlandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir çöldesiniz. Sırtını bir kuyuya dayamış cansız bir bedenin üzerinde dönüp duran bir akbaba görüyorsunuz. Kuyunun üzerinde bir işaret var.[br/][br/]İşarette ne yazıyor?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Sıra dışı."</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Yakıt ikmali devam ediyor."</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Bu suyu içen herkes akbabaya dönüşecek."</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kat-kit barında poker oynayan üç siyah köpek vardır. Bir pinto içkisini iki gri kazın üzerine dökerken, beyaz garson keçi bir grup gül bekar domuz yavrusunun kabalıklarını dinlemek zorundadır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kedinin rengi ne?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu hikayede kedi yok.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Siyah.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir falcı, gelecek hakkında bilgi edinmek için kristal kasesine bakmanıza izin veriyor.[br/][br/]Ne görüyorsunuz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yükselmiş bir öğretmen.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oblivion'un Habercisi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir labirent.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_04_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sanırım bu hayat için yeterince meditasyon yaptım. Duruşma nihayet başlayabilir mi?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_04_PAGE_02_PASS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dava ilk tanıştığımız anda başladı, {STR_LeaderName}. Ama endişelenmene gerek yok, çünkü verdiğin cevaplar başlangıçtaki şüphelerimi dağıttı. Yasak objeyi almanıza izin verildi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_04_PAGE_02_FIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dava ilk tanıştığımız anda başladı, {STR_LeaderName}. Bazı niyetleriniz asil olsa da, sözleriniz hala yanlış yönlendirilmiş ve kafa karıştırıcı.[br/][br/]İçsel mücadelenizin bir yansımasını yarattım. Zihninizdeki bu görüntülerle yüzleşin ve şüphelerinizin üstesinden gelebilirsiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_TRIAL_FIGHT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Denemesi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_TRIAL_FIGHT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian denemesini tamamlamak için iç kargaşanızın yansımalarını yenin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_COMPLETION_MESSAGE_PAGE_01_AFTERFIGHT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldızlarla yürü, {STR_LeaderName}. Denemeyi geçtiniz ve yasak eseri almanıza izin verildi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Laila Dama" (Syndicate, female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkürler, Celestian Tarikatı'ndan Laila Dama. Ona büyük bir özen ve dikkatle davranacağım.[br/][br/]Hatyl, objeyi aldın mı? Lütfen bana tüm bu çabaya değdiğini söyle!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_COMPLETION_MESSAGE_PAGE_02_CRYPT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkür ederim, Celestian tarikatından Laila Dama. Lanetli eşyaya büyük bir özen ve dikkatle muamele edeceğim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_ESTEQ_ARTIFACT_FOUND_FIRST_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi görünüyor. Kullanım amacından saptırılmış olsa da, bu eser açıkça Es'Teq'in eseri. Yüzyıllar boyunca içinden geçen Öz ile bağlantı kurabiliyorum ama izler takip edilemeyecek kadar zayıf. Daha fazla Es'Teq eşyası toplamamız gerekecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_ESTEQ_ARTIFACT_FOUND_SECOND_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğru yoldayız. Kardeşlerim kutsal teknolojimizin sapkınca kullanıldığını görselerdi mezarlarında ters dönerlerdi ama en azından yaklaşıyoruz. Esans izi yavaş yavaş şekilleniyor. Sadece bir şey daha.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_ESTEQ_ARTIFACT_FOUND_LAST_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İletişim kurabileceğim üç öğeyle birlikte, Öz izi iç gözümün önünde oluşuyor. Onu yüzyıllar boyunca kaynağına kadar takip edebilirim... [br/][br/]Yes... evet! Burası Heritor Mahzeninin saklı olduğu yer olmalı!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlahi Yatırımlar Tarikatını ziyaret edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obolus-5'teki İlahi Yatırımlar İnancı Tapınağı'nı bulun ve girin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bling-Jack Tapınağını Ara 90k</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tapınağın içine girin ve Es'Teq ve Esans teknolojileri hakkında herhangi bir ipucu arayın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçeri gelin, içeri girin! İçki hala köpüklü ve zarlar ve on sentler yuvarlanmaya devam ediyor! Şanlı Bling-Jack 90k Tapınağımızda kaderini değiştirmeye cesaret eden her inananın kazanacağı servetler var!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hun Robbard" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başka bir kumarhane zinciri işletmek için bir dini kılık olarak kullanmak mı? Söylemeliyim ki, Birlik sandığımdan çok daha yozlaşmış olmalı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="195">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm imparatorlukları yükselten ve çökerten somut bir güce inanmak varken, neden gerçekte hiçbir işi olmayan görünmez bir tanrıya tapasınız ki? Nakit İnek Dönüştürücü 90k'yı kazanmak için de oynayabilecekken, neden bir inancı açık sözlü ve dürüst olduğu için reddedesiniz ki! Dokunduğu her şeyin Özünü saf enerjiye dönüştürür - gerekirse kayınvalidenizi bile!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Why worship an invisible god with no business in reality, when you can believe in the one tangible power that made entire empires rise and fall? Why dismiss a faith for being forthright and honest, when you could also play to win that… Cash Cow Converter 90k! It turns the Essence of everything it touches into pure energy – if needed even you father-in-law!</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Hun Robbard" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Az önce 'Essence' mi dedin? İlgimi çektin. O şeyi kazanmak için ne yapmam gerekiyor?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mükemmel! İyi bir kumarı takdir edebilecek bir adam olduğunu düşünmüştüm.[br/][br/]Bu gerçekten oldukça basit. Tek yapman gereken dokuz kollu haydutu yenmek. Eski okto-bandit'e göre oldukça gelişmiş olduğunu göreceksiniz.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Excellent! I figured you’d be a woman who can appreciate a good gamble.[br/][br/]It’s rather simple really. All you need to do is beat the nine-armed bandit. You will find it’s quite an upgrade to the old octo-bandit.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Story message. Speaker: "Hun Robbard" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_WIN_JACKPOT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nakit İnek Dönüştürücüsünü Kazanın 90k</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_WIN_JACKPOT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük ikramiyeyi kazanana kadar Bling-Jack 90k Tapınağı'ndaki dokuz kollu haydutla kumar oynayın - bu, "Nakit İnek Dönüştürücü 90k" adlı bir Es'Teq eseri olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} İkramiye Kazandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_REPEATABLE_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gamble</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_REPEATABLE_QUEST_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dokuz kollu haydut başlıyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_INTRO_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlahi Yatırımlar inancının takipçisi, yeni Bling-Jack 90k oyununa hoş geldiniz! Kolları çekin ve cennetteki ödülünüzü alın! Ne kadar çok bahis yaparsanız şansınız o kadar artar! Bugünün ikramiyesi 6 Carminias, 2 Tholians ve 1 Mora'dır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "NAB" (short for nine-armed bandit, a gambling machine)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_FIRST_GAME_OPTION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahis 10[energy/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_FIRST_GAME_OPTION_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahis 50[energy/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_FIRST_GAME_OPTION_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahis 90000[energy/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_SECOND_GAME_NEW_OPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahis 100[energy/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_THIRD_GAME_PLUS_NEW_OPTION_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahis 200[energy/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_THIRD_GAME_PLUS_NEW_OPTION_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bahis 42[energy/].</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A story choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_RESULT_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RNG tanrısı bugün size gülümsemiyor.[br/][br/]1[energy/] kazandınız. Daha fazlası için geri dönün.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "NAB" (short for nine-armed bandit, a gambling machine)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_RESULT_LOW_ENERGY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeterince [energy/][energy/][energy/] yok! Yeni bir servetle kutsanmış olduğunuzda geri gelin!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "NAB" (short for nine-armed bandit, a gambling machine)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_GAMBLE_RESULT_WIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">JACKPOT!!! RNG tanrısına ve İlahi Yatırımlar Kilisesine şükürler olsun![br/][br/]Ödülleri almak için yerel Cash Cleric ile iletişime geçin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "NAB" (short for nine-armed bandit, a gambling machine)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sence ben yerel Cash Cleric miyim? Etiketimde öyle mi yazıyor? Uh, elbette. Tebrikler o zaman. Beklenmedik bir şekilde büyük ödülü kazandınız: Nakit İnek Dönüştürücü 90 bin! Bu kesinlikle kuruluşumu mahvetmiyor... Kesinlikle daha fazlası için kumar oynamak istiyorsun, değil mi? Sen istemiyor musun?!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hun Robbard" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kesinlikle olmaz. Slot makinelerinizin bu kadar gelişmesine izin vermemeliydiniz.[br/][br/]Şimdi objeye gelelim, Hatyl...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_COMPLETION_MESSAGE_PAGE_02_CRYPT_FOUND</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kesinlikle olmaz. Slot makinelerinizin bu kadar gelişmesine izin vermemeliydiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_PRIESTS_JOIN_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şef {STR_LeaderFirstName}, ziyaret ettiğiniz farklı tarikatlardan rahipler gemiye alınmak ve bizimle birlikte Obolus-5'ten ayrılmak istiyorlar. Katılmalarına izin vermeli miyiz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Syndicate Indentured" (Syndicate, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_PRIESTS_JOIN_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hm, zıt inançları göz önüne alındığında, er ya da geç çatışma çıkacaktır. Hepsini saflarımıza kabul etmemiz akıllıca olmaz. Seçeneklerimizi göz önünde bulundurursak, en iyisi yanımıza...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_FRIENDLY_COMPETITION_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İntikamcı Kardeşler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kss kss - Abyss'in pençesini ve Chax Uz'Kol'un intikamını hissetmek için Obolus-5'e daha fazla kanayan geldi! Metalden ve etten olan, Kir'Ko Ula'yı buraya yönlendirerek doğru olanı yaptı.[br/][br/]Ama burada ne görüyorum? Sevgili rüya okuyucumuz Hatyl Ur'Uk, bir kez daha Sendika tarafından zincirlenmiş mi? Grzz kl'tk rsh'nrr! Çuvalcılar bedelini ödemeli!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: "Chax Uz'Kol" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hox'Krit'Pat, kardeşim! Küfürlerle karşıladıklarınızdan bana zarar gelmedi. {STR_LeaderName} senin düşmanın değil.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ah, kardeşim! Senin gibi ben de bir zamanlar Eva Montinga denen kişinin sözlerine güvenmiştim. Ta ki metal işçileri bana onun atalarımıza karşı işlediği suçları ifşa edene kadar. İşte o zaman çuvalcıların güvenilir olmadığını öğrendim. Irkımıza ıstırabın anlamını öğrettiler. Şimdi Kir'Ko Ula onları Abyss'e yem ediyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: "Chax Uz'Kol" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne yapmamı tavsiye edersin, dostum? Halkınıza zarar vermek istemem ama Chax Uz'Kol'un kolonisiyle bir çatışma kaçınılmaz olabilir.[br/][br/]Ayrıca, ayrı bir Kir'Ko adınız olduğunu fark etmemiştim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir konukçunun katıldıktan sonra ortakyaşarının adının bir bölümünü benimsemesi alışılmadık bir durum değildir. Hatyl Ur'Uk geçmişte bana verilen isim. Hatyl Es'Ran benim Heritor ismim.[br/][br/]Chax Uz'Kol en karanlık yolu seçti. Ona ulaşmak için hiçbir ışığın barınamadığı yere gitmem gerekecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl'i Psynumbra Şapeline getirin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl Es'Ran, Chax Uz'Kol'a ruhani bir düzeyde ulaşmak istiyor. Bu amaçla, Psynumbra'nın tehlikeli kalıntılarına seyahat etmesi gerekiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Hatyl Es'Ran Şapele getirildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burası eski ama Es'Teq anıtlarının yanında henüz bir bebek. Çok fazla nefret ve acı görmüş, bu dünyaya girmesine asla izin verilmemesi gereken bir kötülüğü beslemiştir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atalardan kalma ıstırap, acı ve intikam... Hatyl Ur'Uk, çuval kanamacıları ruhunuzla ziyafet çekecek!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Sinister Voice" (incorporeal, ethereal being, same gender as Marlok Tenor, so potentially either male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geri çekil, iğrenç yaratık! Senin türünün bu gerçeklikte hiçbir etkisi yok!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Buraya çağrıldık... rahatlık ve güç arayanlar tarafından davet edildik. Onlar her zaman daha fazlasına açtır. Bakın ve {STR_LeaderName}'nin gerçek doğasını görün! Çuvalcı hainin teki. Onu bize bırakın... ve biz de Obolus-5'ten ayrılalım!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Sinister Voice" (incorporeal, ethereal being, same gender as Marlok Tenor, so potentially either male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_04_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gölge Görüntüye Saldırın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A dialogue choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_04_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görüntüyü görmezden gelin ve Psi-Taşı'nı alın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A dialogue choice.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_05_ATTACK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sözlerin zehirli ama hiçbir thrax kötü niyetini gizleyemez. Seni geldiğin uçuruma geri göndereceğim!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_05_IGNORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İllüzyonların beni kandıramaz. Seninle yüzleşmeye gelmedim, Lohikarne. Kötülüğün Psi-Taşı, yozlaşmanın yayıcısı, bunun için geldim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_06_IGNORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O zaman ölümü seçtin, yaşlı budala. [br/][br/]Lohikarne ödülünden mahrum bırakılmayacak!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Sinister Voice" (incorporeal, ethereal being, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gölge Görüntüyü Yen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl Es'Ran'ı size karşı kışkırtmaya çalışan Gölge Görüntü'yü öldürün.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Gölgeler Öldürüldü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lohikarne'li Echo'yu yen</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lohikarne, Kötülüğün Psi-Taşı'nı korumak için kendisinin bir yankısını ortaya çıkardı. Yankıyı yok et ve Psi-Taşı'nı al!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı... ıstırap![br/][br/]Uçurum seni yutacak, Hatyl Es'Ran... bir gün!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Sinister Voice" (incorporeal, ethereal being, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="76.5">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ro'Qwer'Z'in boynuzu ve kuyruğu adına! Boşluk'un fısıltılarından senin çuval delici ile ölümüne mücadeleni takip edebiliyorum. Hatyl Ur'Uk'un yeniden halkıyla kaynaştığını görmek heyecan verici! Böyle kutsanmış Kir'Ko Ula, düşmanlarına keskin pençeleri ve zihinleriyle saldıracak!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: "Chax Uz'Kol" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yanlış anladın, kardeşim. Ben {STR_LeaderName} ile değil, insan arkadaşımı taklit eden Abyss'ten gelen bir gölge imgesiyle savaşıyordum.[br/][br/]A Ne yazık ki artık çok geç... Chax Uz'Kol sadece görmeyi tercih ettiği şeyi görecek. Sadece en açık yola dikkat ettiğim için başarısız oldum.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acı... ıstırap![br/][br/]Uçurum seni yutacak, Hatyl Es'Ran... bir gün!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: Speaker: "Sinister Voice" (incorporeal, ethereal being, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lohirkarne'nin Yankısı geri çekiliyor, Psi-Stone of Malice'e giden yol açık.[br/][br/]Swarm Herald Chax Uz'Kol, bu pençelerde halkımızın devam eden ıstırabının gerçek kaynağını tutuyorum. Bizler atalarımızın rüyalarındaki acıları koruyup beslerken ve yasak eserlerle nefretimizi körüklerken, geçmişten gelen yaralar asla iyileşmeyecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zok'Shiar'ı başlatan tarifsiz eylemden bu yana Kovanımızdan geriye kalan tek şey o iken, sürünün hatırlamaması gerektiğini nasıl söylersiniz? Atalarımızın çektiği acıları unutursak, onların kaderini yaşamaya devam ederiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: "Chax Uz'Kol" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Atalarımızı, katlanmak zorunda kaldıkları dehşeti sürekli olarak yeniden yaşamadan da onurlandırabiliriz. Rüyalar mirasımızın önemli bir parçasıdır, ancak kim olduğumuzu tanımlamalarına izin vermemeliyiz. Her rüya farklı bir şekilde yorumlanır ve algılanır. Kir'Ko Terym'in Sürü Habercisi'ni ziyaret etmenizi tavsiye ederim. Onun yolculuğunu dinleyin ve başka bir yol olduğunu göreceksiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şimdi görüyorum ki zihnin hala sürü ile birlik içinde. Halkımın ünlü Rüya Okuyucusu, bizi ana gezegenimiz Xa'Kir'Ko'ya döndüren Sürü Habercisi'ne danışmamı istediğinde, iyi niyetimi göstermeyi reddetmeyeceğim. Yine de siz de Obolus-5'te güvenliğiniz sağlanana kadar Kir'Ko Ula'nın kalmasına izin vermelisiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: "Chax Uz'Kol" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ben Eşitlikçi Gezegenler Birliği'nden General Jack Gelder. Dinleyin, Nydar Hanesi üyeleri, çünkü bunu sadece bir kez söyleyeceğim: Silahlarınızı bırakın, çatışmaya gerek kalmayacak. Hepinizi Obolus-5'e kadar takip ettik. Kaçacak hiçbir yer kalmadı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nydar Hanesi mi? Görünüşe göre yanlış izi takip etmişsiniz General. İleriye dönük bir tavsiye olarak, bir Sendikayı en iyi cübbesinden tanıyabilirsiniz. Nydar Hanesi genellikle kırmızı saten giyer ve amblemlerinde işlemeli bir Sentinel bulunur.[br/][br/]Öte yandan benim grubum... gördüğünüz gibi renkli olmayı severiz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Moda hakkındaki konuşmaların beni ilgilendirmiyor, evlat. Bana kalırsa, herhangi bir renkte giyinmiş bir Sendika'ya güvenilmez.[br/][br/]Ama... siz Minerva-2 köle isyanının lideri değil misiniz? Bu durumda iyi tanıştık diyeceğim. Siz angaryacıların karşılık verme zamanı gelmişti!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Boynunuzda tasma yokken söylemesi kolay bir şey, değil mi? Her halükarda, iyi dileklerinize karşılık vereceğim General. Küçük isyanımızın hikayesinin bu kadar uzağa gittiğini fark etmemiştim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kesinlikle öyle. ELOP Konfederasyonu'nun Sendika Evleri ile görüştüğü ve onları feodal uygulamalarını kaldırmaya çağırdığı zamanlarda, Sendika içinden davamız için olumlu seslere büyük ilgi var. Nydar Hanesi ile ilgilenme görevim sona erdiğinde, sizi Mora Secundis'e götürebilirim. Birinci Bakan Tholian sizinle konuşmak istiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gurur verici bir teklif ama korkarım ki Başbakanınız beklemek zorunda kalacak. Hala Sendika Evlerinin yarısının düşmanı ilan edilmişken filomu lidersiz bırakamam. Bir Vanguard subayı olarak anlayacağınızdan eminim.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pekâlâ, {STR_LeaderName}. Durumunuzu daha sonra kontrol edeceğiz. Ama unutmayın: çok uzakta olmayacağız, bu yüzden orada başınız belaya girerse, sadece bir ses verin!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_NYLA_ABAZ_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şuna bakar mısınız: Minerva-2'nin asi Sözleşmeli'si değil mi bu! Faron Hanesi gerçekten de tüm Sendika için acınası bir utanç kaynağı haline geldi. Önce Aureate Hazinesini yağmalama girişimi, şimdi de bu...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nyla Abaz" (Syndciate, female(</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_NYLA_ABAZ_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyükbabam harika bir adamdı. Aureate Hazinesi'nin müdürü olarak Yönetici Yedili'nin güvenini kazanmıştı ve evimizin konumunu riske atmak için hiçbir nedeni yoktu. Başka birinin suçu için tuzağa düşürüldüğü çok açık olmalıydı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_NYLA_ABAZ_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aureate Hazinesi'nin zenginliklerini görmediniz, değil mi? Büyükbabanız hazinenin cazibesine kapılan ilk kişi değildi, ancak bundan kurtulmaya en çok yaklaşan da o olabilir. Neyse ki, yakında evinizin acıklı hikayesinin son bölümünü tamamlayabiliriz. Başınıza konan ödül, Obolus-5'teki masraflarımızı karşılamak için uygun bir yol olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nyla Abaz" (Syndciate, female(</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_BOUNTY_HUNTER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ödül Avcısı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_BOUNTY_HUNTER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nyla Abaz, Sendika kölelerinin isyanını başlattığınız için başınıza konan ödülü almak istediğini açıkça belirtti. Huzur içinde kalabilmek için onu ezmeniz gerekecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_BOUNTY_HUNTER_QUEST_SCRIPTED_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Nyla Abaz Yenildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_NYLA_ABAZ_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu nasıl mümkün olabilir? Siz aşağılık köleler, Gözetmenlerimin önünde eğilmeli, Boyun Eğdiricilerimin sandalyelerini cilalamalıydınız! [br/][br/]Canımı alabilirsiniz ama asaletimi alamazsınız. Asla avama teslim olmayacağız!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Nyla Abaz" (Syndciate, female(</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_NYLA_ABAZ_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canını alacağını kim söyledi? Herkes gibi senin de çalışacak ellerin var. Toplumumuz küçük. Aynı fikirde olmadığımız herkesi infaz etme lüksümüz yok.[br/][br/]Sunduğumuz bu yeni hayatın kıymetini bilin ya da çöpe atın. Bu size kalmış.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_JACK_GELDER_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burada kırmızı kod durumu var, tekrar ediyorum, kırmızı kod! Albay Jiang, bu yeni atmosferik iticilerinizi test etmek için iyi bir an. Bizi buradan çıkar, ŞİMDİ!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFEAT_CHAX_UZ_KOL_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zehir, yanıklık, ölüm! Grzz kl'tk rsh'nrr! Tüm çuvalcıları son nefesimde lanetliyorum. İntikamımı alın, kardeşlerim! Abyss hepsini yutacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message: "Chax Uz'Kol" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm inananlar sevinsin, çünkü Yaradan bize elçisini gönderdi! Es'Teq'in dönüşüyle lanetimiz kalkacak. Dayanıklılığımız ve çektiğimiz acılar sonunda ödüllendirilecek!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Golem" (Forgotten, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obsidyen muhafızlar... Süslü kabukları ortakyaşarımın anılarından tanıyorum. Bu iyi bir şey değil. Regenesis'i göremeyenler asla uyanık dünyaya dönmemeli. Neden görev yerini ebedi mahzenlerde bıraktın, muhafız?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biz... hatırlamıyoruz. Lanet bize bulaştığından beri çürüyüp gidiyoruz, Özümüz Entropi'nin dişlerine sızıyor. Yeraltı dünyasında tüketecek hiçbir şey kalmadı. Burada, yüzeyde, Yaratıcı'nın emirlerini yerine getirmeye devam edebiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Golem" (Forgotten, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sen Es'Teq'ten birisin, Özün hala Yaratıcının kutsal suretinde korunuyor. Lanetimizi kaldırmalı, bize eziyet eden yozlaşmaya son vermelisin. Issız kardeşlerimizden birini al. Bırak kutsal mekanlarda ziyafet çeksin. Büyülü sözleri söyle ve tükettiği Öz ile onu arındır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Golem" (Forgotten, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel Tedavi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Unutulmuşları Es'Teq'in kutsal yerlerine götürün ve hastalıklarını iyileştirmek için yeni, saflaştırılmış Özü tüketmelerine izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özü Yutmak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsal Es'Teq bölgesinde depolanan Özü, Unutulmuşlar tarafından tüketilmesi için serbest bırakın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">An action description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_UPDATE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Canlı olarak gömülmüştük, sadece ölümle veya Yaratıcımızın gelişiyle sona ermesi gereken görevimizi yerine getiriyorduk. Öz kurumaya başladığında, ebedi Entropi ile karşı karşıya kaldık.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Desolate" (Forgotten unit, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_UPDATE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeraltı dünyasına kaçış yoktu, ulaşabileceğimiz tek rızık korumamız altındaki öznelerdi. Böylece kardeşlerimizi tüketmeye başladık, kurbanlarının kanını emen sülükler gibi onların Özleriyle beslendik.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Desolate" (Forgotten unit, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ama kısa süre sonra Özlerini almak yeterli olmadı. Tüm bedenin yutulması, varlığımızı uzatabilecek her bir yaşam gücü damlası için tüketilmesi gerekiyordu. İşte o zaman lanetlendik, sonsuza kadar cesetlerle beslenmeye mahkûm edildik. Bizler yaşayan ölüleriz ve her zaman daha fazlası için açlık çekeriz...</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Desolate" (Forgotten unit, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dur! Yeter, Esans şeytanı! İşlediğin vahşetin affı yok. Araçlarım ve bilgim olsa bile, hiçbir Öz kutsal olmayanlar için harcanmamalı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi gömdünüz, terk ettiniz, unutulmaya bıraktınız. Lanet varlığımızı mahkum etmeden önce bile lanetlenmiştik. Ve şimdi Yaradan seni gönderdi, kurtuluşumuzu inkar mı ediyorsun?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Golem" (Forgotten, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sefil yaratık haklı. Eğer Es'Teq Unutulmuşların yaratılmasında gerçekten rol oynadıysa, onları öylece kaderlerine terk edemezsin. Bana öğretmeye çalıştığın ilk erdemlerden biri merhamet değil miydi?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haklısın dostum. Dehşet içindeyken uzlaşmak yerine öfkeyi seçtim. Ama Unutulmuşların yozlaşması çok derinlerde. Bir tedavi üzerinde çalışmaya başlamadan önce Yüce Es'Teq Lordlarının bilgisine ihtiyacım var. Şu anda onlar için yapabileceğim hiçbir şey yok.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu konuyu açmaktan nefret ediyorum Hatyl ama Es'Teq Mahzenini bulmanın başka bir yolu daha olabilir. Unutulmuşlar açlıklarından dolayı daha büyük Öz havuzlarının yerini bulma konusunda iz süren köpekler gibi oldular. Eğer onlara karşılığında bir şey sunarsak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsal görevimiz için lanetlilerden yardım istemek mi? Bu tavsiyeye kulak vermekte tereddüt ediyorum dostum. Unutulmuşlar hakkında daha fazla şey öğrenmem, yozlaşmalarının sadece bedenlerini mi yoksa zihinlerini de mi çürüttüğünü görmem gerekiyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mahzen: Unutulmuş Bilgi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A quest name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl, Es'Teq Mahzeni'nin yerini Unutulmuşlardan öğrenmenin iyi bir fikir olduğuna ikna olmuş değil. Fikrini değiştirmek için Unutulmuşlarla diplomatik çabalarınızı yoğunlaştırarak onların doğasını daha iyi anlamaya çalışın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">A task description.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ölümden duydukları korku Unutulmuşların sahte putları ve korkunç günahları benimsemelerine yol açmış olsa da, bazı eylemlerinde hala dürüstlük ve iyi niyet kıvılcımları var. Onlara Mahzen hakkında soru soracak kadar güvenebiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet... eski sadıkların bir mabedi var. Onun değerli Özünü pek çok kez hissettik, ancak Es'Teq'i koruyan kutsal bariyerler hepimizin geçişini engelledi. Eğer onların salonlarına girmeye cesaret ederseniz, Unutulmuşları ve lanetlerini hatırlayın. Yaratıcı'nın elçisi başarısız olmamalı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Storye message. Speaker: "Golem" (Forgotten, can be any gender)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFAULT_VICTORY_CRYPT_NOT_FOUND_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegen kontrolümüz altındayken, birliklerimiz Obolus-5'te Es'Teq'in mirasını sistematik olarak aramak için zaman buldular. Kumun altına gömülü Es'Teq Mahzenini buldular ve buradan sonunda bir Sandık çıkardılar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_DEFAULT_VICTORY_CRYPT_UNKNOWN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegen kontrolümüz altındayken, birliklerimiz Obolus-5'te Es'Teq'in mirasını sistematik olarak aramak için zaman buldular. Kumun altına gömülü Es'Teq kökenli bir Mahzen buldular ve buradan sonunda bir Sandık çıkardılar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HER01_HATYL_LEAVES_EVENT_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neden, {STR_LeaderName}? Önyargılarınız sizi gerçekten de size kurtuluş getirmesi gerekenlerle savaşmaya mı itti? O halde senden büyük bir üzüntüyle ayrılmak zorundayım, dostum. Çok geç olmadan aydınlanma yoluna dönmen dileğiyle.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HER01_HATYL_LEAVES_EVENT_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize rehberlik edecek Hatyl olmadan, Es'Teq'in mirasına sahip çıkma umudumuz kayboldu. İsyanımız çıkmaza girdi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Story message. Speaker: "Marlok Tenor" (Syndicate, can be both male or female)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_RELATION_MOD_EBRA_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl Es'Ran'a Saygılar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_RELATION_MOD_EBRA_TOWARDS_PLAYER_UPDATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Es'Teq Meclisi tarafından mahkum edildi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_RELATION_MOD_JACK_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir köle isyanının lideri</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_RELATION_MOD_NYLA_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İktidardaki Yedili tarafından yasaklandı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CB_NYLA_TOWARDS_PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sendika Yasasına karşı isyan etti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of a casus belli (war reason).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_CB_PLAYER_TOWARDS_EBRA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hatyl'e suikast düzenlemeye çalıştı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Name of a casus belli (war reason).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HER01_RELATION_MOD_CHAX_TOWARDS_HUMANS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sack-Bleeders'a Ölüm</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Diplomatic relation modifier name.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <PaperSizeIndex>9</PaperSizeIndex>
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>288</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>298</ActiveRow>
+          <ActiveCol>6</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,1067 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Glenn Smits</LastAuthor>
+    <Created>2020-06-25T12:19:28Z</Created>
+    <LastSaved>2020-07-27T13:37:15Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>7308</WindowHeight>
+    <WindowWidth>23040</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="73" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="291" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="135.6" />
+      <Column ss:StyleID="s62" ss:Width="204" />
+      <Column ss:StyleID="s62" ss:Width="305.39999999999998" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="300.59999999999997" />
+      <Column ss:StyleID="s62" ss:Width="120.60000000000001" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">OATHBOUND_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OATHBOUND_SKILLS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GROUP_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tech Group Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bakım Yükümlülüğü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görevlerden {relationBonus} ve {influenceBonus}, ayrıca Nötr'ün üzerindeki her [reputation6/] seviyesi için ek bir {bonus} kazanın.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_1_ALT_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Öncesi Tahminler</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_1_ALT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm birimler savaşa {numStacks} [abilityblue]Tanınma[/abilityblue] yığınıyla başlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description
+Seer units is a specific type of support unit for the Oathbound
+Precognition is a buff that allows you do evade an attack</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Arşivci Liyakati</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityblue]Kayıt Tutucu[/abilityblue]'ye sahip birimler artık Kahramanlar hariç tüm birimlere {baseXP} yerine {extraXP} verir.[br/]Ayrıca Scryer birimlerine [abilityblue]Kayıt Tutucu[/abilityblue] verir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description
+Record Keeper is a special trait for Seers granting extra XP to other units</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bayrağa Sadakat</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm çatışmalara, çatışmanın sonuna kadar süren {bannerCount} Warden's Banner ile başlayın. Tüm Yeminli Sancakların hedeflerini kontrol etme yeteneği kazan.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description
+Banners are special units that provide support abilities the players cannot manually target without this doctrine</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onur ve Birlik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[food/] ve [happiness/] yuvalarındaki kolonistler, Nötr'ün üzerindeki her [reputation6/] seviyesi için ilgili kaynaktan {bonusIncome} üretir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korunan Ütopya</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniler {happinessBonus} kazanır. Dost bölgedeki savaş kıyafeti birimleri {healthbonus} ve {armorandshieldbonus}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_5_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünitede {healthbonus} ve {armorandshieldbonus} vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kahinlerin Haçlı Seferi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seer'ın tüm saldırıları artık {damagebonus} ekstra hasar verir ve {strengthChanceSingle} güç şansı (tekrarlanan saldırılar için {strengthChanceRepeating} güç şansı) ile [abilityred]Entropik Çürüme[/abilityred] uygular.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_6_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{damagebonus} ekstra hasar ve {strengthChanceSingle} güç şansı (tekrarlanan saldırılar için {strengthChanceRepeating} güç şansı) [abilityred]Entropik Çürüme[/abilityred] uygulamak için.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_6_MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{strengthChanceSingle} güç şansı [abilityred]Entropik Bozunma[/abilityred] uygulamak için.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_7_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taht</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_7_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taht koloni yapısının kilidini açın.[br/]Taht, Koloni Lordları için ek bonuslar sağlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Doctrine description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlık İçgörü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost birim  {turnTimer}  için  [abilityblue] Providence [/abilityblue]  kazanarak +%100 kritik şans elde eder. Bir birimin kritik şansı asla saldırısının isabet şansını geçemez.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description
+Providence is a buff that allows units to always critically hit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şifa Afişini Başlatın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uçan bir Şifa Sancağı fırlatın, fırlatıldığında {launchHexRad} hex yarıçapındaki dost birimleri {healamount} karşılığında iyileştirir. Sancak rastgele olarak {hexrad} hektarlık alandaki bir müttefik birimi seçer ve her [turn/]'de onu {healamount}'ye iyileştirir. İyileştirme Sancağı {turntimer} boyunca sürer.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savaş Giysisi Savunma Protokolü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef {hexrad} hex yarıçapındaki dost Savaş Zırhı birimleri {healingamount} için iyileştirilir ve {turns} için {shieldbonus} alır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oranları Yeniden Ayarlayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} hex yarıçapındaki dost birimlere {turns} boyunca [abilityblue]Against All Odds[/abilityblue] verin. Bu süre boyunca, {hexrange} menzilindeki bir saldırıdan isabet aldığında, [abilityblue]Hızlı Saldırı[/abilityblue] yeteneğini kazanır. [abilityblue]Hızlı Saldırı[/abilityblue], {retaliateTurn}'den sonra kullanılmazsa kaldırılır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description
+Against All Odds is a buff that increases evasion when close to many enemies</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_4_PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Kalibre Edilmiş Oranlar</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_4_PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim [abilityblue]AHer Şeye Rağmen[/abilityblue] yeteneğine sahiptir ve {hexrange} menzilindeki bir düşman tarafından vurulduğunda [abilityblue]Hızlı Saldırı[/abilityblue] yeteneği kazanır. [abilityblue]Hızlı Saldırı[/abilityblue], {retaliateTurn}'den sonra kullanılmazsa kaldırılacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description
+Quick Strike is a quick free attack</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kelebek Etkisi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimi {turns} için [abilityred]Fatalizm[/abilityred] ve [abilityred]Kelebek Etkisi[/abilityred] kazanır: Bu birim öldüğünde, {hexrad} altıgen yarıçapındaki müttefik birimleri {strengthchance} güç şansı ile {turns} için [abilityred]Fatalizm[/abilityred] ve [abilityred]Kelebek Etkisi[/abilityred] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description
+Fatalism is a debuff that causes you to fail all resistance checks</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_5_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim öldüğünde, {hexrad} altıgen yarıçapındaki müttefik birimler {strengthchance} güç şansı kazanarak [abilityred]Fatalizm[/abilityred] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Butterfly Effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_5_EFFECT_PREVIEW_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kelebek Etkisi \ Kadercilik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_6_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Expedite Doom</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_6_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} altıgen yarıçapındaki düşman birimleri {entropyDamage} alır.[br/][br/][abilityred]Fatalism[/abilityred] veya [abilityred]Adversity[/abilityred] olan 1. kademe, 2. kademe ve 3. kademe birimlerin anında öldürülme şansı {strengthchance}'dir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_7_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düzensiz Talihsizlik</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TACTICAL_OP_7_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{hexrad} altıgen yarıçapındaki düşman birimleri {entropydamage} hasar alır ve {turns} için [abilityred]Fatalism[/abilityred] veya [abilityred]Adversity[/abilityred] elde etmek için {strengthchance} güç şansı kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tactical Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyucu Program</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation name </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Paladin Koruyucu hedef dost kolonide devriye gezer. Dost ordular hedef dost kolonide savaşırken, bir Paladin Koruyucu onlara savaşta yardım eder. Koruyucu savaşın sonunda kaybolur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloni artık devriye gezen bir Paladin Koruyucu tarafından korunuyor. Savaşta müttefiklerine yardım edecek ve savaşın sonunda ortadan kaybolacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_1_COMBAT_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Savunmacıya bir Paladin Koruyucu yardım eder.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation combat description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğrudan Sıkıntı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation name </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ordusundaki tüm birimler bir sonraki savaşın başında {strategicTurns} için [abilityred]Avantaj[/abilityred] alır. Bu ordudaki birimler mevcut [hp/]'lerinin {hpDamage}'sini alırlar.[br/] Başarısızlık durumunda, sadece mevcut [hp/]'lerinin {hpDamage}'sini alırlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim bir sonraki savaşın başında {turnCount} için [abilityred]Avantaj[/abilityred] alır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description
+Adversity is a debuff that fumbles attacks</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_ARMY_EFFECT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ordudaki birimler bir sonraki savaşın başında {turnCount} için [abilityred]Avantaj[/abilityred] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation army effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmana zarar vererek ve bir sonraki çarpışmanın başında [abilityred]Adversity[/abilityred] kazanmalarını sağlayarak düşmanı sıkıntıya sokmayı başardık.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmana sadece kısmen sıkıntı verdik, onlara savaşta [abilityred]Adversity[/abilityred] vermeden zarar verdik.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation failure description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman, ordularımıza zarar vererek ve bir sonraki savaşın başlangıcında [abilityred]Adversity[/abilityred] kazanmalarını sağlayarak başarılı bir şekilde harap etmeyi başardı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_2_TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ordularımıza sadece kısmen zarar verdi ve onlara zarar verdi.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation failure description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koruyuculuğa Yükseltme</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation name </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost ordu, bir Prime Rank [medalgold/] Paladin Aspirant'ı Paladin Protector'a evrimleştirir. Kalıcı olarak {statusEffectResistance} durum etkisi direnci kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description
+Aspirant, Warden and Protector are Paldin unit types</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FRIENDLY_ASPIRANT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Prime Rank Paladin Aspirant ile dost bir yığını hedefle</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation casting instructions</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_1_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Aspirant bir Paladin Koruyucuya evrildi ve {statusEffectResistance} durum etkisi direnci kazandı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürlüğe Yükseltme</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation name </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost ordu, bir Prime Rank [medalgold/] Paladin Aspirant'ı Paladin Warden'a evrimleştirir. Kalıcı olarak {statusEffectResistance} durum etkisi direnci kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description
+Aspirant, Warden and Protector are Paldin unit types</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_3_2_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paladin Aspirant evrimleşti ve {statusEffectResistance} durum etkisi direnci kazandı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oathbound Veteran</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Property name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim tüm durum etkilerine karşı {statusResistance} dirence sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Property description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdahale</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation name </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yığındaki tüm birimler [abilityblue]Resurgence[/abilityblue] ve [abilityblue]double XP[/abilityblue] for {strategicturn} strategic [turn/] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef ordudaki birimler [abilityblue]Resurgence[/abilityblue] ve [abilityblue]double XP[/abilityblue] for {strategicturn} strategic [turn/] kazandı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_4_EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu ünite [abilityblue]Resurgence[/abilityblue] ve [abilityblue]double XP[/abilityblue] özelliklerine sahiptir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation effect description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Oracle'ın Rehberliği</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation name </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost koloninin {incomeBonus} [production/] ve [research/] geliri vardır. Bu kolonide üretilen birimler {rankBonus} [medaliron/] ile başlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloninin {incomeBonus} [production/] ve [research/] geliri vardır.[br/]Bu kolonide üretilen birimler {rankBonus} [medaliron/] ile başlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_RANK_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kolonide üretilen birimler {rankBonus} [medaliron/] ile başlar.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colony bonus description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STRATEGIC_OP_5_EFFECT_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu koloni artık doğrudan Kahin'in rehberliği altındadır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Strategic Operation success description</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>36</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>40</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

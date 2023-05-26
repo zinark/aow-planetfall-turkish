@@ -1,0 +1,998 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>KyleB</LastAuthor>
+    <LastSaved>2019-02-08T15:27:49Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15940</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="89" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="203.5" />
+      <Column ss:StyleID="s62" ss:Width="67" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="427" />
+      <Column ss:StyleID="s62" ss:Width="148" />
+      <Column ss:StyleID="s62" ss:Width="221.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">LOADOUT_PERKS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Temel Ekipman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel eğitimden sonra aldığınız standart paket.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Tekrarlanan [DamageThermal/] Termal hasar veren Lazer Tüfek[/AbilityGreen].[br/]A [AbilityGreen]Bir alanda [DamagePhysical/] Kinetik hasar veren ve isabet edenleri sersemleten Temel El Bombası[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj Temel Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel eğitimden sonra aldığınız standart paket.[br/][br/]Paket şunları içerir:[br/]Bir [AbilityGreen]Arc Projektörü[/AbilityGreen] tekrarlanan [DamageWave/] Ark hasarı verir.[br/]Bir [AbilityGreen]Arc Bombası[/AbilityGreen] [DamageWave/] Ark hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko Temel Ekipman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel eğitimden sonra aldığınız standart paket.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Thrax Tüfeği[/AbilityGreen] tekrarlanan [DamageBio/] Biyokimyasal hasar verir.[br/]A [AbilityGreen]Psi Uyumsuzluk Taşı[/AbilityGreen] bir alanda [DamagePsyche/] Psiyonik hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon Temel Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel eğitimden sonra aldığınız standart paket.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] tekrarlanan [DamageBio/] Biyokimyasal hasar verir ve zehirleme şansı vardır.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] bir alanda [DamageThermal/] Termal hasar verir ve isabet edenleri yakma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar Temel Ekipman</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel eğitimden sonra aldığınız standart paket.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Ağır Çivi Tabancası[/AbilityGreen], [DamagePhysical/] Kinetik hasar veren tek ve güçlü bir atış yapar.[br/]A [AbilityGreen]Temel El Bombası[/AbilityGreen], bir alanda [DamagePhysical/] Kinetik hasar verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sendika Temel Ekipmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temel eğitimden sonra aldığınız standart paket.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Darbe Tekrarlayıcı[/AbilityGreen] tekrarlanan [DamageWave/] Ark hasarı verir.[br/]A [AbilityGreen]PsiTec El Bombası[/AbilityGreen] bir alanda [DamagePsyche/] Psiyonik hasar verir ve isabet edenleri sakat bırakma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="17" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Yakın Muharebe Teçhizatı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] değerinizi artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Yakın mesafede tekrarlanan [DamageThermal/] Termal hasar veren Lazer Kılıç[/AbilityGreen].[br/]Tek bir patlamada [DamagePhysical/] Kinetik hasar veren bir [AbilityGreen]İmparatorluk Tabancası[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj Yakın Muharebe Ekipmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır. [br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] değerinizi artırır.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Yakın mesafede tekrarlanan [DamageWave/] Ark hasarı veren Ark Kılıcı[/AbilityGreen]. [br/]A [AbilityGreen]İmparatorluk Tabancası[/AbilityGreen] tekrarlanan [DamagePhysical/] Kinetik hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] değerinizi artırır. [br/][br/]Paket şunları içerir:[br/] [AbilityGreen]Yakın mesafeden tekrarlanan [DamagePhysical/] Kinetik hasar veren Bükücü Pençeler[/AbilityGreen].[br/]A [AbilityGreen]Traks Patlayıcı[/AbilityGreen] tekrarlanan [DamageBio/] Biyokimyasal hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] değerinizi artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Yakın mesafede tekrarlanan [DamageThermal/] Termal hasar veren Lazer Glive[/AbilityGreen].[br/]A [AbilityGreen]Tekrarlanan [DamageBio/] Biyokimyasal hasar veren Bio Blaster[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] değerinizi artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Yakın mesafede tek seferde [DamagePhysical/] Kinetik hasar veren Roket Çekici[/AbilityGreen].[br/]Tek seferde [AbilityGreen] Kinetik hasar veren İmparatorluk Tabancası[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Syndicate Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] değerinizi artırır. [br/][br/]Paket şunları içerir:[br/] [AbilityGreen]PsiTec Yumrukları[/AbilityGreen] yakın mesafeden tekrarlanan [DamagePsyche/] Psiyonik hasar verir.[br/] [AbilityGreen]Arc Bolas[/AbilityGreen] [DamageWave/] Ark hasarı verir ve hedefi hareketsiz hale getirmeye çalışır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="30" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri verir:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Sabit Nişan[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Lazer Tüfek[/AbilityGreen] tekrarlanan [DamageThermal/] Termal hasar verir.[br/]A [AbilityGreen]Temel El Bombası[/AbilityGreen] bir alanda [DamagePhysical/] Kinetik hasar verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır. [br/][AbilityGreen]Sabit Nişan Alma[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır.[br/][br/]Paket şunları içerir:[br/]Tekrarlanan [DamageWave/] Ark hasarı veren bir [AbilityGreen]Arc Projektörü[/AbilityGreen]. [br/]Bir [AbilityGreen]Arc Bombası[/AbilityGreen], [DamageWave/] Ark hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri verir:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Sabit Nişan[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Thrax Tüfeği[/AbilityGreen] tekrarlanan [DamageBio/] Biyokimyasal hasar verir.[br/]A [AbilityGreen]Psi Uyumsuzluk Taşı[/AbilityGreen] bir alanda [DamagePsyche/] Psiyonik hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Sabit Nişan[/AbilityGreen] - Siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen], tekrarlanan [DamageBio/] Biyokimyasal hasar verir ve zehirleme şansı vardır.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], kullanıldığında bir alanda [DamageThermal/] Termal hasara neden olur ve isabet edenleri yakma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Sabit Nişan[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen][DamagePhysical/] Kinetik hasar veren tek bir güçlü atış yapan Ağır Çivi Tabancası[/AbilityGreen].[br/]A [AbilityGreen]Bir alanda [DamagePhysical/] Kinetik hasar veren ve isabet edenleri sersemleten Temel El Bombası[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Syndicate Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri verir:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Sabit Nişan[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Darbe Tekrarlayıcı[/AbilityGreen] tekrarlanan [DamageWave/] Ark hasarı verir.[br/]A [AbilityGreen]PsiTec El Bombası[/AbilityGreen] bir alanda [DamagePsyche/] Psiyonik hasar verir ve vurulanları sakat bırakma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="43" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Keskin Nişancı Ekipmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keskin Nişancı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır. [br/][AbilityGreen]Dead Eye I[/AbilityGreen] - isabet oranını ve kritik vuruş şansını biraz artırır.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Kinetik hasar veren Keskin Nişancı Tüfeği[/AbilityGreen]. [br/]Tek bir patlamada [AbilityGreen] Kinetik hasar veren bir [/AbilityGreen]İmparatorluk Tabancası[DamagePhysical/].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj Keskin Nişancı Ekipmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keskin Nişancı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır. [br/][AbilityGreen]Dead Eye I[/AbilityGreen] - isabet oranını ve kritik vuruş şansını biraz artırır.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Kinetik hasar veren [DamagePhysical/]Vorpal Sniper[/AbilityGreen]. [br/][AbilityGreen]Arc Bombası[/AbilityGreen] [DamageWave/] Arc hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko Keskin Nişancı Teçhizatı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keskin Nişancı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır. [br/][AbilityGreen]Dead Eye I[/AbilityGreen] - isabet oranını ve kritik vuruş şansını biraz artırır.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Psi-Rifle[/AbilityGreen] Psiyonik hasar veren [DamagePsyche/]. [br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] tekrarlanan [DamageBio/] Biyokimyasal hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon Keskin Nişancı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keskin Nişancı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır. [br/][AbilityGreen]Dead Eye I[/AbilityGreen] - isabet ve kritik vuruş şansını biraz artırır.[br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Laser Sniper[/AbilityGreen], [DamageThermal/] Termal hasar verir.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen], tekrarlanan [DamageBio/] Biyokimyasal hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar Keskin Nişancı Ekipmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keskin Nişancı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - isabet ve kritik vuruş şansını biraz artırır. [br/][br/]Paket şunları içerir:[br/]Bir [AbilityGreen]İmparatorluk Keskin Nişancı Tüfeği[/AbilityGreen], [DamagePhysical/] Kinetik hasar verir.[br/]A [AbilityGreen]Temel El Bombası[/AbilityGreen], bir alanda [DamagePhysical/] Kinetik hasar verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Syndicate Keskin Nişancı Ekipmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Keskin Nişancı eğitiminden sonra aldığınız paket.[br/][br/]Bu gelişmiş eğitim size aşağıdaki becerileri verir:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - isabet oranını ve kritik vuruş şansını biraz artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Pulse Sniper[/AbilityGreen], [DamageWave/] Ark hasarı verir.[br/][AbilityGreen]Arc Bolas[/AbilityGreen], bir hedefe [DamageWave/] Ark hasarı verir ve onları hareketsiz hale getirme şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="56" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Saldırı Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vanguard Saldırı Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[AbilityGreen][/AbilityGreen]Saldırı Bisikletinize her zaman değer verdiniz ve bazı özel bağlantılar sayesinde onu yanınızda getirebildiniz.[br/][br/]Aşağıdaki becerilere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar. [br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı büyük ölçüde artırır.[br/][br/]Teçhizat şunları içerir:[br/]Güçlü [AbilityGreen] Lazer yeteneklerine ve bir [AbilityGreen]Mod'a sahip olan [/AbilityGreen]Saldırı Bisikletiniz[DamageThermal/]. [/AbilityGreen][br/]Tek bir hedefe [AbilityGreen]Kinetik hasar veren bir [/AbilityGreen]İmparatorluk Tabancası[DamagePhysical/].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Montaj Saldırı Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyük bir bilim adamıydınız, ancak [AbilityGreen]Chopper[/AbilityGreen]'ınız nedeniyle sizi hor gördüler. Şimdi onlara modifiye edilmiş savaş aracınızın ihtiyacınız olan tek şey olduğunu kanıtlama zamanı.[br/][br/]Aşağıdaki becerilere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Hit Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Güçlü [AbilityGreen] Kinetik yeteneklere ve bir [AbilityGreen]Mod'a sahip olan [/AbilityGreen]Helikopteriniz.[/AbilityGreen][br/][AbilityGreen]Arc Bombası[/AbilityGreen], [DamageWave/] Arc hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko Saldırı Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Korkunç bir savaş sırasında, bir Emergent hayatınızı kurtardı. Daha sonra bir [AbilityGreen]Abyssian[/AbilityGreen]'a dönüştü. O zamandan beri birliktesiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Hit Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Güçlü [DamageBio/] Biyokimyasal yeteneklere sahip [AbilityGreen]Abyssian[/AbilityGreen] ve bir [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Bir alanda [DamagePsyche/] Psiyonik hasar veren Uyumsuzluk Taşı[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon Assault Mount</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendi kişisel [AbilityGreen]Lancer[/AbilityGreen]'niz var. Doğum odalarında sadece bir zigot olduğu zamanları hala hatırlıyorsun. O zamandan beri ayrılmazsınız.[br/][br/]Aşağıdaki becerilere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Hit Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Güçlü [DamageThermal/] Termal yeteneklere ve bir [AbilityGreen]Mod'a sahip olan [AbilityGreen]Lancer[/AbilityGreen]'ınız.[/AbilityGreen][br/]A [AbilityGreen]Biyokimyasal hasar veren [DamageBio/]Bio Blaster[/AbilityGreen].</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar Saldırı Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kan, ter ve gözyaşıyla inşa ettiğiniz [AbilityGreen]Bulwark[/AbilityGreen] şimdiye kadarki en büyük eseriniz. Şimdi nasıl savaştığını görelim![br/][br/]Aşağıdaki becerilere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Hit Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Güçlü [AbilityGreen] Kinetik yeteneklere ve bir [AbilityGreen]Moduna sahip olan [/AbilityGreen]Bulwark'ınız.[/AbilityGreen][br/]A [AbilityGreen]Basic Grenade[/AbilityGreen], bir alanda [DamagePhysical/] Kinetik hasar verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Syndicate Saldırı Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">DAREDEVIL_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aileniz 16. doğum gününüzde size bir [AbilityGreen]Hoverbike[/AbilityGreen] verdi... doğru renkte bile alamadılar, ama siz sebat ettiniz ve onu sürme konusunda uzman oldunuz.[br/][br/]Aşağıdaki becerilere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar. [br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] Hit Puanınızı büyük ölçüde artırır.[br/][br/]Yükleme şunları içerir:[br/]Güçlü [AbilityGreen]Hoverbike[/AbilityGreen], güçlü [DamagePsyche/] Psiyonik yeteneklere ve bir [AbilityGreen]Mod'a sahiptir. [/AbilityGreen][br/][AbilityGreen]Arc Bolas[/AbilityGreen], [DamageWave/] Ark hasarı verir ve hedefi hareketsiz hale getirme şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.5" />
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Destek Aracı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT_VANGUARD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp bir [AbilityGreen]İmparatorluk APC[/AbilityGreen] buldunuz ve tamir ettiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Çeşitli destek yeteneklerine sahip bir [AbilityGreen]İmparatorluk APC[/AbilityGreen].[br/]A [AbilityGreen]Bir alanda [DamagePhysical/] Kinetik hasar veren ve isabet edenleri sersemleten Temel El Bombası[/AbilityGreen].</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Changed Empire APC to Imperial APC</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT_ASSEMBLY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp bir [AbilityGreen]İmparatorluk APC[/AbilityGreen] buldunuz ve tamir ettiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Bir [AbilityGreen]Çeşitli destek yeteneklerine sahip İmparatorluk APC[/AbilityGreen].[br/]Bir [AbilityGreen]Arc Bombası[/AbilityGreen], [DamageWave/] Ark hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Changed Empire APC to Imperial APC</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT_KIRKO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kayıp bir [AbilityGreen]Imperial APC[/AbilityGreen] buldunuz ve tamir ettiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] vuruş puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Çeşitli destek yeteneklerine sahip bir [AbilityGreen]İmparatorluk APC[/AbilityGreen].[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen], kullanıldığında bir alanda [DamagePsyche/] Psiyonik hasara neden olur.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Changed Empire APC to Imperial APC</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT_AMAZON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp bir [AbilityGreen]İmparatorluk APC[/AbilityGreen] buldunuz ve tamir ettiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı büyük ölçüde artırır. [br/][br/]Teçhizat şunları içerir:[br/]Çeşitli destek yeteneklerine sahip bir [AbilityGreen]İmparatorluk APC[/AbilityGreen].[br/]A [AbilityGreen]Bir alanda [DamageThermal/] Termal hasar veren ve isabet edenleri yakma şansı olan Termal El Bombası[/AbilityGreen].</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Changed Empire APC to Imperial APC</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT_DVAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp bir [AbilityGreen]İmparatorluk APC[/AbilityGreen] buldunuz ve tamir ettiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Çeşitli destek yeteneklerine sahip bir [AbilityGreen]İmparatorluk APC[/AbilityGreen].[br/]A [AbilityGreen]Bir alanda [DamagePhysical/] Kinetik hasar veren ve isabet edenleri sersemleten Temel El Bombası[/AbilityGreen].</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Changed Empire APC to Imperial APC</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">SUPPORT_PILOT_SYNDICATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kayıp bir [AbilityGreen]İmparatorluk APC[/AbilityGreen] buldunuz ve tamir ettiniz.[br/][br/]Aşağıdaki yeteneklere sahipsiniz:[br/][AbilityGreen]Piloting[/AbilityGreen] - Komutanın temel araçlara ve bineklere binmesini sağlar.[br/][AbilityGreen]Vitality I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı büyük ölçüde artırır. [br/][br/]Yükleme şunları içerir:[br/]Çeşitli destek yeteneklerine sahip bir [AbilityGreen]İmparatorluk APC[/AbilityGreen].[br/]A [AbilityGreen]PsiTec Bombası[/AbilityGreen] bir alanda [DamagePsyche/] Psiyonik hasar verir ve isabet edenleri sakat bırakma şansı vardır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Changed Empire APC to Imperial APC</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="78" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu uzmanlık eğitimi size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] Hit Puanınızı artırır. [br/][br/]Paket şunları içerir:[br/][AbilityGreen]Pestilence[/AbilityGreen], yakın mesafeden [DamageBio/] Biyokimyasal hasar verirken düşmanlarınızı enfekte eden korkunç bir canlı eldiven.[br/]A [AbilityGreen]Bio Grenade[/AbilityGreen], bir alanda [DamageBio/] Biyokimyasal hasar verir ve isabet edenleri zehirleme şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voidtech Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu uzmanlık eğitimi size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı artırır. [br/][br/]Paket şunları içerir:[br/] [AbilityGreen]Void Blades[/AbilityGreen], yakın mesafeden [DamagePhysical/] Kinetik hasar veren boyut bozucu bıçaklar.[br/][AbilityGreen]Arc Grenade[/AbilityGreen], [DamageWave/] Ark hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Yakın Dövüş Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Celestian Yakın Dövüş eğitiminden sonra aldığınız paket.[br/][br/]Bu uzmanlık eğitimi size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Yakın Dövüş Uzmanı I[/AbilityGreen] - Yakın Dövüş Silahlarını kullanırken verilen hasarı artırır.[br/][AbilityGreen]Canlılık I[/AbilityGreen] - maksimum [hp/] Vuruş Puanınızı artırır. [br/][br/]Paket şunları içerir:[br/] [AbilityGreen]Cehennem Yumrukları[/AbilityGreen], yakın mesafeden [DamageThermal/] Termal hasar veren ateşli eldivenler.[br/][AbilityGreen]Ego Bombası[/AbilityGreen], [DamagePsyche/] hasar verir ve isabet alanlara Kırık Zihin uygulama şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean Saldırı Teçhizatı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Promethean Assault eğitiminden sonra aldığınız paket.[br/][br/]Bu uzmanlık eğitimi size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Sabit Nişan Alma[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Temizleyici Silah[/AbilityGreen], [DamageThermal/] Termal hasar verir.[br/]A [AbilityGreen]Termal El Bombası[/AbilityGreen], bir alanda [DamageThermal/] Termal hasar verir ve isabet edenleri yakma şansına sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psynumbra Assault eğitiminden sonra aldığınız paket.[br/][br/]Bu uzmanlık eğitimi size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Menzilli Uzman[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Ruh Parçalayıcı[/AbilityGreen], düşmanlarının zihnini hedef alarak [DamagePsyche/] Psiyonik hasar veren bir silah.[br/]A [AbilityGreen]Bir alanda [DamagePsyche/] Psiyonik hasar veren Uyumsuzluk Taşı[/AbilityGreen].</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sentez Saldırı Ekipmanları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Synthesis Assault eğitiminden sonra aldığınız paket.[br/][br/]Bu uzmanlık eğitimi size aşağıdaki becerileri kazandırır:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - Menzilli Silahları kullanırken verilen hasarı artırır.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - siper arkasındayken isabet oranınızı artırır. [br/][br/]Paket şunları içerir:[br/]A [AbilityGreen]Hasher SMG[/AbilityGreen], [DamageWave/] Ark hasarı veren güçlü bir hafif makineli tüfek.[br/][AbilityGreen]Arc Bombası[/AbilityGreen], [DamageWave/] Ark hasarı verir ve isabet edenleri sersemletir.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Selected />
+      <TopRowVisible>27</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>38</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

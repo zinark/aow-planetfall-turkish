@@ -1,0 +1,838 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Lars Otten</LastAuthor>
+    <LastSaved>2019-04-16T14:26:17Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14235</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66" ss:Parent="s62">
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="52" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="117.75" />
+      <Column ss:StyleID="s63" ss:Width="84.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="414.75" />
+      <Column ss:StyleID="s63" ss:Width="144.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="192" ss:Span="1" />
+      <Column ss:Index="7" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="414.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SPECIES_ASSEMBLY</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME_SINGULAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Montaj</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME_PLURAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Montaj</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="109.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s66" ss:HRef="">
+          <Data ss:Type="String">{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand] +20 ile başla[tricorium/] [hyperlink,0000039F000024D8]Cosmite[/hyperlink][/bullet][bullet][sand]Uzun Vadeli Bonus:[/sand] Birimlere [hyperlink,0000039E00000063]Birim Modları[/hyperlink] uygularken gecikme yok. [/bullet][bullet][hyperlink,0000039E0000000D]Arc[/hyperlink] Weapons Groups[/bullet][bullet][hyperlink,0000039E0000000F]Firearms[/hyperlink] Weapons Groups[/bullet][bullet]Reassemble fallen units, Onları hayata döndürmek[/bullet][bullet]Savaş alanından kaynak toplamak[/bullet][bullet]Mükemmel araştırma yetenekleri[/bullet][bullet]Irksal Yetenek: [damagewave/]Ark Hasarına karşı doğal direnç.[/bullet][/bulletList]</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="49.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION_SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">[hyperlink,0000039E00000018]Assembly[/hyperlink], yıkımdan doğan bir cyborg ırkıdır. Bu insanlar, galaksinin kaosunu parçalayarak ve onu mükemmel yeni bir bütün halinde yeniden birleştirerek yeni buldukları barışı evrene getirmeyi amaçlamaktadır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Meclis Yerleşimi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="31.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir yerleşim, yeterli nüfuza sahipseniz size katılabilecek küçük bağımsız bir kolonidir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Göç Kolonisi: Montaj</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="47.25">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu koloninin nüfusunu Meclis'e göç ettirin. Koloni bir Meclis kolonisi haline gelecektir.[br/][br/][fireCol]Nüfusun göç ettirilmesiyle, kolonideki kolonistlerin {PopulationDeath}'si öldürülecektir. [/fireCol] [br/][br/] Şunları alırsınız:[br/][fireCol]{Reputation} İtibar[br/]{RaceRelation} {STR_raceName}[/fireCol] ile Irk İlişkisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">IN_PROGRESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Koloni şu anda bir Montaj popülasyonuna taşınıyor. İşlem [INT_duration]'de tamamlanacaktır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CONFIRMATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu koloniyi bir Montaj kolonisine taşımak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">INSPECTOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Müfettiş</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">INSPECTOR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Hiç bir müfettişle konuştunuz mu? Ben konuştum. Kaçıyordum. Meclis, kaçanları aramaları için düzinelerce yüzen üç başlı gözcü gönderdi. Üç kafadan saklanmak imkansızdı. Ark çubuğu hücum ederken, ben süründüm ve merhamet için yalvardım. Ben küçük, utanmaz ve tamamen tehditkâr olmayan biriyim. Belki de bu yüzden bana şikayet ediyordu. İşinden nefret ediyordu. İkinci kafa birinciye çenesini kapamasını söyledi. Bir tartışma başladı; üç kafa içinde bulundukları durum için birbirlerini suçluyordu. Anlaşılan Müfettiş olarak atanmak bir tür ceza. İşte böyle kaçtım."- Mah Reg'Nib, "RV-2224X: Kaçak!"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCAVENGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Çöpçü</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCAVENGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Annem mezarlık mahzenlerini yağmalayan, ölülerle ziyafet çekmeye aç hortlakların masallarını anlatırdı. Meclis Çöpçüleri'nin kayıp savaş alanlarında dolaşıp ölenlerin etlerini topladıklarını gördüğümde onun hikayeleri aklımdan çıkmazdı. Meclis'in temel piyadeleri olarak, silahlarından biri kısa menzilli bir av tüfeği ile değiştirilmiştir. Yine de Leşçiller et yemezler. Uzun canlı kesici pençelerini, nakil için uygun vücut parçalarını kesmek için kullanırlar. Böyle talihsiz bir karşılaşmada sol bacağım dizimden kesilmişti. Orada bir yerlerde bir parçam düşmanım için savaşıyor."- Mazer Ritalli, "RV-9912M: Synthetic Avalanche"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: removed comma after "ghouls"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">VORPAL_SNIPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Vorpal Keskin Nişancı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">VORPAL_SNIPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Zorluk Değerlendirmesi: Hedeflenen taş ocağı kendini imha etme tehdidinde bulunuyor; organik varlıklar terk edilmiş bir yakıt rafinerisinde gizleniyor. Artık yakıt organik varlıkları yok etmeye yeterli.[br/]Tahmini Hasar Değerlendirmesi (PDA) tüm organik varlıkların potansiyel kaybını tahmin ediyor.[br/]Taktik Alternatif Çözüm (TAS): Vorpal Keskin Nişancıları konuşlandırın. Menzilli Sakatlayıcı ve Devre Dışı Bırakıcı Saldırılar gereklidir.[br/]Tahmini Karşı Değerlendirme: Yakın dövüş karşı saldırısı Vorpal Keskin Nişancılarını kuşatmaya çalışacaktır. Karşı saldırı organik varlıkları ele geçirmeye açık hale getirir. TAS tutar.[br/]Seçilen Eylem: Vorpal Keskin Nişancıları konuşlandırın."- OC(H)ypercore-Tactical Decision Node(TDN), "RV-234445C: Assembly Interpreted Pseudocode"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Targeted -&gt; targeted
+Edit: added space before "(PDA)"
+Edit: Deploy -&gt; deploy
+Edit: Melee Counteroffensive -&gt; melee counteroffensive
+Edit: Deploy -&gt; deploy</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ELECTROCUTIONER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Elektrokırımcı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="165">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ELECTROCUTIONER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Zorluk Değerlendirmesi: Yıllık İnceleme, Maliyet-Fayda Analizi Matrisi ile karşılaştırmak üzere tüm Meclisi uyumluluk ve verimlilik kategorilerine ayırır. Hypercore bağlantı yönergesi, en alttaki %10'luk kısmın Montajdan ayıklanmasını gerektirir. Tüm organik ve mekanik parçalar geri dönüştürülmelidir. [br/] Tahmini Hasar Değerlendirmesi (PDA): Düşük performans gösterenler tehlikeli düzeyde bağımsızlığa sahiptir. Potansiyel isyan Asamble varlıklarına kabul edilemez zararlar verir. [br/] Taktik Alternatif Çözüm (TAS): Elektrokazanları konuşlandırın. EMP ve Elektrikli sersemleticiler birimleri sökülmek üzere devre dışı bırakacaktır. [br/] Tahmini Karşı Değerlendirme: güçlü elektrik deşarjı, vücudu toplama, sökme, yeniden birleştirme ve yeniden atama için hazır hale getirir."- OC(H)ypercore-Tactical Decision Node (TDN), "RV-234445C: Assembly Interpreted Pseudocode"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Underperformers -&gt; underperformers
+Edit: Deploy -&gt; deploy
+Edit: Strong Electrical -&gt; strong electrical</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGINEER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tersine Mühendis</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGINEER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Parçalar parçadır. Et ettir.[br/]Kemik kemiktir ve kafalar kafadır![br/]Doku meseledir, kas, yağ, sinirler, bağlar.[br/]Deri - pigmentlerini kaybetmiş olsa da.[br/]Tüm merhemler, sıvılar ve likör.[br/]Pompalar ve dişliler onları daha kalın hale getirir.[br/]Parçalar parçadır. Et ettir.[br/]Kemik kemiktir ve kafalar kafadır![br/]Haydi ölülerden hayat yaratalım."- Reaverson Rux, "RV-68791E: Song of the Assembly - Reverse Engineer"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WRECKER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Wrecker</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WRECKER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Zorluk Değerlendirmesi: hedeflenen av bir barikatın arkasına gizlenmiştir. Tıkanma noktaları saldırı sayılarını önemsiz kılar.[br/]Tahmini Hasar Değerlendirmeleri (PDA):  Yüksek Kayıplar.[br/]Taktik Alternatif Çözüm (TAS): Yıkıcıları konuşlandırın. Tüm engelleri ezin. Dış kabuğu kırın ve içinde saklanan zenginlikleri toplayın. Saldırı sürüsü, karşı sürü toplamak için destek sağlayabilir.[br/]Tahmini Karşı Değerlendirme: Koloni, Wrecker'ı yakın dövüş saldırılarıyla kuşatacak, ancak Wrecker Vahşi Saldırı manevrası uygulayabilir. Kompozisyon güçlü. Çeteler başka bir engelden başka bir şey değil. TMS geçerli. [br/]Seçilen Eylem: Yıkıcıları konuşlandır."- OC(H)ypercore-Tactical Decision Node(TDN), "RV-231567C: Assembly Interpreted Pseudocode"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Targeted -&gt; targeted
+Edit: Deploy -&gt; deploy
+Edit: The -&gt; the
+Edit: Strong -&gt; strong
+Edit: Deploy -&gt; deploy</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DISASSEMBLER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Sökücü</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DISASSEMBLER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Meclis tarafından bir araya getirilmiş pek çok işkence görmüş ceset gördüm. Çok fazla acı ve ölüm. Aklı başında çoğu insan Meclis'in yaşayanların dostu olmadığını bilir. Yine de, Parçalayıcı'nın devasa silahını ateşlediğini gördüğümde, sırıtan yüzündeki çarpık neşeyi fark ettim. İşte o zaman anladım. Bazı insanlar isteyerek Meclis'e katıldı. Silahlara aşık bir insanlık türü var. Kendilerini deşarj etmekten zevk alırlar. Sökücüler siperleri havaya uçurmaya bayılır, bu yüzden engellerin arkasına saklanmak sizi öldürür. Taktiksel tavsiyem basit: kaçın ve kaçmaya devam edin."- Mah Reg'Nib, "RV-2222X: Kaçın!"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: period after "gun" changed to comma</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LIGHTNING_RIDER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Şimşek Sürücü</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LIGHTNING_RIDER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Meclis'in kumda başarısız olmasını ya da zehirli arazilerde enerjisinin tükenmesini umuyorduk. İşte o zaman Şimşek Sürücü'nün ufukta süzüldüğünü gördük. Basit bir Faraday kafesi organik parçalarını korurken, kenarlarındaki aydınlatma çubuklarıyla bulutlardan enerji topluyordu. İlk başta gökyüzünde durup şimşekleri topladı. Sonra gök gürültülü bir elektrik enerjisi arkı merkezimize doğru sıçradı. Karşılık vermemiz için yalvarmama rağmen dağıldılar. Yıldırımdan kaçmayı mı bekliyorlardı?"- Mah Reg'Nib, "RV-2223X: Kaçak!"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: they collect -&gt; it collects
+Edit: removed extra space before "At first"
+Edit: added comma after "scattered"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CONSTRUCT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">İnşaat</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CONSTRUCT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Jaraon'un cansız bedenini Meclis'ten geri çekilirken bıraktım. Diplomatik çabalara ve bize yardım etme iddialarına rağmen bizi katletmeye devam ediyorlar. Jaraon'un bedenine ne yaptıklarına şahit oldum. Kollar ve örümcekli uzantılardan oluşan bir yapıyla birleşmişti. O kukla parçasındaki bir şey beni tanıdıkça gülümsemesi kıvrandı. Sonra, sanki hayatını hatırlıyormuş gibi, bir çığlık attı, "Uzak dur! Bir dizi pençe bana doğru uzanırken seğirdi ve öne doğru atıldı. Muhafızlarım saldırırken ben kaçtım. Kurşunlarla delik deşik olan sevgili dostum kendini imha etti."- Kaptan Addria Alethra, "RV-4456M: Karşılaşmalar"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ADVANCED_CONSTRUCT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gelişmiş Yapı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ADVANCED_CONSTRUCT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Jaraon'un cansız bedenini Meclis'ten geri çekilirken bıraktım. Diplomatik çabalara ve bize yardım etme iddialarına rağmen bizi katletmeye devam ediyorlar. Jaraon'un bedenine ne yaptıklarına şahit oldum. Kollar ve örümcekli uzantılardan oluşan bir yapıyla birleşmişti. O kukla parçasındaki bir şey beni tanıdıkça gülümsemesi kıvrandı. Sonra, sanki hayatını hatırlıyormuş gibi, bir çığlık attı, "Uzak dur! Bir dizi pençe bana doğru uzanırken seğirdi ve öne doğru atıldı. Muhafızlarım saldırırken ben kaçtım. Kurşunlarla delik deşik olan sevgili dostum kendini imha etti."- Kaptan Addria Alethra, "RV-4456M: Karşılaşmalar"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">REAVER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Reaver</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">REAVER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Meclis bizi ölümcül bir salgından kurtarmak için yaratıldı. Yarattığımız şeyin bize karşı döneceğini hiç tahmin etmemiştik. Araştırmalarım doğruysa, Meclis'in motivasyon programlamasındaki yanlış hesaplamamızı tespit ettim. '(I)ntelligent (N)eural (I)nterface &amp; (O)racular (C)onscience (H)ypercore' da... bir varlık var. Asamble hiperkorları, ölümcül Reaver olarak toplanabilen bir cyborg sürüsünü kontrol etmek için uyarladı. Açlığı büyür ve hiçbir şey kalmayana kadar çoğalır. Bu uyarıyı Boşluğa yayınlıyorum. Onları yenemeyiz. Belki siz yenebilirsiniz. Biz ölümün açlığıyla savaşıyoruz."- Profesör Lister Tan, "RV-3369C: Zexxyn-3 Dinleme Noktasından Parçalar"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PHASE_SHIFTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Constrictor</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PHASE_SHIFTER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Meclis o gece bizim için geldi. Kasaba halkını bir araya toplayıp savunma düğümü oluşturduk. Savaş alanını didik didik ederek ilerlediler. Bir an için korkunç mekanizmaları yok edebileceğimizi düşündük. Kapıyı patlatması gereken Charlie donup kaldı. Üzerinde ikinci bir kafa belirdiğinde yüzü dehşet içinde gerildi. Çatırdayan elektrik kayışları onu çevreledi. Sanki korkunç Constrictor zavallı adamı gerçekliğin kendisinden çekip çıkarmıştı. Atışlarımızın çoğu sanki bir seraba dönüşüyormuş gibi içinden geçti. Onu tüketti."- Mazer Ritalli, "RV-9912M: Synthetic Avalanche"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WARSHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Storm Wader</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WARSHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Ölüm gemileri karanlığı getirdi. Mavnalarımızı güvende tutmaya çalıştık ama Asamble'nin Fırtına Kuşu gemileri kara bulutların kalbinden felç edici bir ışık yayını getirerek en güçlü savunucularımızı uyuşmuş ve misilleme yapamaz halde bıraktı. Ark toplarının her patlayışında, Asamble gemileri gemilerimize saldırıyor. Ark silahları hava desteğimizi mahvetti ve esrarengiz bir isabetle vurdu. Bu yeni düşmanla nasıl savaşacağız? Bu düşman kendisini şehitlerimizin enkazından bir araya getirebilir."- Milis Toffee Smith, "RV-3425M: Düşmüşlerin Yankıları: Görüşler"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: arc -&gt; Arc</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SUPPORT_SHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Batan Gemi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SUPPORT_SHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Meclis, deniz yoluyla tek kaçış yolumuzu patlayıcı tehlikelerle doldurdu. Yıkım Gemileri, limanı savunan ağır makinelerin kalıntılarından Yıkım Gemileri inşa ediyor. Karada etrafımızı sarıyor, aç akbabalar gibi bizi gözlüyorlar. Toprak, geminin ana Yıkım Atışının kulakları sağır eden gümbürtüsüyle paramparça oluyor. Raylı toplar rıhtımı parçalara ayırıyor. Parçalanmış silahlarımızın kalıntılarıyla yaşayanları nasıl bir araya getirip yeni bir nesil oluşturduklarını gördüm."- Dolat Dolor, Liman Kaptanı, "RV-3426M: Düşmüşlerin Yankıları: Görüşler</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: "boom of the Wrecking ship's" -&gt; "boom of the ship's"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEMOLITION_SHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Su Yapısı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEMOLITION_SHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Hiçbir zaman yüzen bir bomba olmak istemedim. Annem üniversiteye gitmemi istiyordu ama ben balıkçı olmak istiyordum. Yıkım Gemisi gelip gemileri parçalamaya başladığında yüzerek uzaklaşmaya çalıştım, mekanik bir kol uzanıp kafamı kopardı ve beni bir kol ve patlayıcı yuvasının önüne kaynakladı. Beynime bir şey soktular. Şimdi patlamam gerektiği söyleniyor. Buna ne kadar dayanabilirim bilmiyorum. Annemi dinlemeliydim."-Balıkçı Manuel Morris, "RV-46443D: Kafalar Meclisi"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CHOPPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Chopper</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">CHOPPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Vücudumun çoğu parçasını kaybettim ve itiraf etmeliyim ki saçlarımın arasından geçen rüzgârı asla hissedemeyeceğim, çünkü kafa derimin çoğu uyum modülleri ve beceri paketi hiper çekirdekleriyle değiştirildi. Kendimi hiçbir zaman domuzuma bindiğim zamanki kadar insan gibi hissetmiyorum. Elbette, tekerleklerin üzerinde dönen bıçaklar bana yolumu kesmeye cüret eden herkesi parçalamamı hatırlatıyor. Ama sonra motoru kükrüyor ve Chopper yolda hızla ilerliyor. Bir an için, parçalara ayrılmadan önceki hayatımı hatırlıyorum."- T3X @lam0, "RV-8845M: Bireysellik ve Diğer Cezalandırılabilir Kimlik Özellikleri"</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ARC_COIL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Bobini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ARC_COIL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ark Bobinleri Meclis koloni savunma kuleleridir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PLANET_ARRIVAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOG</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, Meclis'in elçisi. Yıkım yaratımı doğurur - bu kesin. İmparatorluğun yıkıntılarından sizin eşsiz türünüz ortaya çıktı. Makinelerle birleşerek ve düşmanlarınızın vücut parçalarını naklederek birliği sağladınız. Tüm bu parçalanmış galaksiyi yeniden bir araya getirmeden önce, her dünyanın korunmaya değer bir yaşamı olduğunu unutmayın. Tüm varlıklar köle değildir. Direnişle karşılaşacaksınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: "creation that is for sure" -&gt; "creation - that is certain"
+Edit: "servile, you" -&gt; "servile. You"</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="52" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SWARM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürü</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>3</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>6</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

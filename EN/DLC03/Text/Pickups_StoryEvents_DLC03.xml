@@ -1,0 +1,694 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Bas Staffhorst</Author>
+    <LastAuthor>Michelle Kusters</LastAuthor>
+    <Created>2019-06-04T10:45:44Z</Created>
+    <LastSaved>2020-03-19T10:10:24Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>15735</WindowHeight>
+    <WindowWidth>-27136</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="51" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="273" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PICKUPS_STORYEVENTS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği Diplomatik Verileri</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This event will reward the player with influence. And thusly the description should hint at materials/knowledge that would translate to influence.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yıldız Birliği'nin altın çağına kadar uzanan diplomatik raporların kalıntılarını buluyorsunuz. Raporlar arasında, bu gezegendeki etki gücümüzü artırmak için üzerinde çalışabileceğimiz çeşitli müzakere tekniklerine ilişkin veriler var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Geçmişten ders alın: {STR_Rewards}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nüfuz, NPC fraksiyon konutlarıyla ticaret yapmak için kullanılır. Ayrıca ileri karakolları dönüştürmek ve NPC fraksiyon ordularının yapıları boşaltmasını sağlamak için de kullanılabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Influence is used to trade with NPC faction dwellings, it can also be used to convert outposts and have NPC faction armies vacate from structures.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Influence description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Propaganda Araçları</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This event will reward the player with popular support. Popular support is the approval of your people for the wars you have going on.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birlikleriniz konvoyun arasında, kamuoyunu ortak bir düşmana karşı yönlendirmek için kullanılan dağınık malzemeler ve cihazlar bulur. Eskiden Yıldız Birliği'nin hangi düşmanı hedef alınmış olursa olsun, artık gelişmekte olan imparatorluğumuzun mevcut düşmanlarını hedef alacak şekilde değiştirilebilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Amongst the convoy your troops find scattered materials and devices used to sway public opinion against a common enemy. Whichever nemesis of the Star Union this used to be targeted at, it can now be modified to target the enemies of our upcoming empire.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Propaganda Araçlarını Kullanın: kazanç 200[popularsupport2/]Popüler Destek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Utilize the Propaganda Devices: Gain 200[popularsupport2/]Popular Support</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Popüler Destek imparatorluğunuzun mutluluğunu ve bakımını artırır, ancak zamanla azalacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Popular Support improves happiness and upkeep of your empire. But will diminish over time.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Popular support description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holopad Pikap</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Irk İlişkileri</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">This event will reward the player with either with increasing their race relations with their own race, or with any race but their own. Which is the public image of your faction towards a specific race.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holopad diplomatik teknikler ve bunların varsayılan etkilerinden oluşan koleksiyonlarla dolu. Bunlar arasında öne çıkan bir tanesi var; ırkınızın koruyucusu ya da misafirperver bir yabancı düşmanı imajınızı düzeltmek için bir teknik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendi ırkınızla 100 [opinion6/] ilişki kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer tüm ırklara göre 100 [opinion6/] kazanın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Irk ilişkileri, söz konusu ırk için karakol maliyetlerini, bakım maliyetlerini ve birim moralini etkiler.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Race relations description</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlişki Sıfırlama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ele geçirilen holopad yanıp söner ve cihazın içindeki yapay zeka iki seçenek sunar: ya yerel fraksiyonu geçmişteki kabahatlerinizi unutmaya ikna ederek temiz bir sayfa açarak yeni bir ilişkiye başlamanızı sağlar ya da diplomatlarınıza öğretmek üzere fraksiyonun benzersiz müzakere teknikleri hakkında bilgi verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakere tekniklerini indirin: kazanç {STR_Rewards}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">influence reward</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu, NPC fraksiyonuyla olan savaşı derhal durduracak ve onlarla olan [diplomaticlinks/] ilişkinizi 0'a sıfırlayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomasi Dersi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Holopad'i açıyorsunuz ve yerel fraksiyona ait bir diplomatın holografik temsili karşınızda beliriyor. İlk başta anlaşılması çok zor, ancak holopad konuşma kalıplarınıza hızla uyum sağlıyor ve fraksiyonuyla müzakereleri başlatmaya yardımcı olabileceğini belirliyor. Alternatif olarak, diplomaside ileri bir kurs sunuyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diplomasi kursuna katılın: {STR_Rewards} kazanın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">influence reward</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Favor, NPC gruplarıyla olan ilişkilerinizi [diplomaticlinks/] daha yüksek seviyelere çıkarabilir, yeni ticaret seçeneklerinin ve onları savaşa çağırma yeteneğinin kilidini açabilir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Favor can get you into higher states of relationships with NPC factions, unlocking the ability to call them to war and new trading options.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otonom ile ilişkileri nötr [nonagression/]'ye sıfırlayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">peace with npc faction reward</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Choice of peace with NPC faction X</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_AUTONOM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakereleri başlatın: Otonom ile 10 [diplomaticlinks/] kazanın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">favor reward</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon ile ilişkileri nötr [nonagression/]'ye sıfırlayın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of peace with NPC faction X</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_PARAGON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakereleri başlatın: Paragon ile 10 [diplomaticlinks/] kazanın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüme ile nötr [nonagression/] arasındaki ilişkileri sıfırlayın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of peace with NPC faction X</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_GROWTH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakereleri başlatın: Büyüme ile 10 [diplomaticlinks/] kazanın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Unutulmuş ile ilişkileri nötr [nonagression/]'ye sıfırlayın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of peace with NPC faction X</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakereleri başlatın: Unutulmuş ile 10 [diplomaticlinks/] kazanın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aralayıcılarla ilişkileri nötr [nonagression/]'ye sıfırlayın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of peace with NPC faction X</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_SPACERS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakereleri başlatın: Uzatmacılarla 10 [diplomaticlinks/] kazanın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_PSIFISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Psifish ile ilişkileri nötr [nonagression/]'ye sıfırlayın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of peace with NPC faction X</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_PSIFISH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müzakereleri başlatın: Psifish ile 10 [diplomaticlinks/] kazanın</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hareketsiz Yatmak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toprağa batmış bir Unutulmuş tabutu görüyorsunuz. Onlardan biri içinde uyuyor! Belli ki yaşam destek ünitesine bağlı. Öte yandan, tabutun yapıldığı değerli malzemeleri satabilirsiniz...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Unutulmuş birimi ({STR_UnitName}) içeride saklayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alırsınız: {STR_UnitName}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tabutu sökün ve satın: {STR_Rewards} kazanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">En yakın koloniye ulaşıldı: {STR_Rewards}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kullanılmayan Bir Yazı Tipi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paslanmış eski bir otomatik yazıcıya rastladınız. Makine hala çalışıyor ve görünüşe göre Unutulmuşlarla ilgili eski Es'Teq bilgileri içeriyor.[br/][productioncol]Bu karar bu Fraksiyonla olan ilişkileri etkileyecek.[/productioncol]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otomatik yazıyı Unutulmuş'a teslim edin: {STR_Rewards} kazanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alırsınız: {STR_Rewards} ve Unutulmuş [diplomaticlinks/] ile ilişkileriniz gelişir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgiyi saklayın: {STR_Rewards} kazanın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TOOLTIP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alırsınız: {STR_Rewards}, ancak Unutulmuşlarla olan ilişkileriniz azalıyor</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>5</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>9</ActiveRow>
+          <ActiveCol>7</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

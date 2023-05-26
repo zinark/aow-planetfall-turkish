@@ -1,0 +1,2613 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Thomas Schuiten</LastAuthor>
+    <Created>2018-10-18T15:19:42Z</Created>
+    <LastSaved>2019-05-09T07:49:56Z</LastSaved>
+    <Version>14.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17835</WindowHeight>
+    <WindowWidth>10005</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="235" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="332.25" />
+      <Column ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="344.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146.25" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="190.5" />
+      <Column ss:StyleID="s62" ss:Width="208.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">DVAR02_CAMPAIGN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Yozlaşmanın kaynağını bul</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yolsuzluğun kaynağını bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurtarıcı'nın bağlantıları zincirin bir sonraki halkası. Şüphesiz onlar aracılığıyla konseyin tasmasını tutanları bulacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_START</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yolsuzluğun kaynağını bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COMMUNION_SITE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyon Tahtı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kesir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlaşılmaz Hediye</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaderin Ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kozmosun Gözü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Thomas'ın Felaketi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ötelerin Dikenleri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Valkas Horizon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Baryonik Krater</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CUSTOMSECTOR_PROTON_COIL_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobini İnşaat Sahası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_ASSIST_CLAUDIUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Claudius Proton'a Yardım Edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Claudius Proton - Male Assembly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_DECLINE_CLAUDIUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşüş Önerisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_JOIN_CARMINIA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatoriçe Carminia'ya Katılın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_DENY_CARMINIA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatoriçe Carminia'yı Reddet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_CONTINUE_XENOPLAGUE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunun bizi nereye götüreceğini görmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_STOP_XENOPLAGUE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yanlış.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_CONTINUE_XENOPLAGUE_QUEST_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Devam etmeliyiz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BUTTON_LABEL_STOP_XENOPLAGUE_QUEST_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bunu durdurmalıyım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: {MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Hayatta Kalmalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Hayatta Kalmalı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Zemestian-4'te Hayatta Kalmalı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Yaşıyor: {INT_0}\{INT_1}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Konsey ve Kurtarıcıları kimin kontrol ettiğini keşfet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Konsey'i ve Kurtarıcıları kimin kontrol ettiğini keşfedin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Perde arkasındaki birileri Konsey ve Kurtarıcıları kukla haline getirmiştir. Kim olduğunu bulmak, Dvar'ı onların etkisinden kurtarmanın anahtarıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komplo Ortaya Çıktı: {INT_0}\{INT_1}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_KELSHANA_INESSA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kelshana, Kurtarıcılar ile birlik içinde.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Kelshana - Female Amazon character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_INESSA_KELSHANA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kelshana Kurtarıcılar'la birlik içinde</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_CLAUDIUS_INESSA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurtarıcılar ortak düşmanımızdır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_CLAUDIUS_INESSA_PROVIDE_COSMITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silah için Cosmite sağlayarak işbirliğini kanıtladı</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Proton Coil is the name of the weapon Claudius Proton is developing</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_CLAUDIUS_INESSA_UPLINKED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobinine Bağlandı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_JIKUKU_INESSA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">"Xa'Kir'Ko "yu yok etmekle tehdit etmek</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Xa'Kir'Ko - Kir'Ko homeworld</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_ZHANNA_INESSA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adamant Konseyi Zhelezo'yu sürgüne gönderdi</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Zhelezo - clan name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_INESSA_ZHANNA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adamant Konseyi Zhelezo'yu sürgüne gönderdi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RELATION_MODIFIER_ENEMY_OF_CORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE'un Düşmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASUS_BELLI_CORE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE, İmparatoriçe ve müttefiklerinin yok edilmesini talep eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASUS_BELLI_ZHANNA_INESSA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni düzenin düşmanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASUS_BELLI_KELSHANA_INESSA</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsal olmayan kirletici</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CASUS_BELLI_THREAT_TO_THE_ZHELEZO</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zhelezo'ya Tehdit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">A_WEAPON_TO_END_CORRUPTION_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yolsuzluğa Son Verecek Bir Silah</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">A_WEAPON_TO_END_CORRUPTION_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Claudius Proton'a Proton Bobini'nin yapımında yardımcı olun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ALLIES_IN_DIRE_TIMES_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zor Zamanlarda Müttefikler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRACK_DOWN_THE_REDEEMERS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kurtarıcıların İzini Sürün</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TRACK_DOWN_THE_REDEEMERS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayatta kalan Kurtarıcılar bu dünyaya kaçtı. Onları ve belki de bağlantılarını burada bulacağınıza şüphe yok...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TRACK_DOWN_THE_REDEEMERS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Kurtarıcılar bulundu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESCUE_THE_RASSVET_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rassvet iniş ekibini kurtarın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Rassvet - Dvar clan</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESCUE_THE_RASSVET_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Valodny'nin Rassvet Dvar'ı davanıza destek sözü verdi. Güvenleri, sizinle birlikte sürgün edilmelerine neden oldu. Onların iniş ekibiyle buluşmalı ve onları birliğe katmalısınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Valodny Rassvet - male Dvar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RECOVER_MORDECHAIS_CHOSEN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mordechai'nin Seçilmişlerini Kurtar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RECOVER_MORDECHAIS_CHOSEN_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mordechai görevinizde size katılmaları için seçtiklerinden bazılarını getireceğini söyledi. Zemestian'da bir yerde gezegene inmiş olmalılar. Güçlerinizi desteklemek için onları bulup kurtarmalısınız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mordechai - Male Syndicate character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vardık. Kurtarıcılar yakınlara indi. Eğer onları bulursak, bağlantılarını da buluruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_01_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biz geldik. Müttefiklerimiz indi, dünyaya dağıldılar. Ayrıca Kurtarıcılar da yakınlara indi. Onları bulursak, kesinlikle bağlantılarını da buluruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İzler soğumadan peşlerine düşmeliyiz. Bağlantılarını bulmak istiyorsak, onları takip etmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Önce kendimizi kanıtlamalıyız. Etrafımızı güvenli bir şekilde keşfetmek için yeni bir operasyon üssüne ihtiyacımız var. Kurtarıcıların hileleri var. Onların tuzaklarına düşmek istemeyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_03_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her şey sırayla. Etrafımızı keşfetmek için yeni bir operasyon üssü kuralım. Müttefiklerimizi kurtarmak için arama ekipleri göndermeliyiz. Onların güçleri bu düşman dünyadaki konumumuzu güçlendirecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEARS_IN_REALITY_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçeklikte Gözyaşları</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLORE_ZEMESTIAN_4_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4'ü Keşfedin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Zemestian-4 - Planet name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EXPLORE_ZEMESTIAN_4_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4 yemyeşil bir dünya, ancak Yıldız Birliği yerleşimine dair çok az işaret var. Yüzey, boyutumuzdaki garip yırtıklarla noktalı gibi görünüyor. Bu istikrarsızlık, gezegenin Kozmit için olgunlaştığı anlamına gelir ve bu fırsat kaçırılmaması gereken bir fırsattır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPLORE_ZEMESTIAN_4_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4'ü Keşfedin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_A_TEAR_SECTOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Cosmite Gözyaşı Sektörü Talep Edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_A_TEAR_SECTOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zemestian-4'ün istikrarsız doğası onu zengin bir Kozmite ile kutsamıştır, ancak bu hazineye sahip çıkmak kolay olmayacak gibi görünüyor. Arazinin kendisi tehlikeli ve tuhaf yaratıklar Kozmit düğümlerini koruyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_A_TEAR_SECTOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Cosmite gözyaşı sektörü yakalayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EXPLORE_ZEMESTIAN_4_COMPLETION_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdür {STR_LeaderFirstName}! Neredeyse Cosmite ile dolup taşan bir sektörle karşılaştık!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EXPLORE_ZEMESTIAN_4_COMPLETION_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Zemestian-4'ün dengesizliğinin bir sonucu olmalı. Almak için oldukça büyük bir ödül! Onu ele geçirmek mücadelemizde bize avantaj sağlayacaktır, ancak dikkatli olmalıyız, böyle bir ödülün istenmeyen dikkatleri çekeceği kesin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EXPLORE_ZEMESTIAN_4_COMPLETION_MESSAGE_03_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özellikle bu sektör oldukça tehlikeli görünüyor ve göz ardı edemeyeceğimiz bir Tehlike içeriyor. Bu alanda hak iddia etmeden önce Çevresel Koşullandırmayı araştırmak ve ortadan kaldırmak iyi olur.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Environmental Conditioning - research topic </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mephilas'ın doğru söylediğini görüyorum. Dünyamıza daha fazla kirletici geldi. Bu dünya bizim. Her adımınız hanımefendimizi rahatsız ediyor. Ben Kelshana Latisiak, cemaatin atanmış koruyucusuyum. Hanımımın emri, bu dünyadaki varlığınızın yok edilmesini gerektiriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mephilas - Male character
+
+Kelshana Latisiak - Female character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sen Mephilas'ın bağlantısı olmalısın. Kuyruğunu bacaklarının arasına sıkıştırıp sana mı geldi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mephilas bize döndü. Hak ettiği ödülü alıyor... Yakında tekrar bir araya geleceğinize hiç şüphem yok. Artık bizim dünyamızdasınız ve sayıca sizden fazlayız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_04_ALT_MORDECHAI</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünya yozlaşmış! Kalbini bir karanlığın ele geçirmesine izin vermişsin. Hiç gururun yok mu, Amazon? Abyss'in etkilerine boyun eğecek kadar zayıf mısın? Yeni müttefiklerimizle birlikte duruyoruz ve ışığın kendisi bize rehberlik ediyor. Başarısızlık olamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sayıca azlar ama üstün değiller. Her Zhelezo Dvar senin ve senin gibilerin iki katı savaşçıdır. İşlerimize burnunuzu soktunuz. Size aynıyla karşılık vereceğiz. Sizi yenmek bizim için bir zevk olacak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Zhelezo - Dvar clan name</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Korvin is missing his name on the in-game message for this dialogue box</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sayıca azlar ama üstün değiller. Her Zhelezo Dvar senin ve senin gibilerin iki katı savaşçıdır. İşlerimize burnunuzu soktunuz. Size aynıyla karşılık vereceğiz. Sizi yenmek bizim için bir zevk olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Meclis mi? Yeterince uygun görünüyorsunuz... Evet, Kurtarıcıların ve efendilerinin sonunu görmek istiyoruz. Teklifiniz nedir?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE'un çıkarlarına hizmet ediyorum. En büyük düşmanını yenmek için bir Proton Bobini silahı yaratmak üzere seçildim. Cihazı yaratmak ve test etmek için Abyss'in bulaştığı bu dünyaya geldim. Sizin Kurtarıcılarınız ve onların efendileri benim laboratuvar farelerim olacaklar. İşimi bitirmeme yardım edin, ben de haşaratları yok etmenize yardım edeyim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderFirstName}, dikkatli ol. CORE duygusuz ve hesapçıdır. Takipçileri de farklı olmayacaktır. Eğer yararlılığımız azalırsa, bizi görevden alacaklardır. Onlara güvenmiyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="84" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MEET_ZHANNA_TSERBER_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zhelezo! Konsey işlerine karışmanız bugün sona eriyor, yeni düzen adına sizi ve yeni 'isyanınızı' yerle bir edeceğiz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEET_ZHANNA_TSERBER_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi bulmaya gelenin sen olacağını bilmeliydim... her zaman konseyin fino köpeği oldun. Belki de konseyi arındırmaya seninle başlamalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MEET_ZHANNA_TSERBER_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dene bakalım. Bizi durduramazsın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">MEET_JIKUKU_COSRAX_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ve böylece Latisiak'ın bizi uyardığı gibi daha fazla yok edici geldi. Xa'Kir'Ko'yu kirletemeyeceksiniz! Bu gezegen bizim kaderimizdeki evimiz ve onu hayatımız pahasına savunacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">MEET_JIKUKU_COSRAX_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünyayı yok etmeye gelmedik. Ama bir şeyi yok etmeye geldik... Bir yozlaşma izini takip ediyoruz ve o iz bizi buraya getirdi. Senin bununla bir ilgin olduğundan şüpheliyim, Kir'Ko. Yolumuza çıkma.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">MEET_JIKUKU_COSRAX_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yine de yolsuzluk getirdiniz. İlgiyle izliyoruz. Xa'Kir'Ko tüm Kir'Ko'ların kaderidir. Kaldığınız süre boyunca ona iyi davranın, yoksa...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mordechai Antares, başardığını görmek güzel. Sen ve akrabaların bize katılabilirsiniz, sonuçta birlikte daha güçlüyüz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acıyan gözler için bir manzarasın. Amazon, Meclis ve Kir'ko arasında çok az soluklanma imkanı var. Şimdi de Müdür {STR_LeaderFirstName} mi? Ön tarafa geçmek için can mı atıyordun, {MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME}?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seni görmek de güzel Mordechai. {STR_LeaderName_INESSA_ZHELEZO} şimdilik bizi yönetiyor. Daha sakin bir zihin galip gelmeli. Bu günlerde savaşmaya daha uygunum. Yaşına göre bilge ve mükemmel bir taktisyen. Emin ellerdeyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlıyorum. Lider olun ya da olmayın, siz ve akrabalarınız güvenilir müttefikler ve dostlar olduğunuzu kanıtladınız. Kardeşlerim memnuniyetle sizin yanınızda savaşacaktır. Bizi istediğin gibi yönlendir, {STR_LeaderName_INESSA_ZHELEZO}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="95" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FIND_VALODNY_RASSVET_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ah! Genç {STR_LeaderName}, seni görmek güzel. Chimera Glacialis'ten toplayabildiğim kadarını getirdim. Leydi Lianna ne yazık ki Rassvet'in geri kalan kaynaklarını böylesine riskli bir çaba için kullanmak istemedi. Ne olursa olsun, en sadık adamlarım tüm Dvar'ın geleceği için savaşmaya hazır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Chimera-V - Planet name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FIND_VALODNY_RASSVET_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amca! Sağ salim geldiğinizi gördüğüme sevindim. Rassvet Konsorsiyumu'nun tam desteği olmadan da idare edeceğiz, yardımınız çok makbule geçecek ve şüphesiz çok değerli olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIND_VALODNY_RASSVET_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güzel, yanımızda bir kolonizatör ve çok sayıda asker getirdik. Bizi istediğiniz yere yönlendirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_COMMUNION_SITE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">'Communion' Sitesini Yakalayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_COMMUNION_SITE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Amazonlar kendilerini 'cemaatin' koruyucuları olarak görüyorlar. Muhtemelen bu siteyi efendilerine rapor vermek için kullanıyorlar. Eğer onu ele geçirirseniz, onların ve Kurtarıcı müttefiklerinin hesap verdiği efendiler hakkında daha fazla bilgi edinebilirsiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_COMMUNION_SITE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Amazonlar bu sektörü vahşice korurlar. Daha da önemlisi, içeriğini ifşa etmektense ölmeyi tercih ederler. Yaşlı bilgeliğim bana sırlarını bu karanlık derinliklerde saklı bulabileceğimizi söylüyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_COMMUNION_SITE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sitenin değeri şu anda bizi ilgilendirmiyor. Konsorsiyumun devam eden varlığı söz konusu ve bu 'Komünyon' sitesi bize cevabı sağlayabilir. Onu ele geçirmeli ve orada kimlerin cemaat kurduğunu öğrenmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CAPTURE_COMMUNION_SITE_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Katılıyorum ama dikkatli olmalıyız. Bu 'Psynumbra'ların gücünü Chimera Glacialis'te kendimiz gördük. Eğer burası onların kutsal mabediyse, kolay kolay fethedilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komünyonu Başlatın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ritüel sitesi, komünyonu başlatmak için yapılacak törenleri ayrıntılı olarak açıklamaktadır. Bu muhtemelen cevapladıkları her neyse onu ortaya çıkaracak ve size cevaplar sağlayacaktır, ancak beklenmedik sonuçlara hazırlıklı olmalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayır! Başarısız olamam! Komünyon yabancılar tarafından kirletilmemeli! O en kutsal yere saygısızlık etmenize izin vermeden önce sizi yok edeceğim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Feryatlarınız size zafer kazandırmayacak ve açıkçası silah kullanma beceriniz de.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgelikten yoksun söylenmiş cesur sözler. Hangi güçlerle uğraştığın hakkında hiçbir fikrin yok, {STR_LeaderName_INESSA_ZHELEZO}. Eğer ben sana yollarının aptallığını gösteremezsem, o gösterir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şimdi onu kontrol ettiğimize göre, Komünyonu neyin yönettiğini araştırmalıyız. Bu ayinin bizim gibiler için güvenli olacağından şüpheliyim. En kötüsüne hazırlanmalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son hazırlıklar tamamlandı. Kendinizi hazırlayın, kardeşlerim. Bunun hoş olacağından şüpheliyim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Komünyonda hazır bulunan herkesin zihninde güçlü bir baskı hissedilebilir. Yabancı bir varlık gözlerinin önünde bir şekle bürünür).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni bir ses dinleyici talep ediyor, ancak sadık olanın yerinde duruyor. Benimle bu şekilde iletişime geçtiğinize göre sorularınız olmalı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatoriçe mi? Tüm bunların arkasında sen mi varsın? Kurtarıcılar... Konsey... Onların iplerini çeken siz miydiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, genç olan. Kurtarıcılara bir hediye teklif ettim. Konseyiniz gibi onlar da bu savaşta gerekli bir araç olarak bana sadakatle hizmet ediyorlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Senin için biz bu muyuz? Alet mi?! Bir zamanlar Birliğe hükmediyordunuz, sayısız trilyonlarca ruh, hepsi sizi seviyordu. Ve sen onları bir madencinin kazma kullandığı gibi mi kullanıyorsun?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fedakârlıklar yapılmalı. CORE, Yıldız Birliği'nin kalıntıları üzerindeki kontrolünü her geçen gün daha da sıkılaştırıyor. Hizmetkârları bu dünya için geldiler ve sizinki için de gelecekler. Konsey, CORE'un Dvar'ı bir daha asla köleleştirememesi için bana hizmet ediyor. Bana katılın. CORE'un zulmünün tüm insanları ele geçirmesini önleyin... ya da reddedin ve yok olun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_07_ALT_WEAPON_COMPLETE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fedakârlıklar yapılmalı. CORE, Yıldız Birliği'nin kalıntıları üzerindeki kontrolünü her geçen gün daha da sıkılaştırıyor. Hizmetkârları bu dünya için geldiler ve sizinki için de gelecekler. Konsey, CORE'un Dvar'ı bir daha asla köleleştirememesi için bana hizmet ediyor. Sen zaten CORE'un evcil hayvanlarının yanında yer alarak muhalefet yolunu seçtin. Beni hayal kırıklığına uğrattın. Yıldız Birliği'nin yeniden doğuşunda yeriniz yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_08_ACCEPTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teklifinizi kabul edeceğiz. Yıldız Birliği'nin yeniden doğuşu her şeyden önemlidir ve öğrendiklerime göre, CORE'un bizi tekrar kontrol etmesine kesinlikle izin verilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_09_ACCEPTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Türünüze güvenilmeyeceğini bilmeliydim. Tahminlerim beni uyarmıştı. CORE bu cenneti yönetecek. Yarattıklarıma bakın! Proton Bobini'ne bakın. Tanrıların bile ölebileceğine tanıklık edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_09_ACCEPTED_ALT_COIL_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Değerli bir müttefik olacaksın. Claudius Proton'u görmezden gelerek zaten mükemmel bir muhakeme gösterdiniz. Davamıza olan bağlılığınızı gerçekten göstermek istiyorsanız, Proton Bobinini yok etmelisiniz. O silahın var olmasına izin verilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_10_ACCEPTED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O silah! Zhelezo, eğer gerçekten CORE'un pençesinden kurtulmuş bir Yıldız Birliği görmek istiyorsan, o silah yok edilmeli. Adanmışlığını kanıtla {STR_LeaderName_INESSA_ZHELEZO}. Claudius Proton'un İğrençliğini yok et!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_08_DENIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar çoktan yeniden doğdu! Bağımsız. Özgür. Hayatlarımızı hiçe saymanız, CORE kadar yönetmeye uygun olmadığınızı gösteriyor. Yıldız Birliği'nin dönüşü sadece tiranlık getirecek, sizinki ya da CORE'unki.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_09_DENIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O zaman aptalsınız. Benim yönetimim olmadan, kaos hüküm sürecek. Kimse için güvenlik ya da refah olmayacak. Eğer bana yardım etmeyecekseniz, o zaman ortadan kaldırılmalısınız. Bu dünya Psynumbranlar için kutsaldır. Lohikarne, Abyss ile olan bağlantısını koruyor. Elveda, {STR_LeaderName_INESSA_ZHELEZO}.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Lohikarne - a Psynumbra demon which has no gender.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_10_DENIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName_INESSA_ZHELEZO}! Yakınlarda devasa bir canavar ortaya çıktı! İmparatoriçe'nin bahsettiği Lohikarne olabilir mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">THE_COMMUNION_MESSAGE_11_DENIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hepimiz için gelmeden önce bu canavarlığı yok etmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_THE_PROTON_COIL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobinini Yakalayın ve Yok Edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DESTROY_THE_PROTON_COIL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Claudius Proton silahını devreye soktu; Proton Bobini çalışır durumda. Bu silahın var olmasına izin verilemez. İmparatoriçe'ye değerini kanıtla. Silahı yok et.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_THE_PROTON_COIL_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Proton Bobini imha edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DESTROY_THE_PROTON_COIL_COMPLETED_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silahın yok edilmesi ve CORE'un hizmetkârlarının bozguna uğratılmasıyla, Birliğe hizmet etme isteğiniz kanıtlanmış oldu. Yine de savaş kazanılmaktan çok uzak. Ordularınızı hazırlayın. Zamanı geldiğinde sizi çağıracağım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFEAT_THE_ECHO_OF_LOHIKARNE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lohikarne'nin Echo'sunu yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DEFEAT_THE_ECHO_OF_LOHIKARNE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm bunların arkasında İmparatoriçe vardı! Bağlantının dengesini bozarak Lohikarne adlı bir Abyssal varlığın kendi gücünün bir yankısını göndermesine izin verdi! Dvar'ın bu gezegendeki çabalarından sağ çıkması için yenilmesi gerekiyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DEFEAT_THE_ECHO_OF_LOHIKARNE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Lohikarne'li Echo mağlup edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ASSIST_CLAUDIUS_PROTON_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akıllıca bir seçim yaptınız. Proton Bobini'nin tamamlanması Yıldız Birliği'nin restorasyonu için çok önemli. Bunun bir parçası olmaktan gurur duymalısınız. Eğer sadık bir yardımcı olur ve çalışmalarımıza devam edebilmemiz için bize yeterli miktarda Kozmit sağlarsanız, size ilk testine tanık olma ayrıcalığını bahşedeceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">used normally if the vault is not taken in Dvar 01</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ASSIST_CLAUDIUS_PROTON_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umarım doğru seçimi yapmışsındır, {STR_LeaderFirstName}. CORE'un dönüşü hepimiz için kötü haber olabilir. Yine de silahları gelecek savaşlarda bize yardımcı olabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DECLINE_CLAUDIUS_PROTON_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedeflerimiz aynı olsa da, korkarım ki CORE'un iktidara geri dönmesi bizim çıkarımıza değil. Adamant konseyinin yozlaşmasının intikamını kendi irademizle alacağız; bunu yapmak için sizin süper silahınıza ihtiyacımız yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DECLINE_CLAUDIUS_PROTON_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görüyorum ki türünüz atalarınızın inatçı gururunu miras almış. CORE'un isteği yerine getirilecek! Sizin bunun bir parçası olmamanız üzücü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mükemmel, hakkınızda verdiğim kararın doğru olduğunu biliyordum. Bu katkı sayesinde, Proton Bobinini çalışır hale getirmek için son süreci başlatabilirim. Bir sonraki adım, bilim adamlarımızın duyusal ekipmanınızı Proton Bobini'nin hedefleme bilgisayarıyla bağlantı kuracak şekilde modifiye etmelerini gerektiriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pekala, araştırmacılarımızdan bazılarını sistemlerimiz arasında arayüz oluşturmaya adayacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu {STR_LeaderName_INESSA_ZHELEZO} hakkında dikkatlice düşünün... Eğer bunu yaparsak, geri dönüşü olmaz. Eski kayıtları okudum. CORE sadece yardımımızla yetinmeyecektir. Bağlılığımızı talep edecek. Eğer CORE'a karşı çıkarsak, bizi yok etmek için kullanabileceği silahı yaratmış oluruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_COMPLETED_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tamamdır, bağlantı kuruldu. Silah hazır mı?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_COMPLETED_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, programa göre ateşlemeye hazır olacak. Artık tüm hazırlıklar tamamlandığına göre test deneklerini temin etme zamanı geldi. Kelshana Latisiak bu dünyada 'Komünyon Tahtı' adını verdiği bir tapınağı koruyor. Onu ondan alın ve içinde yatan varlığı dışarı çekin. Sonra Proton Bobini'nin test ateşlemesi başlayabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROVIDE_COSMITE_TO_FUEL_THE_WEAPON_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silaha Yakıt Sağlamak için Kozmit Sağlayın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROVIDE_COSMITE_TO_FUEL_THE_WEAPON_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Claudius Proton bu gezegende CORE için bir süper silah monte ediyor. Bu silahın tamamlandığında Kurtarıcılara ve efendilerine karşı kullanılacağını belirtmiştir. Meclisin size yardım etmesini istiyorsanız, projenin tamamlanmasına yardımcı olmak için Kozmite katkıda bulunmalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobini Hedefleme Bağlantısını Araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Claudius'a göre, Proton Bobini yakında test için hazır olacak. Bu silahın test ateşlemesi için hedefleme verilerini sağlamanız gerektiğinden, uygun hedefleme bağlantısının kurulduğundan emin olmalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_THE_PROTON_COIL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobinini Yok Et</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROY_THE_PROTON_COIL_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatoriçe'nin isteğine kulak ver ve Proton Bobinini yok et.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="148" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">'Komünyon'u başlatın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">INITIATE_THE_COMMUNION_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Diğer taraftaki her neyse onunla temas kurmak için tarif edildiği gibi ritüeli takip edin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUEST_GRID_SKILL_PROTON_COIL_TARGETING_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobini Hedefleme Bağlantısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">QUEST_GRID_SKILL_PROTON_COIL_TARGETING_UPLINK</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Claudius Proton'un süper silahıyla bağlantı kurmak için araştırma yapın. Bu yapıldıktan sonra geri dönüş yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROTON_COIL_COMBAT_PROPERTY_ALLIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Proton Bobini</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROTON_COIL_COMBAT_PROPERTY_ALLIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm Psionik ve Eterik birimler zayıflar ve {DamageReduction} verir. Her turda, tüm Psionik ve Eterik birimlerin {DimensionalInstabilityStrength} güçle {DimensionalInstabilityDuration} tur boyunca Boyutsal Kararsızlığa yakalanma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROTON_COIL_COMBAT_PROPERTY_ALLIED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim, Proton Bobininin gücüyle zayıfladığı için hasar çıkışı {CoilDamageReduc} kadar azalır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BODY_AND_MIND_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Beden ve zihin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BODY_AND_MIND_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague, Dvar'ın bir kez daha giysilerinden bağımsız olmasını sağlayacak genetik modifikasyona yol açabilir, ancak böyle bir aracı kullanmak tehlikeli bir yoldur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DRAGAN_VOSS_MUST_SURVIVE_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Dragan Voss Alive</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DRAGAN_VOSS_DEATH_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voss öldü ve gerginlik de onunla birlikte kayboldu. Bağımlılığımızı tedavi edebileceğimi düşünerek aptallık ettim... Bu onun hayatına mal oldu, daha fazlasına mal olmasına izin veremem.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İlk Adımlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague bir tedavi sağlayabilir, ancak önce ön araştırma yapılmalıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String" x:Ticked="1">{INT_0}\{INT_1} 'Alfa Suşu Başlangıcı' Araştırıldı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu dünya şimdiye kadar gördüğüm en ılıman iklime sahip. Her şeyiyle çok güzel... Keşke bu bereketli hayatı biz de başkaları gibi kendi duyularımızla deneyimleyebilsek...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürüm, bilim birimlerimiz yerleşti ve çalışmaya hazır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güzel... Bunun tam zamanı olabileceğini hissediyorum; Alfa Suşu ile ilgili araştırmalarım böyle bir dünyada meyvelerini verebilir. Bilim adamlarımızın çabalarını buna yönlendirmeliyim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başlangıç araştırmasından elde edilen veriler umut verici görünüyor; belki de bu özgürlüğümüze doğru ilk adımlar olabilir. Ancak Alfa Suşu evrim geçirmeyi arzulayan bir varlıktır. Eğer amaçlarımıza hizmet etmesini istiyorsak, bir konakçıya sahip olmalı ve evrimsel yolu boyunca yönlendirilmeli ki istediği işlevi yerine getirebilsin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu da demek oluyor ki, bir deneğe ihtiyacınız olacak. Gönüllü olurdum ama bu tür bir deney için daha genç bir denek gerekiyor gibi görünüyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aslında ben de gönüllü olmak istiyorum ama Direktör olarak böyle bir riski göze alamam. Görünüşe göre kendi içimizden bir gönüllü bulmaktan başka çaremiz yok.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Eğer izlemek istediğiniz yol buysa, {STR_LeaderFirstName}'yi seçmelisiniz. Bu seçimi hafife almayın, bu sadece akrabalarımızın hayatlarından çok daha fazlasını ilgilendiriyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Esnek Rehberlik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Strain Voss ayıları dirençli olmaları için yönlendirilmelidir. Savaş bolca fırsat sağlamalıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Dragan Voss çatışmada hasar gördü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yönetmenim. Ben Zhelezo'dan Dragan Voss. Elde etmek istediğiniz şeyin haberi akrabalarımız arasında yayıldı, gerginler, kararsızlar, ancak adil bir amaç için yapılması gerekenden korkmuyorum. Kendimi, zihnimi ve bedenimi hizmetinize sunmaya geldim. Türümüz için bu yükü taşımama izin verin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Baron Dragan Voss, kim olduğunuzu biliyorum. Klanınız en eski kayıtlarımızdan beri bizimle birlikte, Konsorsiyuma olan bağlılığınızın sarsılmadığını görmek güzel. Bu riski almak istediğinizden emin misiniz? Xenoplague tehlikelidir, bağımlılığımızı tedavi etmemize yardımcı olabilir, ancak kolay olmayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet Müdürüm, babam Chimera'ya düştü. Ancak Zhelezo davasına olan inancım sarsılmadı, bu yükü taşıma kararım da. Atalar beni izleyecektir, eminim. Sizin gibi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güveniniz beni onurlandırdı, Baron Voss. O zaman başlayalım. Başlangıç sürecinin tamamlanması sadece 1 döngü sürecektir. Bunun bize zamanında cevaplar vereceğini umabilirim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tuhaf hissediyorum, aynı ama farklı. Sanki damarlarımda potansiyel dolaşıyor, güçlü ama esnek... Bir sonraki adım ne Direktör?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni ortakyaşarınızın doğru yolda ilerlediğinden emin olmalıyız. Bunun için de en güçlü Dvar'ı şekillendiren potaya getirilmelisin: Savaş.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Damarlarımda yeni bir canlılık dolaşıyor, bunu hissediyorum. Yaralanmanın acısı bir şekilde hafifledi, azaldı, ancak her darbeden sonra daha da güçlendiğimi hissettim... Beni şimdiden çektiğini hissedebiliyorum; gelişmek için daha fazla biyomaddeye ihtiyacı var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçinizdeki Alfa Suşu gibi siz de güçleniyorsunuz ve dayanıklılığınız artıyor. Ancak tekrar giysilerimizden bağımsız olmak istiyorsak daha fazlasına ihtiyacımız olacak. Kaybettiklerimizi geri kazanmamız gerekiyor... Belki de rejeneratif özelliklerini ortaya çıkarmak için onu daha da güçlendirebiliriz, ancak bu Voss'u sonsuza dek değişmiş bırakabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_03_STOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayır, bu yanlış. Böyle bir yaratık ancak bundan daha fazla büyümesine izin verirsek yozlaşabilir. Bunun sana getirdikleri için üzgünüm Dragan, ama önemli dersler ne olursa olsun öğrenilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_04_STOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Direktöre hizmet etmek benim görevim, her ne kadar bize istediğimizi vermemiş olsa da, böyle bir gücü boşa harcayamam. Önümüzdeki çatışmalarda sizin için savaşacağım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_05_STOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her şeye rağmen atalarının bilgeliğini içinde taşıdığını gördüğüme sevindim... Bunun seni incittiğini biliyorum kızım, ama bazı şeyler değiştirilemez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="186" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Agresif Rehberlik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Suş saldırganlaşır ve kontrol için Voss'la savaşır. Bunun yerine savaşta doyurulabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Dragan Voss savaşta bir düşmanı yendi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çekincelerim ne olursa olsun, bu dava risk almayı gerektiriyor. Eğer Alfa türünün saldırganlığını yatıştırmak için gereken buysa, bizi nereye götüreceğini görmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Emredersiniz, Müdür Bey.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne güç ama! İçimdeki enerjiyi güçlükle kontrol edebiliyorum, yine de kıyafetimin hapishanesine her zamanki gibi bağlı görünüyorum... Gerilim içimde büyüyor gibi hissediyorum... Artık onu daha uzun süre kontrol edip edemeyeceğimi biliyorum...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sakin ol Voss! Strain'in şimdiden sınırlarını zorladığı ortada. Seni daha fazla zorlayabilir mi bilmiyorum. Aradığımız cevapları bile bulamayabiliriz...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_03_CONTINUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Şimdi duramayız, çok yaklaştık... gerginlik daha fazla beslenmeli, bu onu tamamen ele geçirmesini dengeleyebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_04_CONTINUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet yönetmen... Akrabalarım için katlanmalıyım... Ben... Ben kontrol edebilirim... Ben...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_03_STOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayır, hala yapabiliyorken bunu durdurmalıyım. Zaten çok acı çektin Voss, durumunu elimizden geldiğince stabilize etmeye çalışacağım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_04_STOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ama Direktör, çok yaklaşmıştık... Bu bir hiç uğruna olamaz, güçlerimizin ön saflarında savaşmama izin verin, Konsorsiyum için üzerime düşeni elimden geldiğince yapacağım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_05_STOP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her şeye rağmen onların bilgeliğini içinde taşıdığını gördüğüme sevindim {STR_LeaderFirstName}... Konsorsiyuma olan bağlılığın zamanla ödülsüz kalmayacak Baron Voss, bu iş bittiğinde soyunun layıkıyla ödüllendirildiğini göreceğim. İstediğin sonucun bu olmadığını biliyorum evlat, ancak bazı şeyler değiştirilemez... ödemeye hazır olduğumuz bedel ne olursa olsun.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">I am glad to see you carry their wisdom within you after all {STR_LeaderFirstName}… Your dedication to the Consortium will not go unrewarded in time Baron Voss, I will see your kin properly rewarded when this is over. I know this is not the result you wanted daughter, but some things cannot be changed… no matter the price we are willing to pay.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEMPERING_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Temperleme Kılavuzu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TEMPERING_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voss'taki Xenoplague onu ele geçiriyor gibi görünüyor, tedavi için yeterince güçlü bir türün evrimleşmesi için türünden daha fazla yaratarak büyümesine izin verilmelidir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEMPERING_GUIDANCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Xenoplague birimleri ortaya çıktı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TEMPERING_GUIDANCE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Strain duyularıma rehberlik ediyor... Duyu... Av... Büyümeli... Beslenmeli.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">TEMPERING_GUIDANCE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Alfa türü, kendi türünden daha fazla kişiye yaklaştıkça güçlenir. Voss'un türünün kendi kendine yayılmasına izin vermeliyiz, bu yapıldığında sanırım sonunda tedavimize rehberlik edebilecek kadar güçlü bir örnek elde edebilirim...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TEMPERING_GUIDANCE_EPILOGUE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bitti... Xenoplague serbest bırakıldı. Voss artık kendinde değil gibi görünüyor, umarım buna değer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güç Kanıtı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Voss'u tamamen ele geçirdi ve meydan okuyarak türünün daha fazlasını topladı. Güç kanıtına ihtiyacı olduğunu iddia etti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Dragan Voss yenildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="15.75">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayat veren geliyor... Yükselişten bahsediyordu... soydan... artık bunların hiçbiri kalmadı... kelimelerin anlamı kayboldu... Biz daha fazlası olduk... Beni duyabiliyor musun hayat veren?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderFirstName}! Uzak dur ondan!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaybolmadan önce ondan bir şeyler öğrenmeliyim, onun fedakârlığı bir hiç uğruna olamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onlar çoktan kayboldu, {STR_LeaderFirstName}! Arzularınız tarafından tüketilmeyin! Kendinizi bu şekilde tehlikeye atmayın!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">...Voss gitti... Artık bizim bir parçamız... Biz zayıfken ona komuta ettin... Artık seni kabul edemeyiz hayat veren... Gücünü kanıtla... ya da yok ol.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü... Takip etmeye değer... Bu form ölür... Diğer formlarım... Sonsuza dek yaşar... Senin rehberliğinde... Hoşça kal... {STR_LeaderName_INESSA_ZHELEZO}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Voss öldü... Başarısız oldum... Tedavi aramakla aptallık mı ettim? Bize yardım edebileceğimi düşünmüştüm ama sadece en cesurlarımızdan birini acı bir sona mahkum ettim. Nasıl bu kadar kör olabildim?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bazı şeyler değişmemeli evlat. Ölümünün yasını tutma, fedakarlığının bize öğrettiklerinden faydalan.</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Some things are not meant to change, daughter. Do not mourn his death, make use of what his sacrifice taught us.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürüm! Başkent yakınlarında Xenoplague izleri taşıyan bir yaratık sürüsü tespit edildi! Görünüşe göre... Bir şey mi bekliyorlar?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlıyorum... Görünüşe göre Dragan'ın fedakarlığı bize bir şeyler getirmiş. Son anlarında söyledikleri... O hala Dragan mıydı? Alfa türü bize bir tedavi getiremez... ama bize zafer getirebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="1" />
+      <Row ss:Index="219" ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımızın sonuncusu da önümüze düştü. Artık dünya kontrolümüz altında olduğuna göre, bu şeytanların kime cevap verdiğini keşfetmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aradığın cevapları sana verebilirim, genç Dvar. Ben İmparatoriçe Carminia. Dikkatimi çektin. Claudius Proton, CORE adında bir canavara hizmet ediyor. Yıldız Birliği'nin soğuk, yapay bir kalıntısı. Hepimizi zincirlerine bağlamak için elinden geleni ardına koymayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İmparatoriçe... Carminia? Evet, Claudius Proton'u gördük. CORE kadar soğuk ve hesapçıydı... Ama bize istediğimiz cevabı vermediniz: Konsey'i kim yozlaştırdı?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adamant Konseyi yozlaşmış değil. Yanlış anladınız. Onlar sadece Yıldız Birliği'nin yeniden doğuşu için ne yapılması gerektiğini bilirler. CORE'un artan etkisini engellemeye çalışıyorlar. Sana yanımda bir yer öneriyorum. Bana katılın. Zhelezo'ya şan ve ebedi hürmet getirin. Buna layık olduğunuzu kanıtladınız. Sizinle birlikte Yıldız Birliği'nin yeniden doğuşunu sağlayabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dvar sizin araçlarınız değil, İmparatoriçe! Kendi yolumuzu çizeceğiz. Gerekirse hem sizinle hem de CORE ile savaşacağız. Dvar özgür olmalı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çok iyi, test iyi geçti, ancak tam güce getirene kadar biraz zaman geçecek. Yine de, yardımınız gerektiği gibi not edildi. Aslında, sizinle tanışmak isteyen biri var.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ZHELEZO MADENCİLİK KONSORSİYUMU. YARDIMLARINIZ DEĞERLENDİRİLDİ. BIR ÖDÜL VAR: ZHELEZO'NUN GELIŞECEĞI YILDIZ BIRLIĞI UZAYININ BIR BÖLÜMÜ OLAN LASTIK AÇIKLIĞI.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CORE'un kendisi mi? Bu hediyeyi nezaketle kabul ediyoruz; yeni bir başlangıç tam da halkımızın ihtiyacı olan şey.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">KOORDINATLAR AKTARILACAKTIR. NASIL ILERLEYECEĞINIZE DAIR TALIMATLARI YAKINDA ALACAKSINIZ. HALA BIR TEHDIT VAR. ZAMANI GELDIĞINDE ÇAĞRILACAKSINIZ.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">All caps is intentional</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPRESS_VICTORY_DIALOGUE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akıllıca bir seçim yaptınız, genç Direktör. O silah hepimiz için bir tehditti. Ama CORE ve takipçileri hâlâ hayatta. Yakında icabına bakılmalı. O zaman geldiğinde, seni çağıracağım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPRESS_VICTORY_DIALOGUE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, majesteleri. Zhelezo Konsorsiyumu çağrı geldiğinde hazır olacak. Birlikte tüm Dvar için yeni bir gelecek kuracağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPRESS_VICTORY_DIALOGUE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Umarım hepimizin iyiliği için bizi doğru yola sokmuşsundur, {STR_LeaderFirstName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hahaha! Cehennemden gelen bir canavar bile bizimle boy ölçüşemez. Zhelezo Dvar bu evrenin bize atabileceği her şeye karşı koyabileceklerini kanıtladılar! Ve sen, {STR_LeaderFirstName}, mükemmel bir Yönetici olduğunu kanıtladın, tıpkı yapacağını bildiğim gibi. Seninle gurur duyuyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Teşekkür ederim baba, seni gururlandırabildiğim için mutluyum ama bu çetin sınav insanlarımızdan çok şey götürdü, ekipmanlarımızdan bahsetmiyorum bile. O yaratığın yarattığı şok dalgası daha sofistike makine ve teçhizatımıza önemli ölçüde zarar verdi; bu hasarı telafi etmemiz biraz zaman alacak...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">En büyük eserim, Carminia'yı durdurmak için en iyi şansım mahvoldu! Pervasızlığınız bana her şeye mal oldu! CORE ittifakı bunun için kellelerinizi alacak, sözlerime kulak verin!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Silahını kaybetmenin yasını tutmayacağız Claudius, böyle bir güce ne sen ne de Carminia güvenebilirdi. İrade gücü ve teçhizat Dvar'ın silahlarıdır ve bugün senin yarattığından daha güçlü olduklarını kanıtladılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendimize gelmek ve Yıldız Birliği'nin içlerine yapacağımız sefere hazırlanmak için biraz zaman ayırmalıyız. Çekicime bahse girerim ki İmparatoriçe'yi orada bulacağız.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>180</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>192</ActiveRow>
+          <ActiveCol>3</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

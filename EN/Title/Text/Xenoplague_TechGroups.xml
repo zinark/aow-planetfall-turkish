@@ -1,0 +1,2508 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2019-11-19T12:06:51Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>7308</WindowHeight>
+    <WindowWidth>23040</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" />
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="224" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.6" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.8" />
+      <Column ss:StyleID="s62" ss:Width="181.79999999999998" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="333.6" />
+      <Column ss:StyleID="s62" ss:Width="147.6" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="209.39999999999998" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="333.6" />
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomadde Hazırlama Eğitimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yenilen düşmanların vücutlarının Xenoplague virüsü tarafından kullanılmak üzere nasıl optimize edilebileceği konusunda komutanlarınızı eğitin.[br/][br/]Savaşta sahip olduğunuz her kahraman için Xenoplague birimlerinin ortaya çıkma veya evrimleşme şansı {PlagueInfectionChance} kadar artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyomadde Temizleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague bilimi, yenilenme amacıyla biyomaddenin temizlenmesine olanak tanır.[br/][br/]AZaferle sonuçlanan her savaştan sonra, Xenoplague ordularındaki birimler öldürülen Biyolojik veya Sayborg birimi başına {Healing}[hp/] iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Organik Mutasyon Araştırması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Nüfusumuza hiper-zeki bir virüs salarak bilimsel ilerlemeyi artırabiliriz. Uzun vadede bu, kolonilerinizde Omega suşu.[br/][br/]{ResearchIncome}[research/]'nin gelişimini ilerletmemize yardımcı olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zorla Enfeksiyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">XENO_GOVERNANCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Davamızı ilerletmek için, tüm birliklerimizin Xeno-türüyle enfekte olmasını zorunlu kılacağız. Bu, Xeno türünün benzersiz bir enfeksiyonudur ve içlerinde büyüdükçe birliklerimizi zayıflatmayacaktır.[br/][br/]Bu Doktrin aktifken savaşta birim kaybetmek, Xenoplague Püstüllerinin ortaya çıkmasına ve savaşın sonunda diğer Xenoplague birimlerinin gelişmesine katkıda bulunacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parazitik Saldırı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">XENO_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Biyolojik veya Sayborg birim {ViralInfectionDamage} hasar alır ve {ViralInfectionStrength} güçte bir [abilityred]Parazitik Enfeksiyon[/abilityred] kapma şansına sahiptir. Etki, {ViralInfectionRange} hex içinde yakındaki bir hedefe {ViralInfectionJumps} kez sıçrar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DROP_SPORE_POD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Spor Bölmesi Bırak</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Operation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DROP_SPORE_POD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Taktiksel çatışmaya, yere çarptığında patlayan bir spor kapsülü fırlatır. Pod, [abilityred]High Impact[/abilityred] ile {radius} altıgen yarıçaplı bir etki alanında {BioDamage} hasar verir. Spor kapsülü, etki alanında bir Şişmiş Püstül birimi bırakır. Birim çatışma sonunda yok edilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_RESTORATION_BEAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Restorasyon Işını</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Operation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="82.199999999999989">
+        <Cell>
+          <Data ss:Type="String">XENO_RESTORATION_BEAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Xenoplague birimi {HyperMutationHeal} süreyle iyileşir ve tüm olumsuz Durum Etkileri yok edilir. Hedef ayrıca tüm hasar kanallarına karşı {ResistanceAll} direnç ve {BuffDuration} için artırılmış [abilityblue] Sendeleme Direnci[/abilityblue] kazanır.</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Fixed resistance typo</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_RESTORATION_BEAM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim tüm hasara karşı {ResistanceAll} dirence ve artırılmış [abilityblue] Sendeleme Direncine[/abilityblue] sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Kirletici Saldırısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef, Xenoplague olmayan Biyolojik veya Cyborg birim ve {UnstableContaminationJumpMax} {UnstableContaminationJumpRange} hex içindeki diğer birimler {UnstableContaminationDamage}[damageBio/] alır ve [abilityred] Parazitik Enfeksiyon[/abilityred] ve [abilityred] Kararsız Kontaminasyon[/abilityred] kazanmak için {UnstableContaminationChance} güç şansına sahip olur ve savaşın sonuna kadar öldüklerinde patlamalarına neden olur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kararsız Kirlenme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_MODIFIER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{UnstableContaminationStrength} güç şansı [abilityred]Kararsız Kirlenme[/abilityred]'yi Fenoplague olmayan hedef Biyolojik veya Cyborg birimine uygulamak için.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim öldüğünde patlayarak {UnstableContaminationDeathDamage} hasar verir ve {UnstableContaminationDeathInfectResist} güçle [abilityred]Parazitik Enfeksiyon[/abilityred] oluşturma şansı vardır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AGGRAVATE_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiperstimülasyon Işını</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Operation</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AGGRAVATE_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HexRange} heksi içindeki hedef Akılsız Xenoplague birimi ve en fazla {UnitAmount} Xenoplague birimi {HealAmount}[hp/] boyunca iyileşir ve {duration} boyunca [abilityblue]Rabid[/abilityblue] olur. Kuduz birimler artık sizin kontrolünüzde değildir ve otomatik olarak en yakındaki düşman birimine saldırır. Ayrıca birim {RabidDam} ekstra hasar verir, Durum Etkilerine karşı bağışıklık kazanır, {RabidHP} maksimum [hp/] ve [abilityblue]Hızlı Hareket kazanır.[/abilityblue]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AGGRAVATE_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kuduz</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AGGRAVATE_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim kontrolünü kaybetmiştir ve en yakındaki düşmana saldıracaktır. {RabidDamage} ekstra hasar verir, {RabidHp} maksimum [hp/] değerine sahiptir, Durum Etkilerine karşı bağışıktır ve [abilityblue]Hızlı Hareket[/abilityblue] değerine sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AGGRAVATE_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MODIFIER_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{Damage} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMBUSH_LEAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pusu Sıçraması</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMBUSH_LEAP</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim {hex} hex ileri sıçrar. Ağır olmayan bir düşman birimini hedef aldığında, hasar verir ve birimi geri iterek onun yerini alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FEROCIOUS_DETERMINATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vahşi Kararlılık</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FEROCIOUS_DETERMINATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim olumsuz Moral etkilerine karşı bağışıktır ve Zihin Kontrolüne tabi tutulamaz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFECTIOUS_BITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bulaşıcı Isırık</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">INFECTIOUS_BITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bulaşıcı bir ısırık verin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Patlama</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BURST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratık kendini imha eder ve komşu tüm altıgenlere hasar verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">UNSTABLE_MEMBRANE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kararsız Membran</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">UNSTABLE_MEMBRANE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratık öldüğünde otomatik olarak kendini imha eder, tüm komşu altıgenlere hasar verir ve Biyolojik ve Cyborg birimlerine {ParasiticInfectionChance} [abilityred]Parazitik Enfeksiyon[/abilityred] uygulama gücü şansı verir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SAVAGE_BITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vahşi Isırık</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SAVAGE_BITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman birliğini keskin dişlerinizle parçalayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LACERATING_TENTACLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yırtıcı Dokunaçlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">LACERATING_TENTACLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşman birimini çivili dokunaçlarla vurun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACIDIC_BILE_SPIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Asidik Safra Tükürüğü</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ACIDIC_BILE_SPIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zırhı eriten menzilli biyokimyasal saldırı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HYPER_EVOLVED_IMMUNE_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiper-evrimleşmiş Bağışıklık Sistemi</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HYPER_EVOLVED_IMMUNE_SYSTEM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim, Psiyonik olmayan tüm Durum Etkilerine karşı +{HyperEvolvedImmuneSystemResist} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VORACIOUS_HUNGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Obur Açlık</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VORACIOUS_HUNGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik veya Cyborg birimlerini öldürdüğünüzde {VoraciousHungerHP} iyileştirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SERRATED_SPIKES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tırtıklı Çiviler</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SERRATED_SPIKES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bulaşıcı bir sıvıyla damlayan dokunaçların uçlarından tırtıklı sivri uçlar fırlatır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERINFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Süper Enfeksiyon</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERINFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef düşmana virüslü bir sivri uç fırlat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SUPERINFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiper Enfeksiyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SUPERINFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{StunChance}[StrengthBio/] güç şansı [abilityred]Stun[/abilityred] bir Biyolojik veya Cyborg birimi {Stuntime} için. Direnilirse, bunun yerine [abilityred]Staggered[/abilityred] uygulayın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REANIMATION_SPORES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeniden Canlandırma Sporları</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REANIMATION_SPORES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yoğunlaştırılmış bir parazit spor demeti kullanarak dost ölü bir Xenoplague birimini yeniden canlandırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_SPORE_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rejeneratif Spor Bulutu</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_SPORE_CLOUD</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim ve tüm dost komşu Biyolojik ve Sayborg birimler, savaşta her tur [abilityblue]Yenilenme[/abilityblue] kazanır ve {RegenerativeSporeCloudHP}[hp/] iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CULTIVATE_THE_SWARM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sürüyü Yetiştirin</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Unit Ability</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CULTIVATE_THE_SWARM</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tüm Xenoplague yaratıkları her savaşın sonunda maksimum {HealAmount}'lerinin [hp/]'si kadar iyileşir. Buna belirli Xenoplague modlarıyla modifiye edilmiş birimler de dahildir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Paraziti</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birime bir Xenoplague türü bulaşır ve [abilityblue]Aşırı Evrimleşmiş Bağışıklık Sistemi[/abilityblue] kazanarak Psionik olmayan tüm Durum Etkilerine karşı +{resistancehyperevo} direnç ve [abilityblue]Yırtıcı Kararlılık[/abilityblue] kazanarak birimin olumsuz moral ve Zihin Kontrolü etkilerine karşı bağışıklık kazanmasını sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba Kapsülleri</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefe Veba Kapsülleri fırlatarak {hexrad} hex yarıçapında Biyokimyasal hasar verir. Bu alandaki Xenoplague birimleri bunun yerine {PlaguePodsHP} kadar iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="69" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO-SPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bio-Spore Saflaştırma</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">BIO-SPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost Biyolojik veya Cyborg birime belirli bir arındırıcı spor karışımı enjekte edin. Hedef {BioSporesPurificationHP} karşılığında iyileşir ve tüm olumsuz Durum Etkileri temizlenir.[br/][br/]Xenoplague yükseltmelerine sahip mekanik birimler de etkilenebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_HYBRID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parazitik Melez</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_HYBRID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim {ParasiticHybridHP}, {ParasiticHybridDef}, [abilityblue]Hiper-evrimleşmiş Bağışıklık Sistemi[/abilityblue] ve [abilityblue]Azimli Kararlılık[/abilityblue] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO-SPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bio-Spore Hiper Saldırganlık</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">BIO-SPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimden bir spor patlaması yayarak birimi ve {distance} hex'lerine sahip tüm dost Biyolojik ve Sayborg birimleri [abilityblue]Hyper Aggression[/abilityblue]'ye sürükler ve hasarlarını {HyperAggressionTurns} için {HyperAggressionDamage} artırır.[br/][br/]Xenoplague yükseltmelerine sahip mekanik birimler de etkilenebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiper Saldırganlık</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimin hasarı {HyperAggressionDam} kadar artar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{HyperAgressionDam} hasarı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIO-SPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyo-Spor Çoğalması</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">BIO-SPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost Biyolojik veya Sayborg birimini dirilt. Xenoplague olmayan bir ceset üzerinde kullanılırsa, birim bir Xenoplague birimi olarak geri döner.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parazitik Simbiyoz</Data>
+        </Cell>
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MOD_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim güçlü bir Xenoplague türü ile enfekte olur ve şunları kazanır:[br/][abilityblue]Hyper Evolved Immune System[/abilityblue], tüm Psionik olmayan Durum Etkilerine karşı +{resistancehyperevo} direnç kazandırır.[br/][abilityblue]Ferocious Determination[/abilityblue], negatif Moral ve Zihin Kontrolü etkilerine karşı bağışıklık kazandırır. [br/][abilityblue]Yenilenme[/abilityblue], savaş dönüşü başına {hpregen} yenilenme ve dünya haritasında dönüş başına tam [hp/] iyileşme sağlar.[br/][abilityblue]Yenileyici Spor Bulutu[/abilityblue], tüm dost komşu Biyolojik ve Sayborg birimlerine [abilityblue]Yenilenme[/abilityblue] sağlar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ksenogreft Kaslar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="107.25">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim aşılanmış Xenoplague kaslarından faydalanır. Yakın dövüş saldırıları  {GraftDamage}  % ekstra hasar verir ve  [abilityblue] Sarsıcı Darbe [/abilityblue]  ekstra seviyesi kazanır. [br/]  [br/] Bu mod ayrıca yakın dövüş saldırılarına  {InfectionChance}   [strengthbio/]  güç şansı (tekrarlanan saldırılar için  {InfectionChanceRepeating}   [strengthbio/] ) vererek Biyolojik ve Cyborg birimlerine  [abilityred] Parazitik Enfeksiyon [/abilityred]  uygular.  [br/]  [br/] Bir Xenoplague biriminin yakın dövüş yeteneğinde veya Xenoplague yakın dövüş silahında, güç şansı her zaman  {InfectionChance}   [strengthBio/] 'dir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Birimi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_UNIT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ABILITY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim Xenoplague tarafından enfekte edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Suşu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Uyanışını Serbest Bırakın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague birimleri [abilityblue]Rejenerasyon[/abilityblue/] kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_UNIT_DEBUFF_NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hasta</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_1_UNIT_DEBUFF_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim dünya haritasında tur başına {healBonus} daha az iyileştirir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_2_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{supplyPenalty}[supply/] gelir.[br/]Biyolojik ve Cyborg olmayan Xenoplague birimleri her stratejik [turn/]'de {healPenalty}[hp/] daha az iyileşir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DOOMSDAY_WEAPON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LEVEL_3_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biyolojik ve Cyborg olmayan Xenoplague birimleri [abilityred]Parazitik Enfeksiyon[/abilityred]'ye sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMEGA_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Enfeksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OMEGA_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague olmayan bir düşman kolonisini ve çevresindeki bölgeyi, daha fazla Omega Kovanı inşa ettikçe etkisi artan güçlü bir viral ajan olan {duration} için Omega Suşu ile enfekte edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OMEGA_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız Omega Suşu'nu hedef kolonide başarıyla serbest bıraktı. Virüs etkisini göstermeye başladığında halk hastalanmaya ve solmaya başladı bile.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OMEGA_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarımız düşman kolonisinde Omega Suşunu serbest bırakmaya çalışırken yakalandılar. Tam olarak başarılı olamasalar da, virüsün bir kısmı yerel su sistemine karışarak paniğe neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OMEGA_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Düşman ajanları kolonilerimizden birinde bir tür güçlü viral maddeyi serbest bıraktı. Hastalık hızla yayılıyor, ekinleri zehirliyor ve halkı hasta ediyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OMEGA_INFECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Düşman ajanları kolonilerimizden birinde bir tür güçlü viral maddeyi serbest bırakmaya çalışırken yakalandı. Çok fazla zarar vermelerini önlemeyi başarsak da, ajanın bir kısmı su sistemlerine sızdı ve bazı paniklere neden oldu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMEGA_HIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Kovanı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">OMEGA_HIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Kovanı, Omega Suşu Kıyamet Günü Silahının kilidini açar. İnşa ettiğiniz her ilave Omega Kovanı silahın seviyesini artırarak daha güçlü hale getirir.[br/][br/]Koloni başına yalnızca bir Omega Kovanı inşa edilebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">OMEGA_AWAKENING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Uyanışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">OMEGA_AWAKENING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague planının son adımı Omega Suşu'nun nihai formunu tüm dünyanın üzerine salıyor.[br/][br/]Omega Suşu Seviye 3 gerektirir.[br/]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WEAPON_PESTILENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pestilence</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WEAPON_PESTILENCE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefi Pestilence ile vur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WEAPON_ACRIMONIOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acımasız</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WEAPON_ACRIMONIOUS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir hedefe Acrimonious'u ateşle.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WEAPON_MALADY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malady</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">WEAPON_MALADY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Malady'yi bir hedefe ateşle.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="110" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vebanın Çağrısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef koloni vebanın çağrısını iletmeye başlar ve bu koloninin topraklarındaki savaş sırasında her tur {duration} süreyle bir Şişmiş Püstül'ü savaşa çağırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CALL_OF_THE_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloniniz vebanın çağrısını iletmeye başladı - Şişmiş Püstüller savaş sırasında sahaya çağrılacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="114" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ksenobonik Veba Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef koloniye bir Ksenobonik Veba Bombası yerleştirin. Koloni {XenobonicPlagueBombPop} kaybeder ve kolonideki Xenoplague olmayan tüm Biyolojik ve Cyborg birimleri {ParasiteStrategicDuration} için [abilityred]Parazitik Enfeksiyon[/abilityred] ile enfekte olur.[br/]Ayrıca, {PustuleSpawn} Xenoplague Pustules koloninin yakınında ortaya çıkar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague olmayan tüm Biyolojik ve Cyborg birimlerine {ParasiteDuration} için Parazit Enfeksiyonu bulaştırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarınız Xenobonik Veba Bombasını hedef koloniye başarıyla yerleştirdi. Etkileri rakibiniz için felaket oldu, koloni nüfusunun çoğunu yok etti ve çevrede birkaç Xenoplague püstülü ortaya çıkardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarınız düşman kolonisine Xenobonik Veba Bombası yerleştirmeye çalıştı, ancak suçüstü yakalandılar. Bombayı patlatmayı başaramamış olsalar da, düşman kolonistleri girişimimiz nedeniyle huzursuz oldular.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları, koloninizin üzerinde bir Xenobonik Veba Bombası patlatarak çok sayıda savunmasız kolonisti öldürdü ve onlara Xeno türünü bulaştırdı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları koloninize sızmaya çalıştı ve karşı ajanlar tarafından yakalanmadan önce bir Xenobonic Veba Bombası hazırlıyorlardı. Bombalama girişimi engellenmiş olsa da kolonistler huzursuzlanmaya başladı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="122" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyuyan Ksenomomlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef orduya Uyuyan Xenomomlar bulaştırın. Hedef ordu {SleeperXenomomesDamage} hasar alır ve biyolojik ve siborg birimler {SleeperXenomomesDuration} için [abilityred]Parazitik Enfeksiyon[/abilityred] ile etkilenir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {percentage} sağlık kaybeder</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {duration} için [abilityred]Parazitik Enfeksiyon[/abilityred] kazanır</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, hedef ordu sadece {SleeperXenomomesDamage} hasarı alır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarınız Uyuyan Ksenomomları hedef orduya başarıyla dağıttı ve enfeksiyonun etkisi orduyu önemli ölçüde zayıflatıyor. Enfeksiyon hâlâ tazeyken saldırmak için ideal zaman şimdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ajanlarınız Uyuyan Ksenomomları hedef orduya dağıtmakta başarısız oldular ve hafif hasar vermeyi başarsalar da, enfeksiyon düşman saflarında tutunamadı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ordunuz, Uyuyan Ksenomomlar tarafından vurularak birliklerinize zarar verir ve onlara iğrenç bir [abilityred]Parazitik Enfeksiyon[/abilityred] bulaştırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SLEEPER_XENOMOMES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman ajanları Uyuyan Ksenomomları ordunuza dağıtmaya çalıştı. Engellendiler ama yine de orduya hafif hasar vermeyi başardılar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="132" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rejeneratif Enfeksiyonlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef dost orduya yenileyici bir virüs bulaştırarak onları tamamen iyileştirir ve {RegenerativeStimulantInjectionDuration} süreyle durum etkilerine karşı {RenerativeStimulantInjectionResistance} direnç kazandırır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_HEAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler tam sağlığa iyileşir</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birimler {RegenerativeStimulantInjectionDuration} için durum etkilerine karşı {RenerativeStimulantInjectionResistance} direnç kazanır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yenileyici virüs dağıtımınız derhal etkisini gösterdi ve ordunuz yenilenerek savaşa hazır hale geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PROPERTY_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu birim rejeneratif bir virüsten etkilenir ve durum etkilerine karşı {amount} dirence sahiptir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HYPER_EVOLUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evrimi Hiper-hızlandırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HYPER_EVOLUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedef Püstülün içindeki veba sürecini hızlandırarak onu bir Yok Ediciye dönüştürür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">HYPER_EVOLUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno-Püstüllerimizden birinin büyümesini hızlandıran ve onu bir Yok Edici'ye dönüştüren bir Xeno-konsantrasyonu uyguladık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">HYPER_EVOLUTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">EFFECT_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birim bir Destroyer'e dönüştü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mantar Spor Bombası</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enfekte mantar sporlarıyla yüklü bir bomba fırlatın. Hedef sektör bir Mantar sektörüne dönüşür ve bir [abilityred]Spore Cloud[/abilityred] ortaya çıkar. Bu Tehlike ekonomik geliri azaltır ve sektördeki tüm birimleri zayıflatır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombayı hedef sektöre başarıyla fırlattık. Sporlar hızla sektörü ele geçirdi ve havayı biyolojik sporlarla doldururken burayı Fungal araziye dönüştürdü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman sektörlerimizden birine spor dolu bir bomba fırlattı. Sporlar hızla sektörü ele geçirdi ve havayı zehirli dumanlarla doldururken burayı mantar arazisine dönüştürdü.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTER_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bombamız düşman savunma sistemleri tarafından durduruldu ve düzgün bir şekilde patlatılamadı. Sporların bir kısmı hayatta kaldı ve çevre kalıcı olarak değişti, ancak sporlar artık zararsız bir şekilde dağıldı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARGET_FAILURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşman sektörlerimizden birine spor dolu bir bomba fırlatmaya çalıştı. Savunma sistemlerimiz bombanın ciddi bir hasar vermesini önlemeyi başardı, ancak bölgedeki arazi kalıcı olarak değişti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPREAD_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FAILURE_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başarısızlık durumunda, hedef sektör sadece Mantar arazisine dönüştürülür.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PUSTULE_MUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Püstül Mutasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PUSTULE_MUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Parazitik Enfeksiyon[/abilityred]'den etkilenen düşmanları öldürmek artık savaşı kazandığınızda kontrolünüz altında Püstüller oluşturabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">DESTROYER_MUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yok Edici Mutasyon</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">DESTROYER_MUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Parazit Enfeksiyonu[/abilityred]'den etkilenen düşmanları öldürmek artık kontrolünüz altındaki Püstülleri savaşı kazandığınızda Yok Edicilere dönüştürebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_LORD_MUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba Lordu Mutasyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_LORD_MUTATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">[abilityred]Parazit Enfeksiyonu[/abilityred]'dan etkilenen düşmanları öldürmek artık kontrolünüzdeki Yok Edicileri savaşı kazandıktan sonra Veba Lordlarına dönüştürebilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="157" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_INITIAL_NOTIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Omega Uyanışı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_CAPTURED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Kovanlarımızdan biri yakalandı!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanı kaybettiniz!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_LOST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Omega Kovanı kaybetti!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanı kaybettiniz. Omega Uyanışını serbest bırakma girişimimiz iptal edildi!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_GLOBAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_Player} bir Omega Kovanını kaybetti. Omega Uyanışı'nı serbest bırakma girişimleri engellendi!</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_INITIAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Oyuncu Omega Uyanışını serbest bıraktı!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_BUILT_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanı inşa eden {playerName} artık Kıyamet Günü Silahı olan Omega Uyanışı'na erişebilir. Şu anda zayıftır, ancak daha fazla Omega Kovanı inşa edildikçe daha güçlü hale gelecektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_BUILT_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} ikinci bir Omega Kovanı inşa ederek Kıyamet Günü Silahı olan Omega Uyanışı'nı güçlendirdi. Çok güçlü hale gelmeden önce bu yapıları yok etmek için baskınlar planlamalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_BUILT_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName}, son Omega Kovanını inşa ederek Kıyamet Günü Silahı Omega Uyanışı'nın gücünü en üst düzeye çıkardı. Artık onu serbest bırakmaya ve oyunu kazanmaya çok yakınlar. Saldırı zamanı şimdi!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_CAPTURED_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kıyamet Günü Zamanlayıcısı duraklatıldı! Kayıp Omega Kovanını geri almalısınız, yoksa Omega Suşu'nu düşmanlarınızın üzerine salma şansınızı kaybedeceksiniz!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanının kaybı Omega Uyanışını iptal ederek Kıyamet Günü Zamanlayıcısını sona erdirdi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanının kaybı Omega Uyanışımızı zayıflattı ve Kıyamet Günü operasyonlarınız iptal edildi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_FINISHER_CAST_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Düşmanlarımız Kıyamet Günü Silahlarını etkinleştirdi, Omega Uyanışı tüm gezegene yayıldı ve kendi Kıyamet Günü Silahınız tufan tarafından yok edildi. Omega Kovanlarından birini yok etmek için {numTurns} süreniz var, yoksa oyunu onlar kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Uyanışı aktiftir ve Omega Kovanlarınızdan birini kaybetmediğiniz sürece {numTurns}'de kazanırsınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_RUNNING_VICTORY_TIMER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Uyanışı aktif ve Omega Kovanlarından birini yok edemezseniz {playerName}, {numTurns}'de kazanacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">YOU</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanı ele geçirildi! Eğer yok edilirse, Kıyamet Günü Zamanlayıcımız iptal olacak. Kovanı yeniden ele geçirirseniz, geri sayımı devam ettirebileceksiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_VICTORY_TIMER_PAUSED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLAYER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Omega Kovanı ele geçirildi! Eğer yok edilirse, Kıyamet Günü Zamanlayıcısı iptal edilecektir. Eğer {playerName} Kovanı yeniden ele geçirirse, geri sayıma devam edebilecekler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_EVENT_FINISHER_PRIMING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GENERIC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{playerName} Omega Uyanışı Kıyamet Günü Silahını hazırlıyor. Bitirmelerine izin verilirse, kendi Kıyamet Günü Silahınız yok olacak ve {playerName} tam zaferden sadece bir adım uzakta olacak!</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="177" ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">XENO_END_GAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VICTORY_TEXT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenos'un içinizde büyüdüğünü hissedin.[br/]Alfa Suşu'nun ortak yaşamı tamamlandı.[br/]Düşmanlarınız gübreye dönüşüyor[br/]Büyük enfeksiyonunuza yenik düştükçe.[br/]İyi ziyafet çekin - binlerce Yıldız Birliği gezegeni daha[br/]yırtıcı sporlarınızı bekliyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">VO: Empress Carminia</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="179" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enfekte</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parazit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Leeched</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Parazit Konak</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lekeli</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kirlenmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOPLAGUE_PARASITE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bozuk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba Bombacısı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bio Grenadier</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba Hokkabazı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bile Hurler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blight Maniac</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PLAGUE_PODS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lanet Uçurucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba Doktoru</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blight Şifacı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dekontaminatör</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Undefiler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Probiyotik</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PURIFICATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mikrop</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenomaniac</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşırı Şiddet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bloodshot</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blight Howler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Fevered</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Spor Taşıyıcı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Unhinged</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Simbiyot</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Omega Host</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Şampiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birleşik Devletler</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Coalescent</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Blight Harmony</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARASITIC_SYMBIOSIS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Çocuk</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Morbid Ariser</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rot Crafter</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenomancer</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Necroblighted</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mezar Bozucu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Deus Mortis</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">BIOSPORES_PROLIFERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_7</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Karanlığın Feneri</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Aşılı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_2</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaslı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güçlü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Burly</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sinewy</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">XENOGRAFTED_MUSCLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEMPLATE_NAME_6</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Stout</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>87</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>91</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

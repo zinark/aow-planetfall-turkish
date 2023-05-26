@@ -1,0 +1,772 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Joshua Crowder</LastAuthor>
+    <LastSaved>2019-09-04T09:26:01Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>12197</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="43" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="121.71428571428571" />
+      <Column ss:StyleID="s62" ss:Width="198" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252.85714285714286" />
+      <Column ss:StyleID="s62" ss:Width="147.85714285714283" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252.85714285714286" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252.85714285714286" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VOIDTECH_TECHGROUPS</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VOIDTECH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VoidTech</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VOIDTECH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">No need to translate. This inserts the VOIDTECH_TECHGROUPS@VOIDTECH@DESC and VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES texts with some white space.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VOIDTECH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESC</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">[hyperlink,000003AC0000032C]Voidtech[/hyperlink] fizik kurallarını çarpıtarak madde ve enerjinin manipülasyonuna ve ışınlanmasına izin verir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">VOIDTECH</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">FEATURES</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">[bulletlist][bullet][sand]Starting Unit: [/sand] [köprü, unitlookup0000039A0000096E]Echo Walker[/hyperlink][/bullet][bullet]Işınlanabilen ve engellerden geçebilen son derece hareketli birimlere komuta edin[/bullet][bullet]Birimlerin zamansal klonlarını oluşturun[/bullet]A0[11]9Düşmanları dengesizleştirin ve yavaşlatın[/bullet][bullet]Ark ve Kinetik hasar kanallarını kullanır[/bullet][/bulletlist]</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_1_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Void Teknolojisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_1_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Boşluk nihai sınırdır. Teorik olarak sonsuz boşluğun pek çok faydası vardır, en azından bir daha asla görmek istemeyeceğiniz şeyleri depolamak için mükemmel bir hurdalıktır... düşmanınızın uzuvları gibi. "[br/]- Profesör Willow Fisk, Boyutsalcı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Faz Manipülatörü Programı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Bu maddi dünyada bir hayalet gibi hareket edebilme yeteneği, bu tür masalların doğruluğu hakkında soru işaretleri bırakıyor. Daha süptil boyutlar var mı? Ruhlar? Cennet ve cehennem? Kesinlikle daha fazla araştırma yapmalıyız. Belki de yeni birliklerimiz bize denek sağlayabilir. "[br/]- Alexa Romanov, CEO Voidtech</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Birim: Faz Manipülatörü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ekipman: Enerji Püskürtücü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Faz Manipülasyonu</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Harmonik faz modülatörümle geçemeyeceğim hiçbir engel yok. Madde önemli değildir. Kim maddenin sadece hizalanmış iki dalga formu olduğunu düşünebilir ki? "[br/]- Tek Oylar, Voidtech Aslan Devriyesi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kuantum Kazanç</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Sonunda geleceği ve bireysel seçimlere bağlı olan tüm olasılıkları gördüğünüzde ne kadar paranoyaklaştığınıza inanamayacaksınız. "[br/]- İmparator Tholian</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Girdap Kararsızlığı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Seninle daha önce bir yerde tanışmamış mıydık? Bu bir tavlama cümlesi değil. Aletlerim senin zamansal bir anomali olduğunu gösteriyor. Yoksa ben gerçekliğin yankısı mıyım? "[br/]- Rutger Norris II, Echo Walker</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Echo Walker Programı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Zamanı geri sarabildiğinizde asla pişmanlık duymanıza gerek kalmaz, ama yaşınız sizi yakalayacaktır. "[br/]- Rutger Norris, Echo Walker</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Birim: Echo Walker</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Ekipman: Boşluk Bıçakları</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Faz Yankı Üretimi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Yerçekimini manipüle etme, zamanı çarpıtma ve bir yerden başka bir yere anında ışınlama gücü anlatılmamış harikalar yaratmak için kullanılabilir, ancak şimdilik bunu bir sonraki düşmanı yok etmek için kullanacağız gibi görünüyor. "[br/]- Raylynn Preem, Teknoloji Etikçisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Amazon</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Boyutsal Kontrol</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Zaman sonsuz bir sonuçlar dizisidir. Eğer şimdiki zaman N ise, bir sonraki sonuç N+1'dir ve N sonsuza yaklaşır. N'yi N+1'e, N+2'ye ve diğerlerine bağlayın. Matematiksel olarak bu bir Faz Yankısıdır. Elbette N-1'i ve önceki tüm sonsuz sonuçları unutmayın. "[br/]- Dr. Rex Purllox, Voidtech Matematikçisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: removed extra space before "Correlate"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Geçici Çıkık</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Her sonucu başarıya dönüştürebilecekken kim başarısızlığı isteyerek kabul eder ki? Zaman, madde ve gerçekliğin temel etkileşimini mekanik bir modelden olasılıksal bir modele dönüştürerek, zarları yeniden atarız ve esasen olumsuz sonuçları sıfırlarız. "[br/]- Trina Mars, Zaman Kontrol Ajanı</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Void Taktikleri</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Faz Yankı jeneratörünün gölgesinde anlamlı ilişkiler kurmayı unutun. Buradaki insanların yarısı bu varoluş düzleminin yerlisi değil. Onlar sadece bizim gerçekliğimize girip çıkıyorlar. İtiraf etmeliyim ki, jeneratörün aktif olup olmadığına bakmaksızın ilişkilerim asla uzun sürmüyor. "[br/]- Teddy Slade, Öncü Piyade</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Rift Üretimi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Gerçekliğimizi yöneten kurallar maddenin yapısal bütünlüğünü sürdürmek için oldukça gereklidir. Hepimiz maddeden yapıldığımıza göre, yeni Yarık Jeneratörü gemilerimiz çatışma gerçekliğini lehimize çevireceğimizi garanti ediyor. "[br/]- Kaptan Warren Fullmer, Voidtech Askeri Araştırma Bölümü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Birim: Yarık Jeneratörü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Araç: Yarık Jeneratörü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Boyut Silahlandırması</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Tanrılarımızın sınırlarını reddediyoruz. Onlar evrenin temel kurallara ve madde ile enerji arasındaki etkileşimlere bağlı olduğunu ilan ettiler. Neyse ki bizim için, dikkat etmiyor gibi görünüyorlar. Artık yasaklanmış şeyleri yapabiliriz. "[br/]- İmparator Tholian</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male
+
+Changed "God's" to "gods'"
+"He" to "They"
+"Appears" to "Appear"</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Kuantum Sıçraması</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Gerçek kuantum ağı tüm olası veri transferlerinin tek bir değişimle yapılmasına olanak tanır. Şimdi keşfetmenin püf noktası, dikkatli araştırma ve tasarımda değil, milyonlarca spekülatif tasarım arasından seçim yapmakta ve bunun gerçekten istediğimiz şey olup olmadığını belirlemekte yatıyor. "[br/]- Dr. Thurgood Onahan, Kuantum Araştırma Bölümü</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Vanguard Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Gerçekliği Değiştir</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_8_STRATEGIC__DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Hayır, bu söylentiye dair gerçek bir kanıt yok. Tamamen güvendeler. Sadece komplo teorisyenleri Yıldız Birliği'ni yok edenin ve hiperuzayı istikrarsızlaştıranın bir Boşluk Bombası olduğuna inanıyor. "[br/]- Dr. Quinlinn T. Ortivexis, Yıldız Birliği Tarihçisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Syndicate Male</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Boyutsal Ustalık</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">TECH_TREE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">"Sonsuz enerjiye hazır mısınız? Çökmüş bir paralel evrenin kontrollü bir yarık aracılığıyla sifonlandığını hayal edin! Enerjinin hiçbir maliyeti olmadığında neye güç vereceksiniz ve bu dünyayı nasıl dönüştürecek? Yeni bir gerçeklik bugün başlıyor. "[br/]- Alexa Romanov, CEO Voidtech</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">V.O.: Dvar Female</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="6" ss:StyleID="Default" />
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>130</Zoom>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>5</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

@@ -1,0 +1,785 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Nathan van den Berg</LastAuthor>
+    <LastSaved>2020-02-04T10:49:17Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>14235</WindowHeight>
+    <WindowWidth>28800</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Interior />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="66" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="160.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="289.5" />
+      <Column ss:StyleID="s63" ss:Width="395.25" />
+      <Column ss:StyleID="s63" ss:Width="150" />
+      <Column ss:StyleID="s63" ss:Width="270.75" />
+      <Column ss:StyleID="s63" ss:Width="211.5" />
+      <Column ss:StyleID="s63" ss:Width="48.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">DIPLOMACY_SPECIESEMPIRE</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, {STR_LeaderName}! Aydınlanmış varlığınız bu medeniyetsiz topraklarda hoş bir nefes oldu. Candrice ve Ontara'nın eserlerini tartışmaya ne dersiniz? Yoksa görevleriniz sizi bizimle daha dünyevi konular hakkında konuşmaya mı zorluyor?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vali'nin nezaketiyle, size bu iyiliği yapacağız, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selam olsun sana, {STR_LeaderName}. Büyük ve asil Yıldız Birliği'nin mirasçıları olan hayırsever Paragon'un huzuruna çıkmış bulunuyorsunuz. Bizzat İmparator tarafından seçilen bizler, insan mükemmelliğinin örnekleri olmaya yazgılıydık. Bugün, bu barbar zamanlarda, Paragonlar anarşi ve medeniyet arasındaki son çizgidir. Söyle bize, buraya bu haklı davamızda bize yardım etmeye mi geldin?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mükemmel! Senden daha azını beklemiyorduk, {STR_LeaderName}. Gelecekteki işbirliğimizi resmileştirmek ve pekiştirmek için, ele alınması gereken acil bir konuyla ilgilenmenizi rica ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akbaba yuvasına geri döndü. {STR_LeaderName}, buraya bu çılgınlığa son vermeye ve halkımdan özür dilemeye mi geldin?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sabah yıldızının ışığı {STR_PlanetName}'nin yüzeyine üç kez dokundu. Mora takımyıldızları şanslı bir gün vaat ediyor ve {STR_LeaderName} geleceğimiz hakkında konuşmak için Paragon'a geldi. Bu yüzden burada değil misin, dostum?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pekala, buna göre hareket edeceğiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akbaba galip geldi. Lütfen teslimiyetimizi kabul et, {STR_LeaderName}, ve bu gereksiz kan dökülmesini durdur.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="48.75">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar {STR_LeaderName}. Diplomatik ilişkilerimizin kötüleştiğini resmi olarak belirtmek zorunda kaldığımızı üzülerek bildiririz. Bu, eylemlerinizin ve gerekçelendirme eksikliğinizin bir sonucu olarak ortaya çıkmaktadır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="16" ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Olduğun yerde kal, {STR_LeaderName}! Valilik yasalarına ve dolayısıyla eski İmparatorların yasalarına göre, silahlı olarak bölgemize girmek kesinlikle yasaktır! Söyleyin bize, neden kapımıza silah getiriyorsunuz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Resmi protesto altında, küstah taleplerinizi karşılayacağız, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dur, {STR_LeaderName}! Büyük ve asil Yıldız Birliği'nin varisleri olan Paragonların huzuruna çıkmış bulunuyorsunuz. Bizzat İmparator tarafından seçilen Paragonların kaderinde insan mükemmelliğinin örnekleri olmak vardı. Bugün, bu barbar zamanlarda, bizler anarşi ve medeniyet arasındaki son çizgiyiz. Çabuk konuşun: Ordularınızı davamıza verecek misiniz, yoksa buraya bize meydan okumaya mı geldiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerçek bir güvenle söylenmiş cesur sözler. Yine de zorlukların pek çok şekilde ortaya çıkabileceğini göreceksiniz. Halledilmesi gereken acil bir sorun var. Bunu çözün ve bu halklarımız arasında güçlü bir dostluğun başlangıcı olabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, ne konuşmak istiyorsunuz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Akşam yıldızının yansımaları {STR_PlanetName}'nin gökyüzünü kızıla boyadı. Mora'nın takımyıldızları sıkıntılı ve temkinli duruyor ve {STR_LeaderName} geleceğimiz hakkında konuşmak için Paragon'a geldi. Söyle bize, tartışmak istediğin şey nedir?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu şartları kabul edebiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Üstün kuvvetleriniz karşısında yenilgiyi kabul etmek zorundayız, {STR_LeaderName}. Sizi bu katliama son vermeye ve teslim olmamızı kabul etmeye çağırıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar {STR_LeaderName}. Diplomatik ilişkilerimizin kötüleştiğini resmi olarak belirtmek zorunda kaldığımızı üzülerek bildiririz. Bu, eylemlerinizin ve gerekçelendirme eksikliğinizin bir sonucu olarak ortaya çıkmaktadır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, {STR_LeaderName}! {STR_PlanetName}'deki eylemleriniz Vali tarafından yakından izlendi. Bizim rehberliğimizle siz ve türünüz için hâlâ umut olabileceğine inanıyor. Söyle bize, bugün ne istiyorsun?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vali'nin nezaketiyle, size bu iyiliği yapacağız, {STR_LeaderName}.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, {STR_LeaderName}. Yüce Paragon'un önünde eğilin, büyük ve asil Yıldız Birliği'nin mirasçıları. Bizzat İmparator tarafından seçildik ve kaderimizde insan mükemmelliğinin örnekleri olmak vardı. Bugün, bu barbar zamanlarda, Paragonlar anarşi ve uygarlık arasındaki son çizgidir. Bize niyetini söyle {STR_LeaderName}, biz de senin değerine karar verelim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Doğrulukları hala kanıtlanmamış olsa da umut verici sözler. Bırak eylemlerin konuşsun, {STR_LeaderName}! Paragon'un iradesine hizmet et ve bizim lütfumuzla ödüllendirileceksin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ha! Askerlerinizin bizim güçlendirilmiş askerlerimizle boy ölçüşemeyeceğini biliyorduk! Buraya bu yüzden gelmediniz mi, {STR_LeaderName}? Kayıtsız şartsız teslim olmanızı görüşmek için mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Maceracı yıldızın izi {STR_PlanetName}'nin ufkunu iki kez geçti. Mora takımyıldızları hareketli bir günün habercisi ve {STR_LeaderName} geleceğimiz hakkında konuşmak için Paragon'a geldi. Bu yüzden buradasınız, değil mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu değişikliklere katılabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seni hafife almakla hata ettik, {STR_LeaderName}. Savaş alanında üstünlüğünüzü kanıtladınız ve sizi bu savaşı durdurmaya ve geçmişteki farklılıklarımızı geride bırakmaya çağırıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_MESSAGE</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar {STR_LeaderName}. Diplomatik ilişkilerimizin kötüleştiğini resmi olarak belirtmek zorunda kaldığımızı üzülerek bildiririz. Bu, eylemlerinizin ve gerekçelendirme eksikliğinizin bir sonucu olarak ortaya çıkmaktadır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Davanızda size yardımcı olacağız ve birlikte başarılı olacağız.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu konumdan çekilmenizi rica ediyorum. {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:Index="6" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sizin için yapabileceğimiz bir şey var mı?</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yardımseverliğimizin sınırları vardır.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">The Prefect is male.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaymakamınızla bir görüşme talep ediyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pekala, dinliyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Birleşik güçlerle düşmanlarımıza karşı durmamıza izin verin.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">TRADE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bırakın gruplarımız ticaret yapsın.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Size yardım edeceğim. Ordularımın üstesinden gelemeyeceği hiçbir zorluk yoktur!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öğrenmek istemiyorsanız, şimdi çekilseniz iyi olur! {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Adamlarım bir meydan okuma arıyor!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Paragon gücümüz karşısında titreyecek!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">The Prefect is male.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bizi Valinize götürün!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolay olmasa iyi olur!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kimse birleşik kuvvetlerimizin gücüne karşı koyamaz!</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">TRADE_WARMONGER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Takas yapacağız.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selamlar, Paragon. Niyetimiz size yardımımızı sunmak.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Buraya ihtiyacımız var, lütfen boşaltın. {INT_Cost}[influence/]</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yardımımıza ihtiyaç duyduğunuz herhangi bir konu var mı?</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İnsan mükemmelliği arayışınız artık sona eriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64">
+          <Data ss:Type="String">The Prefect is male.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Müdürünüzle konuşmak istiyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İraden konusunda bizi aydınlat.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kudretli Paragon savaş çabalarımızda bize katılacak mı?</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EMPIRE_BUTTON</Data>
+        </Cell>
+        <Cell ss:StyleID="s65">
+          <Data ss:Type="String">TRADE_NEUTRAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ticareti tartışalım.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">RIVALRY_WARNING_PARAGON</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Son zamanlarda yaptıklarınız gözden kaçmıyor ve rakiplerimize yardım ettiğiniz anlaşılıyor. Umarım bu durum gelecekte devam etmez.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">PARAGON_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_DECLARE_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ayaktakımını sonsuza kadar bastırmanın zamanı geldi. İyi ilişkilerin önünü açmanız için size her türlü fırsatı verdik, {STR_LeaderName}, ancak şimdi görüyoruz ki hedeflerimiz asla uyuşmadı. Halkınız başka bir şafak göremeyecek ve şehirleriniz Vali adına yıkılacak. Bir sonraki karşılaşmamız savaş alanında olacak.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PARAGON_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_RESET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünüşe göre ilişkilerimiz son zamanlarda değişti. Paragon, gelecekte daha iyi diplomasi ve nezaketin yolunu açabileceğimizi umuyor. Geçmişe sünger çekelim ve gelecekte refah için çalışalım.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>15</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>24</ActiveRow>
+          <ActiveCol>1</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

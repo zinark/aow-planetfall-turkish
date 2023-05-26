@@ -1,0 +1,1319 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Benny Arents</Author>
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <Created>2018-12-04T15:56:28Z</Created>
+    <LastSaved>2019-05-14T10:03:21Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10215</WindowHeight>
+    <WindowWidth>21570</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s66">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Vertical="Center" ss:WrapText="1" />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Borders />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="130" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="14.4375">
+      <Column ss:StyleID="s62" ss:Width="144" />
+      <Column ss:StyleID="s62" ss:Width="135" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="325.5" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">TUTORIAL_MAP</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell ss:Index="5" ss:StyleID="s65">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s65" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Altutori'nin Göleti</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Altutori's - Name of the Lake</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="10" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dolos Minerva'yı Keşfedin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegendeki araştırma merkezine ne olduğunu öğrenin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="14" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Hayatta Kalanları Aramak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ordunuzu seçin ve yakındaki sektörü keşfedin. Aşırı Büyümüş Biyodomu bulun ve araştırın.[br/][br/][recommendedcol]Hint: Hedefler arayüzünde şu anda aktif olan görevlerinizdeki ilerlemenizi görebilirsiniz.[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Imperial Biodome - Food producing location on the map</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yakındaki sektörü keşfedin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Overgrown Biodome'un kontrolünü ele geçirin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Planetfall başarılı Komutan. Üs koloni sistemlerine güç veriliyor.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Güzel, kaybedecek zamanımız yok. Bu koloniyi kurup genişleterek başlayacağız. Hayatta kalanlar ve mevcut koloni altyapısı için bir yüzey taraması başlatın. Araştırma sistemlerimiz çevrimiçi olduğunda beni bilgilendirin.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Emredersiniz Komutan. Sensörler yeniden kalibre ediliyor ve yüzey taraması başlatılıyor...[br/][br/]A biyodomu yakınlarda tespit edildi, ancak hayatta kalanlara dair bir işaret yok.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_04</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gezegen yüzeyini taramaya devam edin. Eğer bu dünyada hayatta kalanlar varsa, bunu bilmek istiyorum. Komşu sektörleri araştıracağım ve biyodomu inceleyeceğim - kolonimizi genişletmemize yardımcı olacak malzemeler içermelidir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="24" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTABLISH_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloni Kurmak</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+        <Cell>
+          <Data ss:Type="String">ESTABLISH_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Koloni arayüzünü açın ve Yapı Üretimi sekmesinde bulunan 'Merkezi Çoğaltıcı Tesisi' üretim projesini tamamlayın.[br/][br/][recommendedcol]Hint: koloni arayüzü koloni seçilerek açılabilir. Üzerinde duran bir ordu varsa, ilk basışınız orduyu seçecek ve ikinci basışınız koloninin kendisini seçecektir.[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Central Replicator Facility - A structure that is build in colonies</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ESTABLISH_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir üretim projesini tamamlayın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">ESTABLISH_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Koloni üretim tesisleri şu anda atıl durumda Komutan.[br/]Üretimi artırmak için[br/][recommendedcol]Merkezi Çoğaltıcı Tesisini[/recommendedcol] [recommended/] inşa etmeye başlamamızı öneriyorum.[br/][br/]Bu yapıyı koloni arayüzünde vurguladım.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s66" />
+        <Cell ss:Index="7" ss:StyleID="s66" />
+      </Row>
+      <Row ss:Index="30" ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">NOBODY_HOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Burada hiç kurtulan yok. Görünüşe göre yapı yaratıklar tarafından istila edilmiş.[br/][br/]Bu biyodomu geri almalı ve sektörünü kolonimize eklemeliyiz. Bu etki alanımızı genişletecek ve kaynaklarımızı artıracaktır.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">NOBODY_HOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Henüz ilave sektörleri kontrol edecek kadar kolonistimiz yok Komutan. Koloninin büyümesini sağlamak için ek gıdaya ihtiyacımız olacak. Daha büyük koloniler daha fazla eyalet sektörünü ayakta tutabilir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">NOBODY_HOME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Buraya mümkün olduğunca çabuk yerleşmek istiyorum. Vahşi yaşamı temizledikten sonra Overgrown Biodome'dan ekstra yiyecek elde edebiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_SYSTEMS_ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Komutanım, laboratuarlarımız faaliyete geçti ve Araştırma artık kullanılabilir durumda. Bu gezegende bize yardımcı olacak yeni konuşlandırmaların kilidini açacak teknolojileri araştırmaya başlayabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_SYSTEMS_ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Mükemmel. Görev parametrelerimizi göz önünde bulundurarak ne ile başlamamızı önerirsiniz?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="115.3125">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_SYSTEMS_ONLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Askeri Araştırma için, birliklerimize ekstra koruma sağlamak ve savaş alanı destek operasyonlarının kilidini açmak için[br/][recommendedcol]Nanit Desteği[/recommendedcol] [recommended/] ile başlamanız önerilir.[br/][br/]Toplum Araştırması için, kolonimiz için temel altyapı yükseltmelerinin kilidini açmak için[br/][recommendedcol]Sınır Tesisleri[/recommendedcol] [recommended/] ile başlamanız önerilir. [br/][br/]Bu becerileri size kolaylık sağlamak için araştırma arayüzünde vurguladım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Nanite Support and Frontier Facilities - Tech Names</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="40" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPAND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Koloniyi Genişletin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s67" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">EXPAND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yakındaki sektörü ilhak ederek koloninizi genişletin.[br/][br/][recommendedcol]Hint: mevcut seçeneklerden 'Sektörü İlhak Et' seçeneğini seçerek bir sektörü ilhak edebilirsiniz.[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Annex Sector - Refers to interface button</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPAND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Koloninize bir sektör ilhak edin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">EXPAND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir il sektöründen yararlanın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">EXPAND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Komutan, kolonimiz artık ek bir sektörü destekleyecek kadar büyüdü. Biyodomu içeren sektörün ilhak edilmesini öneriyorum, çünkü bu kolonimize gıda geliri sağlayacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">EXPAND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Güzel. Bu sektörü kolonimize bir eyalet sektörü olarak ekleyeceğiz, böylece toprakları kaynaklar için mümkün olan en kısa sürede kullanmaya başlayabiliriz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="48" ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">EXPLOIT_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Komutan, bu sektör kolonimize başarıyla ilhak edildi ve artık bir eyalet sektörü olarak kabul ediliyor. Artık ek kaynaklar için kullanılabilir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">EXPLOIT_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu kullanımı mümkün olan en kısa sürede başlatalım. Arazi analizi bize ne söylüyor? Yeni eyalet sektörümüzden en iyi şekilde nasıl faydalanabiliriz?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="129.5625">
+        <Cell>
+          <Data ss:Type="String">EXPLOIT_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Analyzing...[br/][br/]Clime: Fungal ([supply/]\[research/])[br/]Terrain: Bereketli Ovalar ([supply/]\[research/])[br/]Kaynak Düğümü: Biodome ([supply/])[br/]Processing analysis...[br/][br/]Recommendation: [recommendedcol]Tarım Kullanımı[/recommendedcol][recommended/][br/][br/]Bir tarım kullanımı hem iklim hem de arazi ile sinerji yaratarak sektörün araştırma ve inşaat yoluyla tam potansiyeline ulaşmasını sağlayacaktır.[br/][br/]Biyodom da bir tarım kullanımı ile sinerji yaratarak gıda gelirine ek bir bonus sağlayacaktır.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Fungal - Clime Name
+
+Fertile Plains - Terrain Name
+
+Agriculture Exploitation - Name of a sector exploitation that specializes on food</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="53" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FAMILIAR_SIGNALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tanıdık Sinyaller</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FAMILIAR_SIGNALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yakındaki sektörde Vanguard askeri sinyalinin yerini tespit edin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Vanguard - Player Race</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FAMILIAR_SIGNALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Vanguard sinyalini araştırın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">FAMILIAR_SIGNALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yüzey taraması tamamlandı Komutan. Yakınlarda bir Vanguard askeri sinyali alıyorum. Bu, gezegende hayatta kalanların varlığına işaret ediyor olabilir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">FAMILIAR_SIGNALS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tarayıcılara getirin. Burada ne haltlar döndüğünü öğrenelim.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="60" ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Teğmen Jiang? Bu kayada ne halt ediyorsun? Son duyduğumda Leave-6'da görevliydin.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Lieutenant Jiang - Female Vanguard Hero Name</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Komutan {STR_LeaderName}! Acil yardımınıza ihtiyacım var! Yerleşim yerimiz Hopperhound'lar tarafından istila edildi ve onlarla savaşmak için yardıma ihtiyacımız var. Size bazı silah modifikasyonları için planlar gönderiyoruz, hadi şu böcekleri yakalım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hopperhounds - Marauder/Enemy faction that is hostile to the player, made of giant alien beetles and grasshoppers
+
+NO LOCALIZATION NEEDED, fixed the following: Capitalized the "L" in "STR_leaderName"</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Anlaşıldı Teğmen, bu hataları çabucak halledeceğiz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_04</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Komutan, savaşa girmeden önce birimlerimizi daha etkili hale getirmek için modlamalıyız.[br/][br/]Ordumuzu seçin ve modları görmek ve donatmak için aşağıdaki ordu panelinde birimleri inceleyin.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_05</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Teğmen Jiang'ın bize verdiği modları birliklere veya silah komutanınıza takabiliriz. Silahlarınızda işlem anında gerçekleşirken, birliklerimizi modifiye etmenin onları tek bir döngü boyunca savunmasız bıraktığını lütfen unutmayın.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Hopperhound Sorunları</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DECRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Daiyu Jiang'ın Hopperhound tehdidini yenmesine yardım et.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">QUARTZITE_TROUBLES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Hopperhounds'u yen</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="70" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha Fazla Soru</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Voidtech dönüm noktasını bulmak için yakındaki sektörü keşfedin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Voidtech Landmark - A silver landmark that normally house hostiles, empty in this campaign</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Voidtech dönüm noktasını araştırın</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Voidtech dönüm noktasını ekleyin</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Teşekkürler Komutan. Bizi zor bir durumdan kurtardınız.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Lafı bile olmaz, Teğmen. Durum raporu. Burada ne oldu?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir Outlander kuvveti birkaç devre önce gezegene iniş yaptı ve mevzilerimize saldırdı. Saldırılarının merkezi yakınlardaki Voidtech tesisiydi. Onlarla savaştık ama ağır kayıplar verdik.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Outlander - Any race from outside of the Star Union Empire, made of outcasts and small empires.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_04</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Hayatta kalan var mı?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onların tarafında kimse yok ama kolonimiz saldırı sırasında yerle bir oldu. Şu anda müfrezemden ve koloniden geriye kalanlara bakıyorsunuz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne karmaşa ama. Kayıplarınız için üzgünüm, Teğmen. Peki ya bu Voidtech tesisi? Neden onun peşindeydiler?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s68" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_07</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilmiyorum Komutan. Tesisi bilen tüm bilim adamları saldırıda öldü. Kolonimiz yok edildiğinden, daha fazla araştırma yapmak için dönüm noktasını ilhak edemedik.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_08</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pekala, işleri yoluna koyalım. Burada komutayı ben alacağım. Yerleşiminizi toplayın ki yeniden konuşlandırıp düzgün bir koloni kurabilelim.[br/][br/]Teğmen Jiang, Voidtech tesisine giden yolu gösterin.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_08_ALTERNATIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Pekala Teğmen, işleri yoluna koyalım. Burada komutayı ben alacağım. Yerleşiminizi toplayın ki yeniden konuşlandırabilelim ve düzgün bir koloni kurabilelim.[br/][br/]Sonra bize Voidtech Landmark'a kadar eşlik edeceksiniz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">MORE_QUESTIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_09</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Anlaşıldı, Komutan.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s68" />
+      </Row>
+      <Row ss:Index="86" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECOND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yeni Koloni</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Name</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="100.6875">
+        <Cell>
+          <Data ss:Type="String">SECOND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Artık yeni bir Kolonizatör biriminiz olduğuna göre, ikinci bir koloni kurabilirsiniz. Yeni bir koloni bu gezegendeki etki alanınızı genişletecek ve gelirinizi ve ekonomik büyümenizi artıracaktır.[br/][br/][recommendedcol]Hint: Bir Kolonizatörü bir sektörün merkezine taşıyarak ve ardından sektör arayüz menüsünde 'Öncü Koloni Bul' düğmesini seçerek bir koloni kurabilirsiniz.[br/][br/]Akoloni mevcut bir koloniye bitişik bir sektöre yerleştirilemez.[/recommendedcol]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Colonizer - A unit that creates new colonies in available sectors
+
+Found Vanguard Colony - Interface button to create a colony once a colonizer is on an available sector</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SECOND_COLONY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Maeva sektöründe yeni bir koloni bulundu</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Quest Objective</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="91" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Uyarı: 2.26 saniye içinde gravitronik dalga geliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gravitronik dalga mı? Ne...</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu da neydi böyle?!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu sistemden kaynağı bilinmeyen bir gravitronik dalga geçti.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_05</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Görünüşe göre hepimiz hala atomlarımıza tutunuyoruz. Durum raporu.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_06</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">İlk okumalar Void anomalisinin yerçekimi kuvvetinin çoğunu emdiğini ve gezegenin nispeten etkilenmediğini gösteriyor.[br/][br/]Daha fazla analiz için Voidtech tesisine bağlanmam gerekecek. Void anomalisine ayarlanmış gelişmiş sensörler içeriyor.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Void - name of an unknown dimension; the anomaly permeates from this place</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s69" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CATACLYSMIC_EVENT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_07</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Pekala, içeri girip sizi en kısa sürede Voidtech tesisine bağlayacağız.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="100" ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yapının her yerinde savaş izleri var. Teğmen Jiang, tesis hala çalışır durumda mı?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yapıda gördüğünüz hasarın tamamı yüzeyseldir; ağır çatışmaların tamamı dış mahallelerde meydana gelmiştir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Aiva, tesise erişip sensörlerini kullanarak Boşluk anomalisinde neler olduğunu görebilir misin?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Aiva - AI that has been helping throughout this campaign</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_04</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tesise erişim şifrelenmiştir, Komutan. Bağlantı kurmak için Voidtech tesisinin bir koloniye bağlanması gerekiyor, böylece doğrudan ana bilgisayarlarına bağlanabileceğim.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_05</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kaybedecek zamanımız yok. Yakınlarda ikinci kolonimizi kuracağız ve bu sektörü ona bağlayacağız.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">VOIDTECH_COMPLEX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_05_ALTERNATIVE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Kaybedecek zamanımız yok. Yakınlarda yeni bir koloni kurduk, dönüm noktası sektörünü ona bağlayabiliriz.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="108" ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Burası Void anomalisini araştıran ana araştırma tesisi olmalı. Yapının her yerinde savaş izleri var... Bunlar yeni mi?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yapının ve çevresindeki alanın termal analizi, son birkaç döngü içinde çatışma yaşandığını gösteriyor Komutan. Ek olarak, tesisten uzaklaşan belirgin izler tespit ettim. Analizler bu izlerin Vanguard kökenli olduğunu gösteriyor.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_FACILITY</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Demek ki bazıları hayatta kalmış. Bu izleri takip edelim ve ne bulabileceğimize bakalım.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s64" />
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_FACILITY_DAIYU_DANGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yapının ve çevresindeki alanın termal analizi, çatışmanın son birkaç döngü içinde gerçekleştiğini gösteriyor, Komutan. Ek olarak, ben-</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">RESEARCH_FACILITY_DAIYU_DANGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Lanet olsun Aiva, o beynin içinde elektronlardan başka bir şey yok mu? Jiang'ın yardımımıza ihtiyacı var!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="3" ss:StyleID="s64" />
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="117" ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Veritabanı bağlantısı kuruluyor...[br/]...[br/]Voidtech tesisi veritabanına bağlantı kuruldu.[br/]Void anomalisinin analizi çalıştırılıyor...</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_02</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Rapor verin. Bulgularınız nelerdir?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_03</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Rapor verin. Bulgularınız nelerdir?</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_04</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gitmeliyiz, Komutan!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_05</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tesisteki tüm verileri yedekleyin ve herkesi tahliye edin. Kaybedecek zaman yok!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="72">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_06</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Yedekleme durumu: tamamlandı. [br/] Gezegensel kaçış vektörleri: hesaplandı. [br/]  [br/] Dikkat: Boşluk bozulması nedeniyle, yerçekimi kuyusundan kaçış sırasında %33,1 felaketle sonuçlanma olasılığı vardır. Bir rota kilitlenmeden önce güvenlik marjlarının geçersiz kılınması gerekir.</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">CONNECTION_ESTABLISHED</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_07</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tesisteki tüm verileri yedekleyin ve herkesi tahliye edin. Kaybedecek zaman yok!</Data>
+        </Cell>
+        <Cell ss:Index="7" ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="125" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Araştırmayı Göster</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Interface Button</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gösteri Sektörü Sömürüsü</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Interface Button</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SPECIAL_BUTTON_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yapıları Göster</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Interface Button</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="130" ss:AutoFitHeight="0" ss:Height="28.6875">
+        <Cell>
+          <Data ss:Type="String">DAIYU_FALL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MESSAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hurg. Savaşta düştüm. Keşke yanımda Tappels olsaydı... Merak etme komutan, keşfederken senin yanında olacağım.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Tappels - a mechanical dog that appears on the next Vanguard Campaign Mission</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <TopRowVisible>17</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>24</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

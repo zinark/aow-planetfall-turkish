@@ -1,0 +1,962 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>KyleB</LastAuthor>
+    <LastSaved>2019-03-01T14:47:44Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17625</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62" ss:Name="Hyperlink">
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s67" ss:Parent="s62">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+      <Interior />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="59" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s63" ss:Width="137.25" />
+      <Column ss:StyleID="s63" ss:Width="66.75" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="330.75" />
+      <Column ss:StyleID="s63" ss:Width="147.75" />
+      <Column ss:StyleID="s63" ss:Width="176.25" />
+      <Column ss:StyleID="s63" ss:Width="153" />
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="330.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SPECIES_HUMANS</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME_SINGULAR</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Vanguard</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME_PLURAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Vanguard</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="129">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT%7D[br/][br/][bulletList][bullet][sand]Starting%20Bonus:[/sand]%20Starting%20army%20units%20have%20+1%20[hyperlink,000003AC000000A2]Rank[/hyperlink][/bullet][bullet][sand]Long-Term%20Bonus:[/sand]%20Produc">
+          <Data ss:Type="String">{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Başlangıç Bonusu:[/sand] Başlangıç ordu birimleri +1 [hyperlink,000003AC000000A2]Rütbeye sahiptir[/hyperlink][/bullet][bullet][sand]Uzun Vadeli Bonus: [/sand] Üretilen birimler +1 [hyperlink,000003AC000000A2]Rütbeye sahiptir[/hyperlink][/bullet][bullet][hyperlink,0000039E0000000F]Ateşli Silahlar[/hyperlink] Silah Grubu[/bullet][bullet][hyperlink, 0000039E00000010]Lazer[/hyperlink] Silah Grubu[/bullet][bullet]Savaş dronları ve kuleleri konuşlandırın[/bullet][bullet]Propaganda ve askeri güç kullanımı[/bullet][bullet]Güçlü menzilli birimler, zayıf yakın dövüş kabiliyeti[/bullet][/bulletList]</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60.75">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">RACE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION_SHORT</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">[hyperlink,0000039E00000015]Vanguard[/hyperlink], toplumla çok az bağı olan kaba saba insanlardan oluşur, bu nedenle kriyo-uykuda uzun yıldızlararası yolculuğun ve bunun sonucunda ortaya çıkan zaman genişlemesinin etkileri onlar için önemli değildir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Vanguard Yerleşimi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="31.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CAMP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bir yerleşim, yeterli nüfuza sahipseniz size katılabilecek küçük bağımsız bir kolonidir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Göç Kolonisi: Öncü</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="51.75">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu koloninin nüfusunu Vanguard'a geçirin. Koloni bir Öncü kolonisi haline gelecektir.[br/][br/][fireCol]Nüfusun göç ettirilmesiyle, kolonideki kolonistlerin {PopulationDeath}'si öldürülecektir. [/fireCol] [br/][br/] Şunları alırsınız:[br/][fireCol]{Reputation} İtibar[br/]{RaceRelation} {STR_raceName}[/fireCol] ile Irk İlişkisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">IN_PROGRESS</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Koloni şu anda bir Vanguard popülasyonuna taşınıyor. İşlem [INT_duration]'de tamamlanacaktır.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MIGRATE_OPERATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">CONFIRMATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Bu koloniyi bir Vanguard kolonisine taşımak istediğinizden emin misiniz?</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ASSAULT_BIKE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Saldırı Bisikleti</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ASSAULT_BIKE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Eski zamanlarda atalarımız özgürlüğe bisikletle gider, açık yollarda geçen bir hayatın erdemini iddia ederlerdi. Atalarımıza ait kayıtlar, düşmanlarının yanan kafataslarıyla süslenmiş deri giysili iki tekerlekli kabadayı çetelerini göstermektedir. Bazı antropologlar Saldırı Motosikletinin bu içgüdüsel melankoliyi yakaladığına inanıyor - tabii ki kafatasları olmadan. Eski motosikletlerde düşman işgalcilerden oluşan çeteleri vurabilecek ya da tüm gücü tek bir hedefe odaklayabilecek Lazer Dizileri yoktu. İnsan sadece atalarımızın bu ek yeteneklere sahip olsalardı açık yollardan ayrılıp ayrılmayacaklarını merak edebilir."- Profesör Quinlinn T. Ortivexis, "RV-4367H: Tarihsel Paralellikler: İnsanlığın Çarpık Geçmişi"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Anciently -&gt; In ancient times</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MARINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Asker</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MARINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Teknoloji öncü askerin işini otomatikleştirmek için var, ama oyunda hiçbir rolü olmayan bir halka nasıl ilham verebilirsiniz? Bu felsefe, insanlığın savaşın bedeline sempati duymasını isteyen imparatorlar tarafından ortaya atılmıştır. Bazıları askerlerin CORE'un bir aracı olduğunu, çaresiz suçluların onun saflarına katılmaya zorlandığını düşünüyor. Ancak benim tecrübelerime göre en ölümcül asker geçmişinin kefaretini ödemek için değil, daha iyi bir gelecek inşa etmek için savaşır. Bunun için CORE ve imparatorlar dikkatli olmalı. Hizmet ederler ama asla teslim olmazlar."- Quinlinn T. Ortivexis, "RV-4367H: Tarihsel Paralellikler: İnsanlığın Çarpık Geçmişi"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Emperors -&gt; emperors
+Edit: dash changed to comma
+Edit: semicolon changed to comma
+Edit: Emperors and CORE -&gt; CORE and the emperors</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGINEER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Mühendis</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ENGINEER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Bir Mühendisin işi asla bitmez. Askerler uzay yolculuğunun yavaş ilerleyişi sırasında kriyo-uykuda dinlenirler. Sistem teşhislerinde küçük bir anormallik olduğunda uyandırılan kişi benim. Bu yolculuğa başlamadan önce Valkyrieler benden daha yaşlıydı. Mutlu bir şekilde korunmuş olarak kaldılar. Şimdi ben onların on yıl kıdemlisiyim. Tehlikeli madde kıyafetlerini ben giydiriyorum. Her şeyi tamir edebilirim. Bir lazer tareti kurabilirim. Void FTL iletişimleri başarısız olduğunda, sistem bilgisayarlarıyla biraz eğlendiğim için kimse beni suçlayabilir mi?"- Dren Gates, "RV-20456C: Yıldız Geminizin AUX-işlem çekirdeğinde VR-Oyun İmparatorlukları Kurmak."</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Cryosleep -&gt; cryosleep</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WALKER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Walker</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">WALKER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Komutan Abbott Kuyruklu Yıldız Mezarı Görevi sırasında ortadan kaybolduğunda, onun Walker'ına pilotluk yapmak üzere terfi ettirildim. Her makinenin kendi kişiliği olduğunu söylerler. Abbott intikam istiyordu. Beni dehşete düşürdü. Vulcan topunu ilk ateşlediğimde çığlık attım. Mermi yağmurundan önce yaşam fışkırmaları patladı. Havadayken ya da siperin arkasına saklanırken, Walker'ın parça tesirli füze bataryalarından çıkan cılız parmak dumanı izleri hayatta kalan kimse bırakmadı. Övgüler kazandım ama size söylüyorum, Komutan Abbott'un hayaleti en sevdiği makinenin içinde yaşamaya devam ediyor."- Kaptan Paxus Plexis, "RV-334M: Öncü Karşılaşmaları, Su Nebulasının Kayıp Kolonileri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TANK</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Lazer Tankı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">TANK</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Pollux Ay Kolonisi, Vanguard Lazer Tankını ikmal konvoyu arasında görünce çok sevindi. Günlerce sığınaklarda saklandık ve silahlı yardım için dua ettik. Düşman geri döndüğünde, kasaba halkı inledi ve tankı saran bir duman bulutu nedeniyle tankın hemen hasar gördüğü korkusuyla ağladı. Yüzbaşı Paxus kalabalığı sakinleştirdi. Tankın iyi olduğunu açıkladı. Duman tankı gizler, bu bir savunma kabiliyetidir. Ana silah ölümcül görevine başlarken bize gözlerimizi kaçırmamızı söyledi."- Belediye Başkanı Delani D'Terni, "RV-333M: Öncü Karşılaşmaları, Su Nebulasının Kayıp Kolonileri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DRONE_CARRIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Drone Taşıyıcı</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DRONE_CARRIER</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Çöküşten önce Yıldız Birliği neden baskındı? Ticaret politikaları ya da saldırgan olmayanlara sağladıkları refah değildi. Hayır, katıksız güçleriyle hükmediyorlardı.  İmparatorluğun Dron Gemisi, erişiminin zirvesindeyken, tek bir denizci bile kaybetmeden, saldırı, tıbbi, engel inşa etme veya yok etme gibi farklı taktiksel amaçlar için dron sürüleri fırlatabiliyordu. Sürü benzeri Kir'Ko'nun keşfinden bu kadar dehşete düşen bir ırkın galakside bilinen en ölümcül sürü yetenekli silahı icat etmesi ironiktir."- Profesör Quinlinn T. Ortivexis, "RV-4368H: Tarihsel Paralellikler: İnsanlığın Çarpık Geçmişi"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: attack -&gt; for offense
+Edit: removed "space"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">OWL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">OWL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">OWL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Hayatta kalmak mı istiyorsunuz? Önce OWL'u gönderin. Küçük robot bir şahin gibi uçar - iki kat daha yüksekte ve aynı hızda. OWL bir göz atmadan yeni bir yere gitmeyeceğim. Söylentilere göre, bütçe kesintileri geliyor. Elbette, lazeri pek bir silah değil ama düşmanları hedef almak için mükemmel. OWL'um bir düzine pusuyu önledi ve bir hedef çizdiğinde keskin nişancı tüfeğim asla ıskalamıyor. Bu temel bir askeri teçhizat. Tamiri kafama sıkılacak bir kurşundan daha kolay."- Teğmen Topher Erikson, "RV-222M: Vanguard Askeri Donanım Görüşü"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: em-dash changed to en-dash</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PUG</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PUG</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PUG</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Teğmen Arnie, Çavuş'a şaka yapmanın komik olacağını düşündü. Bu yüzden tatlı istihkakını Çavuş'un PUG'unun Şifa Şarjı'na doldurdu. Sanırım bunu unuttu. Bir ay sonra böcekler tarafından pusuya düşürüldük ve Çavuş vuruldu. PUG'ı gayet iyi çalışıyordu. Bulanıktı ve blasterleriyle ateşe karşılık veriyordu - her şey iyiydi, ta ki Çavuş tıbbi yardım isteyene kadar. Normalde onu hemen iyileştirirdi ama onun yerine üzerine çikolatalı puding püskürttü. İşte o zaman savaş daha da kötü bir hal aldı."- Teğmen Lenny Sasse, "RV-333M: Teğmen Arnie Malarkin'in Askeri Mahkemesi"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Chocolate Pudding -&gt; chocolate pudding</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">VALKYRIE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Valkyrie</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">VALKYRIE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Hikayem büyük bir böcek tarafından yutulmamla sona eriyor. O şey larva kusuyor ve ben de 'Ne büyük kayıp! Sonum sümüksü bir böcek mi olacak?!' Sindirim sisteminin zifiri karanlık asidik dalgalanmalarında boğuluyorum. En az dindarın bile dua etmesi için yeterli. Sonra bir ışık görüyorum. Önümde, elinde yanan ışıktan bir kılıç tutan bir melek süzülüyor. Kızgın sürüyü kör eden bir el bombası fırlatıyor. Öldüğüm ve bir melek tarafından kurtarıldığım zamanı asla unutmayacağım: bir Vanguard Valkyrie."- Mah Reg'Nib, Gözlemci Görevlisi: "RV-771X: Nektar Koşusu: Gücün Bedeli"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: What waste?! I am going to be a slimy bug!? -&gt; What a waste! Am I going to end up as a slimy bug?!
+Edit: an -&gt; the
+Edit: angel--A -&gt; angel: a</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUNSHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Gunship</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUNSHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Mülteciler hava desteği ile iletişim kuramadı. Sadece kaçtık. Sekiz Vanguard Savaş Gemisi ile birlikte uçtular. Uçan takipçilerimizden ateş aldılar. Vanguard o savaş gemilerini düşman uçucuları püskürtmek için yapmıştı. Geri çekilmemizi engelleyen bir düşman hattına rastlayana kadar açık bir atış şansım olduğunu sanıyordum. Savaş gemileri hatları kolayca biçti. Aptallar, Vanguard Savaş Gemilerinin uzun hatlardaki aptalları da vurma konusunda uzman olduğunu fark etmemişlerdi. Eğer bir fırsatım olursa, o pilotlara bir içki ısmarlarım."- Mah Reg'Nib, Gözlemci Subayı: "RV-770X: Nektar Koşusu: Gücün Bedeli"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: Air-Support -&gt; air support</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ASSAULT_DRONE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Saldırı Dronu</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">ASSAULT_DRONE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Drone Taşıyıcınız dolu mu yoksa boş mu? En son teknoloji ürünü tek kullanımlık drone silahları olmadan yakalanmayın. Düşmanlarınıza şimdi Kırmızı, Kızıl, Vermillion veya Kızıl Lazer detaylandırma seçenekleriyle Sportican Assault Drone 4000 model stinger hediye edin. Hiçbir şey succubot'unuzun pillerini, tam teçhizatlı ölümcül dronlara sahip iyi donanımlı bir askerden daha iyi dolduramaz. Bastırıcı ateş açın, isyanları ölümcül güçle bastırın ve zafere giden yolu patlatın!"- Bilinmiyor, "RV-14A: Adworxs Paragon Portables Reklam Ajansı"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: added "down" after "lay"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">REPAIR_DRONE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Onarım Dronu</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">REPAIR_DRONE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Uzaylı flora ve faunasını bastırmakla geçen zor bir günün ardından, hiçbir şey bir komandonun ruhunu en kaliteli Onarım Dronlarının rahatlatıcı ışıltısından daha fazla aydınlatamaz. Adamlarınızın kan kaybından ölmesine ya da teçhizatlarının paslanmasına izin vermeyin. En son teknoloji ürünü tek kullanımlık tıbbi dronları konuşlandırın. Kendinizi ve teçhizatınızı Medivac Onarım Uçağı 4000'den gelen rahatlatıcı nanit iyileştirmesiyle şımartın, şimdi Mavi, Camgöbeği, Cerulean veya Azul iyileştirici parıltılı detaylandırma seçenekleriyle. Hiçbir şey askerlere yaptıkları zulmü onayladığınızı tam bir iyileştirmeden daha etkili bir şekilde anlatamaz."- Bilinmiyor, "RV-15A: Adworxs Paragon Portables Reklam Ajansı"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MELEE_DRONE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Çatışma Dronu</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">MELEE_DRONE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Tüm yumrukları yemekten bıktınız mı? Neden derin saldırı uzmanı Rambot Drone'ların düşmanınıza saldırmasına izin vermiyorsunuz? Kinetik koçbaşı çekiç teknolojisinin en son ürünü düşmanınızın hatlarında delikler açarken arkanıza yaslanın ve akıllara durgunluk veren pürüzsüzlükteki Nectar Mai Tai'nizi yudumlayın... ya da daha iyisi, düşmanın gövdesini delin! En yüksek kalitede Zibranyum-çelik delici-dronlardan oluşan vurucu dalgalar halinde satılır ve istediğiniz renk tonlarında detaylandırma seçeneklerine sahiptir: Altın Başak, Kadife Çiçeği veya Ayçiçeği. Düşmanlarınızın sararmasını ve kaçmasını izleyin."- Bilinmiyor, "RV-16A: Adworxs Paragon Portables Reklam Ajansı"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: removed commas after "Tai" and "ram"
+Edit: goldenrod, marigold or sunflower -&gt; Goldenrod, Marigold or Sunflower</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">FRIGATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Fırkateyn</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">FRIGATE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Bana Felinar adında, yerlilerin kedileri tanrı olarak gördüğü bir diyarın söylentisi ulaştı. Doğal olarak, oranın kedim için ideal bir yer olduğunu düşündüm. Bir Vanguard Fırkateyni devriyesine otostop çektim. Şaşırtıcı bir şekilde, yerliler bize saldırdı. Yüzleri arzuyla gerilmişti. Sevgili kedime baktılar. Korkunç bir hata yapmıştım. Bu vahşiler kedileri sadece yiyecek olarak seviyorlardı. Bu bir tuzaktı! Vanguard Fırkateyni çoklu lazer yaylım ateşi açarak, kedi-etobur kalabalığı arasında açık bir yarık açtı. İşte bu yüzden Bay McFlufflepants Vanguard'ı seviyor."- Astro Cattovio, Çocuk Kitabı Yazarı, "RV-00495E: McFlufflepants Yurtdışı Seyahatleri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: taut -&gt; strained
+Edit: frigate -&gt; Frigate</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">BATTLESHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Savaş Gemisi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="150">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">BATTLESHIP</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Kaptanımız dahili telefonun parazitine küfrederek mühendislikten cevap istedi. Gemide eskiden motorların olduğu yerdeki kratere bakılırsa, cevap gelmeyeceğini biliyordum. Sarsıcı bir patlama baş yağmacının gemisini üç yöne uçurdu. Füzeler onu parçalara ayırdı. Dumanların arasından bir Vanguard Savaş Gemisi belirdi. Füze rampaları yeniden yüklenirken, topları ikinci bir gemiyi patlattı. Cankurtaran botu umuduyla gemiyi selamladık ama Savaş Gemisi üzerimize pırıl pırıl bir sıcaklık püskürttü. Mikroskobik nanitler her şeyi tekrar birbirine örerken gemimizdeki delik kapandı."- Sheldon Zaragoza, "RV-39761M: Vanguard Justice"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">INFERNO_MARINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Inferno Trooper</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">INFERNO_MARINE</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Silahlarımız güçlü ve şeytanlar gibi savaşıyor olsak da, bize Cehennem Askerleri deniyor çünkü biz Vanguard'ın seçkin savaş gücüyüz ve komutanımızın emirlerini yerine getirmek için cehennemin ağzına atlamaya hazırız. Cehennem çukurlarında sonsuza kadar yanmakla lanetlenmiş olabiliriz, ama aşağı inerken yanımıza bir sürü pisliği de alacağız."- Tek Bertlam, Özel Kuvvetler: Inferno Trooper, "RV-854M: Operasyon Emri"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUN_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Silah Kulesi</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">GUN_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Çoğu mühendis gibi ben de yan projelerim üzerinde çalışabilmek için işimi otomatikleştirmeyi tercih ederim. Patronlarla ilgili kişisel bir şey değil ama aptallar. Ben savaşan bir asker değilim! Ben de mühendis arkadaşlarımı topladım ve bir hedefleme bilgisayarı kodladım. Bir tarete yerleştirin, bu değişkeni bir makineli tüfek, lazer blaster veya roketatar belirtecek şekilde değiştirin ve kötüleri vurun. Yani, benim kötü görüşüm ve duruşumla bir silahın yakınında olmamı gerçekten istiyor musunuz?"- Dren Gates, "RV-21000C: Bir Hedefleme Bilgisayarında VR-Oyun İmparatorlukları Kurmak."</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Edit: added comma after "posture"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HEAVY_GUN_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ağır Silah Tareti</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LASER_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tekrarlayıcı Savunma Tareti</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DEFENSE_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Tekrarlayıcı Savunma Taretleri, Vanguard koloni savunma kuleleridir.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LAUNCHER_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Fırlatıcı Tareti</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HEAVY_LAUNCHER_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Ağır Fırlatıcı Tareti</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">PLANET_ARRIVAL</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">LOG</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Cesaret ve güç size, Öncü Seferi Kuvvetler Komutanı! Kriyo-uyku görevleri size ve serseriler ve maceracılardan oluşan saflarınıza geçmişinizden kaçma ve Yıldız Birliği için yeni dünyalar talep etme imkânı verdi. Ama siz uyurken İmparatorluk ortadan kayboldu. Birliği yıkan güçlerle yüzleşmek için tüm savaş ve hayatta kalma becerilerinize ihtiyacınız olacak. Geçmiş sizi yakalamak üzere Komutan!</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: filled with -&gt; of
+Edit: added comma after "sleeping"
+Edit: "the empire you served has disappeared" -&gt; "the Empire disappeared"</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NANITE_SUPPORT_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">Nanit Destek İstasyonu</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="135">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">NANITE_SUPPORT_STATION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Operasyon el kitabında bölgeye Lumitol adı verilen ışığı kıran bir silikleştirici madde sıkılacağı yazıyordu. Düşman ateşinin bizi görmesini engelleyen kimyasal bu muydu yoksa kanamamı durduran iyileştirici bir madde miydi bilmiyorum ama itiraf etmeliyim ki yol boyunca daha fazla Destek İstasyonu olsaydı bu savaşa yardım etmeye çok daha istekli olurdum."- Teğmen Doohan 'Kırmızı Gömlekli' McGee, "RV-957M: En İyi Aletler ve Onları Seven Adamlar."</Data>
+        </Cell>
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+        <Cell ss:StyleID="s64" />
+      </Row>
+      <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="127.5">
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">HEAVY_GUN_TURRET</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s64">
+          <Data ss:Type="String">"Çoğu mühendis gibi ben de yan projelerim üzerinde çalışabilmek için işimi otomatikleştirmeyi tercih ederim. Patronlarla ilgili kişisel bir şey değil ama aptallar. Ben savaşan bir asker değilim! Ben de mühendis arkadaşlarımı topladım ve bir hedefleme bilgisayarı kodladım. Bir tarete yerleştirin, bu değişkeni bir makineli tüfek, lazer blaster veya roketatar belirtecek şekilde değiştirin ve kötüleri vurun. Yani, benim kötü görüşüm ve duruşumla bir silahın yakınında olmamı gerçekten istiyor musunuz?"-Dren Gates, "RV-21000C: Bir Hedefleme Bilgisayarında VR-Oyun İmparatorlukları Kurmak."</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>45</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>54</ActiveRow>
+          <ActiveCol>3</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

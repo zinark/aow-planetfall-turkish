@@ -1,0 +1,409 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Elliott Van Neste</Author>
+    <LastAuthor>Bas Staffhorst</LastAuthor>
+    <Created>2018-10-30T08:44:30Z</Created>
+    <LastSaved>2019-08-02T14:05:21Z</LastSaved>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>9825</WindowHeight>
+    <WindowWidth>20850</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="111" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="285.75" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="244.5" />
+      <Column ss:StyleID="s62" ss:Width="168.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="684.75" />
+      <Column ss:StyleID="s62" ss:Width="147.75" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="293.25" />
+      <Column ss:StyleID="s62" ss:Width="120" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="355.5" />
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">STRUCTURES_STRATEGIC</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">CONCENTRATED_GRAVITY_FLUX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yoğunlaştırılmış Yerçekimi Akısı</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">CONCENTRATED_GRAVITY_FLUX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerçekimi Jeneratörü koloni etrafında yoğunlaştırılmış bir yerçekimi anomalisi yaratarak düşman orduları hedef alır ve hareketlerini engeller.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">CONCENTRATED_GRAVITY_FLUX</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerçekimi Jeneratörü koloninin etrafında yoğunlaştırılmış bir yerçekimi anomalisi yaratır ve düşman ordularını hedef alarak hareketlerini engeller.[br/][br/][bulletList][bullet][abilityred]Düşman[/abilityred] koloni alanı içindeki hareket maliyeti, dünya haritasındaki her altıgen başına {MovementCost} artar. [/bullet][bullet]Savaşta:[/bullet][bulletList][bullet][abilityred]Koloni alanı içindeki düşman[/abilityred] birimleri [abilityred]Yavaş[/abilityred] hareket hızına sahiptir.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63">
+          <Data ss:Type="String">Slow movement speed means the unit has less move points and moves slower on the world map. A hex has a movepoint cost(movement cost), and a unit has a number of move points. A unit spends movepoints equivalent to a hex's movepoint cost to move unto that hex.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">TARGETING_COMPUTING_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilgi İşlem Desteğinin Hedeflenmesi</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">TARGETING_COMPUTING_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefleme Dizisi, koloniyi koruyan birlikler için gerçek zamanlı ateşleme çözümleri sağlayarak silahlarının isabet oranını artırır.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">TARGETING_COMPUTING_SUPPORT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hedefleme Dizisi, koloniyi koruyan birlikler için gerçek zamanlı ateşleme çözümleri sağlayarak silahlarının isabet oranını artırır.[br/][br/][bulletList][bullet]Koloni alanı içindeki [abilityblue]dost[/abilityblue] birimleri için görüş ve sensör menzili {sensorRange} artar. [/bullet][bullet][abilityblue]Koloni alanı içindeki Dost[/abilityblue] birimleri Algılama kazanır.[/bullet][bullet][abilityblue]Dost[/abilityblue] birimlerinin menzilli yetenekleri {accuracybuff} hassasiyet ve {rangebuff} altıgen menzil kazanır.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLER_EMISSIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyon Scrambler Emisyonları</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLER_EMISSIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyon Karıştırıcı, sinyal bozucu sinyal emisyonlarıyla titreşir ve operasyonların etkili bir şekilde yürütülmesini imkansız hale getirir.</Data>
+        </Cell>
+        <Cell ss:Index="5" ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">SCRAMBLER_EMISSIONS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Operasyon Karıştırıcı, sinyal bozucu sinyal emisyonlarıyla titreşerek operasyonların etkili bir şekilde yürütülmesini imkansız hale getirir.[br/][br/][bulletList][bullet]Bu koloni alanı içinde hem dünya haritasında hem de taktik savaşta operasyonlar mümkün değildir.[/bullet]</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_WATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Savunma İzleme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_WATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Savunma Tareti, düşman sibernetik ve mekanik birimlerine elektromanyetik darbeler ateşleyerek onları bozmak ve hasar vermek için koloninin etrafında bir ölüm bölgesi belirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">PULSE_DEFENSE_WATCH</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Darbe Savunma Tareti, düşman sibernetik ve mekanik güçlerine elektromanyetik darbeler ateşleyerek onları bozmak ve hasar vermek için koloninin etrafında bir ölüm bölgesi belirler.[br/][br/][bulletList][bullet]Bu koloni alanı içindeki çatışmalarda, her {turns}[turn/] dönüşte: [/bullet][bulletList][bullet]Tüm [abilityred]Düşman[/abilityred] Mekanik ve Cyborg birimleri {TCdamage} [damagewave/] Ark hasarı alır. [/bullet][bullet][abilityred]Düşman[/abilityred] Mekanik ve Sayborg birimlerinin {Stunchance}[strengthwave/] [abilityred] Sersemletilme[/abilityred] {Stunduration} güç şansı vardır.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Mechanical and Cyborg are unit types, that determine whether or not some abilities and status effects can affect them. Stunned is a negative status effect that makes a unit unable to move or act.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Engelleme Protokolü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Engelleme Sistemi hedef koloninin hava sahasını korur, düşman hava birimlerini otomatik olarak hedef alır ve taciz eder.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AERIAL_DENIAL_PROTOCOL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hava Engelleme Sistemi hedef koloninin hava sahasını korur, düşman hava birimlerini otomatik olarak hedef alır ve taciz eder. [br/][br/][bulletList][bullet]Koloni alanı içindeki savaşta, her {turns}[turn/] dönüşünde: [/bullet][bulletList][bullet]A rastgele [abilityred]ADüşman[/abilityred]Uçan birim {TCdamage} [damagephysical/]Kinetik hasara ve {turnsTurbulence} dönüşleri için Türbülans zayıflatmasına maruz kalır.[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Turbulence is a negative status effect that affects flying units, making them less accurate with their attacks.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_SCREEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Orbital Savunma Ekranı</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_SCREEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell ss:StyleID="s63">
+          <Data ss:Type="String">Yörünge Savunma Rölesi, dost birliklere saldıran düşman birimlere otomatik olarak müdahale ederek koloni için savunma kapsamı sağlar.</Data>
+        </Cell>
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+        <Cell ss:StyleID="s63" />
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">ORBITAL_DEFENSE_SCREEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yörünge Savunma Rölesi, dost birliklere saldıran düşman birimlere otomatik olarak müdahale ederek koloni için savunma kapsamı sağlar.[br/][br/][bulletList][bullet]Koloni alanı içindeki çatışmalarda, her {turns}[turn/] dönüşte: [/bullet][bulletList][bullet]{units} rastgele [abilityred]Düşman[/abilityred] birimleri {TCdamage} [damagephysical/]Kinetik hasar alır.[/bullet][bullet]Dayanıklı olmayan birimler [abilityred]Sarsılır[/abilityred].[/bullet]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Stagger is a negative effect that can be applied to enemy units that means they are less effective.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SHROUD_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kefen Projeksiyonu</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">SHROUD_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kefen Jeneratörü, düşmanın görsel duyularını engelleyen ve dost kuvvetleri gizleyen dev bir yapay, ışık emici sis örtüsü yansıtır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">SHROUD_PROJECTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOGIC_DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kefen Jeneratörü, düşmanın görsel duyularını engelleyen ve dost kuvvetleri gizleyen dev bir yapay, ışık emici sis örtüsü yansıtır.[br/][br/][bulletList][bullet]AKolononi alanı içindeki tüm [abilityred]ADüşman[/abilityred] birimleri, bu sektördeyken {VisionRange} görüş menziline sahiptir. [/bullet][bullet]Koloni alanı içindeki çatışmalarda:[/bullet][bulletList][bullet]Deteksiyonu olmayan düşman birimlerinin tüm yeteneklerinin maksimum menzili {WeaponRangeTC} hex'e düşürülür.[bullet/]</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Vision range is how far a unit can see on the world map. It gets reduced in sectors affected by this operation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">IMPERIAL_DEFENSE_OPERATION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CASTING_SUCCESS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu operasyon devam ettiği sürece, bu koloni alanı imparatorluk savunma etkisinin koruması altındadır!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Sustaining refers to the operation being applied as long as upkeep costs are being paid, or until the operation gets cancelled.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="7" />
+      <Row ss:Index="45" ss:AutoFitHeight="0" ss:Height="90" ss:Span="3" />
+      <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="75" />
+      <Row ss:Index="55" ss:AutoFitHeight="0" ss:Height="90" />
+      <Row ss:Index="57" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1" />
+      <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="72" ss:AutoFitHeight="0" ss:Height="90" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="2" />
+      <Row ss:Index="90" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1" />
+      <Row ss:Index="96" ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="6">
+          <Data ss:Type="String">Edit: Soulblaze --&gt; Soulburn</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="99" ss:AutoFitHeight="0" ss:Height="90" />
+      <Row ss:Index="102" ss:AutoFitHeight="0" ss:Height="60" />
+      <Row ss:Index="105" ss:AutoFitHeight="0" ss:Height="30" />
+      <Row ss:Index="108" ss:AutoFitHeight="0" ss:Height="45" />
+      <Row ss:Index="111" ss:AutoFitHeight="0" ss:Height="105" />
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>115</Zoom>
+      <Selected />
+      <TopRowVisible>7</TopRowVisible>
+      <LeftColumnVisible>1</LeftColumnVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>11</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

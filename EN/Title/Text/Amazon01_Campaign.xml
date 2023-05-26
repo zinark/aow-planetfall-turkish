@@ -1,0 +1,1503 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Laszlo Pieper</Author>
+    <LastAuthor>Frederick Milders</LastAuthor>
+    <Created>2018-10-11T08:22:20Z</Created>
+    <LastSaved>2019-02-14T15:23:02Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>17625</WindowHeight>
+    <WindowWidth>32767</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="135" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="252" ss:DefaultRowHeight="15">
+      <Column ss:Index="2" ss:StyleID="s62" ss:Width="66.75" />
+      <Column ss:StyleID="s62" ss:Width="259.5" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="254.25" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMAZON01_CAMPAIGN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_HAZARD_SECTOR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bulaşıcı Bataklıklar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_GRAZING_GROUNDS</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Otlaklar</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_DENSE_FOREST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yabani Ormanlar</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="10" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_SPECIAL_RESEARCH_XENO_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Kanıtlarını Araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_SPECIAL_RESEARCH_XENO_PLAGUE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Creusa bizi Xeno tesislerine götürdü ve bu Veba'nın tam olarak ne olduğuna dair gerekli kanıtları bulmamıza yardımcı oldu. Şimdi daha yakından bakma ve kendimiz ne bulabileceğimizi görme zamanı.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Creusa - An Amazon who was part of Berhane’s forces</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_SPECIAL_RESEARCH_FIND_CURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague Tedavisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_SPECIAL_RESEARCH_FIND_CURE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yerel enfekte yaban hayatına uygulamak için bir serum geliştirin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="15" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">HEADER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Zafer Koşulu: Matriarch'ın Duruşması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matriarch'ın Duruşması</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'yi durdurarak bu haritayı kazanabilirsiniz.[br/][br/]Berhane'nin Konumu Elde Edildi: {INT_0}\{INT_1}</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Berhane - Amazon character who was the old mentor of Mahina</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin Konumu Elde Edildi: {INT_0}\{INT_1}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL_UPDATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin uşağını durdurarak ve eski akıl hocanızın Thanakiwa'dan ayrıldıktan sonra nereye gittiğini keşfederek bu haritayı kazanabilirsiniz.[br/][br/]Enfekte Kir'Ko Durduruldu: {INT_0}\{INT_1}</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL_UPDATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Enfekte Kir'Ko Durduruldu: {INT_0}\{INT_1}</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="22" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_BUTTON_LABEL_ACCEPT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Creusa'yı saflarınıza kabul edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_BUTTON_LABEL_DECLINE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Creusa'nın talebini reddetmek</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="25" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_PLAGUE_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vebayı Araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_PLAGUE_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Onu anlamak ve nihayetinde onunla savaşmak için bu 'Xenoplague' hakkında daha fazla şey öğrenmelisiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_BERHANE_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'yi bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_BERHANE_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin bilinen son yeri sizde. Onu ne kadar çabuk bulursanız o kadar iyi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_DEFEAT_BERHANES_HENCHMAN_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin Teğmenini Yen</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_DEFEAT_BERHANES_HENCHMAN_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin nerede olduğunu öğrenmek istiyorsanız, kuklası Kiri Uz'Kol'dan geçmeniz gerekecek.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Kiri Uz'Kol - Female Kir'Ko character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_WILDLIFE_PRESERVATION_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çevre Koruma</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_WILDLIFE_PRESERVATION_HEADER_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Amazon Anası olarak, çevrenizdeki doğal ortamı korumak ve beslemek sizin görevinizdir. Sağladığınız dengeyi tehlikeye atabilecek tehditlere karşı dikkatli olun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="34" ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_INFESTED_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İstila Edilmiş</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_TEMPLATE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hücre</Data>
+        </Cell>
+      </Row>
+      <Row ss:Index="37" ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_MISSION_START_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonunda Thanakiwa'ya vardık. Uzun menzilli taramaların gösterdiği kadar gür ve sık ormanlık bir yer gibi görünüyor. Kolonimiz kesinlikle böyle bir ortamda gelişecektir.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Thanakiwa - planet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MISSION_START_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matron {STR_LeaderFirstName}, iniş sırasında bu gezegende çok sayıda vahşi yaşam olduğunu fark ettik. Birçoğu güçlü görünüyor ve yetenekli savaşçılar olduklarını kanıtlayabilirler. Belki de buradaki sayımızı artırmak için onları evcilleştirebiliriz?</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">{STR_LeaderFirstName} - Shows the name of the player</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MISSION_START_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hmm, iyi düşündün, kardeşim. Bölgede yakalayabileceğimiz güçlü hayvanlar için keşif yapmalıyız. Ama öncelikli görevimiz Berhane'nin izini sürmek. Bilinen son yerini bulmalı ve ava oradan başlamalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avda</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Standart Matriarch protokolünü izleyerek Thanakiwa'yı keşfetmeye gezegenin vahşi yaşamından bazılarını avlayarak ve evcilleştirerek başlamalısınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hiçbir tatbikat ya da eğitim gerçek bir avın heyecanıyla boy ölçüşemez! Ne yazık ki, hayvanlardan sadece birkaçını bakımımıza alabildik. Çoğunun vücudunda daha önce gördüğümüz hiçbir şeye benzemeyen tuhaf büyümeler vardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matron {STR_LeaderFirstName}! Buradan çok uzak olmayan bir Xenolab tesisi keşfettik. Vahşi yaşamı etkileyen yozlaşmanın merkezinde gibi görünüyor. Tek başımıza girmeye cesaret edemedik ama daha fazla cevap içerebileceğinden şüpheleniyoruz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Matron - a title given to the Amazon </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık sözlülüğünüz için teşekkür ederim, kardeşim. Bu gerçekten rahatsız edici ve derhal araştırmamız gereken bir şey. Başka bir şey var mıydı?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, Matron. Daha büyük bir yırtıcının izlerini bulduk. Ayak izlerine bakılırsa, çok büyük olmalı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sonunda, bir meydan okuma! Shrikes'leri gönderin, Lancers'ları toplayın! Avlamamız gereken büyük bir av var!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Shrikes - Amazon bird like unit
+
+Lancers - Amazon units</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yırtıcı'nın Ödülü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avcılarınız Thanakiwa'da dolaşan başka bir yırtıcıyla karşılaştı. Canavarın izini sürmek için av devam etsin!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Rooaarr! (Canavar yere çökmüş olsa da kaslarını esnetmeye devam ediyor ve öfkeyle size doğru bakıyor)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Matron {STR_LeaderFirstName}, neyi bekliyorsun? Bu iğrençliğe bir son verin!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayır... Yaratığa sempati duyuyorum. Bir şekilde bana Berhane'nin yaptığı gibi DNA'mızla daha fazla oynasaydık biz Amazonların ne hale gelebileceğini hatırlatıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderFirstName}! Dikkat et!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Grrrr raaaarrrr! (Canavar size doğru sıçrıyor, çeneleri ölümcül bir beklentiyle açılmış. Ama sen onun saldırısından hızla sıyrılıp ona cezalandırıcı bir darbe indiriyorsun).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ho! Yeni efendine itaat etmeyi öğrenmenin zamanı geldi. İşte, bu Gelişmiş İçgüdü Kontrolcüsü öfkenizi kontrol altında tutacak - ve eğer tutmazsa, Lancer'ın öfkesini tatmak için geri döneceksiniz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Advanced Instinct Controller - Amazon mod</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_THE_SOURCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaynağı Bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_THE_SOURCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegenin vahşi yaşamının bir kısmını istila eden bir parazitin neden var olduğunu araştırmalıyız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_THE_SOURCE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vahşi yaşamla dolu bir gezegen için burası ürkütücü derecede sessiz. Gözcülerin bulduğu tesis bu olmalı. Çok terk edilmiş görünüyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_THE_SOURCE_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Aniden, varlığınızdan rahatsız olan bir hopperhound sürüsü bina kompleksinden dışarı dökülür!)[br/][br/]Tetikte olun, kardeşlerim! Geri çekilin ve benimle birlikte reform yapın!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Hopperhounds - Wildlife creatures</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_THE_SOURCE_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ucuz atlattık. Bu veba bu zıpzıplara da bulaşmış. Bu tesise erişmemiz gerek. Belki de en iyisi bu zavallı hayvanların acılarına son vermektir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_END_THEIR_SUFFERING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Acılarına Son Verin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_END_THEIR_SUFFERING_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu bölgedeki birçok yaratık parazitler tarafından ele geçirilmiş durumda. Onlardan kurtulana kadar ilerleyemezsiniz. Parazit kontrolündeki vahşi yaşamı öldürün.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_END_THEIR_SUFFERING_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avcılar, cesetlerini koloniye geri götürün. Bilim adamları parazit enfeksiyonunu araştırsın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_END_THEIR_SUFFERING_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, Matron! Bu numuneleri derhal araştırma tesislerimize teslim edeceğiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_END_THEIR_SUFFERING_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yaratıklara sempati duymaktan kendimi alamıyorum. Bu veba onlara korkunç acılar çektirmiş gibi görünüyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_CURE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Tedavi Bulun</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_CURE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gezegendeki vahşi yaşamın mümkün olduğunca çoğunu kurtarabilmemiz için bir tedavi bulmalısınız. Bilim adamlarınız çabalarını istilaya karşı bir tedavi geliştirmeye odaklamalıdır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_CURE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başhemşire {STR_LeaderFirstName}, bilim adamlarımız veba ile ilgili araştırmalarını tamamladılar ve... ne yazık ki bir tedavisi yok. Elde ettikleri tek önemli bulgu, konakçıyı öldürmenin paraziti de öldürdüğü. Konak organizma ile ortak yaşam içinde yaşıyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_FIND_CURE_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">O halde bu vebanın daha fazla yayılmasını önlemek için yapabileceğimiz hiçbir şey yok. Berhane'nin hatalarını, vebayı bu dünyaya getiren sorumluları durdurarak düzeltmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_SEARCH_FOR_BERHANE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane için arama</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_SEARCH_FOR_BERHANE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin bilinen son yeri sizde. Onu ne kadar çabuk bulursanız o kadar iyi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Vebanın yemesi için daha fazla denek mi? Berhane memnun olacak! Sizler, içinde bulunduğunuz durumun tam olarak farkında değilsiniz. Geri dönmek için çok geç. Vebanın tüketimine boyun eğin. Bu acıklı hikayeyi çabucak sonuçlandırın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Kir'Ko mu? Berhane'nin uşaklarından biri misin? Onu durdurmak için buradayız. Çekilin yolumuzdan! Onun günahları affedilemez. Sorumlu tutulmalı. Eğer bize engel olursan, seni hasta bir tazı gibi yere sermekten çekinmeyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane uzun zaman önce başka bir gezegene gitti. Araştırmalarımıza devam ediyor. Salgının yayılmasını durduramazsınız. Sizi çabucak ezeceğiz! Enfeksiyon yeni konukçular istiyor. Bu gezegenden canlı çıkamayacaksınız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="105">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ne, bu salgının arkasında o mu var?! Bunu nasıl yapabildi? Bazı öğretilerimize katılmadığını biliyordum ama bu delilik! Ve çoktan kaçtı bile...[br/][br/]Bu daha sonra olacak. Bu dünyanın geri kalanını kirletmeden önce seninle, Kir'Ko'yla ve veba tarikatının geri kalanıyla ilgilenmem gerekiyor!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bir Güç Gösterisi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kir'Ko uşağı Kiri Uz'Kol'u ikna etmek mümkün değil. Güç gözünü kör etmiş ve Berhane hakkında daha fazla bilgi edinmek istiyorsak onu geçmemiz gerekecek.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_QUEST_OBJECTIVE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{INT_0}\{INT_1} Kiri Uz'Kol Mağlup Edildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu olamaz! Ölümsüzleştirilmemiz gerekiyordu... Bize söz vermişti...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Görünüşe göre kendi halkına ihanet ettiği gibi sana da yalan söylemiş. Ama kendini affettirmen için sana bir şans vereceğim. Bana Berhane'nin nereye gittiğini söyle, ben de hayatını bağışlayayım. Reddederseniz, sizden bilgi almak için başka önlemlere başvurmak zorunda kalacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gerekli değil, ha-ha! O bizim için hiçbir şey ifade etmiyor, güce giden bir yol, başka bir şey değil. Aksine, biz onu kullanıyorduk, ha-ha! (Şimdi diz çöktüğüne göre, bu korkak gerçek yüzünü gösteriyor.) Avium SK-51'e gitti! Atalarımız üzerine yemin ederiz!</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Avium SK-51 - planet</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hmm, sana inanıyorum. Bana yalan söylemeye devam edecek kadar aptal görünmüyorsun. Biyomancerlar, bir muhafaza ünitesi getirin. Onun kirliliğinin daha fazla yayılmasına izin verilmemeli.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Biomancers - Amazon unit</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayır, lütfen! Bizi açık gökyüzünden mahrum edemezsiniz! Veba kontrol altına alınamaz. Nasıl olsa yenik düşeceksiniz... (Bir biyomancer ekibi Kir'Ko'yu hermetik bir kutunun içine kapatır ve Biyogüvenlik Angajman tesisine doğru ilerler)</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE06</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Her ne kadar o zavallıyı öldürmek içindeki vebayı yok edecek olsa ve daha merhametli bir seçenek olsa da, daha iyi savaşabilmek için bu vebanın nasıl işlediği hakkında daha fazla bilgiye ihtiyacımız var. Şimdi Berhane'yi Avium SK-51'e kadar takip edelim. Bizi ikinci kez atlatamayacak!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_INTRO_MESSAGE_PAGE_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Başhemşire, ormanda keşif yaparken yüksek bir gök gürültüsü sesi duyduk. Şimdi uzaktan duman yükseliyor.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_INTRO_MESSAGE_PAGE_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu eski akıl hocamın işi olabilir. Araştırmalıyız ama dikkatli olmalıyız!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dumanı Araştırın</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Avcılarınız uzakta yükselen bir duman gördü. Bunu derhal araştırmalısınız - avınızın işi olabilir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kardeşlerim, lütfen yardım edin! Gemimde sıkışıp kaldım ve bu Kir'Ko'lar beni parçalara ayıracak!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Kızgın bir kanatlı Kir'Ko sürüsü tarafından çevrelenmiş, düşmüş bir Amazon zeplini görürsünüz.)[br/][br/]Çabuk kız kardeşler, bir av partisi oluşturun! Bu böcekler ona ulaşmadan müdahale etmeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Açık Gökyüzü</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Havadan gelen birkaç Kir'Ko yardım isteyen Amazon'u avlıyor. Onlarla başa çıkmada yardımcı olmalısın.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yardımınız için teşekkürler, Matriarch. Sen ve savaşçıların olmasaydınız, o karşılaşmadan sağ çıkamazdım. Hayatımı size borçluyum ve size hizmetlerimi sunuyorum. Sen {STR_LeaderName}'sin, değil mi?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Öyleyim, ancak bir Başrahibe olarak eğitimim henüz tamamlanmadı. Bana Başrahibe diye hitap etmelisiniz. Berhane'yi yakalayıp adalete teslim etmek için buradayız. Onu tanıyor musunuz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Evet, Başhemşire, biliyorum! Onun araştırma ekibindeydim. Xenoplague için kullanım alanları bulmaya çalışıyorduk.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'ye mi hizmet ettin? O zaman sana nasıl güvenebilirim? Seni burada kaderine terk etmemem için bana iyi bir sebep söyle.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artık Berhane'ye sadık değilim! Onun yöntemleri çok radikaldi ve ben de onun liderliğine sırtımı döndüm. Ben yetenekli bir savaşçıyım. Berhane hakkında çok şey biliyorum ve Xenoplague'i anlamanıza yardımcı olabilirim. Kendimi merhametinize bırakıyorum, Matron.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_ACCEPT_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hmm, sanırım bu riski kabul etmekten başka seçeneğim yok. Bu veba hakkında hiçbir bilgiyi görmezden gelme lüksümüz yok. Şimdilik bize katılabilirsin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_ACCEPT_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kendimi affettirmeme izin verildiği için mutluyum. Sizi hayal kırıklığına uğratmayacağım! İlk adım olarak, ziyaret etmemiz gereken bir araştırma tesisi var. Berhane'nin veba deneylerinin çoğunun yapıldığı yerdi. Bazı deneyler orayı istila edince yeni bir yer bulmak zorunda kaldık.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_DECLINE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bize katılmana izin vermek çok riskli olur. Berhane'nin bu gezegene saldığı şey için sizi yargılamayacağım, ama fikrimi değiştirmeden önce gitmelisiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_CLEAR_SKIES_DECLINE_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Seçiminize saygı duyuyorum, Başhemşire {STR_LeaderFirstName}. Berhane'yi avlarken ve vebayla savaşırken iyi şanslar. Bu işte parmağım olduğu için üzgünüm...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bilimsel Islah</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Xenoplague hakkında daha fazla bilgi edinmek istiyorsanız, araştırma laboratuvarlarından birini aramanız gerekir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu yaratıklar da neydi? Enfekte olmuş hayvanlara ya da insanlara benzemiyorlardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İkisi de değildi. Yeterli zaman ve besin verildiğinde, veba paraziti büyüyüp güçlenerek kendi hareket kabiliyetine sahip duyarlı bir yaratık haline gelebilir. Duyarlılıkları elbette sınırlıdır: asıl amaçları kendilerini yaratan Xenoplague'i yaymaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE02_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha çok canavara benziyorlardı ama daha önce incelediğimiz Xenoplague parazitine benzer ayırt edici özellikleri vardı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kolonideki araştırmalarımıza yardımcı olması için vücutlarından toplayabildiğimiz kadar malzeme toplamalıyız. Acele edin, kardeşlerim. Bu iğrenç yaratıklardan daha fazlasının bölgede dolaşması ihtimaline karşı burada fazla kalmaya cesaret edemem.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_UNDER_THE_MAGNIFYING_GLASS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NAME</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Büyüteç Altında</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_UNDER_THE_MAGNIFYING_GLASS_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xeno Tesislerinden veba hakkında pek çok kaynak topladınız. Bir sonraki adım daha fazla araştırma yapmak ve bu vebanın tam olarak nasıl çalıştığını görmek olacaktır.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Xenoplague'in her iki organizmayı da yaşatmak ve geliştirmek için konakçısıyla birlikte nasıl çalıştığı ilginçtir. Berhane'nin bu araştırmayı neden yaptığını anlamaya başlıyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Veba hakkında tüm gördüklerim, yayılmasını durdurmanın tek yolunun tüm gezegeni yakmak olduğu sonucuna varmamı sağlıyor. Yine de alternatif bir seçenek var. Ya onu kendiniz kontrol etmenin, belki de kullanmanın bir yolunu bulabilirseniz? Doğru ellerde, güçlü bir silah olurdu!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Haklı olabilirsiniz ama o zaman Berhane'nin izinden gitmiş olmaz mıyım?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane onu iğrenç sebepler için kullanıyor. Xenoplague'i kendiniz benimserseniz, onun yanlışlarını düzeltebilir ve doğru ellerde bunun iyilik için kullanılabileceğini gösterebilirsiniz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İyi bir noktaya değindin, Creusa. Ama böylesine korkunç bir salgını kontrol altına alabilir miyiz bilmiyorum. Berhane kontrol edemedi, ben neden daha iyi olayım ki?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE01_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu Xenoplague'in her iki organizmayı da yaşatmak ve geliştirmek için konakçısıyla birlikte nasıl çalıştığı ilginçtir. Berhane'nin bu araştırmayı neden yaptığını anlamaya başlıyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE02_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">(Alfa Suşu'nun küçük konsantrasyonlarını içeren bazı örnek şişelerine daha yakından bakıyorsunuz. Daha gelişmiş parazitlerden bazıları kaçmak için kendilerini cam hapishanelerinin duvarlarına atıyorlar).</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE03_ALT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Ya bu salgını yenmenin tek yolu onu doğrudan kontrolümüz altına almaksa? Böylesine güçlü bir silahı Berhane'ye karşı kullanabiliriz. Ama böylesine korkunç bir vebayı kontrol altına alabileceğimizden bile emin değilim. Berhane onu kontrol edemedi, ben neden daha iyi olayım ki?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_BUTTON_01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague'i benimseyin</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_BUTTON_02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LABEL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Xenoplague kullanımını reddetme</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_ACCEPT_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biraz isteksizce de olsa, bu teknolojiyi daha iyi anlamak ve böylece onunla mücadele etmek için kendimizin kullanmasının en iyisi olacağına karar verdim. Umarım daha sonra bu kararımdan pişman olmam.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_DECLINE_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Berhane'nin yolunu izlememe izin vermeyeceğim - bu teknolojiyi görmezden gelmeye ve vebayı bulduğum her yerde yok etmeye karar verdim. Yanlış bir karar veriyor olabilirim ama en azından vicdanım rahat.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Daha fazla kanlı Amazon mu?! Pis veba yayıcılar! Canavarlarınızın zihnini kontrol etmeniz yetmiyor mu? Onurlu insanların kaderine de karar vermek zorunda mısınız?</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Erkek mi? Siz erkek insanlar mısınız? Rahatsız ettiğimiz için özür dileriz, biz veba yayıcıları değiliz ve daha önce tanıştığınız Amazonlarla bir ilişkimiz yok. Yozlaşmalarına son vermek için onların izini sürmeye geldik.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="120">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yine de, konumumuza daha fazla yaklaşmazsanız memnun olurum. Buraya çatışmadan kaçınmak için yerleştik ama sadece daha fazlasını bulduk. Bu veba iğrenç... Bazı askerlerime bulaştı ve onları vahşi doğaya sürükledi. Geri kalanımıza da aynısını yapmak için burada olmadığına dair ne kanıtın var? Gitsen iyi olur. Bugün daha fazla savaş istemiyorum.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu gezegende bir müttefik işimize yarayabilir. Belki onlar için bir şey yaparsak bize yardım etmeyi düşünürler. Bahsettikleri vebalı birlikleri daha fazla tahribata yol açmalarını engellemek için öldürmemizden memnun olabilirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Toprağa Verildi</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_QUEST</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Frank Vance bazı askerlerinin Xenoplague salgınına kurban gitmesine çok üzülüyordu. Belki de onun üzüntüsünü hafifletmek için acılarına son vermelisiniz.</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">Frank Vance - Vanguard male character</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Artık bu savaşçılar parazit kuklalar olmak yerine dinlenebilirler.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE02</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaptıklarınız için size ne kadar teşekkür etsem azdır. Ne yazık ki, tüm bunlardan sorumlu Amazon'u bulmanızda size yardımcı olabileceğimi sanmıyorum. Tek bildiğim, o çılgın Kir'Ko ve kolonisine veba bulaştırdığı ve bölgeyi paramparça ettikleri.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE03</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kaybınızın acısını hafifletmeye yardımcı olmak bizim için bir onurdu. Verdiğiniz bilgiler için teşekkür ederiz. Berhane'nin adımlarını takip etmeye çalışacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE04</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gitmeden önce bekleyin: bazı askerlerim aramanız sırasında size yardım etmelerine izin verilmesi konusunda ısrar ediyorlar. Onları durduramam, bu yüzden bu korkunç durum çözülene kadar emrinizdeler. Orada iyi şanslar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE05</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Mücadelemizdeki yardımları için minnettarız, Frank Vance. Huzur seni bulsun.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_FRANK_JOINS_WAR_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Tamamen emekli olmadan önce içimde hala bir savaşım daha olduğu sonucuna vardım. Berhane'nin kölesine karşı savaşında sana katılmamıza izin ver! Bana savaşın nerede olduğunu göster!</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_PLAYER_DECLARED_WAR_FRANK_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Çatışmadan kaçabileceğimi düşünmek aptallıktı. Pekala, hadi şu işi bitirelim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">AMA01_PLAYER_DEFEATED_FRANK_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Bu kaderi hak ettim mi? En azından ölümde yoldaşlarıma katılabileceğim...</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">AMA01_CREUSA_DIED_MESSAGE_PAGE01</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Creusa daha önce yanlış yönlendirilmiş olabilir ama ben onun kalbinin temiz olduğuna inanıyorum. Doğa Ana'ya yeniden katılabilmesi için ona uygun bir cenaze töreni düzenlemeliyiz.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Unsynced />
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>3</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>18</ActiveRow>
+          <ActiveCol>2</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

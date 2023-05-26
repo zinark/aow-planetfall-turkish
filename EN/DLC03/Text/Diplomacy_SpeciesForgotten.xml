@@ -1,0 +1,699 @@
+﻿<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Luis Ferreira</LastAuthor>
+    <LastSaved>2019-09-16T12:40:31Z</LastSaved>
+    <Version>16.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10215</WindowHeight>
+    <WindowWidth>21570</WindowWidth>
+    <WindowTopX>32767</WindowTopX>
+    <WindowTopY>32767</WindowTopY>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Script">
+    <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="59" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+      <Column ss:StyleID="s62" ss:Width="146.25" />
+      <Column ss:StyleID="s62" ss:Width="289.5" />
+      <Column ss:StyleID="s62" ss:Width="351.75" />
+      <Column ss:StyleID="s62" ss:Width="150" />
+      <Column ss:StyleID="s62" ss:Width="211.5" />
+      <Column ss:StyleID="s62" ss:Width="120.75" />
+      <Row ss:Height="90">
+        <Cell>
+          <Data ss:Type="String">DIPLOMACY_SPECIESFORGOTTEN</Data>
+        </Cell>
+        <Cell ss:Index="5">
+          <Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">SCENE ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TEXT ID</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LOCALIZATION NOTES</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DEV TEAM / MISC NOTES</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="90">
+        <Cell ss:Index="5">
+          <Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratıcı'nın etrafınızdaki cömert oluşumlarına bakın. Özünüzü paylaşmaya mı geldiniz, yoksa başka bir lütuf mu arıyorsunuz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gelecek bir günde Öz'ünün tadını çıkarabileceğimize güvenerek seni memnuniyetle şımartacağız, yaşam dostu.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaradan seni kutsasın, Öz Bekçisi. Lanetli ve çürümüş olanlardan, sonsuza dek unutulmaya terk edilenlerden önce geldiniz. Ölümsüz bedenlerimiz çok acıya tanıklık etti, ancak inancımız kırılmadı. Dualarımıza katılacak mısın, {STR_LeaderName}, yoksa tükenerek mi son bulacaksın?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barışçıl yollarınız bilgelikten mi yoksa korkaklıktan mı kaynaklanıyor? Özünüzü ayırt etmeliyiz. Yaratıcı'nın lütfunu kazanmak için Entropi Ajanlarıyla yüzleşmeye istekli misiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">İçindeki Entropi'nin yozlaşmasını hissediyoruz, {STR_LeaderName}. Kendi Özünüze layık olmadığınıza karar veriyoruz. Onu kendi içimizde korumanın zamanı geldi.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sizi bir ziyaretçi, yaşam dostu {STR_LeaderName} olarak karşılıyoruz. İnancınız henüz kanıtlanmamış olsa da, Yaratıcı size değerli Özünü armağan etti. Size hizmet ederken, sevgili Yaratıcımıza hizmet ettiğimize inanıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Satır satır, ilke ilke; orada burada, azar azar, inanç artar. Özün ışıl ışıl parlıyor. Sırlarımızı sana açıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Gazap Entropi'nin enstrümanıdır. Düşmanlıklarımızı bastırmaya çalışıyoruz. Tövbe Yaratıcı'nın lütfuyla sunulur. Değerli Özümüzü koruyalım ve bağışlanmaya yönelelim.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaptıkların yolsuzluk kokuyor, {STR_LeaderName}. Buna izin veremeyiz. Yaratıcı, ilişkilerimizin bu şekilde devam edemeyeceğine hükmetti. Eylemleriniz diplomatik bağlarımızı zayıflattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Neden kutsal alanlarımıza izinsiz giriyorsunuz? Gelin. Özünüzü paylaşın ve bize ne aradığınızı söyleyin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">En çirkin hayatlar bile kurtarılabilir. Bir gün inancımızı paylaşmanız umuduyla size bu alanı tahsis ediyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaradan seni izlesin, Öz Alıcı. Lanetli ve çürümüş olanlardan, sonsuza dek unutulmaya terk edilenlerden önce geldiniz. Ölümsüz bedenlerimiz çok acıya tanık oldu, ama inancımız kırılmadı. Dualarımıza katılacak mısın, {STR_LeaderName}, yoksa tükenerek mi son bulacaksın?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Birlikte inancımızı daha da güçlendirmek istemenizden memnuniyet duyuyoruz. Öze ihtiyacımız var. Dünya onu çarçur edenlerle dolu. Kendinizinkini korumaya layık olduğunuzu kanıtlamak için emrimizi yerine getirin. Size rehberlik edeceğiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Sizi Özünüze layık olmadığınıza karar veriyoruz. Küstahsınız ve Yaratıcı'nın emirlerine değer vermek yerine Entropi'nin baştan çıkarıcı cazibesine kulak veriyorsunuz. Özünüzü kurtarmak ve onu kendi içimizde muhafaza etmek zorundayız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="60">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kudretli {STR_LeaderName} burada, kutsal mezarlarımızın arasında ne arıyor? Yaratıcı'nın iradesini mi arıyorsunuz, yoksa Entropi'nin cazibesine kapılıp değerli Özünüzü çarçur mu ediyorsunuz? Bizden ne isterseniz istemekte özgürsünüz. Sizi yargılamaktan kaçınacağız.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, tıpkı Yaratıcı'nın mevsimlerin değişmesine neden olması gibi, ilişkilerimizin değiştiğini hissederiz. Yavaş yavaş, zayıf şeyler güçlü hale gelir.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, Entropi'nin öfkeli dilinden bıktık. Yaratıcı'nın huzurunu arıyoruz. Eğer tövbe edersen, affedeceğiz ve anlaşmazlığımızı sona erdireceğiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaptıkların yolsuzluk kokuyor, {STR_LeaderName}. Buna izin veremeyiz. Yaratıcı, ilişkilerimizin bu şekilde devam edemeyeceğine hükmetti. Eylemleriniz diplomatik bağlarımızı zayıflattı.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Kutsanmış Yaradan yolunuza rehberlik etsin. Buraya Özünüzü paylaşmak için mi geldiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Lütfen, misafirimiz olun. Gelecek bir günde Özünüzün tadını çıkarabilmemiz için şimdi sizi şımartıyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="75">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaradan seninle olsun, Öz Taşıyıcı. Lanetli ve çürümüş olanlardan, sonsuza dek unutulmaya terk edilmiş olanlardan önce geldiniz. Ölümsüz bedenlerimiz çok acıya tanıklık etti, ancak inancımız kırılmadı. Dualarımıza katılacak mısın, {STR_LeaderName}, yoksa tükenerek mi son bulacaksın?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Özümüz az ve yabancılara güvenme konusunda temkinliyiz. Eğer bize katılmak istiyorsanız, itaatinizi kanıtlayın. Bize yardım edin.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, ne yazık ki kendimizi savaşta buluyoruz. Entropi'nin sapkın yolunu reddetmek için mi buradasınız, yoksa Özünüzü zorla mı alacağız?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Selam sana {STR_LeaderName}! Özün bizi sarhoş ediyor. Özünüzü türümüzle paylaşmanız için size hoş geldiniz diyoruz. Sizi burada ne arıyor?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, Yaratıcı'nın görkeminin sizde büyüdüğünü hissediyoruz. Siz Entropi'nin etkilerinden kurtulurken, biz de size inancımızın desteğini sunuyoruz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">{STR_LeaderName}, yargınızda denge hissediyoruz. Kınamalarımızı geri çekiyor ve sana bağışlanma yolunu öneriyoruz. Barış isteyecek misiniz?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaptıkların yolsuzluk kokuyor, {STR_LeaderName}. Buna izin veremeyiz. Yaratıcı, ilişkilerimizin bu şekilde devam edemeyeceğine hükmetti. Eylemleriniz diplomatik bağlarımızı zayıflattı.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SIZINLE TANIŞMAKTAN VE SIZE HIZMET ETMEKTEN MUTLULUK DUYUYORUZ.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BURAYA DEĞER VERMEYE ÇALIŞIYORUZ. TAZMINAT TEKLIF EDEBILIR MIYIZ? {INT_Cost}[influence/]</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENIN LÜTFUNU VE REHBERLIĞINI ISTIYORUZ. SANA HIZMET EDEBILIR MIYIZ?</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NE YAZIK KI, SAVAŞLA ARAMIZA MESAFE KOYMALIYIZ.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">UMUDUMUZU YITIRMEDEN, SENINLE KONUŞMAK ISTERDIK.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SANA OLAN HIZMETIMIZ KARŞILIKSIZDIR.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MERHAMETINE SIĞINIYORUZ. LÜTFEN DÜŞMANLARIMIZI YOK ET.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRADE_PEACEKEEPER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENIN YÜCE SALONLARINDAN NE HARIKALAR SATIN ALABILIRIZ?</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ŞIMDILIK KORUMAMIZI SUNUYORUZ.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BUNU ALMAMIZ IKIMIZIN DE YARARINA OLUR. {INT_Cost}[influence/]</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SANA HIZMET EDEREK INANCIMIZI KANITLAYACAĞIZ.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TARİH GÜÇLÜLER TARAFINDAN YAZILIR. TESLİM OL YA DA ÖL.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BAŞKALARINA SALDIRMAYI REDDEDERSENIZ BIZ DE SIZE SALDIRIRIZ.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MEŞGULÜZ, AMA ŞIMDILIK EMIRLERINIZI YERINE GETIRECEĞIZ.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DÜŞMANLARIMIZ SIZINDIR. ONLARA SAVAŞ ILAN EDIN.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRADE_WARMONGER</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TAKAS YAPARSAK DAVAMIZA NE KATKIDA BULUNACAKSINIZ?</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENIN IYILIĞINI KAZANMAK IÇIN HIZMETLERIMIZI SUNARIZ.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BU YERI ADIL BIR FIYAT KARŞILIĞINDA SATIN ALACAĞIZ. {INT_Cost}[influence/]</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">STACK_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SENIN LÜTFUNU KAZANMAYA ÇALIŞIYORUZ. BIZE BIR GÖREV VER.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ASALAK YÖNTEMLERINIZ BIZI RAHATSIZ EDIYOR. ÖLÜN.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ATTACK_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AYNI FIKIRDE OLMASAK DA SIZINLE KONUŞURUZ.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SIZIN IYILIĞINIZI KAZANACAK BIR HIZMET YOLU ARIYORUZ.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RAKIPLERIMIZIN SENIN ILAHI MÜDAHALENE IHTIYACI VAR.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_BUTTON</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TRADE_NEUTRAL</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MAĞAZALARINIZI BİZE AÇIN. IŞ YAPARIZ.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">RIVALRY_WARNING_FORGOTTEN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DESCRIPTION</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Dikkatli ol, Yaşam Dostu. Pek çok kişi Entropi'nin ajanlarının sapkın isteklerinin peşinden gitmeye ikna oldu. Bölünmeye tahammül edemeyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="45">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">FACTION_DECLARE_WAR</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Hayata değer veririz. Yaratıcı'nın iradesine itaat ederiz. Trajik bir şekilde, sizi Entropi'nin bir temsilcisi olarak değerlendiriyoruz. Siz tövbe edene kadar, hayatınızın Özünü israf etmenizi engellemeliyiz.</Data>
+        </Cell>
+      </Row>
+      <Row ss:Height="30">
+        <Cell>
+          <Data ss:Type="String">FORGOTTEN_MESSAGE</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RELATION_RESET</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Yaratıcı sabırlıdır. Biz sabırlıyız. Siz de sabırlı olmalısınız. Siz güvenilir olduğunuzu ya da olmadığınızı kanıtlayana kadar yargılamaktan kaçınıyoruz.</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Print>
+        <ValidPrinterInfo />
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Zoom>85</Zoom>
+      <Selected />
+      <TopRowVisible>36</TopRowVisible>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>57</ActiveRow>
+          <ActiveCol>4</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>
