@@ -6,3 +6,7 @@
 
 # Kurulum : Age Of Wonders - 4
 - `AgeOfWonders4.zip` içindeki tum dosyaları, `C:\Program Files (x86)\Steam\steamapps\common\Age of Wonders 4\Language` icine kopyalanmasi ile ceviri islemi tamamlanacaktir. Ayarlar > Dillerden türkçe seçmeyi unutmayın.
+
+# Neverwinter - Enhanced Edition
+- dialog.tlk -> %nwn%\lang\en\data
+- repository.json -> %nwn%\data\nwm
