@@ -10,3 +10,11 @@
 # Neverwinter - Enhanced Edition
 - dialog.tlk -> %nwn%\lang\en\data
 - repository.json -> %nwn%\data\nwm
+
+# Heroes Might Magic 7
+- homm7/localization.zip icindekileri %SteamLibrary\steamapps\common\Might & Magic Heroes VII\MMH7Game\Localization klasorune extract yapilir.
+![20230626024506_1](https://github.com/zinark/aow-planetfall-turkish/assets/47488/ea6794f8-2cbe-4398-acf5-ce83c3a9abbd)
+![20230626021927_1](https://github.com/zinark/aow-planetfall-turkish/assets/47488/82177f8d-3079-480f-8702-0d47cd2d7d6a)
+![20230626021142_1](https://github.com/zinark/aow-planetfall-turkish/assets/47488/b811763a-3379-4e2c-8aab-94c628d57c7b)
+![20230626020944_1](https://github.com/zinark/aow-planetfall-turkish/assets/47488/db046136-30ca-4320-8672-ee6514424dd7)
+
